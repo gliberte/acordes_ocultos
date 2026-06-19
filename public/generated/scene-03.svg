@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="Band silhouettes">
+  <rect width="1080" height="1920" fill="#151319"/>
+  <path d="M0 1200h1080v720H0z" fill="#090a0e"/>
+  <circle cx="190" cy="360" r="230" fill="#e23d28" opacity=".46"/>
+  <circle cx="855" cy="470" r="270" fill="#f7b32b" opacity=".34"/>
+  <path d="M145 1178l132-405 78 405zM430 1180l80-430 105 430zM740 1180l112-390 95 390z" fill="#07080c"/>
+  <circle cx="282" cy="718" r="58" fill="#07080c"/>
+  <circle cx="548" cy="700" r="64" fill="#07080c"/>
+  <circle cx="880" cy="736" r="54" fill="#07080c"/>
+  <path d="M160 1018c130-76 250-111 360-104 147 10 280 74 400 192" fill="none" stroke="#f8f0df" stroke-width="12" opacity=".4"/>
+  <path d="M110 1295h860" stroke="#e23d28" stroke-width="16" opacity=".78"/>
+  <text x="540" y="1705" text-anchor="middle" fill="#f8f0df" font-family="Arial, sans-serif" font-size="50" font-weight="800">LA BANDA LO SIGUE</text>
+</svg>

@@ -1,0 +1,154 @@
+{
+  "title": "Ozzy y la paloma",
+  "artist": "Ozzy Osbourne",
+  "topic": "anecdota musical",
+  "anecdote": "A principios de los anos 80, Ozzy Osbourne acababa de firmar un importante contrato como artista solista. Su esposa y manager, Sharon, queria que causara una buena impresion. La idea era sencilla: liberar dos palomas como simbolo de paz. Pero Ozzy llego bastante intoxicado y entendio el concepto a su manera. Entonces ocurrio algo que nadie olvidaria. Frente a todos los presentes protagonizo uno de los momentos mas infames del rock. Y asi definio exactamente que clase de carrera solista iba a tener.",
+  "hook": "A principios de los anos 80, Ozzy Osbourne acababa de firmar un importante contrato como artista solista.",
+  "beats": [
+    "Su esposa y manager, Sharon, queria que causara una buena impresion.",
+    "La idea era sencilla: liberar dos palomas como simbolo de paz.",
+    "Pero Ozzy llego bastante intoxicado y entendio el concepto a su manera.",
+    "Entonces ocurrio algo que nadie olvidaria.",
+    "Frente a todos los presentes protagonizo uno de los momentos mas infames del rock."
+  ],
+  "outro": "Y asi definio exactamente que clase de carrera solista iba a tener.",
+  "palette": {
+    "ink": "#07080d",
+    "paper": "#f8f0df",
+    "accent": "#e23d28",
+    "glow": "#00e5ff"
+  },
+  "music": {
+    "title": "Crazy Train",
+    "artist": "Ozzy Osbourne",
+    "src": "",
+    "startSecond": 0,
+    "volume": 0.58
+  },
+  "publication": {
+    "description": "A principios de los anos 80, Ozzy Osbourne acababa de firmar un contrato clave como solista y su equipo queria presentarlo como una figura capaz de abrir una nueva etapa despues de Black Sabbath.\n\nLa idea de Sharon era simple y simbolica: llevar dos palomas a una reunion con ejecutivos y soltarlas como un gesto de paz. Pero Ozzy llego intoxicado, fuera de control y con una idea muy distinta de lo que significaba causar impacto.\n\nEn vez de liberar una de las palomas, Ozzy le arranco la cabeza de un mordisco frente a los presentes. El gesto horrorizo a la sala, pero tambien termino fijando una imagen publica imposible de separar de su carrera: caos, provocacion y rock llevado al extremo.\n\nEse episodio no fue solo un escandalo. Fue una senal brutal de que su etapa solista no iba a buscar respeto corporativo, sino convertirse en mito."
+  },
+  "assets": [
+    {
+      "src": "videos/ozzy-paloma/scene-01.png",
+      "prompt": "Ozzy Osbourne outside a corporate tower after signing a major solo contract, dark cinematic rock aesthetic"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-02.png",
+      "prompt": "chaotic corporate rock scene with executives and papers flying, gothic cinematic energy"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-03.png",
+      "prompt": "Ozzy Osbourne in dramatic boardroom stage light, heavy metal gesture, executives watching"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-04.png",
+      "prompt": "boardroom chaos after an infamous rock moment, executives shocked, papers and drinks everywhere"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-05.png",
+      "prompt": "Ozzy Osbourne bored in a tense corporate meeting, executives around the table"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-06.png",
+      "prompt": "Ozzy Osbourne holding a white dove in a corporate boardroom, executives shocked"
+    },
+    {
+      "src": "videos/ozzy-paloma/scene-07.png",
+      "prompt": "Sharon and Ozzy with two white doves before a publicity meeting"
+    }
+  ],
+  "clip": {
+    "src": "videos/ozzy-paloma/clip-boardroom-remotion.mp4",
+    "prompt": "10 second vertical clip after the fourth image, corporate boardroom tension",
+    "startSecond": 35,
+    "durationSeconds": 10
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 8,
+      "src": "videos/ozzy-paloma/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "src": "videos/ozzy-paloma/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "src": "videos/ozzy-paloma/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "src": "videos/ozzy-paloma/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 35,
+      "end": 45,
+      "src": "videos/ozzy-paloma/clip-boardroom-remotion.mp4",
+      "type": "video"
+    },
+    {
+      "start": 45,
+      "end": 52,
+      "src": "videos/ozzy-paloma/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 52,
+      "end": 56,
+      "src": "videos/ozzy-paloma/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "src": "videos/ozzy-paloma/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "A principios de los anos 80, Ozzy Osbourne acababa de firmar un importante contrato como artista solista."
+    },
+    {
+      "start": 8,
+      "end": 15,
+      "text": "Su esposa y manager, Sharon, queria que causara una buena impresion."
+    },
+    {
+      "start": 15,
+      "end": 25,
+      "text": "La idea era sencilla: liberar dos palomas como simbolo de paz."
+    },
+    {
+      "start": 25,
+      "end": 35,
+      "text": "Pero Ozzy llego bastante intoxicado y entendio el concepto a su manera."
+    },
+    {
+      "start": 35,
+      "end": 40,
+      "text": "Entonces ocurrio algo que nadie olvidaria."
+    },
+    {
+      "start": 40,
+      "end": 52,
+      "text": "Frente a todos los presentes protagonizo uno de los momentos mas infames del rock."
+    },
+    {
+      "start": 52,
+      "end": 60,
+      "text": "Y asi definio exactamente que clase de carrera solista iba a tener."
+    }
+  ]
+}

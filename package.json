@@ -1,0 +1,29 @@
+{
+  "name": "acordes-ocultos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts StoryVideo out/story.mp4 --props=src/data/story.json",
+    "render:still": "remotion still src/index.ts StoryVideo out/cover.png --props=src/data/story.json --frame=0",
+    "create:story": "node scripts/create-story.mjs",
+    "publish:package": "node scripts/publish-package.mjs",
+    "publish:dry-run": "node scripts/publish-package.mjs --dry-run",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/renderer": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.8.0"
+  }
+}

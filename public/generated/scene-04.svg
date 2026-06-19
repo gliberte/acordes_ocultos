@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="Concert crowd">
+  <rect width="1080" height="1920" fill="#101219"/>
+  <path d="M0 0h1080v1180H0z" fill="#1b1820"/>
+  <circle cx="540" cy="430" r="360" fill="#f7b32b" opacity=".3"/>
+  <path d="M0 1090c185-100 352-142 501-126 201 22 394 115 579 280v676H0z" fill="#06070b"/>
+  <g fill="#f8f0df" opacity=".72">
+    <circle cx="120" cy="1240" r="45"/>
+    <circle cx="246" cy="1195" r="52"/>
+    <circle cx="390" cy="1260" r="43"/>
+    <circle cx="540" cy="1188" r="58"/>
+    <circle cx="692" cy="1266" r="46"/>
+    <circle cx="846" cy="1205" r="51"/>
+    <circle cx="978" cy="1260" r="42"/>
+  </g>
+  <path d="M75 1465c160-80 310-120 450-120s300 46 480 138" stroke="#e23d28" stroke-width="18" opacity=".74" fill="none"/>
+  <text x="540" y="1710" text-anchor="middle" fill="#f8f0df" font-family="Arial, sans-serif" font-size="47" font-weight="800">EL PUBLICO RECUERDA</text>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="Vintage microphone">
+  <rect width="1080" height="1920" fill="#12151b"/>
+  <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#f8f0df" stop-opacity=".22"/>
+    <stop offset=".48" stop-color="#e23d28" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#f7b32b" stop-opacity=".32"/>
+  </linearGradient>
+  <rect width="1080" height="1920" fill="url(#g)"/>
+  <ellipse cx="540" cy="575" rx="190" ry="315" fill="#d8d0bf"/>
+  <ellipse cx="540" cy="575" rx="145" ry="265" fill="#111318"/>
+  <path d="M406 420h268M388 520h304M388 620h304M406 720h268" stroke="#f8f0df" stroke-width="22" opacity=".72"/>
+  <path d="M540 890v405" stroke="#f8f0df" stroke-width="38"/>
+  <path d="M360 1320h360v52H360zM275 1402h530v64H275z" fill="#f8f0df"/>
+  <path d="M130 250c120 90 238 140 355 150" stroke="#e23d28" stroke-width="18" opacity=".55"/>
+  <text x="540" y="1680" text-anchor="middle" fill="#f8f0df" font-family="Arial, sans-serif" font-size="46" font-weight="800">EL TEMPO BAJA</text>
+</svg>

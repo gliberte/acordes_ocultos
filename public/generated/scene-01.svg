@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" role="img" aria-label="Backstage empty venue">
+  <rect width="1080" height="1920" fill="#111318"/>
+  <rect y="1180" width="1080" height="740" fill="#211816"/>
+  <path d="M0 0h1080v1240H0z" fill="#1b1d24"/>
+  <circle cx="560" cy="330" r="280" fill="#f7b32b" opacity=".34"/>
+  <circle cx="335" cy="515" r="150" fill="#e23d28" opacity=".42"/>
+  <path d="M168 1215c92-312 244-485 456-520 123-20 223 18 300 113 58 72 91 172 99 300v807H168z" fill="#08090d" opacity=".82"/>
+  <path d="M196 1360h688" stroke="#f8f0df" stroke-width="10" opacity=".22"/>
+  <path d="M278 1442h524" stroke="#f8f0df" stroke-width="7" opacity=".18"/>
+  <path d="M395 1250h290v64H395z" fill="#e23d28"/>
+  <text x="540" y="1762" text-anchor="middle" fill="#f8f0df" font-family="Arial, sans-serif" font-size="52" font-weight="800">PRUEBA DE SONIDO</text>
+</svg>

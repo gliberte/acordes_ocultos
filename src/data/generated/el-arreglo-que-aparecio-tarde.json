@@ -1,0 +1,51 @@
+{
+  "title": "El arreglo que aparecio tarde",
+  "artist": "Soda Stereo",
+  "topic": "anecdota musical",
+  "anecdote": "Durante un ensayo, una guitarra entro un compas despues y la banda decidio dejar ese error porque abria mas espacio para la voz. La version final conservo esa entrada tardia y termino dandole tension al tema.",
+  "hook": "Durante un ensayo, una guitarra entro un compas despues y la banda decidio dejar ese error porque abria mas espacio para la voz. La version final conservo esa entrada tardia y termino dandole tension al tema.",
+  "beats": [
+    "Durante un ensayo, una guitarra entro un compas despues y la banda decidio dejar ese error porque abria mas espacio para la voz. La version final conservo esa entrada tardia y termino dandole tension al tema.",
+    "El detalle empezo como algo pequeno dentro del proceso creativo.",
+    "Con el tiempo, esa decision cambio la manera en que se recuerda el tema.",
+    "La historia revela una parte menos visible de la musica."
+  ],
+  "outro": "Las mejores historias musicales suelen esconderse en los detalles.",
+  "palette": {
+    "ink": "#111318",
+    "paper": "#f8f0df",
+    "accent": "#e23d28",
+    "glow": "#f7b32b"
+  },
+  "music": {
+    "title": "Tema de referencia",
+    "artist": "Soda Stereo",
+    "src": "",
+    "startSecond": 0,
+    "volume": 0.55
+  },
+  "assets": [
+    {
+      "src": "generated/scene-01.svg",
+      "prompt": "Soda Stereo, El arreglo que aparecio tarde, cinematic music documentary scene 1, vertical 9:16"
+    },
+    {
+      "src": "generated/scene-02.svg",
+      "prompt": "Soda Stereo, El arreglo que aparecio tarde, cinematic music documentary scene 2, vertical 9:16"
+    },
+    {
+      "src": "generated/scene-03.svg",
+      "prompt": "Soda Stereo, El arreglo que aparecio tarde, cinematic music documentary scene 3, vertical 9:16"
+    },
+    {
+      "src": "generated/scene-04.svg",
+      "prompt": "Soda Stereo, El arreglo que aparecio tarde, cinematic music documentary scene 4, vertical 9:16"
+    }
+  ],
+  "clip": {
+    "src": "",
+    "prompt": "Soda Stereo, El arreglo que aparecio tarde, 10 second vertical concert atmosphere clip",
+    "startSecond": 38,
+    "durationSeconds": 10
+  }
+}
