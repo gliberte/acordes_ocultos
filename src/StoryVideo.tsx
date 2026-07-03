@@ -39,9 +39,13 @@ const legacySegments = (story: StoryData) => {
   }
 
   const lines = [story.hook, ...story.beats.slice(0, 4), story.outro];
+  const segmentDuration = story.durationSeconds / lines.length;
   return lines.map((text, index) => ({
-    start: index * 10,
-    end: index === lines.length - 1 ? 60 : (index + 1) * 10,
+    start: index * segmentDuration,
+    end:
+      index === lines.length - 1
+        ? story.durationSeconds
+        : (index + 1) * segmentDuration,
     text,
     assetIndex: index % story.assets.length
   }));
@@ -50,6 +54,46 @@ const legacySegments = (story: StoryData) => {
 const timelineVisuals = (story: StoryData) => {
   if (story.visuals?.length) {
     return story.visuals;
+  }
+
+  if (story.clip?.src) {
+    const clipStart = story.clip.startSecond;
+    const clipEnd = story.clip.startSecond + story.clip.durationSeconds;
+    const fromIndex = story.clip.transitionFromAssetIndex ?? Math.floor(story.assets.length / 2) - 1;
+    const toIndex = story.clip.transitionToAssetIndex ?? fromIndex + 1;
+    const beforeAssets = story.assets.slice(0, Math.max(fromIndex + 1, 1));
+    const afterAssets = story.assets.slice(Math.min(toIndex, story.assets.length - 1));
+    const beforeDuration = clipStart / beforeAssets.length;
+    const afterDuration = (story.durationSeconds - clipEnd) / Math.max(afterAssets.length, 1);
+    const beforeVisuals = beforeAssets.map((asset, index) => ({
+      start: index * beforeDuration,
+      end: index === beforeAssets.length - 1 ? clipStart : (index + 1) * beforeDuration,
+      src: asset.src,
+      type: 'image' as const,
+      role: 'scene' as const
+    }));
+    const afterVisuals = afterAssets.map((asset, index) => ({
+      start: clipEnd + index * afterDuration,
+      end:
+        index === afterAssets.length - 1
+          ? story.durationSeconds
+          : clipEnd + (index + 1) * afterDuration,
+      src: asset.src,
+      type: 'image' as const,
+      role: 'scene' as const
+    }));
+
+    return [
+      ...beforeVisuals,
+      {
+        start: clipStart,
+        end: clipEnd,
+        src: story.clip.src,
+        type: 'video' as const,
+        role: 'transition' as const
+      },
+      ...afterVisuals
+    ];
   }
 
   return legacySegments(story).map((segment, index) => ({
@@ -288,7 +332,7 @@ const Subtitle: React.FC<{
         position: 'absolute',
         left: 62,
         right: 62,
-        bottom: 118,
+        bottom: 270,
         transform: `translateY(${y}px)`,
         opacity
       }}
@@ -391,9 +435,32 @@ const VisualClip: React.FC<{
 
 export const StoryVideo: React.FC<StoryData> = (props) => {
   const story = StorySchema.parse(props);
-  const {fps} = useVideoConfig();
+  const {fps, durationInFrames} = useVideoConfig();
+  const frame = useCurrentFrame();
   const segments = legacySegments(story);
   const visuals = timelineVisuals(story);
+
+  // Atenuación gradual del volumen en los últimos 2 segundos (60 frames)
+  const musicVolume = interpolate(
+    frame,
+    [durationInFrames - 60, durationInFrames],
+    [story.music.volume, 0],
+    {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp'
+    }
+  );
+
+  // Fundido a negro en el último segundo (30 frames)
+  const fadeToBlackOpacity = interpolate(
+    frame,
+    [durationInFrames - 30, durationInFrames],
+    [0, 1],
+    {
+      extrapolateLeft: 'clamp',
+      extrapolateRight: 'clamp'
+    }
+  );
 
   return (
     <AbsoluteFill style={{background: story.palette.ink}}>
@@ -401,17 +468,36 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
         <Audio
           src={assetSrc(story.music.src)}
           startFrom={Math.round(story.music.startSecond * fps)}
-          volume={story.music.volume}
+          volume={musicVolume}
         />
       ) : null}
 
       {visuals.map((visual, index) => {
         const from = Math.round(visual.start * fps);
         const durationInFrames = Math.round((visual.end - visual.start) * fps);
-        const fadeIn = visual.start === 0 || hasSubtitleStartAt(segments, visual.start);
-        const fadeOut = hasSubtitleEndAt(segments, visual.end);
         const isVideo =
           visual.type === 'video' || /\.(mp4|mov|webm|m4v)$/i.test(visual.src);
+
+        const nextVisual = visuals[index + 1];
+        const prevVisual = visuals[index - 1];
+        const isNextVideo = nextVisual && (nextVisual.type === 'video' || /\.(mp4|mov|webm|m4v)$/i.test(nextVisual.src));
+        const isPrevVideo = prevVisual && (prevVisual.type === 'video' || /\.(mp4|mov|webm|m4v)$/i.test(prevVisual.src));
+
+        let fadeIn = visual.start === 0 || hasSubtitleStartAt(segments, visual.start);
+        let fadeOut = hasSubtitleEndAt(segments, visual.end);
+
+        // Desactivar fundido a negro (corte directo) si colinda con un video para dar efecto de "imagen cobra vida"
+        if (isVideo) {
+          fadeIn = false;
+          fadeOut = false;
+        } else {
+          if (isNextVideo && visual.end === nextVisual.start) {
+            fadeOut = false;
+          }
+          if (isPrevVideo && visual.start === prevVisual.end) {
+            fadeIn = false;
+          }
+        }
 
         return (
           <Sequence
@@ -461,6 +547,16 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
           </Sequence>
         );
       })}
+
+      {fadeToBlackOpacity > 0 ? (
+        <AbsoluteFill
+          style={{
+            background: 'black',
+            opacity: fadeToBlackOpacity,
+            pointerEvents: 'none'
+          }}
+        />
+      ) : null}
     </AbsoluteFill>
   );
 };

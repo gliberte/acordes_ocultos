@@ -38,6 +38,7 @@ const slug = title
 const story = {
   title,
   artist,
+  durationSeconds: 90,
   topic: 'anecdota musical',
   anecdote,
   hook: beats[0].replace(/[.!?]$/, '.'),
@@ -54,17 +55,41 @@ const story = {
     artist,
     src: '',
     startSecond: 0,
-    volume: 0.55
+    volume: 0.55,
+    instagram: {
+      query: `Tema de referencia ${artist}`,
+      expectedTitle: 'Tema de referencia',
+      expectedArtist: artist,
+      status: 'manual_check_required',
+      notes:
+        'Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical.'
+    }
   },
-  assets: [1, 2, 3, 4].map((item) => ({
+  assets: [1, 2, 3, 4, 5, 6, 7].map((item) => ({
     src: `generated/scene-0${item}.svg`,
     prompt: `${artist}, ${title}, cinematic music documentary scene ${item}, vertical 9:16`
   })),
+  visuals: [],
   clip: {
     src: '',
-    prompt: `${artist}, ${title}, 10 second vertical concert atmosphere clip`,
-    startSecond: 38,
-    durationSeconds: 10
+    prompt: `${artist}, ${title}, 8 second vertical cinematic transition between two story scenes`,
+    startSecond: 45,
+    durationSeconds: 8,
+    transitionFromAssetIndex: 3,
+    transitionToAssetIndex: 4
+  },
+  generation: {
+    provider: 'openai-veo',
+    imageProvider: 'codex-imagegen',
+    videoProvider: 'veo',
+    imageModel: 'gpt-image-2',
+    videoModel: 'veo-3.1-generate-preview',
+    imageAspectRatio: '9:16',
+    imageSize: '1088x1920',
+    videoAspectRatio: '9:16',
+    videoResolution: '720p',
+    videoDurationSeconds: 8,
+    outputDir: `videos/${slug || 'story'}`
   }
 };
 
