@@ -5,3 +5,9 @@ out/
 !.env.example
 .DS_Store
 *.log
+
+# Archivos generados automáticamente
+src/data/generated/
+src/data/*.json
+public/videos/
+public/music/

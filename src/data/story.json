@@ -1,118 +1,118 @@
 {
-  "title": "El rescate de The Sound of Silence",
-  "artist": "Simon & Garfunkel",
+  "title": "La última visita del diamante loco",
+  "artist": "Pink Floyd",
   "durationSeconds": 90,
   "topic": "anecdota musical",
-  "anecdote": "En 1964, Simon & Garfunkel lanzaron 'The Sound of Silence' de forma acustica, pero el album fue un fracaso absoluto. Convencidos de que sus carreras habian terminado, el duo se separo: Paul viajo a Inglaterra y Art volvio a la universidad. En 1965, el productor Tom Wilson, influenciado por el nuevo sonido folk-rock de Bob Dylan, tomo la pista original de voz y guitarra acustica. Sin el conocimiento de la banda, Wilson llamo a musicos de sesion de Dylan para sobregrabar bajo, bateria y guitarras electricas. La nueva version fue lanzada a la radio y comenzo a trepar rapidamente hasta alcanzar el #1 en las listas mundiales. Paul Simon compro una revista musical en una estacion en Inglaterra y, al ver su propia cancion en el #1, quedo en absoluto shock. El rescate fortuito obligo al duo a reunirse, transformando un fracaso rotundo en uno de los himnos mas inmortales del pop-rock.",
-  "hook": "En 1964, Simon & Garfunkel lanzaron 'The Sound of Silence' de forma acústica, pero el álbum fue un fracaso absoluto.",
+  "anecdote": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio. Nadie lo reconoció al principio: Nick Mason y Richard Wright asumieron que era un técnico o asistente de la discográfica. El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata. David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto. Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'. Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida, inmortalizando el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre.",
+  "hook": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio.",
   "beats": [
-    "Convencidos de que sus carreras habían terminado, el dúo se separó: Paul vivió a Inglaterra y Art volvió a la universidad.",
-    "En 1965, el productor Tom Wilson, influenciado por el nuevo sonido folk-rock de Bob Dylan, tomó la pista original de voz y guitarra acústica.",
-    "Sin el conocimiento de la banda, Wilson llamó a músicos de sesión de Dylan para sobregrabar bajo, batería y guitarras eléctricas.",
-    "La nueva versión fue lanzada a la radio y comenzó a trepar rápidamente hasta alcanzar el #1 en las listas mundiales.",
-    "Paul Simon compró una revista musical en una estación en Inglaterra y, al ver su propia canción en el #1, quedó en absoluto shock."
+    "Nadie lo reconoció al principio. Nick Mason y Richard Wright asumieron que era un técnico o un asistente de la discográfica.",
+    "El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata.",
+    "David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto.",
+    "Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'.",
+    "Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida."
   ],
-  "outro": "El rescate fortuito obligó al dúo a reunirse, transformando un fracaso rotundo en uno de los himnos más inmortales del pop-rock.",
+  "outro": "Esa tarde inmortalizó el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre.",
   "palette": {
-    "ink": "#0f1115",
-    "paper": "#fbf9f4",
-    "accent": "#bf9a62",
-    "glow": "#4b6584"
+    "ink": "#0a0b0e",
+    "paper": "#faf8f5",
+    "accent": "#8d9bb0",
+    "glow": "#637d94"
   },
   "music": {
-    "title": "The Sound of Silence",
-    "artist": "Simon & Garfunkel",
-    "src": "music/simon-the-sound-of-silence.mp3",
+    "title": "Shine On You Crazy Diamond",
+    "artist": "Pink Floyd",
+    "src": "music/pink-floyd-shine-on.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "instagram": {
-      "query": "The Sound of Silence Simon & Garfunkel",
-      "expectedTitle": "The Sound of Silence",
-      "expectedArtist": "Simon & Garfunkel",
+      "query": "Shine On You Crazy Diamond Pink Floyd",
+      "expectedTitle": "Shine On You Crazy Diamond (Pts. 1-5)",
+      "expectedArtist": "Pink Floyd",
       "status": "manual_check_required",
       "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
     }
   },
   "publication": {
-    "description": "El nacimiento fortuito de un clásico de la música.\n\nEn 1964, el álbum debut de Simon & Garfunkel fracasó por completo y el dúo se disolvió. Meses más tarde, el productor Tom Wilson decidió revivir en secreto su canción más destacada, 'The Sound of Silence'. Sin consultarle al dúo, reclutó a los músicos de Bob Dylan para sobregrabar instrumentos eléctricos sobre la base acústica original.\n\nEsta audaz mezcla folk-rock se convirtió en un éxito mundial arrollador, forzando la reunión de Paul Simon y Art Garfunkel y asegurando su lugar en la historia."
+    "description": "El encuentro definitivo y más desgarrador de Pink Floyd.\n\nEl 5 de junio de 1975, mientras la banda daba los toques finales a la mezcla de 'Shine On You Crazy Diamond' (su tributo a Syd Barrett), un hombre calvo, obeso y sin cejas entró silenciosamente a la cabina de Abbey Road.\n\nInicialmente nadie lo reconoció. David Gilmour fue el primero en notar que aquel 'fantasma' era su fundador Syd Barrett, provocando que Roger Waters rompiera en llanto. Syd se cepilló los dientes de manera autómata, escuchó la canción sin darse cuenta de que era sobre él, y se marchó en silencio tras el almuerzo. Fue la última vez que lo vieron con vida."
   },
   "assets": [
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-01.png",
-      "prompt": "Paul Simon and Art Garfunkel in 1964, standing in a foggy New York park, looking solemn and disappointed, vintage black and white documentary photo style, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-01.png",
+      "prompt": "Miembros de Pink Floyd mezclando concentrados en la cabina de sonido de Abbey Road en 1975, perillas iluminadas, luz analógica cálida, grano de foto de época, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-02.png",
-      "prompt": "Art Garfunkel walking alone in a college campus in 1964 with textbooks, looking downcast, retro morning light, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-02.png",
+      "prompt": "Carretes de cinta de Abbey Road girando, primer plano de las cintas analógicas de 2 pulgadas, luces ámbar del estudio reflejándose, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-03.png",
-      "prompt": "Producer Tom Wilson standing in a 1965 recording studio control room, pointing at a mixing board, warm analog lights, cinematic feel, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-03.png",
+      "prompt": "Una bolsa de compras de plástico arrugada sobre el sofá marrón de un estudio y un cepillo de dientes azul sobresaliendo del bolsillo de un abrigo de gabardina viejo, retro 1970s, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-04.png",
-      "prompt": "An old acoustic guitar leaning against the corner of a dimly lit New York apartment in winter, soft dusty window light, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-04.png",
+      "prompt": "Roger Waters conmocionado en la cabina de mezcla de Abbey Road, con los ojos llorosos y la mano sobre la boca en señal de incredulidad, luz tenue, grano de foto de 1975, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-05.png",
-      "prompt": "Close-up of a glowing vacuum tube vintage guitar amplifier in a recording studio, warm orange light, studio dust in the air, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-05.png",
+      "prompt": "Primer plano desde atrás de la cabeza calva y hombros de Syd Barrett mirando a través del cristal de la cabina hacia las luces de la mesa de mezcla de sonido, ambiente melancólico, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-06.png",
-      "prompt": "Paul Simon standing in a rainy English train station in 1965, looking in shock at a music magazine headline in his hands, wet ground reflecting warm station lights, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-06.png",
+      "prompt": "Una mesa vacía de fórmica en la cafetería del estudio Abbey Road en 1975 con un plato a medio comer, un vaso de plástico y una taza de café, luz nostálgica y solitaria, 9:16 aspect ratio"
     },
     {
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-07.png",
-      "prompt": "Paul Simon and Art Garfunkel standing side-by-side in a bright spotlight on stage, singing together into a vintage microphone, looking triumphant, warm vintage color photograph, 9:16 aspect ratio"
+      "src": "videos/pink-floyd-syd-barrett/scene-07.png",
+      "prompt": "Polaroid retro photo from 1975 of a bald, overweight man with a white shirt and shaved eyebrows, smiling slightly and inexpressively, vintage paper frame, grainy 1970s look, 9:16 aspect ratio"
     }
   ],
   "visuals": [
     {
       "start": 0,
       "end": 12,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-01.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-01.png",
       "type": "image"
     },
     {
       "start": 12,
       "end": 24,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-02.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-02.png",
       "type": "image"
     },
     {
       "start": 24,
       "end": 36,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-03.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-03.png",
       "type": "image"
     },
     {
       "start": 36,
       "end": 48,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-04.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-04.png",
       "type": "image"
     },
     {
       "start": 48,
       "end": 56,
-      "src": "videos/simon-garfunkel-sound-of-silence/transition-electric-rescue.mp4",
+      "src": "videos/pink-floyd-syd-barrett/transition-syd-studio.mp4",
       "type": "video"
     },
     {
       "start": 56,
       "end": 68,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-05.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-05.png",
       "type": "image"
     },
     {
       "start": 68,
       "end": 80,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-06.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-06.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/simon-garfunkel-sound-of-silence/scene-07.png",
+      "src": "videos/pink-floyd-syd-barrett/scene-07.png",
       "type": "image"
     }
   ],
@@ -120,37 +120,37 @@
     {
       "start": 0,
       "end": 12,
-      "text": "En 1964, Simon & Garfunkel lanzaron 'The Sound of Silence' de forma acústica, pero el álbum fue un fracaso absoluto."
+      "text": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio."
     },
     {
       "start": 12,
       "end": 24,
-      "text": "Convencidos de que sus carreras habían terminado, el dúo se separó: Paul viajó a Inglaterra y Art volvió a la universidad."
+      "text": "Nadie lo reconoció al principio. Nick Mason y Richard Wright asumieron que era un técnico o un asistente de la discográfica."
     },
     {
       "start": 24,
       "end": 36,
-      "text": "En 1965, el productor Tom Wilson, influenciado por el nuevo sonido folk-rock de Bob Dylan, tomó la pista original de voz y guitarra acústica."
+      "text": "El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata."
     },
     {
       "start": 36,
       "end": 56,
-      "text": "Sin el conocimiento de la banda, Wilson llamó a músicos de sesión de Dylan para sobregrabar bajo, batería y guitarras eléctricas."
+      "text": "David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto."
     },
     {
       "start": 56,
       "end": 68,
-      "text": "La nueva versión fue lanzada a la radio y comenzó a trepar rápidamente hasta alcanzar el #1 en las listas mundiales."
+      "text": "Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'."
     },
     {
       "start": 68,
       "end": 80,
-      "text": "Paul Simon compró una revista musical en una estación en Inglaterra y, al ver su propia canción en el #1, quedó en absoluto shock."
+      "text": "Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "El rescate fortuito obligó al dúo a reunirse, transformando un fracaso rotundo en uno de los himnos más inmortales del pop-rock."
+      "text": "Esa tarde inmortalizó el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre."
     }
   ],
   "generation": {
@@ -164,6 +164,6 @@
     "videoAspectRatio": "9:16",
     "videoResolution": "720p",
     "videoDurationSeconds": 8,
-    "outputDir": "videos/simon-garfunkel-sound-of-silence"
+    "outputDir": "videos/pink-floyd-syd-barrett"
   }
 }
