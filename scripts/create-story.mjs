@@ -38,7 +38,7 @@ const slug = title
 const story = {
   title,
   artist,
-  durationSeconds: 90,
+  durationSeconds: 60,
   topic: 'anecdota musical',
   anecdote,
   hook: beats[0].replace(/[.!?]$/, '.'),
@@ -73,7 +73,7 @@ const story = {
   clip: {
     src: '',
     prompt: `${artist}, ${title}, 8 second vertical cinematic transition between two story scenes`,
-    startSecond: 45,
+    startSecond: 30,
     durationSeconds: 8,
     transitionFromAssetIndex: 3,
     transitionToAssetIndex: 4

@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import {existsSync, mkdirSync, readFileSync, writeFileSync} from 'node:fs';
 import {basename, extname, join, resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
 import {GoogleGenAI} from '@google/genai';
 
-const rootDir = resolve(new URL('..', import.meta.url).pathname);
+const rootDir = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const defaultStoryPath = join(rootDir, 'src/data/story.json');
 const publicDir = join(rootDir, 'public');
 

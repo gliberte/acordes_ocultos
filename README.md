@@ -4,7 +4,7 @@ Generador de videos verticales con Remotion para convertir una anecdota sobre un
 
 ## Flujo
 
-1. Escribe una anecdota y genera un archivo de historia. Las historias nuevas salen preparadas para Reels de 90 segundos:
+1. Escribe una anecdota y genera un archivo de historia. Las historias nuevas salen preparadas para Reels de 60 segundos:
 
 ```bash
 npm run create:story -- "Artista" "Titulo del video" "Anecdota completa..."
@@ -104,8 +104,8 @@ Archivos generados:
 ## Plantilla
 
 - Formato: 1080 x 1920, 30 fps.
-- Historias nuevas: 90 segundos exactos para Reels.
-- La historia actual de Ozzy se conserva en 60 segundos.
+- Historias nuevas: 60 segundos exactos para Reels.
+- Historias largas o densas se dividen en Parte 1 y Parte 2.
 - Estilo: documental musical, alto contraste, tipografia editorial, acentos rojo/ambar.
 - Estructura nueva: hook, beats narrativos, clip puente generado entre dos imagenes y cierre.
 

@@ -1,158 +1,166 @@
 {
-  "title": "La última visita del diamante loco",
-  "artist": "Pink Floyd",
-  "durationSeconds": 90,
+  "title": "El preso que hizo llorar a Johnny Cash",
+  "artist": "Johnny Cash",
+  "durationSeconds": 60,
   "topic": "anecdota musical",
-  "anecdote": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio. Nadie lo reconoció al principio: Nick Mason y Richard Wright asumieron que era un técnico o asistente de la discográfica. El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata. David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto. Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'. Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida, inmortalizando el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre.",
-  "hook": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio.",
+  "anecdote": "El 13 de enero de 1968, Johnny Cash daría un concierto histórico en la prisión de Folsom. La noche anterior, el capellán del penal le entregó una cinta con una canción escrita por un recluso llamado Glen Sherley. Cash quedó tan impactado por la crudeza de la letra de 'Greystone Chapel' que pasó toda la noche en vela memorizándola. Al día siguiente, Cash subió al escenario y comenzó a cantar la canción del recluso ante una audiencia repleta de guardias y prisioneros. Sherley, quien estaba sentado en la primera fila, no sabía nada y se enteró en ese preciso instante. Al escuchar su propia obra interpretada por el mayor ídolo de su vida, Sherley rompió a llorar de emoción en medio del patio. La canción cerró el legendario álbum en vivo, convirtiéndose en el símbolo definitivo de redención a través de la música.",
+  "hook": "El 13 de enero de 1968, Johnny Cash daría un concierto histórico en la prisión de Folsom.",
   "beats": [
-    "Nadie lo reconoció al principio. Nick Mason y Richard Wright asumieron que era un técnico o un asistente de la discográfica.",
-    "El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata.",
-    "David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto.",
-    "Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'.",
-    "Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida."
+    "La noche anterior, el capellán del penal le entregó una cinta con una canción escrita por un recluso llamado Glen Sherley.",
+    "Cash quedó tan impactado por la crudeza de la letra de 'Greystone Chapel' que pasó toda la noche en vela memorizándola.",
+    "Al día siguiente, Cash subió al escenario y comenzó a cantar la canción del recluso ante una audiencia repleta de guardias y prisioneros.",
+    "Sherley, quien estaba sentado en la primera fila, no sabía nada y se enteró en ese preciso instante.",
+    "Al escuchar su propia obra interpretada por el mayor ídolo de su vida, Sherley rompió a llorar de emoción en medio del patio."
   ],
-  "outro": "Esa tarde inmortalizó el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre.",
+  "outro": "La canción cerró el legendario álbum en vivo, convirtiéndose en el símbolo definitivo de redención a través de la música.",
   "palette": {
-    "ink": "#0a0b0e",
-    "paper": "#faf8f5",
-    "accent": "#8d9bb0",
-    "glow": "#637d94"
+    "ink": "#0a0a0a",
+    "paper": "#f5f2eb",
+    "accent": "#bf3030",
+    "glow": "#d9822b"
   },
   "music": {
-    "title": "Shine On You Crazy Diamond",
-    "artist": "Pink Floyd",
-    "src": "music/pink-floyd-shine-on.mp3",
+    "title": "Greystone Chapel",
+    "artist": "Johnny Cash",
+    "src": "music/johnny-cash-greystone-chapel.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "instagram": {
-      "query": "Shine On You Crazy Diamond Pink Floyd",
-      "expectedTitle": "Shine On You Crazy Diamond (Pts. 1-5)",
-      "expectedArtist": "Pink Floyd",
+      "query": "Greystone Chapel Johnny Cash",
+      "expectedTitle": "Greystone Chapel",
+      "expectedArtist": "Johnny Cash",
       "status": "manual_check_required",
       "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
     }
   },
   "publication": {
-    "description": "El encuentro definitivo y más desgarrador de Pink Floyd.\n\nEl 5 de junio de 1975, mientras la banda daba los toques finales a la mezcla de 'Shine On You Crazy Diamond' (su tributo a Syd Barrett), un hombre calvo, obeso y sin cejas entró silenciosamente a la cabina de Abbey Road.\n\nInicialmente nadie lo reconoció. David Gilmour fue el primero en notar que aquel 'fantasma' era su fundador Syd Barrett, provocando que Roger Waters rompiera en llanto. Syd se cepilló los dientes de manera autómata, escuchó la canción sin darse cuenta de que era sobre él, y se marchó en silencio tras el almuerzo. Fue la última vez que lo vieron con vida."
+    "description": "El día que Johnny Cash salvó el alma de un preso en Folsom Prison.\n\nEl 13 de enero de 1968, Johnny Cash daría un concierto histórico en la prisión de Folsom. La noche anterior, el capellán le entregó una cinta con una canción escrita por el recluso Glen Sherley.\n\nCash pasó toda la noche en vela memorizándola. Al día siguiente, subió al escenario y cantó 'Greystone Chapel' ante guardias e internos. Sherley, sentado en la primera fila, no sabía nada y rompió a llorar al oír su tema interpretado por su mayor ídolo. La canción cerró el legendario álbum en vivo."
   },
   "assets": [
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-01.png",
-      "prompt": "Miembros de Pink Floyd mezclando concentrados en la cabina de sonido de Abbey Road en 1975, perillas iluminadas, luz analógica cálida, grano de foto de época, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-01.png",
+      "prompt": "Johnny Cash performing live at Folsom Prison stage, gritty black and white documentary photography, high contrast, 1968, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-02.png",
-      "prompt": "Carretes de cinta de Abbey Road girando, primer plano de las cintas analógicas de 2 pulgadas, luces ámbar del estudio reflejándose, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-02.png",
+      "prompt": "Close up of a cassette tape recorder with a small speaker, analog audio tape reel running, moody prison chaplain office light, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-03.png",
-      "prompt": "Una bolsa de compras de plástico arrugada sobre el sofá marrón de un estudio y un cepillo de dientes azul sobresaliendo del bolsillo de un abrigo de gabardina viejo, retro 1970s, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-03.png",
+      "prompt": "Johnny Cash sitting in a dim hotel room at night, staring at a handwritten sheet of lyrics under a single desk lamp, looking focused and intense, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-04.png",
-      "prompt": "Roger Waters conmocionado en la cabina de mezcla de Abbey Road, con los ojos llorosos y la mano sobre la boca en señal de incredulidad, luz tenue, grano de foto de 1975, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-04.png",
+      "prompt": "Johnny Cash walking through security gates of Folsom Prison holding a guitar case, guards looking on, vintage film grain, high contrast, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-05.png",
-      "prompt": "Primer plano desde atrás de la cabeza calva y hombros de Syd Barrett mirando a través del cristal de la cabina hacia las luces de la mesa de mezcla de sonido, ambiente melancólico, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-05.png",
+      "prompt": "A prisoner sitting in the front row of Folsom Prison gymnasium, surrounded by other inmates and guards, looking surprised and shocked, cinematic film style, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-06.png",
-      "prompt": "Una mesa vacía de fórmica en la cafetería del estudio Abbey Road en 1975 con un plato a medio comer, un vaso de plástico y una taza de café, luz nostálgica y solitaria, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-06.png",
+      "prompt": "Close up of a man's face covered in tears, hands gripping prison bars or head in hands, emotional relief, gritty documentary style, 9:16 aspect ratio"
     },
     {
-      "src": "videos/pink-floyd-syd-barrett/scene-07.png",
-      "prompt": "Polaroid retro photo from 1975 of a bald, overweight man with a white shirt and shaved eyebrows, smiling slightly and inexpressively, vintage paper frame, grainy 1970s look, 9:16 aspect ratio"
+      "src": "videos/johnny-cash-folsom/scene-07.png",
+      "prompt": "The vinyl cover of Johnny Cash at Folsom Prison album on a wooden table, warm retro lighting, dust particles, 9:16 aspect ratio"
     }
   ],
   "visuals": [
     {
       "start": 0,
-      "end": 12,
-      "src": "videos/pink-floyd-syd-barrett/scene-01.png",
+      "end": 8,
+      "src": "videos/johnny-cash-folsom/scene-01.png",
       "type": "image"
     },
     {
-      "start": 12,
+      "start": 8,
+      "end": 16,
+      "src": "videos/johnny-cash-folsom/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 16,
       "end": 24,
-      "src": "videos/pink-floyd-syd-barrett/scene-02.png",
+      "src": "videos/johnny-cash-folsom/scene-03.png",
       "type": "image"
     },
     {
       "start": 24,
-      "end": 36,
-      "src": "videos/pink-floyd-syd-barrett/scene-03.png",
+      "end": 32,
+      "src": "videos/johnny-cash-folsom/scene-04.png",
       "type": "image"
     },
     {
-      "start": 36,
+      "start": 32,
+      "end": 40,
+      "src": "videos/johnny-cash-folsom/transition-folsom.mp4",
+      "type": "video"
+    },
+    {
+      "start": 40,
       "end": 48,
-      "src": "videos/pink-floyd-syd-barrett/scene-04.png",
+      "src": "videos/johnny-cash-folsom/scene-05.png",
       "type": "image"
     },
     {
       "start": 48,
       "end": 56,
-      "src": "videos/pink-floyd-syd-barrett/transition-syd-studio.mp4",
-      "type": "video"
+      "src": "videos/johnny-cash-folsom/scene-06.png",
+      "type": "image"
     },
     {
       "start": 56,
-      "end": 68,
-      "src": "videos/pink-floyd-syd-barrett/scene-05.png",
-      "type": "image"
-    },
-    {
-      "start": 68,
-      "end": 80,
-      "src": "videos/pink-floyd-syd-barrett/scene-06.png",
-      "type": "image"
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "src": "videos/pink-floyd-syd-barrett/scene-07.png",
+      "end": 60,
+      "src": "videos/johnny-cash-folsom/scene-07.png",
       "type": "image"
     }
   ],
   "segments": [
     {
       "start": 0,
-      "end": 12,
-      "text": "El 5 de junio de 1975, mientras Pink Floyd mezclaba su nuevo disco en Abbey Road, un hombre calvo y obeso entró en silencio."
+      "end": 8,
+      "text": "El 13 de enero de 1968, Johnny Cash daría un concierto histórico en la prisión de Folsom."
     },
     {
-      "start": 12,
+      "start": 8,
+      "end": 16,
+      "text": "La noche anterior, el capellán del penal le entregó una cinta con una canción escrita por un recluso llamado Glen Sherley."
+    },
+    {
+      "start": 16,
       "end": 24,
-      "text": "Nadie lo reconoció al principio. Nick Mason y Richard Wright asumieron que era un técnico o un asistente de la discográfica."
+      "text": "Cash quedó tan impactado por la crudeza de la letra de 'Greystone Chapel' que pasó toda la noche en vela memorizándola."
     },
     {
       "start": 24,
-      "end": 36,
-      "text": "El hombre llevaba una gabardina vieja, cargaba una bolsa de plástico y, de vez en cuando, se cepillaba los dientes de forma autómata."
+      "end": 40,
+      "text": "Al día siguiente, Cash subió al escenario y comenzó a cantar la canción del recluso ante una audiencia repleta de guardias y prisioneros."
     },
     {
-      "start": 36,
+      "start": 40,
+      "end": 48,
+      "text": "Sherley, quien estaba sentado en la primera fila, no sabía nada y se enteró en ese preciso instante."
+    },
+    {
+      "start": 48,
       "end": 56,
-      "text": "David Gilmour lo miró fijamente a los ojos y reconoció quién era: Syd Barrett. Al darse cuenta, Roger Waters rompió en llanto."
+      "text": "Al escuchar su propia obra interpretada por el mayor ídolo de su vida, Sherley rompió a llorar de emoción en medio del patio."
     },
     {
       "start": 56,
-      "end": 68,
-      "text": "Al escuchar 'Shine On You Crazy Diamond', escrita en su honor, Syd no notó que era sobre él y solo dijo: 'Suena un poco vieja'."
-    },
-    {
-      "start": 68,
-      "end": 80,
-      "text": "Tras comer algo con ellos en la cafetería, Syd se marchó en absoluto silencio. Fue la última vez que los cuatro lo vieron con vida."
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "text": "Esa tarde inmortalizó el encuentro con una última fotografía real: el trágico retrato del 'diamante loco' despidiéndose para siempre."
+      "end": 60,
+      "text": "La canción cerró el legendario álbum en vivo, convirtiéndose en el símbolo definitivo de redención a través de la música."
     }
   ],
+  "clip": {
+    "src": "videos/johnny-cash-folsom/transition-folsom.mp4",
+    "prompt": "8 second vertical cinematic transition from Johnny Cash entering Folsom Prison gates to him standing on stage performing, slow motion, smoke, no text",
+    "startSecond": 32,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
   "generation": {
     "provider": "openai-veo",
     "imageProvider": "codex-imagegen",
@@ -164,6 +172,6 @@
     "videoAspectRatio": "9:16",
     "videoResolution": "720p",
     "videoDurationSeconds": 8,
-    "outputDir": "videos/pink-floyd-syd-barrett"
+    "outputDir": "videos/johnny-cash-folsom"
   }
 }

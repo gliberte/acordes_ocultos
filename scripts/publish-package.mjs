@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 import {existsSync, mkdirSync, readFileSync, statSync, writeFileSync} from 'node:fs';
 import {basename, extname, join, resolve} from 'node:path';
+import {fileURLToPath} from 'node:url';
 import {PutObjectCommand, S3Client} from '@aws-sdk/client-s3';
 
-const rootDir = resolve(new URL('..', import.meta.url).pathname);
+const rootDir = resolve(fileURLToPath(new URL('..', import.meta.url)));
 const defaultStoryPath = join(rootDir, 'src/data/story.json');
 const defaultVideoPath = join(rootDir, 'out/story.mp4');
 const packageDir = join(rootDir, 'out/production-package');

@@ -47,7 +47,7 @@ export const StoryGenerationSchema = z.object({
 export const StorySchema = z.object({
   title: z.string(),
   artist: z.string(),
-  durationSeconds: z.number().default(90),
+  durationSeconds: z.number().default(60),
   topic: z.string(),
   anecdote: z.string(),
   hook: z.string(),
