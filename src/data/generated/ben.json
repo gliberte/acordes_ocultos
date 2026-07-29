@@ -1,0 +1,147 @@
+{
+  "title": "La dulce balada dedicada a una rata",
+  "artist": "Michael Jackson",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "La balada más dulce y emotiva de los años 70, que le dio a Michael Jackson su primer éxito número uno en solitario... está dedicada a una rata asesina. En 1972, una película de terror llamada Ben narraba la historia de un joven solitario que encontraba su único refugio en el líder de una colonia de roedores letales. Cuando escuchas su angelical voz suplicar que la gente intente comprenderlos, la inocencia y el horror se funden en una extraña poesía. El destino quiso que el tema fuera para Michael tras el descarte de Donny Osmond, permitiéndole canalizar toda la soledad de su propia infancia. En los Óscar de 1973, un Michael de catorce años cantó con madurez ante Hollywood, mientras a su espalda se proyectaban roedores gigantes en pantalla. Pero su voz traspasó el celuloide, borrando los bigotes y la cola larga de Ben para transformarlo en el símbolo de la amistad incondicional. Ben demostró que la belleza puede nacer del lugar más perturbador del mundo. Y tú, ¿con qué criatura incomprendida compartirías tu soledad?",
+  "hook": "La balada más dulce y emotiva de los años 70, que le dio a Michael Jackson su primer éxito número uno en solitario... está dedicada a una rata asesina.",
+  "beats": [
+    "En 1972, una película de terror llamada Ben narraba la historia de un joven solitario que encontraba su único refugio en el líder de una colonia de roedores letales.",
+    "Cuando escuchas su angelical voz suplicar que la gente intente comprenderlos, la inocencia y el horror se funden en una extraña poesía.",
+    "El destino quiso que el tema fuera para Michael tras el descarte de Donny Osmond, permitiéndole canalizar toda la soledad de su propia infancia.",
+    "En los Óscar de 1973, un Michael de catorce años cantó con madurez ante Hollywood, mientras a su espalda se proyectaban roedores gigantes en pantalla.",
+    "Pero su voz traspasó el celuloide, borrando los bigotes y la cola larga de Ben para transformarlo en el símbolo de la amistad incondicional."
+  ],
+  "outro": "Ben demostró que la belleza puede nacer del lugar más perturbador del mundo. Y tú, ¿con qué criatura incomprendida compartirías tu soledad?",
+  "palette": {
+    "ink": "#1e293b",
+    "paper": "#fffbeb",
+    "accent": "#991b1b",
+    "glow": "#ef4444"
+  },
+  "music": {
+    "title": "Ben",
+    "artist": "Michael Jackson",
+    "src": "music/ben.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Ben Michael Jackson",
+      "expectedTitle": "Ben",
+      "expectedArtist": "Michael Jackson",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/ben/scene-01.png",
+      "prompt": "A realistic 1972 color photograph of a golden record award (representing Billboard #1) for Michael Jackson's Ben, warm studio lighting, vintage film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-02.png",
+      "prompt": "A realistic 1972 photograph of a lonely teenage boy sitting in a dimly lit, dusty attic, befriending a large, intelligent rat with soft brown fur, mysterious cinematic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-03.png",
+      "prompt": "A close-up photograph of a vintage 1970s microphone in a recording studio, warm analog console lights in a blurred background, atmospheric dust motes, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-04.png",
+      "prompt": "A realistic 1972 photograph of a young teen singer with afro hair (representing Michael Jackson) singing inside a studio booth with headphones, looking emotional, soft lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-05.png",
+      "prompt": "A realistic 1973 photograph of the 45th Academy Awards stage, a teenage singer in a suit performing live under a warm spotlight, a large movie screen in the background showing blurred silhouettes of running rats, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-06.png",
+      "prompt": "A realistic close-up photograph of a vintage vinyl record sleeve for Michael Jackson's Ben, showing wear and tear, warm retro lighting, cozy analog aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ben/scene-07.png",
+      "prompt": "A warm, glowing silhouette of two hands reaching out towards each other, one human hand and a tiny animal paw, soft warm light, deep emotional atmosphere, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/ben/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/ben/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/ben/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/ben/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/ben/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/ben/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/ben/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "La balada más dulce y emotiva de los años 70, que le dio a Michael Jackson su primer éxito número uno en solitario... está dedicada a una rata asesina."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1972, una película de terror llamada Ben narraba la historia de un joven solitario que encontraba su único refugio en el líder de una colonia de roedores letales."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Cuando escuchas su angelical voz suplicar que la gente intente comprenderlos, la inocencia y el horror se funden en una extraña poesía."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "El destino quiso que el tema fuera para Michael tras el descarte de Donny Osmond, permitiéndole canalizar toda la soledad de su propia infancia."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "En los Óscar de 1973, un Michael de catorce años cantó con madurez ante Hollywood, mientras a su espalda se proyectaban roedores gigantes en pantalla."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Pero su voz traspasó el celuloide, borrando los bigotes y la cola larga de Ben para transformarlo en el símbolo de la amistad incondicional."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Ben demostró que la belleza puede nacer del lugar más perturbador del mundo. Y tú, ¿con qué criatura incomprendida compartirías tu soledad?"
+    }
+  ]
+}

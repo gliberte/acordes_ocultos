@@ -1,0 +1,147 @@
+{
+  "title": "El pacto de sangre de Fleetwood Mac",
+  "artist": "Fleetwood Mac",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Cinco almas rotas decidieron unir sus pedazos usando una navaja de afeitar, creando el himno de traición más bello de la historia. Nacida de retazos descartados en el estudio de Sausalito, la canción cobró vida cuando unieron la melancolía acústica con el latido fúnebre de un bajo legendario. Para evocar la asfixia del amor marchito, tensaron las cuerdas metálicas de un Dobro, marcando un pulso pesado que simulaba un corazón a punto de estallar. La letra era un grito desesperado de Stevie Nicks hacia Lindsey Buckingham, una súplica de orgullo convertida en cadena de hierro. Mick Fleetwood impuso un pacto sagrado y tiránico: la música devoraría sus vidas personales, pero la cadena del grupo jamás se rompería. En el escenario, el rencor se transmutaba en arte; Stevie y Lindsey se gritaban de frente, exorcizando su ruptura ante miles de extraños. Una catarsis de sangre, cinta y música indestructible. Y tú, ¿romperías la cadena para salvar tu propia cordura?",
+  "hook": "Cinco almas rotas decidieron unir sus pedazos usando una navaja de afeitar, creando el himno de traición más bello de la historia.",
+  "beats": [
+    "Nacida de retazos descartados en el estudio de Sausalito, la canción cobró vida cuando unieron la melancolía acústica con el latido fúnebre de un bajo legendario.",
+    "Para evocar la asfixia del amor marchito, tensaron las cuerdas metálicas de un Dobro, marcando un pulso pesado que simulaba un corazón a punto de estallar.",
+    "La letra era un grito desesperado de Stevie Nicks hacia Lindsey Buckingham, una súplica de orgullo convertida en cadena de hierro.",
+    "Mick Fleetwood impuso un pacto sagrado y tiránico: la música devoraría sus vidas personales, pero la cadena del grupo jamás se rompería.",
+    "En el escenario, el rencor se transmutaba en arte; Stevie y Lindsey se gritaban de frente, exorcizando su ruptura ante miles de extraños."
+  ],
+  "outro": "Una catarsis de sangre, cinta y música indestructible. Y tú, ¿romperías la cadena para salvar tu propia cordura?",
+  "palette": {
+    "ink": "#1e0b0b",
+    "paper": "#fbf9f6",
+    "accent": "#7f1d1d",
+    "glow": "#b45309"
+  },
+  "music": {
+    "title": "The Chain",
+    "artist": "Fleetwood Mac",
+    "src": "music/thechain.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Chain Fleetwood Mac",
+      "expectedTitle": "The Chain",
+      "expectedArtist": "Fleetwood Mac",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/thechain/scene-01.png",
+      "prompt": "A close-up 1977 photograph of a studio engineer's hands holding a razor blade, carefully slicing magnetic recording tape on a splicing block inside Record Plant Sausalito, warm analogue studio light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-02.png",
+      "prompt": "A moody, silhouette-heavy photograph of a bassist in a 1977 recording booth playing a precision bass, warm amber console lights reflecting on the wood paneling, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-03.png",
+      "prompt": "A realistic 1977 photograph of a young man with curly brown hair (representing Lindsey Buckingham) playing a metallic Dobro guitar in a recording studio, focused and intense expression, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-04.png",
+      "prompt": "A close-up photograph of a young woman with blonde feathered hair and dramatic eyes (representing Stevie Nicks) looking intensely and with heartbreak, 1977 soft-focus film aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-05.png",
+      "prompt": "A realistic 1977 photograph of a tall, thin bearded drummer (representing Mick Fleetwood) hitting a massive bass drum in a dark, atmospheric studio, dramatic shadows, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-06.png",
+      "prompt": "A dramatic live concert photograph from 1977 of a young woman and a curly-haired man singing directly face-to-face into a shared vintage microphone, raw emotion and intense gaze, stage spotlights, haze, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/thechain/scene-07.png",
+      "prompt": "A spinning vinyl record on a vintage 1970s turntable, warm ambient lighting, displaying the textured Rumours album cover in the background, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/thechain/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/thechain/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/thechain/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/thechain/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/thechain/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/thechain/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/thechain/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Cinco almas rotas decidieron unir sus pedazos usando una navaja de afeitar, creando el himno de traición más bello de la historia."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Nacida de retazos descartados en el estudio de Sausalito, la canción cobró vida cuando unieron la melancolía acústica con el latido fúnebre de un bajo legendario."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Para evocar la asfixia del amor marchito, tensaron las cuerdas metálicas de un Dobro, marcando un pulso pesado que simulaba un corazón a punto de estallar."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La letra era un grito desesperado de Stevie Nicks hacia Lindsey Buckingham, una súplica de orgullo convertida en cadena de hierro."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Mick Fleetwood impuso un pacto sagrado y tiránico: la música devoraría sus vidas personales, pero la cadena del grupo jamás se rompería."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En el escenario, el rencor se transmutaba en arte; Stevie y Lindsey se gritaban de frente, exorcizando su ruptura ante miles de extraños."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una catarsis de sangre, cinta y música indestructible. Y tú, ¿romperías la cadena para salvar tu propia cordura?"
+    }
+  ]
+}

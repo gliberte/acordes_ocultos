@@ -1,0 +1,179 @@
+{
+  "title": "El himno disco que nació en el cautiverio",
+  "artist": "Boney M",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "En 1978, las pistas de baile del mundo entero vibraban con un ritmo luminoso e hipnótico, sin sospechar que bailaban el llanto desgarrador de un pueblo en cadenas. El origen de aquella melodía no nació en los estudios de Europa, sino veinticinco siglos atrás, en las orillas fangosas del río Éufrates tras la caída de Jerusalén. Allí, los cautivos hebreos colgaron sus arpas en los sauces, negándose a cantar sus salmos sagrados para la burla de sus captores. En 1970, en los barrios de Kingston, el trío The Melodians rescató esa plegaria bíblica para convertirla en un himno de resistencia rastafari. El gobierno de Jamaica, temiendo una rebelión, prohibió la canción en la radio pública por considerarla una llama subversiva. Pero el productor alemán Frank Farian escuchó en aquel lamento un potencial cósmico, fusionando sus plegarias con sintetizadores y pulso de discoteca. El éxito fue tan colosal que cruzó el Telón de Acero: el régimen soviético permitió que Boney M la cantara en Moscú, ignorando su trasfondo sagrado. Sobre el escenario, Bobby Farrell desataba una danza frenética y liberadora, transformando el exilio en catarsis colectiva. Así, el llanto de Babilonia burló la censura y cruzó imperios, recordando que hasta el dolor más profundo puede renacer y poner a bailar al mundo entero.",
+  "hook": "En 1978, las pistas de baile del mundo entero vibraban con un ritmo luminoso e hipnótico, sin sospechar que bailaban el llanto desgarrador de un pueblo en cadenas.",
+  "beats": [
+    "El origen de aquella melodía no nació en los estudios de Europa, sino veinticinco siglos atrás, en las orillas fangosas del río Éufrates tras la caída de Jerusalén.",
+    "Allí, los cautivos hebreos colgaron sus arpas en los sauces, negándose a cantar sus salmos sagrados para la burla de sus captores.",
+    "En 1970, en los barrios de Kingston, el trío The Melodians rescató esa plegaria bíblica para convertirla en un himno de resistencia rastafari.",
+    "El gobierno de Jamaica, temiendo una rebelión, prohibió la canción en la radio pública por considerarla una llama subversiva.",
+    "Pero el productor alemán Frank Farian escuchó en aquel lamento un potencial cósmico, fusionando sus plegarias con sintetizadores y pulso de discoteca.",
+    "El éxito fue tan colosal que cruzó el Telón de Acero: el régimen soviético permitió que Boney M la cantara en Moscú, ignorando su trasfondo sagrado.",
+    "Sobre el escenario, Bobby Farrell desataba una danza frenética y liberadora, transformando el exilio en catarsis colectiva."
+  ],
+  "outro": "Así, el llanto de Babilonia burló la censura y cruzó imperios, recordando que hasta el dolor más profundo puede renacer y poner a bailar al mundo entero.",
+  "palette": {
+    "ink": "#140e0a",
+    "paper": "#f7f2ea",
+    "accent": "#d48817",
+    "glow": "#f0b842"
+  },
+  "music": {
+    "title": "Rivers of Babylon",
+    "artist": "Boney M",
+    "src": "music/boney-m-rivers-of-babylon.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Rivers of Babylon Boney M",
+      "expectedTitle": "Rivers of Babylon",
+      "expectedArtist": "Boney M",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-01.png",
+      "prompt": "A crowded 1978 European discotheque, young men and women dancing joyfully under shining disco mirror balls, beams of warm golden stage lights, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-02.png",
+      "prompt": "Ancient 586 BC Mesopotamia, captive Semitic Hebrew exiles in coarse woven tunics, bound in chains, weeping along the banks of the Euphrates river, distant ziggurat, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-03.png",
+      "prompt": "Close-up shot of an ancient handcrafted wooden lyre hanging from a weeping willow tree over a tranquil river at dusk, Babylonian ruins in background, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-04.png",
+      "prompt": "1970 Kingston Jamaica, rustic recording studio, three young Black Jamaican vocalists singing soulfully into a vintage ribbon microphone, acoustic guitar nearby, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-05.png",
+      "prompt": "1970 vintage government radio office in Kingston Jamaica, official censorship document stamped BANNED FROM BROADCAST, tape recorder and vintage microphone, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-06.png",
+      "prompt": "1978 West German studio, producer Frank Farian at massive analog mixing console with illuminated VU meters and reel-to-reel tape recorder, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-07.png",
+      "prompt": "December 1978, snowy Red Square Moscow, Soviet KGB officers in wool coats reviewing official concert documents in front of St. Basil Cathedral, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-08.png",
+      "prompt": "Charismatic Black male dancer Bobby Farrell with afro and flamboyant open-chest disco jumpsuit dancing passionately on a massive illuminated concert stage, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/boney-m-rivers-of-babylon/scene-09.png",
+      "prompt": "Poetic wide view of the ancient river Euphrates waters glowing under warm golden twilight reflections, serene freedom, 35mm film grain, vertical 9:16 portrait format"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/boney-m-rivers-of-babylon/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/boney-m-rivers-of-babylon/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/boney-m-rivers-of-babylon/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/boney-m-rivers-of-babylon/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/boney-m-rivers-of-babylon/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/boney-m-rivers-of-babylon/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/boney-m-rivers-of-babylon/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/boney-m-rivers-of-babylon/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/boney-m-rivers-of-babylon/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1978, las pistas de baile del mundo entero vibraban con un ritmo luminoso e hipnótico, sin sospechar que bailaban el llanto desgarrador de un pueblo en cadenas."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "El origen de aquella melodía no nació en los estudios de Europa, sino veinticinco siglos atrás, en las orillas fangosas del río Éufrates tras la caída de Jerusalén."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Allí, los cautivos hebreos colgaron sus arpas en los sauces, negándose a cantar sus salmos sagrados para la burla de sus captores."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En 1970, en los barrios de Kingston, el trío The Melodians rescató esa plegaria bíblica para convertirla en un himno de resistencia rastafari."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "El gobierno de Jamaica, temiendo una rebelión, prohibió la canción en la radio pública por considerarla una llama subversiva."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Pero el productor alemán Frank Farian escuchó en aquel lamento un potencial cósmico, fusionando sus plegarias con sintetizadores y pulso de discoteca."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El éxito fue tan colosal que cruzó el Telón de Acero: el régimen soviético permitió que Boney M la cantara en Moscú, ignorando su trasfondo sagrado."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Sobre el escenario, Bobby Farrell desataba una danza frenética y liberadora, transformando el exilio en catarsis colectiva."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Así, el llanto de Babilonia burló la censura y cruzó imperios, recordando que hasta el dolor más profundo puede renacer y poner a bailar al mundo entero."
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "title": "La Canción Nacida del Viento en Contra",
+  "artist": "Bob Seger",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "El himno más nostálgico del rock estadounidense no nació de una metáfora abstracta, sino del esfuerzo físico de la juventud. En su adolescencia en Ann Arbor, Michigan, Bob Seger era corredor de cross-country y aprendió en carne propia lo que significaba correr con el pecho contra ráfagas de viento helado. En 1979, tras más de 15 años de giras agotadoras en furgonetas y sintiendo el peso de la madurez, Seger se sentó al piano para escribir sobre la pérdida de la inocencia y el desgaste de las viejas amistades, plasmando el verso inmortal: 'Wish I didn't know now what I didn't know then'. En el estudio, su viejo amigo y protegido Glenn Frey, líder de The Eagles, se unió para grabar los memorables coros y diseñar el arreglo musical. El álbum escaló de inmediato al número uno de Billboard, desbancando a 'The Wall' de Pink Floyd, ganando dos premios Grammy y convirtiéndose en la banda sonora definitiva de la resistencia humana.",
+  "hook": "El himno más nostálgico del rock no hablaba del éxito, sino de las cicatrices de resistir cuando la vida te empuja hacia atrás.",
+  "beats": [
+    "1962: En su juventud en Michigan, Bob Seger corría campo a través aprendiendo a luchar contra ráfagas de viento helado.",
+    "Años después, en los clubes de Detroit, Seger descubrió y apadrinó a un joven aprendiz de 19 años: Glenn Frey.",
+    "1979: A sus 34 años y tras una década de lucha, el cantante sintió la soledad del éxito y la pérdida de sus amigos de juventud.",
+    "Al piano eléctrico de Bayshore Studios, escribió el desgarrador verso: 'Ojalá no supiera ahora lo que no sabía entonces'.",
+    "Glenn Frey, ya convertido en estrella con The Eagles, acudió al estudio para grabar las armonías vocales junto a su mentor.",
+    "El álbum 'Against the Wind' se convirtió en un fenómeno absoluto, arrebatándole el número uno en Billboard a Pink Floyd.",
+    "La canción ganó dos premios Grammy y quedó grabada en la memoria colectiva mundial en la épica travesía de Forrest Gump.",
+    "Aquella metáfora nacida del esfuerzo adolescente se transformó en el himno definitivo de la madurez y la perseverancia."
+  ],
+  "outro": "Correr contra el viento no se trata de ganar una carrera, sino de llegar al final del camino sin haber perdido el alma.",
+  "palette": {
+    "ink": "#140e08",
+    "paper": "#f5ede0",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Against the Wind",
+    "artist": "Bob Seger & The Silver Bullet Band",
+    "src": "music/bob-seger-against-the-wind.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Against the Wind Bob Seger",
+      "expectedTitle": "Against the Wind",
+      "expectedArtist": "Bob Seger & The Silver Bullet Band",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-01.png",
+      "prompt": "Authentic 1980 live concert photograph of 35-year-old Bob Seger with long brown hair, full beard, wire-rim glasses and plaid flannel shirt, singing with emotional raspy passion into a microphone while playing an upright acoustic piano on stage under warm golden spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-02.png",
+      "prompt": "Authentic vintage 1962 autumn photograph of a 17-year-old teenage boy (young Bob Seger) running cross-country alone down a cold dirt path in Ann Arbor Michigan, wearing vintage track shorts and canvas running shoes, leaning into a fierce chilling wind that bends dry autumn trees and blows dry leaves around him, nostalgic 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-03.png",
+      "prompt": "Authentic 1968 Detroit backstage club photograph of 23-year-old Bob Seger showing guitar chords to a 19-year-old young Glenn Frey (clean shaven, long hair, wearing casual 60s clothes), acoustic guitar in hand, warm backstage dressing room with band gear, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-04.png",
+      "prompt": "Nostalgic 1979 photograph of 34-year-old Bob Seger with beard and glasses, sitting thoughtfully on the wooden porch of a Michigan rustic farmhouse at sunset, holding old black and white photographs of his teenage friends, wind blowing autumn leaves across the wooden deck, warm amber melancholic lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-05.png",
+      "prompt": "Intimate 1980 recording studio photograph of 34-year-old Bob Seger with beard and glasses, sitting at a vintage Fender Rhodes electric piano in Bayshore Studios, pen in hand writing lyrics in a spiral notebook, warm analog studio lights, vintage microphones and master tape reels around, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-06.png",
+      "prompt": "Authentic 1980 recording studio photograph of 35-year-old Bob Seger and 31-year-old Glenn Frey (handsome with mustache, casual shirt) standing shoulder-to-shoulder singing harmonious backing vocals into a vintage Neumann condenser microphone with headphones on, warm golden studio lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-07.png",
+      "prompt": "1980 photograph of an original Billboard Top LPs and Tapes music chart magazine showing Bob Seger Against the Wind at Number 1 and Pink Floyd The Wall at Number 2, placed on a wooden recording studio counter with gold record awards and vinyl records in background, warm analog lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-08.png",
+      "prompt": "Cinematic 35mm film photograph of an endless American desert highway stretching toward Monument Valley at golden sunset, warm amber light, long shadows, a solitary runner in distance moving forward down the center line of the asphalt road, nostalgic atmosphere evoking the resilience of Against the Wind, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-seger-against-the-wind/scene-09.png",
+      "prompt": "Macro photograph of the original 1980 Capitol Records purple label vinyl LP of Bob Seger and The Silver Bullet Band 'Against the Wind' spinning on a high-end vintage wooden turntable, with a golden Grammy award trophy beside it, warm sunset amber lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/bob-seger-against-the-wind/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/bob-seger-against-the-wind/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/bob-seger-against-the-wind/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/bob-seger-against-the-wind/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/bob-seger-against-the-wind/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/bob-seger-against-the-wind/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/bob-seger-against-the-wind/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/bob-seger-against-the-wind/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/bob-seger-against-the-wind/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "El himno más nostálgico del rock no hablaba del éxito, sino de las cicatrices de resistir cuando la vida te empuja hacia atrás."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1962: En su juventud en Michigan, Bob Seger corría campo a través aprendiendo a luchar contra ráfagas de viento helado."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Años después, en los clubes de Detroit, Seger descubrió y apadrinó a un joven aprendiz de 19 años: Glenn Frey."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "1979: A sus 34 años y tras una década de lucha, el cantante sintió la soledad del éxito y la pérdida de sus amigos de juventud."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Al piano eléctrico de Bayshore Studios, escribió el desgarrador verso: 'Ojalá no supiera ahora lo que no sabía entonces'."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Glenn Frey, ya convertido en estrella con The Eagles, acudió al estudio para grabar las armonías vocales junto a su mentor."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El álbum 'Against the Wind' se convirtió en un fenómeno absoluto, arrebatándole el número uno en Billboard a Pink Floyd."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "La canción ganó dos premios Grammy y quedó grabada en la memoria colectiva mundial en la épica travesía de Forrest Gump."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Correr contra el viento no se trata de ganar una carrera, sino de llegar al final del camino sin haber perdido el alma."
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "title": "La Reina que Venció al Infierno",
+  "artist": "Tina Turner",
+  "durationSeconds": 60,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacida en la segregación de Nutbush, Tennessee, recogiendo algodón con las manos llagadas, Anna Mae Bullock descubrió su voz en una iglesia baptista. Tras dieciséis años de brutales abusos físicos a manos de Ike Turner, escapó una noche de 1976 cruzando una autopista ensangrentada con solo treinta y seis centavos en el bolsillo. Limpió casas para sobrevivir mientras la industria la daba por acabada. A los cuarenta y cuatro años protagonizó la mayor resurrección del rock: arrasó en los Grammy, abarrotó el estadio Maracaná ante 180.000 personas y demostró que ningún infierno puede quebrar a un alma indomable.",
+  "hook": "Huyó ensangrentada con 36 centavos en el bolsillo y a los 44 años conquistó el planeta como la reina del rock.",
+  "beats": [
+    "De niña recogía algodón en Tennessee con las manos rotas, soñando con escapar.",
+    "En un club de blues arrebató el micrófono y desató una fuerza volcánica irrepetible.",
+    "Junto a Ike Turner conquistó el mundo, pero en camerinos vivía un infierno secreto.",
+    "Dieciséis años de palizas y dolor la empujaron a tomar la decisión de su vida.",
+    "Huyó por la autopista con treinta y seis centavos en el bolsillo para salvarse.",
+    "Limpió casas para pagar deudas mientras la industria musical la daba por muerta.",
+    "A los 44 años resurgió como un león y arrasó en los premios Grammy.",
+    "En el Maracaná cantó ante 180.000 almas, logrando el récord de la historia.",
+    "Tina Turner demostró que nadie puede quebrar a un alma indomable. ¿Es la reina definitiva?"
+  ],
+  "outro": "Tina Turner demostró que nadie puede quebrar a un alma indomable. ¿Es la reina definitiva?",
+  "palette": {
+    "ink": "#180e07",
+    "paper": "#faf6f0",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "The Best",
+    "artist": "Tina Turner",
+    "src": "music/tina-turner-the-best-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Best Tina Turner",
+      "expectedTitle": "The Best",
+      "expectedArtist": "Tina Turner",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/tina-turner-the-best-catedrales-de-leyenda/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of Tina Turner in the late 1980s era of The Best, her legendary voluminous spiky lioness honey-blonde streaked hair, fierce radiant smile, intense soulful eyes, wearing a black leather and denim jacket with silver studs, warm golden stage rim lighting, textured 35mm film grain, Hasselblad rock portrait, centered composition, safe bottom area for typography.",
+  "assets": [
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-01.png",
+      "prompt": "Rural Nutbush Tennessee 1948: A barefoot 9-year-old African-American girl (young Anna Mae Bullock), simple dusty cotton frock, standing by a wooden baptismal church porch next to sun-drenched rural cotton fields, singing towards the sky with heartfelt emotion, warm sepia and golden afternoon light, authentic 35mm archival documentary, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-02.png",
+      "prompt": "Smoky St. Louis blues nightclub 1957: 17-year-old Anna Mae Bullock wearing a simple modest dress, passionately gripping a chrome Shure 55 vintage microphone, singing with volcanic raw power, stunned club audience watching in awe, dim neon blue and amber bar lights, authentic 1950s rhythm and blues documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-03.png",
+      "prompt": "1960s television concert stage: Young dynamic Tina Turner performing frenetically on stage in a glittering fringed red mini-dress with the Ikettes dancing behind her, sheer kinetic stage power, vintage TV camera and stage spotlights, dramatic 35mm concert photography, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-04.png",
+      "prompt": "Backstage dressing room Dallas 1976: Tina Turner seen in a shadowy mirror reflection, bruised cheekbone, dark sunglasses resting on vanity, looking at herself with fierce tears of unbreakable dignity and survival resolution, moody chiaroscuro lighting, emotional 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-05.png",
+      "prompt": "Dallas Texas rainy highway midnight July 1976: Tina Turner running desperately across a rainy dark highway road in the rain, headlights of a distant truck illuminating the mist, clutching thirty-six cents in her trembling hand, running toward the glowing neon sign of a Ramada Inn motel, cinematic noir thriller 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-06.png",
+      "prompt": "Modest Los Angeles kitchen late 1970s: Tina Turner wearing rubber cleaning gloves, scrub brush in hand, taking a brief pause to wipe sweat from her brow with quiet dignity, an old cassette player on the counter playing music, afternoon sunlight through blinds, authentic 35mm documentary realism, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-07.png",
+      "prompt": "1985 Grammy Awards stage: 44-year-old triumphant Tina Turner with her iconic voluminous lioness hair, elegant black evening dress, holding three shining golden Grammy trophies in her arms with a radiant smile of vindication, flashbulbs and stage spotlights, iconic 1980s music photography, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-08.png",
+      "prompt": "Maracana Stadium Rio de Janeiro 1988: Tina Turner standing on a towering illuminated catwalk above a vast sea of 180,000 cheering fans, fireworks bursting in the night sky, colossal stadium spotlights, arms raised in supreme rock and roll majesty, epic Guinness World Record concert photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-09.png",
+      "prompt": "Lake Zurich Switzerland terrace: Mature Tina Turner in her peaceful seventies, dressed in an elegant white linen outfit, looking out over calm serene lake waters with a warm tranquil smile of ultimate spiritual triumph and inner peace, soft afternoon golden hour light, majestic 35mm portrait, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/tina-turner-the-best-catedrales-de-leyenda/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "De niña recogía algodón en Tennessee con las manos rotas, soñando con escapar."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "En un club de blues arrebató el micrófono y desató una fuerza volcánica irrepetible."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "Junto a Ike Turner conquistó el mundo, pero en camerinos vivía un infierno secreto."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Dieciséis años de palizas y dolor la empujaron a tomar la decisión de su vida."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Huyó por la autopista con treinta y seis centavos en el bolsillo para salvarse."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Limpió casas para pagar deudas mientras la industria musical la daba por muerta."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "A los 44 años resurgió como un león y arrasó en los premios Grammy."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "En el Maracaná cantó ante 180.000 almas, logrando el récord de la historia."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "Tina Turner demostró que nadie puede quebrar a un alma indomable. ¿Es la reina definitiva?"
+    }
+  ],
+  "publication": {
+    "description": "Huyó ensangrentada a medianoche cruzando una autopista de Dallas, con solo treinta y seis centavos en el bolsillo y el rostro amoratado. Renunció a mansiones, autos y regalías con una sola condición: conservar su nombre de batalla.\n\nDurante dieciséis años, Anna Mae Bullock soportó el infierno doméstico y los abusos de Ike Turner mientras en escena hipnotizaba al mundo con «Proud Mary». Tras romper sus cadenas en 1976, la industria musical la dio por muerta. Limpió casas para pagar deudas de giras canceladas y cantó en cabarets de segunda mientras las disqueras le cerraban las puertas argumentando que a sus cuarenta años era una mujer «acabada».\n\nPero los leones no negocian su destino. A los cuarenta y cuatro años, Tina Turner protagonizó la mayor resurrección en la historia del rock: con «What's Love Got to Do with It» y «The Best» conquistó cuatro premios Grammy y llenó el estadio Maracaná ante 180.000 personas, grabando su nombre en el libro Guinness. La niña que recogía algodón en Tennessee demostró que ningún infierno terrenal puede quebrar a un alma nacida para reinar.\n\n¿Crees que Tina Turner es la voz femenina más poderosa de la historia del rock?"
+  }
+}

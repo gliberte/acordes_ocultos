@@ -1,0 +1,202 @@
+{
+  "title": "El Secreto de Jealous Guy",
+  "artist": "John Lennon",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "A comienzos de los años 70, John Lennon arrastraba una inseguridad asfixiante nacida del abandono en su infancia. Su amor por Yoko Ono se convirtió en una obsesión sofocante y unos celos enfermizos que casi destruyen su relación. Tras someterse a la demoledora terapia del Grito Primal y despojarse de su ego, Lennon rescató una melodía mística que había compuesto en la India en 1968 ('Child of Nature') y la reescribió como una de las disculpas públicas más valientes, vulnerables y avergonzadas de la historia del rock: 'Jealous Guy'.",
+  "hook": "El himno con el que la mayor estrella del planeta le pidió perdón de rodillas a la mujer que casi destruye por sus celos enfermizos.",
+  "beats": [
+    "En mayo de 1971, John Lennon compuso su balada más desgarradora para confesar su lado más destructivo.",
+    "Bajo el aura de ídolo rebelde latía un niño huérfano que camuflaba su terror al abandono en celos desmedidos.",
+    "La melodía original nació en la India durante el retiro con The Beatles, bajo el nombre de 'Child of Nature'.",
+    "Pero al coincidir con un tema similar de Paul McCartney, el orgullo herido de Lennon lo empujó a archivarla.",
+    "Con Yoko Ono, sus inseguridades se volvieron asfixiantes por el miedo atroz e irracional a perderla.",
+    "La demoledora terapia del Grito Primal derribó su coraza, confrontándolo con su propia inmadurez emocional.",
+    "Rescató la canción y la transformó en una disculpa descarnada, silbando la melodía entre lágrimas.",
+    "Tras su asesinato en 1980, el mundo la adoptó como el homenaje inmortal a la redención y el perdón.",
+    "¿Crees que tener el coraje de pedir perdón a tiempo es la prueba más difícil y valiente del amor?"
+  ],
+  "outro": "¿Crees que tener el coraje de pedir perdón a tiempo es la prueba más difícil y valiente del amor?",
+  "palette": {
+    "ink": "#0e0d0c",
+    "paper": "#fbf8f2",
+    "accent": "#b91c1c",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Jealous Guy",
+    "artist": "John Lennon",
+    "src": "music/john-lennon-jealous-guy-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Jealous Guy John Lennon",
+      "expectedTitle": "Jealous Guy",
+      "expectedArtist": "John Lennon",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/john-lennon-jealous-guy-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic documentary portrait of John Lennon in May 1971 during the Imagine album sessions at Ascot Sound Studios: In his early 30s with his iconic round wire-rimmed spectacles, shoulder-length brown hair, sharp expressive facial features, wearing an olive military-style button-down shirt. Warm ambient studio light, intimate and vulnerable expression, centered composition, generous safe space at bottom for typography, soft 35mm portrait grain, rich Kodachrome tones, no text.",
+  "assets": [
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 intimate atmospheric room in Tittenhurst Park mansion in May 1971: John Lennon sitting with slumped shoulders on a wooden piano stool before a white upright piano, wearing his round wire-rimmed glasses and casual denim shirt, looking down in quiet contemplation and emotional vulnerability with head in hands after an argument, soft morning mist visible through the tall Victorian sash windows, cinematic chiaroscuro, 35mm archival photography, no text."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 nostalgic psychological flashback to 1950s Liverpool: A solitary young boy standing behind a rain-streaked window pane of a working-class brick row house, looking out into the misty grey Merseyside street with intense longing and melancholy, symbolizing maternal abandonment and childhood wounds, vintage black and white documentary film grain with subtle sepia warmth, no text."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 authentic historical atmosphere of Rishikesh, India in spring 1968: John Lennon in his late 20s with round glasses and white Indian cotton kurta, sitting cross-legged on a stone terrace in the Himalayan foothills overlooking the green Ganges river valley, strumming an acoustic Gibson J-160E guitar, serene golden morning sunlight, documentary 35mm film still, warm Kodachrome colors, no text."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 vintage 1968 Abbey Road Studio 2 control room during The Beatles White Album sessions: An abandoned handwritten lyric notebook with scribbled lines titled Child of Nature resting on a Studer tape machine console beside a half-burned cigarette in an ashtray, studio monitor speaker softly glowing in the dim ambient light, mood of competitive tension and quiet creative retreat, 35mm film grain, no people, no text."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 candid documentary street scene in London in 1969: John Lennon with shoulder-length dark hair, round glasses and dark overcoat, tightly holding hands with Yoko Ono dressed in all-black as they walk through a crowded street, Lennon casting an intense, hyper-vigilant, protective and possessive sideways glance around them, gritty 1969 London street photography grain, authentic 35mm photojournalism."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 raw, emotional psychological therapy room in Los Angeles in 1970: A man resembling John Lennon during Primal Scream therapy, with round wire glasses removed and resting on a small table beside him, sitting on a simple wooden chair with hands clenched and head thrown back in cathartic emotional breakthrough and vulnerability, dramatic moody chiaroscuro lighting, deep shadows, 35mm archival film grain."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 Ascot Sound Studios in May 1971: John Lennon standing in a dim recording booth with headphones on and his iconic round spectacles, singing softly and whistling into a vintage Neumann U47 studio microphone with eyes closed, bathed in a warm golden spotlight, acoustic guitar strap across his shoulder, sheet music on stand, authentic 1971 studio aesthetic, 35mm film grain, emotional close candid portrait."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 legendary concert stage in early 1981: Elegant rock vocalist Bryan Ferry on a dimly lit theatrical stage bathed in moody blue and amber spotlights, singing passionately into a stage microphone during a poignant tribute performance, misty atmosphere, subtle background spotlight beams, dramatic concert photography grain, 35mm live film texture, no text."
+    },
+    {
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic closing visual metaphor of forgiveness and peace: An iconic white grand piano situated inside a luminous, minimalist white sunroom in a country estate, facing a grand open French window overlooking tranquil green meadows at golden hour. Soft white linen curtains gently flutter in the warm evening breeze. Resting on the polished piano music rack is an open handwritten music manuscript, a pencil, and two simple gold wedding rings resting side by side in the golden sunlight. Timeless cinematic symbol of humility, redemption, and enduring love, no people, 35mm film still."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/john-lennon-jealous-guy-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En mayo de 1971, encerrado en su mansión inglesa, John Lennon compuso su balada más desgarradora para confesar su lado más oscuro y destructivo."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Bajo su aura de líder rebelde latía un niño huérfano y aterrado que aprendió a enmascarar su miedo al abandono tras arranques de celos desmedidos."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "La melodía nació en la India durante el retiro con The Beatles, como una oda mística a la naturaleza que Lennon tituló «Child of Nature»."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Pero al escuchar que Paul McCartney grabó un tema similar para el Álbum Blanco, el orgullo herido de Lennon lo llevó a sepultar la canción."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Años después, su amor por Yoko Ono se tornó asfixiante: invadido por una inseguridad patológica, Lennon era incapaz de permitirle salir de su lado."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Sometido a la terapia del Grito Primal, el ídolo vio desmoronarse sus corazas de soberbia, aceptando por fin la crueldad de sus propias heridas."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En el estudio de Tittenhurst Park, rescató la vieja melodía y grabó una disculpa descarnada, coronando la toma con su inolvidable solo silbado."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Tras la trágica muerte de Lennon en 1980, el tema fue rescatado por Roxy Music, convirtiéndose en el himno universal de quien pide perdón."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Pedir perdón exige desarmar el ego más gigante. ¿Crees que reconocer la propia sombra a tiempo es el acto más valiente del amor verdadero?"
+    }
+  ],
+  "publication": {
+    "title": "La confesión más avergonzada de John Lennon",
+    "description": "El hombre que cantó sobre la paz mundial guardaba un secreto que lo carcomía por dentro: sus propios celos casi destruyen al amor de su vida.\n\nA comienzos de los años 70, la mente de John Lennon era un campo de batalla. Detrás de la leyenda de The Beatles habitaba un niño marcado a fuego por el abandono infantil y la pérdida temprana de su madre. Cuando Yoko Ono entró en su vida, el terror visceral a quedarse solo se transformó en una posesión sofocante y enfermiza que Lennon apenas lograba controlar.\n\nLa salvación artística llegó de donde menos lo esperaba: rescató una vieja melodía espiritual compuesta en la India en 1968 y la transformó en «Jealous Guy», una de las confesiones más descarnadas, avergonzadas y puras de la historia del pop, silbada de rodillas para rogar perdón.\n\nReconocer las propias sombras exige desarmar el ego más gigante de la música. ¿Crees que tener el coraje de pedir perdón a tiempo es el acto de amor más valiente?\n\n#JohnLennon #JealousGuy #TheBeatles #YokoOno #AcordesOcultos #HistoriaDelRock #RockClasico #LeyendasDelRock",
+    "social": {
+      "instagram": {
+        "caption": "El hombre que cantó sobre la paz mundial guardaba un secreto que lo carcomía por dentro: sus propios celos casi destruyen al amor de su vida.\n\nA comienzos de los años 70, la mente de John Lennon era un campo de batalla. Detrás de la leyenda de The Beatles habitaba un niño marcado a fuego por el abandono infantil y la pérdida temprana de su madre. Cuando Yoko Ono entró en su vida, el terror visceral a quedarse solo se transformó en una posesión sofocante y enfermiza que Lennon apenas lograba controlar.\n\nLa salvación artística llegó de donde menos lo esperaba: rescató una vieja melodía espiritual compuesta en la India en 1968 y la transformó en «Jealous Guy», una de las confesiones más descarnadas, avergonzadas y puras de la historia del pop, silbada de rodillas para rogar perdón.\n\nReconocer las propias sombras exige desarmar el ego más gigante de la música. ¿Crees que tener el coraje de pedir perdón a tiempo es el acto de amor más valiente?\n\n#JohnLennon #JealousGuy #TheBeatles #YokoOno #AcordesOcultos #HistoriaDelRock #RockClasico #LeyendasDelRock",
+        "hashtags": [
+          "#JohnLennon",
+          "#JealousGuy",
+          "#TheBeatles",
+          "#YokoOno",
+          "#AcordesOcultos",
+          "#HistoriaDelRock",
+          "#RockClasico",
+          "#LeyendasDelRock"
+        ]
+      }
+    }
+  }
+}

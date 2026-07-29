@@ -1,0 +1,58 @@
+{
+  "title": "El día que el rock fue usado como arma",
+  "artist": "Varios Artistas",
+  "topic": "curiosidad musical",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#f8fafc",
+    "accent": "#0284c7",
+    "glow": "#38bdf8"
+  },
+  "slides": [
+    {
+      "title": "El día que el rock fue usado como arma",
+      "text": "Cómo la música y el asedio psicológico de 1989 terminaron por derribar al dictador de Panamá.",
+      "imageSrc": "videos/noriega/scene-01.png"
+    },
+    {
+      "title": "El Refugio",
+      "text": "En diciembre de 1989, Manuel Antonio Noriega se refugió en la Nunciatura Apostólica (la embajada del Vaticano en Panamá) buscando evitar su captura por las fuerzas estadounidenses.",
+      "imageSrc": "videos/noriega/scene-02.png"
+    },
+    {
+      "title": "Asedio 24/7",
+      "text": "El ejército estadounidense rodeó la embajada con altavoces gigantescos y desató un asedio sonoro 24/7 con rock pesado y heavy metal, aprovechando que el dictador detestaba ese ruido.",
+      "imageSrc": "videos/noriega/scene-03.png"
+    },
+    {
+      "title": "La Playlist del Caos",
+      "text": "La selección incluía hits con mensajes directos como 'Welcome to the Jungle' (Guns N' Roses), 'I Fought the Law' (The Clash) y 'Panama' (Van Halen), sonando a volúmenes ensordecedores.",
+      "imageSrc": "videos/noriega/scene-04.png"
+    },
+    {
+      "title": "Tregua Navideña",
+      "text": "Durante el día de Navidad, las tropas pausaron el rock pesado y emitieron villancicos navideños tradicionales como un gesto de respeto religioso, antes de reanudar el ensordecedor asedio.",
+      "imageSrc": "videos/noriega/scene-05.png"
+    },
+    {
+      "title": "Táctica Indigna",
+      "text": "El Vaticano protestó formalmente por el ruido, y el Asesor de Seguridad Nacional estadounidense, Brent Scowcroft, calificó la táctica como 'tonta, reprochable e indigna' antes de apagarla.",
+      "imageSrc": "videos/noriega/scene-06.png"
+    },
+    {
+      "title": "¿Qué opinas tú?",
+      "text": "¿Crees que usar el rock como arma psicológica cruza los límites de la ética de guerra? Comenta abajo y síguenos para más acordes ocultos.",
+      "imageSrc": "videos/noriega/scene-07.png"
+    }
+  ],
+  "hashtags": [
+    "#ManuelNoriega",
+    "#ArmasPsicologicas",
+    "#GunsNRoses",
+    "#TheClash",
+    "#HistoriaDeLaMusica",
+    "#CuriosidadesMusicales",
+    "#Panama1989",
+    "#AcordesOcultos"
+  ]
+}

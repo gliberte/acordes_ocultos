@@ -1,0 +1,135 @@
+{
+  "title": "El Riff Grabado Mientras Dormia",
+  "artist": "The Rolling Stones",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "El riff más emblemático del rock nació entre sueños y casi fue borrado por descuido. En la madrugada del 6 de mayo de 1965, en un hotel de Clearwater, Florida, Keith Richards despertó sonámbulo con una melodía taladrando su cabeza. Encendió su grabadora portátil Philips, pulsó el riff de cuatro notas y volvió a dormirse de inmediato. Al despertar por la mañana, no recordaba nada: la cinta contenía dos minutos de música seguidos de 40 minutos de sus propios ronquidos. En el estudio, Mick Jagger y Keith lo consideraban una simple maqueta y Mick odiaba el resultado por considerarlo demasiado pop y comercial. Sin embargo, en los estudios RCA de Los Ángeles, Keith enchufó un pedal distorsionador 'Gibson Maestro Fuzz-Tone' para simular vientos metales. Tras una votación interna forzada por su mánager, el tema se lanzó contra el deseo de sus creadores y desató la revolución definitiva del rock and roll.",
+  "hook": "El riff de guitarra más famoso del rock fue grabado mientras su creador dormía... y casi lo borra al despertar.",
+  "beats": [
+    "Madrugada del 6 de mayo de 1965: En un hotel de Florida, Keith Richards despertó sonámbulo con una melodía urgente.",
+    "Tomó a oscuras su grabadora portátil, tocó el riff de cuatro notas y cayó profundamente dormido otra vez.",
+    "Por la mañana, la cinta reveló dos minutos de música cruda seguidos de cuarenta minutos de sus propios ronquidos.",
+    "En los estudios RCA de Hollywood, Keith conectó un extraño pedal distorsionador Fuzz-Tone para darle fuerza.",
+    "Mick Jagger detestaba la grabación por considerarla demasiado comercial e indigna del estatus rebelde de la banda.",
+    "Durante una acalorada votación interna, el mánager y los técnicos impusieron su lanzamiento desafiando a Mick y Keith.",
+    "Apenas salió al aire, las estaciones de radio colapsaron por las llamadas de millones de jóvenes enloquecidos.",
+    "Aquel chiste sonámbulo que casi termina en la papelera se convirtió en el himno definitivo de la historia del rock."
+  ],
+  "outro": "A veces, las mayores revoluciones culturales no nacen de cálculos perfectos, sino de la magia salvaje del inconsciente.",
+  "palette": {
+    "ink": "#0d0a0a",
+    "paper": "#f5f0e8",
+    "accent": "#c0392b",
+    "glow": "#e8b84b"
+  },
+  "music": {
+    "title": "(I Can't Get No) Satisfaction",
+    "artist": "The Rolling Stones",
+    "src": "music/satisfaction.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Satisfaction The Rolling Stones",
+      "expectedTitle": "(I Can't Get No) Satisfaction",
+      "expectedArtist": "The Rolling Stones",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/satisfaction/scene-01.png",
+      "prompt": "Authentic 1965 stage photograph of 21-year-old Keith Richards playing an electric guitar under intense stage spotlights with raw energy, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-02.png",
+      "prompt": "A vintage 1965 hotel room at night, a Philips portable tape recorder glowing on the nightstand, an electric guitar leaning against the bed, warm tungsten light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-03.png",
+      "prompt": "Authentic 1965 photograph of young Keith Richards sitting on a hotel bed in the dark holding an acoustic guitar looking tired with messy shaggy hair, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-04.png",
+      "prompt": "A close-up of a hand pressing play on a vintage reel-to-reel tape recorder in 1965, the magnetic tape spooling slowly, morning sunlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-05.png",
+      "prompt": "1965 RCA Studios Hollywood control room photograph, Keith Richards adjusting a vintage Gibson Maestro Fuzz-Tone distortion pedal on the wooden studio floor connected to a Fender amplifier, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-06.png",
+      "prompt": "1965 photograph of 21-year-old Mick Jagger standing in a recording studio with arms crossed looking skeptical and dismissive, moody analog lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-07.png",
+      "prompt": "The Rolling Stones in 1965 having an intense discussion in the studio control room around a mixing console with their manager, voting on releasing the song, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-08.png",
+      "prompt": "A 1965 vintage radio station broadcast booth, an excited radio DJ spinning the Satisfaction 45rpm record on air with glowing ON AIR sign, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/satisfaction/scene-09.png",
+      "prompt": "Close-up macro photograph of a 1965 London Records vinyl single of Satisfaction spinning on a vintage turntable with gold record plaque, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/satisfaction/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/satisfaction/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/satisfaction/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/satisfaction/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/satisfaction/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/satisfaction/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/satisfaction/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/satisfaction/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/satisfaction/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "El riff de guitarra más famoso del rock fue grabado mientras su creador dormía... y casi lo borra al despertar."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Madrugada del 6 de mayo de 1965: En un hotel de Florida, Keith Richards despertó sonámbulo con una melodía urgente."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Tomó a oscuras su grabadora portátil, tocó el riff de cuatro notas y cayó profundamente dormido otra vez."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Por la mañana, la cinta reveló dos minutos de música cruda seguidos de cuarenta minutos de sus propios ronquidos."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En los estudios RCA de Hollywood, Keith conectó un extraño pedal distorsionador Fuzz-Tone para darle fuerza."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Mick Jagger detestaba la grabación por considerarla demasiado comercial e indigna del estatus rebelde de la banda."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Durante una acalorada votación interna, el mánager y los técnicos impusieron su lanzamiento desafiando a Mick y Keith."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Apenas salió al aire, las estaciones de radio colapsaron por las llamadas de millones de jóvenes enloquecidos."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Aquel chiste sonámbulo que casi termina en la papelera se convirtió en el himno definitivo de la historia del rock."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "I'll Be There for You",
+  "artist": "The Rembrandts",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El tema de televisión más famoso de la historia no existía como una canción real... y casi destruye a sus creadores. En 1994, Friends buscaba su canción de apertura tras ser rechazados por R.E.M. a última hora. Llamados de urgencia, The Rembrandts compusieron una maqueta de solo 45 segundos para los créditos iniciales. Durante la sesión, los famosos cuatro aplausos del intro requirieron múltiples tomas improvisadas con los creadores de la serie. Al volverse viral la serie, los DJs de radio unieron el fragmento en bucle para poder transmitir una canción completa que no existía. La disquera obligó al dúo a terminar el tema, deteniendo la producción de su propio álbum alternativo. Aunque les dio fama y millones de copias, el éxito eclipsó su carrera para siempre. La gloria tiene un costo irónico.",
+  "hook": "El tema de televisión más famoso de la historia no existía como una canción real... y casi destruye a sus creadores.",
+  "beats": [
+    "En 1994, Friends buscaba su canción de apertura tras ser rechazados por R.E.M. a última hora.",
+    "Llamados de urgencia, The Rembrandts compusieron una maqueta de solo 45 segundos para los créditos iniciales.",
+    "Durante la sesión, los famosos cuatro aplausos del intro requirieron múltiples tomas improvisadas con los creadores de la serie.",
+    "Al volverse viral la serie, los DJs de radio unieron el fragmento en bucle para poder transmitir una canción completa que no existía.",
+    "La disquera obligó al dúo a terminar el tema, deteniendo la producción de su propio álbum alternativo."
+  ],
+  "outro": "Aunque les dio fama y millones de copias, el éxito eclipsó su carrera para siempre. La gloria tiene un costo irónico.",
+  "palette": {
+    "ink": "#120a1c",
+    "paper": "#faf2e6",
+    "accent": "#2d9cdb",
+    "glow": "#f2c94c"
+  },
+  "music": {
+    "title": "I'll Be There for You",
+    "artist": "The Rembrandts",
+    "src": "music/illbethere.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "I'll Be There for You The Rembrandts",
+      "expectedTitle": "I'll Be There for You (Theme from Friends)",
+      "expectedArtist": "The Rembrandts",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/illbethere/scene-01.png",
+      "prompt": "A realistic 1994 photograph of a vintage box television set glowing in a dark retro living room, displaying the opening scene of a classic 90s sitcom, film grain, nostalgic atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-02.png",
+      "prompt": "A realistic 1994 photograph of busy television executives in a boardroom office, holding storyboards and scripts marked 'Friends', looking stressed, warm office lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-03.png",
+      "prompt": "A close-up photograph of two male musicians laughing and clapping their hands together in front of a vintage studio microphone, warm recording studio lighting, raw acoustic vibes, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-04.png",
+      "prompt": "A close-up photograph of a vintage 90s analog sound mixing board with glowing VU meters and colorful sliders, hands adjusting dials, cozy recording studio ambient, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-05.png",
+      "prompt": "A realistic 1995 photograph of a radio DJ in a late night broadcast booth, surrounded by vinyl records and cart machines, talking into a microphone under soft neon lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-06.png",
+      "prompt": "A close-up photograph of a stack of 1995 music CD cases on a wooden shelf, a booklet of a rock band partially visible, soft natural window light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/illbethere/scene-07.png",
+      "prompt": "A realistic 1995 photograph of a duo of rock musicians playing electric guitars and singing on a dimly lit club stage, backlit by warm spotlight haze, alternative rock concert vibe, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/illbethere/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/illbethere/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/illbethere/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/illbethere/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/illbethere/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/illbethere/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/illbethere/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El tema de televisión más famoso de la historia no existía como una canción real... y casi destruye a sus creadores."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1994, Friends buscaba su canción de apertura tras ser rechazados por R.E.M. a última hora."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Llamados de urgencia, The Rembrandts compusieron una maqueta de solo 45 segundos para los créditos iniciales."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Durante la sesión, los famosos cuatro aplausos del intro requirieron múltiples tomas improvisadas con los creadores de la serie."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al volverse viral la serie, los DJs de radio unieron el fragmento en bucle para poder transmitir una canción completa que no existía."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "La disquera obligó al dúo a terminar el tema, deteniendo la producción de su propio álbum alternativo."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Aunque les dio fama y millones de copias, el éxito eclipsó su carrera para siempre. La gloria tiene un costo irónico."
+    }
+  ]
+}

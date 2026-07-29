@@ -1,0 +1,322 @@
+---
+import type { StoryItem } from '../lib/types';
+
+interface Props {
+  stories: StoryItem[];
+}
+
+const { stories } = Astro.props;
+
+// Prepare a lightweight search index to serialize in the page
+const searchIndex = stories.map(s => ({
+  slug: s.slug,
+  title: s.title,
+  artist: s.artist,
+  songTitle: s.songTitle || '',
+  category: s.category,
+  categoryLabel: s.categoryLabel,
+  coverUrl: s.coverUrl,
+  hook: s.hook || ''
+}));
+---
+
+<!-- Trigger Button for Navbar -->
+<div class="relative flex items-center">
+  <button
+    id="search-trigger-btn"
+    type="button"
+    class="flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-[#161412] hover:bg-[#201d19] border border-[#2e2a24] hover:border-amber-500/50 text-neutral-400 hover:text-neutral-200 transition-all text-xs font-sans group shadow-inner"
+    aria-label="Buscar historias en Acordes Ocultos"
+  >
+    <svg class="w-4 h-4 text-amber-500 group-hover:text-amber-400 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+    </svg>
+    <span class="hidden sm:inline-block font-normal">Buscar en el archivo...</span>
+    <span class="sm:hidden font-normal">Buscar</span>
+    <kbd class="hidden md:inline-flex items-center gap-0.5 px-1.5 py-0.5 text-[10px] font-mono text-neutral-400 bg-[#0d0c0a] border border-[#2b2721] rounded">
+      ⌘K
+    </kbd>
+  </button>
+</div>
+
+<!-- Modal Dialog / Command Palette -->
+<div 
+  id="global-search-modal" 
+  class="fixed inset-0 z-[100] hidden items-start justify-center pt-16 sm:pt-24 px-4 bg-black/80 backdrop-blur-md transition-opacity duration-200"
+  role="dialog"
+  aria-modal="true"
+>
+  <div 
+    id="search-dialog-panel"
+    class="relative w-full max-w-2xl bg-[#141210] border border-[#2f2b25] rounded-2xl shadow-2xl shadow-black/80 overflow-hidden flex flex-col transform transition-all duration-200 scale-95 opacity-0"
+  >
+    <!-- Top Input Bar -->
+    <div class="relative flex items-center border-b border-[#26221d] px-4 py-3.5 bg-[#181613]">
+      <svg class="w-5 h-5 text-amber-500 mr-3 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input
+        id="global-search-input"
+        type="text"
+        placeholder="Buscar por artista, canción, título o anécdota..."
+        class="w-full bg-transparent text-white placeholder-neutral-500 text-sm sm:text-base focus:outline-none font-sans"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <div class="flex items-center gap-2">
+        <button
+          id="search-clear-btn"
+          type="button"
+          class="hidden p-1 text-neutral-400 hover:text-white rounded transition-colors"
+          aria-label="Limpiar búsqueda"
+        >
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+        <button
+          id="search-close-btn"
+          type="button"
+          class="px-2 py-1 text-xs text-neutral-400 hover:text-white bg-[#221f1a] hover:bg-[#2b2721] rounded-md border border-[#332e26] transition-colors"
+        >
+          ESC
+        </button>
+      </div>
+    </div>
+
+    <!-- Results Container -->
+    <div id="search-results" class="max-h-[60vh] overflow-y-auto p-3 space-y-1.5 divide-y divide-[#1e1c18]">
+      <!-- Populated via client-side script -->
+    </div>
+
+    <!-- Footer Controls -->
+    <div class="px-4 py-2.5 bg-[#100f0d] border-t border-[#221f1a] flex items-center justify-between text-[11px] text-neutral-500">
+      <div class="flex items-center gap-3">
+        <span class="flex items-center gap-1">
+          <kbd class="px-1 py-0.5 bg-[#181613] border border-[#2b2721] rounded text-[9px] font-mono">↑</kbd>
+          <kbd class="px-1 py-0.5 bg-[#181613] border border-[#2b2721] rounded text-[9px] font-mono">↓</kbd>
+          <span>Navegar</span>
+        </span>
+        <span class="flex items-center gap-1">
+          <kbd class="px-1 py-0.5 bg-[#181613] border border-[#2b2721] rounded text-[9px] font-mono">↵</kbd>
+          <span>Abrir</span>
+        </span>
+      </div>
+      <div id="search-stats" class="text-amber-500/80 font-medium">
+        <!-- Results count -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<script is:inline define:vars={{ searchIndex }}>
+  (function() {
+    const triggerBtn = document.getElementById('search-trigger-btn');
+    const modal = document.getElementById('global-search-modal');
+    const panel = document.getElementById('search-dialog-panel');
+    const input = document.getElementById('global-search-input');
+    const clearBtn = document.getElementById('search-clear-btn');
+    const closeBtn = document.getElementById('search-close-btn');
+    const resultsContainer = document.getElementById('search-results');
+    const statsContainer = document.getElementById('search-stats');
+
+    let activeIndex = -1;
+    let currentResults = [];
+
+    function normalize(str) {
+      return (str || '')
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function openModal() {
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+      setTimeout(() => {
+        panel.classList.remove('scale-95', 'opacity-0');
+        panel.classList.add('scale-100', 'opacity-100');
+        input.focus();
+        renderResults(input.value.trim());
+      }, 20);
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      panel.classList.remove('scale-100', 'opacity-100');
+      panel.classList.add('scale-95', 'opacity-0');
+      setTimeout(() => {
+        modal.classList.remove('flex');
+        modal.classList.add('hidden');
+        document.body.style.overflow = '';
+      }, 150);
+    }
+
+    function highlightMatch(text, query) {
+      if (!query || !text) return text;
+      const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      return text.replace(regex, '<span class="text-amber-400 font-semibold bg-amber-500/20 px-0.5 rounded">$1</span>');
+    }
+
+    function renderResults(query) {
+      const q = normalize(query);
+      if (q) {
+        clearBtn.classList.remove('hidden');
+      } else {
+        clearBtn.classList.add('hidden');
+      }
+
+      if (!q) {
+        // Show featured/recent stories as default
+        currentResults = searchIndex.slice(0, 5);
+        statsContainer.textContent = `${searchIndex.length} crónicas documentadas`;
+      } else {
+        currentResults = searchIndex.filter(item => {
+          return (
+            normalize(item.title).includes(q) ||
+            normalize(item.artist).includes(q) ||
+            normalize(item.songTitle).includes(q) ||
+            normalize(item.categoryLabel).includes(q) ||
+            normalize(item.hook).includes(q)
+          );
+        }).slice(0, 10);
+        statsContainer.textContent = `${currentResults.length} resultado${currentResults.length === 1 ? '' : 's'}`;
+      }
+
+      activeIndex = currentResults.length > 0 ? 0 : -1;
+
+      if (currentResults.length === 0) {
+        resultsContainer.innerHTML = `
+          <div class="py-12 text-center text-neutral-400">
+            <svg class="w-10 h-10 mx-auto text-neutral-600 mb-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <p class="text-sm font-medium text-neutral-300">No encontramos ningún relato para «${query}»</p>
+            <p class="text-xs text-neutral-500 mt-1">Prueba buscando por el nombre del artista, banda o canción.</p>
+          </div>
+        `;
+        return;
+      }
+
+      const headerTitle = !q 
+        ? '<div class="px-3 pt-2 pb-1 text-[11px] font-semibold uppercase tracking-wider text-neutral-500">Historias Recomendadas</div>' 
+        : '';
+
+      const itemsHtml = currentResults.map((item, index) => {
+        const isActive = index === activeIndex;
+        return `
+          <a
+            href="/historias/${item.slug}"
+            data-index="${index}"
+            class="search-item group flex items-center gap-3.5 p-2.5 rounded-xl transition-all cursor-pointer ${
+              isActive ? 'bg-amber-500/15 border border-amber-500/40 text-white' : 'hover:bg-[#1a1815] text-neutral-300 border border-transparent'
+            }"
+          >
+            <img 
+              src="${item.coverUrl}" 
+              alt="${item.title}" 
+              class="w-12 h-14 object-cover rounded-lg border border-[#2b2721] shrink-0 group-hover:scale-105 transition-transform"
+              loading="lazy"
+            />
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">
+                  ${item.categoryLabel}
+                </span>
+                <span class="text-xs font-semibold text-neutral-300 truncate">
+                  ${highlightMatch(item.artist, query)}
+                </span>
+              </div>
+              <p class="font-serif text-sm font-bold text-white group-hover:text-amber-300 transition-colors truncate">
+                ${highlightMatch(item.title, query)}
+              </p>
+              ${item.songTitle ? `
+                <p class="text-[11px] text-neutral-400 truncate">
+                  Canción: <span class="italic text-neutral-300">«${highlightMatch(item.songTitle, query)}»</span>
+                </p>
+              ` : ''}
+            </div>
+            <div class="shrink-0 text-neutral-600 group-hover:text-amber-400 transition-colors">
+              <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </div>
+          </a>
+        `;
+      }).join('');
+
+      resultsContainer.innerHTML = headerTitle + itemsHtml;
+    }
+
+    function updateActiveItem() {
+      const items = resultsContainer.querySelectorAll('.search-item');
+      items.forEach((item, idx) => {
+        if (idx === activeIndex) {
+          item.classList.add('bg-amber-500/15', 'border-amber-500/40', 'text-white');
+          item.classList.remove('border-transparent');
+          item.scrollIntoView({ block: 'nearest' });
+        } else {
+          item.classList.remove('bg-amber-500/15', 'border-amber-500/40', 'text-white');
+          item.classList.add('border-transparent');
+        }
+      });
+    }
+
+    // Event listeners
+    if (triggerBtn) triggerBtn.addEventListener('click', openModal);
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        input.value = '';
+        renderResults('');
+        input.focus();
+      });
+    }
+
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) closeModal();
+    });
+
+    input.addEventListener('input', (e) => {
+      renderResults(e.target.value.trim());
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (currentResults.length > 0) {
+          activeIndex = (activeIndex + 1) % currentResults.length;
+          updateActiveItem();
+        }
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (currentResults.length > 0) {
+          activeIndex = (activeIndex - 1 + currentResults.length) % currentResults.length;
+          updateActiveItem();
+        }
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (activeIndex >= 0 && activeIndex < currentResults.length) {
+          window.location.href = `/historias/${currentResults[activeIndex].slug}`;
+        }
+      } else if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
+
+    // Global keyboard shortcut: Cmd+K / Ctrl+K / '/'
+    window.addEventListener('keydown', (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        if (modal.classList.contains('hidden')) {
+          openModal();
+        } else {
+          closeModal();
+        }
+      } else if (e.key === '/' && document.activeElement !== input && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+        e.preventDefault();
+        openModal();
+      }
+    });
+  })();
+</script>

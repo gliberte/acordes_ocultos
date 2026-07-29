@@ -1,0 +1,135 @@
+{
+  "title": "El Himno de Duelo Disfrazado de Éxito Pop",
+  "artist": "The Pretenders",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En junio de 1982, el guitarrista y cofundador de The Pretenders, James Honeyman-Scott, murió trágicamente con tan solo 25 años. Apenas dos días antes, la banda había tenido que despedir al bajista Pete Farndon. De la noche a la mañana, Chrissie Hynde se encontró sola, destrozada y con el corazón en pedazos. Sin embargo, la implacable maquinaria discográfica no le dio tiempo para el duelo: le exigieron volver al estudio de inmediato. Sintiéndose forzada a trabajar como una prisionera encadenada a trabajos forzados, Chrissie compuso 'Back on the Chain Gang'. Mientras el ritmo de la batería y el coro suenan radiantes y pegadizos, cada verso es una carta de amor desgarradora a su amigo caído. El tema se convirtió en el mayor éxito de la banda en Estados Unidos, transformando una herida mortal en una obra maestra de inmortalidad.",
+  "hook": "Detrás de este ritmo luminoso y bailable de los 80 se esconde una de las historias de duelo más desgarradoras del rock.",
+  "beats": [
+    "1981: James Honeyman-Scott brillaba como el genio de la guitarra que definió el sonido único de The Pretenders.",
+    "Junio de 1982: Con apenas 25 años, James falleció repentinamente, dejando a la banda completamente devastada.",
+    "Sin darle tiempo para llorar a su amigo, la discográfica presionó a Chrissie Hynde para entregar nueva música.",
+    "Acorralada y con el alma en pedazos, sintió que los contratos la ataban como a un prisionero en trabajos forzados.",
+    "En una libreta y entre lágrimas, transformó esa opresión en la metáfora de 'la cuadrilla de encadenados'.",
+    "En AIR Studios de Londres, cantó frente al micrófono con una vulnerabilidad que erizó la piel de todos.",
+    "El guitarrista de sesión Billy Bremner grabó el solo nota por nota, exactamente como lo habría hecho James.",
+    "Lanzada en 1982, escaló al Top 5 mundial, convirtiendo el dolor de una pérdida en un himno eterno de amor."
+  ],
+  "outro": "A veces la música es el único puente capaz de convertir la ausencia más amarga en una luz que nunca se apaga.",
+  "palette": {
+    "ink": "#0c0e14",
+    "paper": "#f5f2eb",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Back on the Chain Gang",
+    "artist": "The Pretenders",
+    "src": "music/the-pretenders-back-on-the-chain-gang.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Back on the Chain Gang The Pretenders",
+      "expectedTitle": "Back on the Chain Gang",
+      "expectedArtist": "The Pretenders",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-01.png",
+      "prompt": "Authentic 1982 backstage photograph of Chrissie Hynde sitting alone on a vintage leather sofa looking down with melancholic expression, holding a vintage 1979 polaroid photo of her friend James Honeyman-Scott, warm moody tungsten backstage lights, leather jacket, dark eyeliner, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-02.png",
+      "prompt": "Cinematic archival 1981 stage photograph of young guitarist James Honeyman-Scott passionately playing his Fender Telecaster guitar under stage spotlights with The Pretenders, genuine 1980s rock aesthetic, warm colors, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-03.png",
+      "prompt": "Still life macro photograph of 1982 British music magazines (NME and Melody Maker) with poignant cover headlines: 'JAMES HONEYMAN-SCOTT (1956-1982): TRAGEDY STRIKES PRETENDERS' resting on a studio wooden console next to a cassette tape, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-04.png",
+      "prompt": "Authentic 1982 photograph of 30-year-old rock singer Chrissie Hynde sitting alone at a desk in a moody London hotel room, looking exhausted and grieving, surrounded by signed record contracts and legal papers, cigarette smoke, dim atmospheric tungsten lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-05.png",
+      "prompt": "Intimate 1982 photograph of Chrissie Hynde writing lyrics in a spiral notebook under a single vintage lamp in a dark London apartment, a tear on her cheek, acoustic guitar leaning against her chair, melancholic and determined expression, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-06.png",
+      "prompt": "Authentic 1982 London recording studio photograph (AIR Studios) of Chrissie Hynde standing alone behind a Neumann U87 studio microphone, headphones on, singing with fierce vulnerability and emotional tears, warm studio ambiance, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-07.png",
+      "prompt": "1982 recording studio close-up of session guitarist Billy Bremner playing a sunburst Gibson electric guitar in the live room, studio lights reflecting on guitar lacquer, capturing the signature melodic arpeggio of Back on the Chain Gang, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-08.png",
+      "prompt": "Dynamic 1983 concert photograph of Chrissie Hynde leading the reborn Pretenders live on an arena stage, smiling with resilience into the microphone holding her Telecaster guitar, audience hands reaching up, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-pretenders-back-on-the-chain-gang/scene-09.png",
+      "prompt": "Macro cinematic close-up photograph of an original 1982 vinyl 7-inch 45 RPM single record on Real Records / Sire Records spinning on a retro wooden turntable under warm lamp light, the round yellow label clearly displays in vintage bold typography: 'THE PRETENDERS' and 'BACK ON THE CHAIN GANG', phonograph needle in groove, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/the-pretenders-back-on-the-chain-gang/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Detrás de este ritmo luminoso y bailable de los 80 se esconde una de las historias de duelo más desgarradoras del rock."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1981: James Honeyman-Scott brillaba como el genio de la guitarra que definió el sonido único de The Pretenders."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Junio de 1982: Con apenas 25 años, James falleció repentinamente, dejando a la banda completamente devastada."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Sin darle tiempo para llorar a su amigo, la discográfica presionó a Chrissie Hynde para entregar nueva música."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Acorralada y con el alma en pedazos, sintió que los contratos la ataban como a un prisionero en trabajos forzados."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En una libreta y entre lágrimas, transformó esa opresión en la metáfora de 'la cuadrilla de encadenados'."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En AIR Studios de Londres, cantó frente al micrófono con una vulnerabilidad que erizó la piel de todos."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El guitarrista de sesión Billy Bremner grabó el solo nota por nota, exactamente como lo habría hecho James."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Lanzada en 1982, escaló al Top 5 mundial, convirtiendo el dolor de una pérdida en un himno eterno de amor."
+    }
+  ]
+}

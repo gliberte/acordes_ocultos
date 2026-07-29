@@ -1,0 +1,135 @@
+{
+  "title": "El Mito y la Sombra de Marilyn",
+  "artist": "Marilyn Monroe",
+  "durationSeconds": 90,
+  "topic": "destellos-de-gloria",
+  "anecdote": "Marilyn Monroe fue el mayor símbolo del cine y la cultura pop del siglo XX. Descubierta en 1944 mientras trabajaba en una fábrica de paracaídas, dejó atrás a Norma Jeane para transformarse en Marilyn Monroe. En 1953 se consagró mundialmente con 'Los caballeros las prefieren rubias' y la histórica portada de Playboy. En 1954 su boda con Joe DiMaggio se fracturó por los celos del deportista tras la famosa escena del metro. Viajó a Corea para cantar ante 100.000 soldados en un acto de entrega pura. Rebelándose contra la industria, fundó su propia productora y se casó con el dramaturgo Arthur Miller en 1956. Ganadora del Globo de Oro por 'Some Like It Hot' en 1959 y autora del legendario 'Happy Birthday' a John F. Kennedy en 1962, su trágico fallecimiento el 4 de agosto de 1962 a los 36 años inmortalizó su leyenda para siempre.",
+  "hook": "Marilyn Monroe fue el mayor ícono del siglo XX, una estrella cuya inmensa gloria ocultaba una profunda búsqueda personal.",
+  "beats": [
+    "1944: Trabajando en una fábrica militar a los 18 años fue descubierta por un fotógrafo, dejando atrás a Norma Jeane.",
+    "1953: Su carisma arrollador en 'Los caballeros las prefieren rubias' la consagró como el mayor fenómeno del planeta.",
+    "1954: Su boda con Joe DiMaggio duró apenas 9 meses; la fractura estalló con la caótica escena del vestido en el metro.",
+    "1954: En el gélido invierno de Corea, cantó ante 100.000 soldados en uno de los momentos más felices de su vida.",
+    "1956: Se mudó a Nueva York para estudiar en el Actors Studio y se casó con Arthur Miller buscando ser valorada como actriz.",
+    "1959: Conquistó a la crítica y ganó el Globo de Oro por su deslumbrante papel en la comedia 'Some Like It Hot'.",
+    "1962: En el Madison Square Garden entonó su histórico 'Happy Birthday' al presidente Kennedy en una noche inolvidable.",
+    "1962: El 4 de agosto de 1962, con solo 36 años, su luz se apagó en silencio, sellando su misterio para toda la eternidad."
+  ],
+  "outro": "Una estrella que ardió con tanta fuerza que su destello de belleza y vulnerabilidad sigue iluminando la historia.",
+  "palette": {
+    "ink": "#12080a",
+    "paper": "#fbf4ee",
+    "accent": "#d90429",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "Candle in the Wind",
+    "artist": "Elton John",
+    "src": "music/elton-john-candle-in-the-wind.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Candle in the Wind Elton John",
+      "expectedTitle": "Candle in the Wind",
+      "expectedArtist": "Elton John",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/marilyn-monroe/scene-01.png",
+      "prompt": "Authentic 1950s Hollywood premiere photograph of radiant 27-year-old Marilyn Monroe smiling at fans in an elegant white gown under golden spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-02.png",
+      "prompt": "1944 photograph of 18-year-old Norma Jeane Baker with natural brunette curly hair inspecting military parachutes inside Radioplane factory, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-03.png",
+      "prompt": "Authentic 1953 photograph of 27-year-old Marilyn Monroe in her iconic pink satin dress singing Diamonds Are a Girl's Best Friend on a glamorous movie set, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-04.png",
+      "prompt": "Iconic 1954 New York street scene of 28-year-old Marilyn Monroe holding down her blowing white dress over a subway grate on the set of The Seven Year Itch, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-05.png",
+      "prompt": "Authentic February 1954 photograph of Marilyn Monroe in a glamorous sparkling purple spaghetti-strap dress standing on an outdoor stage smiling radiant in the snow, performing for thousands of cheering American soldiers in Korea, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-06.png",
+      "prompt": "1956 photograph of 30-year-old Marilyn Monroe sitting attentively in a New York Actors Studio classroom alongside playwright husband Arthur Miller, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-07.png",
+      "prompt": "Glamorous 1959 photograph of Marilyn Monroe playing the ukulele and singing as Sugar Kane on the beach film set of Some Like It Hot, beautiful vintage Florida atmosphere, warm sunlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-08.png",
+      "prompt": "Historic May 19 1962 photograph of 36-year-old Marilyn Monroe in her sparkly Jean Louis crystal dress singing Happy Birthday to JFK at Madison Square Garden stage, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/marilyn-monroe/scene-09.png",
+      "prompt": "Sober, respectful 1962 tribute photograph of a black-and-white portrait of 36-year-old Marilyn Monroe surrounded by white roses and a single flickering candle in a quiet room, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/marilyn-monroe/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/marilyn-monroe/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/marilyn-monroe/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/marilyn-monroe/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/marilyn-monroe/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/marilyn-monroe/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/marilyn-monroe/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/marilyn-monroe/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/marilyn-monroe/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Marilyn Monroe fue el mayor ícono del siglo XX, una estrella cuya inmensa gloria ocultaba una profunda búsqueda personal."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1944: Trabajando en una fábrica militar a los 18 años fue descubierta por un fotógrafo, dejando atrás a Norma Jeane."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "1953: Su carisma arrollador en 'Los caballeros las prefieren rubias' la consagró como el mayor fenómeno del planeta."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "1954: Su boda con Joe DiMaggio duró apenas 9 meses; la fractura estalló con la caótica escena del vestido en el metro."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "1954: En el gélido invierno de Corea, cantó ante 100.000 soldados en uno de los momentos más felices de su vida."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "1956: Se mudó a Nueva York para estudiar en el Actors Studio y se casó con Arthur Miller buscando ser valorada como actriz."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "1959: Conquistó a la crítica y ganó el Globo de Oro por su deslumbrante papel en la comedia 'Some Like It Hot'."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "1962: En el Madison Square Garden entonó su histórico 'Happy Birthday' al presidente Kennedy en una noche inolvidable."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "1962: El 4 de agosto de 1962, con solo 36 años, su luz se apagó en silencio, sellando su misterio para toda la eternidad."
+    }
+  ]
+}

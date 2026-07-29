@@ -1,0 +1,9 @@
+/public/
+/out/
+/articles/
+/scripts/
+/src/
+/.agents/
+/node_modules/
+/.env*
+.DS_Store

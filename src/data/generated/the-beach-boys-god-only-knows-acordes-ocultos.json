@@ -1,0 +1,181 @@
+{
+  "title": "La Canción Sagrada que las Radios Intentaron Censurar",
+  "artist": "The Beach Boys",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1966, en plena ebullición del pop psicodélico, Brian Wilson decidió componer la que consideraba su obra cumbre: God Only Knows. Sin embargo, pronunciar la palabra Dios en el título de una canción pop secular era un tabú absoluto en la América conservadora. Brian y el letrista Tony Asher temían un boicot radial total; de hecho, decenas de emisoras del Bible Belt censuraron el tema de inmediato y Capitol Records, temerosa, lo relegó a la cara B del sencillo Wouldnt It Be Nice. Dentro de la banda, Mike Love atacó furioso la dirección sinfónica acusándolo de hacer música para los oídos de un perro. Con The Wrecking Crew, un corno francés y un acordeón, Brian forjó una armonía inmortal. Pero con una humildad conmovedora, sintió que su voz no era lo suficientemente pura y le entregó el tema a su hermano menor Carl, de apenas 19 años. En Londres, Paul McCartney escuchó el acetato entre lágrimas y la bautizó como la mejor canción jamás escrita.",
+  "hook": "En 1966, una sola palabra en el título de esta canción bastó para que las cadenas de radio exigieran vetar el disco de inmediato.",
+  "beats": [
+    "En 1966, aislado del mundo en su piano de Beverly Hills, Brian Wilson perseguía obsesivamente la melodía de su vida.",
+    "Junto al joven letrista Tony Asher escribió en un bloc amarillo un inicio desconcertante: Quizá no siempre te ame.",
+    "Pero nombrar a Dios en el título de una canción pop secular desató la furia de las radios más conservadoras.",
+    "En el estudio, Mike Love estalló enfurecido contra el nuevo sonido sinfónico: ¿Quién va a oír esto? ¿Los oídos de un perro?",
+    "Ignorando los gritos, Brian convocó a The Wrecking Crew e introdujo un corno francés, acordeón y un bajo ingrávido.",
+    "Con una humildad desgarradora, Brian admitió que su voz era demasiado impura y le confió el tema a su hermano Carl, de 19 años.",
+    "En Londres, Paul McCartney escuchó el acetato a solas y rompió a llorar, declarando que era la mejor canción jamás escrita.",
+    "Pese al boicot y el veto en Estados Unidos, God Only Knows escaló al puesto 2 en Reino Unido y cambió la música para siempre.",
+    "Dos hermanos que desafiaron a la censura para tocar lo divino. ¿Qué emoción te provoca esta obra maestra?"
+  ],
+  "outro": "Una obra divina nacida del tabú y la devoción fraternal. ¿Qué sientes al escuchar God Only Knows?",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#fdfbf7",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "God Only Knows",
+    "artist": "The Beach Boys",
+    "src": "music/the-beach-boys-god-only-knows.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "God Only Knows The Beach Boys",
+      "expectedTitle": "God Only Knows",
+      "expectedArtist": "The Beach Boys",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-01.png",
+      "prompt": "Authentic 1966 archival documentary photograph of 23-year-old Brian Wilson sitting alone at a grand piano inside his sunlit Beverly Hills home, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-02.png",
+      "prompt": "Authentic 1966 photograph of Brian Wilson and young lyricist Tony Asher leaning over a yellow legal notepad writing lyrics to God Only Knows, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-03.png",
+      "prompt": "Archival 1966 radio station directors wooden desk with official memorandum reading RADIO BROADCAST NOTICE - RESTRICTED PLAYLIST and stamp BANNED FROM AIRPLAY - GOD ONLY KNOWS, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-04.png",
+      "prompt": "Intense 1966 recording studio confrontation inside Western Studio: Mike Love shouting at Brian Wilson beside the mixing board and tape reels, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-05.png",
+      "prompt": "Authentic 1966 recording session of The Wrecking Crew tracking God Only Knows with French horn, Carol Kaye on bass and accordion, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-06.png",
+      "prompt": "Breathtaking 1966 documentary photograph of 19-year-old Carl Wilson singing lead vocals for God Only Knows into a Neumann U47 microphone with closed eyes, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-07.png",
+      "prompt": "Authentic 1966 documentary photograph of 24-year-old Paul McCartney wiping a tear in a rainy London hotel suite holding test acetate of God Only Knows, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-08.png",
+      "prompt": "Archival 1966 still-life of Pet Sounds Capitol Records LP album with British music magazines NME and Melody Maker praising Brian Wilson and UK chart 2, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-09.png",
+      "prompt": "Warm 1966 documentary photograph of brothers Brian Wilson and Carl Wilson sharing an emotional embrace inside the Western Studio control booth after the final mix playback, vertical 9:16 aspect ratio."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/the-beach-boys-god-only-knows-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1966, aislado del mundo en su piano de Beverly Hills, Brian Wilson perseguía obsesivamente la melodía de su vida."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Junto al joven letrista Tony Asher escribió en un bloc amarillo un inicio desconcertante: Quizá no siempre te ame."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Pero nombrar a Dios en el título de una canción pop secular desató la furia de las radios más conservadoras."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En el estudio, Mike Love estalló enfurecido contra el nuevo sonido sinfónico: ¿Quién va a oír esto? ¿Los oídos de un perro?"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Ignorando los gritos, Brian convocó a The Wrecking Crew e introdujo un corno francés, acordeón y un bajo ingrávido."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Con una humildad desgarradora, Brian admitió que su voz era demasiado impura y le confió el tema a su hermano Carl, de 19 años."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En Londres, Paul McCartney escuchó el acetato a solas y rompió a llorar, declarando que era la mejor canción jamás escrita."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Pese al boicot y el veto en Estados Unidos, God Only Knows escaló al puesto 2 en Reino Unido y cambió la música para siempre."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Dos hermanos que desafiaron a la censura para tocar lo divino. ¿Qué emoción te provoca esta obra maestra?"
+    }
+  ]
+}

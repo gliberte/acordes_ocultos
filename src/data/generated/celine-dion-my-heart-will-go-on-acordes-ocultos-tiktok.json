@@ -1,0 +1,95 @@
+{
+  "title": "La Maqueta Prohibida",
+  "artist": "Céline Dion",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1997, con el rodaje de Titanic amenazado por sobrecostes astronómicos, James Cameron prohibió terminantemente incluir canciones pop comerciales en la película. Desafiando su veto, el compositor James Horner escribió en secreto «My Heart Will Go On» junto a Will Jennings. Cuando se la mostraron a Céline Dion en Nueva York, la cantante estaba enferma con cólicos y se negó a cantarla por parecerle cursi. Su esposo René la convenció de hacer solo una pasada de cortesía: Céline bebió un café negro, se paró ante el micrófono y grabó una sola toma improvisada que erizó a los técnicos. Aquella maqueta clandestina que Horner llevó en el bolsillo jamás se regrabó: fue la que conmovió a Cameron, ganó el Oscar y vendió 18 millones de discos.",
+  "hook": "James Cameron había prohibido canciones pop en Titanic... pero una maqueta grabada a escondidas y en una sola toma cambió la historia para siempre.",
+  "beats": [
+    "En 1996, el rodaje de Titanic en México se desbordaba en sobrecostes y los estudios auguraban una quiebra histórica.",
+    "Bajo una presión brutal, James Cameron vetó cualquier balada pop comercial para los créditos finales.",
+    "En secreto, el compositor James Horner desafió el veto y compuso una melodía clandestina al piano.",
+    "Al escucharla en un hotel de Nueva York, Céline Dion la rechazó por considerarla cursi y pasada de moda.",
+    "Su esposo René le rogó grabar una sola maqueta rápida de cortesía antes de marcharse a casa.",
+    "Con un café negro y frente al micrófono, Céline grabó una sola toma improvisada que erizó a los ingenieros.",
+    "Horner llevó el casete en su chaqueta durante un mes, esperando el momento exacto para mostrárselo a Cameron.",
+    "Al escuchar la cinta en la penumbra, Cameron rompió a llorar y comprendió que tenía entre manos una joya.",
+    "Aquella maqueta única ganó el Oscar y vendió 18 millones de copias. A veces, el milagro no se ensaya."
+  ],
+  "outro": "Una sola toma clandestina que conquistó el planeta. ¿Qué sientes hoy al escuchar la voz de Céline Dion en Titanic?",
+  "palette": {
+    "ink": "#0b132b",
+    "paper": "#f0f8ff",
+    "accent": "#0284c7",
+    "glow": "#38bdf8"
+  },
+  "music": {
+    "title": "My Heart Will Go On",
+    "artist": "Céline Dion",
+    "src": "music/celine-dion-my-heart-will-go-on.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "My Heart Will Go On Celine Dion",
+      "expectedTitle": "My Heart Will Go On",
+      "expectedArtist": "Céline Dion",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-01.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-02.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-03.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-04.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-05.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-06.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-07.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-08.png"
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-09.png"
+    }
+  ],
+  "visuals": [
+    { "start": 0, "end": 6.66, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 6.66, "end": 13.33, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 13.33, "end": 20.0, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 20.0, "end": 26.66, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 26.66, "end": 33.33, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 33.33, "end": 40.0, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 40.0, "end": 46.66, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 46.66, "end": 53.33, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 53.33, "end": 60.0, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    { "start": 0, "end": 6.66, "text": "En 1996, el rodaje de Titanic en México se desbordaba en sobrecostes y los estudios auguraban una quiebra histórica." },
+    { "start": 6.66, "end": 13.33, "text": "Bajo una presión brutal, James Cameron vetó cualquier balada pop comercial para los créditos finales." },
+    { "start": 13.33, "end": 20.0, "text": "En secreto, el compositor James Horner desafió el veto y compuso una melodía clandestina al piano." },
+    { "start": 20.0, "end": 26.66, "text": "Al escucharla en un hotel de Nueva York, Céline Dion la rechazó por considerarla cursi y pasada de moda." },
+    { "start": 26.66, "end": 33.33, "text": "Su esposo René le rogó grabar una sola maqueta rápida de cortesía antes de marcharse a casa." },
+    { "start": 33.33, "end": 40.0, "text": "Con un café negro y frente al micrófono, Céline grabó una sola toma improvisada que erizó a los ingenieros." },
+    { "start": 40.0, "end": 46.66, "text": "Horner llevó el casete en su chaqueta durante un mes, esperando el momento exacto para mostrárselo a Cameron." },
+    { "start": 46.66, "end": 53.33, "text": "Al escuchar la cinta en la penumbra, Cameron rompió a llorar y comprendió que tenía entre manos una joya." },
+    { "start": 53.33, "end": 60.0, "text": "Aquella maqueta única ganó el Oscar y vendió 18 millones de copias. A veces, el milagro no se ensaya." }
+  ],
+  "publication": {
+    "description": "La Maqueta Prohibida: James Cameron había vetado las canciones pop en Titanic... pero una toma clandestina cambió la historia.\n\nEn 1997, con Titanic al borde del desastre financiero, James Cameron prohibió baladas comerciales. El compositor James Horner conspiró en secreto con Will Jennings para escribir «My Heart Will Go On». Céline Dion, enferma con cólicos en Nueva York, se negó a cantarla; pero su esposo René la convenció de hacer una sola prueba de cortesía. Céline bebió un café negro, cerró los ojos frente al micrófono y grabó una sola toma irrepetible. Aquella maqueta que Horner llevó oculta en el bolsillo jamás fue regrabada: ganó 11 premios Oscar y vendió 18 millones de discos.\n\n¿Qué recuerdos te despierta volver a escuchar la voz de Céline Dion en Titanic?\n\n#CelineDion #MyHeartWillGoOn #Titanic #JamesCameron #AcordesOcultos #HistoriaDelCine #BandasSonoras"
+  }
+}

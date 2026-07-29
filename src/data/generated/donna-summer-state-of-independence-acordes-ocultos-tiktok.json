@@ -1,0 +1,186 @@
+{
+  "title": "El Ensayo Secreto de «We Are the World»",
+  "artist": "Donna Summer",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1982, buscando escapar de la etiqueta de símbolo sexual del disco, Donna Summer grabó con Quincy Jones una mística canción de Jon Anderson y Vangelis. Para el clímax, Jones convocó a medianoche a Michael Jackson, Stevie Wonder, Lionel Richie y Dionne Warwick. Bajo la consigna «dejen sus egos en la puerta», crearon sin saberlo la génesis sonora y humana que tres años después daría vida a «We Are the World».",
+  "hook": "Tres años antes de «We Are the World», Michael Jackson y Stevie Wonder grabaron en secreto el ensayo general de la historia.",
+  "beats": [
+    "Agotada de ser un objeto del disco, Donna Summer buscaba redimir su alma en la música.",
+    "Jon Anderson de Yes y Vangelis crearon en Londres una extraña plegaria cósmica.",
+    "Quincy Jones descubrió la maqueta y vio un fuego de góspel listo para arder.",
+    "Quincy tomó a Donna y transformó aquel tema en un himno de auténtica emancipación.",
+    "Para el coro final, Jones tomó el teléfono e hizo un llamado histórico a medianoche.",
+    "Michael Jackson, Stevie Wonder, Lionel Richie y Dionne Warwick se unieron en un solo micrófono.",
+    "La armonía fue tan sobrecogedora que Donna Summer no pudo contener sus lágrimas de éxtasis.",
+    "Allí nació la regla «dejen sus egos afuera», la semilla exacta de «We Are the World».",
+    "El mayor coro de la historia nació antes de lo que creías. ¿Conocías esta joya oculta?"
+  ],
+  "outro": "El mayor coro de la historia nació antes de lo que creías. ¿Conocías esta joya oculta?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fdfaf3",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "State of Independence",
+    "artist": "Donna Summer",
+    "src": "music/donna-summer-state-of-independence-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "State of Independence Donna Summer",
+      "expectedTitle": "State of Independence",
+      "expectedArtist": "Donna Summer",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/donna-summer-state-of-independence-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Cinematic vertical 9:16 portrait of legendary African-American singer Donna Summer in 1982, natural voluminous curly black hair, warm radiant smile with deep soulful expressive eyes, wearing an elegant cream-colored studio silk blouse, soft warm golden amber rim lighting, rich analog 35mm film grain, Hasselblad portrait photography, perfectly centered composition, safe bottom area for typography.",
+  "assets": [
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-01.png",
+      "prompt": "1981 backstage dressing room: Donna Summer, keeping identical facial features, curly black hair and warm skin tone as the reference woman, sitting quietly in front of a vintage vanity mirror with warm incandescent bulbs, looking weary and contemplative. In the background, sequined disco gowns hang neglected. Melancholic yet determined expression, soft cinematic chiaroscuro lighting, authentic 35mm film grain, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-02.png",
+      "prompt": "London recording studio 1981: Prog-rock singer Jon Anderson of Yes, with shoulder-length feathered brown hair, standing next to Greek composer Vangelis with his full dark beard and vest, surrounded by massive vintage analog synthesizers, Yamaha CS-80, modular synth racks with patch cables and glowing VU meters. Moody artistic atmosphere, hazy atmospheric blue and amber lighting, authentic 1980s music documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-03.png",
+      "prompt": "Westlake Audio recording studio Los Angeles 1982: Legendary African-American music producer Quincy Jones in 1982, age 49, with his neat mustache, stylish tortoiseshell glasses and casual brown cardigan, sitting at a massive analog Neve mixing console with glowing sliders and meters, listening with deep musical concentration, large studio monitor speakers and reel-to-reel tape machines in background, warm amber studio lighting, 35mm documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-04.png",
+      "prompt": "Westlake Studios recording live room 1982: Donna Summer and producer Quincy Jones collaborating by a Steinway grand piano, both preserving their exact faces, hair and features from the reference images. Donna Summer leaning over the piano with a pencil and handwritten musical score, smiling warmly, while Quincy Jones in his glasses and cardigan gestures with inspiring passion explaining the gospel harmony arrangement. Warm natural studio woodwork, acoustic panels, vintage 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-05.png",
+      "prompt": "Studio control booth late at night 1982: Producer Quincy Jones, maintaining the exact same face, glasses, mustache and cardigan as the reference image, holding a vintage rotary desk telephone to his ear with a confident visionary grin. On the wooden desk beside him is a legal pad with handwritten notes and phone numbers, coffee cups, and studio tape boxes. Dim moody studio lighting, warm tungsten desk lamp glow, authentic 1982 35mm documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-06.png",
+      "prompt": "Westlake Studios 1982: The legendary secret all-star choir gathered closely around studio Neumann microphones singing with joyful passion. In the center, a youthful 24-year-old Michael Jackson in his iconic 1982 Thriller era with wet-look jheri curl hairstyle and red jacket singing with a bright smile, right next to Stevie Wonder wearing dark sunglasses and 1982 beaded braids, alongside Lionel Richie with his signature mustache and Dionne Warwick, all sharing headphones and singing harmonies together. Warm studio wood walls, overhead boom mics, authentic 1982 Kodak 35mm documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-07.png",
+      "prompt": "Westlake vocal isolation booth 1982: Donna Summer, preserving her exact face, voluminous curly black hair and features, wearing studio monitor headphones, singing with eyes closed into a vintage Neumann U67 tube microphone. Single tear of spiritual catharsis and immense joy rolling down her glowing cheek, hand resting over her chest, soft ambient warm rim lighting, emotionally transcendent 35mm film portrait, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-08.png",
+      "prompt": "Westlake Recording Studios door interior 1982: A vintage wooden studio door with a famous handwritten cardboard sign taped to it reading 'Leave your egos at the door'. Next to the door, stacks of 2-inch multitrack master tape boxes labeled 'Thriller' and 'Donna Summer - Geffen'. Golden California afternoon studio light through window blinds, authentic 1982 archival documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-09.png",
+      "prompt": "Triumphant concert stage 1982: Donna Summer, maintaining her exact beautiful facial features, radiant curls and warm expression, standing under glorious golden stage spotlights with both arms open wide to the sky in supreme artistic and spiritual triumph, ethereal stage mist, awe-inspiring 1982 35mm live concert photography, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/donna-summer-state-of-independence-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "Agotada de ser un objeto del disco, Donna Summer buscaba redimir su alma en la música."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Jon Anderson de Yes y Vangelis crearon en Londres una extraña plegaria cósmica."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "Quincy Jones descubrió la maqueta y vio un fuego de góspel listo para arder."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Quincy tomó a Donna y transformó aquel tema en un himno de auténtica emancipación."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Para el coro final, Jones tomó el teléfono e hizo un llamado histórico a medianoche."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Michael Jackson, Stevie Wonder, Lionel Richie y Dionne Warwick se unieron en un solo micrófono."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "La armonía fue tan sobrecogedora que Donna Summer no pudo contener sus lágrimas de éxtasis."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Allí nació la regla «dejen sus egos afuera», la semilla exacta de «We Are the World»."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "El mayor coro de la historia nació antes de lo que creías. ¿Conocías esta joya oculta?"
+    }
+  ],
+  "publication": {
+    "description": "Tres años antes de que el mundo se conmoviera con «We Are the World», el coro más irrepetible de la historia de la música ya se había reunido en el más absoluto de los secretos.\n\nEn 1982, Donna Summer estaba agotada. La industria musical la había encasillado como el símbolo sexual de la era disco, pero su espíritu reclamaba una liberación auténtica. Al unirse con Quincy Jones, el legendario productor rescató una composición mística creada en Londres por Jon Anderson (de Yes) y el visionario griego Vangelis: «State of Independence». Quincy la desnudó por completo para convertirla en una plegaria celestial de góspel y sintetizadores.\n\nPero lo más extraordinario ocurrió al caer la noche en los estudios Westlake. Quincy tomó el teléfono y convocó a sus amigos: un jovencísimo Michael Jackson en plena grabación de Thriller, Stevie Wonder, Lionel Richie y Dionne Warwick entraron juntos a la sala. Bajo la legendaria consigna de «dejar los egos en la puerta», compartieron los micrófonos en un clímax vocal tan sobrecogedor que Donna terminó de rodillas en llanto. Aquella noche no solo nació una obra maestra espiritual; se forjó el milagro colectivo que tres años más tarde salvaría millones de vidas.\n\n¿Conocías la existencia de este himno irrepetible?\n\n#DonnaSummer #QuincyJones #MichaelJackson #StevieWonder #LionelRichie #WeAreTheWorld #AcordesOcultos #HistoriaDeLaMusica"
+  }
+}

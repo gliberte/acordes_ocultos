@@ -1,0 +1,147 @@
+{
+  "title": "I've Never Been to Me",
+  "artist": "Charlene",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Hay canciones que son como almas en pena, esperando en el silencio a que alguien finalmente las escuche. En 1977, Charlene cantó con el corazón roto sobre el vacío de la gloria. Pero el mundo le dio la espalda y la canción quedó en el olvido. Despedida y sin sueños, Charlene cruzó el océano para refugiarse en la dulzura silenciosa de una pequeña pastelería inglesa. Cinco años de olvido pasaron, hasta que una tarde un locutor en Florida rescató aquel vinilo empolvado buscando un milagro. Las líneas ardieron con el llanto de miles de oyentes. La música buscó a Charlene en su humilde tienda para cambiar su destino. El tema se elevó al número uno mundial a través del puente hablado, una confesión íntima que a ella misma le causaba timidez escuchar. Porque el arte nunca muere del todo; a veces solo duerme en una estantería, esperando a que alguien presione play.",
+  "hook": "Hay canciones que son como almas en pena, esperando en el silencio a que alguien finalmente las escuche.",
+  "beats": [
+    "En 1977, Charlene cantó con el corazón roto sobre el vacío de la gloria. Pero el mundo le dio la espalda y la canción quedó en el olvido.",
+    "Despedida y sin sueños, Charlene cruzó el océano para refugiarse en la dulzura silenciosa de una pequeña pastelería inglesa.",
+    "Cinco años de olvido pasaron, hasta que una tarde un locutor en Florida rescató aquel vinilo empolvado buscando un milagro.",
+    "Las líneas ardieron con el llanto de miles de oyentes. La música buscó a Charlene en su humilde tienda para cambiar su destino.",
+    "El tema se elevó al número uno mundial a través del puente hablado, una confesión íntima que a ella misma le causaba timidez escuchar."
+  ],
+  "outro": "Porque el arte nunca muere del todo; a veces solo duerme en una estantería, esperando a que alguien presione play.",
+  "palette": {
+    "ink": "#1a0815",
+    "paper": "#faf0f5",
+    "accent": "#bf2a8d",
+    "glow": "#df3aae"
+  },
+  "music": {
+    "title": "I've Never Been to Me",
+    "artist": "Charlene",
+    "src": "music/charlene-never.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "I've Never Been to Me Charlene",
+      "expectedTitle": "I've Never Been to Me",
+      "expectedArtist": "Charlene",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/charlene-never/scene-01.png",
+      "prompt": "A young 26-year-old white female singer with wavy light brown hair, looking disappointed as she walks out of the Motown Records building in 1977, holding a demo tape in her hand, 1970s style clothing, retro film color grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-02.png",
+      "prompt": "A vintage vinyl record with a Motown label lying in a dusty cardboard box filled with old forgotten records, retro 1970s filter, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-03.png",
+      "prompt": "A young 26-year-old white woman with wavy light brown hair, wearing a simple white apron, standing behind the counter of a cozy English sweet shop on a rainy day, jars of colorful candies on shelves behind her, retro 1980s color grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-04.png",
+      "prompt": "A 1980s radio DJ with headphones in a radio station booth, blowing dust off an old vinyl record before placing it on the turntable, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-05.png",
+      "prompt": "A close-up of a retro 1980s telephone switchboard with flashing red lights and cables, busy atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-06.png",
+      "prompt": "Close-up of a vintage magnetic tape reel recording in progress, studio microphones in the background, warm tape-splicing era feel, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/charlene-never/scene-07.png",
+      "prompt": "A vintage vinyl single of I've Never Been to Me with Motown label spinning on a retro turntable under warm golden spotlights, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/charlene-never/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/charlene-never/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/charlene-never/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/charlene-never/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/charlene-never/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/charlene-never/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/charlene-never/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay canciones que son como almas en pena, esperando en el silencio a que alguien finalmente las escuche."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1977, Charlene cantó con el corazón roto sobre el vacío de la gloria. Pero el mundo le dio la espalda y la canción quedó en el olvido."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Despedida y sin sueños, Charlene cruzó el océano para refugiarse en la dulzura silenciosa de una pequeña pastelería inglesa."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Cinco años de olvido pasaron, hasta que una tarde un locutor en Florida rescató aquel vinilo empolvado buscando un milagro."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Las líneas ardieron con el llanto de miles de oyentes. La música buscó a Charlene en su humilde tienda para cambiar su destino."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El tema se elevó al número uno mundial a través del puente hablado, una confesión íntima que a ella misma le causaba timidez escuchar."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Porque el arte nunca muere del todo; a veces solo duerme en una estantería, esperando a que alguien presione play."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "El himno que Queen rechazó",
+  "artist": "Survivor",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El himno definitivo del entrenamiento nació de un portazo de Queen y fue esculpido golpe a golpe siguiendo los puños de Rocky Balboa. En 1982, Sylvester Stallone tenía editada la secuencia clave de Rocky III al ritmo de Another One Bites the Dust, pero Queen le negó los derechos. Desesperado y sin tiempo, Stallone recurrió a una banda emergente llamada Survivor, enviándoles un montaje crudo de la película. Para competir contra el fantasma de Queen, los músicos sincronizaron el mítico riff de guitarra con cada golpe directo que Rocky lanzaba en pantalla. La prisa fue tal que la versión proyectada en los cines no fue la grabación de estudio, sino una maqueta apresurada con una energía salvaje. En ese montaje original, Stallone incluso mezcló rugidos de tigres reales que luego desaparecieron de las radios y los vinilos comerciales. Eye of the Tiger nos enseñó que del rechazo y la urgencia nacen las mayores victorias de la historia del cine. Y tú, ¿qué canción te hace sentir invencible?",
+  "hook": "El himno definitivo del entrenamiento nació de un portazo de Queen y fue esculpido golpe a golpe siguiendo los puños de Rocky Balboa.",
+  "beats": [
+    "En 1982, Sylvester Stallone tenía editada la secuencia clave de Rocky III al ritmo de Another One Bites the Dust, pero Queen le negó los derechos.",
+    "Desesperado y sin tiempo, Stallone recurrió a una banda emergente llamada Survivor, enviándoles un montaje crudo de la película.",
+    "Para competir contra el fantasma de Queen, los músicos sincronizaron el mítico riff de guitarra con cada golpe directo que Rocky lanzaba en pantalla.",
+    "La prisa fue tal que la versión proyectada en los cines no fue la grabación de estudio, sino una maqueta apresurada con una energía salvaje.",
+    "En ese montaje original, Stallone incluso mezcló rugidos de tigres reales que luego desaparecieron de las radios y los vinilos comerciales."
+  ],
+  "outro": "Eye of the Tiger nos enseñó que del rechazo y la urgencia nacen las mayores victorias de la historia del cine. Y tú, ¿qué canción te hace sentir invencible?",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#fffbeb",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Eye of the Tiger",
+    "artist": "Survivor",
+    "src": "music/tiger.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Eye of the Tiger Survivor",
+      "expectedTitle": "Eye of the Tiger",
+      "expectedArtist": "Survivor",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/tiger/scene-01.png",
+      "prompt": "A realistic 1982 color photograph of a boxing ring under smoky spotlights, in the center lies a glossy cassette tape with Survivor Eye of the Tiger handwritten on the label, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-02.png",
+      "prompt": "A realistic 1980 photograph of Freddie Mercury performing live on stage under intense blue and pink stadium lights, holding a microphone stand, energy and movement, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-03.png",
+      "prompt": "A realistic 1982 photograph of Sylvester Stallone in a dark movie editing suite, looking stressed, holding film reels, bright monitors displaying boxing scenes in front of him, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-04.png",
+      "prompt": "A close-up photograph of a vintage electric guitar headstock (representing Survivor's guitar) with hands tuning the strings, raw studio vibe, warm yellow light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-05.png",
+      "prompt": "A realistic 1982 photograph of a retro recording console inside a music studio, VU meters bouncing, cassette tapes and paper sheets with handwritten lyrics of Eye of the Tiger scattered, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-06.png",
+      "prompt": "A close-up dramatic photograph of a tiger's eye glowing in the shadows, intense orange iris, dark forest background, cinematic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiger/scene-07.png",
+      "prompt": "A warm, glowing silhouette of a boxer raising their arms in victory at dawn, overlooking a cityscape, misty atmosphere, golden hour sun, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/tiger/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/tiger/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/tiger/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/tiger/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/tiger/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/tiger/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/tiger/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno definitivo del entrenamiento nació de un portazo de Queen y fue esculpido golpe a golpe siguiendo los puños de Rocky Balboa."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1982, Sylvester Stallone tenía editada la secuencia clave de Rocky III al ritmo de Another One Bites the Dust, pero Queen le negó los derechos."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Desesperado y sin tiempo, Stallone recurrió a una banda emergente llamada Survivor, enviándoles un montage crudo de la película."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para competir contra el fantasma de Queen, los músicos sincronizaron el mítico riff de guitarra con cada golpe directo que Rocky lanzaba en pantalla."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "La prisa fue tal que la versión proyectada en los cines no fue la grabación de estudio, sino una maqueta apresurada con una energía salvaje."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En ese montaje original, Stallone incluso mezcló rugidos de tigres reales que luego desaparecieron de las radios y los vinilos comerciales."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Eye of the Tiger nos enseñó que del rechazo y la urgencia nacen las mayores victorias de la historia del cine. Y tú, ¿qué canción te hace sentir invencible?"
+    }
+  ]
+}

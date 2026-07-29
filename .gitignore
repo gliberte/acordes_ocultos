@@ -9,5 +9,7 @@ out/
 # Archivos generados automáticamente
 src/data/generated/
 src/data/*.json
-public/videos/
-public/music/
+/public/music/*
+/public/videos/*
+.vercel
+.env*

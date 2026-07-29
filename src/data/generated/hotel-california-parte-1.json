@@ -1,0 +1,112 @@
+{
+  "title": "El Lugar del que Nunca Puedes Salir (Parte 1)",
+  "artist": "The Eagles",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "En una autopista desierta y oscura, el viento frío agitaba el cabello de un viajero extenuado. Un aroma tibio y penetrante a colitas en el aire marcaba la distancia de un viaje interminable. A lo lejos, una luz parpadeante guió sus pasos hacia la entrada de una mansión imponente: el Hotel California. Allí, en el umbral, una mujer sosteniendo una vela lo recibió con una sonrisa misteriosa. Mientras una campana resonaba en la penumbra, voces en el pasillo le daban la bienvenida a un paraíso fascinante pero siniestro, donde las paredes guardaban secretos que jamás volverían a salir a la luz.",
+  "hook": "Un viajero solitario en una autopista desértica divisa la luz tenue de un hotel del que nadie puede escapar.",
+  "beats": [
+    "Un viajero exhausto avanza en la penumbra de una autopista desértica bajo el viento frío de la noche.",
+    "Un resplandor distante y el eco de una campana lo conducen hasta el umbral del Hotel California.",
+    "Una mujer de mirada enigmática lo aguarda en la entrada sosteniendo una vela entre las sombras.",
+    "Voces susurrantes resuenan por los arcos coloniales dándole la bienvenida a un refugio surrealista.",
+    "El viajero contempla los espejos de la mansión y comprende que ha entrado a un sueño del que no despertará."
+  ],
+  "outro": "Cualquier noche del año puedes encontrar refugio aquí, pero el misteriopenas acaba de comenzar.",
+  "palette": {
+    "ink": "#140e0b",
+    "paper": "#f9f2ea",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Hotel California",
+    "artist": "The Eagles",
+    "src": "music/eagles-hotel-california.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Hotel California Eagles",
+      "expectedTitle": "Hotel California",
+      "expectedArtist": "The Eagles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/hotel-california-parte-1/scene-01.png",
+      "prompt": "Cinematic 1970 photograph of a lone weary male traveler driving a vintage convertible along a dark desert highway at dusk with warm glowing headlights, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-02.png",
+      "prompt": "Atmospheric 1970 photograph of a grand Spanish mission style hotel in the desert illuminated by faint warm lights under a starry night sky, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-03.png",
+      "prompt": "Mysterious 1970 photograph of an elegant beautiful woman holding a glowing candle standing in the arched doorway of a luxury hotel, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-04.png",
+      "prompt": "Eerie 1970 interior photograph of a grand hotel hallway lined with palm trees and shadowy figures whispering in twilight, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-05.png",
+      "prompt": "1970 surreal ballroom scene with guests dancing under crystal chandeliers with pink champagne glasses, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-06.png",
+      "prompt": "1970 close-up photograph of a traveler looking into a gilded ornate mirror seeing distorted ghostly reflections in a dim corridor, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-1/scene-07.png",
+      "prompt": "Dramatic 1970 night photograph of the Hotel California courtyard illuminated by torches with a heavy iron gate closing slowly, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/hotel-california-parte-1/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/hotel-california-parte-1/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/hotel-california-parte-1/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/hotel-california-parte-1/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/hotel-california-parte-1/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/hotel-california-parte-1/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/hotel-california-parte-1/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Un viajero solitario en una autopista desértica divisa la luz tenue de un hotel del que nadie puede escapar."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Un viajero exhausto avanza en la penumbra de una autopista desértica bajo el viento frío de la noche."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Un resplandor distante y el eco de una campana lo conducen hasta el umbral del Hotel California."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Una mujer de mirada enigmática lo aguarda en la entrada sosteniendo una vela entre las sombras."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Voces susurrantes resuenan por los arcos coloniales dándole la bienvenida a un refugio surrealista."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El viajero contempla los espejos de la mansión y comprende que ha entrado a un sueño del que no despertará."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Cualquier noche del año puedes encontrar refugio aquí, pero el misterio apenas acaba de comenzar."
+    }
+  ]
+}

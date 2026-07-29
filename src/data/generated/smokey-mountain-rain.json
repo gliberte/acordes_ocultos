@@ -1,0 +1,114 @@
+{
+  "title": "El Hombre que Volvió Bajo la Lluvia",
+  "artist": "Ronnie Milsap",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "Smokey Mountain Rain narra el viaje de regreso de un hombre que abandonó Tennessee para buscar fama en Los Ángeles. Cuando descubrió que las luces de la gran ciudad no eran lo que esperaba, emprendió el camino de vuelta. Bajo una lluvia torrencial, llamó a su amada desde una cabina telefónica en Knoxville, solo para enterarse de que ella ya no estaba. Ella había esperado, pero eventualmente rehízo su vida. Devastado pero sin rendirse, subió al camión de un camionero que iba hacia Gatlinburg, adentrándose en las Smoky Mountains. No puede culparla por haberlo dejado ir. Pero jura que la buscará sin importar lo que tome.",
+  "hook": "Dejó todo por un sueño. Cuando quiso volver, la encontró a ella convertida en otro sueño perdido.",
+  "beats": [
+    "Las luces de Los Ángeles brillaban como promesas que nadie iba a cumplir.",
+    "Dejó atrás el brillo vacío. Solo quería volver a donde el amor tenía nombre.",
+    "La lluvia de las Smoky Mountains cayó sobre él como si el cielo supiera lo que había perdido.",
+    "Marcó el número que había grabado en su corazón. La voz al otro lado le dijo que ya era demasiado tarde.",
+    "No podía culparla. Ella había esperado tanto como el amor puede pedir.",
+    "Se subió al camión de un extraño que iba hacia Gatlinburg. Las montañas lo llamaban como ella alguna vez lo hizo.",
+    "Y bajo la lluvia de las montañas, juró que no se rendiría. Aunque la noche no respondiera."
+  ],
+  "outro": "Hay amores que se pierden no por falta de sentimiento, sino por llegar demasiado tarde.",
+  "palette": {
+    "ink": "#0d0f14",
+    "paper": "#e8e4dc",
+    "accent": "#4a7fa5",
+    "glow": "#c4a35a"
+  },
+  "music": {
+    "title": "Smoky Mountain Rain",
+    "artist": "Ronnie Milsap",
+    "src": "music/smokey-mountain-rain.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Smoky Mountain Rain Ronnie Milsap",
+      "expectedTitle": "Smoky Mountain Rain",
+      "expectedArtist": "Ronnie Milsap",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/smokey-mountain-rain/scene-01.png",
+      "prompt": "A lone man with a duffel bag standing at a Los Angeles bus station at night, surrounded by bright neon city lights, his back partly turned, expression of disillusionment and longing, rain beginning to fall, cinematic moody lighting, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-02.png",
+      "prompt": "A man hitchhiking on a Tennessee highway at dawn, thumb raised, his back to the fading city glow on the horizon, misty rural landscape ahead, worn duffel bag at his feet, soft golden morning light breaking through clouds, film grain, cinematic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-03.png",
+      "prompt": "A rain-soaked two-lane highway in rural Tennessee at dusk, a lone man standing on the roadside with his thumb out, headlights of passing cars streaking through the heavy rain, mist rising from the asphalt, Smoky Mountains barely visible in the distance, film grain, cinematic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-04.png",
+      "prompt": "A man inside a glass telephone booth on a dark rainy Tennessee roadside at night, pressing the phone hard against his ear, rain streaming down the glass panels around him, his face lit only by the booth's pale interior light, expression shifting from hope to devastation, film grain, cinematic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-05.png",
+      "prompt": "Extreme close-up of a man's face seen through rain-streaked glass, eyes glistening with tears that blend with the raindrops on the surface, jaw set in quiet heartbreak, warm light behind him fading, film grain, cinematic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-06.png",
+      "prompt": "Inside the cab of a semi-truck at night, a man riding as a passenger staring out the rain-covered windshield, Smoky Mountains silhouettes looming ahead through the fog, the truck driver's hands on the wheel, warm cab interior light contrasting with the dark stormy landscape, film grain, cinematic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/smokey-mountain-rain/scene-07.png",
+      "prompt": "A solitary man standing in the middle of a misty mountain road deep in the Great Smoky Mountains, arms slightly raised, face turned upward into the falling rain, fog wrapping the ancient tree-covered peaks around him, the mountain rain enveloping him completely, film grain, cinematic, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/smokey-mountain-rain/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/smokey-mountain-rain/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/smokey-mountain-rain/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/smokey-mountain-rain/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/smokey-mountain-rain/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/smokey-mountain-rain/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/smokey-mountain-rain/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Dejó todo por un sueño. Cuando quiso volver, la encontró a ella convertida en otro sueño perdido."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Las luces de Los Ángeles brillaban como promesas vacías. Solo quería volver a donde el amor tenía nombre."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "La lluvia de las Smoky Mountains cayó sobre él como si el cielo supiera lo que había perdido."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Marcó el número grabado en su corazón. La voz al otro lado le dijo que ya era demasiado tarde."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "No podía culparla. Ella había esperado tanto como el amor puede pedir."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Se subió al camión de un extraño que iba hacia Gatlinburg. Las montañas lo llamaban como ella alguna vez lo hizo."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Bajo la lluvia de las montañas, juró que no se rendiría. Aunque la noche no respondiera."
+    }
+  ]
+}

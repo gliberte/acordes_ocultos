@@ -1,0 +1,112 @@
+{
+  "title": "A Hard Day's Night",
+  "artist": "The Beatles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El 16 de abril de 1964, The Beatles grabaron el acorde de apertura de 'A Hard Day's Night'. Son solo un par de segundos de sonido, pero durante más de 40 años se convirtió en uno de los mayores enigmas de la música moderna. Miles de guitarristas alrededor del mundo intentaron replicarlo sin éxito: sonaba demasiado denso, brillante e imposible para una sola guitarra. En 2008, el matemático Dr. Jason Brown resolvió el misterio utilizando la Transformada de Fourier para descomponer las frecuencias de audio. El resultado reveló un mosaico sonoro superpuesto en el mismo milisegundo: George Harrison tocó un Fadd9 en su Rickenbacker de 12 cuerdas, John Lennon sumó un acorde acústico de 6 cuerdas, Paul McCartney aportó un Re grave en el bajo y el productor George Martin grabó a escondidas un acorde de piano en el registro grave. La magia no estaba en un solo músico, sino en la unión oculta de cuatro instrumentos.",
+  "hook": "El 16 de abril de 1964, los Beatles grabaron el acorde de apertura más misterioso e imposible de la historia del rock.",
+  "beats": [
+    "Durante más de 40 años, miles de guitarristas en todo el mundo intentaron replicar ese sonido inicial sin éxito.",
+    "Sonaba demasiado denso, brillante y técnicamente imposible para ser ejecutado por una sola guitarra.",
+    "En 2008, el matemático Dr. Jason Brown utilizó una Transformada de Fourier para descomponer las frecuencias de audio.",
+    "El análisis científico reveló el secreto: no era una guitarra, sino un mosaico sonoro superpuesto.",
+    "Harrison tocó un Fadd9 en su Rickenbacker de 12 cuerdas, Lennon en acústica, Paul al bajo y George Martin al piano."
+  ],
+  "outro": "El enigma eterno se resolvió: la magia no estaba en un solo hombre, sino en la unión de cuatro mentes.",
+  "palette": {
+    "ink": "#0a0c10",
+    "paper": "#f3f0e6",
+    "accent": "#00f0ff",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "A Hard Day's Night",
+    "artist": "The Beatles",
+    "src": "music/beatles-hard-days-night.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "A Hard Days Night The Beatles",
+      "expectedTitle": "A Hard Day's Night",
+      "expectedArtist": "The Beatles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-01.png",
+      "prompt": "Authentic 1964 photograph of George Harrison striking an opening chord on his iconic 12-string Rickenbacker 360/12 electric guitar inside Abbey Road Studio Two, bright studio lights, vintage 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-02.png",
+      "prompt": "Frustrated modern guitarist in a dimly lit bedroom trying to figure out a guitar chord with sheet music spread out on the bed, moody atmospheric lighting, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-03.png",
+      "prompt": "Extreme close-up of vibrant glowing audio soundwaves breaking apart into glowing floating musical frequency fragments, mathematical representation of sound, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-04.png",
+      "prompt": "Dr. Jason Brown in a modern laboratory analyzing complex Fourier Transform mathematical spectrum graphs of The Beatles audio on computer screens, scientific discovery atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-05.png",
+      "prompt": "Surreal glowing 3D musical diagram showing four instruments overlapping in a single instant: 12-string Rickenbacker, acoustic guitar, bass, and grand piano keys, illuminated in cyan and gold, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-06.png",
+      "prompt": "Authentic 1964 Abbey Road recording session showing George Harrison, John Lennon, Paul McCartney, and producer George Martin at the piano playing simultaneously at the exact same millisecond, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-a-hard-days-night/scene-07.png",
+      "prompt": "A close-up of a 1964 Parlophone vinyl record of A Hard Day's Night spinning on a vintage turntable, golden studio light reflecting off the grooves, triumphant nostalgic atmosphere, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/beatles-a-hard-days-night/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/beatles-a-hard-days-night/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/beatles-a-hard-days-night/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/beatles-a-hard-days-night/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/beatles-a-hard-days-night/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/beatles-a-hard-days-night/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/beatles-a-hard-days-night/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El 16 de abril de 1964, los Beatles grabaron el acorde de apertura más misterioso e imposible de la historia del rock."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Durante más de 40 años, miles de guitarristas en todo el mundo intentaron replicar ese sonido inicial sin éxito."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Sonaba demasiado denso, brillante y técnicamente imposible para ser ejecutado por una sola guitarra."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En 2008, el matemático Dr. Jason Brown utilizó una Transformada de Fourier para descomponer las frecuencias de audio."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El análisis científico reveló el secreto: no era una guitarra, sino un mosaico sonoro superpuesto."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Harrison tocó un Fadd9 en su Rickenbacker de 12 cuerdas, Lennon en acústica, Paul al bajo y George Martin al piano."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "El enigma eterno se resolvió: la magia no estaba en un solo hombre, sino en la unión de cuatro mentes."
+    }
+  ]
+}

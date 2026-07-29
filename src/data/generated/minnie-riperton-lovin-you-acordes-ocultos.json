@@ -1,0 +1,183 @@
+{
+  "title": "La Canción de Cuna más Triste del Mundo",
+  "artist": "Minnie Riperton",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1975, Minnie Riperton cautivó al planeta con «Lovin' You», una melodía celestial que alcanzó el número uno de Billboard y se convirtió en la balada de amor definitiva. Pocos sabían que no nació para las radios comerciales, sino en un modesto apartamento de Chicago en 1971: era la canción de cuna íntima que Minnie y su esposo Richard Rudolph compusieron para calmar y entretener a su pequeña hija de dos años, Maya Rudolph. Admirado por su insólito registro de silbido de cinco octavas, Stevie Wonder produjo el álbum bajo el seudónimo secreto de 'El Toro Negro' para evadir restricciones contractuales con Motown. En las cintas maestras de la sesión original de 1974, la voz de Minnie despidió la canción susurrando tiernamente 'Maya, Maya, Maya' mientras su hija jugaba en la alfombra del estudio. Pero detrás de tanta dulzura latía una tragedia desgarradora: apenas meses después de tocar la cima del mundo, Minnie fue diagnosticada con cáncer de mama terminal. Con una entereza inquebrantable, se convirtió en una de las primeras mujeres públicas en alzar la voz contra la enfermedad, recibiendo la medalla de valentía en la Casa Blanca antes de partir con apenas treinta y un años, legándole al mundo un susurro de amor inmortal.",
+  "hook": "La balada más dulce de los setenta escondía una despedida desgarradora: una canción de cuna para su hija antes de partir.",
+  "beats": [
+    "En la primavera de 1975, una voz sobrehumana paralizó al mundo con notas que parecían silbidos de ángeles. Parecía la canción de amor definitiva.",
+    "Pero su origen no nació en los grandes estudios de Los Ángeles: nació en 1971 en Chicago, como una modesta canción de cuna para dormir a su bebé.",
+    "Minnie Riperton poseía un don irrepetible: cinco octavas completas que le permitían cantar en el registro de silbido y dialogar con las aves.",
+    "Fascinado por su pureza, Stevie Wonder decidió producir su álbum en secreto bajo el seudónimo «El Toro Negro» para eludir a la discográfica Motown.",
+    "En la toma final de 1974, mientras los pájaros cantaban en la cinta, Minnie susurró al final 'Maya, Maya'... arrullando a su hija que jugaba en el estudio.",
+    "El sencillo escaló al número uno mundial. Aquella melodía familiar se convirtió en un himno universal que sonaba en cada rincón del planeta.",
+    "Pero la dicha duró un suspiro. Meses después del triunfo, a sus veintiocho años, los médicos le diagnosticaron un cáncer de mama terminal e irreversible.",
+    "Lejos de rendirse, Minnie convirtió su dolor en coraje: habló abiertamente del tabú y fue condecorada en la Casa Blanca por su valentía pública.",
+    "Con apenas treinta y un años su voz se apagó, pero aquel susurro de cuna sobrevivió al tiempo, protegiendo a su hija para siempre. ¿Conocías su historia?"
+  ],
+  "outro": "Una canción de cuna convertida en un susurro inmortal de amor materno. ¿Conocías el secreto detrás de este clásico?",
+  "palette": {
+    "ink": "#1c1917",
+    "paper": "#fefce8",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Lovin' You",
+    "artist": "Minnie Riperton",
+    "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.6,
+    "instagram": {
+      "query": "Lovin' You Minnie Riperton",
+      "expectedTitle": "Lovin' You",
+      "expectedArtist": "Minnie Riperton",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial de Minnie Riperton en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/minnie-riperton-lovin-you-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vintage 1974 documentary portrait of singer Minnie Riperton, radiant joyful smile, natural rounded afro haircut, wearing 1970s white embroidered cotton blouse, singing into vintage Neumann U87 microphone in sunlit studio, 35mm film grain, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-01.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-02.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-03.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-04.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-05.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-06.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-07.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-08.png"
+    },
+    {
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/minnie-riperton-lovin-you-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En la primavera de 1975, una voz sobrehumana paralizó al mundo con notas que parecían silbidos de ángeles. Parecía la canción de amor definitiva.",
+      "assetIndex": 0
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Pero su origen no nació en los grandes estudios de Los Ángeles: nació en 1971 en Chicago, como una modesta canción de cuna para dormir a su bebé.",
+      "assetIndex": 1
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Minnie Riperton poseía un don irrepetible: cinco octavas completas que le permitían cantar en el registro de silbido y dialogar con las aves.",
+      "assetIndex": 2
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Fascinado por su pureza, Stevie Wonder decidió producir su álbum en secreto bajo el seudónimo «El Toro Negro» para eludir a la discográfica Motown.",
+      "assetIndex": 3
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En la toma final de 1974, mientras los pájaros cantaban en la cinta, Minnie susurró al final 'Maya, Maya'... arrullando a su hija que jugaba en el estudio.",
+      "assetIndex": 4
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "El sencillo escaló al número uno mundial. Aquella melodía familiar se convirtió en un himno universal que sonaba en cada rincón del planeta.",
+      "assetIndex": 5
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Pero la dicha duró un suspiro. Meses después del triunfo, a sus veintiocho años, los médicos le diagnosticaron un cáncer de mama terminal e irreversible.",
+      "assetIndex": 6
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Lejos de rendirse, Minnie convirtió su dolor en coraje: habló abiertamente del tabú y fue condecorada en la Casa Blanca por su valentía pública.",
+      "assetIndex": 7
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Con apenas treinta y un años su voz se apagó, pero aquel susurro de cuna sobrevivió al tiempo, protegiendo a su hija para siempre. ¿Conocías su historia?",
+      "assetIndex": 8
+    }
+  ]
+}

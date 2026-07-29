@@ -1,0 +1,183 @@
+{
+  "title": "El Secreto de Qué Bonito",
+  "artist": "Rosario Flores",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En mayo de 1995, la dinastía de los Flores sufrió el golpe más demoledor de la música española: la muerte de Lola Flores y, solo catorce días después, la de su hijo Antonio Flores a los 33 años. Huérfana de madre y de hermano en dos semanas, Rosario se encerró a oscuras en un hotel y escribió entre lágrimas «Qué bonito» para hablar con él en el cielo. Al volver a cantar vestida de luto, su duelo se convirtió en un himno inolvidable.",
+  "hook": "Perdió a su madre y a su hermano en solo catorce días... y en medio del llanto escribió una canción para hablar con el cielo.",
+  "beats": [
+    "En mayo de 1995, España lloró la partida de Lola Flores, La Faraona.",
+    "Catorce días después, su hijo Antonio sucumbió ante el peso de la orfandad.",
+    "En solo dos semanas, Rosario perdió a su madre y a su hermano del alma.",
+    "Destrozada, se encerró a oscuras, incapaz de escuchar el eco de las guitarras.",
+    "Una noche en América, mirando al cielo, tomó un lápiz y empezó a hablarle.",
+    "Nació «Qué bonito», pidiéndole volar juntos y cantar como de costumbre.",
+    "En el estudio, sus lágrimas rompieron la grabación con un dolor desgarrador.",
+    "Vestida de luto, reapareció ante miles de personas cantándole al cielo.",
+    "España lloró con ella. ¿A qué ser querido recuerdas cuando suena una canción?"
+  ],
+  "outro": "España lloró con ella. ¿A qué ser querido recuerdas cuando suena una canción?",
+  "palette": {
+    "ink": "#18120e",
+    "paper": "#fbf6ee",
+    "accent": "#991b1b",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Qué Bonito",
+    "artist": "Rosario Flores",
+    "src": "music/rosario-flores-que-bonito-acordes-ocultos-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Qué Bonito Rosario Flores",
+      "expectedTitle": "Qué Bonito",
+      "expectedArtist": "Rosario",
+      "status": "manual_check_required",
+      "notes": "Audio oficial de 60s para TikTok."
+    }
+  },
+  "coverBg": "videos/rosario-flores-que-bonito-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Authentic vertical 9:16 portrait of 32-year-old Spanish singer Rosario Flores in 1996, recognizable facial likeness with Andalusian gipsy features, olive skin, intense deep soulful dark eyes, voluminous unruly dark brown curly hair falling over shoulders, golden hoop earrings, wearing an elegant textured black mourning blouse, emotional proud expression with a trace of grief and artistic fire, warm dramatic stage backlight and cinematic haze, 1990s 35mm film photography grain, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-01.png",
+      "prompt": "Madrid May 16 1995, vertical 9:16: A solemn historic gathering outside Teatro Calderon in Madrid, thousands of tearful Spanish fans holding flowers and photographs of legendary Lola Flores, black mourning banners, somber overcast sky, authentic 1995 Spanish photojournalism, 35mm film grain, poignant national grief."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-02.png",
+      "prompt": "Madrid May 1995, vertical 9:16: 33-year-old Spanish rocker-songwriter Antonio Flores with shoulder-length curly dark hair and melancholic soulful face, sitting alone in a small garden wooden cabin at dusk, acoustic Spanish guitar resting beside him, looking down with deep heartbreaking sorrow at a black and white portrait of his mother Lola Flores, soft amber lamp light, 35mm film grain."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-03.png",
+      "prompt": "Madrid June 1995, vertical 9:16: Exterior of 'El Lerele' family villa in Madrid at twilight, misty quiet garden with ancient olive trees, an empty wooden chair and an acoustic guitar resting on the porch in silent tribute, blue dusk atmosphere, cinematic grief, respectful poetic framing, no violence, no debris, 35mm photography."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-04.png",
+      "prompt": "Madrid summer 1995, vertical 9:16: 32-year-old Rosario Flores (curly wild dark hair, olive skin, wearing simple black clothes) sitting alone in a dimly lit living room, drawn curtains with thin slivers of afternoon light cutting through the shadows, holding a framed photograph of her brother Antonio, face buried in grief and quiet tears, 35mm documentary film grain."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-05.png",
+      "prompt": "Late night hotel room in America Autumn 1995, vertical 9:16: 32-year-old Rosario Flores sitting on the edge of a bed beside a large window looking out at a starry night sky, pen in hand, writing on a notepad on the wooden nightstand under a small warm desk lamp, crying softly as inspiration strikes, intimate creative catharsis, 35mm film grain."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-06.png",
+      "prompt": "Close-up vertical 9:16 still-life: A vintage handwritten Spanish notebook page on a wooden table, handwritten lyrics in Spanish reading 'Que bonito seria poder volar y a tu lado ponerme a cantar', a single teardrop stain on the aged paper, a dried red rose and an acoustic guitar neck softly blurred in the background, warm golden candlelight, 35mm film texture."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-07.png",
+      "prompt": "Madrid recording studio 1996, vertical 9:16: 32-year-old Rosario Flores standing in a vocal recording booth, headphones over her voluminous curly dark hair, singing into a vintage studio microphone with immense raw passion and tearful eyes, hands gesturing with flamenco intensity, warm amber spotlights, analog sound console blurred behind the glass, 35mm film grain."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-08.png",
+      "prompt": "Grand concert stage Madrid 1996, vertical 9:16: 32-year-old Rosario Flores performing live in front of a packed stadium audience, dressed in an elegant black flamenco-rock outfit, head tilted back looking up toward the heavens with microphone in hand, piercing white theatrical spotlight cutting through dark stage haze like a ray from heaven, roaring emotional standing ovation in the background, 35mm concert documentary photography."
+    },
+    {
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-09.png",
+      "prompt": "Artistic tribute still-life, vertical 9:16: A magnificent vintage Spanish acoustic guitar resting against a rustic whitewashed Andalusian wall, bathed in warm sunset golden beams, beside a vinyl record sleeve of 'Mucho por vivir Rosario', a scattered bouquet of red carnations on the terracotta tiles, timeless flamenco-rock legacy of the Flores dynasty, 35mm film grain, no text."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/rosario-flores-que-bonito-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "text": "En mayo de 1995, España lloró la partida de Lola Flores, La Faraona."
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "text": "Catorce días después, su hijo Antonio sucumbió ante el peso de la orfandad."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "En solo dos semanas, Rosario perdió a su madre y a su hermano del alma."
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "text": "Destrozada, se encerró a oscuras, incapaz de escuchar el eco de las guitarras."
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "text": "Una noche en América, mirando al cielo, tomó un lápiz y empezó a hablarle."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "Nació «Qué bonito», pidiéndole volar juntos y cantar como de costumbre."
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "text": "En el estudio, sus lágrimas rompieron la grabación con un dolor desgarrador."
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "text": "Vestida de luto, reapareció ante miles de personas cantándole al cielo."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "España lloró con ella. ¿A qué ser querido recuerdas cuando suena una canción?"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "El Llanto que Paralizó a un País: La Tragedia Real de «Marinero de Luces»",
+  "artist": "Isabel Pantoja & José Luis Perales",
+  "durationSeconds": 370,
+  "topic": "acordes-ocultos-documental",
+  "palette": {
+    "ink": "#0f0c0a",
+    "paper": "#f7f4ea",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "src": "music/isabel-pantoja-marinero-de-luces-acordes-ocultos.mp3",
+    "startSecond": 178,
+    "durationSeconds": 192,
+    "volumeDuck": 0.08,
+    "volumeFull": 0.45
+  },
+  "chapters": [
+    {
+      "id": "prologo",
+      "title": "Prólogo",
+      "subtitle": "La tarde plomiza de Pozoblanco",
+      "start": 0,
+      "end": 66,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-01-pozoblanco.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/01_prologo.mp3",
+      "panDirection": "zoom_in"
+    },
+    {
+      "id": "acto1",
+      "title": "Acto I",
+      "subtitle": "La Boda del Siglo y el Idilio Roto",
+      "start": 66,
+      "end": 129,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-02-boda.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/02_acto1.mp3",
+      "panDirection": "pan_right"
+    },
+    {
+      "id": "acto2",
+      "title": "Acto II",
+      "subtitle": "El Silencio Sepulcral de Cantora",
+      "start": 129,
+      "end": 186,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-03-cantora.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/03_acto2.mp3",
+      "panDirection": "pan_left"
+    },
+    {
+      "id": "acto3",
+      "title": "Acto III",
+      "subtitle": "El Orfebre Secreto y la Metáfora del Mar",
+      "start": 186,
+      "end": 258,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-04-perales.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/04_acto3.mp3",
+      "panDirection": "zoom_in"
+    },
+    {
+      "id": "acto4",
+      "title": "Acto IV",
+      "subtitle": "La Noche del Lope de Vega y el Desgarro ante la Reina",
+      "start": 258,
+      "end": 318,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-05-lope-de-vega.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/05_acto4.mp3",
+      "panDirection": "pan_right"
+    },
+    {
+      "id": "epilogo",
+      "title": "Epílogo",
+      "subtitle": "El Velero hacia la Eternidad",
+      "start": 318,
+      "end": 370,
+      "image": "videos/youtube/isabel-pantoja-marinero-de-luces/scene-06-velero.jpg",
+      "voice": "audio/youtube/isabel-pantoja-marinero-de-luces/06_epilogo.mp3",
+      "panDirection": "zoom_out"
+    }
+  ]
+}

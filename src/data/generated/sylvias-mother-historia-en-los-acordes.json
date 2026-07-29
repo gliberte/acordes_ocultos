@@ -1,0 +1,112 @@
+{
+  "title": "La Despedida que se Quedó sin Monedas",
+  "artist": "Dr. Hook & the Medicine Show",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "La lluvia golpea con furia los cristales empañados de una cabina pública. Un hombre marca desesperado un número a cuarenta millas de distancia para escuchar por última vez la voz de quien aún ama. Pero al otro lado responde la madre: Sylvia está empacando, no tiene tiempo para él y un hombre nuevo la espera en el sur. En la habitación contigua, la joven guarda sus vestidos con lágrimas silenciosas mientras un taxi aguarda bajo el aguacero. De pronto, la voz metálica de la operadora interrumpe exigiendo cuarenta centavos más para tres minutos de agonía. Los bolsillos están vacíos, la madre cuelga con una cortesía implacable y la línea queda muerta. No hubo despedida, solo el sonido sordo del teléfono y la lluvia lavando las cenizas de un amor que ya no volverá.",
+  "hook": "Bajo la lluvia de una cabina solitaria, un hombre marca desesperado el número de quien aún ama.",
+  "beats": [
+    "Al otro lado responde la madre: Sylvia está empacando y no tiene tiempo para hablar con él.",
+    "En la habitación contigua, la joven guarda sus vestidos con lágrimas y un boleto hacia el sur.",
+    "Afuera, un taxi aguarda con el motor encendido bajo el aguacero para llevársela para siempre.",
+    "La voz metálica de la operadora corta la súplica exigiendo cuarenta centavos más.",
+    "Sus bolsillos están vacíos; la madre se despide y el auricular queda en un silencio absoluto."
+  ],
+  "outro": "No hubo un último beso ni un adiós sincero, solo el tono sordo de una línea muerta. ¿Alguna vez viviste una despedida sin palabras?",
+  "palette": {
+    "ink": "#0b0f19",
+    "paper": "#f6f3ee",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Sylvia's Mother",
+    "artist": "Dr. Hook & the Medicine Show",
+    "src": "music/dr-hook-sylvias-mother.mp3",
+    "startSecond": 35,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Sylvia's Mother Dr. Hook",
+      "expectedTitle": "Sylvia's Mother",
+      "expectedArtist": "Dr. Hook & the Medicine Show",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-01.png",
+      "prompt": "Cinematic 1972 photograph of a soaked heartbroken young man in wet wool coat inside a vintage glass telephone booth at night, desperately dialing a rotary payphone with rain streaking down the glass, blurry neon city lights in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-02.png",
+      "prompt": "Atmospheric 1972 photograph of an elegant stern mother (Mrs. Avery) speaking firmly into a vintage beige wall phone in a suburban hallway, holding a teacup with resolute protective expression, soft lamp light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-03.png",
+      "prompt": "Emotional 1972 bedroom photograph of a beautiful young woman (Sylvia) with sad eyes packing leather suitcases on a bed, holding a vintage train ticket to Mexico with quiet tears on her cheeks, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-04.png",
+      "prompt": "Cinematic night photograph of a 1970s yellow taxi cab idling by the wet suburban curb in pouring rain, headlights reflecting on puddles, driver with umbrella waiting by the door, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-05.png",
+      "prompt": "Macro close-up photograph inside the telephone booth of the coin return and payphone slot with red '40 CENTS MORE' dial mechanism, a desperate hand fumbling with empty pockets, water droplets on rusted metal, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-06.png",
+      "prompt": "Cinematic 1972 interior of the house showing Mrs. Avery gently placing the beige phone receiver back on the wall cradle, closing the door as luggage is carried out, warm nostalgic light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-07.png",
+      "prompt": "Poetic wide shot of the lonely glowing telephone booth standing on an empty rain-slicked city street corner at 2 AM, the black phone receiver hanging by its coiled cord swaying gently, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/sylvias-mother-historia-en-los-acordes/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/sylvias-mother-historia-en-los-acordes/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Bajo la lluvia de una cabina solitaria, un hombre marca desesperado el número de quien aún ama."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Al otro lado responde la madre: Sylvia está empacando y no tiene tiempo para hablar con él."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "En la habitación contigua, la joven guarda sus vestidos con lágrimas y un boleto hacia el sur."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Afuera, un taxi aguarda con el motor encendido bajo el aguacero para llevársela para siempre."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "La voz metálica de la operadora corta la súplica exigiendo cuarenta centavos más."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Sus bolsillos están vacíos; la madre se despide y el auricular queda en un silencio absoluto."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "No hubo un último beso ni un adiós sincero, solo el tono sordo de una línea muerta."
+    }
+  ]
+}

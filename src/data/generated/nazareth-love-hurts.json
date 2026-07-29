@@ -1,0 +1,135 @@
+{
+  "title": "El Grito que Transformó una Balada en Leyenda",
+  "artist": "Nazareth",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1974, la banda escocesa Nazareth grababa su disco más pesado y salvaje: 'Hair of the Dog'. En medio de esa tormenta de guitarras distorsionadas, decidieron tocar 'Love Hurts', una dulce e inocente balada country de 1960 popularizada por The Everly Brothers. Parecía una locura para un grupo de hard rock. Pero cuando Dan McCafferty se paró frente al micrófono, no intentó cantarla bonito: la cantó como una herida abierta. Con una voz desgarrada, visceral y al borde del abismo, transformó el sufrimiento romántico en un dolor que parecía propio. Las guitarras pesadas de Manny Charlton crearon una atmósfera monumental que llevó el tema al Top 10 mundial. Los Everly Brothers cantaron que el amor duele; Dan McCafferty hizo que el mundo sintiera su cicatriz.",
+  "hook": "Una banda de hard rock escocesa tomó una dulce balada de amor... y la convirtió en un grito desgarrador.",
+  "beats": [
+    "1974: En Escape Studios, Nazareth grababa un disco pesado, pero buscaban una balada para contrastar su crudeza.",
+    "Encontraron 'Love Hurts', una dulce balada country de 1960 cantada originalmente por The Everly Brothers.",
+    "El guitarrista Manny Charlton rediseñó la melodía cargándola de distorsión pesada y atmósfera oscura.",
+    "En la penumbra de la cabina, el vocalista Dan McCafferty se plantó frente al micrófono Neumann sin filtros.",
+    "No intentó cantarla bonito: con el cuello tenso y la voz al límite, la interpretó como una herida sangrante.",
+    "En la sala de control, los ingenieros quedaron congelados y conmovidos ante la desgarradora toma vocal.",
+    "Lanzada en 1975, la canción conquistó las listas mundiales y desató la euforia en estadios de todo el planeta.",
+    "Los Everly Brothers cantaron que el amor duele; Dan McCafferty hizo que el mundo entero sintiera su cicatriz."
+  ],
+  "outro": "A veces, para que una herida sane en la memoria de millones, hace falta cantarla sin miedo al dolor.",
+  "palette": {
+    "ink": "#0e0914",
+    "paper": "#fdf8f0",
+    "accent": "#dc2626",
+    "glow": "#f87171"
+  },
+  "music": {
+    "title": "Love Hurts",
+    "artist": "Nazareth",
+    "src": "music/nazareth-love-hurts.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Love Hurts Nazareth",
+      "expectedTitle": "Love Hurts",
+      "expectedArtist": "Nazareth",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/nazareth-love-hurts/scene-01.png",
+      "prompt": "Epic 1975 concert photograph of Nazareth performing Love Hurts on a packed smoky arena stage, sea of lighters held up by the audience in darkness, blue and amber stage lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-02.png",
+      "prompt": "1974 photograph of a vintage 1960 sheet music booklet and vinyl record of The Everly Brothers song Love Hurts lying on a mixing console next to studio ashtrays and coffee cups, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-03.png",
+      "prompt": "Authentic 1974 recording studio photograph of Scottish hard rock band Nazareth with long hair and denim, surrounded by Marshall amplifier stacks and Gibson Les Paul electric guitars, warm analog lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-04.png",
+      "prompt": "Authentic 1974 recording studio photograph of guitarist Manny Charlton playing a Gibson Les Paul electric guitar through a vintage Marshall tube amplifier stack, adjusting knobs with focused expression, warm analog studio lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-05.png",
+      "prompt": "Authentic 1974 studio photograph of 28-year-old Scottish singer Dan McCafferty with curly dark hair and beard, wearing a black leather jacket, standing alone in a dimly lit soundproof vocal booth, gripping a vintage Neumann U47 condenser microphone with headphones on, moody dramatic lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-06.png",
+      "prompt": "Dramatic close-up photograph of 28-year-old Dan McCafferty singing with intense emotional abandon into a vintage studio microphone, eyes closed tightly, strained neck muscles, glistening sweat on brow, warm dramatic tungsten studio spotlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-07.png",
+      "prompt": "Authentic 1974 recording studio control room photograph of two British music producers and sound engineers sitting by an analog mixing console, listening with stunned, emotional expressions to the studio playback speakers, glowing VU meters, dim analog lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-08.png",
+      "prompt": "Epic 1975 stadium concert photograph of hard rock band Nazareth performing Love Hurts live, charismatic lead singer Dan McCafferty with microphone stand, vast audience holding up thousands of glowing lighters in the darkness, dramatic blue and amber stage lights, smoke effects, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/nazareth-love-hurts/scene-09.png",
+      "prompt": "Macro photograph of the original 1975 A&M Records vinyl 45 RPM single of Nazareth 'Love Hurts' spinning on a high-end vintage wooden turntable, with a golden record award plaque beside it, warm tungsten lamp light, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/nazareth-love-hurts/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/nazareth-love-hurts/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/nazareth-love-hurts/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/nazareth-love-hurts/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/nazareth-love-hurts/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/nazareth-love-hurts/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/nazareth-love-hurts/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/nazareth-love-hurts/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/nazareth-love-hurts/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Una banda de hard rock escocesa tomó una dulce balada de amor... y la convirtió en un grito desgarrador."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1974: En Escape Studios, Nazareth grababa un disco pesado, pero buscaban una balada para contrastar su crudeza."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Encontraron 'Love Hurts', una dulce balada country de 1960 cantada originalmente por The Everly Brothers."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "El guitarrista Manny Charlton rediseñó la melodía cargándola de distorsión pesada y atmósfera oscura."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En la penumbra de la cabina, el vocalista Dan McCafferty se plantó frente al micrófono Neumann sin filtros."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "No intentó cantarla bonito: con el cuello tenso y la voz al límite, la interpretó como una herida sangrante."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En la sala de control, los ingenieros quedaron congelados y conmovidos ante la desgarradora toma vocal."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Lanzada en 1975, la canción conquistó las listas mundiales y desató la euforia en estadios de todo el planeta."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Los Everly Brothers cantaron que el amor duele; Dan McCafferty hizo que el mundo entero sintiera su cicatriz."
+    }
+  ]
+}

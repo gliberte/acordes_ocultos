@@ -1,0 +1,183 @@
+{
+  "title": "El Pánico de Physical",
+  "artist": "Olivia Newton-John",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1981, Olivia Newton-John era el arquetipo de la inocencia tras Grease. Al grabar «Physical», una frase provocadora la asustó tanto que llamó de madrugada a su manager exigiendo destruir la cinta para no manchar su reputación. Pero ya era tarde: las radios la pedían sin descanso. Para salvarse de la censura, ideó disfrazar la pasión en una rutina aeróbica con mallas y cintas. La canción reinó diez semanas en el número uno de Billboard, coronándose como el mayor éxito de los años 80.",
+  "hook": "Llamó llorando a su manager suplicando destruir la cinta... porque una sola frase podía arruinar su carrera.",
+  "beats": [
+    "En 1981, Olivia Newton-John era el mayor símbolo de inocencia del pop tras el éxito de Grease.",
+    "Buscando madurar, grabó un tema descartado por Rod Stewart con un ritmo electrónico demoledor.",
+    "Al oír la mezcla final en casa, una frase provocadora la paralizó: hablaba abiertamente de intimidad.",
+    "Aterrorizada de arruinar su imagen dulce, llamó de madrugada a su manager suplicando retirar el disco.",
+    "Pero era tarde: las radios ya lo tenían y la audiencia lo pedía a gritos en todo el país.",
+    "Para salvarse de la censura, se le ocurrió una salida genial: disfrazar la pasión con ropa de gimnasio.",
+    "El videoclip con mallas y cintas causó sensación, aunque varias emisoras conservadoras la prohibieron.",
+    "La controversia fue imparable: estuvo diez semanas consecutivas en el número uno de Billboard.",
+    "La canción que quiso censurar se convirtió en el mayor éxito de los años 80. ¿Conocías este secreto?"
+  ],
+  "outro": "La canción que quiso censurar se convirtió en el mayor éxito de los años 80. ¿Conocías este secreto?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fdf4ff",
+    "accent": "#db2777",
+    "glow": "#06b6d4"
+  },
+  "music": {
+    "title": "Physical",
+    "artist": "Olivia Newton-John",
+    "src": "music/olivia-newton-john-physical-acordes-ocultos-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Physical Olivia Newton-John",
+      "expectedTitle": "Physical",
+      "expectedArtist": "Olivia Newton-John",
+      "status": "manual_check_required",
+      "notes": "Audio oficial de 60s para TikTok."
+    }
+  },
+  "coverBg": "videos/olivia-newton-john-physical-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vintage 1981 analog 35mm film photograph of 33-year-old Australian singer Olivia Newton-John, unmistakable short textured blonde hair, radiant blue eyes, athletic delicate facial features, wearing a stylish 1980s pink and turquoise headband and white off-the-shoulder sweatshirt, slight sweat glow, warm studio lights with soft pastel cyan and magenta neon rim lights, iconic pop aesthetic, 9:16 vertical composition, no text.",
+  "assets": [
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-01.png",
+      "prompt": "1978-1980, vertical 9:16: Olivia Newton-John as the beloved wholesome sweet blonde pop icon in an ethereal soft pastel dress, radiant warm smile, angelic glow, clean studio background, authentic vintage 35mm photography, innocent girl-next-door superstar image."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-02.png",
+      "prompt": "1981 Los Angeles music studio, vertical 9:16: Producer John Farrar and British-Australian singer Olivia Newton-John listening at a high-end analog mixing console, reel-to-reel tape recorder spinning, vintage Minimoog and synthesizers in the background, neon studio glow, 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-03.png",
+      "prompt": "Late night 1981, vertical 9:16: Olivia Newton-John at home in her cozy dimly lit Malibu living room, sitting by a vintage high-end turntable with headphones around her neck, staring in sudden shock and panic at a vinyl test pressing sleeve, warm lamp light, moody 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-04.png",
+      "prompt": "Midnight 1981, vertical 9:16: Close-up of 33-year-old Olivia Newton-John gripping a vintage wall telephone receiver in desperation, distressed emotional expression, blonde hair slightly disheveled, tears in her eyes, pleading into the receiver to stop the release, dark moody room, cinematic 35mm film."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-05.png",
+      "prompt": "Autumn 1981, vertical 9:16: An authentic 1980s radio station studio control room with cart machines and glowing 'ON AIR' red sign, radio DJ speaking into an RCA microphone, stacks of 7-inch vinyl singles labeled 'Physical - Olivia Newton-John', broadcast needles peaking into the red, 35mm documentary grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-06.png",
+      "prompt": "Late 1981 video set brainstorm, vertical 9:16: Director Brian Grant and Olivia Newton-John reviewing colorful storyboard sketches showing funny aerobics gym scenes, sweatbands, dumbells and pastel locker rooms, a sudden breakthrough smile of relief on Olivia's face, 35mm film style."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-07.png",
+      "prompt": "1981 music video shoot, vertical 9:16: Olivia Newton-John in her iconic workout outfit with blue headband, white top and pink tights, leading an aerobics class of men in a brightly lit pastel 1980s gym, towel around her neck, dynamic energetic pose, vibrant 80s film aesthetic."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-08.png",
+      "prompt": "Late 1981, vertical 9:16: Authentic Billboard magazine Hot 100 chart printed page resting on a lacquer table, bold letters showing '#1 PHYSICAL - OLIVIA NEWTON-JOHN', a gold record award leaning beside it, champagne glass reflecting festive 1980s party lights, 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-09.png",
+      "prompt": "1982 live concert, vertical 9:16: Olivia Newton-John performing on a massive arena stage under dazzling neon laser beams and pink spotlights, triumphant confident smile, stylish 80s stage costume, holding microphone as tens of thousands of ecstatic fans cheer, iconic legend status, 35mm concert documentary photography."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1981, Olivia Newton-John era el mayor símbolo de inocencia del pop tras el éxito de Grease."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Buscando madurar, grabó un tema descartado por Rod Stewart con un ritmo electrónico demoledor."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "Al oír la mezcla final en casa, una frase provocadora la paralizó: hablaba abiertamente de intimidad."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Aterrorizada de arruinar su imagen dulce, llamó de madrugada a su manager suplicando retirar el disco."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Pero era tarde: las radios ya lo tenían y la audiencia lo pedía a gritos en todo el país."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Para salvarse de la censura, se le ocurrió una salida genial: disfrazar la pasión con ropa de gimnasio."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "El videoclip con mallas y cintas causó sensación, aunque varias emisoras conservadoras la prohibieron."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "La controversia fue imparable: estuvo diez semanas consecutivas en el número uno de Billboard."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "La canción que quiso censurar se convirtió en el mayor éxito de los años 80. ¿Conocías este secreto?"
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const pageTitle = "Política de Cookies | Acordes Ocultos";
+const pageDescription = "Información detallada sobre el uso de cookies técnicas, analíticas y de terceros en Acordes Ocultos conforme a la LSSI-CE y directrices de la AEPD.";
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-neutral-300 font-sans">
+    
+    <!-- Header -->
+    <div class="border-b border-[#26221c] pb-8 mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold tracking-widest uppercase mb-4">
+        <span>Transparencia Digital (Art. 22.2 LSSI-CE & AEPD)</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-4">
+        Política de Cookies
+      </h1>
+      <p class="text-neutral-400 text-sm sm:text-base font-serif italic">
+        Conoce qué cookies utilizamos, con qué finalidad y cómo puedes gestionar o revocar tu consentimiento en cualquier momento.
+      </p>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="space-y-10 text-sm sm:text-base leading-relaxed text-neutral-300">
+
+      <!-- 1. ¿Qué son las cookies? -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">1.</span> ¿Qué es una Cookie y qué tecnologías similares utilizamos?
+        </h2>
+        <p class="mb-3">
+          Una <em>cookie</em> es un pequeño archivo de texto que un sitio web almacena en el navegador del usuario al acceder a determinadas páginas. Las cookies y tecnologías afines (como el almacenamiento local del navegador o <code>localStorage</code>) permiten que la web recuerde información sobre tu visita, tus preferencias visuales o tu estado de consentimiento.
+        </p>
+        <p class="text-neutral-400 text-xs sm:text-sm">
+          En <strong>Acordes Ocultos</strong> apostamos por una política de <strong>mínima intrusión</strong>: priorizamos tecnologías que respetan la privacidad, evitando el rastreo cruzado entre sitios o la publicidad programática invasiva.
+        </p>
+      </section>
+
+      <!-- 2. Clasificación de cookies en Acordes Ocultos -->
+      <section class="space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">2.</span> Tipología de Cookies Empleadas
+        </h2>
+
+        <div class="space-y-4">
+          <!-- A. Técnicas necesarias -->
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-amber-400 font-bold text-base">A. Cookies Técnicas y Estrictamente Necesarias</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-mono font-semibold">Exentas de consentimiento previo</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300 mb-3">
+              Son indispensables para el funcionamiento seguro y la navegación básica en el portal. No recaban información personal para fines publicitarios.
+            </p>
+            <div class="overflow-x-auto text-xs">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="border-b border-[#2b261f] text-neutral-400">
+                    <th class="py-2 pr-4 font-semibold">Identificador</th>
+                    <th class="py-2 pr-4 font-semibold">Finalidad</th>
+                    <th class="py-2 pr-4 font-semibold">Proveedor</th>
+                    <th class="py-2 font-semibold">Duración</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-[#1e1b16] text-neutral-300">
+                  <tr>
+                    <td class="py-2.5 pr-4 font-mono text-amber-300">acordes_cookies_consent</td>
+                    <td class="py-2.5 pr-4">Guarda la preferencia del usuario sobre la aceptación o rechazo de cookies analíticas.</td>
+                    <td class="py-2.5 pr-4">Propia (localStorage)</td>
+                    <td class="py-2.5">12 meses</td>
+                  </tr>
+                  <tr>
+                    <td class="py-2.5 pr-4 font-mono text-amber-300">sb-*-auth-token</td>
+                    <td class="py-2.5 pr-4">Gestión de sesión técnica y autenticación segura para el panel administrativo.</td>
+                    <td class="py-2.5 pr-4">Supabase</td>
+                    <td class="py-2.5">Sesión</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- B. Analítica Vercel (Cookieless) -->
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-amber-400 font-bold text-base">B. Analítica Web Respetuosa con la Privacidad (Vercel)</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30 font-mono font-semibold">Sin cookies (Cookieless)</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300">
+              Utilizamos <strong>Vercel Web Analytics & Speed Insights</strong> para medir tiempos de carga y volumen de visitas agregadas. Este servicio opera sin almacenar cookies en tu dispositivo, no rastrea identificadores personales entre dominios y cumple con los estándares más estrictos del RGPD y de la AEPD.
+            </p>
+          </div>
+
+          <!-- C. Analítica Google Analytics (Opcional bajo consentimiento) -->
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-amber-400 font-bold text-base">C. Cookies Analíticas Opcionales (Google Analytics)</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 font-mono font-semibold">Requiere consentimiento previo</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300 mb-3">
+              Permiten cuantificar el número de lectores y analizar de forma estadística cómo navegan por las crónicas para mejorar la oferta editorial. <strong>Solo se ejecutan si pulsas «Aceptar todas» en el banner de cookies.</strong>
+            </p>
+            <div class="overflow-x-auto text-xs">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="border-b border-[#2b261f] text-neutral-400">
+                    <th class="py-2 pr-4 font-semibold">Cookie</th>
+                    <th class="py-2 pr-4 font-semibold">Finalidad</th>
+                    <th class="py-2 pr-4 font-semibold">Proveedor</th>
+                    <th class="py-2 font-semibold">Duración</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-[#1e1b16] text-neutral-300">
+                  <tr>
+                    <td class="py-2.5 pr-4 font-mono text-amber-300">_ga / _ga_*</td>
+                    <td class="py-2.5 pr-4">Identificador aleatorio y anónimo para registrar sesiones agregadas.</td>
+                    <td class="py-2.5 pr-4">Google LLC</td>
+                    <td class="py-2.5">Hasta 2 años</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- D. Servicios incrustados de terceros -->
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex items-center justify-between mb-2">
+              <h3 class="text-amber-400 font-bold text-base">D. Reproductores Multimedia Incrustados de Terceros</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 font-mono font-semibold">Terceros (Spotify / Instagram)</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300">
+              Para permitir escuchar las canciones o ver los videoclips referenciados en cada historia, se integran reproductores oficiales de <strong>Spotify</strong> y previsualizaciones de <strong>Instagram</strong>. Estos servicios pueden establecer sus propias cookies de sesión o seguimiento cuando interactúas directamente con su reproductor. Te sugerimos consultar sus respectivas políticas:
+            </p>
+            <ul class="text-xs text-neutral-400 space-y-1 mt-2">
+              <li>• <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">Política de Cookies de Spotify</a></li>
+              <li>• <a href="https://privacycenter.instagram.com/policies/cookies/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">Política de Cookies de Instagram / Meta</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Panel de Gestión y Revocación del Consentimiento -->
+      <section class="bg-gradient-to-br from-[#1a140e] to-[#12100d] border border-amber-500/30 rounded-2xl p-6 sm:p-8 shadow-xl">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-amber-400">3.</span> Gestión y Revocación de tu Consentimiento
+        </h2>
+        <p class="text-sm text-neutral-300 mb-6 leading-relaxed">
+          En cumplimiento de las directrices del Comité Europeo de Protección de Datos (CEPD) y de la AEPD, puedes modificar en cualquier instante tus preferencias o revocar el consentimiento prestado para cookies analíticas:
+        </p>
+        
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+          <button
+            type="button"
+            id="reset-cookies-btn"
+            class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-xs uppercase tracking-wider hover:from-amber-400 hover:to-amber-500 transition-all shadow-md shadow-amber-950/40 cursor-pointer"
+          >
+            ⚙️ Reabrir Preferencias de Cookies
+          </button>
+          <span id="cookies-status-msg" class="text-xs text-neutral-400 font-mono"></span>
+        </div>
+      </section>
+
+      <!-- 4. Cómo desactivar cookies en el navegador -->
+      <section class="space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-2 flex items-center gap-2">
+          <span class="text-amber-400">4.</span> Cómo Bloquear o Eliminar Cookies desde tu Navegador
+        </h2>
+        <p class="text-sm">
+          Puedes permitir, bloquear o eliminar las cookies instaladas en tu equipo configurando las opciones del navegador web que utilices:
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 text-xs">
+          <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#14120f] border border-[#26221c] rounded-lg text-center hover:border-amber-500/40 transition-colors">
+            <strong class="text-white block mb-1">Google Chrome</strong>
+            <span class="text-amber-400 text-[11px]">Ver guía →</span>
+          </a>
+          <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#14120f] border border-[#26221c] rounded-lg text-center hover:border-amber-500/40 transition-colors">
+            <strong class="text-white block mb-1">Apple Safari</strong>
+            <span class="text-amber-400 text-[11px]">Ver guía →</span>
+          </a>
+          <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#14120f] border border-[#26221c] rounded-lg text-center hover:border-amber-500/40 transition-colors">
+            <strong class="text-white block mb-1">Mozilla Firefox</strong>
+            <span class="text-amber-400 text-[11px]">Ver guía →</span>
+          </a>
+          <a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank" rel="noopener noreferrer" class="p-3 bg-[#14120f] border border-[#26221c] rounded-lg text-center hover:border-amber-500/40 transition-colors">
+            <strong class="text-white block mb-1">Microsoft Edge</strong>
+            <span class="text-amber-400 text-[11px]">Ver guía →</span>
+          </a>
+        </div>
+      </section>
+
+    </div>
+  </div>
+</Layout>
+
+<script>
+  (function() {
+    const btn = document.getElementById('reset-cookies-btn');
+    const msg = document.getElementById('cookies-status-msg');
+
+    function updateStatus() {
+      const consent = localStorage.getItem('acordes_cookies_consent');
+      if (msg) {
+        if (consent === 'accepted') {
+          msg.textContent = 'Estado actual: Has aceptado todas las cookies.';
+          msg.className = 'text-xs text-emerald-400 font-mono';
+        } else if (consent === 'rejected') {
+          msg.textContent = 'Estado actual: Solo cookies técnicas necesarias.';
+          msg.className = 'text-xs text-amber-300 font-mono';
+        } else {
+          msg.textContent = 'Estado actual: Sin preferencia establecida.';
+          msg.className = 'text-xs text-neutral-400 font-mono';
+        }
+      }
+    }
+
+    if (btn) {
+      btn.addEventListener('click', () => {
+        localStorage.removeItem('acordes_cookies_consent');
+        window.dispatchEvent(new CustomEvent('acordes_reopen_cookie_banner'));
+        updateStatus();
+      });
+    }
+
+    updateStatus();
+    window.addEventListener('acordes_consent_updated', updateStatus);
+  })();
+</script>

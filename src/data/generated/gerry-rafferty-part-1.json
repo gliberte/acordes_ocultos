@@ -1,0 +1,147 @@
+{
+  "title": "El infierno legal y la carta de amor",
+  "artist": "Gerry Rafferty",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Detrás del éxito de 'Right Down the Line' de Gerry Rafferty se esconde un infierno legal y una carta de salvación. Tras disolver Stealers Wheel, su antigua banda, un contrato abusivo le prohibió publicar música durante tres largos años. Atrapado en pleitos, Rafferty viajaba sin cesar en trenes entre Escocia y Londres, hundiéndose en el alcohol y la depresión. En medio del abismo, su esposa Carla Ventilla fue su único ancla. Para ella escribió este himno de pura gratitud. A diferencia de otras canciones de amor de la época, no describía mariposas, sino el alivio de no ahogarse en la oscuridad. El tema se convirtió en una declaración de supervivencia madura: la promesa de estar al lado de alguien cuando cae al fondo. Así nació la obra maestra que le devolvió la voz tras años de silencio, abriendo la puerta a su mayor leyenda... (Continúa en Parte 2)",
+  "hook": "Detrás del éxito de 'Right Down the Line' de Gerry Rafferty se esconde un infierno legal y una carta de salvación.",
+  "beats": [
+    "Tras disolver Stealers Wheel, su antigua banda, un contrato abusivo le prohibió publicar música durante tres largos años.",
+    "Atrapado en pleitos, Rafferty viajaba sin cesar en trenes entre Escocia y Londres, hundiéndose en el alcohol y la depresión.",
+    "En medio del abismo, su esposa Carla Ventilla fue su único ancla. Para ella escribió este himno de pura gratitud.",
+    "A diferencia de otras canciones de amor de la época, no describía mariposas, sino el alivio de no ahogarse en la oscuridad.",
+    "El tema se convirtió en una declaración de supervivencia madura: la promesa de estar al lado de alguien cuando cae al fondo."
+  ],
+  "outro": "Así nació la obra maestra que le devolvió la voz tras años de silencio, abriendo la puerta a su mayor leyenda... (Continúa en Parte 2)",
+  "palette": {
+    "ink": "#14100c",
+    "paper": "#faf7f0",
+    "accent": "#cf682e",
+    "glow": "#cfaa2e"
+  },
+  "music": {
+    "title": "Right Down the Line",
+    "artist": "Gerry Rafferty",
+    "src": "music/gerry-rafferty-line.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Right Down the Line Gerry Rafferty",
+      "expectedTitle": "Right Down the Line",
+      "expectedArtist": "Gerry Rafferty",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-01.png",
+      "prompt": "Gerry Rafferty sitting in a dimly lit train compartment in the 1970s, looking out the window at the rain, moody reflection, vintage film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-02.png",
+      "prompt": "A desk piled high with legal documents, contracts, and a vintage fountain pen, under a harsh desk lamp in a dark office, 1970s aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-03.png",
+      "prompt": "A vintage glass of amber whiskey sitting on a wooden train compartment table, blurry lights of the city outside moving past the window, moody 1970s lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-04.png",
+      "prompt": "Close up of Gerry Rafferty writing lyrics in a leather notebook with a vintage pen in the dim, warm light of a train carriage, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-05.png",
+      "prompt": "A warm and intimate portrait of a 1970s woman, Carla Ventilla, with soft focus, gentle lighting, smiling warmly, film grain, vintage look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-06.png",
+      "prompt": "Gerry Rafferty and Carla walking together hand in hand along a misty, cloudy Scottish shoreline at dusk, backs to the camera, wearing winter coats, vintage film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-1/scene-07.png",
+      "prompt": "A vintage cassette tape from the 1970s with hand-written label 'Right Down the Line - Gerry R.' sitting on a wooden table under soft light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/gerry-rafferty-part-1/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/gerry-rafferty-part-1/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/gerry-rafferty-part-1/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/gerry-rafferty-part-1/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/gerry-rafferty-part-1/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/gerry-rafferty-part-1/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/gerry-rafferty-part-1/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Detrás del éxito de 'Right Down the Line' de Gerry Rafferty se esconde un infierno legal y una carta de salvación."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Tras disolver Stealers Wheel, su antigua banda, un contrato abusivo le prohibió publicar música durante tres largos años."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Atrapado en pleitos, Rafferty viajaba sin cesar en trenes entre Escocia y Londres, hundiéndose en el alcohol y la depresión."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En medio del abismo, su esposa Carla Ventilla fue su único ancla. Para ella escribió este himno de pura gratitud."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "A diferencia de otras canciones de amor de la época, no describía mariposas, sino el alivio de no ahogarse en la oscuridad."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El tema se convirtió en una declaración de supervivencia madura: la promesa de estar al lado de alguien cuando cae al fondo."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Así nació la obra maestra que le devolvió la voz tras años de silencio, abriendo la puerta a su mayor leyenda... (Continúa en Parte 2)"
+    }
+  ]
+}

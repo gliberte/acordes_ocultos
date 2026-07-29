@@ -1,0 +1,147 @@
+{
+  "title": "Zombie",
+  "artist": "The Cranberries",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que una tragedia infantil silenciada transformara a una dulce banda de pop en el grito de rabia más potente de los años 90? En 1993, un atentado con bombas del IRA en Inglaterra apagó las vidas de dos niños inocentes de tres y doce años. Dolores O'Riordan, rota de dolor en su apartamento, se negó a callar ante la violencia y escribió a solas las estrofas del himno. Para plasmar la indignación, la banda abandonó su sonido suave y grabó guitarras distorsionadas que golpeaban como metralla. Desafiando la censura política y las advertencias del conflicto, Dolores grabó un videoclip icónica vestida de oro frente al dolor. En 'Zombie', la palabra representaba a quienes seguían ciegamente la violencia sin ver el rostro de las verdaderas víctimas. Un grito de paz que sigue sonando en todo el mundo. ¿Es la canción de protesta definitiva de los noventa?",
+  "hook": "¿Cómo es posible que una tragedia infantil silenciada transformara a una dulce banda de pop en el grito de rabia más potente de los años 90?",
+  "beats": [
+    "En 1993, un atentado con bombas del IRA en Inglaterra apagó las vidas de dos niños inocentes de tres y doce años.",
+    "Dolores O'Riordan, rota de dolor en su apartamento, se negó a callar ante la violencia y escribió a solas las estrofas del himno.",
+    "Para plasmar la indignación, la banda abandonó su sonido suave y grabó guitarras distorsionadas que golpeaban como metralla.",
+    "Desafiando la censura política y las advertencias del conflicto, Dolores grabó un videoclip icónica vestida de oro frente al dolor.",
+    "En 'Zombie', la palabra representaba a quienes seguían ciegamente la violencia sin ver el rostro de las verdaderas víctimas."
+  ],
+  "outro": "Un grito de paz que sigue sonando en todo el mundo. ¿Es la canción de protesta definitiva de los noventa?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f5f3ef",
+    "accent": "#d9a72b",
+    "glow": "#4d5b46"
+  },
+  "music": {
+    "title": "Zombie",
+    "artist": "The Cranberries",
+    "src": "music/zombie.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Zombie The Cranberries",
+      "expectedTitle": "Zombie",
+      "expectedArtist": "The Cranberries",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/zombie/scene-01.png",
+      "prompt": "A 1994 vinyl record of The Cranberries' 'Zombie' spinning on a dark retro turntable, with blurred protest signs and a vintage brick wall in the background, moody lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-02.png",
+      "prompt": "A silent, empty street in Warrington, England in 1993 after a tragedy, with a single children's toy left near a metal trash can, rain falling, somber black and white film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-03.png",
+      "prompt": "A young Dolores O'Riordan with short cropped dark hair, sitting on a sofa in a modest apartment, playing a simple acoustic guitar with a melancholic expression, 1993, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-04.png",
+      "prompt": "The Cranberries performing intensely in a dark recording studio in 1994, Dolores O'Riordan singing with raw emotion into a vintage microphone, guitarist playing a distorted electric guitar, high contrast lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-05.png",
+      "prompt": "British soldiers in camouflage uniforms patrolling a wet, grey street in Northern Ireland in the 1990s, red brick houses in the background, tense atmosphere, documentary style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-06.png",
+      "prompt": "A woman resembling Dolores O'Riordan painted entirely in shimmering gold, standing in front of a rustic wooden cross under dramatic studio lights, representing pain and resilience, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/zombie/scene-07.png",
+      "prompt": "A crowd of people holding hands during a peaceful march under a grey sky, with a subtle rainbow breaking through the dark clouds, retro film aesthetic, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/zombie/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/zombie/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/zombie/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/zombie/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/zombie/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/zombie/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/zombie/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que una tragedia infantil silenciada transformara a una dulce banda de pop en el grito de rabia más potente de los años 90?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1993, un atentado con bombas del IRA en Inglaterra apagó las vidas de dos niños inocentes de tres y doce años."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Dolores O'Riordan, rota de dolor en su apartamento, se negó a callar ante la violencia y escribió a solas las estrofas del himno."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para plasmar la indignación, la banda abandonó su sonido suave y grabó guitarras distorsionadas que golpeaban como metralla."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Desafiando la censura política y las advertencias del conflicto, Dolores grabó un videoclip icónica vestida de oro frente al dolor."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En 'Zombie', la palabra representaba a quienes seguían ciegamente la violencia sin ver el rostro de las verdaderas víctimas."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un grito de paz que sigue sonando en todo el mundo. ¿Es la canción de protesta definitiva de los noventa?"
+    }
+  ]
+}

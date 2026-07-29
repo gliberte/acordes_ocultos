@@ -1,0 +1,147 @@
+{
+  "title": "It's My Life",
+  "artist": "Bon Jovi",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo logró un himno de rock del año 2000 unir a la leyenda de Frank Sinatra con una nueva generación de adolescentes? En el año 2000, tras un largo silencio de cinco años, Bon Jovi regresó con 'It's My Life', un grito de guerra que redefinió su carrera. Pero en la intimidad del estudio, una de sus líneas más célebres desató una batalla feroz entre Jon Bon Jovi y Richie Sambora. El guitarrista protestó ante la frase 'Like Frankie said, I did it My Way', diciendo que a ningún joven le importaba Frank Sinatra. Sin embargo, Jon venía de filmar la película de guerra U-571 y tenía claro que quería la longevidad y el carácter indomable de Sinatra. Jon se impuso, mantuvo el verso y el público convirtió la referencia en el lema definitivo de resistencia y libertad de toda una era. Una lección eterna: en la música, como en la vida, defender tus convicciones a tu manera es lo único que nos hace inmortales.",
+  "hook": "¿Cómo logró un himno de rock del año 2000 unir a la leyenda de Frank Sinatra con una nueva generación de adolescentes?",
+  "beats": [
+    "En el año 2000, tras un largo silencio de cinco años, Bon Jovi regresó con 'It's My Life', un grito de guerra que redefinió su carrera.",
+    "Pero en la intimidad del estudio, una de sus líneas más célebres desató una batalla feroz entre Jon Bon Jovi y Richie Sambora.",
+    "El guitarrista protestó ante la frase 'Like Frankie said, I did it My Way', diciendo que a ningún joven le importaba Frank Sinatra.",
+    "Sin embargo, Jon venía de filmar la película de guerra U-571 y tenía claro que quería la longevidad y el carácter indomable de Sinatra.",
+    "Jon se impuso, mantuvo el verso y el público convirtió la referencia en el lema definitivo de resistencia y libertad de toda una era."
+  ],
+  "outro": "Una lección eterna: en la música, como en la vida, defender tus convicciones a tu manera es lo único que nos hace inmortales.",
+  "palette": {
+    "ink": "#0a0c10",
+    "paper": "#f4f6fa",
+    "accent": "#0055ff",
+    "glow": "#ff2233"
+  },
+  "music": {
+    "title": "It's My Life",
+    "artist": "Bon Jovi",
+    "src": "music/it-s-my-life.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "It's My Life Bon Jovi",
+      "expectedTitle": "It's My Life",
+      "expectedArtist": "Bon Jovi",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/it-s-my-life/scene-01.png",
+      "prompt": "A sleek single CD case of Bon Jovi's 'It's My Life' sitting on a modern year-2000 glass table, vibrant neon reflection, cool retro-futuristic digital look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-02.png",
+      "prompt": "A massive, energetic stadium concert crowd of young teenagers under bright spotlights and blue neon haze in the year 2000, hands in the air, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-03.png",
+      "prompt": "Jon Bon Jovi with short blonde-highlighted hair in a leather jacket arguing intensely with guitarist Richie Sambora in a professional recording studio control room, year 2000, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-04.png",
+      "prompt": "An elegant, classic portrait of Frank Sinatra in a vintage tuxedo singing into a classic microphone, warm gold tone, smoky atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-05.png",
+      "prompt": "A young Jon Bon Jovi in a dark blue WWII military officer uniform standing on a wet submarine deck under heavy rain, cinematic film style from U-571, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-06.png",
+      "prompt": "Jon Bon Jovi with short blonde-highlighted hair singing passionately into a studio microphone, close up, warm recording booth lighting, year 2000, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/it-s-my-life/scene-07.png",
+      "prompt": "A wide cinematic shot of a rock singer standing triumphant on the edge of a massive stadium stage looking out at thousands of lights from the crowd, blue and gold hues, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/it-s-my-life/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/it-s-my-life/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/it-s-my-life/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/it-s-my-life/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/it-s-my-life/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/it-s-my-life/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/it-s-my-life/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo logró un himno de rock del año 2000 unir a la leyenda de Frank Sinatra con una nueva generación de adolescentes?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En el año 2000, tras un largo silencio de cinco años, Bon Jovi regresó con 'It's My Life', un grito de guerra que redefinió su carrera."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Pero en la intimidad del estudio, una de sus líneas más célebres desató una batalla feroz entre Jon Bon Jovi y Richie Sambora."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "El guitarrista protestó ante la frase 'Like Frankie said, I did it My Way', diciendo que a ningún joven le importaba Frank Sinatra."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Sin embargo, Jon venía de filmar la película de guerra U-571 y tenía claro que quería la longevidad y el carácter indomable de Sinatra."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Jon se impuso, mantuvo el verso y el público convirtió la referencia en el lema definitivo de resistencia y libertad de toda una era."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una lección eterna: en la música, como en la vida, defender tus convicciones a tu manera es lo único que nos hace inmortales."
+    }
+  ]
+}

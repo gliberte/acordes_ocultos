@@ -1,0 +1,134 @@
+{
+  "title": "La Despedida Oculta Detrás del Encaje",
+  "artist": "Fleetwood Mac",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "Detrás del radiante ritmo de 'Gypsy' de Fleetwood Mac se esconde una de las historias de luto más conmovedoras del rock. A principios de los años 70, antes de la fama multimillonaria, Stevie Nicks y Lindsey Buckingham vivían en la pobreza extrema en San Francisco, durmiendo en un humilde colchón en el suelo adornado con encajes y una colcha de terciopelo comprada en la tienda vintage 'The Velvet Underground'. Años más tarde, en la cima de la opulencia y el éxito, Stevie escribió la canción para recordar quién era cuando no tenía nada. Pero en 1981, mientras grababan en un castillo en Francia, la tragedia la golpeó: su mejor amiga desde los 15 años, Robin Snyder Anderson, fue diagnosticada con leucemia terminal y murió pocos días después de dar a luz. Desgarrada por el dolor, Stevie transformó la canción en un adiós eterno a su amiga y en un recordatorio de que, al final del viaje, siempre volvemos a la raíz.",
+  "hook": "Stevie Nicks giraba en el escenario con su vestido de gasa, ocultando que cada verso era una carta a su amiga que acababa de morir.",
+  "beats": [
+    "San Francisco, 1973: Antes de la fama, Stevie y Lindsey vivían en la pobreza, durmiendo en un colchón en el suelo con sábanas de encaje.",
+    "Compraban telas en una tienda vintage llamada 'The Velvet Underground', donde Stevie soñaba con ser libre como una gitana.",
+    "Años después, rodeada de millones y excesos, Stevie compuso una melodía al piano para no perder su esencia ni olvidar su origen.",
+    "Pero en 1981, en un castillo en Francia, una llamada la paralizó: su mejor amiga Robin tenía leucemia terminal.",
+    "Robin dio a luz a su bebé y falleció tres días después, dejando a Stevie con el corazón completamente destrozado.",
+    "En la cabina del estudio, con lágrimas en los ojos, Stevie cantó con el alma: 'El rayo cae quizás una vez, quizás dos...'.",
+    "La canción y su mítico videoclip se convirtieron en un himno universal para quienes aprendieron a despedirse a través de la música."
+  ],
+  "outro": "Cuando todo se apaga y el dolor arrecia, la verdadera libertad consiste en volver al lugar donde fuimos nosotros mismos.",
+  "palette": {
+    "ink": "#0e0d11",
+    "paper": "#f5eee6",
+    "accent": "#b07d62",
+    "glow": "#d4a373"
+  },
+  "music": {
+    "title": "Gypsy",
+    "artist": "Fleetwood Mac",
+    "src": "music/fleetwood-mac-gypsy.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Gypsy Fleetwood Mac",
+      "expectedTitle": "Gypsy",
+      "expectedArtist": "Fleetwood Mac",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-01.png",
+      "prompt": "Authentic 1982 concert photograph of singer Stevie Nicks performing live on stage with Fleetwood Mac, twirling passionately in her iconic flowing black chiffon dress, holding a tambourine adorned with ribbons under golden theatrical stage lights, crowd in soft darkness below, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-02.png",
+      "prompt": "Authentic 1973 vintage photograph of a young 24-year-old Stevie Nicks with long straight blonde hair and young Lindsey Buckingham with curly hair, sitting together on a simple mattress on the wooden floor of their modest bohemian San Francisco apartment, the mattress covered with a worn velvet blanket and lace fabrics, warm morning sunlight streaming through old sash windows, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-03.png",
+      "prompt": "Authentic 1974 photograph of 25-year-old Stevie Nicks browsing vintage clothing racks in a cozy, eclectic bohemian thrift boutique in San Francisco called 'The Velvet Underground', touching antique Victorian lace dresses and velvet shawls, warm golden vintage store lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-04.png",
+      "prompt": "Authentic 1979 photograph of singer Stevie Nicks sitting at an upright wooden piano in a rustic wooden room in Aspen Colorado, playing the keys while looking at handwritten lyrics in a spiral notebook, wearing a warm oversized knit sweater, soft fireplace glow and mountain snow outside the window, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-05.png",
+      "prompt": "Dramatic 1981 photograph of singer Stevie Nicks with her iconic shaggy blonde layered hair and bangs, inside the stone residential quarters of a French château, holding a vintage black telephone receiver to her ear with trembling hands, real tears spilling down her cheeks, heartbroken and pale expression upon hearing devastating news, tall arched stone window in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-06.png",
+      "prompt": "Poignant 1982 hospital room photograph of Stevie Nicks with blonde shaggy hair, sitting gently beside a hospital bed holding the fragile pale hand of her dear female best friend who is resting under white hospital sheets, soft muted daylight coming through blinds, immense emotional tenderness and quiet grief, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-07.png",
+      "prompt": "Authentic 1982 recording studio photograph of Stevie Nicks with blonde layered hair, wearing large vintage studio headphones, singing with closed eyes and deep raw sorrow into a vintage Neumann U87 condenser microphone with pop filter, soft tears on her cheek, warm analog wooden studio interior and mixer visible in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-08.png",
+      "prompt": "Cinematic 1982 behind-the-scenes photograph of the music video production for Gypsy, featuring large ornate vintage mirrors standing in an enchanted foggy gothic forest set, vintage 35mm film movie camera on a tripod in the foreground, Stevie Nicks dancing mystically in her lace gown amidst ethereal haze and dramatic theatrical spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fleetwood-mac-gypsy/scene-09.png",
+      "prompt": "Poetic, sublime 35mm photograph of a black vintage lace and velvet shawl caught in the gentle coastal sea breeze atop a rugged cliff overlooking the vast Pacific Ocean at golden hour sunset, soft golden sun rays piercing through coastal mist, distant seabirds gliding in the pastel sky, peaceful eternal atmosphere of freedom and remembrance, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/fleetwood-mac-gypsy/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/fleetwood-mac-gypsy/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/fleetwood-mac-gypsy/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/fleetwood-mac-gypsy/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/fleetwood-mac-gypsy/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/fleetwood-mac-gypsy/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/fleetwood-mac-gypsy/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/fleetwood-mac-gypsy/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/fleetwood-mac-gypsy/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Stevie Nicks giraba en el escenario con su vestido de gasa, ocultando que cada verso era una carta a su amiga que acababa de morir."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "San Francisco, 1973: Antes de la fama, Stevie y Lindsey vivían en la pobreza, durmiendo en un colchón en el suelo con sábanas de encaje."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Compraban telas en una tienda vintage llamada 'The Velvet Underground', donde Stevie soñaba con ser libre como una gitana."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Años después, rodeada de millones y excesos, Stevie compuso una melodía al piano para no perder su esencia ni olvidar su origen."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Pero en 1981, en un castillo en Francia, una llamada la paralizó: su mejor amiga Robin tenía leucemia terminal."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Robin dio a luz a su bebé y falleció tres días después, dejando a Stevie con el corazón completamente destrozado."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En la cabina del estudio, con lágrimas en los ojos, Stevie cantó con el alma: 'El rayo cae quizás una vez, quizás dos...'."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "La canción y su mítico videoclip se convirtieron en un himno universal para quienes aprendieron a despedirse a través de la música."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Cuando todo se apaga y el dolor arrecia, la verdadera libertad consiste en volver al lugar donde fuimos nosotros mismos."
+    }
+  ]
+}

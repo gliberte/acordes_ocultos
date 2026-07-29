@@ -1,0 +1,112 @@
+{
+  "title": "While My Guitar Gently Weeps",
+  "artist": "The Beatles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "Para septiembre de 1968, las sesiones del White Album estaban inmersas en un ambiente tóxico y tenso. George Harrison trajo 'While My Guitar Gently Weeps', pero John Lennon y Paul McCartney apenas le prestaron atención, tratándola como relleno. El 6 de septiembre, mientras viajaba en auto hacia Londres con su amigo Eric Clapton, Harrison tomó una decisión desesperada: 'Ven y toca en ella'. Clapton dudó: '¡Oh, no! Nadie toca jamás en los discos de los Beatles'. Harrison replicó: 'La canción es mía y quiero que tú toques en ella'. Su estrategia del invitado estrella funcionó: la presencia de Clapton obligó a Lennon y McCartney a comportarse como angelitos, permitiendo a George concentrarse en cantar. Al terminar, Clapton advirtió que su solo no sonaba bastante 'Beatle'. Para darle ese carácter sin perder la genialidad de Clapton, el ingeniero Ken Scott procesó la guitarra mediante ADT (Artificial Double Tracking), modulando la velocidad a mano para crear ese característico bamboleo melancólico y psicodélico.",
+  "hook": "George Harrison llevó a Eric Clapton en secreto al estudio para obligar a los Beatles a portarse bien.",
+  "beats": [
+    "Septiembre de 1968. Lennon y McCartney trataban 'While My Guitar Gently Weeps' como relleno, con desgana y un ambiente tóxico.",
+    "En un viaje en auto, Harrison rogó a Clapton: 'Ven y toca'. Eric dudó: 'Nadie toca en un disco de los Beatles'.",
+    "'La canción es mía', insistió George. Sabía que ante el mejor guitarrista del país, John y Paul se portarían como angelitos.",
+    "Y funcionó: los Beatles mostraron un respeto absoluto. Liberado, Harrison cantó mientras Clapton grababa un solo inmortal.",
+    "Pero Clapton advirtió: 'No suena bastante Beatle'. El ingeniero Ken Scott pasó la pista por ADT modulando a mano la velocidad."
+  ],
+  "outro": "Ese bamboleo psicodélico salvó la obra maestra que la propia banda estuvo a punto de destruir.",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f0ede5",
+    "accent": "#d4af37",
+    "glow": "#8a3ab9"
+  },
+  "music": {
+    "title": "While My Guitar Gently Weeps",
+    "artist": "The Beatles",
+    "src": "music/while-my-guitar-gently-weeps.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "While My Guitar Gently Weeps The Beatles",
+      "expectedTitle": "While My Guitar Gently Weeps",
+      "expectedArtist": "The Beatles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-01.png",
+      "prompt": "Authentic 1968 photograph of George Harrison of The Beatles (age 25, long dark hair parted in the middle, thin mustache, melancholic expression) standing in Abbey Road Studio Two, holding an acoustic guitar while looking frustrated and isolated, cinematic lighting, vintage 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-02.png",
+      "prompt": "Authentic 1968 Abbey Road Studio Two interior, John Lennon (wearing round wire-rimmed glasses and sideburns) and Paul McCartney (dark hair, casual sixties attire) sitting indifferently across the room talking, ignoring George Harrison in the background, tense atmosphere, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-03.png",
+      "prompt": "Inside a classic 1960s British car on a rainy September day in 1968, George Harrison driving while looking earnestly at his passenger Eric Clapton (curly brown afro hair, stylish sixties coat), intense conversation, London streets outside the window, cinematic 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-04.png",
+      "prompt": "Eric Clapton (age 23, distinctive sixties frizzy afro hair, paisley shirt) entering Abbey Road Studio Two carrying his red Les Paul electric guitar 'Lucy', John Lennon and Paul McCartney looking on with sudden polite respect and attention, 1968 authentic lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-05.png",
+      "prompt": "Close-up of Eric Clapton in 1968 playing a soaring guitar solo on a cherry red electric guitar in Abbey Road Studio Two, George Harrison singing passionately into a vintage Neumann microphone beside him, harmonious collaboration, vintage 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-06.png",
+      "prompt": "In Abbey Road Studio control room 1968, sound engineer Ken Scott adjusting knobs and manually modulating the tape speed on an analog Studer tape machine for Artificial Double Tracking (ADT), glowing VU meters, Clapton and Harrison watching intently, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/while-my-guitar-gently-weeps/scene-07.png",
+      "prompt": "A close-up of The Beatles 1968 White Album vinyl spinning on an iconic sixties turntable, warm golden studio light reflecting off the grooves, triumphant and nostalgic atmosphere, vintage 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 8,  "src": "videos/while-my-guitar-gently-weeps/scene-01.png", "type": "image" },
+    { "start": 8,  "end": 17, "src": "videos/while-my-guitar-gently-weeps/scene-02.png", "type": "image" },
+    { "start": 17, "end": 25, "src": "videos/while-my-guitar-gently-weeps/scene-03.png", "type": "image" },
+    { "start": 25, "end": 34, "src": "videos/while-my-guitar-gently-weeps/scene-04.png", "type": "image" },
+    { "start": 34, "end": 43, "src": "videos/while-my-guitar-gently-weeps/scene-05.png", "type": "image" },
+    { "start": 43, "end": 52, "src": "videos/while-my-guitar-gently-weeps/scene-06.png", "type": "image" },
+    { "start": 52, "end": 60, "src": "videos/while-my-guitar-gently-weeps/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "George Harrison llevó a Eric Clapton en secreto al estudio para obligar a los Beatles a portarse bien."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "Septiembre de 1968. Lennon y McCartney trataban 'While My Guitar Gently Weeps' como relleno, con desgana y un ambiente tóxico."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "En un viaje en auto, Harrison rogó a Clapton: 'Ven y toca'. Eric dudó: 'Nadie toca en un disco de los Beatles'."
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "text": "'La canción es mía', insistió George. Sabía que ante el mejor guitarrista del país, John y Paul se portarían como angelitos."
+    },
+    {
+      "start": 34,
+      "end": 43,
+      "text": "Y funcionó: los Beatles mostraron un respeto absoluto. Liberado, Harrison cantó mientras Clapton grababa un solo inmortal."
+    },
+    {
+      "start": 43,
+      "end": 52,
+      "text": "Pero Clapton advirtió: 'No suena bastante Beatle'. El ingeniero Ken Scott pasó la pista por ADT modulando a mano la velocidad."
+    },
+    {
+      "start": 52,
+      "end": 60,
+      "text": "Ese bamboleo psicodélico salvó la obra maestra que la propia banda estuvo a punto de destruir."
+    }
+  ]
+}

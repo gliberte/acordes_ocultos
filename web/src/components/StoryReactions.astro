@@ -1,0 +1,127 @@
+---
+interface Props {
+  slug: string;
+  initialLikes?: number;
+}
+
+const { slug, initialLikes = 0 } = Astro.props;
+---
+
+<div class="my-8 p-6 sm:p-8 rounded-2xl bg-gradient-to-b from-[#14120f] to-[#0c0b09] border border-[#26221c] shadow-xl text-center relative overflow-hidden group">
+  <!-- Subtle ambient glow -->
+  <div class="absolute -top-12 left-1/2 -translate-x-1/2 w-48 h-48 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <p class="text-xs uppercase tracking-widest text-neutral-400 font-sans font-bold mb-4">
+    ¿Te conmovió esta crónica?
+  </p>
+
+  <div class="flex flex-col items-center justify-center gap-3">
+    <button
+      id={`reaction-btn-${slug}`}
+      type="button"
+      class="group/btn relative inline-flex items-center gap-3 px-6 py-3.5 rounded-full font-sans font-bold text-sm tracking-wide transition-all duration-300 transform active:scale-95 bg-[#1a1714] text-neutral-200 border border-neutral-700 hover:border-amber-400 hover:text-amber-300 shadow-lg shadow-black/60 cursor-pointer"
+      data-slug={slug}
+      data-likes={initialLikes}
+    >
+      <span class="text-xl transition-transform duration-300 group-hover/btn:scale-125" id={`reaction-icon-${slug}`}>
+        🎸
+      </span>
+      <span>Tocar Acorde de Honor</span>
+      <span
+        id={`reaction-counter-badge-${slug}`}
+        class="ml-1 px-2.5 py-0.5 rounded-full text-xs font-mono font-bold bg-amber-500/20 text-amber-400 border border-amber-500/30"
+      >
+        {initialLikes}
+      </span>
+    </button>
+
+    <p class="text-xs text-neutral-400 font-sans" id={`reaction-status-text-${slug}`}>
+      {initialLikes === 0 ? (
+        <span>Sé el primero en dedicar un acorde a esta historia</span>
+      ) : initialLikes === 1 ? (
+        <span>A <strong class="text-amber-400 font-mono">1</strong> melómano le conmovió esta historia</span>
+      ) : (
+        <span>A <strong class="text-amber-400 font-mono">{initialLikes}</strong> melómanos les conmovió esta historia</span>
+      )}
+    </p>
+  </div>
+</div>
+
+<script define:vars={{ slug, initialLikes }}>
+  (function() {
+    const btn = document.getElementById(`reaction-btn-${slug}`);
+    const badge = document.getElementById(`reaction-counter-badge-${slug}`);
+    const statusText = document.getElementById(`reaction-status-text-${slug}`);
+    const icon = document.getElementById(`reaction-icon-${slug}`);
+    const storageKey = `acordes_liked_${slug}`;
+
+    let isLiked = localStorage.getItem(storageKey) === 'true';
+    let currentCount = Number(initialLikes) || 0;
+
+    function updateUI(liked, count) {
+      if (badge) badge.textContent = count;
+      if (statusText) {
+        if (count === 0) {
+          statusText.innerHTML = 'Sé el primero en dedicar un acorde a esta historia';
+        } else if (count === 1) {
+          statusText.innerHTML = 'A <strong class="text-amber-400 font-mono">1</strong> melómano le conmovió esta historia';
+        } else {
+          statusText.innerHTML = `A <strong class="text-amber-400 font-mono">${count}</strong> melómanos les conmovió esta historia`;
+        }
+      }
+
+      if (btn) {
+        if (liked) {
+          btn.classList.add('bg-gradient-to-r', 'from-amber-600', 'to-amber-500', 'text-black', 'border-amber-400', 'shadow-amber-950/60');
+          btn.classList.remove('bg-[#1a1714]', 'text-neutral-200', 'border-neutral-700');
+          if (icon) icon.textContent = '🔥';
+        } else {
+          btn.classList.remove('bg-gradient-to-r', 'from-amber-600', 'to-amber-500', 'text-black', 'border-amber-400', 'shadow-amber-950/60');
+          btn.classList.add('bg-[#1a1714]', 'text-neutral-200', 'border-neutral-700');
+          if (icon) icon.textContent = '🎸';
+        }
+      }
+    }
+
+    // Initialize from localStorage and fetch freshest count
+    updateUI(isLiked, currentCount);
+
+    fetch(`/api/reactions?slug=${encodeURIComponent(slug)}`)
+      .then(r => r.json())
+      .then(data => {
+        if (data && typeof data.likes === 'number') {
+          currentCount = data.likes;
+          updateUI(isLiked, currentCount);
+        }
+      })
+      .catch(() => {});
+
+    if (btn) {
+      btn.addEventListener('click', async () => {
+        isLiked = !isLiked;
+        localStorage.setItem(storageKey, isLiked ? 'true' : 'false');
+        
+        currentCount = Math.max(0, currentCount + (isLiked ? 1 : -1));
+        updateUI(isLiked, currentCount);
+
+        try {
+          const res = await fetch('/api/reactions', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              slug,
+              action: isLiked ? 'like' : 'unlike'
+            })
+          });
+          const result = await res.json();
+          if (result && typeof result.likes === 'number') {
+            currentCount = result.likes;
+            updateUI(isLiked, currentCount);
+          }
+        } catch (err) {
+          console.warn('Could not sync reaction:', err);
+        }
+      });
+    }
+  })();
+</script>

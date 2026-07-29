@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import AdminPanel from '../components/AdminPanel';
+import { getAllStories } from '../lib/stories';
+
+const adminPassword =
+  import.meta.env.ADMIN_PASSWORD ||
+  process.env.ADMIN_PASSWORD ||
+  '';
+
+if (!adminPassword) {
+  throw new Error('ADMIN_PASSWORD must be configured in the environment.');
+}
+
+const expectedSecret = Buffer.from(adminPassword.trim()).toString('base64');
+
+const supabaseUrl =
+  import.meta.env.SUPABASE_URL ||
+  process.env.SUPABASE_URL ||
+  'https://dsyxiowlipttwjuhoqio.supabase.co';
+
+const supabaseKey =
+  import.meta.env.SUPABASE_SECRET_KEY ||
+  process.env.SUPABASE_SECRET_KEY ||
+  import.meta.env.SUPABASE_PUBLISHABLE_KEY ||
+  process.env.SUPABASE_PUBLISHABLE_KEY ||
+  '';
+
+const stories = await getAllStories({ includeHidden: true });
+
+const adminStories = stories.map(s => ({
+  id: s.id,
+  slug: s.slug,
+  title: s.title,
+  artist: s.artist,
+  coverUrl: s.coverUrl,
+  categoryLabel: s.categoryLabel,
+  instagramUrl: s.instagramUrl,
+  publishedAt: s.publishedAt,
+  content: s.content || '',
+  extraImages: s.extraImages || [],
+  isHidden: Boolean(s.isHidden)
+}));
+---
+
+<Layout
+  title="Panel de Administración | Acordes Ocultos"
+  description="Gestor exclusivo de publicaciones y enlaces de Instagram de Acordes Ocultos."
+>
+  <AdminPanel
+    client:only="react"
+    initialStories={adminStories}
+    supabaseUrl={supabaseUrl}
+    supabaseKey={supabaseKey}
+    expectedSecret={expectedSecret}
+  />
+</Layout>

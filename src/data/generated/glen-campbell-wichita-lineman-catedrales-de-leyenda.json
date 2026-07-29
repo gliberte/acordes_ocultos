@@ -1,0 +1,185 @@
+{
+  "title": "El Acorde que Venció al Olvido",
+  "artist": "Glen Campbell",
+  "durationSeconds": 90,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacido en la miseria rural de Arkansas como el séptimo de doce hermanos, Glen Campbell comenzó recogiendo algodón antes de convertirse en el guitarrista de sesión secreto más solicitado de la historia, grabando para Elvis Presley y Frank Sinatra, y salvando a The Beach Boys cuando Brian Wilson colapsó en 1964. Tras alcanzar la gloria mundial con obras maestras como «Wichita Lineman» y «Rhinestone Cowboy», y sobrevivir al abismo de las adicciones, enfrentó en 2011 su batalla más heroica: diagnosticado con Alzheimer, emprendió una gira de despedida de 151 conciertos donde, aun sin recordar los nombres de sus hijos ni el año en que vivía, su memoria musical permaneció intacta, demostrando que el arte vence a la muerte y al olvido.",
+  "hook": "El niño que recogía algodón en la miseria, salvó a los Beach Boys y desafió al Alzheimer con una guitarra en la mano.",
+  "beats": [
+    "Bajo el sol ardiente de Arkansas, un niño recogía algodón con las manos sangrantes; una guitarra de cinco dólares fue su pasaporte a la vida.",
+    "Llegó a Hollywood sin saber leer una sola partitura. En secreto, sus dedos mágicos grabaron los éxitos de Sinatra, Elvis y The Monkees.",
+    "Cuando Brian Wilson colapsó en pleno vuelo, los Beach Boys llamaron a Glen: salvó la gira mundial aprendiendo el bajo y los falsetes en horas.",
+    "Unió su alma al genio de Jimmy Webb; «Wichita Lineman» rompió fronteras y conquistó los Grammy tanto en el pop como en el country.",
+    "Cabalgó junto a John Wayne en el cine y abrió su show televisivo a Stevie Wonder y Ray Charles, desafiando la tensión racial de la época.",
+    "Cuando la industria lo creía acabado, encontró un casete olvidado y grabó el himno de la resiliencia: «Rhinestone Cowboy» dominó el planeta entero.",
+    "La fama devoró su paz en una espiral de cocaína y alcohol que destrozó su vida; tocó fondo antes de encontrar la redención definitiva.",
+    "El diagnóstico de Alzheimer amenazó con borrarlo. Lejos de rendirse, emprendió una gira de ciento cincuenta conciertos despidiéndose del público junto a sus hijos.",
+    "Podía olvidar las palabras y los nombres, pero jamás sus dedos sobre las cuerdas. Glen Campbell demostró que la música es más fuerte que el olvido."
+  ],
+  "outro": "El olvido le arrebató sus recuerdos, pero no su música. ¿Qué sientes al escuchar hoy la guitarra de Glen Campbell?",
+  "palette": {
+    "ink": "#120f0d",
+    "paper": "#f8f5ee",
+    "accent": "#c27d38",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Wichita Lineman",
+    "artist": "Glen Campbell",
+    "src": "music/glen-campbell-wichita-lineman.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Wichita Lineman Glen Campbell",
+      "expectedTitle": "Wichita Lineman",
+      "expectedArtist": "Glen Campbell",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-01.png",
+      "prompt": "Cinematic portrait of a barefoot 9-year-old boy in Delight, Arkansas during the 1940s, dusty suspenders, holding a cheap worn acoustic guitar sitting on a porch porch next to vast sun-drenched cotton fields at sunset, warm nostalgic golden hour light, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-02.png",
+      "prompt": "1962 Hollywood recording studio: young 26-year-old Glen Campbell with neat retro hair, sharp jawline, playing a vintage electric Fender guitar with virtuosity in a dim studio surrounded by tube amplifiers and reel-to-reel tape recorders, session musician for The Wrecking Crew, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-03.png",
+      "prompt": "December 1964 live concert: 28-year-old Glen Campbell on stage performing with The Beach Boys, wearing the iconic blue-and-white striped shirt, playing a Fender Precision Bass and singing high falsetto harmonies into a vintage microphone under concert spotlights, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-04.png",
+      "prompt": "1968 legendary recording session for Wichita Lineman: 32-year-old Glen Campbell in a studio with orchestral string music stands in the background, playing an acoustic guitar with deep emotion, moody sepia and amber lighting, poetic atmospheric 35mm film, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-05.png",
+      "prompt": "1969 television set of The Glen Campbell Goodtime Hour: 33-year-old Glen Campbell with charming smile and stylish 60s suit performing alongside Ray Charles on stage, vintage RCA color TV studio cameras, warm broadcast lights, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-06.png",
+      "prompt": "1975 Rhinestone Cowboy era: 39-year-old Glen Campbell with longer 70s feathered hair, wearing an elegant tailored suit with subtle rhinestone sparkle, singing triumphantly on a massive illuminated arena stage with ecstatic crowd in darkness, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-07.png",
+      "prompt": "Early 1980s dark chapter: 45-year-old Glen Campbell sitting exhausted in the shadows of an upscale Las Vegas hotel suite, whiskey glass and scattered clutter on a nightstand, looking into a bathroom mirror with weary eyes and remorse, deep cinematic chiaroscuro, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-08.png",
+      "prompt": "2011 The Goodbye Tour: 75-year-old Glen Campbell with dignified silver hair and wise weathered face, playing an electric guitar solo with pure muscle memory on a theater stage, his daughter playing guitar beside him, emotional reverent concert lighting, 9:16 vertical."
+    },
+    {
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-09.png",
+      "prompt": "2014 intimate studio portrait of elderly Glen Campbell during I am Not Gonna Miss You sessions, close-up with headphones around his neck, serene gentle smile looking straight into camera with peaceful wisdom, soft backlight, timeless legendary monument of music, 9:16 vertical."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/glen-campbell-wichita-lineman-catedrales-de-leyenda/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Bajo el sol ardiente de Arkansas, un niño recogía algodón con las manos sangrantes; una guitarra de cinco dólares fue su pasaporte a la vida."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Llegó a Hollywood sin saber leer una sola partitura. En secreto, sus dedos mágicos grabaron los éxitos de Sinatra, Elvis y The Monkees."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Cuando Brian Wilson colapsó en pleno vuelo, los Beach Boys llamaron a Glen: salvó la gira mundial aprendiendo el bajo y los falsetes en horas."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Unió su alma al genio de Jimmy Webb; «Wichita Lineman» rompió fronteras y conquistó los Grammy tanto en el pop como en el country."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Cabalgó junto a John Wayne en el cine y abrió su show televisivo a Stevie Wonder y Ray Charles, desafiando la tensión racial de la época."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Cuando la industria lo creía acabado, encontró un casete olvidado y grabó el himno de la resiliencia: «Rhinestone Cowboy» dominó el planeta entero."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "La fama devoró su paz en una espiral de cocaína y alcohol que destrozó su vida; tocó fondo antes de encontrar la redención definitiva."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El diagnóstico de Alzheimer amenazó con borrarlo. Lejos de rendirse, emprendió una gira de ciento cincuenta conciertos despidiéndose del público junto a sus hijos."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Podía olvidar las palabras y los nombres, pero jamás sus dedos sobre las cuerdas. Glen Campbell demostró que la música es más fuerte que el olvido."
+    }
+  ],
+  "publication": {
+    "description": "El Acorde que Venció al Olvido: El niño que recogía algodón en la miseria, salvó a los Beach Boys y desafió al Alzheimer con una guitarra en la mano.\n\nEn la pequeña localidad de Delight, Arkansas, un niño de ocho años descalzo y con las manos desgarradas por las espinas del algodón miraba al horizonte. Era el séptimo de doce hermanos en una familia que sobrevivía día a día. Su padre, con el último dinero que le quedaba, le compró una humilde guitarra de catálogo Sears por cinco dólares. Sin saber leer una sola nota de música, aquel niño descubrió que sus dedos albergaban una magia sobrenatural.\n\nAños más tarde, ese muchacho desembarcó en Los Ángeles para convertirse en el arma secreta de Hollywood: el guitarrista indispensable de «The Wrecking Crew». Mientras el mundo se rendía ante las canciones de Frank Sinatra, Elvis Presley y Phil Spector, nadie sabía que los acordes más brillantes nacían de las manos de Glen Campbell.\n\nEn diciembre de 1964, Brian Wilson sufrió un devastador colapso nervioso en pleno vuelo. Desesperados, The Beach Boys llamaron a Glen para salvar su gira nacional. En cuestión de horas, Glen aprendió el repertorio completo, dominó el bajo eléctrico y clavó los imposibles falsetes en los escenarios más grandes de América.\n\nSu encuentro con el compositor Jimmy Webb dio a luz a «Wichita Lineman», una balada que la crítica universal considera una de las cumbres poéticas del siglo XX. Campbell cruzó todas las fronteras, ganando los premios Grammy de música Pop y Country simultáneamente en un hito irrepetible.\n\nHollywood lo reclamó para coprotagonizar «True Grit» junto al mítico John Wayne, y su programa televisivo en CBS congregó a más de cincuenta millones de hogares cada semana, abriendo sus micrófonos a titanes como Ray Charles y Stevie Wonder en una época de férrea segregación.\n\nAunque en los años setenta resurgió con la gloria colosal de «Rhinestone Cowboy», los años oscuros de la cocaína, el descontrol y los escándalos casi acaban con su vida. Solo la fe y el amor de su familia lograron rescatarlo del abismo.\n\nPero su prueba más heroica llegó en 2011: los médicos le diagnosticaron la fase inicial de Alzheimer. En lugar de ocultarse en las sombras, Glen Campbell anunció una gira mundial de despedida de 151 conciertos. El público asistía a un milagro: Glen no recordaba qué año era ni los nombres de las personas en la sala, pero bastaba con ponerle una guitarra en las manos para que sus dedos interpretaran solos legendarios con una precisión celestial y sobrehumana.\n\nEl olvido se llevó sus recuerdos, pero jamás pudo apagar su melodía. Porque cuando una vida se consagra con tanta entrega al arte, la música no muere: se convierte en una catedral inmortal.\n\n#GlenCampbell #WichitaLineman #CatedralesDeLeyenda #HistoriaDelRock #LeyendasDelRock"
+  }
+}

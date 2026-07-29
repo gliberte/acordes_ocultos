@@ -1,0 +1,147 @@
+{
+  "title": "San Francisco",
+  "artist": "Scott McKenzie",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El himno de paz y amor más célebre de los 60 no nació como una simple obra de arte... sino para evitar disturbios violentos. En la primavera de 1967, miles de jóvenes hippies viajaban en masa hacia el Monterey Pop Festival. Las autoridades locales entraron en pánico, temiendo una sangrienta batalla entre la policía y la juventud. Para suavizar el ambiente, John Phillips escribió un himno pacifista pidiendo que llevaran flores en el pelo. A las 6 de la mañana y con Scott McKenzie en la voz, grabaron el tema marcando el ritmo con cascabeles en los tobillos. El tema se volvió viral en días, atrayendo pacíficamente a cien mil jóvenes a San Francisco. Nació así el inolvidable Verano del Amor de 1967.",
+  "hook": "El himno de paz y amor más célebre de los 60 no nació como una simple obra de arte... sino para evitar disturbios violentos.",
+  "beats": [
+    "En la primavera de 1967, miles de jóvenes hippies viajaban en masa hacia el Monterey Pop Festival.",
+    "Las autoridades locales entraron en pánico, temiendo una sangrienta batalla entre la policía y la juventud.",
+    "Para suavizar el ambiente, John Phillips escribió un himno pacifista pidiendo que llevaran flores en el pelo.",
+    "A las 6 de la mañana y con Scott McKenzie en la voz, grabaron el tema marcando el ritmo con cascabeles en los tobillos.",
+    "El tema se volvió viral en días, atrayendo pacíficamente a cien mil jóvenes a San Francisco."
+  ],
+  "outro": "Nació así el inolvidable Verano del Amor de 1967.",
+  "palette": {
+    "ink": "#2b0f0e",
+    "paper": "#fff6eb",
+    "accent": "#e07a5f",
+    "glow": "#f4f1de"
+  },
+  "music": {
+    "title": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+    "artist": "Scott McKenzie",
+    "src": "music/sanfrancisco.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "San Francisco Scott McKenzie",
+      "expectedTitle": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+      "expectedArtist": "Scott McKenzie",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/sanfrancisco/scene-01.png",
+      "prompt": "A close-up photograph of a vintage 7-inch vinyl single spinning on a retro portable record player. The paper label in the center of the vinyl clearly displays the printed text 'Scott McKenzie - San Francisco (Be Sure to Wear Flowers in Your Hair)'. Daisies and flower petals scattered around, warm golden lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-02.png",
+      "prompt": "A realistic 1967 color photograph of a group of young hippies walking on a countryside road, a pilgrimage towards a music festival, carrying vintage backpacks and sleeping bags, warm summer sun, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-03.png",
+      "prompt": "A realistic 1967 photograph of local authorities and police officers in classic 60s uniforms, gathered in a tense meeting room, looking worriedly at maps of Monterey, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-04.png",
+      "prompt": "A close-up photograph of a songwriter (representing John Phillips) writing lyrics on a yellow notepad at night in a dim retro hotel room, warm table lamp, cigarette smoke, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-05.png",
+      "prompt": "A realistic 1967 photograph of a late night recording session at Sound Recorders studio, Scott McKenzie singing with closed eyes, John Phillips playing acoustic guitar with small brass bells tied to his ankles, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-06.png",
+      "prompt": "A realistic 1967 photograph of a peaceful crowd of thousands of youth walking down the streets of Haight-Ashbury in San Francisco, wearing flowers and carrying peace signs, golden hour light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/sanfrancisco/scene-07.png",
+      "prompt": "A realistic 1967 color photograph of a sunny outdoor music festival in California, young hippies with flowers in their hair sitting on the grass, vintage film grain, warm nostalgic atmosphere, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/sanfrancisco/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/sanfrancisco/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/sanfrancisco/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/sanfrancisco/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/sanfrancisco/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/sanfrancisco/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/sanfrancisco/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno de paz y amor más célebre de los 60 no nació como una simple obra de arte... sino para evitar disturbios violentos."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En la primavera de 1967, miles de jóvenes hippies viajaban en masa hacia el Monterey Pop Festival."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Las autoridades locales entraron en pánico, temiendo una sangrienta batalla entre la policía y la juventud."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para suavizar el ambiente, John Phillips escribió un himno pacifista pidiendo que llevaran flores en el pelo."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "A las 6 de la mañana y con Scott McKenzie en la voz, grabaron el tema marcando el ritmo con cascabeles en los tobillos."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El tema se volvió viral en días, atrayendo pacíficamente a cien mil jóvenes a San Francisco."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Nació así el inolvidable Verano del Amor de 1967."
+    }
+  ]
+}

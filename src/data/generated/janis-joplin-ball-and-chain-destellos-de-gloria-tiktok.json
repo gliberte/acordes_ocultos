@@ -1,0 +1,173 @@
+{
+  "title": "De la Humillación a la Gloria Eterna",
+  "artist": "Janis Joplin",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "En 1962 fue coronada el hombre más feo del campus. Cinco años después, en Monterey Pop, Janis Joplin enmudeció al mundo del rock con Ball and Chain.",
+  "hook": "La chica coronada como el hombre más feo del campus que cinco años después humilló a todos siendo una diosa del rock.",
+  "beats": [
+    "En 1962, una fraternidad universitaria humilló a Janis Joplin nombrándola el hombre más feo del campus.",
+    "Destrozada por las burlas y el rechazo, huyó a dedo hacia San Francisco con una vieja guitarra.",
+    "En un sótano de Haight-Ashbury, se unió a Big Brother and the Holding Company buscando refugio.",
+    "En junio de 1967, el Festival de Monterey reunió a las mayores leyendas del planeta.",
+    "Con un traje dorado y el alma en carne viva, Janis subió al escenario y cantó Ball and Chain.",
+    "Entre el público, Mama Cass Elliot quedó en shock murmurando: ¡Dios mío, eso es demoledor!.",
+    "El director D.A. Pennebaker tembló tras su cámara al ver nacer una fuerza sobrenatural.",
+    "En camerinos, el mánager de Bob Dylan le puso sobre la mesa un contrato por $250,000 dólares.",
+    "La marginada que intentaron destruir se convirtió en inmortal. ¿Qué sientes al oírla?"
+  ],
+  "outro": "De la humillación a la gloria eterna. ¿Qué sientes al oír el desgarro de Janis?",
+  "palette": {
+    "ink": "#0a0908",
+    "paper": "#faf5ee",
+    "accent": "#eab308",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Ball and Chain (Live at Monterey Pop)",
+    "artist": "Janis Joplin",
+    "src": "music/janis-joplin-ball-and-chain.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Ball and Chain Janis Joplin Big Brother",
+      "expectedTitle": "Ball and Chain",
+      "expectedArtist": "Janis Joplin & Big Brother & The Holding Company",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en vivo en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-01.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-02.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-03.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-04.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-05.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-06.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-07.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-08.png"
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1962, una fraternidad universitaria humilló a Janis Joplin nombrándola el «hombre más feo del campus»."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Destrozada por las burlas y el rechazo, huyó a dedo hacia San Francisco con una vieja guitarra."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "En un sótano de Haight-Ashbury, se unió a Big Brother and the Holding Company buscando refugio."
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "text": "En junio de 1967, el Festival de Monterey reunió a las mayores leyendas del planeta."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Con un traje dorado y el alma en carne viva, Janis subió al escenario y cantó «Ball and Chain»."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "Entre el público, Mama Cass Elliot quedó en shock murmurando: «¡Dios mío, eso es demoledor!»."
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "text": "El director D.A. Pennebaker tembló tras su cámara al ver nacer una fuerza sobrenatural."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "En camerinos, el mánager de Bob Dylan le puso sobre la mesa un contrato por $250,000 dólares."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "La marginada que intentaron destruir se convirtió en inmortal. ¿Qué sientes al oírla?"
+    }
+  ]
+}

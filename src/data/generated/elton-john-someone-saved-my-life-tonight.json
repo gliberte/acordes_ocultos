@@ -1,0 +1,135 @@
+{
+  "title": "El Rescate Secreto que Salvó a una Leyenda",
+  "artist": "Elton John",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1968, antes de alcanzar el estrellato mundial, un joven y desconocido Elton John —entonces llamado Reginald Dwight— vivía atrapado en una profunda depresión por un compromiso matrimonial forzado con su prometida Linda Woodrow. Asfixiado por la culpa y reprimiendo su verdadera orientación sexual, intentó quitarse la vida abriendo las llaves del horno de gas en su apartamento de Londres, aunque en un acto inconsciente de supervivencia dejó las ventanas abiertas. Su compañero Bernie Taupin lo encontró a tiempo y lo llevó al mítico pub 'Bag O'Nails' en Soho junto al cantante de blues Long John Baldry. Baldry lo confrontó con una verdad demoledora: 'Reg, eres gay. Si te casas destruirás dos vidas. ¡Cancela esa boda y sé libre!'. Elton rompió el compromiso al día siguiente. Siete años después, en 1975, inmortalizó este rescate en la épica 'Someone Saved My Life Tonight', dedicándole el apodo 'Sugar Bear' al mentor que le salvó la vida y permitió el nacimiento del genio musical.",
+  "hook": "La canción más autobiográfica de Elton John confiesa el día en que casi se quita la vida y la charla que lo salvó.",
+  "beats": [
+    "1968: Un joven y tímido Reginald Dwight tocaba el piano en la penumbra, asfixiado por un matrimonio que no deseaba.",
+    "Atrapado entre la represión y el miedo al rechazo, sentía que casarse significaba la muerte de su alma artística.",
+    "En una noche de desesperación absoluta, abrió las llaves del gas en su cocina, pero dejó las ventanas abiertas al aire.",
+    "Su hermano creativo Bernie Taupin lo encontró a tiempo y lo rescató de la oscuridad en un abrazo fraterno.",
+    "Lo llevaron al mítico pub 'Bag O'Nails' en Londres para encontrarse con la leyenda del blues Long John Baldry.",
+    "Entre copas y humo, Baldry lo encaró con cariño paternal: 'Reg, deja de mentirte, cancela esa boda y abraza tu verdad'.",
+    "Aquellas palabras directas rompieron sus cadenas, impulsándolo a suspender la boda al día siguiente.",
+    "En 1975 grabó esta suite de siete minutos, llamando con gratitud infinita 'Sugar Bear' al hombre que lo salvó del abismo."
+  ],
+  "outro": "Una sola conversación sincera a tiempo puede rescatar un alma y cambiar para siempre el destino de la música.",
+  "palette": {
+    "ink": "#0b0c14",
+    "paper": "#f5f3ea",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Someone Saved My Life Tonight",
+    "artist": "Elton John",
+    "src": "music/elton-john-someone-saved-my-life-tonight.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Someone Saved My Life Tonight Elton John",
+      "expectedTitle": "Someone Saved My Life Tonight",
+      "expectedArtist": "Elton John",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-01.png",
+      "prompt": "Authentic 1975 stadium concert photograph of 28-year-old Elton John in glamorous sequined jacket and rhinestone glasses playing grand piano with intense passion under golden spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-02.png",
+      "prompt": "Atmospheric 1968 photograph of 21-year-old Reginald Dwight with natural brown hair and horn-rimmed glasses sitting at a worn upright wooden piano in a cold dimly lit London flat, thoughtful melancholic mood, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-03.png",
+      "prompt": "Cinematic 1968 photograph of young Reginald Dwight standing stiffly beside his blonde fiancee in front of a London bridal shop window, looking trapped and overwhelmed with anxiety, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-04.png",
+      "prompt": "Moody 1968 London kitchen at night, curtains blowing gently by an open window with moonlight streaming in, young Bernie Taupin rushing in with concern to help his friend, cinematic 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-05.png",
+      "prompt": "Authentic 1968 smoky London pub Bag O'Nails in Soho, warm amber lamplight, pints of beer on the counter, people talking at the wooden bar, blues rock atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-06.png",
+      "prompt": "Close-up 1968 photograph inside a London pub of tall charismatic blues singer Long John Baldry with a mustache leaning in warmly to talk earnest advice to young Reginald Dwight, mentor friendship, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-07.png",
+      "prompt": "Poetic 1968 morning photograph of young Reginald Dwight walking freely down a sunlit London residential street, smiling with immense relief and lightness in his step, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-08.png",
+      "prompt": "Authentic 1975 recording studio session photograph of Elton John and lyricist Bernie Taupin at the mixing console working on the Captain Fantastic album, warm studio lamps, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-09.png",
+      "prompt": "Macro photograph of the original 1975 MCA Records vinyl 7-inch single of 'Someone Saved My Life Tonight' spinning on a vintage wood-grain turntable, warm golden lighting, diamond stylus needle in groove, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/elton-john-someone-saved-my-life-tonight/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "La canción más autobiográfica de Elton John confiesa el día en que casi se quita la vida y la charla que lo salvó."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1968: Un joven y tímido Reginald Dwight tocaba el piano en la penumbra, asfixiado por un matrimonio que no deseaba."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Atrapado entre la represión y el miedo al rechazo, sentía que casarse significaba la muerte de su alma artística."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En una noche de desesperación absoluta, abrió las llaves del gas en su cocina, pero dejó las ventanas abiertas al aire."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Su hermano creativo Bernie Taupin lo encontró a tiempo y lo rescató de la oscuridad en un abrazo fraterno."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Lo llevaron al mítico pub 'Bag O'Nails' en Londres para encontrarse con la leyenda del blues Long John Baldry."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Entre copas y humo, Baldry lo encaró con cariño paternal: 'Reg, deja de mentirte, cancela esa boda y abraza tu verdad'."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 1975 grabó esta suite de siete minutos, llamando con gratitud infinita 'Sugar Bear' al hombre que lo salvó del abismo."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una sola conversación sincera a tiempo puede rescatar un alma y cambiar para siempre el destino de la música."
+    }
+  ]
+}

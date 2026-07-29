@@ -1,0 +1,147 @@
+{
+  "title": "El hit que odiaba su propia banda",
+  "artist": "Toto",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Una de las melodías más celestiales del pop nació en diez minutos bajo una mentira geográfica y el desprecio de su propio guitarrista. En 1981, David Paich rozó lo divino frente a un sintetizador nuevo; un riff de vientos nació como si él fuera un simple canal de otra dimensión. Pero la letra era un mosaico de sueños prestados: documentales de medianoche y recuerdos escolares bendiciendo lluvias en una tierra que jamás había pisado. El guitarrista Steve Lukather la tildó de sinsentido ridículo, jurando correr desnudo por Hollywood si ese canto a un continente ajeno triunfaba. Para salvarla, tallaron a mano un latido hipnótico: Jeff Porcaro y Lenny Castro cortaron y pegaron con cinta el bucle de percusión perfecto. Odiada y cansada, entró a Toto IV solo para llenar un hueco, sin saber que la nostalgia inventada conquistaría el mundo entero. Porque no es un mapa real; es el anhelo de escapar a un Edén distante que cura nuestra alienación. Y tú, ¿de qué tierra lejana tienes nostalgia?",
+  "hook": "Una de las melodías más celestiales del pop nació en diez minutos bajo una mentira geográfica y el desprecio de su propio guitarrista.",
+  "beats": [
+    "En 1981, David Paich rozó lo divino frente a un sintetizador nuevo; un riff de vientos nació como si él fuera un simple canal de otra dimensión.",
+    "Pero la letra era un mosaico de sueños prestados: documentales de medianoche y recuerdos escolares bendiciendo lluvias en una tierra que jamás había pisado.",
+    "El guitarrista Steve Lukather la tildó de sinsentido ridículo, jurando correr desnudo por Hollywood si ese canto a un continente ajeno triunfaba.",
+    "Para salvarla, tallaron a mano un latido hipnótico: Jeff Porcaro y Lenny Castro cortaron y pegaron con cinta el bucle de percusión perfecto.",
+    "Odiada y cansada, entró a Toto IV solo para llenar un hueco, sin saber que la nostalgia inventada conquistaría el mundo entero."
+  ],
+  "outro": "Porque no es un mapa real; es el anhelo de escapar a un Edén distante que cura nuestra alienación. Y tú, ¿de qué tierra lejana tienes nostalgia?",
+  "palette": {
+    "ink": "#1e1b4b",
+    "paper": "#fffbeb",
+    "accent": "#d97706",
+    "glow": "#b45309"
+  },
+  "music": {
+    "title": "Africa",
+    "artist": "Toto",
+    "src": "music/africa.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Africa Toto",
+      "expectedTitle": "Africa",
+      "expectedArtist": "Toto",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/africa/scene-01.png",
+      "prompt": "A close-up 1981 photograph of a musician's hands playing a vintage Yamaha CS-80 synthesizer with glowing sliders and buttons, warm studio light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-02.png",
+      "prompt": "A realistic 1981 photograph of a keyboardist with a beard and glasses (representing David Paich) sitting thoughtfully in front of a window, looking at a fuzzy TV screen showing a nature documentary, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-03.png",
+      "prompt": "A beautiful, dreamlike photographic panorama of a snow-capped Mount Kilimanjaro rising majestically over the golden Serengeti plains at sunrise, warm glow, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-04.png",
+      "prompt": "A realistic 1981 photograph of a young guitarist with long dark hair and a leather vest (representing Steve Lukather) holding an electric guitar, laughing and looking skeptical in a studio, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-05.png",
+      "prompt": "A realistic 1981 photograph of two studio musicians playing congas and shakers together, sweat on their brows, surrounded by vintage microphone stands, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-06.png",
+      "prompt": "A close-up 1981 photograph of a thin strip of magnetic recording tape physically glued into a continuous circular loop, hanging in a recording booth, analogue tape machine in background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/africa/scene-07.png",
+      "prompt": "A spinning gold record award of Toto IV on a velvet wall background, reflecting studio spotlights, retro 1983 aesthetic, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/africa/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/africa/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/africa/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/africa/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/africa/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/africa/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/africa/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Una de las melodías más celestiales del pop nació en diez minutos bajo una mentira geográfica y el desprecio de su propio guitarrista."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1981, David Paich rozó lo divino frente a un sintetizador nuevo; un riff de vientos nació como si él fuera un simple canal de otra dimensión."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Pero la letra era un mosaico de sueños prestados: documentales de medianoche y recuerdos escolares bendiciendo lluvias en una tierra que jamás había pisado."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "El guitarrista Steve Lukather la tildó de sinsentido ridículo, jurando correr desnudo por Hollywood si ese canto a un continente ajeno triunfaba."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Para salvarla, tallaron a mano un latido hipnótico: Jeff Porcaro y Lenny Castro cortaron y pegaron con cinta el bucle de percusión perfecto."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Odiada y cansada, entró a Toto IV solo para llenar un hueco, sin saber que la nostalgia inventada conquistaría el mundo entero."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Porque no es un mapa real; es el anhelo de escapar a un Edén distante que cura nuestra alienación. Y tú, ¿de qué tierra lejana tienes nostalgia?"
+    }
+  ]
+}

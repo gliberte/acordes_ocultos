@@ -1,0 +1,186 @@
+{
+  "title": "El Desafío de Jesucristo Superstar",
+  "artist": "Camilo Sesto",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1975, bajo el ocaso del franquismo y con una férrea censura, ningún productor español se atrevía a estrenar «Jesucristo Superstar». En la cima de su carrera, Camilo Sesto arriesgó 12 millones de pesetas de su patrimonio para producirla él mismo. Pese a amenazas y protestas frente al Teatro Alcalá-Palace, el estreno paralizó al país. Su interpretación de «Getsemaní» y su legendario do sobreagudo provocaron una catarsis absoluta. El propio Andrew Lloyd Webber viajó a Madrid y declaró que la de Camilo era la versión más perfecta del mundo.",
+  "hook": "Arriesgó toda su fortuna personal para desafiar a una censura asfixiante con la ópera rock más transgresora de la época.",
+  "beats": [
+    "En 1974, en la cima del pop hispano, Camilo Sesto quedó deslumbrado en Londres por «Jesucristo Superstar».",
+    "Los empresarios le cerraron las puertas por temor a la censura, pero él arriesgó 12 millones de su bolsillo.",
+    "Grupos ultraconservadores iniciaron un feroz boicot con piquetes y amenazas a las puertas del teatro.",
+    "Camilo ensayó sin descanso junto a Ángela Carrasco y Teddy Bautista, puliendo cada nota con fervor.",
+    "El 6 de noviembre de 1975, una marea humana desbordó la calle Alcalá en un estreno histórico.",
+    "De rodillas y vestido de blanco, Camilo entonó «Getsemaní», entregando su alma en el escenario.",
+    "Alcanzó un do sobreagudo colosal que enmudeció a España y provocó una catarsis colectiva.",
+    "Andrew Lloyd Webber, emocionado entre el público, se puso en pie declarándola la mejor versión del mundo.",
+    "Camilo demostró que el coraje artístico puede vencer a la censura. ¿Cuál es tu recuerdo de su voz?"
+  ],
+  "outro": "Camilo demostró que el coraje artístico puede vencer a la censura. ¿Cuál es tu recuerdo de su voz?",
+  "palette": {
+    "ink": "#0c0a09",
+    "paper": "#fdfbf7",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Getsemaní",
+    "artist": "Camilo Sesto",
+    "src": "music/camilo-sesto-jesucristo-superstar-acordes-ocultos-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Getsemaní Camilo Sesto",
+      "expectedTitle": "Getsemaní (Oración del Huerto)",
+      "expectedArtist": "Camilo Sesto",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Dramatic vertical 9:16 close-up portrait of 29-year-old Spanish singer Camilo Sesto in late 1975, authentic recognizable face with chiseled cheekbones, intense piercing clear blue eyes, straight dark brown hair down to his shoulders with slight parting, dressed in an immaculate textured white biblical tunic, solemn passionate expression with a glint of theatrical sweat, warm theatrical stage spotlight cutting through dark haze, 1970s 35mm film grain, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-01.png",
+      "prompt": "London West End theater audience 1974, vertical 9:16: 28-year-old Camilo Sesto sitting in the dark plush red velvet theater stalls among British patrons, watching with intense transfixed wonder and awe, warm theatrical stage glow reflected on his face, wearing a stylish dark 1970s blazer, 35mm film photography grain, authentic 1970s aesthetic."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-02.png",
+      "prompt": "Madrid office 1975, vertical 9:16: 28-year-old Camilo Sesto sitting at a large mahogany executive desk across from conservative Spanish theatrical producers in dark suits shaking their heads in refusal, Camilo looking determined and unyielding, vintage banking checkbook and contract papers on the desk, warm lamp illumination, 1970s Madrid atmosphere, 35mm photography."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-03.png",
+      "prompt": "Madrid Autumn 1975 exterior street, vertical 9:16: A crowded protest outside a historic theater facade on Calle Alcala, conservative religious groups holding large painted banners reading moral and religious slogans in Spanish, dark Catholic mantillas and trench coats, gray police vans in the background, tense civil confrontation in late Francoist Spain, authentic 1975 photojournalism, 35mm grain, no blood, no physical violence."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-04.png",
+      "prompt": "Madrid theater backstage rehearsal room October 1975, vertical 9:16: 29-year-old Spanish singer Camilo Sesto (slender build, straight shoulder-length brown hair, blue eyes, brown corduroy blazer, flared jeans) standing beside authentic young Dominican singer Angela Carrasco (24 years old, exact likeness: warm golden caramel skin, feathered layered wavy dark brown hair falling around shoulders, large almond-shaped dark eyes with expressive gaze, defined cheekbones, hoop earrings, wearing a 1970s earth-toned sweater) and Spanish rock musician Teddy Bautista (long dark hair, full beard, denim jacket), gathered closely around a piano rehearsing with typed musical libretto sheets, intense artistic devotion and creative camaraderie, warm atmospheric theater backstage lighting, authentic vintage 1975 35mm film photography grain, no text."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-06.png",
+      "prompt": "Madrid November 6 1975 opening night, vertical 9:16: Night view of the grand marquee of Teatro Alcala-Palace brilliantly illuminated with thousands of light bulbs reading 'JESUCRISTO SUPERSTAR CAMILO SESTO', packed glamorous Madrid audience lining up in long coats and evening dresses in the cool November air, tense anticipation, 1975 documentary photography, 35mm film grain."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-07.png",
+      "prompt": "Teatro Alcala-Palace stage Madrid November 1975, vertical 9:16: 29-year-old Camilo Sesto as Jesus, on his knees in an immaculate textured white biblical tunic, singing the climax of Gethsemane under a piercing overhead white spotlight, eyes looking upward filled with raw emotion and tears, hands outstretched, theatrical rock opera atmosphere, dark hazy background, 35mm film grain."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-08.png",
+      "prompt": "Teatro Alcala-Palace stage Madrid November 1975, vertical 9:16: Extreme close-up of 29-year-old Camilo Sesto singing the highest legendary note of Gethsemane, face illuminated by pure dramatic white light, eyes shut in excruciating spiritual passion, throat muscles tensed, sweat dripping, microphones nearby, pure vocal mastery and catharsis, 35mm concert documentary photography."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-05.png",
+      "prompt": "Madrid Teatro Alcala-Palace November 1975, vertical 9:16: Front row view of British composer Andrew Lloyd Webber with shaggy 1970s brown hair and round spectacles, standing in the aisle vigorously clapping with profound admiration and wide smile, the entire grand Spanish theater standing in an emotional standing ovation with tears and roaring applause, stage lights glowing in the distance, 35mm documentary photography."
+    },
+    {
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-09.png",
+      "prompt": "Madrid 1975 vintage vinyl record and stage tribute, vertical 9:16: A magnificent vintage Spanish vinyl record sleeve of 'Jesucristo Superstar Camilo Sesto' leaning on a dark wooden table in an empty theater dressing room, warm spotlight dust motes in the air, a microphone and a white cotton tunic resting gracefully nearby, solemn enduring legacy of an artistic revolution, 35mm film still, warm golden tones."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/camilo-sesto-jesucristo-superstar-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1974, en la cima del pop hispano, Camilo Sesto quedó deslumbrado en Londres por «Jesucristo Superstar»."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Los empresarios le cerraron las puertas por temor a la censura, pero él arriesgó 12 millones de su bolsillo."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "Grupos ultraconservadores iniciaron un feroz boicot con piquetes y amenazas a las puertas del teatro."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Camilo ensayó sin descanso junto a Ángela Carrasco y Teddy Bautista, puliendo cada nota con fervor."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "El 6 de noviembre de 1975, una marea humana desbordó la calle Alcalá en un estreno histórico."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "De rodillas y vestido de blanco, Camilo entonó «Getsemaní», entregando su alma en el escenario."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "Alcanzó un do sobreagudo colosal que enmudeció a España y provocó una catarsis colectiva."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Andrew Lloyd Webber, emocionado entre el público, se puso en pie declarándola la mejor versión del mundo."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "Camilo demostró que el coraje artístico puede vencer a la censura. ¿Cuál es tu recuerdo de su voz?"
+    }
+  ],
+  "publication": {
+    "description": "El ídolo pop que arriesgó su fortuna personal para desafiar a una censura férrea con la ópera rock más transgresora de su tiempo.\n\nEn 1975, en vísperas de la Transición española, Camilo Sesto viajó a Londres y quedó fascinado por «Jesucristo Superstar». Al volver a Madrid, los empresarios le cerraron las puertas por temor a la censura. Lejos de desistir, Camilo invirtió 12 millones de pesetas de su propio patrimonio para producirla él mismo. Afrontó amenazas y piquetes a las puertas del Teatro Alcalá-Palace, pero el estreno fue un hito irrepetible.\n\nAl interpretar «Getsemaní», de rodillas y vestido de blanco, Camilo alcanzó un do sobreagudo legendario que paralizó el teatro antes de una ovación interminable. Andrew Lloyd Webber afirmó que era la versión más perfecta del planeta.\n\n¿Crees que «Getsemaní» es la cumbre vocal masculina más insuperable de la música en español?\n\n#CamiloSesto #JesucristoSuperstar #Getsemani #AcordesOcultos #HistoriaDeLaMusica #TeatroMusical #LeyendasDelRock"
+  }
+}

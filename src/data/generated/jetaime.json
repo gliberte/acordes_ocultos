@@ -1,0 +1,147 @@
+{
+  "title": "Je t'aime... moi non plus",
+  "artist": "Serge Gainsbourg & Jane Birkin",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Puede una melodía de suspiros y deseo nacer de los celos más profundos para terminar desafiando la censura del mismísimo Vaticano? En 1967, Serge Gainsbourg grabó la íntima canción original junto a Brigitte Bardot, pero ella suplicó ocultarla por temor al escándalo. Al conocer a Jane Birkin, ella se enteró del tema oculto y, consumida por los celos, se negó a que otra mujer pisara la cabina junto a él. Jane cantó una octava más alto de lo normal, dándole a los sugerentes murmullos un aire transgresor que encendió la imaginación del mundo. Corrió el rumor de que el amor grabado era real; los ingenieros de sonido bromearon con que, de ser así, habría sido un disco infinito. Prohibida en media Europa, el Papa llegó a excomulgar al distribuidor italiano, convirtiéndose en el más impensado jefe de prensa del éxito. La censura eclesiástica la propulsó al número uno mundial. ¿Era pura provocación o la obra de arte más sincera de sus vidas?",
+  "hook": "¿Puede una melodía de suspiros y deseo nacer de los celos más profundos para terminar desafiando la censura del mismísimo Vaticano?",
+  "beats": [
+    "En 1967, Serge Gainsbourg grabó la íntima canción original junto a Brigitte Bardot, pero ella suplicó ocultarla por temor al escándalo.",
+    "Al conocer a Jane Birkin, ella se enteró del tema oculto y, consumida por los celos, se negó a que otra mujer pisara la cabina junto a él.",
+    "Jane cantó una octava más alto de lo normal, dándole a los sugerentes murmullos un aire transgresor que encendió la imaginación del mundo.",
+    "Corrió el rumor de que el amor grabado era real; los ingenieros de sonido bromearon con que, de ser así, habría sido un disco infinito.",
+    "Prohibida en media Europa, el Papa llegó a excomulgar al distribuidor italiano, convirtiéndose en el más impensado jefe de prensa del éxito."
+  ],
+  "outro": "La censura eclesiástica la propulsó al número uno mundial. ¿Era pura provocación o la obra de arte más sincera de sus vidas?",
+  "palette": {
+    "ink": "#0a0808",
+    "paper": "#faf6f0",
+    "accent": "#bf1d2d",
+    "glow": "#cca025"
+  },
+  "music": {
+    "title": "Je t'aime... moi non plus",
+    "artist": "Serge Gainsbourg & Jane Birkin",
+    "src": "music/jetaime.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Je t'aime... moi non plus Serge Gainsbourg",
+      "expectedTitle": "Je t'aime... moi non plus",
+      "expectedArtist": "Serge Gainsbourg & Jane Birkin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/jetaime/scene-01.png",
+      "prompt": "A 1969 vinyl single of 'Je t'aime... moi non plus' spinning on a vintage turntable, with the Vatican basilica visible in the background through a window, warm cinematic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-02.png",
+      "prompt": "A vintage 1967 studio scene showing French composer Serge Gainsbourg (distinctive nose and ears, cigarette in hand) and Brigitte Bardot recording at a microphone, intimate, black and white film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-03.png",
+      "prompt": "Serge Gainsbourg and a young Jane Birkin (with long straight brown hair, bangs, natural beauty) in a vintage 1968 studio hallway, intense eye contact, romantic tension, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-04.png",
+      "prompt": "Jane Birkin singing passionately into a vintage microphone inside a glass recording booth, looking through the glass at Serge Gainsbourg at the mixing console, intense emotions, 1969, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-05.png",
+      "prompt": "Two retro 1960s recording engineers laughing and joking behind a massive analog mixing console with big VU meters in a London studio, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-06.png",
+      "prompt": "An Italian newspaper from 1969 on a table, with a headline about the Vatican condemning the song, a cup of espresso nearby, cinematic contrast, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jetaime/scene-07.png",
+      "prompt": "Serge Gainsbourg smiling ironically, smoking a cigarette in a dark studio, smoke swirling around him, a haunting cinematic portrait, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/jetaime/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/jetaime/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/jetaime/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/jetaime/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/jetaime/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/jetaime/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/jetaime/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Puede una melodía de suspiros y deseo nacer de los celos más profundos para terminar desafiando la censura del mismísimo Vaticano?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1967, Serge Gainsbourg grabó la íntima canción original junto a Brigitte Bardot, pero ella suplicó ocultarla por temor al escándalo."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Al conocer a Jane Birkin, ella se enteró del tema oculto y, consumida por los celos, se negó a que otra mujer pisara la cabina junto a él."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Jane cantó una octava más alto de lo normal, dándole a los sugerentes murmullos un aire transgresor que encendió la imaginación del mundo."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Corrió el rumor de que el amor grabado era real; los ingenieros de sonido bromearon con que, de ser así, habría sido un disco infinito."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Prohibida en media Europa, el Papa llegó a excomulgar al distribuidor italiano, convirtiéndose en el más impensado jefe de prensa del éxito."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "La censura eclesiástica la propulsó al número uno mundial. ¿Era pura provocación o la obra de arte más sincera de sus vidas?"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "El despertador que aterrorizó a Pink Floyd",
+  "artist": "Pink Floyd",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El estallido que detiene el tiempo no nació de la música... sino del cajón olvidado de un coleccionista de ruidos. Buscando la entrada perfecta para 'Time', Pink Floyd se ahogaba en el silencio solemne de Abbey Road. Fue entonces cuando Alan Parsons recordó su viaje a una vieja tienda repleta de relojes dormidos. Allí, en cintas de cuatro pistas, había atrapado el alma individual de decenas de campanas de cuerda. Esperando horas a que cada aguja hablara por separado, guardando el paso del tiempo en solitario. Llevó la cinta al estudio principal, subió los potenciómetros al límite y liberó el caos. El trueno de alarmas asustó a la banda, abriendo paso a la eternidad. Y tú, ¿qué guardas que pueda cambiarlo todo?",
+  "hook": "El estallido que detiene el tiempo no nació de la música... sino del cajón olvidado de un coleccionista de ruidos.",
+  "beats": [
+    "Buscando la entrada perfecta para 'Time', Pink Floyd se ahogaba en el silencio solemne de Abbey Road.",
+    "Fue entonces cuando Alan Parsons recordó su viaje a una vieja tienda repleta de relojes dormidos.",
+    "Allí, en cintas de cuatro pistas, había atrapado el alma individual de decenas de campanas de cuerda.",
+    "Esperando horas a que cada aguja hablara por separado, guardando el paso del tiempo en solitario.",
+    "Llevó la cinta al estudio principal, subió los potenciómetros al límite y liberó el caos."
+  ],
+  "outro": "El trueno de alarmas asustó a la banda, abriendo paso a la eternidad. Y tú, ¿qué guardas que pueda cambiarlo todo?",
+  "palette": {
+    "ink": "#1a0f05",
+    "paper": "#fffaf0",
+    "accent": "#9a3412",
+    "glow": "#ea580c"
+  },
+  "music": {
+    "title": "Time",
+    "artist": "Pink Floyd",
+    "src": "music/time.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Time Pink Floyd",
+      "expectedTitle": "Time",
+      "expectedArtist": "Pink Floyd",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/time/scene-01.png",
+      "prompt": "A realistic 1972 color photograph of a large collection of vintage clocks and pocket watches hanging on a wall in a dusty London antique shop, warm golden sunlight coming through a window, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-02.png",
+      "prompt": "A realistic 1972 photograph of a young, stylish sound engineer with long hair (representing Alan Parsons) holding a vintage portable tape recorder, standing inside an antique shop surrounded by clocks, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-03.png",
+      "prompt": "A close-up photograph of a vintage 4-track magnetic tape reel spinning slowly on a recording machine, high detail of the tape, soft studio background lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-04.png",
+      "prompt": "A realistic 1972 photograph of the mixing console inside Abbey Road Studios, dark wood panels, colourful faders, soft lights reflecting on the metal surfaces, professional tape machines in the background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-05.png",
+      "prompt": "A dramatic photograph of large professional studio monitor speakers vibrating under intense volume inside a recording studio control room, a hand adjusting the volume knob, warm dim light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-06.png",
+      "prompt": "A realistic 1972 photograph of two young rock musicians with long hair (representing Roger Waters and David Gilmour) jumping back in surprise in their chairs in front of a studio mixing desk, shocked facial expressions, warm Abbey Road studio lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/time/scene-07.png",
+      "prompt": "A close-up artistic photograph of a vintage brass alarm clock ringing, the bells vibrating, warm golden background with floating dust particles, cinematic atmosphere, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/time/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/time/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/time/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/time/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/time/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/time/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/time/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El estallido que detiene el tiempo no nació de la música... sino del cajón olvidado de un coleccionista de ruidos."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Buscando la entrada perfecta para 'Time', Pink Floyd se ahogaba en el silencio solemne de Abbey Road."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Fue entonces cuando Alan Parsons recordó su viaje a una vieja tienda repleta de relojes dormidos."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Allí, en cintas de cuatro pistas, había atrapado el alma individual de decenas de campanas de cuerda."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Esperando horas a que cada aguja hablara por separado, guardando el paso del tiempo en solitario."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Llevó la cinta al estudio principal, subió los potenciómetros al límite y liberó el caos."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "El trueno de alarmas asustó a la banda, abriendo paso a la eternidad. Y tú, ¿qué guardas que pueda cambiarlo todo?"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "That's All Right",
+  "artist": "Elvis Presley",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "La noche del 8 de julio de 1954, la radio de Memphis pinchó por primera vez a Elvis Presley, desatando una locura total. El legendario DJ Dewey Phillips puso el tema 'That's All Right' y la centralita telefónica colapsó con llamadas. La reacción fue tan brutal que el DJ repitió el tema 14 veces esa misma noche, buscando desesperado a Elvis. Pero Elvis no estaba escuchando. Consumido por el pánico a que se burlaran de él, se había escondido en un cine de Memphis. Sus padres lo encontraron y lo llevaron a la emisora. El DJ lo entrevistó al aire para calmar a la audiencia. El DJ le preguntó astutamente a qué instituto iba para indicar discretamente que el cantante era blanco. Esa calurosa noche de julio y un escondite en el cine marcaron el inicio del indiscutible Rey del Rock.",
+  "hook": "La noche del 8 de julio de 1954, la radio de Memphis pinchó por primera vez a Elvis Presley, desatando una locura total.",
+  "beats": [
+    "El legendario DJ Dewey Phillips puso el tema 'That's All Right' y la centralita telefónica colapsó con llamadas.",
+    "La reacción fue tan brutal que el DJ repitió el tema 14 veces esa misma noche, buscando desesperado a Elvis.",
+    "Pero Elvis no estaba escuchando. Consumido por el pánico a que se burlaran de él, se había escondido en un cine de Memphis.",
+    "Sus padres lo encontraron y lo llevaron a la emisora. El DJ lo entrevistó al aire para calmar a la audiencia.",
+    "El DJ le preguntó astutamente a qué instituto iba para indicar discretamente que el cantante era blanco."
+  ],
+  "outro": "Esa calurosa noche de julio y un escondite en el cine marcaron el inicio del indiscutible Rey del Rock.",
+  "palette": {
+    "ink": "#111111",
+    "paper": "#f5f5f0",
+    "accent": "#bf9a2a",
+    "glow": "#dfc35a"
+  },
+  "music": {
+    "title": "That's All Right",
+    "artist": "Elvis Presley",
+    "src": "music/elvis-thats-all-right.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "That's All Right Elvis Presley",
+      "expectedTitle": "That's All Right",
+      "expectedArtist": "Elvis Presley",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/elvis-thats-all-right/scene-01.png",
+      "prompt": "Elvis Presley in 1954 standing in front of a vintage radio microphone inside Sun Studio, holding an acoustic guitar, looking nervous, black and white vintage film style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-02.png",
+      "prompt": "An old 1950s telephone switchboard with plug cables, red lights flashing, operator hands working frantically, retro filter, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-03.png",
+      "prompt": "Radio DJ Dewey Phillips behind a 1950s radio studio console with microphone and vinyl turntables, looking excited, shouting into the microphone, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-04.png",
+      "prompt": "A dark interior of a classic 1950s movie theater showing a black and white film on the screen, a single nervous teenager sitting in the back row, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-05.png",
+      "prompt": "A young Elvis Presley sitting in a small radio studio room, speaking into a big vintage microphone with a radio DJ next to him, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-06.png",
+      "prompt": "The brick facade of Humes High School in Memphis in the 1950s, sunny day, vintage photo style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elvis-thats-all-right/scene-07.png",
+      "prompt": "A vintage Sun Records 78 RPM record of That's All Right with yellow label spinning on a classic turntable under warm light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/elvis-thats-all-right/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/elvis-thats-all-right/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/elvis-thats-all-right/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/elvis-thats-all-right/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/elvis-thats-all-right/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/elvis-thats-all-right/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/elvis-thats-all-right/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "La noche del 8 de julio de 1954, la radio de Memphis pinchó por primera vez a Elvis Presley, desatando una locura total."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "El legendario DJ Dewey Phillips puso el tema 'That's All Right' y la centralita telefónica colapsó con llamadas."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "La reacción fue tan brutal que el DJ repitió el tema 14 veces esa misma noche, buscando desesperado a Elvis."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Pero Elvis no estaba escuchando. Consumido por el pánico a que se burlaran de él, se había escondido en un cine de Memphis."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Sus padres lo encontraron y lo llevaron a la emisora. El DJ lo entrevistó al aire para calmar a la audiencia."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El DJ le preguntó astutamente a qué instituto iba para indicar discretamente que el cantante era blanco."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Esa calurosa noche de julio y un escondite en el cine marcaron el inicio del indiscutible Rey del Rock."
+    }
+  ]
+}

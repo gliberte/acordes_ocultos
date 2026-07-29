@@ -1,0 +1,183 @@
+{
+  "title": "El Secreto de Time in a Bottle",
+  "artist": "Jim Croce",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En diciembre de 1970, en una modesta cocina de Pensilvania, Ingrid le susurró a Jim Croce una noticia que cambiaría sus vidas: iban a ser padres por primera vez. Esa misma noche, sobrecogido por la fragilidad de la felicidad y el miedo a no tener tiempo suficiente, Jim escribió a solas una balada que imploraba atrapar el tiempo en una botella para no perder jamás a su familia. La grabó junto a las sutiles cuerdas de Maury Muehleisen y un clavecín barroco; sin embargo, la discográfica la relegó al fondo de su álbum debut. Meses después, la fama mundial estalló con temas rítmicos, atrapándolo en una agotadora gira sin fin lejos de su bebé. La noche del 20 de septiembre de 1973, tras actuar en Luisiana, Jim tomó la decisión más valiente: dejar la música para siempre. En una emotiva carta a Ingrid, le prometió abandonar los escenarios para ver crecer a su hijo en paz. Minutos después de sellar aquel sobre, una espesa niebla quebró su vuelo en la noche. Al volver del funeral, Ingrid encontró en su buzón la carta escrita por Jim horas antes de partir, donde le juraba que volvía a casa para amarla toda la eternidad. El mundo lloró su partida elevando «Time in a Bottle» a la cima de la historia musical. ¿Qué momento de tu vida desearías guardar para siempre en una botella?",
+  "hook": "Escribió una canción para atrapar el tiempo... y su carta de despedida llegó después de su propio funeral.",
+  "beats": [
+    "En diciembre de 1970, en una cocina de Pensilvania, Ingrid le susurró a Jim Croce que iban a ser padres.",
+    "Esa noche, aterrado por la fragilidad de la vida, Jim escribió una plegaria desesperada sobre guardar el tiempo en una botella.",
+    "Junto al virtuoso Maury Muehleisen y un clavecín barroco, la grabaron en Nueva York; pero la disquera la sepultó en el olvido.",
+    "Meses después, el éxito arrollador de sus temas rítmicos lo arrastró a giras agotadoras, lejos de su esposa y de su bebé.",
+    "El 20 de septiembre de 1973, tras cantar en Luisiana, Jim comprendió que la fama no valía el precio de la ausencia.",
+    "En su camerino, redactó una conmovedora carta prometiendo a Ingrid abandonar los escenarios para ver crecer a su hijo en paz.",
+    "Minutos después de depositarla en el buzón, una espesa niebla de medianoche quebró su vuelo en Luisiana. Tenía apenas treinta años.",
+    "Días después del funeral, Ingrid abrió su buzón y halló la carta póstuma donde Jim le juraba regresar para siempre a su lado.",
+    "Conmovido, el mundo llevó «Time in a Bottle» al número uno. ¿Qué momento de tu vida quisieras guardar en una botella?"
+  ],
+  "outro": "Conmovido, el mundo llevó «Time in a Bottle» al número uno. ¿Qué momento de tu vida quisieras guardar en una botella?",
+  "palette": {
+    "ink": "#140f0c",
+    "paper": "#fbf6ec",
+    "accent": "#b45309",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Time in a Bottle",
+    "artist": "Jim Croce",
+    "src": "music/jim-croce-time-in-a-bottle-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Time in a Bottle Jim Croce",
+      "expectedTitle": "Time in a Bottle",
+      "expectedArtist": "Jim Croce",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Authentic vertical 9:16 portrait of 29-year-old American folk-rock singer-songwriter Jim Croce in 1972, recognizable facial likeness with prominent thick dark brown mustache, curly dark hair, warm soulful eyes, wearing a vintage 1970s faded blue denim western shirt, holding a vintage wooden acoustic guitar, warm rustic wooden barn background with golden afternoon light dust motes, 1970s 35mm Kodachrome film grain photography, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 warm 1970s interior of a rustic Pennsylvania farmhouse kitchen at night. 27-year-old Jim Croce (curly dark brown hair, thick walrus mustache, warm soulful eyes, denim shirt) sitting at an old wooden kitchen table, his beautiful young wife Ingrid Croce (slender, long straight dark brown hair, 1970s knit sweater) standing close beside him with a gentle loving smile, placing her hands softly on his shoulders, whispering into his ear with joyous emotion as she tells him she is pregnant. Vintage ceramic mugs, warm amber incandescent lighting, 35mm film photography grain, emotional intimate atmosphere, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 late night interior of the Pennsylvania farmhouse. 27-year-old Jim Croce (curly dark hair, walrus mustache, denim shirt) sitting alone in the dim quiet living room by an antique wooden desk. An acoustic guitar rests on his lap as he leans over an open handwritten notebook with a pencil, writing the lyrics to 'Time in a Bottle' with deep introspective tenderness. On the rustic table sits an old clear glass bottle catching the amber glow of a vintage lamp, symbolizing saving time. Dark cozy room, window showing cold starry winter night outside, 35mm film grain, poetic mood, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 vintage 1971 New York recording studio. Jim Croce (Italian-American features, curly dark hair, thick mustache, denim shirt) singing into a vintage studio microphone with acoustic guitar. Beside him, 22-year-old virtuoso guitarist Maury Muehleisen (slender, straight brown hair to shoulders, sensitive artistic look) playing acoustic guitar. In the background, a beautiful wooden harpsichord and analog reel-to-reel tape machine. Warm amber studio lights, soundproof acoustic wall panels, 1970s 35mm film photography grain, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 autumn 1973 backstage and highway atmosphere. Jim Croce (curly dark hair, thick mustache, weary melancholic expression) wearing a 1970s suede jacket, sitting by a rainy tour bus window at dusk. In his hand, he tenderly gazes at a small black and white photograph of his wife Ingrid and baby son A.J. Raindrops streaking across the glass, blurred neon motel lights reflecting on the wet road outside, deep poignant feeling of homesickness, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 1973 college auditorium concert stage in Louisiana. Jim Croce (curly dark hair, thick mustache, denim shirt) performing with acoustic guitar under warm stage spotlights, smiling with humble grace at the roaring audience of college students. Beside him, Maury Muehleisen playing guitar. Smoky stage atmosphere, glowing footlights, vintage microphones, authentic 1970s concert photography, warm golden and sepia hues, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 quiet backstage dressing room in Louisiana, September 20, 1973 late night. Jim Croce (curly dark hair, thick mustache, contemplative expression) sitting at a small dressing table with an incandescent bulb. He is writing a heartfelt handwritten letter on lined notepad paper to his wife Ingrid, with words promising to leave touring and return home forever. His guitar case rests nearby. Warm poignant atmosphere, 35mm documentary film grain, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 poetic nocturnal atmosphere at a small rural Louisiana airfield at midnight, September 1973. A dense, mystical autumn fog rolls across the dark wet asphalt runway under distant amber runway lamps. In the foreground, an empty vintage hard-shell acoustic guitar case rests solemnly on a wet wooden bench beneath a weeping willow tree. Atmospheric mist, cool blue and amber night tones, cinematic emotional stillness, poetic visual metaphor of an interrupted journey, no debris, no fire, no violence, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 rural Pennsylvania countryside on a misty autumn afternoon 1973. A young slender woman with long dark hair in a simple black mourning dress and knit shawl (Ingrid Croce) standing beside a rustic metal mailbox at the end of a gravel lane. She holds a handwritten envelope in her trembling hands, gazing at the familiar handwriting with tears in her eyes and deep heartbreak. Golden and amber autumn leaves scattered on the ground, misty rolling hills in the background, 35mm film grain, deeply touching and emotional, no text."
+    },
+    {
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 artistic still-life tribute to Jim Croce. A beautiful vintage clear glass bottle resting on a weathered rustic oak table, capturing ethereal warm golden light beams and floating dust motes as if holding time itself inside. Beside it lies Jim Croce's vintage acoustic guitar, an old handwritten sheet music with the words 'Time in a Bottle', and an authentic 1973 vinyl record. Warm nostalgic glow, timeless folk legacy, 35mm film texture, no text."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/jim-croce-time-in-a-bottle-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En diciembre de 1970, en una cocina de Pensilvania, Ingrid le susurró a Jim Croce que iban a ser padres."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Esa noche, aterrado por la fragilidad de la vida, Jim escribió una plegaria desesperada sobre guardar el tiempo en una botella."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Junto al virtuoso Maury Muehleisen y un clavecín barroco, la grabaron en Nueva York; pero la disquera la sepultó en el olvido."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Meses después, el éxito arrollador de sus temas rítmicos lo arrastró a giras agotadoras, lejos de su esposa y de su bebé."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "El 20 de septiembre de 1973, tras cantar en Luisiana, Jim comprendió que la fama no valía el precio de la ausencia."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En su camerino, redactó una conmovedora carta prometiendo a Ingrid abandonar los escenarios para ver crecer a su hijo en paz."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Minutos después de depositarla en el buzón, una espesa niebla de medianoche quebró su vuelo en Luisiana. Tenía apenas treinta años."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Días después del funeral, Ingrid abrió su buzón y halló la carta póstuma donde Jim le juraba regresar para siempre a su lado."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Conmovido, el mundo llevó «Time in a Bottle» al número uno. ¿Qué momento de tu vida quisieras guardar en una botella?"
+    }
+  ]
+}

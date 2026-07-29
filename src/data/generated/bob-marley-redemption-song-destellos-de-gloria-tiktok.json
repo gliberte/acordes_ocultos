@@ -1,0 +1,186 @@
+{
+  "title": "El Profeta Descalzo que Desafió a la Muerte",
+  "artist": "Bob Marley",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "Bob Marley nació en la miseria rural de Jamaica y ascendió desde las casuchas de Trenchtown hasta convertirse en la voz moral del Tercer Mundo. Sobrevivió milagrosamente a un atentado a balazos en su propia casa en 1976 y, con proyectiles aún alojados en su cuerpo, subió 48 horas después ante 80.000 personas para desafiar a sus asesinos. En 1978 logró el milagro de unir las manos de dos líderes políticos en plena guerra civil. Cuando el cáncer consumía su cuerpo en 1980, empuñó una guitarra acústica a solas en el estudio para legar «Redemption Song». Murió con apenas 36 años, despedido por un millón de personas en su funeral de Estado, dejando una huella de emancipación que jamás se apagará.",
+  "hook": "Le dispararon al corazón antes de un concierto, unió a dos enemigos jurados y murió a los 36 años dejando un himno eterno.",
+  "beats": [
+    "Nació en 1945 y creció en la extrema pobreza de Trenchtown, incomprendido por su origen birracial.",
+    "Junto a The Wailers inventó el latido del reggae en patios y calles de Kingston.",
+    "En 1972, el disco «Catch a Fire» proyectó el grito espiritual de Jamaica al planeta entero.",
+    "Abrazó la fe rastafari, convirtiendo su música en una trinchera de emancipación humana.",
+    "En 1976 sobrevivió milagrosamente a un atentado de sicarios que balearon su casa en Hope Road.",
+    "Apenas 48 horas después, herido y vendado, cantó ante 80.000 personas desafiando a sus asesinos.",
+    "Exiliado en Londres compuso «Exodus», proclamado el mejor álbum del siglo XX.",
+    "En 1978 forzó a los dos líderes políticos rivales de Jamaica a estrecharse las manos por la paz.",
+    "A solas con su guitarra grabó «Redemption Song» antes de partir a los 36 años. ¿Cuál es tu recuerdo?"
+  ],
+  "outro": "A solas con su guitarra grabó «Redemption Song» antes de partir a los 36 años. ¿Cuál es tu recuerdo?",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#fdfbf7",
+    "accent": "#16a34a",
+    "glow": "#eab308"
+  },
+  "music": {
+    "title": "Redemption Song",
+    "artist": "Bob Marley & The Wailers",
+    "src": "music/bob-marley-redemption-song-destellos-de-gloria-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Redemption Song Bob Marley",
+      "expectedTitle": "Redemption Song",
+      "expectedArtist": "Bob Marley & The Wailers",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/bob-marley-redemption-song-destellos-de-gloria/cover_bg.png",
+  "coverPrompt": "Dramatic vertical 9:16 portrait of legendary reggae icon Bob Marley in late 1970s, authentic distinct facial bone structure, warm brown skin, iconic long flowing dreadlocks, passionate soulful eyes, singing into a vintage chrome stage microphone under warm golden concert spotlight with slight haze, vintage 35mm film grain, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-01.png",
+      "prompt": "Rural Nine Mile and Trenchtown Jamaica 1950s, vertical 9:16: Authentic archival photograph of a young biracial Jamaican boy with curly hair standing barefoot on a dusty red dirt road beside modest corrugated tin roof shacks and tropical lush greenery, golden sunlight, nostalgic 1950s documentary photojournalism, high texture, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-02.png",
+      "prompt": "Kingston Jamaica early 1960s, vertical 9:16: Young vocal group The Wailers (young Bob Marley, Peter Tosh, and Bunny Wailer in their early 20s) rehearsing passionately around a single acoustic guitar in a modest wooden yard under palm shade, authentic vintage Jamaican street documentary photograph, warm black and white tones, 35mm film, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-03.png",
+      "prompt": "London recording studio 1972, vertical 9:16: Bob Marley with early dreadlocks holding his Gibson Les Paul guitar inside Island Records Basing Street studio beside record producer Chris Blackwell near an analog mixing desk, moody British studio atmosphere, warm tungsten lamp glow, 1970s rock documentary photography, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-04.png",
+      "prompt": "Kingston Jamaica mid 1970s, vertical 9:16: Intimate spiritual portrait of Bob Marley wearing a red, gold, and green knitted tam hat, deep in meditation reading from an open weathered Bible under gentle sunlight filtering through banana leaves, smoke rising delicately, solemn mystical atmosphere, authentic Kodak 35mm slide aesthetic, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-05.png",
+      "prompt": "56 Hope Road Kingston Jamaica December 1976, vertical 9:16: Dramatic night scene after the assassination attempt, bullet holes shattered in the white colonial wooden wall and doorframe, emergency police car red and blue lights flashing across the dark driveway, spent cartridge casings on the veranda floor, high tension crime scene photography, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-06.png",
+      "prompt": "Smile Jamaica concert National Heroes Park Kingston December 1976, vertical 9:16: Bob Marley on stage only 48 hours after surviving gunshots, visible white medical bandage wrapping under his denim shirt on his left arm and chest, singing with fierce defiance into a microphone before a sea of 80,000 Jamaicans under massive stadium lights, historic concert documentary, 35mm grain, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-07.png",
+      "prompt": "London street exiles 1977, vertical 9:16: Bob Marley in a dark leather jacket and denim jeans walking along a misty London residential street with red brick Georgian houses, clutching a cassette tape and guitar case, quiet exiled creative focus, moody overcast British autumn light, 1970s street photography, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-08.png",
+      "prompt": "One Love Peace Concert Kingston 1978, vertical 9:16: Historic iconic moment on stage under blinding bright floodlights. In the center, Bob Marley with arms raised clasping the joined hands of political rivals Michael Manley and Edward Seaga in a symbolic handshake of peace, thousands cheering in the background, historic political photojournalism, no text."
+    },
+    {
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-09.png",
+      "prompt": "Studio acoustic session 1980 and poetic farewell, vertical 9:16: Bob Marley sitting alone on a wooden stool in a quiet dim recording studio with an Ovation acoustic guitar, eyes closed singing his soul into a hanging condenser microphone, gentle divine golden beam of light descending from above, touching spiritual transcendence, 35mm film still, vertical 9:16, no text."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/bob-marley-redemption-song-destellos-de-gloria/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "Nació en 1945 y creció en la extrema pobreza de Trenchtown, incomprendido por su origen birracial."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Junto a The Wailers inventó el latido del reggae en patios y calles de Kingston."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "En 1972, el disco «Catch a Fire» proyectó el grito espiritual de Jamaica al planeta entero."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Abrazó la fe rastafari, convirtiendo su música en una trinchera de emancipación humana."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "En 1976 sobrevivió milagrosamente a un atentado de sicarios que balearon su casa en Hope Road."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Apenas 48 horas después, herido y vendado, cantó ante 80.000 personas desafiando a sus asesinos."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "Exiliado en Londres compuso «Exodus», proclamado el mejor álbum del siglo XX."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "En 1978 forzó a los dos líderes políticos rivales de Jamaica a estrecharse las manos por la paz."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "A solas con su guitarra grabó «Redemption Song» antes de partir a los 36 años. ¿Cuál es tu recuerdo?"
+    }
+  ],
+  "publication": {
+    "description": "Le dispararon al corazón antes de un concierto, unió a dos enemigos jurados y partió a los 36 años dejando un himno eterno de redención.\n\nNacido en la miseria de Nine Mile y curtido en el fango de Trenchtown, Bob Marley transformó el latido del reggae en el grito de los marginados del mundo. Ni el hambre, ni el exilio, ni el plomo pudieron doblegarlo: en diciembre de 1976 sobrevivió milagrosamente a un atentado de sicarios en su propia casa y, con proyectiles aún dentro de su cuerpo, subió 48 horas después ante 80.000 personas desafiando a sus propios asesinos.\n\nEn 1978 logró lo que parecía imposible: en plena guerra civil jamaiquina, subió al escenario a los dos líderes políticos rivales y unió sus manos bajo el manto del One Love. Cuando un cáncer fulminante invadió su cuerpo en 1980, se sentó a solas en el estudio con su guitarra acústica para entregarnos su testamento final: «Redemption Song».\n\nUna vida que ardió con la fuerza del sol antes de apagarse a los 36 años. ¿Qué verso o mensaje de Bob Marley guardas en tu memoria?\n\n#BobMarley #RedemptionSong #DestellosDeGloria #AcordesOcultos #ReggaeLegends #HistoriaDelRock #OneLove"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "title": "El Músico que Cambió la Fama por Hornear Pan",
+  "artist": "John Lennon",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1975, en la cúspide de su leyenda y tras una década de asedio mediático incesante, John Lennon tomó una decisión que conmocionó al planeta: desapareció por completo de la industria musical. Durante cinco años, los tabloides especularon con que había enloquecido o vivía recluido en el edificio Dakota de Nueva York. En los rascacielos de Manhattan, ejecutivos de las grandes discográficas fumaban desesperados pegados al teléfono sin lograr que John les atendiera. Su verdadera felicidad era levantarse temprano, cuidar a su hijo Sean y hornear pan casero en su cocina. Al piano compuso 'Watching the Wheels' para explicar que prefería ver girar las ruedas del mundo sin subirse al carrusel del éxito. En 1980 grabó la melodía con un dulcémele martillado, dejando una de las lecciones de paz, plenitud y libertad más puras de la historia del rock.",
+  "hook": "En la cima del mundo, John Lennon abandonó la música durante 5 años... y la prensa creyó que había enloquecido.",
+  "beats": [
+    "1975: Acosado por la histeria de la fama, John Lennon tomó la decisión más radical de su vida y se retiró del ojo público.",
+    "En Manhattan, ejecutivos de discográficas fumaban desesperados pegados al teléfono intentando contactarlo.",
+    "Su respuesta descolocaba a todos: su mayor tesoro era cuidar a su hijo Sean y hornear pan casero en su cocina.",
+    "Desde su sillón, reía con desapego ante las ofertas millonarias de giras que intentaban devolverlo al escenario.",
+    "Al piano compuso un himno a la serenidad: observar el carrusel del éxito girar sin sentir la urgencia de subirse a él.",
+    "En el estudio The Hit Factory, grabaron un dulcémele martillado con ecos circulares para evocar las ruedas de la feria.",
+    "En 1980, regresó a la música en plenitud y en paz, abrazando la vida con una renovada luminosidad artística.",
+    "Saludando con una sonrisa eterna en el Dakota, dejó su mayor testamento de libertad: la fama pasa, la paz se elige."
+  ],
+  "outro": "A veces, bajarse del carrusel del mundo es el único camino para no perderse a uno mismo en el viaje de la vida.",
+  "palette": {
+    "ink": "#0c0a12",
+    "paper": "#f7f2ea",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Watching the Wheels",
+    "artist": "John Lennon",
+    "src": "music/john-lennon-watching-the-wheels.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Watching the Wheels John Lennon",
+      "expectedTitle": "Watching the Wheels",
+      "expectedArtist": "John Lennon",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-01.png",
+      "prompt": "Authentic 1976 photograph of 36-year-old John Lennon with his iconic round spectacles and long dark hair, standing thoughtfully on the balcony of the iconic Dakota building in New York looking at the city streets below, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-02.png",
+      "prompt": "1977 cinematic interior of a cozy Dakota apartment room with a vintage rotary phone on a wooden side table surrounded by 1970s newspapers with sensational headlines about John Lennon silence, warm lamp light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-03.png",
+      "prompt": "Authentic 1977 photograph of stressed, impatient American record label music executives in suits in a smoky Manhattan skyscraper office, one nervously smoking a cigarette and pacing while another grips a vintage rotary telephone receiver trying urgently to call John Lennon, vinyl records on the walls, full ashtray on mahogany desk, dramatic moody corporate lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-04.png",
+      "prompt": "Warm 1978 intimate photograph of John Lennon wearing round glasses and a kitchen apron, smiling gently while taking freshly baked golden sourdough bread from an oven in a rustic kitchen, with toddler toys in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-05.png",
+      "prompt": "Authentic 1978 photograph of 38-year-old John Lennon with round wire glasses and long hair, sitting casually in his sunlit white living room at the Dakota building, holding a vintage telephone receiver and laughing warmly with relaxed detachment, cozy plants and books around, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-06.png",
+      "prompt": "Poetic 1979 photograph of John Lennon playing an upright wooden piano in his sunlit Dakota apartment living room with handwritten lyric sheets titled Watching the Wheels, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-07.png",
+      "prompt": "Close-up 1980 studio photograph in The Hit Factory recording studio of a musician playing a hammered dulcimer with small wooden mallets, analog microphones and tape reels in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-08.png",
+      "prompt": "Authentic 1980 photograph of 40-year-old John Lennon with round glasses and short hair, and Yoko Ono standing together affectionately in The Hit Factory recording studio in New York, smiling warmly beside a vintage analog mixing console and studio microphones, glowing warm lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/john-lennon-watching-the-wheels/scene-09.png",
+      "prompt": "Historic 1980 photograph of John Lennon in leather jacket and round glasses outside the Dakota building archway smiling and waving warmly to peaceful fans on 72nd street, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/john-lennon-watching-the-wheels/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/john-lennon-watching-the-wheels/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/john-lennon-watching-the-wheels/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/john-lennon-watching-the-wheels/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/john-lennon-watching-the-wheels/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/john-lennon-watching-the-wheels/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/john-lennon-watching-the-wheels/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/john-lennon-watching-the-wheels/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/john-lennon-watching-the-wheels/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En la cima del mundo, John Lennon abandonó la música durante 5 años... y la prensa creyó que había enloquecido."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1975: Acosado por la histeria de la fama, John Lennon tomó la decisión más radical de su vida y se retiró del ojo público."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En Manhattan, ejecutivos de discográficas fumaban desesperados pegados al teléfono intentando contactarlo."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Su respuesta descolocaba a todos: su mayor tesoro era cuidar a su hijo Sean y hornear pan casero en su cocina."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Desde su sillón, reía con desapego ante las ofertas millonarias de giras que intentaban devolverlo al escenario."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Al piano compuso un himno a la serenidad: observar el carrusel del éxito girar sin sentir la urgencia de subirse a él."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En el estudio The Hit Factory, grabaron un dulcémele martillado con ecos circulares para evocar las ruedas de la feria."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 1980, regresó a la música en plenitud y en paz, abrazando la vida con una renovada luminosidad artística."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Saludando con una sonrisa eterna en el Dakota, dejó su mayor testamento de libertad: la fama pasa, la paz se elige."
+    }
+  ]
+}

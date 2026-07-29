@@ -1,0 +1,112 @@
+{
+  "title": "El Cartel Victoriano que Enloqueció a la BBC",
+  "artist": "The Beatles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "En enero de 1967, mientras The Beatles filmaban el video promocional de 'Strawberry Fields Forever' en Kent, John Lennon compró en una tienda de antigüedades un cartel publicitario victoriano impreso en 1843 que anunciaba la llegada del 'Pablo Fanque's Circus Royal'. Fascinado por el lenguaje, Lennon lo colgó en su casa y empezó a cantar al piano la letra exacta del póster, dando vida a 'Being for the Benefit of Mr. Kite!'. Para recrear el ambiente de feria psicodélica, el productor George Martin tomó cintas grabadas con organillos de vapor, las cortó con tijeras en docenas de pedazos, las lanzó al aire en Abbey Road y las pegó al azar y al revés. La BBC prohibió el tema por años convencida de que 'Henry the Horse' era una clave secreta para la heroína, ignorando que el caballo figuraba escrito textualmente en la cartelera de 1843.",
+  "hook": "Una de las canciones más psicodélicas de los Beatles nació de un cartel de circo victoriano impreso en 1843.",
+  "beats": [
+    "En 1967, John Lennon compró en una tienda de antigüedades el póster del 'Pablo Fanque's Circus Royal' y lo colgó en su casa.",
+    "Al tocar el piano, Lennon leyó las frases textuales del cartel dando vida a Mr. Kite, Mr. Henderson y 'Henry the Horse'.",
+    "Para lograr el sonido de feria psicodélica, el productor George Martin tomó cintas de organillos antiguos y las cortó a tijeretazos.",
+    "Las lanzó al aire en Abbey Road, las pegó al azar y las reprodujo al revés ya distintas velocidades.",
+    "Creyendo que 'Henry the Horse' era una clave secreta para la heroína, la BBC prohibió la canción durante años."
+  ],
+  "outro": "La realidad era que el caballo figuraba escrito literalmente en la cartelera victoriana de 1843.",
+  "palette": {
+    "ink": "#110b14",
+    "paper": "#f5ebd9",
+    "accent": "#d90429",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "Being for the Benefit of Mr. Kite!",
+    "artist": "The Beatles",
+    "src": "music/beatles-mr-kite.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Being for the Benefit of Mr. Kite! The Beatles",
+      "expectedTitle": "Being for the Benefit of Mr. Kite!",
+      "expectedArtist": "The Beatles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/beatles-mr-kite/scene-01.png",
+      "prompt": "Authentic 1967 photograph of 26-year-old John Lennon with round glasses and moustache in a vintage Kent antique shop holding an ornate 1843 Victorian circus poster, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-02.png",
+      "prompt": "Detailed close-up of a yellowed 1843 Victorian paper circus poster announcing Pablo Fanque Circus Royal with ornate typography, Mr Kite and Henry the Horse illustrations, vintage paper texture, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-03.png",
+      "prompt": "26-year-old John Lennon in 1967 sitting at an upright piano looking up at the Victorian circus poster framed on his wall, composing with an amused smile, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-04.png",
+      "prompt": "Producer George Martin in 1967 inside Abbey Road Studio Two holding scissors over magnetic tape reels, surrounded by vintage tape recorders, focused expression, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-05.png",
+      "prompt": "Surreal 1967 Abbey Road scene with magnetic tape pieces floating through the air like colorful confetti over a mixing console, psychedelic carnival lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-06.png",
+      "prompt": "Strict 1960s BBC radio censor stamping a BANNED red mark on a Beatles vinyl record sleeve in a gloomy London office, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-mr-kite/scene-07.png",
+      "prompt": "Magical 1967 Sgt Pepper era psychedelic Victorian circus ring with Mr. Kite and a dancing horse under glowing carnival lights, surreal Beatles pop art style, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/beatles-mr-kite/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/beatles-mr-kite/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/beatles-mr-kite/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/beatles-mr-kite/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/beatles-mr-kite/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/beatles-mr-kite/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/beatles-mr-kite/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Una de las canciones más psicodélicas de los Beatles nació de un cartel de circo victoriano impreso en 1843."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1967, John Lennon compró en una tienda de antigüedades el póster del 'Pablo Fanque's Circus Royal' y lo colgó en su casa."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Al tocar el piano, Lennon leyó las frases textuales del cartel dando vida a Mr. Kite, Mr. Henderson y 'Henry the Horse'."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para lograr el sonido de feria psicodélica, el productor George Martin tomó cintas de organillos antiguos y las cortó a tijeretazos."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Las lanzó al aire en Abbey Road, las pegó al azar y las reprodujo al revés y a distintas velocidades."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Creyendo que 'Henry the Horse' era una clave secreta para la heroína, la BBC prohibió la canción durante años."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "La realidad era que el caballo figuraba escrito literalmente en la cartelera victoriana de 1843."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "title": "I Am the Walrus",
+  "artist": "The Beatles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "John Lennon recibió una carta de un estudiante de su antigua escuela, la Quarry Bank Grammar School, contándole que su profesor de literatura ponía a la clase a analizar y descifrar el significado oculto de las letras de los Beatles. A John esto le pareció ridículo y divertidísimo, por lo que decidió escribir la canción más absurda, surrealista e indescifrable posible para volver locos a los académicos. Para lograrlo, combinó el poema de Lewis Carroll, apodó 'Eggman' a su amigo Eric Burdon de The Animals e imitó las dos notas de una sirena de policía que escuchó en su casa. Finalmente, en Abbey Road, sintonizó una radio BBC en vivo que transmitía King Lear de Shakespeare e inyectó esa señal directo a la consola de mezcla. Al terminar, Lennon se rió con su amigo Pete Shotton: 'A ver qué carajo le sacan de sentido los profesores a esto ahora'.",
+  "hook": "John Lennon compuso 'I Am the Walrus' con un solo propósito: trolear a un profesor de literatura.",
+  "beats": [
+    "Un estudiante le contó por carta que en su escuela analizaban el 'significado oculto' de sus canciones.",
+    "Indignado y divertido, Lennon decidió escribir la letra más absurda e indescifrable posible para volverlos locos.",
+    "Mezcló a Lewis Carroll, apodó 'Eggman' a Eric Burdon e imitó el ritmo de dos notas de una sirena de policía.",
+    "Al mezclar en Abbey Road, sintonizó una radio BBC en vivo captando una obra de Shakespeare en directo.",
+    "Inyectó esa transmisión a la consola, creando el caótico y psicodélico collage de voces del final."
+  ],
+  "outro": "Riendo con su amigo Pete Shotton exclamó: 'A ver qué carajo le sacan de sentido a esto ahora'.",
+  "palette": {
+    "ink": "#0f0814",
+    "paper": "#f4ede2",
+    "accent": "#e63946",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "I Am the Walrus",
+    "artist": "The Beatles",
+    "src": "music/beatles-walrus.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "I Am the Walrus The Beatles",
+      "expectedTitle": "I Am the Walrus",
+      "expectedArtist": "The Beatles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-01.png",
+      "prompt": "Authentic 1967 portrait of John Lennon (wearing iconic round glasses, psychedelic patterned shirt, mischievous smirk) holding a pen at a wooden desk at his Kenwood home, vintage 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-02.png",
+      "prompt": "A 1967 English grammar school classroom, a stern teacher standing at a chalkboard pointing to Beatles lyrics while confused students sit at wooden desks, vintage UK 1960s atmosphere, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-03.png",
+      "prompt": "John Lennon laughing hysterically in a sunlit 1967 room while reading a handwritten fan letter, scattered notebooks around him, warm color grading, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-04.png",
+      "prompt": "Surreal 1967 psychedelic collage illustration featuring a walrus in a suit, a man with an egg head (Eggman), Alice in Wonderland Lewis Carroll elements, vibrant sixties colors, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-05.png",
+      "prompt": "John Lennon in 1967 Abbey Road Studio Two leaning over a large mixing console holding a vintage transistor radio, glowing dials, Beatles bandmates watching with amused expressions, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-06.png",
+      "prompt": "Vintage 1967 BBC radio dial glowing in a dark recording studio with soundwaves morphing into Shakespearean theater actor silhouettes, dramatic studio lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-i-am-the-walrus/scene-07.png",
+      "prompt": "John Lennon and his friend Pete Shotton in 1967 sitting on a leather sofa listening to playback in Abbey Road studio, laughing uncontrollably, glass of tea, authentic Beatles era, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/beatles-i-am-the-walrus/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/beatles-i-am-the-walrus/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/beatles-i-am-the-walrus/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/beatles-i-am-the-walrus/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/beatles-i-am-the-walrus/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/beatles-i-am-the-walrus/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/beatles-i-am-the-walrus/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "John Lennon compuso 'I Am the Walrus' con un solo propósito: trolear a un profesor de literatura."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Un estudiante le contó por carta que en su escuela analizaban el 'significado oculto' de sus canciones."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Indignado y divertido, Lennon decidió escribir la letra más absurda e indescifrable posible para volverlos locos."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Mezcló a Lewis Carroll, apodó 'Eggman' a Eric Burdon e imitó el ritmo de dos notas de una sirena de policía."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al mezclar en Abbey Road, sintonizó una radio BBC en vivo captando una obra de Shakespeare en directo."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Inyectó esa transmisión a la consola, creando el caótico y psicodélico collage de voces del final."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Riendo con su amigo Pete Shotton exclamó: 'A ver qué carajo le sacan de sentido a esto ahora'."
+    }
+  ]
+}

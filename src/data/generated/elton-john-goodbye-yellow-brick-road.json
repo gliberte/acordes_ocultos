@@ -1,0 +1,112 @@
+{
+  "title": "El Hombre que Abandonó la Jaula de Oro",
+  "artist": "Elton John",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "Inspirada en la fábula del Mago de Oz, 'Goodbye Yellow Brick Road' narra el despertar de un joven que es seducido por la promesa deslumbrante de la fama y la riqueza. Atraído por las luces de la gran metrópolis, escala hasta la cima y se instala en un ático de lujo, solo para descubrir que la alta sociedad lo trata como a una mascota exótica dentro de una jaula dorada. Asfixiado por la falsedad del estrellato y la manipulación de quienes intentan moldear su destino, el protagonista decide renunciar al camino de baldosas amarillas y regresar a sus raíces en el campo, cambiando los banquetes vacíos por la dignidad de su arado y la paz de su verdadera identidad.",
+  "hook": "El sendero dorado de la fama prometía la gloria eterna, pero escondía una jaula de oro y soledad.",
+  "beats": [
+    "Un joven de vida sencilla llega a la gran metrópolis deslumbrante, seducido por el brillo del estrellato.",
+    "En lo alto de un ático de lujo, rodeado de banquetes fríos, descubre que solo es un trofeo manipulado.",
+    "Cansado de fingir en fiestas superficiales, comprende que el precio de la fama es perder su propia alma.",
+    "Mirando a la élite a los ojos, dice adiós al camino de baldosas amarillas y rompe sus cadenas doradas.",
+    "Deja atrás los rascacielos y camina de regreso hacia los campos verdes y la tranquilidad de sus orígenes."
+  ],
+  "outro": "Cambiar el ático por el arado de su tierra fue el mayor acto de libertad para quien eligió la paz sobre la gloria.",
+  "palette": {
+    "ink": "#130e06",
+    "paper": "#faf4e8",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Goodbye Yellow Brick Road",
+    "artist": "Elton John",
+    "src": "music/elton-john-goodbye-yellow-brick-road.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Goodbye Yellow Brick Road Elton John",
+      "expectedTitle": "Goodbye Yellow Brick Road",
+      "expectedArtist": "Elton John",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-01.png",
+      "prompt": "Cinematic 1973 photograph of a symbolic glowing yellow brick path winding through a misty countryside towards a dazzling distant city skyline, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-02.png",
+      "prompt": "1973 photograph of a handsome young country man in vintage corduroy jacket standing on a bustling 1970s city street gazing up at towering neon skyscrapers, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-03.png",
+      "prompt": "1973 opulent penthouse living room scene of wealthy socialites sipping champagne while a young man sits isolated in a velvet chair looking trapped and disillusioned, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-04.png",
+      "prompt": "Close-up 1973 photograph of a young man looking through a high penthouse glass window seeing his own weary reflection with the dark city below, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-05.png",
+      "prompt": "Dramatic 1973 confrontation scene of a young man turning his back on a controlling wealthy music executive in a luxury office and walking out the door, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-06.png",
+      "prompt": "Poetic 1973 photograph of a free young man walking along a rural dirt road in England surrounded by rolling green hills and wildflower fields under soft morning mist, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-goodbye-yellow-brick-road/scene-07.png",
+      "prompt": "Serene 1973 photograph of a rustic wooden farmhouse at golden hour with a horse-drawn plough in a quiet field and a peaceful cottage smoking chimney, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/elton-john-goodbye-yellow-brick-road/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/elton-john-goodbye-yellow-brick-road/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El sendero dorado de la fama prometía la gloria eterna, pero escondía una jaula de oro y soledad."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Un joven de vida sencilla llega a la gran metrópolis deslumbrante, seducido por el brillo del estrellato."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "En lo alto de un ático de lujo, rodeado de banquetes fríos, descubre que solo es un trofeo manipulado."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Cansado de fingir en fiestas superficiales, comprende que el precio de la fama es perder su propia alma."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Mirando a la élite a los ojos, dice adiós al camino de baldosas amarillas y rompe sus cadenas doradas."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Deja atrás los rascacielos y camina de regreso hacia los campos verdes y la tranquilidad de sus orígenes."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Cambiar el ático por el arado de su tierra fue el mayor acto de libertad para quien eligió la paz sobre la gloria."
+    }
+  ]
+}

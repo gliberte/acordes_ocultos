@@ -1,0 +1,172 @@
+{
+  "title": "Ritchie Valens y la moneda",
+  "artist": "Ritchie Valens",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "La historia de Ritchie Valens y lo que ocurrio el 3 de febrero de 1959, el dia que murio la musica, esta marcada por ironias tragicas. Ritchie tenia apenas 17 anos y un miedo profundo a volar, nacido despues de un choque de aviones sobre el patio de su escuela en Pacoima. En 1959 se unio al Winter Dance Party junto a Buddy Holly y The Big Bopper, una gira agotadora por el frio extremo del medio oeste. Tras tocar en Clear Lake, Buddy Holly contrato una avioneta para escapar del autobus congelado. Solo habia tres asientos. Waylon Jennings cedio el suyo a The Big Bopper, enfermo de fiebre. El ultimo lugar lo disputaron Tommy Allsup y Ritchie Valens con una moneda al aire. Ritchie eligio cara, gano, y dijo que era la primera vez que ganaba algo en su vida. Minutos despues, la avioneta despego en nieve y viento. El piloto se desoriento y se estrello contra un campo congelado. Todos murieron al instante. Tommy Allsup vivio gracias a esa moneda.",
+  "hook": "Ritchie Valens tenia terror a los aviones, pero una moneda lo subio al vuelo mas tragico del rock.",
+  "beats": [
+    "Su miedo habia nacido dos anos antes, cuando dos aviones chocaron sobre el patio de su escuela en Pacoima.",
+    "En 1959, con apenas 17 anos, estaba de gira con Buddy Holly y The Big Bopper en el Winter Dance Party.",
+    "El autobus de la gira era una pesadilla: frio extremo, calefaccion rota y musicos enfermos.",
+    "Buddy Holly contrato una avioneta para llegar antes al siguiente show y descansar.",
+    "Solo quedaba un asiento, y Ritchie se lo jugo con Tommy Allsup lanzando una moneda.",
+    "Ritchie gano el volado y dijo una frase imposible de olvidar: era la primera vez que ganaba algo en su vida."
+  ],
+  "outro": "Minutos despues, el avion cayo en un campo congelado. Una moneda salvo una vida y condeno una leyenda.",
+  "palette": {
+    "ink": "#07080d",
+    "paper": "#f8f0df",
+    "accent": "#d92f2f",
+    "glow": "#6ee7ff"
+  },
+  "music": {
+    "title": "La Bamba",
+    "artist": "Ritchie Valens",
+    "src": "music/ritchie-la-bamba.mp3",
+    "startSecond": 0,
+    "volume": 0.52,
+    "instagram": {
+      "query": "La Bamba Ritchie Valens",
+      "expectedTitle": "La Bamba",
+      "expectedArtist": "Ritchie Valens",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical."
+    }
+  },
+  "publication": {
+    "description": "El 3 de febrero de 1959 quedo marcado como el dia que murio la musica. Buddy Holly, The Big Bopper y Ritchie Valens fallecieron cuando una avioneta se estrello poco despues de despegar de Iowa.\n\nLo mas estremecedor es que Ritchie Valens tenia un miedo profundo a volar. Ese miedo venia de un accidente real: dos aviones habian chocado sobre el patio de su escuela en Pacoima, matando a varios estudiantes que el conocia.\n\nAun asi, aquella noche subio al avion por una decision absurda y definitiva: una moneda al aire. Tommy Allsup tenia el asiento, Ritchie se lo pidio, y ambos aceptaron jugarlo. Ritchie eligio cara y gano.\n\nLa frase que se le atribuye despues del volado todavia pesa: era la primera vez que ganaba algo en su vida. Minutos despues, el avion cayo en un campo congelado. Una moneda salvo a Tommy Allsup y convirtio a Ritchie Valens en una leyenda tragicamente breve."
+  },
+  "assets": [
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-01.png",
+      "prompt": "young Ritchie Valens backstage in 1959, tense expression before a winter tour flight, vintage rock and roll documentary still, respectful cinematic portrait, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-02.png",
+      "prompt": "1957 Pacoima schoolyard after an airplane crash, students stunned, distant smoke in the sky, somber archival documentary mood, no gore, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-03.png",
+      "prompt": "Winter Dance Party tour bus crossing the frozen American Midwest at night, broken heater, musicians exhausted inside, 1959 documentary realism, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-04.png",
+      "prompt": "Surf Ballroom backstage in Clear Lake Iowa, Buddy Holly and musicians discussing a small charter plane after a show, vintage winter rock atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-05.png",
+      "prompt": "close-up of a coin toss in a 1959 backstage hallway, Ritchie Valens and Tommy Allsup watching the coin spinning, dramatic frozen moment, no text, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-06.png",
+      "prompt": "small Beechcraft Bonanza airplane preparing to take off at night on a snow-covered runway, tragic cinematic documentary tone, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/ritchie-valens-dia-musica/scene-07.png",
+      "prompt": "frozen Iowa cornfield at dawn after a tragic 1959 plane crash, police lights in the distance, solemn memorial atmosphere, no bodies, no gore, 9:16 aspect ratio"
+    }
+  ],
+  "clip": {
+    "src": "videos/ritchie-valens-dia-musica/transition-coin-to-plane.mp4",
+    "prompt": "8 second vertical cinematic transition from a backstage coin toss in 1959 to a small airplane preparing to take off in a snowy Iowa night, slow match cut from spinning coin to runway lights, respectful documentary style, no text",
+    "startSecond": 45,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 4,
+    "transitionToAssetIndex": 5
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/ritchie-valens-dia-musica/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 23,
+      "src": "videos/ritchie-valens-dia-musica/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 23,
+      "end": 36,
+      "src": "videos/ritchie-valens-dia-musica/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/ritchie-valens-dia-musica/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 53,
+      "src": "videos/ritchie-valens-dia-musica/transition-coin-to-plane.mp4",
+      "type": "video"
+    },
+    {
+      "start": 53,
+      "end": 74,
+      "src": "videos/ritchie-valens-dia-musica/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 74,
+      "end": 90,
+      "src": "videos/ritchie-valens-dia-musica/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Ritchie Valens tenia terror a los aviones, pero una moneda lo subio al vuelo mas tragico del rock."
+    },
+    {
+      "start": 10,
+      "end": 23,
+      "text": "Su miedo venia de Pacoima: dos aviones chocaron sobre el patio de su escuela y murieron varios estudiantes."
+    },
+    {
+      "start": 23,
+      "end": 36,
+      "text": "En 1959, con apenas 17 anos, se unio al Winter Dance Party junto a Buddy Holly y The Big Bopper."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El autobus era un infierno congelado, asi que Buddy Holly contrato una avioneta para llegar antes."
+    },
+    {
+      "start": 45,
+      "end": 53,
+      "text": "Solo quedaba un asiento. Ritchie se lo jugo con Tommy Allsup lanzando una moneda."
+    },
+    {
+      "start": 53,
+      "end": 74,
+      "text": "Ritchie eligio cara, gano, y dijo que era la primera vez que ganaba algo en su vida."
+    },
+    {
+      "start": 74,
+      "end": 90,
+      "text": "Minutos despues, el avion cayo en un campo congelado. Una moneda salvo una vida y condeno una leyenda."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/ritchie-valens-dia-musica"
+  }
+}

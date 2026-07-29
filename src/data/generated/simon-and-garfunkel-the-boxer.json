@@ -1,0 +1,186 @@
+{
+  "title": "El Secreto del Ascensor: La Venganza de Simon & Garfunkel",
+  "artist": "Simon & Garfunkel",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1968, humillado por los críticos de Nueva York que tildaban a Simon & Garfunkel de «blandos y pretenciosos», Paul Simon canalizó su dolor en la figura de un boxeador herido pero invicto. Para lograr un golpe que sonara como un impacto a la mandíbula, Hal Blaine y Roy Halee abrieron las puertas del ascensor de Columbia Records e hicieron detonar la batería por el hueco, aterrorizando al guardia nocturno. Mientras Simon pasaba 100 horas solitarias puliendo la pista, Art Garfunkel partía a filmar cine a México, detonando la ruptura definitiva del dúo y convirtiendo a «The Boxer» en el himno inmortal a la resiliencia humana.",
+  "hook": "El cañonazo acústico grabado en el hueco de un ascensor para vengar a Paul Simon de los críticos que casi destruyen su carrera.",
+  "beats": [
+    "En el crudo invierno de 1968, Paul Simon leía con amargura cómo los críticos destrozaban su música llamándola «blanda y pretenciosa».",
+    "Herido en su orgullo, Simon se refugió en una metáfora: la de un muchacho provinciano buscando calor en el asfalto helado de Manhattan.",
+    "Incapaz de hallar versos que expresaran tanto desengaño, cantó un silabeo provisional: «Lie-la-lie». Aquel lamento sin palabras jamás pudo ser sustituido.",
+    "Para darle una grandeza mística, extendieron cientos de metros de cables hasta la Capilla de San Pablo, inundando la cúpula con sus voces.",
+    "En Nashville, entrelazaron guitarras acústicas con afinación especial de cuerdas finas, creando un brillo cristalino que parecía un arpa celestial.",
+    "Pero faltaba el impacto decisivo. El productor Roy Halee y el baterista Hal Blaine llevaron la batería frente a las puertas abiertas del ascensor.",
+    "En cada coro, Blaine azotó el tambor y la onda bajó por el foso como un cañonazo, haciendo salir a un guardia convencido de que estallaba una bomba.",
+    "Mientras Simon pasaba más de cien horas solitarias puliendo la pista, Art Garfunkel partió a México a filmar cine, abriendo una grieta irreparable.",
+    "«The Boxer» se convirtió en un monumento a la resiliencia humana: la prueba viva de que aunque te derriben, el luchador todavía sigue en pie."
+  ],
+  "outro": "Un monumento a la resiliencia que demostró que el luchador jamás se rinde. ¿Conocías este secreto?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fdfaf3",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "The Boxer",
+    "artist": "Simon & Garfunkel",
+    "src": "music/simon-and-garfunkel-the-boxer.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Boxer Simon and Garfunkel",
+      "expectedTitle": "The Boxer",
+      "expectedArtist": "Simon & Garfunkel",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/simon-and-garfunkel-the-boxer/cover_bg.png",
+  "coverPrompt": "Cinematic 35mm film photograph from 1969. In a dimly lit, moody Manhattan recording studio at night, a vintage acoustic Martin guitar rests on an old leather armchair next to an open notebook filled with handwritten lyrics and scribbled musical notes. In the background, warm amber studio lamps illuminate classic analog reel-to-reel tape machines and microphone stands. Atmospheric film grain, vintage warm color grading, melancholic and legendary atmosphere. Vertical 9:16 composition.",
+  "assets": [
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-01.png",
+      "prompt": "Winter 1968 Manhattan apartment: A young 27-year-old Paul Simon, with dark brown straight hair parted, wearing a dark wool knit turtleneck sweater, sits at a wooden table looking down somberly at open music magazines and newspaper review clippings. A steaming ceramic coffee mug rests nearby. Outside the tall window, gentle snow falls over New York brownstones. Moody warm indoor lighting, authentic late 60s 35mm film grain, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-02.png",
+      "prompt": "1968 New York City winter street: A young lone traveler in a worn wool trench coat carrying a battered vintage leather suitcase walks along the wet, glistening sidewalks of Seventh Avenue under cold drizzle and glowing vintage neon signs of diners and theaters. Melancholic urban atmosphere, steam rising from street manholes, cinematic 35mm Kodachrome grain, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-03.png",
+      "prompt": "Columbia Records Studio 1968: Paul Simon sitting on a wooden stool in a vocal recording booth, holding his Martin acoustic guitar. In front of him on a music stand is a yellow legal notepad filled with crossed-out lyrics and scribble marks. He looks frustrated yet deeply inspired, staring into space with lips slightly parted. Soft studio rim lighting, microphone hanging overhead, 1960s analog studio aesthetic, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-04.png",
+      "prompt": "St. Paul's Chapel at Columbia University, Manhattan, 1969: Paul Simon and Art Garfunkel singing together side-by-side into a vintage condenser microphone in the cavernous, dimly lit chapel. Garfunkel is tall with his iconic golden afro curly hair and brown vest, Simon is shorter with dark hair in a dark sweater. In the background, long audio cables snake across the polished stone floor beneath the majestic arched dome and stained glass windows. Ethereal atmospheric haze, sacred acoustic reverb ambiance, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-05.png",
+      "prompt": "Columbia Studio B in Nashville, Tennessee, 1968: Paul Simon and veteran session guitarist Fred Carter Jr. sitting facing each other on metal folding chairs, deeply focused on their acoustic guitars. Carter is playing a Martin 000-18 strung in Nashville high-strung tuning. Sheet music stands and vintage ribbon microphones around them. Warm wood-paneled walls, warm amber studio glow, authentic archival music documentary photography, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-06.png",
+      "prompt": "Columbia Records hallway 1969: Master session drummer Hal Blaine, with his rugged features and dark hair, seen setting up his snare drum and toms directly in the hallway in front of the open iron sliding doors of a dark elevator shaft. Producer Roy Halee leans into the open elevator shaft adjusting a microphone hanging down into the darkness by a black cable. Industrial concrete and linoleum hallway, tense experimental energy, 35mm documentary photograph, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-07.png",
+      "prompt": "The Elevator Shaft Explosion 1969: Dramatic dynamic moment where Hal Blaine powerfully strikes the snare drum with his wooden stick, sending shockwaves of sound plunging down the open elevator shaft. Just at that moment, an elderly uniformed night security guard with wide startled eyes steps out of an adjacent corridor holding a flashlight in panic, believing a cannon or explosion went off. Dramatic motion blur, chiaroscuro lighting, cinematic retro tension, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-08.png",
+      "prompt": "Split cinematic composition, 1969: On the left half, Art Garfunkel in lightweight military costume under the scorching Mexican desert sun on the set of Mike Nichols' film Catch-22 with movie cameras and reflectors. On the right half, Paul Simon alone in the dim, shadowy Columbia control room in New York, pale and exhausted, hunched over the massive mixing console late at night. Visual metaphor of isolation and drifting apart, authentic 35mm film grain, vertical 9:16 framing."
+    },
+    {
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-09.png",
+      "prompt": "A vintage boxing ring in Madison Square Garden, 1969: In the clearing under harsh overhead ring lights, a heavyweight boxer stands breathing heavily, boxing gloves resting on the ropes, face bruised and cut with sweat glistening, but eyes burning with unbreakable pride, resilience, and dignity. Cigarette smoke swirls in the arena darkness above. Poetic cinematic portrait of endurance, 35mm black-and-white film texture with subtle sepia warmth, vertical 9:16 framing."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/simon-and-garfunkel-the-boxer/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En el crudo invierno de 1968, Paul Simon leía con amargura cómo los críticos destrozaban su música llamándola «blanda y pretenciosa»."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Herido en su orgullo, Simon se refugió en una metáfora: la de un muchacho provinciano buscando calor en el asfalto helado de Manhattan."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Incapaz de hallar versos que expresaran tanto desengaño, cantó un silabeo provisional: «Lie-la-lie». Aquel lamento sin palabras jamás pudo ser sustituido."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Para darle una grandeza mística, extendieron cientos de metros de cables hasta la Capilla de San Pablo, inundando la cúpula con sus voces."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En Nashville, entrelazaron guitarras acústicas con afinación especial de cuerdas finas, creando un brillo cristalino que parecía un arpa celestial."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Pero faltaba el impacto decisivo. El productor Roy Halee y el baterista Hal Blaine llevaron la batería frente a las puertas abiertas del ascensor."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En cada coro, Blaine azotó el tambor y la onda bajó por el foso como un cañonazo, haciendo salir a un guardia convencido de que estallaba una bomba."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Mientras Simon pasaba más de cien horas solitarias puliendo la pista, Art Garfunkel partió a México a filmar cine, abriendo una grieta irreparable."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "«The Boxer» se convirtió en un monumento a la resiliencia humana: la prueba viva de que aunque te derriben, el luchador todavía sigue en pie."
+    }
+  ],
+  "publication": {
+    "description": "En 1968, los críticos de Nueva York destrozaron a Simon & Garfunkel llamándolos «blandos y pretenciosos». Paul Simon no les respondió con una entrevista: les respondió con un cañonazo acústico grabado en el hueco de un ascensor. 🥊🎸\n\nHerido en lo más profundo de su orgullo, Simon se encerró a componer «The Boxer», canalizando su desahogo en la figura de un muchacho que recibe golpes en la cara pero se niega a besar la lona. Cuando el coro se resistía a las palabras, improvisó el célebre «Lie-la-lie». Para que el clímax sonara como un gancho a la mandíbula, el productor Roy Halee y el baterista Hal Blaine sacaron la batería al pasillo y colgaron micrófonos en el hueco abierto del ascensor de Columbia Records. Cada azote retumbó como un disparo de artillería, asustando de muerte al guardia nocturno.\n\nPero la gloria tuvo un precio amargo. Mientras Simon pasaba más de 100 extenuantes horas en soledad puliendo la pista, Art Garfunkel partió a México a rodar cine. Aquel vacío abrió la grieta irreparable que terminó disolviendo al dúo poco después. Aun así, el himno quedó para la eternidad: una oda al espíritu humano que nos recuerda que, sin importar cuántas veces te derriben, el luchador siempre sigue en pie.\n\n¿Qué sentiste la primera vez que escuchaste el estruendo de «The Boxer»?"
+  }
+}

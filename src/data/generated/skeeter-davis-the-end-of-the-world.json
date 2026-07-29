@@ -1,0 +1,175 @@
+{
+  "title": "El fin del mundo de Skeeter Davis",
+  "artist": "Skeeter Davis",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "Detrás de la dulce melodía de The End of the World se esconde un desgarrador luto real. La letrista Sylvia Dee escribió sus versos inspirada en el inmenso dolor que sintió tras perder a su padre. Cuando la partitura llegó a Skeeter Davis, ella no tuvo que imaginar el dolor: en 1953 había visto morir en el acto a su mejor amiga y compañera de dúo en un brutal accidente de auto. El productor Chet Atkins usó double-tracking en la voz de Skeeter para evocar las armonías que ella hacía con su difunta amiga, mientras Floyd Cramer interpretó un piano melancólico y solemne. Casualmente, la balada se lanzó en plena Crisis de los Misiles en Cuba, resonando de forma literal y reconfortante en una sociedad que temía un fin del mundo nuclear. El tema terminó despidiendo a Atkins y a Skeeter en sus propios funerales en el Ryman Auditorium.",
+  "hook": "Lanzada a finales de 1962, 'The End of the World' es una de las baladas de luto y desamor más perfectas jamás escritas.",
+  "beats": [
+    "No nació de una ruptura amorosa: la letrista Sylvia Dee escribió sus versos sumida en el dolor por la muerte de su padre.",
+    "Skeeter Davis canalizó un dolor real: años antes, su mejor amiga y compañera de dúo falleció en sus brazos tras un trágico choque de autos.",
+    "El productor Chet Atkins dobló la voz de Skeeter para emular las armonías que solía hacer con su difunta compañera.",
+    "El piano de Floyd Cramer guió la melodía, mientras la letra cobró un sentido literal para una sociedad aterrada por la Crisis de los Misiles en Cuba.",
+    "Para miles de personas que temían una inminente guerra nuclear, escuchar la frase '¿Acaso es el fin del mundo?' fue un consuelo colectivo."
+  ],
+  "outro": "La canción despidió a Atkins y a Skeeter en sus funerales, sonando por última vez en el histórico Ryman Auditorium.",
+  "palette": {
+    "ink": "#0c0e12",
+    "paper": "#fcfaf5",
+    "accent": "#c59b6d",
+    "glow": "#8c9eb2"
+  },
+  "music": {
+    "title": "The End of the World",
+    "artist": "Skeeter Davis",
+    "src": "music/skeeter-the-end-of-the-world.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The End of the World Skeeter Davis",
+      "expectedTitle": "The End of the World",
+      "expectedArtist": "Skeeter Davis",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "publication": {
+    "description": "Detrás de la dulce melodía de 'The End of the World' de Skeeter Davis (1962) se esconde un luto desgarrador.\n\nAunque se lee como una canción de desamor, la letrista Sylvia Dee la escribió inspirada en el inmenso dolor por la muerte de su padre. Skeeter Davis, al grabarla, canalizó su propia tragedia: en 1953 había sobrevivido a un brutal choque de autos donde falleció en el acto su mejor amiga y compañera en The Davis Sisters.\n\nEl productor Chet Atkins utilizó double-tracking en la voz para evocar de forma fantasmal aquellas armonías perdidas. Coincidiendo con la Crisis de los Misiles en Cuba, sus versos cobraron un sentido literal y reconfortante para una sociedad en pánico nuclear. La pieza despidió tanto a Atkins como a Skeeter en sus respectivos funerales en el Ryman Auditorium."
+  },
+  "assets": [
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-01.png",
+      "prompt": "Melancholic close-up portrait of singer Skeeter Davis in 1962, retro high-volume bouffant hairstyle, expressive sad eyes, soft lighting, 1960s vintage color photograph, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-02.png",
+      "prompt": "Lyricist Sylvia Dee in a retro 1960s study, writing lyrics with a fountain pen at a desk, looking emotionally at a framed black and white photo of an older man (her father), warm nostalgic glow, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-03.png",
+      "prompt": "Two teenage girls from the 1950s (The Davis Sisters) smiling and singing harmoniously into a single vintage chrome microphone, retro stage dress, old grain photo style, warm sepia filter, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-04.png",
+      "prompt": "Legendary producer Chet Atkins in a 1962 recording studio control room, adjusting the reels of an analog tape machine, warm lights on the mixing board, vintage photo grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-05.png",
+      "prompt": "Close-up of pianist Floyd Cramer's hands playing elegant chords on a grand piano in the studio, spotlight beam showing tiny dust particles, warm wooden reflections, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-06.png",
+      "prompt": "A worried family in a 1962 living room gathered around a large retro radio console, tense expressions, a newspaper on the table with a headline reading 'CUBA MISSILE CRISIS', warm low-key lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/skeeter-davis-end-of-the-world/scene-07.png",
+      "prompt": "The empty historic stage of the Ryman Auditorium in Nashville, a single vintage stand microphone illuminated by a dramatic, solemn spotlight in a dark, empty hall, memorial atmosphere, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 12,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 44,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 44,
+      "end": 52,
+      "src": "videos/skeeter-davis-end-of-the-world/transition-sound-nashville.mp4",
+      "type": "video"
+    },
+    {
+      "start": 52,
+      "end": 64,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 64,
+      "end": 72,
+      "src": "videos/skeeter-davis-end-of-the-world/transition-radio-missiles.mp4",
+      "type": "video"
+    },
+    {
+      "start": 72,
+      "end": 80,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Lanzada a finales de 1962, 'The End of the World' es una de las baladas de luto y desamor más perfectas jamás escritas."
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "No nació de una ruptura amorosa: la letrista Sylvia Dee escribió sus versos sumida en el dolor por la muerte de su padre."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "text": "Skeeter Davis canalizó un dolor real: años antes, su mejor amiga y compañera de dúo falleció en sus brazos tras un trágico choque de autos."
+    },
+    {
+      "start": 36,
+      "end": 52,
+      "text": "El productor Chet Atkins dobló la voz de Skeeter para emular las armonías que solía hacer con su difunta compañera."
+    },
+    {
+      "start": 52,
+      "end": 72,
+      "text": "El piano de Floyd Cramer guió la melodía, mientras la letra cobró un sentido literal para una sociedad aterrada por la Crisis de los Misiles en Cuba."
+    },
+    {
+      "start": 72,
+      "end": 80,
+      "text": "Para miles de personas que temían una inminente guerra nuclear, escuchar la frase '¿Acaso es el fin del mundo?' fue un consuelo colectivo."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "La canción despidió a Atkins y a Skeeter en sus funerales, sonando por última vez en el histórico Ryman Auditorium."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/skeeter-davis-end-of-the-world"
+  }
+}

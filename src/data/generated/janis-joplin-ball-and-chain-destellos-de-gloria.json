@@ -1,0 +1,182 @@
+{
+  "title": "De la Humillación a la Gloria Eterna",
+  "artist": "Janis Joplin",
+  "durationSeconds": 90,
+  "topic": "destellos-de-gloria",
+  "anecdote": "En 1962, una fraternidad universitaria en Texas la nombró públicamente el hombre más feo del campus. Cinco años después, en el Festival de Monterey, Janis Joplin subió al escenario con un conjunto dorado y desató una tormenta de blues tan salvaje que dejó boquiabierta a Mama Cass Elliot y la coronó en el acto como la reina suprema del rock.",
+  "hook": "La chica nombrada el hombre más feo del campus que cinco años después dejó sin aliento al planeta entero.",
+  "beats": [
+    "En 1962, en la Universidad de Texas, una fraternidad organizó una votación infame: coronar a la estudiante Janis Joplin como el hombre más feo del campus.",
+    "Destrozada por la burla de un pueblo que despreciaba su ropa usada y su amor por el blues, Janis huyó a San Francisco con una guitarra desvencijada y el alma en carne viva.",
+    "En la penumbra del barrio Haight-Ashbury, se unió a cuatro músicos psicodélicos llamados Big Brother and the Holding Company, ensayando en un sótano húmedo entre amplificadores saturados.",
+    "Junio de 1967: el Festival de Monterey reunió a los gigantes del rock. Nadie en la industria apostaba un solo centavo por aquella chica texana de voz rasposa y aspecto bohemio.",
+    "Pero al tomar el micrófono con su conjunto dorado brillante, Janis no cantó: vomitó cinco años de humillaciones y soledad en una desgarradora versión de Ball and Chain.",
+    "Entre el público, la cámara inmortalizó a Mama Cass Elliot boquiabierta, murmurando incrédula al ver nacer a una fuerza de la naturaleza: ¡Dios mío, eso es demoledor!.",
+    "El cineasta D.A. Pennebaker, temblando tras su cámara de 16 milímetros, supo que el festival no podía continuar sin volver a grabarla al día siguiente para la historia.",
+    "Al bajar del escenario entre una ovación ensordecedora, Albert Grossman, el mánager de Bob Dylan, le extendió en camerinos un contrato discográfico de doscientos cincuenta mil dólares.",
+    "La marginada que Port Arthur intentó destruir se convirtió en la reina eterna del rock. Porque a veces, el dolor más vil es la pólvora de la mayor gloria. ¿Qué te transmite su voz?"
+  ],
+  "outro": "La marginada que se convirtió en leyenda. ¿Qué sientes al escuchar el desgarro de Janis Joplin?",
+  "palette": {
+    "ink": "#0a0908",
+    "paper": "#faf5ee",
+    "accent": "#eab308",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Ball and Chain (Live at Monterey Pop)",
+    "artist": "Janis Joplin",
+    "src": "music/janis-joplin-ball-and-chain.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Ball and Chain Janis Joplin Big Brother",
+      "expectedTitle": "Ball and Chain",
+      "expectedArtist": "Janis Joplin & Big Brother & The Holding Company",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en vivo en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-01.png",
+      "prompt": "Authentic 1962 archival documentary photograph: a distressed 19-year-old Janis Joplin with unruly brown hair and vintage oversized cardigan, eyes filled with tearful pain as insensitive college students laugh in a Texas university hallway, 35mm grain, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-02.png",
+      "prompt": "Poignant 1963 black and white photograph of young Janis Joplin hitchhiking on a lonely asphalt highway with an old worn acoustic guitar case and small duffel bag, looking toward San Francisco, windy road, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-03.png",
+      "prompt": "Atmospheric 1966 rehearsal photograph in a dim Haight-Ashbury Victorian basement: Janis Joplin singing passionately with Big Brother and the Holding Company, tangled guitar cords, glowing tube amps, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-04.png",
+      "prompt": "Vibrant 1967 documentary photograph of the Monterey International Pop Festival open-air stage in California, Summer of Love flower children banners, vintage ribbon microphones and drumkit under the bright sunlight, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-05.png",
+      "prompt": "Electrifying 1967 concert photograph of Janis Joplin on Monterey Pop stage wearing her iconic shimmering gold metallic knit pant suit, head thrown back, gripping the chrome microphone with both hands, pouring her entire soul, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-06.png",
+      "prompt": "Historic 1967 Monterey Pop crowd archival photograph: Mama Cass Elliot seated in the audience wearing a flowing bohemian floral caftan, staring up with her mouth wide open in stunned awe, whispering Wow, thats heavy, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-07.png",
+      "prompt": "Archival 1967 documentary photograph of legendary documentarian D.A. Pennebaker holding his handheld 16mm film camera, framing Janis Joplin in the lens amidst stage smoke and warm stage lights, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-08.png",
+      "prompt": "Historic 1967 backstage trailer photograph at Monterey Pop: music mogul Albert Grossman in dark jacket and round spectacles handing a lucrative Columbia Records recording contract to a sweaty, overwhelmed Janis Joplin, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-09.png",
+      "prompt": "Breathtaking 1967 California golden hour photograph: Janis Joplin standing at the stage edge with arms opened wide, laughing joyfully as fifty thousand fans give a standing ovation under the sunset sky, vertical 9:16 aspect ratio."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/janis-joplin-ball-and-chain-destellos-de-gloria/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1962, en la Universidad de Texas, una fraternidad organizó una votación infame: coronar a la estudiante Janis Joplin como «el hombre más feo del campus»."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Destrozada por la burla de un pueblo que despreciaba su ropa usada y su amor por el blues, Janis huyó a San Francisco con una guitarra desvencijada y el alma en carne viva."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En la penumbra del barrio Haight-Ashbury, se unió a cuatro músicos psicodélicos llamados Big Brother and the Holding Company, ensayando en un sótano húmedo entre amplificadores saturados."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Junio de 1967: el Festival de Monterey reunió a los gigantes del rock. Nadie en la industria apostaba un solo centavo por aquella chica texana de voz rasposa y aspecto bohemio."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Pero al tomar el micrófono con su conjunto dorado brillante, Janis no cantó: vomitó cinco años de humillaciones y soledad en una desgarradora versión de Ball and Chain."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Entre el público, la cámara inmortalizó a Mama Cass Elliot boquiabierta, murmurando incrédula al ver nacer a una fuerza de la naturaleza: «¡Dios mío, eso es demoledor!»."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El cineasta D.A. Pennebaker, temblando tras su cámara de 16 milímetros, supo que el festival no podía continuar sin volver a grabarla al día siguiente para la historia."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Al bajar del escenario entre una ovación ensordecedora, Albert Grossman, el mánager de Bob Dylan, le extendió en camerinos un contrato discográfico de doscientos cincuenta mil dólares."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "La marginada que Port Arthur intentó destruir se convirtió en la reina eterna del rock. Porque a veces, el dolor más vil es la pólvora de la mayor gloria. ¿Qué te transmite su voz?"
+    }
+  ]
+}

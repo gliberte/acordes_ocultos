@@ -1,0 +1,176 @@
+{
+  "title": "El Éxito que Destruyó a la Banda",
+  "artist": "Berlin",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "Ganaron el Óscar con «Take My Breath Away» pero ningún músico tocó un solo acorde. El éxito planetario destruyó a Berlin en la cima de su gloria.",
+  "hook": "La canción que ganó el Óscar pero destruyó a la banda que la cantó.",
+  "beats": [
+    "En 1987 ganaron el Óscar ante el mundo, pero tras los flashes vivían un funeral.",
+    "Berlin era una fiera banda underground que desafiaba la censura con synth-pop oscuro.",
+    "Para musicalizar Top Gun, Giorgio Moroder compuso una balada y buscó una voz.",
+    "A solas en el estudio, Terri Nunn susurró con una sensualidad gélida e hipnótica.",
+    "Al oírlo, el fundador estalló de ira: ningún miembro de Berlin tocó una nota.",
+    "El tema fue número uno global y Terri se convirtió en una estrella planetaria.",
+    "En su gira, el público abucheaba su rock y solo pedía la balada ajena.",
+    "El resentimiento fue letal. Meses después del Óscar, la banda se separó para siempre.",
+    "Tocaron el cielo, pero perdieron su alma. ¿Aceptarías un éxito que destruya tu identidad?"
+  ],
+  "outro": "Ganaron el Óscar pero perdieron su hermandad. ¿Qué sientes al escuchar Take My Breath Away sabiendo lo que les costó?",
+  "palette": {
+    "ink": "#070b19",
+    "paper": "#f0f4f8",
+    "accent": "#38bdf8",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Take My Breath Away",
+    "artist": "Berlin",
+    "src": "music/berlin-take-my-breath-away.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Take My Breath Away Berlin",
+      "expectedTitle": "Take My Breath Away",
+      "expectedArtist": "Berlin",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/berlin-take-my-breath-away-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-01.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-02.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-03.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-04.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-05.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-06.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-07.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-08.png"
+    },
+    {
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/berlin-take-my-breath-away-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1987 ganaron el Óscar ante el mundo, pero tras los flashes vivían un funeral."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Berlin era una fiera banda underground que desafiaba la censura con synth-pop oscuro."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "Para musicalizar Top Gun, Giorgio Moroder compuso una balada y buscó una voz."
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "text": "A solas en el estudio, Terri Nunn susurró con una sensualidad gélida e hipnótica."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Al oírlo, el fundador estalló de ira: ningún miembro de Berlin tocó una nota."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "El tema fue número uno global y Terri se convirtió en una estrella planetaria."
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "text": "En su gira, el público abucheaba su rock y solo pedía la balada ajena."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "El resentimiento fue letal. Meses después del Óscar, la banda se separó para siempre."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Tocaron el cielo, pero perdieron su alma. ¿Aceptarías un éxito que destruya tu identidad?"
+    }
+  ],
+  "publication": {
+    "description": "El Éxito que Destruyó a la Banda: La canción que ganó el Óscar pero destruyó a la banda que la cantó.\n\nEn 1987, ganaron el Óscar con la balada más famosa del planeta... pero estaban viviendo su propio funeral. Berlin era una banda salvaje de synth-pop que desafiaba a la censura con himnos oscuros y rebeldes. En 1986, Giorgio Moroder compuso el tema romántico de Top Gun y buscó desesperadamente una voz.\n\nLlamó a solas a Terri Nunn, pidiéndole susurrar sensualmente sobre sintetizadores hipnóticos. Al oírlo, el fundador John Crawford estalló: ningún músico de Berlin había tocado una sola nota. Top Gun reventó el mundo: «Take My Breath Away» fue número uno global y Terri se volvió una estrella.\n\nEn su gira, el público abucheaba sus canciones de rock y solo pedía escuchar aquella balada ajena. El resentimiento fue letal. Meses después del Óscar, la banda anunció su separación definitiva.\n\nTocaron el cielo, pero perdieron su alma. ¿Aceptarías un éxito que destruya todo lo que creaste?"
+  }
+}

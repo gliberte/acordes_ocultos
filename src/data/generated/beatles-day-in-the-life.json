@@ -1,0 +1,174 @@
+{
+  "title": "El acorde más famoso de la historia",
+  "artist": "The Beatles",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El 22 de febrero de 1967, The Beatles grabaron el acorde final de 'A Day in the Life', el más famoso de la historia. Para terminar el disco 'Sgt. Pepper', la banda quería un final apoteósico. Tres pianos de cola y un armonio fueron traídos al estudio. John Lennon, Paul McCartney, Ringo Starr y el asistente Mal Evans se sentaron en los pianos para golpear la nota al unísono. Al darse la señal, golpearon con fuerza el acorde de mi mayor. El sonido resonó en todo el estudio de Abbey Road. Mientras el sonido decaía lentamente, el ingeniero Geoff Emerick comenzó a subir los faders de la consola al límite absoluto. Con los micrófonos al máximo, la cinta grabó hasta los mínimos detalles: el zumbido del aire acondicionado y el crujido de una silla. El acorde vibró durante 40 segundos, inmortalizando el final más glorioso e hipnótico del rock.",
+  "hook": "El 22 de febrero de 1967, The Beatles grabaron el acorde final de 'A Day in the Life', el más famoso de la historia.",
+  "beats": [
+    "Para terminar el disco 'Sgt. Pepper', la banda quería un final apoteósico. Tres pianos de cola y un armonio fueron traídos al estudio.",
+    "John Lennon, Paul McCartney, Ringo Starr y el asistente Mal Evans se sentaron en los pianos para golpear la nota al unísono.",
+    "Al darse la señal, golpearon con fuerza el acorde de mi mayor. El sonido resonó en todo el estudio de Abbey Road.",
+    "Mientras el sonido decaía lentamente, el ingeniero Geoff Emerick comenzó a subir los faders de la consola al límite absoluto.",
+    "Con los micrófonos al máximo, la cinta grabó hasta los mínimos detalles: el zumbido del aire acondicionado y el crujido de una silla."
+  ],
+  "outro": "El acorde vibró durante 40 segundos, inmortalizando el final más glorioso e hipnótico del rock.",
+  "palette": {
+    "ink": "#0f0c1b",
+    "paper": "#fcfaf5",
+    "accent": "#d93b6c",
+    "glow": "#e5a823"
+  },
+  "music": {
+    "title": "A Day in the Life",
+    "artist": "The Beatles",
+    "src": "music/beatles-a-day-in-the-life.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "A Day in the Life The Beatles",
+      "expectedTitle": "A Day in the Life",
+      "expectedArtist": "The Beatles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/beatles-day-in-the-life/scene-01.png",
+      "prompt": "The Beatles in Abbey Road studio in 1967, smiling and standing together, wearing colorful Sgt. Pepper styled uniforms, warm studio light, film grain, vintage documentary look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-02.png",
+      "prompt": "Interior of Abbey Road Studio Two in 1967, showing three large grand pianos of cola and a harmonium arranged under warm yellow spot lights, moody vintage look, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-03.png",
+      "prompt": "John Lennon, Paul McCartney, and Ringo Starr sitting at different grand pianos in a semi-circle in a recording studio, focused, hands raised ready to play, vintage 1967 warm film style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-04.png",
+      "prompt": "Extreme close up of four pairs of hands striking the keys of different pianos simultaneously, dynamic shot, vintage 1960s camera, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-05.png",
+      "prompt": "Faders and red knobs of a vintage REDD.51 console in Abbey Road being pushed slowly upwards by hand, soft warm glow of console lights, dust motes in the air, 1960s look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-06.png",
+      "prompt": "A vintage 4-track tape machine recording head spinning slowly, warm amber light reflecting on the metal reels, dust floating in the light beams, Abbey Road studio atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/beatles-day-in-the-life/scene-07.png",
+      "prompt": "A vintage vinyl record of Sgt. Pepper's Lonely Hearts Club Band spinning on a retro wood turntable under a warm overhead lamp, grainy 1960s photo, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 8,
+      "src": "videos/beatles-day-in-the-life/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "src": "videos/beatles-day-in-the-life/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "src": "videos/beatles-day-in-the-life/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "src": "videos/beatles-day-in-the-life/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "src": "videos/beatles-day-in-the-life/transition-beatles-piano.mp4",
+      "type": "video"
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "src": "videos/beatles-day-in-the-life/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/beatles-day-in-the-life/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "src": "videos/beatles-day-in-the-life/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "El 22 de febrero de 1967, The Beatles grabaron el acorde final de 'A Day in the Life', el más famoso de la historia."
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "text": "Para terminar el disco 'Sgt. Pepper', la banda quería un final apoteósico. Tres pianos de cola y un armonio fueron traídos al estudio."
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "text": "John Lennon, Paul McCartney, Ringo Starr y el asistente Mal Evans se sentaron en los pianos para golpear la nota al unísono."
+    },
+    {
+      "start": 24,
+      "end": 40,
+      "text": "Al darse la señal, golpearon con fuerza el acorde de mi mayor. El sonido resonó en todo el estudio de Abbey Road."
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "text": "Mientras el sonido decaía lentamente, el ingeniero Geoff Emerick comenzó a subir los faders de la consola al límite absoluto."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "Con los micrófonos al máximo, la cinta grabó hasta los mínimos detalles: el zumbido del aire acondicionado y el crujido de una silla."
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "text": "El acorde vibró durante 40 segundos, inmortalizando el final más glorioso e hipnótico del rock."
+    }
+  ],
+  "clip": {
+    "src": "videos/beatles-day-in-the-life/transition-beatles-piano.mp4",
+    "prompt": "8 second vertical cinematic transition from three pianos being struck simultaneously in Abbey Road studio to a close up of a vintage tape machine recording head spinning fast, dust motes floating in warm light, no text",
+    "startSecond": 32,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/beatles-day-in-the-life"
+  }
+}

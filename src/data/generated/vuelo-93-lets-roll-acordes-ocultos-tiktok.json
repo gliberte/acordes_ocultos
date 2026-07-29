@@ -1,0 +1,185 @@
+{
+  "title": "El Vuelo del Coraje",
+  "artist": "Neil Young",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "El 11 de septiembre de 2001, los pasajeros del Vuelo 93 de United Airlines descubrieron mediante los teléfonos del avión que las Torres Gemelas habían sido destruidas y que su propia aeronave era un misil teledirigido hacia el Capitolio de Washington. Lejos del pánico paralizante, votaron en el pasillo resistir y asaltar la cabina armados con lo que tenían a mano. Tras rezar el Padre Nuestro por teléfono con una operadora, Todd Beamer pronunció tres palabras inmortales: «Are you ready? Let's roll». Inspirado en ese sacrificio colectivo, Neil Young compuso «Let's Roll» como un monumento de acero y respeto a los ciudadanos que dieron su vida para salvar a miles.",
+  "hook": "Supieron que su avión era un misil suicida hacia Washington. En lugar de rendirse, votaron asaltar la cabina al grito de: «¡Vamos!»",
+  "beats": [
+    "A las ocho y cuarenta y dos, el Vuelo noventa y tres despegó rumbo a la eternidad.",
+    "Cuarenta minutos después, cuatro secuestradores asaltaron la cabina desviando el avión hacia Washington.",
+    "Desde los teléfonos de abordo, los pasajeros descubrieron el devastador ataque a las Torres Gemelas.",
+    "Comprendieron la verdad más desgarradora: su avión era un misil guiado hacia el Capitolio.",
+    "En el estrecho pasillo, treinta y tres civiles y siete tripulantes decidieron rebelarse y luchar.",
+    "Todd Beamer rezó por teléfono con una operadora y ordenó: «¿Están listos? ¡Vamos!».",
+    "Armados con agua hirviendo y el carrito de comidas, embistieron la cabina sin vacilar.",
+    "Sobre Shanksville, el avión cayó en campo abierto, salvando miles de vidas en la capital.",
+    "Neil Young compuso «Let's Roll»: un himno desgarrador a quienes eligieron morir de pie."
+  ],
+  "outro": "Treinta y tres ciudadanos que salvaron a una nación entera. ¿Qué sientes hoy al recordar el coraje del Vuelo 93?",
+  "palette": {
+    "ink": "#0b132b",
+    "paper": "#f0f4f8",
+    "accent": "#b91c1c",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Let's Roll",
+    "artist": "Neil Young",
+    "src": "music/neil-young-lets-roll.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Let's Roll Neil Young",
+      "expectedTitle": "Let's Roll",
+      "expectedArtist": "Neil Young",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/vuelo-93-lets-roll-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-01.png",
+      "prompt": "Boeing 757 passenger jet ascending into a morning clear blue sky above clouds on September 11 2001, graceful airliner silhouette, cinematic warm sunlight reflecting on the aluminum wings, peaceful atmosphere before tragedy, 35mm photography grain, vertical 9:16 composition."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-02.png",
+      "prompt": "Inside airplane cockpit 2001: Violent commotion, emergency red warning cockpit displays glowing in dark shadows, harsh flight instruments, sudden hijacking takeover, dramatic tension and motion blur, cinematic 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-03.png",
+      "prompt": "Back of commercial aircraft cabin: A stressed passenger with tears in his eyes holding a vintage row Airfone handset to his ear, overhearing tragic news from relatives on the ground, other passengers huddled closely in dread, moody cinematic airplane lighting, 35mm grain, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-04.png",
+      "prompt": "Airplane cabin window view looking down toward distant green Pennsylvania landscape, ominous overcast horizon, the terrifying realization of doom and impending target of US Capitol dome, solemn dramatic lighting, 35mm documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-05.png",
+      "prompt": "Group of ordinary diverse passengers huddled in the narrow airplane aisle, whispers and democratic vote of defiance, determined brave facial expressions of men and women, holding hot water kettles and improvised tools, brothers and sisters in courage, 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-06.png",
+      "prompt": "Todd Beamer close-up in the airplane seat row: 32-year-old American businessman in white dress shirt, sweating but resolutely calm, whispering his final prayer into the telephone receiver with profound courage, ready to lead the charge, cinematic emotional photography, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-07.png",
+      "prompt": "Fierce counterattack in airplane aisle: Passengers charging forward pushing a metal food service cart like a battering ram toward the cockpit door, boiling water steam, chaos, raw heroic struggle and bravery, dynamic dramatic angle, 35mm cinematic film still, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-08.png",
+      "prompt": "The quiet green fields of Shanksville Pennsylvania: A peaceful open rural meadow, morning mist lifting over rolling hills, deep emotional stillness and reverence, where 40 heroes saved the US Capitol, poetic solemn tribute, 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-09.png",
+      "prompt": "Neil Young in his recording studio late 2001: Holding his legendary black Gibson Les Paul guitar with intense emotional focus, dim vintage amplifiers and microphone, singing a solemn rock tribute to the Flight 93 heroes, golden vintage lighting, 35mm film still, vertical 9:16."
+    }
+  ],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 6.666,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.666,
+      "end": 13.333,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.333,
+      "end": 20,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.666,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.666,
+      "end": 33.333,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.333,
+      "end": 40,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.666,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.666,
+      "end": 53.333,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.333,
+      "end": 60,
+      "src": "videos/vuelo-93-lets-roll-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.666,
+      "text": "A las ocho y cuarenta y dos, el Vuelo noventa y tres despegó rumbo a la eternidad."
+    },
+    {
+      "start": 6.666,
+      "end": 13.333,
+      "text": "Cuarenta minutos después, cuatro secuestradores asaltaron la cabina desviando el avión hacia Washington."
+    },
+    {
+      "start": 13.333,
+      "end": 20,
+      "text": "Desde los teléfonos de abordo, los pasajeros descubrieron el devastador ataque a las Torres Gemelas."
+    },
+    {
+      "start": 20,
+      "end": 26.666,
+      "text": "Comprendieron la verdad más desgarradora: su avión era un misil guiado hacia el Capitolio."
+    },
+    {
+      "start": 26.666,
+      "end": 33.333,
+      "text": "En el estrecho pasillo, treinta y tres civiles y siete tripulantes decidieron rebelarse y luchar."
+    },
+    {
+      "start": 33.333,
+      "end": 40,
+      "text": "Todd Beamer rezó por teléfono con una operadora y ordenó: «¿Están listos? ¡Vamos!». "
+    },
+    {
+      "start": 40,
+      "end": 46.666,
+      "text": "Armados con agua hirviendo y el carrito de comidas, embistieron la cabina sin vacilar."
+    },
+    {
+      "start": 46.666,
+      "end": 53.333,
+      "text": "Sobre Shanksville, el avión cayó en campo abierto, salvando miles de vidas en la capital."
+    },
+    {
+      "start": 53.333,
+      "end": 60,
+      "text": "Neil Young compuso «Let's Roll»: un himno desgarrador a quienes eligieron morir de pie."
+    }
+  ],
+  "publication": {
+    "description": "El Vuelo del Coraje: El motín democrático a diez mil metros de altura que salvó a miles de personas en Washington el 11 de septiembre.\n\nLa mañana del 11 de septiembre de 2001, el Vuelo 93 de United Airlines despegó del aeropuerto de Newark con cuarenta almas a bordo. A los cuarenta y seis minutos de trayecto, cuatro terroristas asaltaron la cabina a puñaladas y tomaron los mandos, virando el avión con un único propósito: pulverizar la cúpula del Capitolio de los Estados Unidos en Washington D.C.\n\nAislados en la parte trasera de la cabina y custodiados por un secuestrador con una supuesta bomba atada al pecho, los pasajeros hicieron lo que cualquiera en su situación habría hecho: comunicarse con sus seres queridos mediante los teléfonos de a bordo. Pero aquellas llamadas no trajeron alivio, sino una verdad estremecedora: otros tres aviones ya habían impactado en el World Trade Center y el Pentágono. Su vuelo no era un secuestro con rehenes; era un misil suicida en curso de colisión.\n\nEn ese instante, la condición humana alcanzó su cumbre moral más gloriosa. Aquellas cuarenta personas corrientes —madres, ejecutivos, atletas universitarios, azafatas y jubilados— votaron a mano alzada en el pasillo. La decisión fue unánime: no permitirían que aquel avión matara a nadie más.\n\nTodd Beamer, un joven de 32 años, completó una llamada con la supervisora telefónica Lisa Jefferson. Rezarón juntos el Salmo 23 y el Padre Nuestro. Al terminar, dejó el auricular descolgado y pronunció las palabras que quedaron grabadas en la eternidad: «Are you guys ready? Okay. Let's roll!» («¿Están listos? Bien. ¡Vamos!»).\n\nCon jarras de agua hirviendo, cuchillos de plástico y el carrito metálico de comidas usado como ariete, arremetieron a muerte contra la puerta de la cabina. Ante la inminente pérdida del control, los secuestradores decidieron precipitar el Boeing 757 a más de 900 kilómetros por hora contra un campo desierto en Shanksville, Pensilvania.\n\nTodos murieron, pero ningún objetivo en tierra fue destruido. Neil Young, impactado por el heroísmo cívico de quienes se rebelaron en las alturas, compuso «Let's Roll» con su legendaria guitarra Gibson, rindiendo tributo eterno al día en que el coraje civil venció al terrorismo.\n\n#Vuelo93 #Flight93 #NeilYoung #LetsRoll #11Septiembre #acordesocultos #AcordesOcultos #HistoriaDelRock #RockClasico"
+  }
+}

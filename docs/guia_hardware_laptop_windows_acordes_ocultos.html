@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guía de Hardware: Laptop Windows para Acordes Ocultos</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #f59e0b;
+      --success: #10b981;
+      --danger: #ef4444;
+      --code-bg: #0b1120;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1.5rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 2.5rem 3rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    header {
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 1.8rem;
+      margin-bottom: 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.35rem 0.85rem;
+      background: rgba(37, 99, 235, 0.2);
+      border: 1px solid var(--primary);
+      border-radius: 9999px;
+      color: #93c5fd;
+      font-size: 0.82rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #fff;
+      line-height: 1.25;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      font-size: 1.05rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+    }
+
+    h2 {
+      font-size: 1.45rem;
+      color: #38bdf8;
+      margin: 2.2rem 0 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      padding-bottom: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      margin: 1.4rem 0 0.5rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      color: #cbd5e1;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+
+    .card.cloud {
+      border-left: 4px solid var(--primary);
+    }
+
+    .card.local {
+      border-left: 4px solid var(--accent);
+    }
+
+    .card h4 {
+      font-size: 1.05rem;
+      margin-bottom: 0.75rem;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      margin-bottom: 1rem;
+      color: #cbd5e1;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0 2rem;
+      font-size: 0.95rem;
+      background: rgba(15, 23, 42, 0.4);
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--card-border);
+    }
+
+    th, td {
+      padding: 1rem 1.1rem;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--card-border);
+    }
+
+    th {
+      background: #0f172a;
+      color: #38bdf8;
+      font-weight: 700;
+      font-size: 0.88rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background: rgba(255, 255, 255, 0.02);
+    }
+
+    .highlight {
+      color: #38bdf8;
+      font-weight: 600;
+    }
+
+    .crucial {
+      color: #fca5a5;
+      font-weight: 500;
+    }
+
+    .laptop-item {
+      background: rgba(15, 23, 42, 0.5);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .laptop-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .laptop-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+
+    .price-tag {
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 700;
+    }
+
+    .warning-box {
+      background: rgba(239, 68, 68, 0.1);
+      border-left: 4px solid var(--danger);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      margin: 1.5rem 0;
+    }
+
+    .warning-box h4 {
+      color: #fca5a5;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    pre {
+      background: var(--code-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      overflow-x: auto;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-size: 0.9rem;
+      color: #e2e8f0;
+      margin: 1rem 0;
+    }
+
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    @media print {
+      body {
+        background: #fff !important;
+        color: #1e293b !important;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        background: #fff !important;
+      }
+
+      header {
+        border-bottom: 2px solid #e2e8f0;
+      }
+
+      h1 {
+        color: #0f172a !important;
+        font-size: 1.8rem;
+      }
+
+      .subtitle, p, ul, li {
+        color: #334155 !important;
+      }
+
+      h2 {
+        color: #0369a1 !important;
+        border-bottom: 1px solid #cbd5e1;
+        page-break-after: avoid;
+      }
+
+      .actions {
+        display: none !important;
+      }
+
+      .card, .laptop-item, table {
+        background: #fff !important;
+        border: 1px solid #cbd5e1 !important;
+        color: #1e293b !important;
+        page-break-inside: avoid;
+      }
+
+      th {
+        background: #f1f5f9 !important;
+        color: #0f172a !important;
+        border-bottom: 2px solid #cbd5e1;
+      }
+
+      td {
+        border-bottom: 1px solid #e2e8f0;
+        color: #1e293b !important;
+      }
+
+      .highlight {
+        color: #0369a1 !important;
+      }
+
+      .crucial {
+        color: #b91c1c !important;
+      }
+
+      .warning-box {
+        background: #fef2f2 !important;
+        border: 1px solid #fecaca !important;
+        border-left: 4px solid #ef4444 !important;
+      }
+
+      .warning-box h4 {
+        color: #991b1b !important;
+      }
+
+      pre {
+        background: #f8fafc !important;
+        border: 1px solid #cbd5e1 !important;
+        color: #0f172a !important;
+      }
+
+      footer {
+        border-top: 1px solid #e2e8f0;
+        color: #64748b !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <div>
+        <span class="badge">Guía Oficial de Equipamiento</span>
+        <h1>Laptop con Windows para «Acordes Ocultos»</h1>
+        <p class="subtitle">Especificaciones técnicas mínimas y punto óptimo para renderizado local y flujos de IA</p>
+      </div>
+      <div class="actions">
+        <button class="btn btn-primary" onclick="window.print()">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2m-12 0v4h12v-4M6 14h.01"/></svg>
+          Imprimir / Guardar como PDF
+        </button>
+      </div>
+    </header>
+
+    <h2>🎯 1. Resumen Ejecutivo y Diagnóstico de Carga</h2>
+    <p>Para invertir lo menos posible sin arriesgar la estabilidad del flujo de trabajo, es indispensable comprender cómo se distribuye la carga operativa entre tu equipo físico y la nube:</p>
+
+    <div class="grid-2">
+      <div class="card cloud">
+        <h4>☁️ En la Nube (No consume tu hardware)</h4>
+        <ul>
+          <li><strong>Generación de Imágenes:</strong> Servidores de Google (Google Flow / Gemini Imagen) o modelos externos.</li>
+          <li><strong>Inteligencia Artificial y Razonamiento:</strong> Claude / Gemini procesan guiones y crónicas de forma remota.</li>
+          <li><strong>Distribución y Archivo:</strong> Cloudflare R2, Supabase y Google Drive.</li>
+        </ul>
+      </div>
+
+      <div class="card local">
+        <h4>🖥️ En tu Laptop (Requiere hardware real)</h4>
+        <ul>
+          <li><strong>Renderizado Remotion:</strong> Ejecuta instancias paralelas de Chromium para dibujar 2.700 fotogramas (1080x1920 a 30fps) y los comprime con FFmpeg (H.264).</li>
+          <li><strong>Automatización Playwright:</strong> Levanta sesiones de navegador headless para descargar recursos.</li>
+          <li><strong>Sistema Operativo:</strong> Windows 11 consume ~4 GB de RAM en reposo.</li>
+        </ul>
+      </div>
+    </div>
+
+    <h2>📋 2. Ficha Técnica de Hardware Recomendado</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Componente</th>
+          <th>Mínimo Indispensable (Más Económico)</th>
+          <th>Punto Óptimo Recomendado</th>
+          <th>¿Por qué es crucial?</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Memoria RAM</strong></td>
+          <td><span class="highlight">16 GB DDR4 (3200 MHz)</span></td>
+          <td>16 GB o 32 GB DDR4 / DDR5</td>
+          <td><span class="crucial">INNEGOCIABLE:</span> Windows 11 consume ~4 GB. Remotion y Playwright consumen 4-6 GB adicionales al renderizar. Con 8 GB la laptop colapsa con <em>Out of Memory</em>.</td>
+        </tr>
+        <tr>
+          <td><strong>Procesador (CPU)</strong></td>
+          <td><span class="highlight">AMD Ryzen 5 (Serie 5000 / 7000)</span> o <span class="highlight">Intel Core i5 (12ª / 13ª Gen)</span></td>
+          <td>AMD Ryzen 5 5600H / 7535HS o Intel Core i5-12450H</td>
+          <td>El renderizado de Remotion depende 100% de la cantidad de núcleos/hilos del CPU. Mínimo 6 núcleos y 12 hilos para renderizar 90 segundos en 2-3 minutos.</td>
+        </tr>
+        <tr>
+          <td><strong>Tarjeta Gráfica (GPU)</strong></td>
+          <td><span class="highlight">Gráficos Integrados</span> (Radeon Vega / 610M o Intel Iris Xe)</td>
+          <td>Gráficos Integrados modernos</td>
+          <td><strong>NO requieres tarjeta dedicada (Nvidia RTX).</strong> Remotion codifica por CPU y la IA corre en la nube. Te ahorras entre $250 y $400 USD.</td>
+        </tr>
+        <tr>
+          <td><strong>Almacenamiento</strong></td>
+          <td><span class="highlight">512 GB SSD NVMe M.2 PCIe</span></td>
+          <td>512 GB o 1 TB SSD NVMe M.2</td>
+          <td>El renderizado escribe cientos de megas de caché en milisegundos. Un disco mecánico tradicional (HDD) bloquearía el sistema.</td>
+        </tr>
+        <tr>
+          <td><strong>Pantalla</strong></td>
+          <td>15.6" o 14" Full HD (1920x1080) IPS</td>
+          <td>15.6" Full HD IPS (300 nits)</td>
+          <td>Espacio visual óptimo para inspección de clips, código y terminales.</td>
+        </tr>
+        <tr>
+          <td><strong>Red</strong></td>
+          <td>Wi-Fi 5 / Wi-Fi 6 + Bluetooth 5.0</td>
+          <td>Wi-Fi 6 (802.11ax)</td>
+          <td>Carga fluida de videos maestros a Cloudflare R2 y Telegram.</td>
+        </tr>
+        <tr>
+          <td><strong>Sistema Operativo</strong></td>
+          <td>Windows 11 Home (64 bits)</td>
+          <td>Windows 11 Home / Pro</td>
+          <td>Soporte total nativo para Node.js v20+, Git, FFmpeg y Playwright.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>🏷️ 3. Modelos Recomendados (Presupuesto $380 – $550 USD)</h2>
+
+    <div class="laptop-item">
+      <div class="laptop-header">
+        <div class="laptop-title">1. Lenovo IdeaPad 1 / IdeaPad 3 <span style="color:#38bdf8; font-size:0.9rem;">(Opción #1 Calidad / Precio)</span></div>
+        <span class="price-tag">~$390 – $470 USD</span>
+      </div>
+      <p style="margin-bottom:0.4rem;"><strong>Configuración:</strong> AMD Ryzen 5 5500U o 7520U | 16 GB RAM | 512 GB SSD NVMe | 15.6" FHD.</p>
+      <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0;"><em>Ventaja:</em> Excelente disipación térmica, gran rendimiento multi-núcleo y teclado ergonómico.</p>
+    </div>
+
+    <div class="laptop-item">
+      <div class="laptop-header">
+        <div class="laptop-title">2. Acer Aspire 3 / Aspire 5</div>
+        <span class="price-tag">~$420 – $500 USD</span>
+      </div>
+      <p style="margin-bottom:0.4rem;"><strong>Configuración:</strong> Intel Core i5-1235U o Ryzen 5 5625U | 16 GB RAM | 512 GB SSD | 15.6" FHD.</p>
+      <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0;"><em>Ventaja:</em> Chasis con ranuras SODIMM accesibles que permiten ampliar memoria RAM si se desea en el futuro.</p>
+    </div>
+
+    <div class="laptop-item">
+      <div class="laptop-header">
+        <div class="laptop-title">3. HP 15-ef / 15-dy</div>
+        <span class="price-tag">~$399 – $480 USD</span>
+      </div>
+      <p style="margin-bottom:0.4rem;"><strong>Configuración:</strong> AMD Ryzen 5 5500U | 16 GB RAM | 512 GB SSD | 15.6" FHD.</p>
+      <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0;"><em>Ventaja:</em> Modelo de alta disponibilidad internacional con repuestos y baterías muy económicos.</p>
+    </div>
+
+    <div class="laptop-item">
+      <div class="laptop-header">
+        <div class="laptop-title">4. ASUS Vivobook 15 (F1502 / M1502)</div>
+        <span class="price-tag">~$450 – $540 USD</span>
+      </div>
+      <p style="margin-bottom:0.4rem;"><strong>Configuración:</strong> AMD Ryzen 5 7530U o Intel Core i5-1235U | 16 GB RAM | 512 GB SSD | 15.6" FHD.</p>
+      <p style="color:var(--text-muted); font-size:0.9rem; margin-bottom:0;"><em>Ventaja:</em> Bisagras resistentes de 180°, peso ligero y pantalla antirreflejo para largas jornadas.</p>
+    </div>
+
+    <h2>⚠️ 4. Trampas Comerciales que Debes Evitar</h2>
+
+    <div class="warning-box">
+      <h4>🚫 1. Laptops con 8 GB de RAM soldada (Sin ranura de expansión)</h4>
+      <p style="margin-bottom:0; font-size:0.92rem;">Muchos modelos baratos traen 8 GB soldados directamente a la placa base. <strong>No las compres</strong>: en Windows 11 no podrás renderizar sin bloqueos. Si compras una de 8 GB por oferta imperdible, asegúrate al 100% de que tenga una ranura libre para agregar un módulo de 8 GB adicional ($20 USD).</p>
+    </div>
+
+    <div class="warning-box">
+      <h4>🚫 2. Procesadores Intel Celeron, Pentium o Core i3 de 2 núcleos</h4>
+      <p style="margin-bottom:0; font-size:0.92rem;">Estos chips son insuficientes para codificación concurrente de video. Un renderizado de 90 segundos que debe tomar 2 minutos tardará más de 20 minutos con el procesador al 100% de temperatura.</p>
+    </div>
+
+    <div class="warning-box">
+      <h4>🚫 3. Laptops «Gamer» con tarjeta Nvidia dedicada (RTX 3050/4050)</h4>
+      <p style="margin-bottom:0; font-size:0.92rem;">Cuestan entre $800 y $1.100 USD, pesan el doble y la batería dura apenas 2 horas. Remotion y Playwright no aprovechan esta GPU para renderizado vertical básico y la IA se ejecuta en la nube. Sería un gasto innecesario de dinero.</p>
+    </div>
+
+    <h2>🛠️ 5. Pasos de Puesta a Punto en Windows 11</h2>
+    <p>Una vez que recibas tu equipo, ejecuta esta secuencia de instalación para dejar el entorno operativo:</p>
+
+    <pre><code># 1. Instalar FFmpeg en Windows (vía PowerShell como Administrador):
+winget install Gyan.FFmpeg
+
+# 2. Instalar Node.js LTS (versión 20 o 22) desde:
+https://nodejs.org/
+
+# 3. Instalar Git para Windows desde:
+https://git-scm.com/
+
+# 4. Clonar el repositorio y levantar el entorno:
+git clone &lt;url-de-tu-repositorio&gt;
+cd acordes_ocultos
+npm install
+npx playwright install chromium</code></pre>
+
+    <footer>
+      Documento técnico generado para el equipo de producción de <strong>Acordes Ocultos</strong>. Todos los derechos reservados.
+    </footer>
+  </div>
+
+</body>
+</html>

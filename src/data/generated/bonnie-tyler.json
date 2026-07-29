@@ -1,0 +1,147 @@
+{
+  "title": "Bonnie Tyler Tribute",
+  "artist": "Bonnie Tyler",
+  "durationSeconds": 60,
+  "topic": "homenaje musical",
+  "anecdote": "Hay voces que no nacen para sonar perfectas, sino para rasgar el alma con la verdad de sus cicatrices. En 1976, una cirugía en las cuerdas vocales amenazó con callar a Bonnie Tyler. Pero la cicatriz le dio un rugido ronco, salvaje y único. Con 'It's a Heartache' conquistó el mundo, demostrando que el dolor tiene su propia y hermosa melodía. Junto a Jim Steinman en 1983, desató el eclipse más grande del pop. Un himno de amor eterno en la oscuridad. Su voz se convirtió en el grito de los héroes y las baladas desgarradoras que marcaron a generaciones. Este 8 de julio de 2026, su voz terrenal se apagó en Portugal tras luchar contra la enfermedad, a los 75 años. Pero las leyendas nunca mueren. Su eclipse seguirá brillando en el corazón del rock por siempre. Bonnie Tyler (1951 - 2026).",
+  "hook": "Hay voces que no nacen para sonar perfectas, sino para rasgar el alma con la verdad de sus cicatrices.",
+  "beats": [
+    "En 1976, una cirugía en las cuerdas vocales amenazó con callar a Bonnie Tyler. Pero la cicatriz le dio un rugido ronco, salvaje y único.",
+    "Con 'It's a Heartache' conquistó el mundo, demostrando que el dolor tiene su propia y hermosa melodía.",
+    "Junto a Jim Steinman en 1983, desató el eclipse más grande del pop. Un himno de amor eterno en la oscuridad.",
+    "Su voz se convirtió en el grito de los héroes y las baladas desgarradoras que marcaron a generaciones.",
+    "Este 8 de julio de 2026, su voz terrenal se apagó en Portugal tras luchar contra la enfermedad, a los 75 años."
+  ],
+  "outro": "Pero las leyendas nunca mueren. Su eclipse seguirá brillando en el corazón del rock por siempre. Bonnie Tyler (1951 - 2026).",
+  "palette": {
+    "ink": "#0d0d11",
+    "paper": "#f8f7f2",
+    "accent": "#e2a828",
+    "glow": "#f9d86b"
+  },
+  "music": {
+    "title": "Total Eclipse of the Heart",
+    "artist": "Bonnie Tyler",
+    "src": "music/bonnie-eclipse.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Total Eclipse of the Heart Bonnie Tyler",
+      "expectedTitle": "Total Eclipse of the Heart",
+      "expectedArtist": "Bonnie Tyler",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bonnie-tyler/scene-01.png",
+      "prompt": "A young Bonnie Tyler in 1976 with feathered blonde hair, looking determined in a music studio, soft vintage lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-02.png",
+      "prompt": "A vintage copy of 'It's a Heartache' vinyl record on RCA label spinning on a turntable under warm spotlights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-03.png",
+      "prompt": "Bonnie Tyler and producer Jim Steinman working together in a dark, atmospheric recording studio in 1983, analog mixing console in foreground, dramatic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-04.png",
+      "prompt": "Bonnie Tyler performing 'Total Eclipse of the Heart' live on stage in 1983, dramatic spotlights cut through a misty blue background, wind blowing her blonde hair, intense emotional expression, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-05.png",
+      "prompt": "Bonnie Tyler singing passionately under bright stadium lights, dry ice fog on stage, holding a microphone with intense energy, representing her rock anthem era, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-06.png",
+      "prompt": "A portrait of Bonnie Tyler in her later years with signature wavy blonde hair and a warm, elegant smile, soft background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bonnie-tyler/scene-07.png",
+      "prompt": "A solemn memorial graphic on a dark textured background, featuring a glowing candlelight silhouette of a female singer, with the elegant text 'Bonnie Tyler (1951 - 2026)' in gold, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/bonnie-tyler/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/bonnie-tyler/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/bonnie-tyler/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/bonnie-tyler/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/bonnie-tyler/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/bonnie-tyler/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/bonnie-tyler/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay voces que no nacen para sonar perfectas, sino para rasgar el alma con la verdad de sus cicatrices."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1976, una cirugía en las cuerdas vocales amenazó con callar a Bonnie Tyler. Pero la cicatriz le dio un rugido ronco, salvaje y único."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Con 'It's a Heartache' conquistó el mundo, demostrando que el dolor tiene su propia y hermosa melodía."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Junto a Jim Steinman en 1983, desató el eclipse más grande del pop. Un himno de amor eterno en la oscuridad."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Su voz se convirtió en el grito de los héroes y las baladas desgarradoras que marcaron a generaciones."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Este 8 de julio de 2026, su voz terrenal se apagó en Portugal tras luchar contra la enfermedad, a los 75 años."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Pero las leyendas nunca mueren. Su eclipse seguirá brillando en el corazón del rock por siempre. Bonnie Tyler (1951 - 2026)."
+    }
+  ]
+}

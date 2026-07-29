@@ -1,0 +1,135 @@
+{
+  "title": "La Canción que Bono Salvó del Divorcio",
+  "artist": "U2",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1986, durante la gestación del álbum 'The Joshua Tree', Bono atravesaba una profunda crisis existencial y matrimonial. Sentía que la vorágine de la fama estaba destruyendo su relación con su esposa Ali Hewson. Atormentado entre su vocación salvaje como estrella de rock y la devoción a su hogar en Dublín, escribió la desgarradora letra de 'With or Without You'. Sin embargo, en los ensayos de la mansión Danesmoate, los miembros de la banda detestaban los arreglos por considerarlos monótonos y estuvieron a punto de arrojar la cinta a la basura. El destino cambió radicalmente cuando el guitarrista The Edge recibió un paquete postal desde Canadá con un prototipo artesanal llamado 'Infinite Guitar', creado por Michael Brook. Al pulsar aquellas notas sostenidas que nunca morían, el productor Brian Eno y Daniel Lanois quedaron hipnotizados en la consola de mezcla, transformando un descarte frustrado en el primer número uno planetario de U2.",
+  "hook": "La canción más romántica y desgarradora de U2 nació de una severa crisis matrimonial que casi destruye a Bono.",
+  "beats": [
+    "1986: Bono sentía que el ascenso meteórico de U2 estaba asfixiando su matrimonio con su esposa Ali Hewson.",
+    "Atormentado entre la locura de los escenarios y la paz de su hogar, escribió en soledad la cruda letra de 'With or Without You'.",
+    "En una noche lluviosa de Dublín, la pareja sostuvo conversaciones dolorosas intentando salvar su pacto de vida.",
+    "En los ensayos de la mansión Danesmoate, la banda consideraba la melodía sosa y estuvo a punto de tirarla a la basura.",
+    "El milagro ocurrió cuando The Edge recibió por correo un extraño prototipo electrónico: la 'Infinite Guitar'.",
+    "Al tocar aquellas notas etéreas que flotaban sin apagarse jamás, Brian Eno y Daniel Lanois supieron que tenían oro puro.",
+    "En la penumbra del estudio, Bono grabó una toma vocal desgarradora que erizó la piel de todos los presentes.",
+    "El tema se disparó de inmediato al número uno en Estados Unidos, convirtiéndose en el himno cumbre de la banda."
+  ],
+  "outro": "Una confesión nacida del dolor de casi perderlo todo terminó uniendo a la pareja y marcando la historia del rock.",
+  "palette": {
+    "ink": "#110b08",
+    "paper": "#fbf4eb",
+    "accent": "#d9381e",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "With or Without You",
+    "artist": "U2",
+    "src": "music/u2-with-or-without-you.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "With or Without You U2",
+      "expectedTitle": "With or Without You",
+      "expectedArtist": "U2",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/u2-with-or-without-you/scene-01.png",
+      "prompt": "Authentic 1987 photograph of 26-year-old Bono with mullet hair and leather jacket singing passionately into a microphone under golden stadium lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-02.png",
+      "prompt": "1986 photograph of 26-year-old Bono sitting alone in a moody dim hotel room writing in a notebook looking deeply conflicted and emotional, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-03.png",
+      "prompt": "1986 photograph of 26-year-old Bono and his wife Ali Hewson having a quiet emotional conversation in a rain-slicked Dublin street, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-04.png",
+      "prompt": "1986 studio tension scene of U2 band members arguing around a mixing console with rejected magnetic tape reels on the table, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-05.png",
+      "prompt": "Close-up 1986 photograph of an unpacked cardboard shipping box in a recording studio revealing an exotic handmade electric guitar with custom magnetic pickup circuitry, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-06.png",
+      "prompt": "Close-up 1986 photograph of 25-year-old The Edge playing a rare prototype Infinite Guitar with custom electronic sensors in a dim studio with Brian Eno observing, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-07.png",
+      "prompt": "Atmospheric 1986 photograph of 26-year-old Bono singing with intense emotional abandon into a vintage Neumann studio microphone in the dark recording room of Danesmoate house, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-08.png",
+      "prompt": "1987 photograph of U2 performing With or Without You live on a grand stadium stage with blue atmospheric lighting and glowing haze, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/u2-with-or-without-you/scene-09.png",
+      "prompt": "Macro photograph of the original 1987 Island Records vinyl LP of The Joshua Tree spinning on a high-end turntable with gold record plaque and Billboard Number One charts, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/u2-with-or-without-you/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/u2-with-or-without-you/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/u2-with-or-without-you/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/u2-with-or-without-you/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/u2-with-or-without-you/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/u2-with-or-without-you/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/u2-with-or-without-you/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/u2-with-or-without-you/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/u2-with-or-without-you/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "La canción más romántica y desgarradora de U2 nació de una severa crisis matrimonial que casi destruye a Bono."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1986: Bono sentía que el ascenso meteórico de U2 estaba asfixiando su matrimonio con su esposa Ali Hewson."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Atormentado entre la locura de los escenarios y la paz de su hogar, escribió en soledad la cruda letra de 'With or Without You'."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En los ensayos de la mansión Danesmoate, la banda consideraba la melodía sosa y estuvo a punto de tirarla a la basura."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "El milagro ocurrió cuando The Edge recibió por correo un extraño prototipo electrónico: la 'Infinite Guitar'."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Al tocar aquellas notas etéreas que flotaban sin apagarse jamás, Brian Eno y Daniel Lanois supieron que tenían oro puro."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En la penumbra del estudio, Bono grabó una toma vocal desgarradora que erizó la piel de todos los presentes."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El tema se disparó de inmediato al número uno en Estados Unidos, convirtiéndose en el himno cumbre de la banda."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una confesión nacida del dolor de casi perderlo todo terminó uniendo a la pareja y marcando la historia del rock."
+    }
+  ]
+}

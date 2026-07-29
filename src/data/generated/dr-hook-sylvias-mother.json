@@ -1,0 +1,135 @@
+{
+  "title": "La Llamada Real que Rompió un Corazón en 3 Minutos",
+  "artist": "Dr. Hook",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "Durante décadas se creyó que era una conmovedora historia de ficción, pero cada palabra de esta llamada telefónica ocurrió en la vida real. A mediados de los años 60, el célebre compositor Shel Silverstein llamó desesperado a su antiguo amor, Sylvia Pandolfi, desde una cabina pública. Quien levantó el auricular fue su madre, Louisa, para darle una noticia demoledora: Sylvia estaba empacando sus maletas porque se marchaba a casar a México con un torero y pintor. Con la operadora cobrando monedas implacablemente y los segundos escurriéndose entre los dedos, la madre le suplicó que no arruinara la nueva vida de su hija. Shel transformó aquella impotencia en una obra maestra inmortalizada por Dr. Hook en 1972. Décadas después, un documental localizó a la verdadera Sylvia y a su anciana madre, confirmando la dolorosa conversación. Porque a veces, el dolor más hondo no es una gran tragedia, sino descubrir que la persona que amas ya eligió otro camino.",
+  "hook": "Durante 30 años creyeron que era ficción... pero cada segundo de esta llamada ocurrió en la vida real.",
+  "beats": [
+    "1966: Bajo una lluvia incesante en Nueva York, Shel Silverstein entró a una cabina para llamar al amor de su vida.",
+    "Al otro lado de la línea atendió la madre de Sylvia, Louisa, con una voz firme y protectora.",
+    "Le dio la noticia más demoledora: Sylvia empacaba sus maletas para marcharse a casar a México.",
+    "Cada tres minutos, la voz fría de la operadora exigía cuarenta centavos más para no cortar la comunicación.",
+    "Con la frente pegada al cristal empañado y lágrimas en los ojos, Shel suplicó escuchar su voz por última vez.",
+    "En 1972, la banda Dr. Hook grabó la canción con un desgarro vocal que conmovió a millones en todo el planeta.",
+    "En su apartamento de Greenwich Village, Shel escribió con el corazón roto cada palabra exacta de la conversación.",
+    "Años después, un documental localizó a la verdadera Sylvia Pandolfi, confirmando la verdad de aquella llamada."
+  ],
+  "outro": "A veces, el adiós más desgarrador no llega con una despedida, sino a través de una llamada que el destino cortó.",
+  "palette": {
+    "ink": "#0a0d14",
+    "paper": "#f5f3ef",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Sylvia's Mother",
+    "artist": "Dr. Hook & the Medicine Show",
+    "src": "music/dr-hook-sylvias-mother.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Sylvia's Mother Dr. Hook",
+      "expectedTitle": "Sylvia's Mother",
+      "expectedArtist": "Dr. Hook & the Medicine Show",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-01.png",
+      "prompt": "Cinematic 1966 atmospheric photograph of 35-year-old songwriter Shel Silverstein in a rainy glass public telephone booth on a dark Greenwich Village New York street corner, holding the black telephone receiver with desperate emotional grief, raindrops streaking down the glass booth, glowing yellow streetlamps in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-02.png",
+      "prompt": "Warm 1966 vintage kitchen interior, a middle-aged mother (Louisa) holding a wall-mounted rotary telephone receiver with serious protective expression, in background open suitcases and a wedding dress draped on a chair, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-03.png",
+      "prompt": "Authentic 1966 vintage photograph of beautiful 24-year-old Sylvia Pandolfi in her vintage bedroom, standing thoughtfully beside open leather suitcases on her bed with a white wedding veil and train tickets to Mexico, nostalgic warm lamp light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-04.png",
+      "prompt": "Extreme close-up photograph of a vintage 1960s public payphone coin slot mechanism with a silver dime dropping into the slot, a nervous man's trembling hand holding the coiled phone cord, warm dramatic side lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-05.png",
+      "prompt": "Dramatic close-up photograph of 35-year-old songwriter Shel Silverstein with bald head and thick dark beard, pressing his forehead against the rainy glass inside a dark phone booth, tears in his eyes, holding the black telephone receiver with desperate plea, raindrops streaking down the glass, warm street lights outside, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-06.png",
+      "prompt": "Authentic 1972 recording studio photograph of singer Dennis Locorriere of Dr. Hook with long hair and beard singing emotionally into a vintage studio microphone with acoustic guitar in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-07.png",
+      "prompt": "Intimate 1966 photograph of 35-year-old songwriter Shel Silverstein (bald head, dark beard) sitting at a wooden desk in a bohemian Greenwich Village apartment at night under a warm desk lamp, crying softly as he writes lyrics into a notebook with a pen, acoustic guitar leaning against the wooden chair, crumpled paper, emotional heartbreak, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-08.png",
+      "prompt": "Historic black and white photograph of smiling Shel Silverstein with his bald head and thick beard playing acoustic guitar in a Greenwich Village bohemian room with handwritten lyric sheets scattered around, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dr-hook-sylvias-mother/scene-09.png",
+      "prompt": "Emotional documentary-style photograph years later of singer Dennis Locorriere warmly meeting and hugging an elegant mature woman (the real Sylvia Pandolfi), both smiling with deep nostalgic eyes, soft natural light, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/dr-hook-sylvias-mother/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/dr-hook-sylvias-mother/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/dr-hook-sylvias-mother/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/dr-hook-sylvias-mother/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/dr-hook-sylvias-mother/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/dr-hook-sylvias-mother/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/dr-hook-sylvias-mother/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/dr-hook-sylvias-mother/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/dr-hook-sylvias-mother/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Durante 30 años creyeron que era ficción... pero cada segundo de esta llamada ocurrió en la vida real."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1966: Bajo una lluvia incesante en Nueva York, Shel Silverstein entró a una cabina para llamar al amor de su vida."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Al otro lado de la línea atendió la madre de Sylvia, Louisa, con una voz firme y protectora."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Le dio la noticia más demoledora: Sylvia empacaba sus maletas para marcharse a casar a México."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Cada tres minutos, la voz fría de la operadora exigía cuarenta centavos más para no cortar la comunicación."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Con la frente pegada al cristal empañado y lágrimas en los ojos, Shel suplicó escuchar su voz por última vez."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En su apartamento de Greenwich Village, Shel escribió con el corazón roto cada palabra exacta de la conversación."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 1972, la banda Dr. Hook grabó la canción con un desgarro vocal que conmovió a millones en todo el planeta."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Años después, un documental localizó a la verdadera Sylvia Pandolfi, confirmando la verdad de aquella llamada."
+    }
+  ]
+}

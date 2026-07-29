@@ -1,0 +1,107 @@
+{
+  "title": "La Camisa que Guardó el Último Abrazo (TikTok Cut)",
+  "artist": "The Irrepressibles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "Detrás de esta desgarradora pieza orquestal se esconde una historia de desamor real. En 2008, el compositor Jamie McDermott sufrió una dolorosa ruptura en Londres. De su casa solo rescató una vieja camisa de su expareja para no olvidar su aroma. Meses después volvió al barrio buscando revivir sus recuerdos, pero vio cómo enormes grúas derribaban el edificio donde fueron felices. Sentado en la acera entre lágrimas escribió: 'En esta camisa puedo ser tú para estar cerca de ti'. En el estudio grabó junto a diez músicos de cuerda una sinfonía que suena a llanto y redención. Una pieza nacida entre escombros que demostró que el amor sobrevive a la pérdida.",
+  "hook": "Detrás de esta desgarradora pieza orquestal se esconde una historia de desamor real.",
+  "beats": [
+    "Londres, 2008: El compositor Jamie McDermott sufrió una dolorosa ruptura quedando a la deriva.",
+    "De la casa compartida solo rescató una vieja camisa de su expareja para no olvidar su aroma.",
+    "Meses después volvió al antiguo barrio buscando revivir los rincones donde alguna vez fue feliz.",
+    "Al llegar, el impacto fue atroz: gigantescas grúas estaban reduciendo a escombros el edificio de su amor.",
+    "Sentado en la acera con la camisa puesta, escribió entre lágrimas: 'En esta camisa puedo ser tú'.",
+    "En el estudio reunió a diez músicos de cuerda, grabando una sinfonía visceral de llanto y redención.",
+    "Con los años la canción conquistó el mundo como el himno definitivo de la ausencia."
+  ],
+  "outro": "Una obra nacida entre escombros demostró que el amor sobrevive cuando las paredes caen para siempre.",
+  "palette": {
+    "ink": "#0b0e14",
+    "paper": "#f4ede4",
+    "accent": "#52796f",
+    "glow": "#a3b18a"
+  },
+  "music": {
+    "title": "In This Shirt",
+    "artist": "The Irrepressibles",
+    "src": "music/irrepressibles-in-this-shirt.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "In This Shirt The Irrepressibles",
+      "expectedTitle": "In This Shirt",
+      "expectedArtist": "The Irrepressibles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de TikTok / Instagram."
+    }
+  },
+  "assets": [
+    { "src": "videos/irrepressibles-in-this-shirt/scene-01.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-02.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-03.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-04.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-05.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-06.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-07.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-08.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-09.png" }
+  ],
+  "visuals": [
+    { "start": 0,    "end": 6.7,  "src": "videos/irrepressibles-in-this-shirt/scene-01.png", "type": "image" },
+    { "start": 6.7,  "end": 13.4, "src": "videos/irrepressibles-in-this-shirt/scene-02.png", "type": "image" },
+    { "start": 13.4, "end": 20.1, "src": "videos/irrepressibles-in-this-shirt/scene-03.png", "type": "image" },
+    { "start": 20.1, "end": 26.8, "src": "videos/irrepressibles-in-this-shirt/scene-04.png", "type": "image" },
+    { "start": 26.8, "end": 33.5, "src": "videos/irrepressibles-in-this-shirt/scene-05.png", "type": "image" },
+    { "start": 33.5, "end": 40.2, "src": "videos/irrepressibles-in-this-shirt/scene-06.png", "type": "image" },
+    { "start": 40.2, "end": 46.9, "src": "videos/irrepressibles-in-this-shirt/scene-07.png", "type": "image" },
+    { "start": 46.9, "end": 53.6, "src": "videos/irrepressibles-in-this-shirt/scene-08.png", "type": "image" },
+    { "start": 53.6, "end": 60.0, "src": "videos/irrepressibles-in-this-shirt/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.7,
+      "text": "Detrás de esta desgarradora pieza orquestal se esconde una historia de desamor real."
+    },
+    {
+      "start": 6.7,
+      "end": 13.4,
+      "text": "Londres, 2008: El compositor Jamie McDermott sufrió una dolorosa ruptura quedando a la deriva."
+    },
+    {
+      "start": 13.4,
+      "end": 20.1,
+      "text": "De la casa compartida solo rescató una vieja camisa de su expareja para no olvidar su aroma."
+    },
+    {
+      "start": 20.1,
+      "end": 26.8,
+      "text": "Meses después volvió al antiguo barrio buscando revivir los rincones donde alguna vez fue feliz."
+    },
+    {
+      "start": 26.8,
+      "end": 33.5,
+      "text": "Al llegar, el impacto fue atroz: gigantescas grúas estaban reduciendo a escombros el edificio de su amor."
+    },
+    {
+      "start": 33.5,
+      "end": 40.2,
+      "text": "Sentado en la acera con la camisa puesta, escribió entre lágrimas: 'En esta camisa puedo ser tú'."
+    },
+    {
+      "start": 40.2,
+      "end": 46.9,
+      "text": "En el estudio reunió a diez músicos de cuerda, grabando una sinfonía visceral de llanto y redención."
+    },
+    {
+      "start": 46.9,
+      "end": 53.6,
+      "text": "Con los años la canción conquistó el mundo como el himno definitivo de la ausencia."
+    },
+    {
+      "start": 53.6,
+      "end": 60.0,
+      "text": "Una obra nacida entre escombros demostró que el amor sobrevive cuando las paredes caen para siempre."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "In My Dreams",
+  "artist": "REO Speedwagon",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Hay melodías que se sienten como un reencuentro en la penumbra, nacidas de un susurro nocturno que nunca debió existir. Kevin Cronin no caminó solo. Se unió a Tom Kelly, el arquitecto de los himnos más inmortales que definieron toda una década. Pero tras la magia de 'In My Dreams' latía un dolor silencioso: la última chispa creativa de REO Speedwagon antes del colapso. Llegó al puesto 19 de Billboard en el verano de 1987. Un destello brillante, pero que marcaría el fin del camino en la cima. Las luces de la gira se apagaron, y con ellas, la partida del baterista fundador Alan Gratzer quebró el pulso del grupo. Gary Richrath, el guitarrista legendario, empacó sus acordes y se marchó para siempre tras años de batallas con Cronin. Una balada sobre encontrarse en sueños que, sin quererlo, se convirtió en el último adiós de una hermandad rota.",
+  "hook": "Hay melodías que se sienten como un reencuentro en la penumbra, nacidas de un susurro nocturno que nunca debió existir.",
+  "beats": [
+    "Kevin Cronin no caminó solo. Se unió a Tom Kelly, el arquitecto de los himnos más inmortales que definieron toda una década.",
+    "Pero tras la magia de 'In My Dreams' latía un dolor silencioso: la última chispa creativa de REO Speedwagon antes del colapso.",
+    "Llegó al puesto 19 de Billboard en el verano de 1987. Un destello brillante, pero que marcaría el fin del camino en la cima.",
+    "Las luces de la gira se apagaron, y con ellas, la partida del baterista fundador Alan Gratzer quebró el pulso del grupo.",
+    "Gary Richrath, el guitarrista legendario, empacó sus acordes y se marchó para siempre tras años de batallas con Cronin."
+  ],
+  "outro": "Una balada sobre encontrarse en sueños que, sin quererlo, se convirtió en el último adiós de una hermandad rota.",
+  "palette": {
+    "ink": "#0a0f1d",
+    "paper": "#f0f4ff",
+    "accent": "#ff2a6d",
+    "glow": "#05d9e8"
+  },
+  "music": {
+    "title": "In My Dreams",
+    "artist": "REO Speedwagon",
+    "src": "music/reo-dreams.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "In My Dreams REO Speedwagon",
+      "expectedTitle": "In My Dreams",
+      "expectedArtist": "REO Speedwagon",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/in-my-dreams/scene-01.png",
+      "prompt": "A young white male songwriter with curly blonde hair (Kevin Cronin) and a white man with glasses (Tom Kelly) collaborating around a mixing console inside a dimly lit 1980s analog recording studio, blue and neon purple glow, late-night creative session, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-02.png",
+      "prompt": "A collage of 1980s pop music artifacts, vinyl records of Madonna, Cyndi Lauper, and Heart, laying on a retro synth keyboard in a studio, warm glowing neon lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-03.png",
+      "prompt": "Two white male rock musicians (Kevin Cronin with curly blonde hair and Gary Richrath with long wavy dark hair) standing in a recording studio in 1987, looking in opposite directions with severe expression, visible emotional distance and tension between them, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-04.png",
+      "prompt": "A retro Billboard Hot 100 chart magazine page from July 1987, highlighting the song title 'In My Dreams' at position 19, under a warm vintage desk lamp light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-05.png",
+      "prompt": "A close-up of a vintage 1980s drum kit on a dark stage, drumsticks resting on the snare drum, stage lights dimmed, representing the departure of the drummer, moody atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-06.png",
+      "prompt": "A legendary guitarist with long wavy dark hair (Gary Richrath) walking away with his guitar case under streetlights on a rainy night, looking back at the stadium, representing his final departure, emotional and melancholic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/in-my-dreams/scene-07.png",
+      "prompt": "The vintage vinyl record of REO Speedwagon's Life as We Know It spinning on a retro turntable under warm golden light, neon purple reflections, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/in-my-dreams/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/in-my-dreams/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/in-my-dreams/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/in-my-dreams/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/in-my-dreams/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/in-my-dreams/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/in-my-dreams/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay melodías que se sienten como un reencuentro en la penumbra, nacidas de un susurro nocturno que nunca debió existir."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Kevin Cronin no caminó solo. Se unió a Tom Kelly, el arquitecto de los himnos más inmortales que definieron toda una década."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Pero tras la magia de 'In My Dreams' latía un dolor silencioso: la última chispa creativa de REO Speedwagon antes del colapso."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Llegó al puesto 19 de Billboard en el verano de 1987. Un destello brillante, pero que marcaría el fin del camino en la cima."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Las luces de la gira se apagaron, y con ellas, la partida del baterista fundador Alan Gratzer quebró el pulso del grupo."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Gary Richrath, el guitarrista legendario, empacó sus acordes y se marchó para siempre tras años de batallas con Cronin."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una balada sobre encontrarse en sueños que, sin quererlo, se convirtió en el último adiós de una hermandad rota."
+    }
+  ]
+}

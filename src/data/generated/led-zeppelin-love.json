@@ -1,0 +1,174 @@
+{
+  "title": "El viaje tridimensional",
+  "artist": "Led Zeppelin",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "En 1969, Led Zeppelin redefinió la psicodelia en 'Whole Lotta Love' usando un Theremin y un paneo manual frenético. Para la sección media de la canción, Jimmy Page y el ingeniero Eddie Kramer querían crear un viaje sonoro tridimensional. Page usó un Theremin, un instrumento que se toca sin contacto físico, y pasó su guitarra por un eco de cinta analógico. Mientras Robert Plant gemía al micrófono, Page movía las manos frente al Theremin para generar chillidos espectrales. Kramer y Page empezaron a girar de forma manual las perillas de paneo de la consola de mezcla al mismo tiempo. Esto disparaba el sonido de izquierda a derecha de los auriculares, creando un remolino de distorsión que mareaba al oyente. El resultado fue un clásico del rock que demostró que el error, el juego y la consola pueden ser instrumentos musicales.",
+  "hook": "En 1969, Led Zeppelin redefinió la psicodelia en 'Whole Lotta Love' usando un Theremin y un paneo manual frenético.",
+  "beats": [
+    "Para la sección media de la canción, Jimmy Page y el ingeniero Eddie Kramer querían crear un viaje sonoro tridimensional.",
+    "Page usó un Theremin, un instrumento que se toca sin contacto físico, y pasó su guitarra por un eco de cinta analógico.",
+    "Mientras Robert Plant gemía al micrófono, Page movía las manos frente al Theremin para generar chillidos espectrales.",
+    "Kramer y Page empezaron a girar de forma manual las perillas de paneo de la consola de mezcla al mismo tiempo.",
+    "Esto disparaba el sonido de izquierda a derecha de los auriculares, creando un remolino de distorsión que mareaba al oyente."
+  ],
+  "outro": "El resultado fue un clásico del rock que demostró que el error, el juego y la consola pueden ser instrumentos musicales.",
+  "palette": {
+    "ink": "#0d0b0f",
+    "paper": "#fcfaf5",
+    "accent": "#e65c00",
+    "glow": "#800080"
+  },
+  "music": {
+    "title": "Whole Lotta Love",
+    "artist": "Led Zeppelin",
+    "src": "music/led-zeppelin-love.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Whole Lotta Love Led Zeppelin",
+      "expectedTitle": "Whole Lotta Love",
+      "expectedArtist": "Led Zeppelin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/led-zeppelin-love/scene-01.png",
+      "prompt": "Jimmy Page playing his cherry red Gibson Les Paul in a recording studio in 1969, wearing vintage rock clothes, intense expression, grainy 1960s film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-02.png",
+      "prompt": "The sound engineer Eddie Kramer sitting at a classic analog mixing console, under colourful studio lights, looking focused on adjustments, 1960s film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-03.png",
+      "prompt": "A vintage metal Theremin with its rod antenna next to a guitar amplifier cabinet in a recording studio, warm spotlight, dusty air, 1960s look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-04.png",
+      "prompt": "Close up of Jimmy Page's hand hovering and waving near the loop antenna of a vintage Theremin in the dim light of Olympic Studios, warm amber light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-05.png",
+      "prompt": "Close up of four hands, belonging to Jimmy Page and Eddie Kramer, simultaneously and rapidly turning round pan knobs on a vintage mixing desk, motion blur, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-06.png",
+      "prompt": "Close up of studio tape machine reels spinning fast, reflecting vibrant psychedelic warm orange and purple studio lights, retro look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-love/scene-07.png",
+      "prompt": "A vintage vinyl copy of Led Zeppelin II album spinning on a retro turntable under warm golden lamp light, grainy 1960s film photo, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 8,
+      "src": "videos/led-zeppelin-love/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "src": "videos/led-zeppelin-love/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "src": "videos/led-zeppelin-love/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "src": "videos/led-zeppelin-love/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "src": "videos/led-zeppelin-love/transition-zeppelin-theremin.mp4",
+      "type": "video"
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "src": "videos/led-zeppelin-love/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/led-zeppelin-love/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "src": "videos/led-zeppelin-love/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "En 1969, Led Zeppelin redefinió la psicodelia en 'Whole Lotta Love' usando un Theremin y un paneo manual frenético."
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "text": "Para la sección media de la canción, Jimmy Page y el ingeniero Eddie Kramer querían crear un viaje sonoro tridimensional."
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "text": "Page usó un Theremin, un instrumento que se toca sin contacto físico, y pasó su guitarra por un eco de cinta analógico."
+    },
+    {
+      "start": 24,
+      "end": 40,
+      "text": "Mientras Robert Plant gemía al micrófono, Page movía las manos frente al Theremin para generar chillidos espectrales."
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "text": "Kramer y Page empezaron a girar de forma manual las perillas de paneo de la consola de mezcla al mismo tiempo."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "Esto disparaba el sonido de izquierda a derecha de los auriculares, creando un remolino de distorsión que mareaba al oyente."
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "text": "El resultado fue un clásico del rock que demostró que el error, el juego y la consola pueden ser instrumentos musicales."
+    }
+  ],
+  "clip": {
+    "src": "videos/led-zeppelin-love/transition-zeppelin-theremin.mp4",
+    "prompt": "8 second vertical cinematic transition from close up of a hand near a metal Theremin antenna to hands rapidly turning pan knobs on a vintage mixing console, with colorful psychedelic trails of light visualizing sound waves in a dark studio, no text",
+    "startSecond": 32,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/led-zeppelin-love"
+  }
+}

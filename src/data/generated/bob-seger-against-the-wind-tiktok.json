@@ -1,0 +1,107 @@
+{
+  "title": "La Canción Nacida del Viento en Contra (TikTok Cut)",
+  "artist": "Bob Seger",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El himno más nostálgico del rock estadounidense no nació de una metáfora abstracta, sino del esfuerzo físico de la juventud. En su adolescencia en Ann Arbor, Bob Seger corría campo a través aprendiendo a luchar contra el viento helado. En 1979, sintiendo el peso de la madurez y el distanciamiento de sus viejos amigos, se sentó al piano para escribir: 'Ojalá no supiera ahora lo que no sabía entonces'. En el estudio, su viejo aprendiz Glenn Frey de The Eagles grabó los legendarios coros. El álbum arrebató el número uno a Pink Floyd, ganó dos Grammy y se convirtió en la banda sonora definitiva de la perseverancia.",
+  "hook": "El himno más nostálgico del rock no hablaba del éxito, sino de resistir cuando la vida empuja hacia atrás.",
+  "beats": [
+    "1962: De adolescente en Michigan, Bob Seger corría campo a través luchando contra ráfagas de viento helado.",
+    "Años después en Detroit, Seger descubrió y apadrinó a un joven aprendiz de 19 años: Glenn Frey.",
+    "1979: A sus 34 años, sintió la soledad del éxito y el desgaste de las viejas amistades de juventud.",
+    "Al piano escribió el desgarrador verso: 'Ojalá no supiera ahora lo que no sabía entonces'.",
+    "Glenn Frey, ya estrella con The Eagles, fue al estudio para grabar las armonías vocales junto a su mentor.",
+    "El álbum 'Against the Wind' fue un fenómeno absoluto, arrebatándole el número uno a Pink Floyd.",
+    "La canción ganó dos Grammy e inmortalizó la épica travesía de resistencia en Forrest Gump."
+  ],
+  "outro": "Correr contra el viento no es ganar, sino llegar al final del camino sin perder el alma.",
+  "palette": {
+    "ink": "#140e08",
+    "paper": "#f5ede0",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Against the Wind",
+    "artist": "Bob Seger & The Silver Bullet Band",
+    "src": "music/bob-seger-against-the-wind.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Against the Wind Bob Seger",
+      "expectedTitle": "Against the Wind",
+      "expectedArtist": "Bob Seger & The Silver Bullet Band",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de TikTok / Instagram."
+    }
+  },
+  "assets": [
+    { "src": "videos/bob-seger-against-the-wind/scene-01.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-02.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-03.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-04.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-05.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-06.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-07.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-08.png" },
+    { "src": "videos/bob-seger-against-the-wind/scene-09.png" }
+  ],
+  "visuals": [
+    { "start": 0,    "end": 6.7,  "src": "videos/bob-seger-against-the-wind/scene-01.png", "type": "image" },
+    { "start": 6.7,  "end": 13.4, "src": "videos/bob-seger-against-the-wind/scene-02.png", "type": "image" },
+    { "start": 13.4, "end": 20.1, "src": "videos/bob-seger-against-the-wind/scene-03.png", "type": "image" },
+    { "start": 20.1, "end": 26.8, "src": "videos/bob-seger-against-the-wind/scene-04.png", "type": "image" },
+    { "start": 26.8, "end": 33.5, "src": "videos/bob-seger-against-the-wind/scene-05.png", "type": "image" },
+    { "start": 33.5, "end": 40.2, "src": "videos/bob-seger-against-the-wind/scene-06.png", "type": "image" },
+    { "start": 40.2, "end": 46.9, "src": "videos/bob-seger-against-the-wind/scene-07.png", "type": "image" },
+    { "start": 46.9, "end": 53.6, "src": "videos/bob-seger-against-the-wind/scene-08.png", "type": "image" },
+    { "start": 53.6, "end": 60.0, "src": "videos/bob-seger-against-the-wind/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.7,
+      "text": "El himno más nostálgico del rock no hablaba del éxito, sino de resistir cuando la vida empuja hacia atrás."
+    },
+    {
+      "start": 6.7,
+      "end": 13.4,
+      "text": "1962: De adolescente en Michigan, Bob Seger corría campo a través luchando contra ráfagas de viento helado."
+    },
+    {
+      "start": 13.4,
+      "end": 20.1,
+      "text": "Años después en Detroit, Seger descubrió y apadrinó a un joven aprendiz de 19 años: Glenn Frey."
+    },
+    {
+      "start": 20.1,
+      "end": 26.8,
+      "text": "1979: A sus 34 años, sintió la soledad del éxito y el desgaste de las viejas amistades de juventud."
+    },
+    {
+      "start": 26.8,
+      "end": 33.5,
+      "text": "Al piano escribió el desgarrador verso: 'Ojalá no supiera ahora lo que no sabía entonces'."
+    },
+    {
+      "start": 33.5,
+      "end": 40.2,
+      "text": "Glenn Frey, ya estrella con The Eagles, fue al estudio para grabar las armonías vocales junto a su mentor."
+    },
+    {
+      "start": 40.2,
+      "end": 46.9,
+      "text": "El álbum 'Against the Wind' fue un fenómeno absoluto, arrebatándole el número uno a Pink Floyd."
+    },
+    {
+      "start": 46.9,
+      "end": 53.6,
+      "text": "La canción ganó dos Grammy e inmortalizó la épica travesía de resistencia en Forrest Gump."
+    },
+    {
+      "start": 53.6,
+      "end": 60.0,
+      "text": "Correr contra el viento no es ganar, sino llegar al final del camino sin perder el alma."
+    }
+  ]
+}

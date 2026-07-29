@@ -1,0 +1,135 @@
+{
+  "title": "El Himno de Paz que Conmovió en la Guerra",
+  "artist": "Bette Midler",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "A finales de 1990, en medio del estruendo de los cazas y la inminencia de la Guerra del Golfo Pérsico, una balada comenzó a sonar en las radios militares de todo el mundo. Su historia comenzó años antes en Nueva York, donde Julie Gold trabajaba como secretaria frustrada, a punto de renunciar a la música tras años de rechazos. Al cumplir 30 años, sus padres le enviaron un viejo piano vertical donde compuso 'From a Distance', una plegaria sobre cómo la Tierra se ve en armonía desde la distancia. La cinta llegó a Bette Midler, quien rompió a llorar al grabarla. Cuando estalló la Operación Tormenta del Desierto, miles de soldados en las arenas de Kuwait adoptaron la canción como su rezo y consuelo diario. Ganó el Grammy a Canción del Año en 1991, demostrando que incluso en la oscuridad de la guerra, la esperanza siempre encuentra una melodía para abrazarnos.",
+  "hook": "1991: En medio de los bombardeos de la Guerra del Golfo, una canción se convirtió en el rezo de miles de soldados.",
+  "beats": [
+    "Años antes en Nueva York, Julie Gold trabajaba como secretaria frustrada, al borde de abandonar la música.",
+    "Al cumplir 30 años, sus padres le regalaron un piano vertical usado donde compuso un himno sobre la paz mundial.",
+    "Durante años las discográficas rechazaron su maqueta, hasta que la cinta llegó a manos de Bette Midler.",
+    "En el estudio de grabación, Bette rompió a llorar al cantar: 'Dios nos está mirando desde la distancia'.",
+    "Agosto de 1990: Estalla el conflicto en el Golfo Pérsico y miles de jóvenes soldados son enviados al desierto.",
+    "En tiendas de campaña y trincheras, las tropas sintonizaban la radio para escuchar la canción como su único refugio.",
+    "En 1991, la canción ganó el Grammy a Canción del Año, conmoviendo a una humanidad herida por la guerra.",
+    "Una secretaria que nunca se rindió y una voz inolvidable transformaron el dolor del mundo en un rezo inmortal."
+  ],
+  "outro": "A veces, mirar el mundo desde la distancia es el único modo de recordar que bajo el mismo cielo todos somos hermanos.",
+  "palette": {
+    "ink": "#090d16",
+    "paper": "#f5f3ee",
+    "accent": "#2563eb",
+    "glow": "#60a5fa"
+  },
+  "music": {
+    "title": "From a Distance",
+    "artist": "Bette Midler",
+    "src": "music/bette-midler-from-a-distance.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "From a Distance Bette Midler",
+      "expectedTitle": "From a Distance",
+      "expectedArtist": "Bette Midler",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-01.png",
+      "prompt": "Authentic 1991 documentary-style photograph of US soldiers in desert camouflage uniforms standing quietly in the Kuwait desert sunset during the Gulf War, listening to a military radio on a jeep hood, fighter jets far in the sky, warm amber dust atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-02.png",
+      "prompt": "Authentic 1985 photograph of 30-year-old female songwriter Julie Gold working as a tired secretary in a bustling vintage Manhattan corporate office, typing on a typewriter surrounded by filing cabinets, thoughtful melancholic look, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-03.png",
+      "prompt": "Intimate 1985 photograph of Julie Gold in her small cozy New York apartment, playing an upright wooden piano with warm sunlight streaming through the window, handwritten sheet music titled From a Distance, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-04.png",
+      "prompt": "Still life 1986 macro photograph of a vintage cassette tape labeled 'From a Distance - Julie Gold demo' resting on a wooden studio desk next to rejection letters from 1980s record labels, soft warm lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-05.png",
+      "prompt": "Authentic 1990 recording studio photograph of singer Bette Midler with her iconic curly reddish hair, wearing headphones and singing with deep emotion and tears in her eyes before a vintage studio condenser microphone, warm analog lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-06.png",
+      "prompt": "Dramatic 1990 photojournalism image of military armored vehicles and troops moving across desert sands under distant black oil smoke plumes during Operation Desert Shield, dramatic desert storm lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-07.png",
+      "prompt": "Poignant 1991 photograph inside a dimly lit desert military tent at night, two soldiers looking at small family photographs while listening to a portable cassette radio player, warm lantern glow, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-08.png",
+      "prompt": "Historic 1991 Grammy Awards photograph of composer Julie Gold and singer Bette Midler embracing happily on stage under theater spotlights holding the golden Grammy Award for Song of the Year, joyful emotional tears, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bette-midler-from-a-distance/scene-09.png",
+      "prompt": "Majestic cinematic photograph of Planet Earth floating peacefully in dark space with glowing blue oceans and white clouds, no borders visible, starlight shining softly, sublime poetic perspective, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/bette-midler-from-a-distance/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/bette-midler-from-a-distance/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/bette-midler-from-a-distance/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/bette-midler-from-a-distance/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/bette-midler-from-a-distance/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/bette-midler-from-a-distance/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/bette-midler-from-a-distance/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/bette-midler-from-a-distance/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/bette-midler-from-a-distance/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "1991: En medio de los bombardeos de la Guerra del Golfo, una canción se convirtió en el rezo de miles de soldados."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Años antes en Nueva York, Julie Gold trabajaba como secretaria frustrada, al borde de abandonar la música."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Al cumplir 30 años, sus padres le regalaron un piano vertical usado donde compuso un himno sobre la paz mundial."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Durante años las discográficas rechazaron su maqueta, hasta que la cinta llegó a manos de Bette Midler."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En el estudio de grabación, Bette rompió a llorar al cantar: 'Dios nos está mirando desde la distancia'."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Agosto de 1990: Estalla el conflicto en el Golfo Pérsico y miles de jóvenes soldados son enviados al desierto."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En tiendas de campaña y trincheras, las tropas sintonizaban la radio para escuchar la canción como su único refugio."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 1991, la canción ganó el Grammy a Canción del Año, conmoviendo a una humanidad herida por la guerra."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una secretaria que nunca se rindió y una voz inolvidable transformaron el dolor del mundo en un rezo inmortal."
+    }
+  ]
+}

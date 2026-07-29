@@ -1,0 +1,109 @@
+{
+  "title": "El Himno de Luz que Nació de una Billetera Perdida",
+  "artist": "The 5th Dimension",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1968, una billetera olvidada en un taxi de Manhattan llevó a The 5th Dimension a ver el musical 'Hair', inspirando el himno 'Aquarius / Let the Sunshine In'.",
+  "hook": "En 1968, una billetera olvidada en un taxi creó uno de los mayores himnos del rock.",
+  "beats": [
+    "En 1968, Billy Davis Jr. olvidó su billetera en un taxi de Nueva York.",
+    "El hombre que la devolvió resultó ser productor del censurado musical 'Hair'.",
+    "Como agradecimiento, los invitó a la función y quedaron impactados por la música.",
+    "El productor Bones Howe tuvo la brillante idea de fusionar dos canciones en una.",
+    "The Wrecking Crew grabó en Hollywood una base rítmica legendaria.",
+    "La desgarradora improvisación góspel de Billy Davis Jr. elevó el tema a la gloria.",
+    "En plena Guerra de Vietnam, la canción se volvió un himno de esperanza mundial.",
+    "Dominó el puesto número 1 del Billboard Hot 100 durante seis semanas.",
+    "Ganó el Grammy a Grabación del Año y pasó a la eternidad. ¿Te emociona este tema?"
+  ],
+  "outro": "Un himno inmortal. ¿Qué sientes al escuchar 'Let the Sunshine In'?",
+  "palette": {
+    "ink": "#0a0908",
+    "paper": "#fdf8eb",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Aquarius / Let the Sunshine In",
+    "artist": "The 5th Dimension",
+    "src": "music/the-5th-dimension-aquarius.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Aquarius The 5th Dimension",
+      "expectedTitle": "Aquarius / Let the Sunshine In",
+      "expectedArtist": "The 5th Dimension",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-01.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-02.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-03.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-04.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-05.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-06.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-07.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-08.png" },
+    { "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-09.png" }
+  ],
+  "visuals": [
+    { "start": 0,    "end": 6.66,  "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 6.66, "end": 13.33, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 13.33,"end": 20,    "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 20,   "end": 26.66, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 26.66,"end": 33.33, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 33.33,"end": 40,    "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 40,   "end": 46.66, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 46.66,"end": 53.33, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 53.33,"end": 60,    "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1968, Billy Davis Jr. olvidó su billetera en un taxi de Nueva York."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "El hombre que la devolvió resultó ser productor del censurado musical 'Hair'."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "Como agradecimiento, los invitó a la función y quedaron impactados por la música."
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "text": "El productor Bones Howe tuvo la brillante idea de fusionar dos canciones en una."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "The Wrecking Crew grabó en Hollywood una base rítmica legendaria."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "La desgarradora improvisación góspel de Billy Davis Jr. elevó el tema a la gloria."
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "text": "En plena Guerra de Vietnam, la canción se volvió un himno de esperanza mundial."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Dominó el puesto número 1 del Billboard Hot 100 durante seis semanas."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Ganó el Grammy a Grabación del Año y pasó a la eternidad. ¿Te emociona este tema?"
+    }
+  ]
+}

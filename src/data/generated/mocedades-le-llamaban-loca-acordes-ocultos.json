@@ -1,0 +1,202 @@
+{
+  "title": "El Secreto de Le Llamaban Loca",
+  "artist": "Mocedades",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "Durante años, una mujer solitaria acudió cada tarde al mismo banco de piedra en una plaza, vestida con sombrero antiguo y esperando a un prometido que la abandonó el día antes de su boda. Mientras el pueblo la señalaba con crueldad cotidiana llamándola loca, el compositor José Luis Perales conoció su calvario y escribió una balada inmortal para devolverle la dignidad a quien solo cometió el delito de amar demasiado, interpretada con el alma en carne viva por Amaya Uranga y Mocedades.",
+  "hook": "Todo un pueblo la llamó loca... pero su único delito fue comprar cada tarde una flor para quien jamás volvería.",
+  "beats": [
+    "Durante décadas, una anciana con sombrero estrafalario acudió cada tarde al mismo banco de piedra, esperando con paciencia infinita a quien nunca regresó.",
+    "Los vecinos se burlaban en murmullos y los niños la señalaban por la calle; para el juicio implacable del pueblo, ella no era más que una loca solitaria.",
+    "Pero tras su demencia habitaba una herida atroz: el día antes de su boda, su prometido la abandonó para siempre, dejándola anclada en el luto eterno.",
+    "Cada atardecer, sus manos temblorosas compraban una sola rosa roja en el puesto de la esquina, acariciando sus pétalos con una devoción casi sagrada.",
+    "En el banco de la plaza alimentaba a las palomas y contemplaba el reloj de la torre, convencida de que su gran amor volvería a buscarla en cualquier instante.",
+    "Conmovido por el drama de aquella vecina, el compositor José Luis Perales transformó su calvario en un poema contra la crueldad de la incomprensión social.",
+    "Al escuchar la balada, Mocedades la hizo suya; en el estudio, Amaya Uranga grabó la voz principal entre lágrimas ante la crudeza de su verdad.",
+    "El tema se convirtió en un himno conmovedor que devolvió la dignidad a todas aquellas almas rotas a las que el mundo castiga por no apagar su amor.",
+    "Hay amores tan hondos que la razón no puede comprender. ¿Crees que la sociedad llama locura al dolor de quien simplemente jamás aprendió a olvidar?"
+  ],
+  "outro": "Hay amores tan hondos que la razón no puede comprender. ¿Crees que la sociedad llama locura al dolor de quien simplemente jamás aprendió a olvidar?",
+  "palette": {
+    "ink": "#0e0d0c",
+    "paper": "#fbf8f2",
+    "accent": "#b91c1c",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Le llamaban loca",
+    "artist": "Mocedades",
+    "src": "music/mocedades-le-llamaban-loca-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Le llamaban loca Mocedades",
+      "expectedTitle": "Le llamaban loca",
+      "expectedArtist": "Mocedades",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/mocedades-le-llamaban-loca-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic portrait of Amaya Uranga in 1982, iconic lead singer of Spanish vocal group Mocedades, sitting poised with deep soulful expressive dark eyes, dark brown wavy hair, wearing an elegant modest 1980s silk blouse, warm ambient studio lighting, soft 35mm portrait grain, rich vintage Kodachrome color tone, centered composition, ample safe bottom space for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 atmospheric 1970s Spanish town square at dusk: An elderly woman dressed in a vintage coat and a peculiar decorated hat, sitting alone on a stone park bench under the warm golden glow of an old streetlamp, while passersby in the distant background cast curious sideways glances, cinematic chiaroscuro lighting, emotional 35mm film still, rich film grain, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 cobblestone street in a Spanish town in the 1970s: Townsfolk and curious neighborhood children whispering and pointing towards the corner where a solitary woman sits, everyday social cruelty and gossip, warm late afternoon sunlight, documentary 35mm street photography grain, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 intimate nostalgic flashback to 1940s Spain: A rustic bedroom illuminated by soft window morning light, a pristine white wedding dress hanging from an antique wooden armoire, and on a wooden bedside table an opened farewell letter and an abandoned engagement ring, cinematic atmosphere of profound heartbreak and desertion, 35mm archival film grain, no people, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 warm traditional flower stall on a Spanish street corner in 1975: The elderly woman with gentle wrinkled hands carefully purchasing a single fresh deep red rose from an old florist under warm amber canopy lights, touching the petals with quiet devotion, 35mm Kodachrome film grain, emotional close candid shot, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 timeless park bench in a quiet Spanish public plaza: The solitary elderly woman sitting on the stone bench, gently scattering breadcrumbs to a flock of white and grey pigeons resting around her feet, holding the red rose in her lap, looking towards the distant church clock tower in serene eternal waiting, soft golden mist, 35mm archival photography."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic documentary photograph from 1980 of Spanish singer-songwriter José Luis Perales in his rustic Madrid study: In his mid-30s, completely clean-shaven with absolutely NO mustache, NO beard, clean smooth jawline, dark wavy hair. He is seen from a three-quarters side angle, deeply absorbed and concentrated on his creative work, looking down with intense artistic focus at the piano keys and a handwritten music manuscript where he writes notes with a pencil. Candid documentary shot, NOT looking at the camera, eyes cast down at his composition. Wearing a vintage cream knitted cardigan over a light collared shirt. Acoustic guitar resting nearby, warm natural afternoon light, 35mm film grain, Kodachrome, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 Madrid recording studio in 1982: Amaya Uranga, lead singer of Mocedades, standing before a vintage studio microphone with closed eyes and hands gently clasped, singing with deep emotional heartbreak under warm golden studio spotlights, music sheets on stands nearby, authentic 1980s Spanish studio atmosphere, 35mm film grain, emotional close-up portrait."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 poetic visual metaphor for restored dignity and eternal love: Inside an ancient Spanish stone cloister, a luminous shaft of warm golden sunlight breaks through arched windows, illuminating a weathered antique wooden table draped with a delicate white lace bridal mantilla. Resting serenely in the warm golden light is a single blooming deep red rose and a vintage glass lantern with a soft warm glowing flame. Soft dust motes dance in the sacred sunbeam, chiaroscuro lighting, profound atmosphere of reverence, emotional healing and nobility restored to broken souls, authentic 35mm film grain, Kodachrome, no people, no text."
+    },
+    {
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic closing visual metaphor: A solitary weathered wooden bench in an old Spanish town plaza at nightfall, bathed under the soft warm amber cone of light from a historic wrought-iron streetlamp. On the empty wooden seat rests a single fresh red rose, with a solitary white dove taking flight into the misty twilight sky above, quiet cobblestones glistening with evening dew, timeless cinematic symbol of eternal love and peaceful redemption, no people, 35mm film still."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/mocedades-le-llamaban-loca-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Durante décadas, una anciana con sombrero estrafalario acudió cada tarde al mismo banco de piedra, esperando con paciencia infinita a quien nunca regresó."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Los vecinos se burlaban en murmullos y los niños la señalaban por la calle; para el juicio implacable del pueblo, ella no era más que una loca solitaria."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Pero tras su demencia habitaba una herida atroz: el día antes de su boda, su prometido la abandonó para siempre, dejándola anclada en el luto eterno."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Cada atardecer, sus manos temblorosas compraban una sola rosa roja en el puesto de la esquina, acariciando sus pétalos con una devoción casi sagrada."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En el banco de la plaza alimentaba a las palomas y contemplaba el reloj de la torre, convencida de que su gran amor volvería a buscarla en cualquier instante."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Conmovido por el drama de aquella vecina, el compositor José Luis Perales transformó su calvario en un poema contra la crueldad de la incomprensión social."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Al escuchar la balada, Mocedades la hizo suya; en el estudio, Amaya Uranga grabó la voz principal entre lágrimas ante la crudeza de su verdad."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El tema se convirtió en un himno conmovedor que devolvió la dignidad a todas aquellas almas rotas a las que el mundo castiga por no apagar su amor."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Hay amores tan hondos que la razón no puede comprender. ¿Crees que la sociedad llama locura al dolor de quien simplemente jamás aprendió a olvidar?"
+    }
+  ],
+  "publication": {
+    "title": "La mujer que esperó toda una vida",
+    "description": "Todo un pueblo la llamó loca... pero su único delito fue comprar cada tarde una flor para quien jamás volvería.\n\nDurante años, los vecinos de una tranquila plaza veían pasar cada tarde a una mujer solitaria con sombrero antiguo. Los murmullos y las burlas cotidianas no tardaron en marcarla con la etiqueta más cruel: para todos, era simplemente una desquiciada que hablaba sola en un banco mientras alimentaba a las palomas.\n\nNadie se detenía a mirar la desgarradora verdad detrás de su mirada perdida: el día antes de casarse, el amor de su vida la abandonó para siempre. Incapaz de aceptar el vacío, su mente se refugió en la fidelidad eterna, comprando una rosa roja cada día para esperar a su prometido. Al conocer su historia, José Luis Perales transformó su calvario en una de las baladas más conmovedoras de la música en español, inmortalizada por la voz rota de Amaya Uranga y Mocedades.\n\nA veces, lo que el mundo juzga como locura es solo la forma más pura y dolorosa de lealtad. ¿Crees que la sociedad condena a quienes simplemente no pueden apagar su amor?\n\n#Mocedades #AmayaUranga #JoseLuisPerales #LeLlamabanLoca #AcordesOcultos #BaladasDeOro #MusicaEspanola #HistoriaDeLaMusica",
+    "social": {
+      "instagram": {
+        "caption": "Todo un pueblo la llamó loca... pero su único delito fue comprar cada tarde una flor para quien jamás volvería.\n\nDurante años, los vecinos de una tranquila plaza veían pasar cada tarde a una mujer solitaria con sombrero antiguo. Los murmullos y las burlas cotidianas no tardaron en marcarla con la etiqueta más cruel: para todos, era simplemente una desquiciada que hablaba sola en un banco mientras alimentaba a las palomas.\n\nNadie se detenía a mirar la desgarradora verdad detrás de su mirada perdida: el día antes de casarse, el amor de su vida la abandonó para siempre. Incapaz de aceptar el vacío, su mente se refugió en la fidelidad eterna, comprando una rosa roja cada día para esperar a su prometido. Al conocer su historia, José Luis Perales transformó su calvario en una de las baladas más conmovedoras de la música en español, inmortalizada por la voz rota de Amaya Uranga y Mocedades.\n\nA veces, lo que el mundo juzga como locura es solo la forma más pura y dolorosa de lealtad. ¿Crees que la sociedad condena a quienes simplemente no pueden apagar su amor?\n\n#Mocedades #AmayaUranga #JoseLuisPerales #LeLlamabanLoca #AcordesOcultos #BaladasDeOro #MusicaEspanola #HistoriaDeLaMusica",
+        "hashtags": [
+          "#Mocedades",
+          "#AmayaUranga",
+          "#JoseLuisPerales",
+          "#LeLlamabanLoca",
+          "#AcordesOcultos",
+          "#BaladasDeOro",
+          "#MusicaEspanola",
+          "#HistoriaDeLaMusica"
+        ]
+      }
+    }
+  }
+}

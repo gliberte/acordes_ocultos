@@ -1,0 +1,147 @@
+{
+  "title": "Tiny Dancer",
+  "artist": "Elton John",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Puede una sola escena de cine rescatar una obra maestra olvidada y devolverle el alma al rock de los setenta? En 1971, Elton John y Bernie Taupin esculpieron 'Tiny Dancer', pero con más de seis minutos de duración, la radio comercial la dejó en el olvido. Décadas después, en el año 2000, el director Cameron Crowe filmó la película 'Almost Famous' y recreó sus propios recuerdos de juventud. En una escena de autobús cargada de tensión y silencio, una melodía al piano empieza a sonar, rompiendo la distancia. Músicos, groupies y extraños cantaron en unísono 'Hold me closer, tiny dancer', redimiendo sus almas bajo el sol del camino. Ese instante de comunión cinematográfica resucitó la canción, llevándola al corazón de nuevas generaciones que jamás vivieron los setenta. Hoy es un himno eterno de fraternidad. A veces, la música solo necesita la pantalla correcta para encender su luz.",
+  "hook": "¿Puede una sola escena de cine rescatar una obra maestra olvidada y devolverle el alma al rock de los setenta?",
+  "beats": [
+    "En 1971, Elton John y Bernie Taupin esculpieron 'Tiny Dancer', pero con más de seis minutos de duración, la radio comercial la dejó en el olvido.",
+    "Décadas después, en el año 2000, el director Cameron Crowe filmó la película 'Almost Famous' y recreó sus propios recuerdos de juventud.",
+    "En una escena de autobús cargada de tensión y silencio, una melodía al piano empieza a sonar, rompiendo la distancia.",
+    "Músicos, groupies y extraños cantaron en unísono 'Hold me closer, tiny dancer', redimiendo sus almas bajo el sol del camino.",
+    "Ese instante de comunión cinematográfica resucitó la canción, llevándola al corazón de nuevas generaciones que jamás vivieron los setenta."
+  ],
+  "outro": "Hoy es un himno eterno de fraternidad. A veces, la música solo necesita la pantalla correcta para encender su luz.",
+  "palette": {
+    "ink": "#110f0c",
+    "paper": "#fdfaf4",
+    "accent": "#d9822b",
+    "glow": "#f3c15f"
+  },
+  "music": {
+    "title": "Tiny Dancer",
+    "artist": "Elton John",
+    "src": "music/tiny-dancer.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Tiny Dancer Elton John",
+      "expectedTitle": "Tiny Dancer",
+      "expectedArtist": "Elton John",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/tiny-dancer/scene-01.png",
+      "prompt": "A young Elton John playing a grand piano in 1971, wearing signature oversized round glasses and vintage 70s clothing, warm spotlight on stage, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-02.png",
+      "prompt": "A dusty 1971 vinyl record of Elton John's Madman Across the Water sitting forgotten on an old wooden shelf, vintage analog look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-03.png",
+      "prompt": "A group of exhausted 1970s rock musicians and a young woman sitting in tense silence inside a moving vintage tour bus, dusty warm sunlight streaming through the windows, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-04.png",
+      "prompt": "A group of young 1970s rock musicians and friends singing passionately in unison inside a vintage tour bus, eyes closed, hands in the air, joyous road trip vibe, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-05.png",
+      "prompt": "A beautiful young blonde woman in a vintage fur-trimmed coat (Penny Lane style) smiling gently inside a warm vintage tour bus, soft golden hour lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-06.png",
+      "prompt": "A young teenage boy with curly hair (William Miller style) listening in awe with large vintage studio headphones, warm retro colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tiny-dancer/scene-07.png",
+      "prompt": "A pristine vinyl record spinning on a high-end vintage turntable, golden spotlights highlighting the grooves, representation of a classic rock revival, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/tiny-dancer/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/tiny-dancer/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/tiny-dancer/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/tiny-dancer/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/tiny-dancer/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/tiny-dancer/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/tiny-dancer/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Puede una sola escena de cine rescatar una obra maestra olvidada y devolverle el alma al rock de los setenta?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1971, Elton John y Bernie Taupin esculpieron 'Tiny Dancer', pero con más de seis minutos de duración, la radio comercial la dejó en el olvido."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Décadas después, en el año 2000, el director Cameron Crowe filmó la película 'Almost Famous' y recreó sus propios recuerdos de juventud."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En una escena de autobús cargada de tensión y silencio, una melodía al piano empieza a sonar, rompiendo la distancia."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Músicos, groupies y extraños cantaron en unísono 'Hold me closer, tiny dancer', redimiendo sus almas bajo el sol del camino."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Ese instante de comunión cinematográfica resucitó la canción, llevándola al corazón de nuevas generaciones que jamás vivieron los setenta."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Hoy es un himno eterno de fraternidad. A veces, la música solo necesita la pantalla correcta para encender su luz."
+    }
+  ]
+}

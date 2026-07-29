@@ -1,0 +1,147 @@
+{
+  "title": "La música que dirigió a una musa",
+  "artist": "Ennio Morricone",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Uno de los planos más bellos y memorables de la historia del cine no se dirigió con palabras, sino coreografiando a la actriz al compás de una melodía ensordecedora. Para Érase una vez en el Oeste, Sergio Leone le pidió a Ennio Morricone componer toda la banda sonora antes de encender las cámaras. En el set de rodaje, altavoces gigantescos reproducían la melancólica y poderosa voz soprano de Edda Dell'Orso a todo volumen. Claudia Cardinale no solo actuaba; sus pasos, sus miradas y el giro de su cabeza eran dictados con precisión por las notas que flotaban en el aire. La música creaba un ambiente casi sagrado, una catarsis emocional que permitía a la actriz transformarse en su personaje sin hablar. La mítica elevación de la grúa sobre la estación de Flagstone se sincronizó milimétricamente porque cámara y reparto se movían al mismo latido. Leone no filmó un western convencional; esculpió una ópera visual donde Claudia Cardinale fue la gran musa de las notas de Morricone. Y a ti, ¿qué melodía te guía en tus pasos?",
+  "hook": "Uno de los planos más bellos y memorables de la historia del cine no se dirigió con palabras, sino coreografiando a la actriz al compás de una melodía ensordecedora.",
+  "beats": [
+    "Para Érase una vez en el Oeste, Sergio Leone le pidió a Ennio Morricone componer toda la banda sonora antes de encender las cámaras.",
+    "En el set de rodaje, altavoces gigantescos reproducían la melancólica y poderosa voz soprano de Edda Dell'Orso a todo volumen.",
+    "Claudia Cardinale no solo actuaba; sus pasos, sus miradas y el giro de su cabeza eran dictados con precisión por las notas que flotaban en el aire.",
+    "La música creaba un ambiente casi sagrado, una catarsis emocional que permitía a la actriz transformarse en su personaje sin hablar.",
+    "La mítica elevación de la grúa sobre la estación de Flagstone se sincronizó milimétricamente porque cámara y reparto se movían al mismo latido."
+  ],
+  "outro": "Leone no filmó un western convencional; esculpió una ópera visual donde Claudia Cardinale fue la gran musa de las notas de Morricone. Y a ti, ¿qué melodía te guía en tus pasos?",
+  "palette": {
+    "ink": "#1c1917",
+    "paper": "#fefaf6",
+    "accent": "#7c2d12",
+    "glow": "#ea580c"
+  },
+  "music": {
+    "title": "Once Upon a Time in the West Theme",
+    "artist": "Ennio Morricone",
+    "src": "music/west.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Once Upon a Time in the West Theme Ennio Morricone",
+      "expectedTitle": "Once Upon a Time in the West Theme",
+      "expectedArtist": "Ennio Morricone",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/west/scene-01.png",
+      "prompt": "A realistic 1968 color photograph of a vintage 35mm movie camera on a high tripod, facing a desert landscape with dramatic mesas under a bright hot sun, textured film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-02.png",
+      "prompt": "A realistic 1968 photograph of a brilliant conductor and composer with glasses (representing Ennio Morricone) writing music sheets at a wooden desk with a vintage piano nearby, warm lamp lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-03.png",
+      "prompt": "A realistic 1968 photograph of a grand movie set in the desert, huge vintage horn speakers mounted on poles, dusty terrain, sunny day, film crew in the background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-04.png",
+      "prompt": "A realistic 1968 photograph of a stunning Italian actress with dark wavy hair and a vintage black dress (representing Claudia Cardinale) looking towards a movie camera, intense expressive eyes, soft lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-05.png",
+      "prompt": "A realistic 1968 photograph of a rugged Italian movie director with a beard and glasses (representing Sergio Leone) directing with a megaphone on a dusty western movie set, sun flare, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-06.png",
+      "prompt": "A realistic 1968 photograph of a vintage western train station made of weathered wood, steam rising from tracks in the background, a dramatic high-angle camera crane towering over, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/west/scene-07.png",
+      "prompt": "A beautiful silhouette of a woman standing in a vast, empty desert at sunset, long shadows stretching over the red dust, golden hour light, cinematic atmosphere, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/west/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/west/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/west/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/west/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/west/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/west/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/west/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Uno de los planos más bellos y memorables de la historia del cine no se dirigió con palabras, sino coreografiando a la actriz al compás de una melodía ensordecedora."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Para Érase una vez en el Oeste, Sergio Leone le pidió a Ennio Morricone componer toda la banda sonora antes de encender las cámaras."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "En el set de rodaje, altavoces gigantescos reproducían la melancólica y poderosa voz soprano de Edda Dell'Orso a todo volumen."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Claudia Cardinale no solo actuaba; sus pasos, sus miradas y el giro de su cabeza eran dictados con precisión por las notas que flotaban en el aire."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "La música creaba un ambiente casi sagrado, una catarsis emocional que permitía a la actriz transformarse en su personaje sin hablar."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "La mítica elevación de la grúa sobre la estación de Flagstone se sincronizó milimétricamente porque cámara y reparto se movían al mismo latido."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Leone no filmó un western convencional; esculpió una ópera visual donde Claudia Cardinale fue la gran musa de las notas de Morricone. Y a ti, ¿qué melodía te guía en tus pasos?"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "brand": "secret-chords",
+  "title": "Convoy",
+  "artist": "C.W. McCall",
+  "durationSeconds": 60,
+  "topic": "musical curiosity",
+  "anecdote": "The most massive anthem of rebellion of the 70s wasn't born in a hippie commune... but in a sliced bread commercial. William Fries created the fictional trucker C.W. McCall to sell bread on local Nebraska television. The commercials went viral, prompting Fries and composer Chip Davis to record actual songs under that alias. In 1975, the 55 mph national speed limit made CB radios explode in popularity among truckers. Inspired by that outlaw jargon, Fries wrote 'Convoy', a rebel caravan breaking through barriers. It sold millions of copies, fueled a global CB radio craze, and conquered the top of Billboard. Its success was so wild that director Sam Peckinpah brought it to the big screen. What outlaw route have you driven today?",
+  "hook": "The most massive anthem of rebellion of the 70s wasn't born in a hippie commune... but in a sliced bread commercial.",
+  "beats": [
+    "William Fries created the fictional trucker C.W. McCall to sell bread on local Nebraska television.",
+    "The commercials went viral, prompting Fries and composer Chip Davis to record actual songs under that alias.",
+    "In 1975, the 55 mph national speed limit made CB radios explode in popularity among truckers.",
+    "Inspired by that outlaw jargon, Fries wrote 'Convoy', a rebel caravan breaking through barriers.",
+    "It sold millions of copies, fueled a global CB radio craze, and conquered the top of Billboard."
+  ],
+  "outro": "Its success was so wild that director Sam Peckinpah brought it to the big screen. What outlaw route have you driven today?",
+  "palette": {
+    "ink": "#2c1b18",
+    "paper": "#fefae0",
+    "accent": "#dda15e",
+    "glow": "#bc6c25"
+  },
+  "music": {
+    "title": "Convoy",
+    "artist": "C.W. McCall",
+    "src": "music/convoy.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Convoy C.W. McCall",
+      "expectedTitle": "Convoy",
+      "expectedArtist": "C.W. McCall",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/convoy/scene-01.png",
+      "prompt": "A realistic 1973 photograph of a classic American semi-truck driving on a dusty highway under a golden sunset, carrying cargo, vintage aesthetic, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-02.png",
+      "prompt": "A realistic 1970s photograph of a creative advertising executive in an office filled with storyboards of a cartoon truck driver, retro typewriter on the desk, warm office lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-03.png",
+      "prompt": "A close-up photograph of a hand holding a vintage CB radio microphone inside a truck cabin, glowing dashboard lights, night time, shallow depth of field, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-04.png",
+      "prompt": "A realistic 1975 photograph of rugged truck drivers sitting at a diner table under dim warm lights, talking on CB radios, coffee cups, raw vintage atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-05.png",
+      "prompt": "A dramatic, epic photograph of a massive convoy of semi-trucks crashing through highway toll booths, kick-up dust, sunset backlight, sense of rebellion, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-06.png",
+      "prompt": "A close-up photograph of a vintage 1976 vinyl record sleeve of Convoy by C.W. McCall resting on a worn leather truck seat, warm sunbeams, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-07.png",
+      "prompt": "A realistic 1978 photograph of a retro drive-in cinema marquee glowing at night, displaying the movie title 'CONVOY', headlights of classic cars, cinematic mist, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/convoy/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/convoy/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/convoy/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/convoy/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/convoy/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/convoy/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/convoy/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "The most massive anthem of rebellion of the 70s wasn't born in a hippie commune... but in a sliced bread commercial."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "William Fries created the fictional trucker C.W. McCall to sell bread on local Nebraska television."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "The commercials went viral, prompting Fries and composer Chip Davis to record actual songs under that alias."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "In 1975, the 55 mph national speed limit made CB radios explode in popularity among truckers."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Inspired by that outlaw jargon, Fries wrote 'Convoy', a rebel caravan breaking through barriers."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "It sold millions of copies, fueled a global CB radio craze, and conquered the top of Billboard."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Its success was so wild that director Sam Peckinpah brought it to the big screen. What outlaw route have you driven today?"
+    }
+  ]
+}

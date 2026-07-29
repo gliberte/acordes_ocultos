@@ -1,0 +1,201 @@
+{
+  "title": "El Secreto de Summer Breeze",
+  "artist": "Seals and Crofts",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "A principios de los años setenta, Jim Seals y Dash Crofts conquistaron el mundo con «Summer Breeze», la oda más relajante, luminosa y reconfortante del soft rock acústico, vendiendo millones de discos. Sin embargo, detrás de aquella aparente brisa de paz latía una profunda convicción espiritual en la fe Bahá'í. A finales de 1973, en pleno debate tras el fallo de Roe v. Wade, la esposa de su ingeniero les entregó un poema titulado «Unborn Child». Conmovidos hasta las lágrimas, decidieron grabarlo como una canción en defensa de la vida no nacida. Su discográfica Warner Bros. les suplicó que no lo publicaran, advirtiéndoles que sería un suicidio comercial irremediable. Fieles a su conciencia, Jim y Dash rechazaron censurarse: el lanzamiento de 1974 desató una tormenta de piquetes con bombas de humo, boicots en la radio y la caída abrupta de su carrera masiva. Jamás se arrepintieron: prefirieron perder la gloria antes que traicionar sus principios.",
+  "hook": "Compusieron la canción más pacífica de los setenta... y dos años después destruyeron su carrera por no traicionar su fe.",
+  "beats": [
+    "A finales de los sesenta, exhaustos del caos de la industria musical, Jim Seals y Dash Crofts buscaron refugio espiritual en la fe Bahá'í.",
+    "En una tarde cálida, inspirados por la dicha simple de volver al hogar y el perfume a jazmín, compusieron «Summer Breeze» como un remanso de serenidad.",
+    "El tema se convirtió en un himno universal: millones de discos vendidos, estadios colmados y una América rendida ante su mensaje de amor y reconciliación.",
+    "Pero a finales de 1973, en pleno debate nacional sobre el aborto, cayó en sus manos un poema que interpelaba sus más profundas convicciones espirituales.",
+    "Los ejecutivos de Warner Bros. les suplicaron de rodillas no grabarlo, advirtiéndoles que publicar ese alegato sería un suicidio comercial irremediable.",
+    "Fieles a su principio sagrado de que la vida comienza en la concepción, decidieron que su integridad valía más que cualquier contrato discográfico.",
+    "La reacción fue implacable: piquetes con bombas de humo frente a sus teatros, emisoras censurando sus canciones y una ola de repudio que quebró su idilio popular.",
+    "Su estatus de ídolos de masas se esfumó para siempre; los contratos millonarios desaparecieron, pero jamás mostraron arrepentimiento por haber sido honestos.",
+    "«Summer Breeze» sigue soplando como un refugio de paz. ¿Harías tú lo mismo: sacrificar toda tu fortuna y fama por no traicionar tus principios?"
+  ],
+  "outro": "«Summer Breeze» sigue soplando como un refugio de paz. ¿Harías tú lo mismo: sacrificar toda tu fortuna y fama por no traicionar tus principios?",
+  "palette": {
+    "ink": "#13100d",
+    "paper": "#fdfbf7",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Summer Breeze",
+    "artist": "Seals and Crofts",
+    "src": "music/seals-and-crofts-summer-breeze-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Summer Breeze Seals and Crofts",
+      "expectedTitle": "Summer Breeze",
+      "expectedArtist": "Seals and Crofts",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Authentic vertical 9:16 portrait of American soft rock duo Seals and Crofts in 1972: Jim Seals (31 years old, shaggy brown hair past his ears, neat short brown beard and mustache, sensitive contemplative eyes, light denim shirt holding acoustic guitar) and Dash Crofts (32 years old, thick curly dark brown hair and sideburns, warm smile, vintage woven vest holding a wooden mandolin), sitting together on a sunlit wooden California porch with golden dust motes in the warm afternoon air, 1970s Kodachrome 35mm film grain photography, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-01.png",
+      "prompt": "California countryside 1970, vertical 9:16: Jim Seals (30 years old, brown hair, neat beard, denim shirt) and Dash Crofts (31 years old, curly dark hair, vest) sitting peacefully under an old oak tree at sunset, holding acoustic instruments in deep quiet contemplation, spiritual serenity and escape from the frenetic rock industry, warm golden hour sunlight filtering through leaves, 1970s 35mm film photography grain, authentic archival look, no text."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-02.png",
+      "prompt": "Warm California living room 1972, vertical 9:16: Jim Seals sitting by an open wooden window with white linen curtains gently billowing in the evening summer breeze, playing an acoustic guitar with a look of peaceful inspiration, while Dash Crofts listens smiling with his mandolin on his lap, a small vase of fragrant white jasmine flowers on the wooden sill catching the amber twilight glow, 1970s 35mm film grain, intimate soulful atmosphere, no text."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-03.png",
+      "prompt": "Sunlit outdoor amphitheater concert 1973, vertical 9:16: Seals and Crofts performing on stage before a massive smiling 1970s audience in bohemian clothing and flower prints, golden stage sunlight, Jim Seals playing acoustic guitar and singing into a vintage microphone, Dash Crofts harmonizing on mandolin, pure harmonious acclaim and peak commercial adoration, 1973 35mm concert documentary photography."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-04.png",
+      "prompt": "Dim analog recording studio Los Angeles late 1973, vertical 9:16: Jim Seals (brown beard, weary thoughtful expression) sitting at a sound console, holding and solemnly reading a typed paper sheet titled 'Unborn Child', beside him a woman in 1970s clothing (the engineer's wife) looking at him with earnest emotion, reel-to-reel tape machines softly glowing in the background, a moment of moral awakening and profound reckoning, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-05.png",
+      "prompt": "Burbank Warner Bros executive boardroom 1974, vertical 9:16: High-powered record executives in dark suits standing around a glossy conference table gesturing anxiously, pleading and warning, while Jim Seals and Dash Crofts sit calmly and resolute across from them, refusing to back down from recording their controversial song, tense artistic standoff between corporate profit and spiritual conviction, 1974 35mm film photography."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-06.png",
+      "prompt": "Vintage 1974 radio studio broadcast control room, vertical 9:16: A vinyl record spinning on a broadcast turntable beside an illuminated analog VU meter and retro microphones, while a silhouette of the musical duo stands steadfast in the soundproof glass reflection, choosing conscience over corporate pressure, deep atmospheric 1974 radio station, warm amber lighting, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-07.png",
+      "prompt": "Concert hall exterior night 1974, vertical 9:16: Outside a grand illuminated American theater marquee, a passionate crowd holding signs and leaflets in the chilly autumn evening, retro police cars with flashing lights maintaining order along the sidewalk, intense public debate and media polarization during the duo's controversial national tour, authentic 1974 documentary photojournalism, 35mm film grain, no physical violence."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-08.png",
+      "prompt": "Quiet rural Texas highway at sunset late 1970s, vertical 9:16: Jim Seals and Dash Crofts carrying their worn instrument cases along a quiet country road bathed in long golden shadows, looking older and reflective but with serene dignity and unburdened spirits, the glittering glamour of pop fame faded away into peaceful simplicity, 1970s cinematic 35mm film still."
+    },
+    {
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-09.png",
+      "prompt": "Cozy sun-drenched sunroom today, vertical 9:16: A vintage wooden turntable spinning the original vinyl of 'Summer Breeze' by Seals and Crofts, warm sunlight streaming through open white curtains, a framed vintage photograph of the duo smiling on a rustic shelf nearby, a gentle enduring tribute to artists who chose their soul over their stardom, warm golden tones, 35mm film grain."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/seals-and-crofts-summer-breeze-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "A finales de los sesenta, exhaustos del caos de la industria musical, Jim Seals y Dash Crofts buscaron refugio espiritual en la fe Bahá'í."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En una tarde cálida, inspirados por la dicha simple de volver al hogar y el perfume a jazmín, compusieron «Summer Breeze» como un remanso de serenidad."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "El tema se convirtió en un himno universal: millones de discos vendidos, estadios colmados y una América rendida ante su mensaje de amor y reconciliación."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Pero a finales de 1973, en pleno debate nacional sobre el aborto, cayó en sus manos un poema que interpelaba sus más profundas convicciones espirituales."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Los ejecutivos de Warner Bros. les suplicaron de rodillas no grabarlo, advirtiéndoles que publicar ese alegato sería un suicidio comercial irremediable."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Fieles a su principio sagrado de que la vida comienza en la concepción, decidieron que su integridad valía más que cualquier contrato discográfico."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "La reacción fue implacable: piquetes con bombas de humo frente a sus teatros, emisoras censurando sus canciones y una ola de repudio que quebró su idilio popular."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Su estatus de ídolos de masas se esfumó para siempre; los contratos millonarios desaparecieron, pero jamás mostraron arrepentimiento por haber sido honestos."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "«Summer Breeze» sigue soplando como un refugio de paz. ¿Harías tú lo mismo: sacrificar toda tu fortuna y fama por no traicionar tus principios?"
+    }
+  ],
+  "publication": {
+    "title": "El precio de no traicionar tus principios",
+    "description": "Compusieron la melodía más pacífica y luminosa de los años setenta... pero dos años después prefirieron sacrificar su fama millonaria antes que traicionar su fe.\n\nEn 1972, Seals and Crofts tocaron el cielo con «Summer Breeze», un himno al sosiego del hogar y al aroma a jazmín que vendió millones de copias. Sin embargo, su paz no era una pose comercial: eran devotos de la fe Bahá'í. A finales de 1973, en pleno terremoto de Roe v. Wade, cayó en sus manos el poema «Unborn Child». Conmovidos, decidieron musicalizarlo en defensa de la vida no nacida.\n\nWarner Bros. les suplicó que no lo publicaran, advirtiéndoles que destruiría su carrera. Jim y Dash no cedieron. El lanzamiento de 1974 desató piquetes con bombas de humo frente a sus conciertos, censura en la radio y la caída fulminante de su éxito masivo. Nunca se arrepintieron: su conciencia valía más que el oro de la industria.\n\n¿Sacrificarías tú toda tu fortuna y el aplauso del mundo por defender lo que crees?\n\n#SealsAndCrofts #SummerBreeze #AcordesOcultos #HistoriaDeLaMusica #HistoriaDelRock #SoftRock #GrandesCanciones",
+    "social": {
+      "instagram": {
+        "caption": "Compusieron la melodía más pacífica y luminosa de los años setenta... pero dos años después prefirieron sacrificar su fama millonaria antes que traicionar su fe.\n\nEn 1972, Seals and Crofts tocaron el cielo con «Summer Breeze», un himno al sosiego del hogar y al aroma a jazmín que vendió millones de copias. Sin embargo, su paz no era una pose comercial: eran devotos de la fe Bahá'í. A finales de 1973, en pleno terremoto de Roe v. Wade, cayó en sus manos el poema «Unborn Child». Conmovidos, decidieron musicalizarlo en defensa de la vida no nacida.\n\nWarner Bros. les suplicó que no lo publicaran, advirtiéndoles que destruiría su carrera. Jim y Dash no cedieron. El lanzamiento de 1974 desató piquetes con bombas de humo frente a sus conciertos, censura en la radio y la caída fulminante de su éxito masivo. Nunca se arrepintieron: su conciencia valía más que el oro de la industria.\n\n¿Sacrificarías tú toda tu fortuna y el aplauso del mundo por defender lo que crees?\n\n#SealsAndCrofts #SummerBreeze #AcordesOcultos #HistoriaDeLaMusica #HistoriaDelRock #SoftRock #GrandesCanciones",
+        "hashtags": [
+          "#SealsAndCrofts",
+          "#SummerBreeze",
+          "#AcordesOcultos",
+          "#HistoriaDeLaMusica",
+          "#HistoriaDelRock",
+          "#SoftRock",
+          "#GrandesCanciones"
+        ]
+      }
+    }
+  }
+}

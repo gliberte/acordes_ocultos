@@ -1,0 +1,174 @@
+{
+  "title": "La acústica de Heroes",
+  "artist": "David Bowie",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "En 1977, en un Berlín dividido por la Guerra Fría, David Bowie grabó 'Heroes' usando un pasillo y tres micrófonos. El productor Tony Visconti ideó un sistema revolucionario para capturar la voz de Bowie en el enorme pasillo del estudio. Colocó tres micrófonos a diferentes distancias: el primero a centímetros, el segundo a 6 metros y el tercero a 15 metros. Los dos micrófonos más lejanos tenían compuertas de sonido que solo se abrían cuando Bowie cantaba con más fuerza. A medida que la canción crecía, Bowie empezó a gritar con desesperación, abriendo los micrófonos lejanos al unísono. La reverberación natural del pasillo de Berlín se mezcló con su voz, capturando la angustia física y el eco del Muro. El resultado fue un himno de esperanza y resistencia nacido de la acústica pura de una ciudad fracturada.",
+  "hook": "En 1977, en un Berlín dividido por la Guerra Fría, David Bowie grabó 'Heroes' usando un pasillo y tres micrófonos.",
+  "beats": [
+    "El productor Tony Visconti ideó un sistema revolucionario para capturar la voz de Bowie en el enorme pasillo del estudio.",
+    "Colocó tres micrófonos a diferentes distancias: el primero a centímetros, el segundo a 6 metros y el tercero a 15 metros.",
+    "Los dos micrófonos más lejanos tenían compuertas de sonido que solo se abrían cuando Bowie cantaba con más fuerza.",
+    "A medida que la canción crecía, Bowie empezó a gritar con desesperación, abriendo los micrófonos lejanos al unísono.",
+    "La reverberación natural del pasillo de Berlín se mezcló con su voz, capturando la angustia física y el eco del Muro."
+  ],
+  "outro": "El resultado fue un himno de esperanza y resistencia nacido de la acústica pura de una ciudad fracturada.",
+  "palette": {
+    "ink": "#0b0d13",
+    "paper": "#f4f5f8",
+    "accent": "#cf2e2e",
+    "glow": "#4a5b78"
+  },
+  "music": {
+    "title": "Heroes",
+    "artist": "David Bowie",
+    "src": "music/david-bowie-heroes.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Heroes David Bowie",
+      "expectedTitle": "Heroes (Single Version) [2017 Remaster]",
+      "expectedArtist": "David Bowie",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/david-bowie-heroes/scene-01.png",
+      "prompt": "David Bowie in Hansa Studios in 1977, looking intense, cool vintage photography look, Berlin Wall visible through the glass window, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-02.png",
+      "prompt": "The producer Tony Visconti adjusting controls on the analog mixing console of Hansa Studios under warm orange spotlights, moody vintage look, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-03.png",
+      "prompt": "A long and narrow empty hallway of Hansa Studio in Berlin, wooden walls, three condenser microphones on tall stands spaced out into the distance, moody 1970s look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-04.png",
+      "prompt": "David Bowie singing intimately and whispering into a vintage Neumann microphone in the dim light of a recording studio, warm lighting, 1970s film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-05.png",
+      "prompt": "David Bowie screaming passionately and intensely into a microphone, head tilted back, veins showing in his neck, high contrast grainy 1970s look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-06.png",
+      "prompt": "A vintage 1970s reel-to-reel open tape recorder spinning slowly, glowing red peak VU meters, dust floating in the amber studio light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/david-bowie-heroes/scene-07.png",
+      "prompt": "A vintage vinyl copy of David Bowie's Heroes album spinning on a retro wood turntable under a warm overhead lamp, grainy 1970s photo, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 8,
+      "src": "videos/david-bowie-heroes/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "src": "videos/david-bowie-heroes/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "src": "videos/david-bowie-heroes/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "src": "videos/david-bowie-heroes/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "src": "videos/david-bowie-heroes/transition-bowie-hallway.mp4",
+      "type": "video"
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "src": "videos/david-bowie-heroes/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/david-bowie-heroes/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "src": "videos/david-bowie-heroes/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "En 1977, en un Berlín dividido por la Guerra Fría, David Bowie grabó 'Heroes' usando un pasillo y tres micrófonos."
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "text": "El productor Tony Visconti ideó un sistema revolucionario para capturar la voz de Bowie en el enorme pasillo del estudio."
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "text": "Colocó tres micrófonos a diferentes distancias: el primero a centímetros, el segundo a 6 metros y el tercero a 15 metros."
+    },
+    {
+      "start": 24,
+      "end": 40,
+      "text": "Los dos micrófonos más lejanos tenían compuertas de sonido que solo se abrían cuando Bowie cantaba con más fuerza."
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "text": "A medida que la canción crecía, Bowie empezó a gritar con desesperación, abriendo los micrófonos lejanos al unísono."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "La reverberación natural del pasillo de Berlín se mezcló con su voz, capturando la angustia física y el eco del Muro."
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "text": "El resultado fue un himno de esperanza y resistencia nacido de la acústica pura de una ciudad fracturada."
+    }
+  ],
+  "clip": {
+    "src": "videos/david-bowie-heroes/transition-bowie-hallway.mp4",
+    "prompt": "8 second vertical cinematic transition from David Bowie whispering into a microphone in a dark studio to a fast camera flythrough along a long concrete hallway, passing two other microphones that light up with a red glow as his voice grows into a scream, no text",
+    "startSecond": 32,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/david-bowie-heroes"
+  }
+}

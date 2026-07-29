@@ -1,0 +1,186 @@
+{
+  "title": "El Vals Nupcial que Nació en el Presidio",
+  "artist": "Paloma San Basilio",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "«Luna de Miel», convertida en el vals nupcial por excelencia en el mundo hispano tras la apoteósica versión de Paloma San Basilio en 1987, encierra una de las biografías más inverosímiles de la música moderna. Su melodía original nació en 1959 para la película anglohispana «Honeymoon» de Michael Powell con Antonio el Bailarín, un filme que fracasó estrepitosamente en taquilla. Su compositor, el genio griego Mikis Theodorakis, fue encarcelado y torturado durante la Dictadura de los Coroneles, mientras su música era prohibida por decreto militar. Años antes del esplendor vocal de Paloma, un joven Paul McCartney se obsesionó con la melodía y convenció a The Beatles de grabarla en los estudios de la BBC en 1963 bajo el título «The Honeymoon Song».",
+  "hook": "La balada que media España bailó en sus bodas... nació de un fracaso en el cine y llevó a su autor a una celda militar.",
+  "beats": [
+    "Durante generaciones, millones de parejas inauguraron su matrimonio al compás nostálgico de «Luna de Miel».",
+    "Pero la melodía nació en 1959 de un sonoro descalabro: la película «Honeymoon» de Michael Powell, rodada en España con Antonio el Bailarín.",
+    "El filme naufragó en taquilla, pero el poeta Rafael de Penagos rescató aquella partitura y Gloria Lasso la inmortalizó en París.",
+    "En julio de 1963, un joven Paul McCartney, obsesionado con la melodía, convenció a The Beatles para grabarla en los estudios de la BBC.",
+    "Cuatro años después, los tanques tomaron Atenas. La dictadura de los coroneles instauró el terror y prohibió la obra de Theodorakis.",
+    "Encarcelado en el presidio de Averof, el compositor resistió al régimen mientras Grecia cantaba su melodía como himno clandestino de libertad.",
+    "En 1987, casi tres décadas después, Paloma San Basilio revistió la obra de esplendor orquestal en su álbum «Grande».",
+    "Años más tarde, Paloma y una anciana Gloria Lasso sellaron en televisión el abrazo histórico de dos épocas irrepetibles.",
+    "Sobrevivió al celuloide, a The Beatles y a las celdas militares para ser eterna. ¿Qué recuerdo guardas al escuchar este vals?"
+  ],
+  "outro": "«Luna de Miel» cruzó la censura, el pop británico y el tiempo para volverse eterna. ¿Qué recuerdo guardas de esta canción?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fbfaf8",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Luna de Miel",
+    "artist": "Paloma San Basilio",
+    "src": "music/paloma-san-basilio-luna-de-miel-acordes-ocultos.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Luna de Miel Paloma San Basilio",
+      "expectedTitle": "Luna de Miel",
+      "expectedArtist": "Paloma San Basilio",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Dramatic vertical 9:16 portrait of Spanish singer Paloma San Basilio in 1987, glamorous shoulder-length 1980s styled brown wavy hair, elegant black theatrical evening gown with gold embroidered details, singing passionately into a vintage chrome stage microphone, warm golden spotlight rim lighting, deep velvet stage background with subtle cinematic haze and bokeh, high-end 35mm concert film grain, perfectly centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-01.png",
+      "prompt": "Cinematic documentary still, vertical 9:16: A joyful Spanish wedding reception in Madrid during the late 1980s. A glamorous bride in white lace and groom in black tuxedo dancing closely in the center of an elegant vintage ballroom with crystal chandeliers, while guests watch warmly. Soft golden film glow, warm nostalgic romance, Kodak Portra 35mm grain, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-02.png",
+      "prompt": "Historical film set photograph, vertical 9:16: Andalusia Spain 1959, outdoor movie set of Michael Powell's British film Honeymoon. Famous Spanish flamenco dancer Antonio el Bailarín in traditional Andalusian flamenco attire rehearsing beside British film cameras on tripods and stage lights under the blazing Andalusian sun, 1950s Technicolor film aesthetic, vintage cinema production atmosphere, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-03.png",
+      "prompt": "Vintage 1959 recording studio still, vertical 9:16: Spanish singer Gloria Lasso in a stylish 1950s floral cocktail dress and pearl earrings, singing into a classic Neumann U47 tube microphone. Behind the glass partition, Spanish poet and lyricist Rafael de Penagos is writing lyrics on a notepad next to a sound engineer at an analog mixing console. Warm vintage studio lighting, monochrome or sepia-toned classic record studio aesthetic, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-04.png",
+      "prompt": "BBC Paris Theatre London July 1963, vertical 9:16: A young 21-year-old Paul McCartney with classic moptop haircut and slim suit playing his violin bass and singing into a studio microphone beside young George Harrison on Gretsch electric guitar during Pop Go The Beatles session. Vintage BBC broadcasting studio equipment, reel-to-reel tape machine in the background, warm black and white 1960s British music documentary photograph, high detail, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-05.png",
+      "prompt": "Athens Greece April 1967, vertical 9:16: Military coup d'état of the Greek Colonels. Military tanks and armed soldiers patrol the streets near Syntagma Square and neoclassical Greek buildings under an overcast ominous sky. High tension and somber historical drama, black and white archival photojournalism, authentic 1967 textures, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-06.png",
+      "prompt": "Averof prison Athens 1968, vertical 9:16: Greek composer Mikis Theodorakis in his 40s, tall, imposing with thick dark wavy hair and intense determined eyes, sitting in a dim austere concrete prison cell on a cot. Beside him on a small wooden table are handwritten musical staves and a pencil. Harsh light streaming through a small barred window creating dramatic shadows, somber, defiant, 35mm documentary photography, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-07.png",
+      "prompt": "Madrid recording studio 1987, vertical 9:16: Spanish singer Paloma San Basilio, authentic and recognizable portrait with delicate oval face, almond-shaped light hazel eyes, arched fine brows, warm serene smile, elegant blonde-highlighted wavy hair, wearing an emerald green silk blouse, singing into an expensive Neumann studio condenser microphone. Behind the acoustic glass partition, a full symphonic string orchestra with violins and cellos plays under warm acoustic wood studio lighting, cinematic 35mm film photograph, highly detailed, vertical 9:16, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-08.png",
+      "prompt": "Spanish television stage 1990s, vertical 9:16: An emotional musical duet on stage. On the left, Spanish singer Paloma San Basilio with her distinct delicate facial features, light hazel eyes, and stylish short golden-highlighted wavy hair, wearing an elegant sequined evening suit, holding a microphone. On the right, legendary elderly singer Gloria Lasso in her 70s with silver-streaked hair and an elegant bolero jacket, singing together with deep affection and mutual admiration. Soft theatrical spotlight, warm TV studio audience applause in background, 35mm photograph, vertical 9:16, no text."
+    },
+    {
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-09.png",
+      "prompt": "Epic poetic visual metaphor, vertical 9:16: A magnificent full moon glowing brightly in a deep indigo midnight sky, casting a radiant golden and silver beam of light across the tranquil waters of the Aegean Sea and ancient classical Greek coastal pillars in the distance. A silhouette of musical notes dissolving into starlight, breathtaking cinematic atmosphere, sublime nostalgic beauty, 35mm film still, vertical 9:16, no text."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/paloma-san-basilio-luna-de-miel-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Durante generaciones, millones de parejas inauguraron su matrimonio al compás nostálgico de «Luna de Miel»."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Pero la melodía nació en 1959 de un sonoro descalabro: la película «Honeymoon» de Michael Powell, rodada en España con Antonio el Bailarín."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "El filme naufragó en taquilla, pero el poeta Rafael de Penagos rescató aquella partitura y Gloria Lasso la inmortalizó en París."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En julio de 1963, un joven Paul McCartney, obsesionado con la melodía, convenció a The Beatles para grabarla en los estudios de la BBC."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Cuatro años después, los tanques tomaron Atenas. La dictadura de los coroneles instauró el terror y prohibió la obra de Theodorakis."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Encarcelado en el presidio de Averof, el compositor resistió al régimen mientras Grecia cantaba su melodía como himno clandestino de libertad."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En 1987, casi tres décadas después, Paloma San Basilio revistió la obra de esplendor orquestal en su álbum «Grande»."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Años más tarde, Paloma y una anciana Gloria Lasso sellaron en televisión el abrazo histórico de dos épocas irrepetibles."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Sobrevivió al celuloide, a The Beatles y a las celdas militares para ser eterna. ¿Qué recuerdo guardas al escuchar este vals?"
+    }
+  ],
+  "publication": {
+    "description": "La balada que media España bailó como vals nupcial nació de un descalabro cinematográfico y llevó a su autor a una celda militar.\n\nEn 1959, el cineasta británico Michael Powell filmó en España la película «Honeymoon» con Antonio el Bailarín. La cinta fue un rotundo fracaso en taquilla, pero su partitura, escrita por el genio griego Mikis Theodorakis, se negó a morir. El poeta Rafael de Penagos adaptó sus versos al castellano y Gloria Lasso la convirtió en éxito continental.\n\nPocos saben que en julio de 1963, fascinado por la canción, Paul McCartney impulsó a The Beatles a grabar «The Honeymoon Song» en la BBC. Años después, la Dictadura de los Coroneles en Grecia prohibió por decreto militar la música de Theodorakis, enviándolo al presidio de Averof mientras su pueblo entonaba la melodía en la clandestinidad. En 1987, Paloma San Basilio la rescató con arreglos sinfónicos majestuosos, otorgándole su cumbre definitiva.\n\nUna obra que venció a la censura, a los cuarteles y al olvido. ¿Qué recuerdo personal te despierta «Luna de Miel»?\n\n#PalomaSanBasilio #LunaDeMiel #TheBeatles #MikisTheodorakis #AcordesOcultos #HistoriaDeLaMusica #GrandesCanciones"
+  }
+}

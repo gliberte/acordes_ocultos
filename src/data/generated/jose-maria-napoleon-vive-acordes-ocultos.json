@@ -1,0 +1,186 @@
+{
+  "title": "La Vergüenza que Creó un Himno",
+  "artist": "José María Napoleón",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1976, un joven José María Napoleón regresó frustrado a su modesta casa en Aguascalientes quejándose amargamente de no tener dinero. Al ver a su madre lavando ropa ajena con las manos agrietadas por el agua fría y escucharla agradecer a Dios por tener un plato de sopa caliente, la vergüenza lo quebró en llanto. En 15 minutos nació «Vive», el himno que el jurado del OTI castigó con el 4º lugar pero que el pueblo convirtió en inmortalidad.",
+  "hook": "El himno a la vida que nació de la vergüenza de un hijo al ver a su madre lavar ropa ajena para darle de comer.",
+  "beats": [
+    "En 1976, un joven José María Napoleón regresó derrotado a su pueblo en Aguascalientes, sintiendo la amargura de no haber triunfado en la música.",
+    "Al entrar al hogar paterno, vio a su madre con las manos agrietadas por el frío, lavando ropa ajena para conseguir el pan diario.",
+    "Mientras ella le servía un plato humilde de sopa estirado con agua, el joven comenzó a quejarse amargamente por su falta de dinero y lujos.",
+    "Su madre lo miró a los ojos y lo desarmó con dulzura: «Hijo, tienes salud y un techo; nada material te llevarás. Da gracias y vive».",
+    "Avergonzado hasta las lágrimas por su soberbia, tomó su guitarra en un rincón y en quince minutos febriles brotaron los versos eternos de «Vive».",
+    "Meses después, en el Festival OTI de México, Napoleón cantó con el alma abierta de par en par, levantando de sus asientos al teatro entero.",
+    "Pero el jurado lo castigó con un injusto cuarto lugar; el público indignado abucheó el fallo y la calle adoptó la canción como su bandera.",
+    "La radio la convirtió en el himno de toda una generación: millones de almas aprendieron que la verdadera riqueza no cabe en los bolsillos.",
+    "Con sus primeras regalías, Napoleón corrió a Aguascalientes y le regaló a su madre una casa digna, alejándola para siempre del lavadero. ¿Qué opinas tú?"
+  ],
+  "outro": "Una lección de humildad materna que se transformó en himno. ¿Crees que «Vive» es la canción más inspiradora de la música en español?",
+  "palette": {
+    "ink": "#1a120b",
+    "paper": "#fdf8f0",
+    "accent": "#c2410c",
+    "glow": "#ea580c"
+  },
+  "music": {
+    "title": "Vive",
+    "artist": "José María Napoleón",
+    "src": "music/jose-maria-napoleon-vive.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Vive Jose Maria Napoleon",
+      "expectedTitle": "Vive",
+      "expectedArtist": "José María Napoleón",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/jose-maria-napoleon-vive-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of young Mexican singer-songwriter Jose Maria Napoleon late 1970s, stylish wavy dark hair and distinctive mustache, soulful expressive brown eyes, wearing simple 1970s acoustic troubadour attire, warm amber studio rim lighting, textured authentic 35mm film grain, centered composition, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-01.png",
+      "prompt": "Aguascalientes Mexico 1976 street: A young 25-year-old Mexican singer-songwriter Jose Maria Napoleon walking with a worn suitcase along a dusty cobblestone street, looking tired and crestfallen, warm afternoon Mexican sunlight, authentic vintage 1970s Kodak 35mm photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-02.png",
+      "prompt": "Humble Mexican courtyard washbasin 1976: An elderly Mexican mother with gray hair tied in a modest bun, wearing an apron, scrubbing laundry on an old concrete washboard with chapped hardworking hands in soapy water, rustic adobe wall background, emotional 35mm realism, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-03.png",
+      "prompt": "Modest Mexican home kitchen interior 1976: An elderly Mexican mother gently serving a warm bowl of simple homemade soup onto a rustic wooden table, while young Jose Maria Napoleon sits looking troubled with downcast eyes, intimate chiaroscuro lighting, textured 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-04.png",
+      "prompt": "Tender emotional close-up portrait 1976: An elderly Mexican mother with gentle wrinkles and loving compassionate eyes speaking gently to her son, warm natural window light illuminating her face, cinematic emotional 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-05.png",
+      "prompt": "Sunlit humble bedroom corner 1976: Young Jose Maria Napoleon sitting on the edge of a bed holding a wooden acoustic guitar, tears of catharsis on his cheeks, rapidly writing lyrics in an old notebook with a pen, afternoon dust motes in golden light, authentic 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-06.png",
+      "prompt": "Festival OTI stage Mexico City 1976: Young Jose Maria Napoleon singing passionately into a vintage microphone with arms outstretched, dramatic theater spotlights, orchestral musicians and violins behind him, iconic 1970s concert documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-07.png",
+      "prompt": "Grand theater auditorium Mexico 1976: Passionate theater audience standing on their feet in protest, clapping and cheering fervently for the singer while judges sit at a formal scoring table below, dramatic theatrical lighting, authentic 35mm archival photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-08.png",
+      "prompt": "Vintage 1970s Mexican city life: A classic yellow taxicab with dashboard radio dial glowing, street vendors and people listening intently to music on portable transistor radios in warm twilight, vibrant nostalgic 35mm street photography, vertical 9:16."
+    },
+    {
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-09.png",
+      "prompt": "Bright sunny home patio Aguascalientes: Proud mature Jose Maria Napoleon lovingly embracing his smiling elderly mother in front of a beautiful clean Mexican house with colorful bougainvillea flowers, her hands resting peacefully, warm golden hour 35mm portrait, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/jose-maria-napoleon-vive-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1976, un joven José María Napoleón regresó derrotado a su pueblo en Aguascalientes, sintiendo la amargura de no haber triunfado en la música."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Al entrar al hogar paterno, vio a su madre con las manos agrietadas por el frío, lavando ropa ajena para conseguir el pan diario."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Mientras ella le servía un plato humilde de sopa estirado con agua, el joven comenzó a quejarse amargamente por su falta de dinero y lujos."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Su madre lo miró a los ojos y lo desarmó con dulzura: «Hijo, tienes salud y un techo; nada material te llevarás. Da gracias y vive»."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Avergonzado hasta las lágrimas por su soberbia, tomó su guitarra en un rincón y en quince minutos febriles brotaron los versos eternos de «Vive»."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Meses después, en el Festival OTI de México, Napoleón cantó con el alma abierta de par en par, levantando de sus asientos al teatro entero."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Pero el jurado lo castigó con un injusto cuarto lugar; el público indignado abucheó el fallo y la calle adoptó la canción como su bandera."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "La radio la convirtió en el himno de toda una generación: millones de almas aprendieron que la verdadera riqueza no cabe en los bolsillos."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Con sus primeras regalías, Napoleón corrió a Aguascalientes y le regaló a su madre una casa digna, alejándola para siempre del lavadero. ¿Qué opinas tú?"
+    }
+  ],
+  "publication": {
+    "description": "El himno a la existencia más conmovedor de la música en español no nació del éxito ni de la riqueza, sino de la vergüenza de un hijo al ver a su madre lavar ropa ajena para darle de comer.\n\nEn 1976, un joven José María Napoleón regresó derrotado a su modesto hogar en Aguascalientes. Frustrado por no haber alcanzado la fama ni el dinero, comenzó a quejarse amargamente mientras su madre le servía un plato humilde de sopa. Al verla con las manos agrietadas por el agua helada, ella lo miró con ternura y lo desarmó: «Hijo, tienes salud y un techo; nada material te llevarás cuando partas. Da gracias a Dios y vive».\n\nAvergonzado hasta las lágrimas por su soberbia, Napoleón se encerró con su guitarra y, en quince minutos febriles de catarsis, compuso «Vive». Meses después, en el Festival OTI de México, cantó con el alma desgarrada; el jurado lo castigó con un cuarto lugar, pero el público enfurecido abucheó el fallo y convirtió la canción en un himno eterno. Con sus primeras regalías, corrió a comprarle a su madre la casa que siempre soñó, alejándola para siempre del lavadero.\n\nUna lección de dignidad que nos recuerda que la verdadera riqueza jamás cupo en los bolsillos. ¿Crees que «Vive» es la balada más inspiradora de nuestra música?\n\n#JoseMariaNapoleon #Vive #AcordesOcultos #HistoriaDeLaMusica #FestivalOTI #BaladaEnEspanol #MusicaMexicana"
+  }
+}

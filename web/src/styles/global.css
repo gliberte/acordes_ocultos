@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-gold: #d97706;
+  --color-brand-amber: #f59e0b;
+  --color-brand-amber-light: #fbbf24;
+  --color-brand-dark: #0a0908;
+  --color-brand-surface: #12110e;
+  --color-brand-card: #181613;
+  --color-brand-border: #2a2620;
+  --color-brand-border-glow: #d9770640;
+  --color-brand-muted: #9ca3af;
+  --color-brand-paper: #fdfbf7;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0a0908;
+  color: #f3f4f6;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  selection-background-color: #d97706;
+  selection-color: #ffffff;
+}
+
+::selection {
+  background: #d97706;
+  color: #ffffff;
+}
+
+/* Custom scrollbar for dark vintage look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0c0a;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2620;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d97706;
+}
+
+/* Vinyl subtle radial glow */
+.vinyl-radial {
+  background: radial-gradient(circle at 50% 20%, rgba(217, 119, 6, 0.12) 0%, rgba(10, 9, 8, 0) 70%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #fbbf24 0%, #d97706 50%, #b45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

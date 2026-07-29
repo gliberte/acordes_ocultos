@@ -1,0 +1,147 @@
+{
+  "title": "La falsa enemistad del rock sureño",
+  "artist": "Lynyrd Skynyrd",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El himno definitivo del orgullo sureño nació como una declaración de guerra hacia un gigante del rock, ocultando un pacto secreto de respeto mutuo. A inicios de los 70, Neil Young retrató al sur de Estados Unidos con dureza implacable, tildando su tierra de racismo y cicatrices sin sanar. Desde Florida, los jóvenes de Lynyrd Skynyrd sintieron el latigazo del prejuicio ajeno y Ronnie Van Zant esculpió una respuesta con rabia y orgullo. La prensa avivó el fuego de una supuesta trinchera cultural, pero tras los focos, brotó una complicidad íntima e insólita. Neil Young aplaudió su Sweet Home Alabama, y Ronnie Van Zant cantaba vistiendo el Tonight’s the Night de su supuesto enemigo. El destino truncó una colaboración dorada con un trágico accidente aéreo en 1977, congelando en el aire una canción que nunca pudimos oír. Sweet Home Alabama no es un ataque; es la prueba de que el arte puede tender puentes sobre cualquier grieta del alma. Y tú, ¿por qué tierra defenderías tu orgullo?",
+  "hook": "El himno definitivo del orgullo sureño nació como una declaración de guerra hacia un gigante del rock, ocultando un pacto secreto de respeto mutuo.",
+  "beats": [
+    "A inicios de los 70, Neil Young retrató al sur de Estados Unidos con dureza implacable, tildando su tierra de racismo y cicatrices sin sanar.",
+    "Desde Florida, los jóvenes de Lynyrd Skynyrd sintieron el latigazo del prejuicio ajeno y Ronnie Van Zant esculpió una respuesta con rabia y orgullo.",
+    "La prensa avivó el fuego de una supuesta trinchera cultural, pero tras los focos, brotó una complicidad íntima e insólita.",
+    "Neil Young aplaudió su Sweet Home Alabama, y Ronnie Van Zant cantaba vistiendo el Tonight’s the Night de su supuesto enemigo.",
+    "El destino truncó una colaboración dorada con un trágico accidente aéreo en 1977, congelando en el aire una canción que nunca pudimos oír."
+  ],
+  "outro": "Sweet Home Alabama no es un ataque; es la prueba de que el arte puede tender puentes sobre cualquier grieta del alma. Y tú, ¿por qué tierra defenderías tu orgullo?",
+  "palette": {
+    "ink": "#1c1917",
+    "paper": "#fefaf6",
+    "accent": "#b45309",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Sweet Home Alabama",
+    "artist": "Lynyrd Skynyrd",
+    "src": "music/alabama.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Sweet Home Alabama Lynyrd Skynyrd",
+      "expectedTitle": "Sweet Home Alabama",
+      "expectedArtist": "Lynyrd Skynyrd",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/alabama/scene-01.png",
+      "prompt": "A realistic 1974 color photograph of a vintage vinyl record spinning on a wooden turntable, displaying the green and orange MCA Records label of Sweet Home Alabama, warm analogue lighting, textured film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-02.png",
+      "prompt": "A realistic 1972 photograph of a thoughtful singer-songwriter with long dark hair and a flannel shirt (representing Neil Young) playing a black Gibson Les Paul electric guitar on a dimly lit stage, smoky atmosphere, warm amber spotlight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-03.png",
+      "prompt": "A realistic 1974 photograph of a young singer with long straight blondish hair, a wide-brimmed black hat, and a rugged look (representing Ronnie Van Zant) singing passionately with a microphone in front of his face, backstage studio background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-04.png",
+      "prompt": "A vintage 1970s music magazine cover lying on a wooden table, featuring headlines of a cultural war between rock stars, retro layout, high contrast grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-05.png",
+      "prompt": "A realistic 1975 photograph of Ronnie Van Zant performing live on stage, wearing a black Tonight's the Night Neil Young album cover t-shirt, crowd lights in background, raw concert energy, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-06.png",
+      "prompt": "A dramatic 1977 photograph of a classic twin-engine passenger propeller plane flying through thick gray clouds at dusk, cold cinematic lighting, sense of tragic destiny, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/alabama/scene-07.png",
+      "prompt": "A warm, glowing silhouette of two musicians standing together backstage, one with a guitar, sharing a friendly nod, warm stage lights casting long shadows, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/alabama/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/alabama/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/alabama/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/alabama/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/alabama/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/alabama/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/alabama/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno definitivo del orgullo sureño nació como una declaración de guerra hacia un gigante del rock, ocultando un pacto secreto de respeto mutuo."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "A inicios de los 70, Neil Young retrató al sur de Estados Unidos con dureza implacable, tildando su tierra de racismo y cicatrices sin sanar."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Desde Florida, los jóvenes de Lynyrd Skynyrd sintieron el latigazo del prejuicio ajeno y Ronnie Van Zant esculpió una respuesta con rabia y orgullo."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La prensa avivó el fuego de una supuesta trinchera cultural, pero tras los focos, brotó una complicidad íntima e insólita."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Neil Young aplaudió su Sweet Home Alabama, y Ronnie Van Zant cantaba vistiendo el Tonight’s the Night de su supuesto enemigo."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El destino truncó una colaboración dorada con un trágico accidente aéreo en 1977, congelando en el aire una canción que nunca pudimos oír."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Sweet Home Alabama no es un ataque; es la prueba de que el arte puede tender puentes sobre cualquier grieta del alma. Y tú, ¿por qué tierra defenderías tu orgullo?"
+    }
+  ]
+}

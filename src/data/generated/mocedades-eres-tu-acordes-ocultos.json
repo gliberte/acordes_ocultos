@@ -1,0 +1,136 @@
+{
+  "title": "La Canción en Español que Desafió al Mundo en 1973",
+  "artist": "Mocedades",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En abril de 1973, seis jóvenes del País Vasco llegaron a Eurovisión en Luxemburgo bajo una tormenta de sospechas: la prensa europea los acusó de haber plagiado el tema yugoslavo 'Brez besed' de 1966. La tensión era insoportable antes de salir a escena. Pero cuando Amaya Uranga y Mocedades comenzaron a cantar 'Eres tú', la majestuosidad de sus armonías vocales y los arreglos del maestro Juan Carlos Calderón paralizaron a toda Europa. Aunque quedaron en un histórico segundo puesto, la verdadera hazaña ocurrió meses después al cruzar el Atlántico: 'Eres tú' escaló hasta el puesto número 9 del Billboard Hot 100 en Estados Unidos, convirtiéndose en una de las poquísimas canciones totalmente en español en conquistar las radios anglosajonas. Una obra maestra que demostró que la emoción pura no necesita traducción.",
+  "hook": "En 1973, seis jóvenes españoles llegaron a Eurovisión acusados de plagio... y terminaron conquistando América.",
+  "beats": [
+    "En abril de 1973, seis voces del País Vasco subieron al escenario de Luxemburgo bajo una tensión demoledora.",
+    "Días antes, la prensa europea los acusó de haber plagiado un tema yugoslavo, sembrando dudas sobre su arte.",
+    "Pero cuando Amaya Uranga entonó el primer verso, un silencio sobrecogedor invadió el teatro.",
+    "La batuta magistral de Juan Carlos Calderón desató una marea sinfónica donde cada armonía rozaba la perfección.",
+    "Al apagarse el último acorde, el Gran Teatro estalló en una de las mayores ovaciones en la historia del festival.",
+    "Quedaron segundos en una votación cardiaca, pero el verdadero milagro apenas estaba por comenzar.",
+    "Meses después, la canción cruzó el océano y comenzó a sonar con fuerza en las emisoras de Estados Unidos.",
+    "Cantada enteramente en español, escaló hasta el puesto número 9 del mítico Billboard Hot 100.",
+    "Una joya inmortal que demostró que el alma no necesita traducción. ¿Qué recuerdo te despierta 'Eres tú'?"
+  ],
+  "outro": "Una armonía vocal legendaria que demostró que la belleza no necesita traducción. ¿Qué sientes al escucharla?",
+  "palette": {
+    "ink": "#0b0c16",
+    "paper": "#fbf7ee",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Eres tú",
+    "artist": "Mocedades",
+    "src": "music/mocedades-eres-tu.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Eres tu Mocedades",
+      "expectedTitle": "Eres tú",
+      "expectedArtist": "Mocedades",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-01.png",
+      "prompt": "Authentic 1973 documentary stage photograph of Spanish vocal group Mocedades standing in a line at chrome microphone stands on the Grand Théâtre stage at Eurovision in Luxembourg. In the center stands lead singer Amaya Uranga wearing an elegant high-neck white pleated blouse and an emerald green maxi skirt. Beside her is Izaskun in a long flowing pastel pink gown with bishop sleeves. To the sides stand the male vocalists in authentic 1973 tailoring: Javier Garay with a Spanish acoustic guitar in a dark suit with a polka-dot bow tie, Carlos Zubiaga in a white blazer jacket with 1970s rectangular horn-rimmed glasses, Roberto Uranga in a formal dark suit and tie, and bearded José Ipiña. Warm theatrical spotlights beam down, full symphony orchestra visible in background risers. Authentic 35mm film grain, warm vintage analog color, 1970s documentary photography, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-02.png",
+      "prompt": "Cinematic close-up of a 1973 European vintage wooden backstage desk littered with European press newspaper clippings with dramatic French and German headlines about Eurovision plagiarism controversy, beside original music sheet scores titled 'Brez besed' and 'Eres Tú'. A vintage cup of black coffee, an ashtray with thin smoke curling, and anxious backstage atmosphere. Soft warm tungsten lamplight from the side, deep dramatic shadows, shallow depth of field, authentic 1970s photojournalism, 35mm film grain, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-03.png",
+      "prompt": "Breathtaking cinematic close-up photograph of Spanish singer Amaya Uranga singing with raw emotional passion and poise during her 1973 Eurovision performance. She has sleek jet-black hair with a strict middle part tucked behind her ears, distinct almond-shaped dark Basque eyes, natural arched eyebrows, mouth slightly open as she hits a soaring vocal note. She holds a vintage dark cylindrical perforated stage microphone with a subtle silver ring on her hand. She wears her iconic high-neck white silk pleated blouse. Warm golden spotlights highlighting her profile against a soft-focus dark concert hall, authentic 35mm Kodachrome film grain, photorealistic historical fidelity, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-04.png",
+      "prompt": "Dynamic 1973 concert photograph of Spanish conductor and composer Juan Carlos Calderón passionately directing a 50-piece live symphony orchestra in the pit of the Eurovision theatre. Calderón, wearing a tailored 1970s black tuxedo with floppy bowtie, raises his hands and baton with intense expressive emotion. Blurred cellos, violins, and brass instruments surround him under warm orchestral stage illumination. Fast-paced dramatic angle, sheet music illuminated on music stands, 35mm film photography, motion blur on the baton, authentic 1970s analog warmth, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-05.png",
+      "prompt": "Wide cinematic shot from behind Mocedades on stage looking out into the Grand Théâtre of Luxembourg in 1973. A distinguished European audience in evening gowns and classic tuxedos rising to their feet in a thunderous standing ovation. Warm golden theatre balconies, red velvet upholstery, massive applause under glowing mid-century chandelier lighting, atmospheric dust motes dancing in stage spotlight beams, 35mm analog film aesthetic, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-06.png",
+      "prompt": "Dramatic historical photograph of the giant 1973 Eurovision illuminated electronic scoreboard in Luxembourg during the live voting tally. Bright analog light bulbs displaying country names in French: 'ESPAGNE - MOCEDADES' glowing brightly in 2nd place with soaring point numbers, right behind Luxembourg. Television broadcast cameras, broadcast technician silhouette in foreground, tense high-stakes television broadcast atmosphere, 1970s documentary aesthetic, 35mm film grain, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-07.png",
+      "prompt": "Atmospheric 1974 photograph inside an American FM radio broadcast control room in New York City. A warm glow illuminates an analog audio mixing console with illuminated VU meters, reel-to-reel tape recorders spinning in background, large vintage studio microphone on a scissor arm. Outside the rain-streaked window, blurred 1970s Manhattan neon lights. In foreground on the console rests an original 7-inch vinyl record paper sleeve with printed text 'MOCEDADES - ERES TÚ', authentic 1970s radio broadcast history, 35mm warm analog photography, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-08.png",
+      "prompt": "Close-up photograph of an authentic original April 1974 Billboard Magazine 'Hot 100 Singles' printed chart resting on a mid-century wooden studio table. A vintage red pen circles the Top 10 entry clearly reading '9 - ERES TÚ (Touch the Wind) - MOCEDADES', surrounded by classic 1974 hits. Warm ambient desk lamp lighting, retro yellowed newsprint paper texture, high-detail macro shot, 35mm documentary photography, 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-09.png",
+      "prompt": "Intimate and emotional 1973 backstage photograph of the members of Mocedades embracing and celebrating right after their historic Eurovision performance in Luxembourg. In the center, lead singer Amaya Uranga holds a bouquet of fresh red roses with tears of joy and pride in her eyes. Izaskun in her pink dress and the band members surround her in a heartfelt group embrace. Warm tungsten dressing room lights reflecting off mirrors, candid 1970s documentary photojournalism, authentic 35mm film grain, emotional and triumphant, 9:16 aspect ratio."
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/mocedades-eres-tu-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En abril de 1973, seis voces del País Vasco subieron al escenario de Luxemburgo bajo una tensión demoledora."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Días antes, la prensa europea los acusó de haber plagiado un tema yugoslavo, sembrando dudas sobre su arte."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Pero cuando Amaya Uranga entonó el primer verso, un silencio sobrecogedor invadió el teatro."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "La batuta magistral de Juan Carlos Calderón desató una marea sinfónica donde cada armonía rozaba la perfección."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Al apagarse el último acorde, el Gran Teatro estalló en una de las mayores ovaciones en la historia del festival."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Quedaron segundos en una votación cardiaca, pero el verdadero milagro apenas estaba por comenzar."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Meses después, la canción cruzó el océano y comenzó a sonar con fuerza en las emisoras de Estados Unidos."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Cantada enteramente en español, escaló hasta el puesto número 9 del mítico Billboard Hot 100."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una joya inmortal que demostró que el alma no necesita traducción. ¿Qué recuerdo te despierta 'Eres tú'?"
+    }
+  ]
+}

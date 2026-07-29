@@ -1,0 +1,135 @@
+{
+  "title": "La Canción que Confesó el Amor Prohibido",
+  "artist": "Eric Clapton",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "A comienzos de los años 70, Eric Clapton estaba viviendo un conflicto imposible: se había enamorado perdidamente de la modelo Pattie Boyd, esposa de su mejor amigo George Harrison. Para ocultar su identidad pero desahogar su tormento, Clapton se inspiró en el poema persa de 'Layla y Majnún' sobre un amor prohibido que lleva a la locura. En los estudios Criteria de Miami, junto al mítico guitarrista Duane Allman, compusieron el riff legendario y la sección melódica de piano. Cuando Clapton invitó a Pattie a tomar el té a solas y encendió el reproductor de cinta, ella quedó paralizada al comprender que cada verso era para ella. Esa misma noche en una fiesta, Clapton miró a George Harrison y le confesó directamente: 'Estoy enamorado de tu esposa'. Aunque aquella noche Pattie regresó con George, el matrimonio terminó disolviéndose y en 1979 ella se casó con Clapton, sellando el triángulo amoroso más célebre de la historia del rock.",
+  "hook": "Eric Clapton compuso la canción de amor más desgarradora del rock para la esposa de su mejor amigo: George Harrison.",
+  "beats": [
+    "1970: Atormentado por un amor prohibido, Clapton usó el mito persa de 'Layla' para ocultar el nombre de Pattie Boyd.",
+    "En los estudios Criteria de Miami, se unió a Duane Allman para tejer uno de los riffs a dos guitarras más memorables de la historia.",
+    "Clapton invitó a Pattie a tomar el té a solas y encendió la cinta; ella quedó paralizada al saber que era la musa de cada verso.",
+    "Esa misma noche en una fiesta, Clapton miró a George Harrison a los ojos y le confesó: 'Estoy enamorado de tu esposa'.",
+    "Furioso y herido, George le pidió a Pattie que eligiera, pero ella desconcertada decidió marcharse con Harrison.",
+    "Durante años, la melodía resonó en todo el mundo mientras el matrimonio de George y Pattie se apagaba lentamente.",
+    "Tras su divorcio, Pattie y Eric Clapton se casaron en 1979, con el propio George Harrison asistiendo como amigo leal.",
+    "Aquella declaración desesperada en cinta se convirtió en el monumento al amor no correspondido más grande del rock."
+  ],
+  "outro": "Una pasión tan arrolladora que no destruyó una amistad, sino que transformó el dolor en una de las obras cumbres de la música.",
+  "palette": {
+    "ink": "#180c0e",
+    "paper": "#fcf5ee",
+    "accent": "#c1121f",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "Layla",
+    "artist": "Derek and the Dominos",
+    "src": "music/eric-clapton-layla.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Layla Eric Clapton Derek and the Dominos",
+      "expectedTitle": "Layla",
+      "expectedArtist": "Derek and the Dominos",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/eric-clapton-layla/scene-01.png",
+      "prompt": "Authentic 1970 photograph of 25-year-old Eric Clapton with beard playing his Sunburst Fender Stratocaster guitar with intense emotional expression, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-02.png",
+      "prompt": "1970 photograph of 25-year-old Eric Clapton writing lyrics in a dim room with a reel-to-reel tape recorder labeled Layla, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-03.png",
+      "prompt": "Authentic 1970 Criteria Studios Miami photograph of Eric Clapton and Duane Allman jamming together with electric guitars, amplifiers and microphones around them, warm analog studio lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-04.png",
+      "prompt": "1970 intimate tea time scene of 26-year-old blonde model Pattie Boyd listening to a tape deck with shocked realization beside Eric Clapton, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-05.png",
+      "prompt": "Tense 1970 party scene of 27-year-old George Harrison confronting Eric Clapton in a crowded living room with high dramatic tension, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-06.png",
+      "prompt": "1970 photograph of beautiful blonde Pattie Boyd looking conflicted walking away with George Harrison into a dark London night, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-07.png",
+      "prompt": "Melancholic 1974 photograph of beautiful blonde Pattie Boyd looking out of an English countryside manor window, golden autumn leaves outside, thoughtful expression, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-08.png",
+      "prompt": "1979 wedding photograph of Eric Clapton and Pattie Boyd in vintage British attire smiling happily together, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/eric-clapton-layla/scene-09.png",
+      "prompt": "Close-up of a 1970 vinyl record of Layla and Other Assorted Love Songs spinning on a turntable with glowing vintage lights, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/eric-clapton-layla/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/eric-clapton-layla/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/eric-clapton-layla/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/eric-clapton-layla/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/eric-clapton-layla/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/eric-clapton-layla/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/eric-clapton-layla/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/eric-clapton-layla/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/eric-clapton-layla/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Eric Clapton compuso la canción de amor más desgarradora del rock para la esposa de su mejor amigo: George Harrison."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1970: Atormentado por un amor prohibido, Clapton usó el mito persa de 'Layla' para ocultar el nombre de Pattie Boyd."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En los estudios Criteria de Miami, se unió a Duane Allman para tejer uno de los riffs a dos guitarras más memorables de la historia."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Clapton invitó a Pattie a tomar el té a solas y encendió la cinta; ella quedó paralizada al saber que era la musa de cada verso."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Esa misma noche en una fiesta, Clapton miró a George Harrison a los ojos y le confesó: 'Estoy enamorado de tu esposa'."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Furioso y herido, George le pidió a Pattie que eligiera, pero ella desconcertada decidió marcharse con Harrison."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Durante años, la melodía resonó en todo el mundo mientras el matrimonio de George y Pattie se apagaba lentamente."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Tras su divorcio, Pattie y Eric Clapton se casaron en 1979, con el propio George Harrison asistiendo como amigo leal."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Aquella declaración desesperada en cinta se convirtió en el monumento al amor no correspondido más grande del rock."
+    }
+  ]
+}

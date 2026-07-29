@@ -1,0 +1,183 @@
+{
+  "title": "El Salmo que Venció a la Guerra",
+  "artist": "The Byrds",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1965, The Byrds alcanzaron el número uno mundial con «Turn! Turn! Turn!», logrando un récord insólito: es el éxito pop con la letra más antigua de la humanidad, tomada casi palabra por palabra del Libro de Eclesiastés, atribuido al Rey Salomón hace casi tres mil años. Su origen moderno nació de la indignación: el legendario trovador Pete Seeger, perseguido y censurado por el macartismo, recibió una carta de su editor exigiéndole dejar las canciones de protesta para escribir temas comerciales y bailables. Furioso, Seeger sacó de su bolsillo los versos bíblicos, les puso música en quince minutos y añadió una sola línea de su puño y letra: «Un tiempo para la paz, juro que no es tarde». Años después, The Byrds, heridos en su orgullo porque en su debut los ejecutivos contrataron a músicos de sesión a sus espaldas, se encerraron cinco días y grabaron setenta y ocho agotadoras tomas hasta lograr la perfección en vivo. Cuando el tema escaló a la cima mientras miles de jóvenes marchaban a Vietnam, Seeger donó el 45% de sus regalías millonarias a comités pacifistas, convirtiendo un antiguo proverbio en el escudo moral de toda una generación.",
+  "hook": "El único número uno en la historia del pop con una letra escrita hace tres mil años... nacido de la furia contra la censura y 78 tomas al límite.",
+  "beats": [
+    "A finales de 1965, cuatro acordes de campana eléctrica sacudieron la radio mundial. Pero el autor de los versos no era un rockero: llevaba tres milenios muerto.",
+    "Años atrás, el folklorista Pete Seeger caminaba por los tribunales del macartismo. Vetado por el gobierno, su música era perseguida como una amenaza de Estado.",
+    "Exasperado por la censura, su editor le exigió dejar las protestas y vender canciones bailables. En respuesta, Seeger musicalizó versos bíblicos, añadiendo un grito urgente de paz.",
+    "En Hollywood, The Byrds cargaban una humillación secreta: en su primer gran éxito, los ejecutivos contrataron músicos de sesión a sus espaldas, dudando de su talento.",
+    "Para demostrar que eran una banda real, se encerraron cinco días con el productor Terry Melcher. Entre sudor, humo y nervios rotos, necesitaron setenta y ocho tomas para alcanzar la gloria.",
+    "En la toma final, las doce cuerdas de la Rickenbacker de Jim McGuinn repicaron como campanas celestiales, fundiendo la poesía ancestral con el pulso eléctrico de una nueva era.",
+    "Mientras la canción escalaba al número uno de Billboard, miles de jóvenes eran enviados al lodo de Vietnam. El salmo bíblico se convirtió en el escudo de los reclutas.",
+    "Al recibir cheques millonarios por el hit, Pete Seeger se negó a enriquecerse con la plegaria: donó el cuarenta y cinco por ciento de sus regalías a comités por la paz.",
+    "Tres mil años después de ser escrita, aquella profecía demostró que las armas enmudecen, pero las canciones de paz sobreviven a los imperios. ¿Conocías este himno inmortal?"
+  ],
+  "outro": "Un salmo milenario convertido en el escudo de una generación. ¿Crees que la música todavía tiene el poder de frenar una guerra?",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#fef3c7",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Turn! Turn! Turn!",
+    "artist": "The Byrds",
+    "src": "videos/turn-turn-turn-the-byrds/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Turn! Turn! Turn! The Byrds",
+      "expectedTitle": "Turn! Turn! Turn! (To Everything There Is a Season)",
+      "expectedArtist": "The Byrds",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial de The Byrds en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/turn-turn-turn-the-byrds/cover_bg.png",
+  "coverPrompt": "Authentic 1965 vintage color photograph portrait of Jim McGuinn of The Byrds, wearing his iconic dark rectangular granny eyeglasses and retro 1965 mod collar jacket, holding his sunburst Rickenbacker 360 twelve-string electric guitar, warm analog studio lights, 35mm film grain, vertical 9:16 framing, centered composition.",
+  "assets": [
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-01.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-02.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-03.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-04.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-05.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-06.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-07.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-08.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/turn-turn-turn-the-byrds/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/turn-turn-turn-the-byrds/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/turn-turn-turn-the-byrds/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/turn-turn-turn-the-byrds/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/turn-turn-turn-the-byrds/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/turn-turn-turn-the-byrds/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/turn-turn-turn-the-byrds/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/turn-turn-turn-the-byrds/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/turn-turn-turn-the-byrds/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "A finales de 1965, cuatro acordes de campana eléctrica sacudieron la radio mundial. Pero el autor de los versos no era un rockero: llevaba tres milenios muerto.",
+      "assetIndex": 0
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Años atrás, el folklorista Pete Seeger caminaba por los tribunales del macartismo. Vetado por el gobierno, su música era perseguida como una amenaza de Estado.",
+      "assetIndex": 1
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Exasperado por la censura, su editor le exigió dejar las protestas y vender canciones bailables. En respuesta, Seeger musicalizó versos bíblicos, añadiendo un grito urgente de paz.",
+      "assetIndex": 2
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En Hollywood, The Byrds cargaban una humillación secreta: en su primer gran éxito, los ejecutivos contrataron músicos de sesión a sus espaldas, dudando de su talento.",
+      "assetIndex": 3
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Para demostrar que eran una banda real, se encerraron cinco días con el productor Terry Melcher. Entre sudor, humo y nervios rotos, necesitaron setenta y ocho tomas para alcanzar la gloria.",
+      "assetIndex": 4
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En la toma final, las doce cuerdas de la Rickenbacker de Jim McGuinn repicaron como campanas celestiales, fundiendo la poesía ancestral con el pulso eléctrico de una nueva era.",
+      "assetIndex": 5
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Mientras la canción escalaba al número uno de Billboard, miles de jóvenes eran enviados al lodo de Vietnam. El salmo bíblico se convirtió en el escudo de los reclutas.",
+      "assetIndex": 6
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Al recibir cheques millonarios por el hit, Pete Seeger se negó a enriquecerse con la plegaria: donó el cuarenta y cinco por ciento de sus regalías a comités por la paz.",
+      "assetIndex": 7
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Tres mil años después de ser escrita, aquella profecía demostró que las armas enmudecen, pero las canciones de paz sobreviven a los imperios. ¿Conocías este himno inmortal?",
+      "assetIndex": 8
+    }
+  ]
+}

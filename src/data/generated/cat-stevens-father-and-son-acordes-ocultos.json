@@ -1,0 +1,185 @@
+{
+  "title": "El Fusil Oculto en la Nieve",
+  "artist": "Cat Stevens",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "A finales de los sesenta, Cat Stevens era un ídolo adolescente asfixiado por las modas del pop londinense. Buscando liberarse, comenzó a componer para un ambicioso musical titulado «Revolussia», ambientado en la sangrienta Revolución Rusa de 1905. La pieza central era un diálogo desgarrador: un muchacho campesino anunciando que abandona el hogar para empuñar un fusil en las barricadas, mientras su anciano padre le suplica que conserve la vida y permanezca en la tierra. Pero la obra jamás se estrenó: con apenas veinte años, Stevens colapsó tosiendo sangre debido a una tuberculosis cavitaria fulminante. Aislado durante meses en el sanatorio King Edward VII y enfrentando la muerte, Cat comprendió que la rebelión de aquel hijo era su propia lucha espiritual. Al salir del hospital, despojó a la canción del contexto bélico, grabó ambas voces alternando dos micrófonos a distinta altura y legó a la humanidad el diálogo generacional más conmovedor de la historia.",
+  "hook": "La balada que millones recuerdan como un tierno consejo familiar... en realidad nació para un joven que marchaba a morir en la Revolución Rusa.",
+  "beats": [
+    "A finales de los sesenta, Cat Stevens brillaba como ídolo adolescente en Londres, pero por dentro se sentía prisionero de la industria.",
+    "Buscando una voz propia, aceptó musicalizar «Revolussia», un drama histórico ambientado en la sangrienta Revolución Rusa de mil novecientos cinco.",
+    "La pieza clave era desgarradora: un muchacho anunciaba que marchaba a las barricadas a combatir, mientras su padre le imploraba no morir.",
+    "Pero en pleno auge creativo, el destino golpeó con brutalidad: a sus veinte años, Stevens colapsó tosiendo sangre sobre el escenario.",
+    "Una tuberculosis devastadora perforó su pulmón izquierdo; los médicos pronosticaron meses de vida y lo aislaron en un sanatorio inglés.",
+    "Confinado en el silencio del hospital, Cat miró de frente a la muerte y descubrió que el joven del fusil era él mismo.",
+    "Al recuperarse, rescató la melodía olvidada: borró la guerra armada y la transformó en la eterna batalla entre conformismo y libertad.",
+    "En el estudio Morgan colocó dos micrófonos a distinta altura: uno grave para el miedo del padre, otro agudo para el grito del hijo.",
+    "«Father and Son» no nació para juzgar a ninguna generación, sino para recordarnos que a veces partir es la única forma de vivir."
+  ],
+  "outro": "A veces marcharse es el único modo de no morir en vida. ¿Alguna vez tuviste que romper con todo para encontrar tu propio camino?",
+  "palette": {
+    "ink": "#14110f",
+    "paper": "#f5efe6",
+    "accent": "#b91c1c",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Father and Son",
+    "artist": "Cat Stevens",
+    "src": "videos/cat-stevens-father-and-son-acordes-ocultos/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.6,
+    "instagram": {
+      "query": "Father and Son Cat Stevens",
+      "expectedTitle": "Father and Son",
+      "expectedArtist": "Cat Stevens",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/cat-stevens-father-and-son-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-01.png",
+      "prompt": "Cinematic close-up of a vintage 1960s Gibson acoustic guitar resting on a dark rustic wooden table, illuminated by a warm single spotlight beam in a dimly lit studio, handwritten lyric sheet beside it, solemn nostalgic documentary mood, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-02.png",
+      "prompt": "London 1967: Young clean-shaven Cat Stevens in a sharp Carnaby Street velvet suit standing under harsh studio flashbulbs, mobbed by reporters and pop music executives, deep feeling of creative suffocation and isolation in his expressive dark eyes, analog 35mm photography, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-03.png",
+      "prompt": "Dim theatrical rehearsal room 1968: Storyboard sketches on easels depicting Russian peasants in heavy winter coats standing on snow-covered barricades in the 1905 revolution, charcoal sketches of a dramatic clash, dramatic chiaroscuro lighting, historic documentary still, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-04.png",
+      "prompt": "Gloomy rainy London winter night 1968: Young musician coughing heavily into a white handkerchief with faint bloodstains in a wet brick alleyway outside a theater stage door, vintage ambulance flashing distant amber lights in the mist, tragic emotional moment, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-05.png",
+      "prompt": "King Edward VII Sanatorium Midhurst 1969: A pale, bearded Cat Stevens wrapped in a heavy wool blanket sitting on an old iron hospital bed, gazing through a tall rainy window at tall dark pine trees, quiet existential contemplation and healing, soft morning mist, 35mm documentary photography, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-06.png",
+      "prompt": "Convalescent hospital room 1969: Cat Stevens sitting up on his bed holding a small acoustic parlor guitar, crossing out handwritten lines about rifles and battlefields in a leather notebook, rewriting the lyrics into an intimate dialogue, golden morning light streaming through curtains, 35mm film still, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-07.png",
+      "prompt": "Morgan Studios London 1970: Cat Stevens with a curly dark mop of hair and full beard standing between two vintage Neumann tube microphones at different heights, singing deeply with eyes closed in an intimate booth, warm analog studio ambience with wood panels, 35mm documentary still, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-08.png",
+      "prompt": "Cozy 1970s living room: A vintage vinyl record of Tea for the Tillerman spinning on a wooden turntable, Cat Stevens' painted cover artwork visible beside it, soft golden dust motes floating in afternoon sun, timeless musical nostalgia, 35mm analog film aesthetic, 9:16 vertical."
+    },
+    {
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-09.png",
+      "prompt": "Evocative wide cinematic landscape at foggy dawn: Two distant silhouettes, an old man looking back with a walking stick and a young man with a pack over his shoulder walking along a fork in a misty country road, divergent life paths, profound poetic melancholy, 35mm vertical 9:16."
+    }
+  ],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/cat-stevens-father-and-son-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "A finales de los sesenta, Cat Stevens brillaba como ídolo adolescente en Londres, pero por dentro se sentía prisionero de la industria."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Buscando una voz propia, aceptó musicalizar «Revolussia», un drama histórico ambientado en la sangrienta Revolución Rusa de mil novecientos cinco."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "La pieza clave era desgarradora: un muchacho anunciaba que marchaba a las barricadas a combatir, mientras su padre le imploraba no morir."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Pero en pleno auge creativo, el destino golpeó con brutalidad: a sus veinte años, Stevens colapsó tosiendo sangre sobre el escenario."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Una tuberculosis devastadora perforó su pulmón izquierdo; los médicos pronosticaron meses de vida y lo aislaron en un sanatorio inglés."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Confinado en el silencio del hospital, Cat miró de frente a la muerte y descubrió que el joven del fusil era él mismo."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Al recuperarse, rescató la melodía olvidada: borró la guerra armada y la transformó en la eterna batalla entre conformismo y libertad."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En el estudio Morgan colocó dos micrófonos a distinta altura: uno grave para el miedo del padre, otro agudo para el grito del hijo."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "«Father and Son» no nació para juzgar a ninguna generación, sino para recordarnos que a veces partir es la única forma de vivir."
+    }
+  ],
+  "publication": {
+    "description": "El Fusil Oculto en la Nieve: La balada que millones recuerdan como un tierno diálogo familiar... en realidad nació para un muchacho que marchaba a morir en la Revolución Rusa.\n\nA finales de los años sesenta, Steven Demetre Georgiou (Cat Stevens) era el nuevo niño mimado del pop británico. Vestido de terciopelo y rodeado de orquestas barrocas, sonaba en las radios con temas pegadizos mientras su alma se marchitaba en la trampa del éxito prefabricado. Desesperado por encontrar una voz genuina, aceptó componer la banda sonora de «Revolussia», un ambicioso proyecto teatral ambientado en el levantamiento popular ruso de 1905.\n\nLa canción cumbre de la obra no era un tierno consejo de sobremesa: era un drama de trinchera. Un joven campesino le anunciaba a su anciano padre que abandonaba la granja para tomar un fusil e ir a morir en las barricadas frente a las tropas zaristas. El padre, curtido por la resignación y el frío, le suplicaba que mirara a su alrededor, que encontrara una mujer y se quedara en paz: «Look at me, I am old, but I'm happy...». El hijo respondía con la furia del idealismo: «Away, away, I know I have to make this choice alone».\n\nPero el musical jamás llegó a los escenarios. En el invierno de 1968, consumido por las giras extenuantes y el exceso de trabajo, Stevens colapsó tosiendo sangre. El diagnóstico en el hospital King Edward VII de Midhurst fue demoledor: tuberculosis cavitaria avanzada y un pulmón prácticamente destruido. Los médicos le advirtieron que quizás no volvería a cantar.\n\nAislado durante casi un año entre las paredes blancas de un sanatorio, Cat Stevens aprendió a meditar, leyó textos orientales y se dejó crecer la barba. Mirando los pinos bajo la lluvia, rescató aquel manuscrito descartado. Comprendió que la batalla de aquel muchacho ruso no era empuñar un fusil contra el zar: era la rebelión universal de cualquier ser humano contra el destino que otros han trazado para él.\n\nEn 1970, en los estudios Morgan de Londres, Cat colocó dos micrófonos a distinta altura: usó su registro de barítono para encarnar el amor temeroso del padre y una tesitura rasgada y aguda para el desgarro del hijo. «Father and Son» se convirtió en el corazón inmortal de «Tea for the Tillerman».\n\nUna canción nacida de la nieve de una revolución y purificada en el umbral de la muerte, para recordarnos que a veces marcharse es la única forma de no morir en vida.\n\n#CatStevens #FatherAndSon #TeaForTheTillerman #AcordesOcultos #HistoriaDelRock #FolkRock #MusicaClasica #HistoriasReales"
+  }
+}

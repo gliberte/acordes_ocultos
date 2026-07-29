@@ -1,0 +1,183 @@
+{
+  "title": "El Secreto de Son of a Preacher Man",
+  "artist": "Dusty Springfield",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1968, los compositores John Hurley y Ronnie Wilkins escribieron 'Son of a Preacher Man' pensando en Aretha Franklin. Sin embargo, la Reina del Soul, hija de un respetado reverendo baptista, la rechazó al considerar que narrar la seducción del hijo de un pastor en un patio trasero era un sacrilegio para la iglesia. Desesperado por reinventar a Dusty Springfield, el productor Jerry Wexler llevó a la estrella pop británica al tempestuoso Memphis de 1968. Paralizada por un síndrome del impostor atroz y sintiéndose una intrusa frente a los prodigiosos músicos afroamericanos que idolatraba como a deidades, Dusty colapsó en la cabina y no pudo cantar una sola nota. Wexler tuvo que trasladar las cintas a la penumbra solitaria de Nueva York, donde Dusty entregó una interpretación susurrada e inmortal que hizo que la propia Aretha admitiera su error y le rindiera tributo.",
+  "hook": "El himno soul que la Reina del Soul rechazó por pudor religioso, y que una tímida chica británica grabó entre lágrimas y ataques de pánico.",
+  "beats": [
+    "En 1968, Aretha Franklin rechazó la canción al considerar sacrílego relatar la seducción del hijo de un pastor.",
+    "En Londres, Dusty Springfield vivía atrapada en un personaje pop, devota en secreto del soul afroamericano.",
+    "El productor Jerry Wexler la llevó a Memphis en un clima de alta tensión racial para registrar sus raíces.",
+    "Al entrar a American Sound Studio frente a los gigantes del soul que idolatraba, sintió un terror paralizante.",
+    "Aplastada por el síndrome del impostor, rompió a llorar en la cabina convencida de que su voz blanca era una farsa.",
+    "Wexler trasladó las cintas a Nueva York, donde Dusty grabó a solas en la penumbra con una calidez irrepetible.",
+    "El tema se convirtió en un himno mundial de sensualidad y soltura que derribó prejuicios raciales y estilísticos.",
+    "Conmovida por el prodigio de Dusty, la propia Aretha Franklin reconoció su error y grabó su propia versión en tributo.",
+    "¿Crees que el miedo a no ser suficiente es el precio inevitable que deben pagar quienes tocan el alma de la música?"
+  ],
+  "outro": "¿Crees que el miedo a no ser suficiente es el precio inevitable que deben pagar quienes tocan el alma de la música?",
+  "palette": {
+    "ink": "#0d0f12",
+    "paper": "#fbf8f3",
+    "accent": "#b45309",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "Son of a Preacher Man",
+    "artist": "Dusty Springfield",
+    "src": "music/dusty-springfield-son-of-a-preacher-man-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Son of a Preacher Man Dusty Springfield",
+      "expectedTitle": "Son of a Preacher Man",
+      "expectedArtist": "Dusty Springfield",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic documentary portrait of British singer Dusty Springfield in late 1968: Early 30s, signature platinum blonde beehive hair, dramatic dark kohl winged eyeliner, soulful expressive blue eyes, wearing a stylish dark emerald green vintage turtleneck. Warm studio key lighting, intimate and vulnerable expression, centered composition, generous safe space at bottom for typography, soft 35mm portrait grain, rich vintage Kodachrome color palette, no text.",
+  "assets": [
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 atmospheric 1968 church rehearsal hall in Detroit: A vintage upright piano under soft amber stained-glass light. On the music stand, a rejected typed sheet music manuscript titled Son of a Preacher Man pushed aside by a woman's hand. In the background, the dignified silhouette of a Baptist preacher in a dark suit standing in quiet contemplation. Moody documentary lighting, 35mm film grain, solemn respectful atmosphere, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic documentary portrait of Dusty Springfield in 1968 in her London dressing room: Early 30s, signature glamorous blonde beehive hair, heavy black kohl eyeliner, looking pensively at her reflection in a lighted vanity mirror with quiet melancholy and longing, surrounded by cosmetics and floral dresses. Intimate, vulnerable, classic 1960s British pop aesthetic, soft 35mm film grain, Kodachrome warmth, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 documentary street scene in Memphis, Tennessee in September 1968: Dusty Springfield in elegant late 60s travel coat and sunglasses walking beside producer Jerry Wexler outside a modest Southern municipal building, vintage American cars in background, humid hazy Southern afternoon light, palpable mood of historical tension and cultural gravity, authentic 35mm photojournalism grain, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 vintage 1968 American Sound Studio live tracking room in Memphis: The legendary session band The Memphis Boys tuning guitars and electric bass under acoustic wood-slat wall panels, a Hammond B3 organ with Leslie speaker, microphone stands, cigarette smoke drifting in warm tungsten lamps, historic southern soul studio atmosphere, 35mm film texture, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 intimate and emotional scene inside the Memphis studio control room in 1968: Dusty Springfield with her blonde beehive slightly disheveled, sitting slumped on a leather studio sofa with face buried in her hands weeping in overwhelming self-doubt and vulnerability, producer Jerry Wexler leaning down sympathetically to comfort her beside the mixing console, moody dramatic lighting, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 dim intimate vocal booth at Atlantic Studios in New York City in late 1968: Dusty Springfield standing alone in near darkness, headphones over her blonde hair, leaning closely into a vintage Neumann U67 tube microphone with eyes closed in deep concentration, soft golden spotlight illuminating her face, emotional candid expression of catharsis and intimacy, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 bustling city street outside an iconic late 1960s record store in London and New York in 1969: Storefront glass window prominently displaying the new Dusty in Memphis album cover posters, stylish young people gathering outside in excitement, rain-washed evening pavement reflecting warm neon and streetlights, vibrant late 60s cultural energy, authentic 35mm documentary photography, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic recording studio in 1970: The legendary Aretha Franklin in her late 20s, wearing an elegant Afro hairstyle and patterned blouse, standing beside a studio console listening intently with headphones and a respectful, generous smile of artistic admiration, holding a lyric sheet, warm amber studio glow, historic soul music atmosphere, 35mm archival photograph aesthetic, no text."
+    },
+    {
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic closing visual metaphor of innocence, longing, and southern soul: A weathered wooden porch of a southern country cottage at golden hour. Soft warm sunset light filters through weeping willow branches and Spanish moss. In the far tranquil distance, a small rural white church steeple stands against the golden amber sky, and two distant youthful silhouettes walk hand-in-hand down a dusty country lane into the sunset glow. Cinematic, deeply nostalgic, timeless poetry, no text, 35mm film still."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/dusty-springfield-son-of-a-preacher-man-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1968, una partitura fue rechazada en Detroit: Aretha Franklin, hija de un reverendo, consideró sacrílego cantar sobre la seducción del hijo de un pastor."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En Londres, Mary O’Brien, convertida en la estrella pop Dusty Springfield, vivía atrapada en un personaje artificial, devota en secreto del soul afroamericano."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "El productor Jerry Wexler la llevó a Memphis, una ciudad herida por la tensión racial tras el asesinato de Martin Luther King, para buscar sus raíces."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Al entrar al mítico American Sound Studio, rodeada por los prodigiosos músicos negros que idolatraba como a deidades, la reverencia se convirtió en terror."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Aplastada por un feroz síndrome del impostor, Dusty colapsó en llanto en la cabina: estaba convencida de que su voz blanca era una farsa frente a sus héroes."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Wexler trasladó las cintas a Nueva York: en la penumbra y soledad absoluta de Manhattan, Dusty susurró cada verso con una calidez herida e irrepetible."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Lanzada en 1969, 'Son of a Preacher Man' sacudió al mundo: una balada cargada de sensualidad que derribó prejuicios raciales y coronó a Dusty Springfield."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Al escuchar el prodigio de Dusty, la propia Aretha Franklin admitió su error con profunda admiración, y grabó de inmediato su propia versión en tributo."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "¿Crees que el miedo a no ser suficiente es el precio inevitable que deben pagar quienes tocan el alma de la música?"
+    }
+  ]
+}

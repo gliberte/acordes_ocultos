@@ -1,0 +1,185 @@
+{
+  "title": "La Canción Sin Fin",
+  "artist": "Limahl",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1983, tras conquistar las listas mundiales con «Too Shy», el cantante Limahl fue expulsado fulminantemente de Kajagoogoo mediante una fría llamada telefónica tras un concierto en Finlandia: sus compañeros esperaron a cobrar el dinero del show para echarlo por celos. Hundido y considerado un juguete roto, viajó en 1984 a Tokio, donde conoció por casualidad en un hotel al legendario productor Giorgio Moroder. Fascinado por su voz, Moroder lo llevó a Múnich para grabar el tema central de «La Historia Interminable». La canción desató la furia del escritor Michael Ende, quien demandó a la producción por profanar su libro con pop electrónico. Para honrar su título, Moroder diseñó la pista para que no tuviera ni principio ni fin: un fundido que nace del silencio y se desvanece hacia la eternidad.",
+  "hook": "Fue despedido de su banda por teléfono tras cobrar un concierto. Meses después, grabó la canción sin principio ni fin que el autor intentó prohibir.",
+  "beats": [
+    "En 1983, Kajagoogoo tocaba ante cuarenta mil almas; pero tras bambalinas, la envidia por el protagonismo de Limahl quebraba al grupo.",
+    "Días después, el teléfono sonó en su casa: sus propios compañeros le comunicaron que estaba despedido justo después de cobrar el show.",
+    "Traicionado y sumido en una profunda depresión, la industria discográfica británica le dio la espalda, considerándolo una estrella fugaz olvidada.",
+    "En 1984, buscando renacer en Tokio, el destino cruzó su camino con Giorgio Moroder, el legendario arquitecto del pop electrónico.",
+    "Moroder lo escuchó y no dudó: «Tengo el tema para la película fantástica más grande de Europa. Tu voz es la indicada».",
+    "En un estudio de Múnich, sintetizadores mágicos dieron vida al himno; sin embargo, al autor del libro, Michael Ende, le pareció un sacrilegio.",
+    "Ende demandó a la productora para frenar el estreno y exigió borrar su nombre de los créditos, horrorizado por el sonido pop estadounidense.",
+    "Para honrar la eternidad del relato, Moroder creó una joya técnica: la canción no tiene inicio ni final, solo un fundido infinito.",
+    "«The NeverEnding Story» arrasó en el planeta entero, convirtiendo a un cantante desterrado en la voz inmortal de la fantasía."
+  ],
+  "outro": "Una traición por teléfono que culminó en un himno eterno. ¿Qué recuerdos te despierta hoy la voz de Limahl en La Historia Interminable?",
+  "palette": {
+    "ink": "#0b132b",
+    "paper": "#f0fdf4",
+    "accent": "#0284c7",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "The NeverEnding Story",
+    "artist": "Limahl",
+    "src": "music/limahl-never-ending-story.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The NeverEnding Story Limahl",
+      "expectedTitle": "The NeverEnding Story",
+      "expectedArtist": "Limahl",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/limahl-never-ending-story-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-01.png",
+      "prompt": "Summer 1983 massive outdoor stadium concert in Finland: Limahl performing with Kajagoogoo on stage, iconic two-tone spiky bleached blonde and dark mullet hair, stylish 80s new wave outfit, bright stage lights shining over 40,000 cheering fans, tension between band members in background, 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-02.png",
+      "prompt": "London apartment 1983: Limahl sitting on a sofa in a dimly lit living room, holding a vintage cream landline phone receiver to his ear in absolute shock and disbelief, tearful eyes, learning he has been fired from his band, moody somber shadows, authentic 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-03.png",
+      "prompt": "Late 1983 London foggy street: Limahl walking alone under street lamps wearing a long dark trench coat, newspapers scattered with music press headlines, looking down in deep melancholy, betrayal and rejection, atmospheric British neo-noir 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-04.png",
+      "prompt": "Tokyo luxury hotel lobby 1984: Limahl meeting Italian producer Giorgio Moroder with his signature tinted glasses and mustache, warm golden chandelier lighting, a serendipitous conversation, mutual artistic spark and hope, cinematic 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-05.png",
+      "prompt": "Musicland Studios Munich 1984: Giorgio Moroder sitting at a giant vintage analog mixing console adjusting synthesizer faders, warm studio amber glows, reels spinning on tape machines, producing electronic synth-pop magic, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-06.png",
+      "prompt": "Limahl singing in the recording vocal booth: Wearing headphones, eyes closed in profound emotion singing into a vintage Neumann U87 studio microphone, golden dust motes floating in spotlight beam, pure 1980s dream pop feeling, 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-07.png",
+      "prompt": "German author Michael Ende in his Munich study 1984: Older distinguished man with grey hair, round spectacles, surrounded by towering bookshelves and ancient manuscripts, looking furious while reviewing a legal contract and film documents, artistic outrage against commercialization, cinematic 35mm portrait, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-08.png",
+      "prompt": "Surreal glowing fantasy realm evoking Fantasia: The Auryn talisman resting on an ancient leather-bound book bathed in celestial aurora lights, ethereal clouds parting, infinite loop concept with no beginning and no end, magical cinematic wonder, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-09.png",
+      "prompt": "1984 international pop triumph: Limahl on an 80s television broadcast set with neon geometric lights and laser beams, smiling triumphantly as his single reaches number one on worldwide music charts, redemption and eternal legacy, 35mm grain, vertical 9:16."
+    }
+  ],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/limahl-never-ending-story-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1983, Kajagoogoo tocaba ante cuarenta mil almas; pero tras bambalinas, la envidia por el protagonismo de Limahl quebraba al grupo."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Días después, el teléfono sonó en su casa: sus propios compañeros le comunicaron que estaba despedido justo después de cobrar el show."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Traicionado y sumido en una profunda depresión, la industria discográfica británica le dio la espalda, considerándolo una estrella fugaz olvidada."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En 1984, buscando renacer en Tokio, el destino cruzó su camino con Giorgio Moroder, el legendario arquitecto del pop electrónico."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Moroder lo escuchó y no dudó: «Tengo el tema para la película fantástica más grande de Europa. Tu voz es la indicada»."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En un estudio de Múnich, sintetizadores mágicos dieron vida al himno; sin embargo, al autor del libro, Michael Ende, le pareció un sacrilegio."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Ende demandó a la productora para frenar el estreno y exigió borrar su nombre de los créditos, horrorizado por el sonido pop estadounidense."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Para honrar la eternidad del relato, Moroder creó una joya técnica: la canción no tiene inicio ni final, solo un fundido infinito."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "«The NeverEnding Story» arrasó en el planeta entero, convirtiendo a un cantante desterrado en la voz inmortal de la fantasía."
+    }
+  ],
+  "publication": {
+    "description": "La Canción Sin Fin: Traicionado por su propia banda por teléfono, se alió con Giorgio Moroder para crear el himno que el autor de la película intentó destruir.\n\nEn el verano de 1983, la banda británica Kajagoogoo dominaba las listas de medio mundo gracias al éxito colosal de «Too Shy». Tras dar un multitudinario concierto en Finlandia frente a más de 40.000 personas, el vocalista Limahl creía estar tocando el cielo. Pero la realidad era mucho más mezquina: sus cuatro compañeros y su mánager esperaron pacientemente a que se liquidaran los honorarios del concierto para llamarlo por teléfono y soltarle la noticia que destrozaría su vida: estaba expulsado de la banda.\n\nLimahl, cuyo verdadero nombre es Christopher Hamill, quedó devastado. De la noche a la mañana, el chico del peinado icónico se vio repudiado por quienes consideraba su familia, mientras la prensa musical británica lo tildaba cruelmente de juguete roto.\n\nDesesperado por salir del pozo, Limahl viajó en 1984 a Japón para participar en el Tokyo Music Festival. Fue en los pasillos de un hotel donde ocurrió el milagro: tropezó con Giorgio Moroder, el mítico productor italiano ganador del Oscar y cerebro detrás del sonido sintetizado de Donna Summer y Flashdance. Moroder había recibido el encargo de los productores estadounidenses de componer una canción pop que catapultara en taquilla a la superproducción alemana «La Historia Interminable». En cuanto escuchó el timbre agudo y etéreo de Limahl, supo que había encontrado a su protagonista.\n\nSin embargo, el proyecto desató una guerra colosal: Michael Ende, autor de la novela original, enfureció al ver la versión cinematográfica y escuchar la música electrónica de Moroder, calificándola de «melodrama de kitsch comercial». Ende demandó a la productora, intentó bloquear el estreno en los tribunales y exigió que retiraran su nombre de los créditos.\n\nMoroder, ajeno a la polémica, diseñó una auténtica maravilla de ingeniería sonora: para hacer honor literal al título de la obra, compuso una canción sin principio ni fin. La pista arranca desde el silencio mediante un fade-in (como si la melodía ya estuviera sonando en otra dimensión) y concluye en un fade-out que nunca resuelve sus acordes, transmitiendo la sensación de que la música no terminará jamás.\n\nCuando «The NeverEnding Story» se estrenó en 1984, escaló al número uno en diecisiete países y superó con creces todo lo que Kajagoogoo volvió a lograr sin él. Una lección luminosa de que a veces el rechazo más amargo es solo el prólogo de un viaje hacia la eternidad.\n\n#NeverEndingStory #Limahl #GiorgioMoroder #LaHistoriaInterminable #acordesocultos #AcordesOcultos #HistoriaDelRock #SynthPop #Anos80"
+  }
+}

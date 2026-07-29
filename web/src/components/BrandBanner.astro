@@ -1,0 +1,138 @@
+---
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<section class={`relative w-full overflow-hidden border-b border-[#262420] bg-[#0a0908] ${className}`}>
+  <!-- Vintage Recording Studio Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img
+      src="/assets/substack_header_raw.webp"
+      alt="Estudio de grabación Acordes Ocultos"
+      class="w-full h-full object-cover object-[center_35%] filter brightness-[0.42] contrast-[1.15] saturate-[0.9]"
+      loading="eager"
+      decoding="async"
+    />
+
+    <!-- Multi-layered Cinematic Lighting Gradients -->
+    <!-- Horizontal Vignette: Deep black on edges, warmer in center-right where guitars hang -->
+    <div class="absolute inset-0 bg-gradient-to-r from-[#0a0908]/95 via-[#0c0b09]/80 to-[#0a0908]/90"></div>
+    
+    <!-- Top and Bottom Fade to blend seamlessly with Navbar and Content -->
+    <div class="absolute inset-0 bg-gradient-to-b from-[#0a0908]/80 via-transparent to-[#0a0908]"></div>
+    
+    <!-- Atmospheric Amber Glow centered behind text & logo -->
+    <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_25%_50%,rgba(217,119,6,0.22)_0%,rgba(0,0,0,0)_70%)] pointer-events-none"></div>
+  </div>
+
+  <!-- Main Banner Content Container -->
+  <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12 lg:py-14">
+    <div class="flex flex-col md:flex-row items-center justify-center md:justify-start gap-6 sm:gap-8 lg:gap-12">
+      
+      <!-- Neon Vinyl Logo Container with Radiant Halo -->
+      <div class="relative flex-shrink-0 flex items-center justify-center group">
+        <!-- Ambient Neon Glow Pulses -->
+        <div class="absolute -inset-3 rounded-full bg-gradient-to-tr from-rose-500/30 via-amber-500/25 to-cyan-500/30 blur-2xl opacity-75 group-hover:opacity-100 transition-opacity duration-700"></div>
+        <div class="absolute inset-0 rounded-full bg-amber-500/20 blur-xl"></div>
+        
+        <!-- Logo Image -->
+        <div class="relative w-28 h-28 sm:w-36 sm:h-36 lg:w-44 lg:h-44 rounded-full p-1 bg-black/60 border border-amber-500/40 shadow-2xl shadow-amber-950/50 backdrop-blur-sm transform group-hover:scale-105 transition-transform duration-500">
+          <img
+            src="/brand/acordes-ocultos-logo.webp"
+            alt="Logo Acordes Ocultos"
+            class="w-full h-full object-contain filter drop-shadow-[0_0_20px_rgba(245,158,11,0.5)]"
+            decoding="async"
+          />
+
+          <!-- Creator Instagram Avatar Badge (Overlapping Bottom-Right) -->
+          <a
+            href="https://instagram.com/acordesocultos"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Ver cuenta oficial en Instagram @acordesocultos"
+            class="absolute -bottom-1.5 -right-1.5 sm:bottom-0 sm:right-0 w-11 h-11 sm:w-13 sm:h-13 lg:w-14 lg:h-14 rounded-full p-[2px] bg-gradient-to-tr from-amber-500 via-rose-500 to-amber-300 shadow-xl shadow-black hover:scale-110 transition-transform duration-300 z-20 group/avatar block"
+          >
+            <div class="w-full h-full rounded-full overflow-hidden border-2 border-black bg-neutral-900">
+              <img
+                src="/brand/creator-avatar.jpg"
+                alt="Creador Acordes Ocultos en Instagram"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <!-- Mini Instagram Badge Icon -->
+            <span class="absolute -bottom-0.5 -right-0.5 w-4 h-4 sm:w-5 sm:h-5 rounded-full bg-[#E1306C] text-white flex items-center justify-center shadow-md border border-black/80">
+              <svg class="w-2.5 h-2.5 sm:w-3 sm:h-3" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Vertical Golden Divider (Visible on Tablet and Desktop) -->
+      <div class="hidden md:block w-0.5 self-stretch bg-gradient-to-b from-amber-500/0 via-amber-500/80 to-amber-500/0 shadow-[0_0_12px_rgba(245,158,11,0.6)]"></div>
+
+      <!-- Horizontal Divider for Mobile Only -->
+      <div class="block md:hidden w-24 h-0.5 bg-gradient-to-r from-amber-500/0 via-amber-500/70 to-amber-500/0 shadow-[0_0_8px_rgba(245,158,11,0.5)] my-1"></div>
+
+      <!-- Typography and Editorial Badges Column -->
+      <div class="flex flex-col text-center md:text-left max-w-2xl lg:max-w-3xl space-y-3 sm:space-y-3.5">
+        
+        <!-- Eyebrow Tagline -->
+        <div class="flex items-center justify-center md:justify-start gap-2.5 sm:gap-3 text-amber-400 font-mono text-[10px] sm:text-xs font-bold tracking-[0.25em] sm:tracking-[0.3em] uppercase">
+          <span class="hidden sm:inline-block w-6 h-0.5 bg-amber-500"></span>
+          <span>Crónicas &amp; Archivo Secreto</span>
+          <span class="hidden sm:inline-block w-6 h-0.5 bg-amber-500"></span>
+        </div>
+
+        <!-- Main Title -->
+        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white tracking-tight sm:tracking-normal uppercase leading-[1.08] drop-shadow-[0_4px_25px_rgba(0,0,0,0.95)]">
+          Acordes Ocultos
+        </h1>
+
+        <!-- Editorial Subtitle -->
+        <p class="font-serif italic text-sm sm:text-lg lg:text-xl text-amber-100/90 font-light leading-relaxed max-w-2xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          La historia no contada detrás de las canciones que marcaron al mundo
+        </p>
+
+        <!-- Brand Badges (Responsive Wrap) -->
+        <div class="pt-2 sm:pt-3 flex flex-wrap items-center justify-center md:justify-start gap-2 sm:gap-3 text-[10px] sm:text-xs font-semibold tracking-wider uppercase">
+          <!-- Creator Badge linked to Instagram -->
+          <a
+            href="https://instagram.com/acordesocultos"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-black/75 hover:bg-black border border-amber-500/50 hover:border-amber-400 text-amber-200 transition-all shadow-md group backdrop-blur-sm"
+          >
+            <img
+              src="/brand/creator-avatar.jpg"
+              alt="Creador"
+              class="w-4 h-4 sm:w-5 sm:h-5 rounded-full object-cover border border-amber-400/80"
+            />
+            <span class="normal-case tracking-normal font-sans font-medium text-amber-200">
+              Por <span class="font-bold text-amber-300">@acordesocultos</span>
+            </span>
+            <svg class="w-3 h-3 text-pink-500 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+
+          <span class="px-3 py-1 rounded bg-amber-500/15 border border-amber-500/50 text-amber-300 shadow-sm backdrop-blur-sm">
+            Microhistorias con Tensión
+          </span>
+          <span class="px-3 py-1 rounded bg-black/60 border border-white/15 text-neutral-200 shadow-sm backdrop-blur-sm">
+            Música &amp; Rigor Histórico
+          </span>
+          <span class="px-3 py-1 rounded bg-black/60 border border-white/15 text-neutral-300 shadow-sm backdrop-blur-sm">
+            Edición Oficial
+          </span>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>

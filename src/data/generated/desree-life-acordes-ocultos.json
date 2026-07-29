@@ -1,0 +1,186 @@
+{
+  "title": "La Paradoja de la Tostada",
+  "artist": "Des'ree",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1998, el estribillo de «Life» conquistó el planeta con una melodía luminosa y radiante. Sin embargo, su estrofa más sincera —donde rimaba el miedo a los fantasmas con comer una tostada— fue despiadadamente ridiculizada por comediantes y votada por la BBC como «la peor letra de la historia». Lo que nadie sabía era el drama que la cantante ocultaba tras su sonrisa: ataques de pánico severos, fobia escénica y una enfermedad que la empujó a renunciar a los millones de la fama para convertirse en nutricionista anónima.",
+  "hook": "El hit más alegre de los 90 que fue votado como la «peor letra de la historia»... mientras su autora ocultaba un infierno tras la sonrisa.",
+  "beats": [
+    "En el verano de 1998, una melodía pop luminosa y un silbido contagioso treparon al número uno en medio planeta. Parecía el himno definitivo a la felicidad.",
+    "Pero en su estrofa central, la cantante deslizó un verso tan cotidiano como desconcertante: «No quiero ver fantasmas, prefiero comer una tostada y ver el noticiero».",
+    "La crítica musical británica no tuvo piedad: cómicos, tertulianos y periódicos convirtieron la rima en el blanco de una mofa despiadada a nivel nacional.",
+    "La humillación culminó cuando una masiva encuesta nacional de la BBC declaró oficialmente su alegre canción como «la peor letra pop de todos los tiempos».",
+    "En el videoclip oficial, Des'ree sonreía triunfal en la parte trasera de un Oldsmobile descapotable; pero detrás de la pantalla, se escondía una realidad asfixiante.",
+    "La cantante lidiaba en secreto con ataques de pánico invalidantes, fobia a los escenarios y un agotamiento severo provocado por una enfermedad silenciosa.",
+    "Incapaz de tolerar la superficialidad de la fama y el acoso mediático, tomó una decisión impensable: en la cúspide de su carrera, se retiró de la música.",
+    "Se matriculó en la universidad bajo su nombre real, graduándose con honores como naturópata y nutricionista, cambiando los focos por la paz de ayudar a otros.",
+    "Aquel verso por el que medio planeta se burló terminó siendo su profecía: a veces, una simple tostada y la calma valen más que todo el oro de la fama. ¿Qué opinas tú?"
+  ],
+  "outro": "Una burla mundial que ocultaba una lección de vida. ¿Crees que fue la peor letra de la historia o simplemente fue incomprendida?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fffbeb",
+    "accent": "#f59e0b",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Life",
+    "artist": "Des'ree",
+    "src": "music/desree-life.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Life Des'ree",
+      "expectedTitle": "Life",
+      "expectedArtist": "Des'ree",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/desree-life-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of British singer Des'ree late 1990s, short cropped stylish natural hair, beautiful warm expressive eyes and luminous smile, wearing minimalist late 90s elegant earth-tone shirt, soft warm studio rim lighting, textured 35mm film grain, centered composition, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-01.png",
+      "prompt": "Late 1990s sunny London music recording studio: British singer Des'ree sitting on a high stool near a vintage Neumann microphone smiling warmly, acoustic guitar in background, golden sunlight through large studio window, authentic 1998 Kodak 35mm photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-02.png",
+      "prompt": "Cozy vintage 1990s kitchen interior morning: A warm golden breakfast table with crispy sliced toasted bread on a ceramic plate, steaming cup of tea, vintage television set glowing softly in background, intimate nostalgic 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-03.png",
+      "prompt": "British newspaper printing press 1998: Newspaper headlines on London newsstands mocking pop music lyrics, blurred London street in rain, dramatic moody British editorial photography, textured 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-04.png",
+      "prompt": "London BBC television broadcasting newsroom 2000s: Vintage studio cameras and broadcast monitors showing entertainment headline polls, dramatic moody television studio lighting, 35mm archival documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-05.png",
+      "prompt": "Music video set late 1990s: Des'ree with her iconic short cropped hairstyle sitting in the backseat of a vintage black 1965 Oldsmobile Cutlass convertible, green sugarcane fields on country road, sunlight reflecting on chrome, cinematic 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-06.png",
+      "prompt": "Backstage concert hall dressing room: Des'ree sitting alone on a chair with hands clasped together, breathing deeply to calm severe anxiety, stage curtains and microphone stand nearby, dim moody shadows, sensitive respectful 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-07.png",
+      "prompt": "British recording studio mixing desk at night: Mixing console faders pulled down, studio headphones resting silently on the leather armrest, empty chair in dim twilight, atmospheric departure and quiet dignity, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-08.png",
+      "prompt": "University classroom herbarium library: Mature Des'ree smiling peacefully in a bright airy room surrounded by botanical books, natural apothecary glass jars and lecture notebooks, warm morning light, candid documentary realism, vertical 9:16."
+    },
+    {
+      "src": "videos/desree-life-acordes-ocultos/scene-09.png",
+      "prompt": "Peaceful sunlit home garden patio: Des'ree enjoying a quiet morning with tea and breakfast in calm London residential garden, serene genuine smile, lush green ivy and flowers, warm golden morning light, beautiful 35mm film portrait, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/desree-life-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/desree-life-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/desree-life-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/desree-life-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/desree-life-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/desree-life-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/desree-life-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/desree-life-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/desree-life-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En el verano de 1998, una melodía pop luminosa y un silbido contagioso treparon al número uno en medio planeta. Parecía el himno definitivo a la felicidad."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Pero en su estrofa central, la cantante deslizó un verso tan cotidiano como desconcertante: «No quiero ver fantasmas, prefiero comer una tostada y ver el noticiero»."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "La crítica musical británica no tuvo piedad: cómicos, tertulianos y periódicos convirtieron la rima en el blanco de una mofa despiadada a nivel nacional."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "La humillación culminó cuando una masiva encuesta nacional de la BBC declaró oficialmente su alegre canción como «la peor letra pop de todos los tiempos»."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En el videoclip oficial, Des'ree sonreía triunfal en la parte trasera de un Oldsmobile descapotable; pero detrás de la pantalla, se escondía una realidad asfixiante."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "La cantante lidiaba en secreto con ataques de pánico invalidantes, fobia a los escenarios y un agotamiento severo provocado por una enfermedad silenciosa."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Incapaz de tolerar la superficialidad de la fama y el acoso mediático, tomó una decisión impensable: en la cúspide de su carrera, se retiró de la música."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Se matriculó en la universidad bajo su nombre real, graduándose con honores como naturópata y nutricionista, cambiando los focos por la paz de ayudar a otros."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Aquel verso por el que medio planeta se burló terminó siendo su profecía: a veces, una simple tostada y la calma valen más que todo el oro de la fama. ¿Qué opinas tú?"
+    }
+  ],
+  "publication": {
+    "description": "La Paradoja de la Tostada: La canción número uno del verano que fue declarada «la peor letra de la historia»... mientras su autora ocultaba una pesadilla secreta.\n\nEn 1998, el planeta entero cantaba al unísono el estribillo más soleado y pegadizo de la década. «Life» de Des'ree escaló al número uno en las listas de media Europa y se convirtió en la banda sonora obligada de anuncios, emisoras y fiestas de verano. Sin embargo, en medio de aquel derroche de optimismo pop, la cantante londinense incluyó unos versos que desataron una de las mayores polémicas líricas de la música moderna:\n\n«I'm afraid of the dark, especially when I'm in a park... I don't want to see a ghost, it's a sight that I fear most, I'd rather have a piece of toast and watch the evening news» («Tengo miedo a la oscuridad, especialmente en el parque... No quiero ver fantasmas, es lo que más temo; prefiero comerme una tostada y ver el noticiero»).\n\nLo que Des'ree escribió con la ternura inocente de quien describe sus pequeños refugios cotidianos contra la ansiedad fue recibido con una crueldad demoledora. Cómicos de televisión, críticos pedantes y tertulianos de radio destrozaron la canción, acusándola de pereza poética. La mofa se tornó institucional en 2007 cuando una encuesta multitudinaria de la cadena BBC coronó a «Life» con el infame título de «la peor letra jamás escrita en la historia del pop».\n\nPero detrás de la sonrisa que Des'ree lucía en el mítico videoclip mientras viajaba en el descapotable negro, se escondía un tormento devastador. Des'ree batallaba en silencio contra ataques de pánico crónicos, una fobia escénica paralizante que le impedía cantar sin temblar y un trastorno tiroideo no diagnosticado que la dejaba postrada en cama sin energía. El escarnio mediático por su canción terminó por colmar el vaso.\n\nEn la cúspide del éxito comercial, cuando las discográficas le ofrecían cheques en blanco, Des'ree dio el portazo más digno de la industria: abandonó la música pop para siempre. Se matriculó como una alumna anónima en la universidad, estudió durante años y se licenció con honores como naturópata y nutricionista, dedicando el resto de su vida a sanar a pacientes lejos del bullicio mediático.\n\nAl final, aquella estrofa que medio mundo ridiculizó demostró ser una sabia declaración de principios: a veces, una tostada caliente, un rincón de paz y cuidar la propia salud mental valen infinitamente más que todos los aplausos vacíos del estrellato.\n\n#Desree #Life #AcordesOcultos #Anos90 #Pop90s #HistoriaDeLaMusica #SaludMental"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "La improvisación de 30 libras que cambió la historia del rock",
+  "artist": "Pink Floyd",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que una de las interpretaciones vocales más famosas de la historia del rock naciera de una improvisación nerviosa por la que solo se pagaron treinta libras? En 1973, Pink Floyd buscaba una voz para una pieza sobre la muerte, pero le exigió a la cantante Clare Torry algo desconcertante: no cantar palabras. Frente al silencio intimidante de la banda en los estudios Abbey Road, Clare entró a la cabina aterrorizada, sintiendo la presión del abismo. Cerró los ojos, imaginó que su voz era un instrumento más y soltó un lamento salvaje que mezclaba la agonía con una belleza celestial. Al terminar, la banda se quedó inmóvil. Convencida de haber arruinado la canción, Clare cobró su tarifa de músico de sesión y se marchó pidiendo disculpas. Meses después, al comprar el disco The Dark Side of the Moon por curiosidad, descubrió en shock que su primera toma era el alma de la canción. Una tarde de improvisación pura que quedó grabada en la eternidad. Y a ti, ¿se te eriza la piel cada vez que escuchas este lamento?",
+  "hook": "¿Cómo es posible que una de las interpretaciones vocales más famosas de la historia del rock naciera de una improvisación nerviosa por la que solo se pagaron treinta libras?",
+  "beats": [
+    "En 1973, Pink Floyd buscaba una voz para una pieza sobre la muerte, pero le exigió a la cantante Clare Torry algo desconcertante: no cantar palabras.",
+    "Frente al silencio intimidante de la banda en los estudios Abbey Road, Clare entró a la cabina aterrorizada, sintiendo la presión del abismo.",
+    "Cerró los ojos, imaginó que su voz era un instrumento más y soltó un lamento salvaje que mezclaba la agonía con una belleza celestial.",
+    "Al terminar, la banda se quedó inmóvil. Convencida de haber arruinado la canción, Clare cobró su tarifa de músico de sesión y se marchó pidiendo disculpas.",
+    "Meses después, al comprar el disco The Dark Side of the Moon por curiosidad, descubrió en shock que su primera toma era el alma de la canción."
+  ],
+  "outro": "Una tarde de improvisación pura que quedó grabada en la eternidad. Y a ti, ¿se te eriza la piel cada vez que escuchas este lamento?",
+  "palette": {
+    "ink": "#0c0c0e",
+    "paper": "#fbfaf7",
+    "accent": "#bf803b",
+    "glow": "#b88a44"
+  },
+  "music": {
+    "title": "The Great Gig in the Sky",
+    "artist": "Pink Floyd",
+    "src": "music/greatgig.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "The Great Gig in the Sky Pink Floyd",
+      "expectedTitle": "The Great Gig in the Sky",
+      "expectedArtist": "Pink Floyd",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/greatgig/scene-01.png",
+      "prompt": "A vinyl record of The Dark Side of the Moon spinning on a record player, with the iconic prism rainbow light reflecting on the glossy vinyl surface, moody 70s studio lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-02.png",
+      "prompt": "A young 25-year-old blonde British female singer (representing Clare Torry) looking nervous, entering a dim, quiet Abbey Road studio on a Sunday night, vintage 1973 gear, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-03.png",
+      "prompt": "The four members of Pink Floyd in 1973 sitting in absolute silence on a leather sofa in the control room, staring intensely, vintage studio mixers, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-04.png",
+      "prompt": "Clare Torry in the vocal booth with retro headphones, eyes closed, singing passionately with intense emotion, mouth wide open, vintage microphone, warm dramatic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-05.png",
+      "prompt": "Roger Waters and David Gilmour looking down at the floor in the studio control room, deeply moved and silent, vintage recording console, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-06.png",
+      "prompt": "A young blonde woman in 70s clothing looking shocked while holding a fresh copy of The Dark Side of the Moon vinyl inside a retro 1970s London record shop, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-07.png",
+      "prompt": "A close-up of the young woman listening to the turntable at home, tears of emotion in her eyes, smiling in absolute disbelief, warm home lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/greatgig/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/greatgig/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/greatgig/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/greatgig/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/greatgig/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/greatgig/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/greatgig/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que una de las interpretaciones vocales más famosas de la historia del rock naciera de una improvisación nerviosa por la que solo se pagaron treinta libras?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1973, Pink Floyd buscaba una voz para una pieza sobre la muerte, pero le exigió a la cantante Clare Torry algo desconcertante: no cantar palabras."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Frente al silencio intimidante de la banda en los estudios Abbey Road, Clare entró a la cabina aterrorizada, sintiendo la presión del abismo."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Cerró los ojos, imaginó que su voz era un instrumento más y soltó un lamento salvaje que mezclaba la agonía con una belleza celestial."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al terminar, la banda se quedó inmóvil. Convencida de haber arruinado la canción, Clare cobró su tarifa de músico de sesión y se marchó pidiendo disculpas."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Meses después, al comprar el disco The Dark Side of the Moon por curiosidad, descubrió en shock que su primera toma era el alma de la canción."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una tarde de improvisación pura que quedó grabada en la eternidad. Y a ti, ¿se te eriza la piel cada vez que escuchas este lamento?"
+    }
+  ]
+}

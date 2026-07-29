@@ -1,0 +1,183 @@
+{
+  "title": "Jimi Hendrix y el fuego de Monterey",
+  "artist": "Jimi Hendrix",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "En junio de 1967, Jimi Hendrix era una sensacion en Inglaterra, pero casi desconocido en su propio pais, Estados Unidos. El Festival Pop de Monterey iba a ser su gran debut americano, y Jimi sabia que necesitaba hacer algo inolvidable para competir con The Who. Tras una actuacion salvaje, al final de su version de 'Wild Thing', Jimi coloco su Fender Stratocaster en el suelo del escenario. De repente, saco una botella de fluido de encendedor y lo rocio sobre la guitarra como si fuera un tributo sagrado. Se arrodillo, froto una cerilla y la arrojo sobre el instrumento, desatando una llamarada que ilumino el festival. El publico observo en absoluto estado de shock como Jimi invocaba el fuego y luego destrozaba la guitarra contra el suelo. Ese momento no fue solo una provocacion; fue el bautizo de fuego que lo corono instantaneamente como el rey supremo de la guitarra electrica.",
+  "hook": "Jimi Hendrix era casi desconocido en Estados Unidos, pero Monterey fue su bautizo de fuego.",
+  "beats": [
+    "Sabia que debia hacer algo inolvidable para competir con la energia destructiva de The Who.",
+    "Al final de 'Wild Thing', coloco su Fender Stratocaster en el suelo del escenario.",
+    "De repente, saco una botella de fluido de encendedor y lo rocio sobre la guitarra como un tributo sagrado.",
+    "Froto una cerilla y la arrojo sobre el instrumento...",
+    "...desatando una llamarada que dejo al publico en absoluto estado de shock.",
+    "Se arrodillo ante el fuego, alzando las manos como un chaman invocando un poder superior."
+  ],
+  "outro": "Ese dia no nacio una estrella; nacio una leyenda mitologica escrita con fuego y distorsion.",
+  "palette": {
+    "ink": "#07080d",
+    "paper": "#fcfaf2",
+    "accent": "#ff3b00",
+    "glow": "#ffcc00"
+  },
+  "music": {
+    "title": "Wild Thing",
+    "artist": "Jimi Hendrix",
+    "src": "music/jimi-wild-thing.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Wild Thing Jimi Hendrix Live at Monterey",
+      "expectedTitle": "Wild Thing",
+      "expectedArtist": "Jimi Hendrix",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical."
+    }
+  },
+  "publication": {
+    "description": "En junio de 1967, Jimi Hendrix era una sensacion en el Reino Unido, pero Estados Unidos todavia no comprendia su genialidad. El Festival Pop de Monterey fue la plataforma elegida para su debut americano, y Jimi sabia que debia superar a The Who.\n\nAl final de una interpretacion brutal de 'Wild Thing', Jimi coloco su Fender Stratocaster en el suelo del escenario. En un acto ritual, saco fluido de encendedor, rocio el cuerpo de su guitarra y le prendio fuego.\n\nLa imagen quedo grabada en la historia: Hendrix arrodillado frente a la guitarra en llamas, invocando el fuego como un chaman electrico antes de destrozarla contra las tablas. Aquella noche no solo rompio las reglas del show; bautizo una nueva era de la musica."
+  },
+  "assets": [
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-01.png",
+      "prompt": "Jimi Hendrix walking backstage at the 1967 Monterey Pop Festival, looking focused, wearing a vibrant psychedelic jacket, vintage rock documentary still, detailed portrait, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-02.png",
+      "prompt": "Jimi Hendrix performing live on the Monterey stage with high energy, colorful spotlights, vintage Marshall amplifiers behind him, smoky atmosphere, 1960s rock documentary aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-03.png",
+      "prompt": "Jimi Hendrix on his knees looking down at his white Fender Stratocaster lying on the wooden stage floor, dramatic theatrical lighting, tense anticipation, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-04.png",
+      "prompt": "Close-up of Jimi Hendrix's hands pouring lighter fluid from a small yellow can onto the hand-painted body of his Fender Stratocaster on stage, reflections on the wood, cinematic macro shot, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-05.png",
+      "prompt": "A hand-painted Fender Stratocaster engulfed in bright red, orange, and yellow flames on a dark wooden stage floor, smoke rising, dramatic high contrast, cinematic documentary realistic still, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-06.png",
+      "prompt": "Jimi Hendrix kneeling on stage in front of his burning guitar, waving his hands upwards in a ritualistic gesture summoning the fire, dramatic backlighting, shocked silhouette of the crowd in the distance, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/jimi-hendrix-monterey/scene-07.png",
+      "prompt": "Jimi Hendrix picking up the charred guitar neck and smashing it violently against the stage floor, wood splinters flying, high-speed motion blur, chaotic final climax frame, 9:16 aspect ratio"
+    }
+  ],
+  "clip": {
+    "src": "videos/jimi-hendrix-monterey/transition-fire-monterey.mp4",
+    "prompt": "8 second vertical cinematic transition from a guitarist pouring lighter fluid on a guitar on stage to the instrument bursting into flames, slow motion transition, smoke rising, high contrast stage lighting, no text",
+    "startSecond": 48,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 12,
+      "src": "videos/jimi-hendrix-monterey/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "src": "videos/jimi-hendrix-monterey/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "src": "videos/jimi-hendrix-monterey/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "src": "videos/jimi-hendrix-monterey/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/jimi-hendrix-monterey/transition-fire-monterey.mp4",
+      "type": "video"
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "src": "videos/jimi-hendrix-monterey/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "src": "videos/jimi-hendrix-monterey/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/jimi-hendrix-monterey/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Jimi Hendrix era casi desconocido en Estados Unidos, pero Monterey fue su bautizo de fuego."
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "Sabia que debia hacer algo inolvidable para competir con la energia destructiva de The Who."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "text": "Al final de 'Wild Thing', coloco su Fender Stratocaster en el suelo del escenario."
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "De repente, saco una botella de fluido de encendedor y lo rocio sobre la guitarra como un tributo sagrado."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "Froto una cerilla y la arrojo sobre el instrumento..."
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "text": "...desatando una llamarada que dejo al publico en absoluto estado de shock."
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "Se arrodillo ante el fuego, alzando las manos como un chaman invocando un poder superior."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Ese dia no nacio una estrella; nacio una leyenda mitologica escrita con fuego y distorsion."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/jimi-hendrix-monterey"
+  }
+}

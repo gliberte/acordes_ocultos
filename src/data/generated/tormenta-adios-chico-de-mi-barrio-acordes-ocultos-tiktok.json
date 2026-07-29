@@ -1,0 +1,183 @@
+{
+  "title": "El Secreto de Adiós Chico de mi Barrio",
+  "artist": "Tormenta",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1971, bajo un clima de férreo control social en Argentina donde llevar el pelo largo era considerado una falta grave, una joven de 18 años llamada Liliana Maturano (Tormenta) compuso una de las canciones más queridas de la balada hispanoamericana. Mirando desde su ventana en Paso del Rey a los muchachos que andaban descalzos en bicicleta soñando con la libertad, escribió 'Adiós, chico de mi barrio'. Disfrazada de romance adolescente, la canción burló los controles de la época, vendió un millón de copias y se convirtió en el himno de toda una generación que anhelaba ser libre.",
+  "hook": "La balada aparentemente inocente de una chica de 18 años que desafió la rigidez de su época cantándole a un joven de pelo largo.",
+  "beats": [
+    "En 1970, en Buenos Aires, las autoridades vigilaban con recelo a los jóvenes con cabello largo.",
+    "Desde su ventana en Paso del Rey, Liliana Maturano componía canciones con su guitarra española.",
+    "Observaba a los muchachos del barrio: jóvenes descalzos en bicicleta que soñaban con ser libres.",
+    "Inspirada por esa inocencia rebelde, escribió un poema íntimo dedicado al primer amor que parte.",
+    "Bajo el nombre de Tormenta, grabó la canción con una timidez dulce pero inquebrantable.",
+    "Su voz suave convirtió una despedida barrial en un himno inolvidable de ternura y nostalgia.",
+    "El tema burló todas las barreras y vendió un millón de discos en toda Latinoamérica.",
+    "Una generación entera adoptó la balada como su propio refugio de esperanza y dignidad.",
+    "¿Crees que la inocencia del primer amor es el recuerdo más puro que guardamos?"
+  ],
+  "outro": "¿Crees que la inocencia del primer amor es el recuerdo más puro que guardamos?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fdfbf7",
+    "accent": "#9a3412",
+    "glow": "#ea580c"
+  },
+  "music": {
+    "title": "Adiós, chico de mi barrio",
+    "artist": "Tormenta",
+    "src": "music/tormenta-adios-chico-de-mi-barrio-acordes-ocultos-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Adios chico de mi barrio Tormenta",
+      "expectedTitle": "Adiós, Chico de Mi Barrio",
+      "expectedArtist": "Tormenta",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en TikTok/Reels al publicar."
+    }
+  },
+  "coverBg": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic documentary portrait of Argentine singer Tormenta (Liliana Maturano) in 1971: An 18-year-old young woman with soft natural dark brown shoulder-length hair, delicate expressive eyes, gentle melancholy smile, wearing a simple bohemian late-60s knitted cream sweater and holding an acoustic Spanish classical guitar in a warm Buenos Aires recording studio. Vintage 1971 Kodachrome film tones, soft 35mm grain, generous safe space at bottom for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 moody documentary street scene in Buenos Aires in 1970: A vintage black and white police patrol car stopped near a street corner in a working-class neighborhood. Two stern officers questioning a young man with long shaggy hair in denim jacket, atmospheric grey cobblestone street, misty overcast winter afternoon, subtle vintage grain, authentic 35mm photojournalism, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate bedroom scene in a suburban Buenos Aires brick cottage in 1970: 18-year-old Tormenta (Liliana Maturano) with shoulder-length dark brown hair, wearing a cozy cream knitted sweater, sitting on her bed by an open lace-curtained window strumming a Spanish acoustic guitar and writing lyrics in an open notebook, soft golden sunlight streaming through the window, gentle introspective expression, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 evocative suburban street scene in 1970: A carefree 18-year-old neighborhood boy with wavy long shoulder-length hair, rolled-up denim jeans, bare feet pedaling an old vintage bicycle along a dirt and cobblestone road lined with jacaranda trees, holding a small wildflower in his mouth, sun flare on the road, youthful counterculture freedom, 35mm archival photograph, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 nostalgic neighborhood plaza in Buenos Aires in 1970: The long-haired boy on his bicycle riding past a stone park bench where elderly conservative neighbors in formal coats look on with stern disapproval, autumn sycamore leaves blowing across the sidewalk, contrasting youthful freedom against traditional social rigidity, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 vintage 1970 RCA Victor recording studio hallway in Buenos Aires: Young Liliana Maturano (Tormenta) walking nervously with her guitar case beside folk singer Victor Heredia, through wooden studio doors towards the recording room, modest 1970s fashion, warm hallway tungsten lamps, authentic archival documentary feel, 35mm film texture, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 intimate 1970 recording studio tracking room: Tormenta standing before a vintage studio microphone with headphones on, singing with heartfelt emotion and closed eyes, an acoustic guitar strapped over her cream sweater, behind the glass a small orchestra of string players and arranger Horacio Malvicino directing, warm amber studio lighting, 35mm documentary photography, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 nostalgic 1971 scene in a Buenos Aires living room: A vintage wooden console radio and a small turntable on a credenza playing music, a teenage girl with flower-embroidered jeans listening intently by an open balcony window while city traffic moves below, warm afternoon sun, authentic 1971 Latin American interior aesthetic, 35mm film grain, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 energetic 1971 television broadcast concert in Buenos Aires: Tormenta performing on a retro television stage with pop flower decor and round lights, holding her guitar, while in the audience hundreds of young people with long hair and denim sing along with radiant, moved expressions, vibrant vintage color grading, 35mm broadcast photography, no text."
+    },
+    {
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic closing visual metaphor of first love, freedom, and neighborhood memories: A vintage classic bicycle resting quietly against an old leafy tipa tree on a suburban dirt street sidewalk at golden sunset. A bunch of wild yellow dandelions sits gently tied to the bicycle handlebar. The long shadows stretch across the empty peaceful street as an evening autumn breeze scatters golden leaves into the twilight. Timeless, cinematic, deeply nostalgic, no text, 35mm film still."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/tormenta-adios-chico-de-mi-barrio-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1970, en Buenos Aires, las autoridades vigilaban con recelo a los jóvenes con cabello largo."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Desde su ventana en Paso del Rey, Liliana Maturano componía canciones con su guitarra española."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "Observaba a los muchachos del barrio: jóvenes descalzos en bicicleta que soñaban con ser libres."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Inspirada por esa inocencia rebelde, escribió un poema íntimo dedicado al primer amor que parte."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "Bajo el nombre de Tormenta, grabó la canción con una timidez dulce pero inquebrantable."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Su voz suave convirtió una despedida barrial en un himno inolvidable de ternura y nostalgia."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "El tema burló todas las barreras y vendió un millón de discos en toda Latinoamérica."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Una generación entera adoptó la balada como su propio refugio de esperanza y dignidad."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "¿Crees que la inocencia del primer amor es el recuerdo más puro que guardamos?"
+    }
+  ]
+}

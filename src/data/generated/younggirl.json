@@ -1,0 +1,147 @@
+{
+  "title": "La canción de amor más incómoda de los años 60",
+  "artist": "Gary Puckett & The Union Gap",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que una de las canciones más vendidas de 1968, que superó en ventas a los mismísimos Beatles, esconda hoy la letra más incómoda de la radiofórmula? La canción 'Young Girl' narra el dilema de un hombre que descubre que la chica de la que está enamorado es menor de edad y le ruega que se marche. Su compositor se inspiró en el 'susto' de la carretera, al ver cómo adolescentes lucían de veinte años en las giras de los sesenta. Para evitar la censura inmediata de las emisoras conservadoras, la banda recurrió a una estricta estrategia visual: vestirse de soldados del norte de la Guerra de Secesión. Esta estética puritana e histórica suavizó el impacto de la letra, logrando convencer a los ejecutivos de que se trataba de una obra honorable. Sin embargo, las plataformas de streaming y el paso de las décadas han vuelto a encender el debate sobre el verdadero sentido de sus versos. Un clásico dorado del pop-rock envuelto en una fina línea moral. Y tú, ¿sientes incomodidad al escuchar su letra hoy?",
+  "hook": "¿Cómo es posible que una de las canciones más vendidas de 1968, que superó en ventas a los mismísimos Beatles, esconda hoy la letra más incómoda de la radiofórmula?",
+  "beats": [
+    "La canción 'Young Girl' narra el dilema de un hombre que descubre que la chica de la que está enamorado es menor de edad y le ruega que se marche.",
+    "Su compositor se inspiró en el 'susto' de la carretera, al ver cómo adolescentes lucían de veinte años en las giras de los sesenta.",
+    "Para evitar la censura inmediata de las emisoras conservadoras, la banda recurrió a una estricta estrategia visual: vestirse de soldados del norte de la Guerra de Secesión.",
+    "Esta estética puritana e histórica suavizó el impacto de la letra, logrando convencer a los ejecutivos de que se trataba de una obra honorable.",
+    "Sin embargo, las plataformas de streaming y el paso de las décadas han vuelto a encender el debate sobre el verdadero sentido de sus versos."
+  ],
+  "outro": "Un clásico dorado del pop-rock envuelto en una fina línea moral. Y tú, ¿sientes incomodidad al escuchar su letra hoy?",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f7f5f0",
+    "accent": "#1f3a60",
+    "glow": "#b59410"
+  },
+  "music": {
+    "title": "Young Girl",
+    "artist": "Gary Puckett & The Union Gap",
+    "src": "music/younggirl.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Young Girl Gary Puckett The Union Gap",
+      "expectedTitle": "Young Girl",
+      "expectedArtist": "Gary Puckett & The Union Gap",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/younggirl/scene-01.png",
+      "prompt": "A spinning 1968 vinyl single of Gary Puckett & The Union Gap's 'Young Girl' on a retro wooden turntable, warm amber light, late 60s design, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-02.png",
+      "prompt": "A record producer in a 1960s suit (representing Jerry Fuller) standing inside a hazy, vintage San Diego bowling alley bar, watching a band play on a small stage, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-03.png",
+      "prompt": "Five musicians dressed in solemn blue Union Army Civil War uniforms holding instruments (guitar, bass, drums) in a 1960s television studio setting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-04.png",
+      "prompt": "A handsome young singer with dark hair and blue eyes (representing Gary Puckett) singing intensely under a spotlight, dressed in a historic blue military uniform, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-05.png",
+      "prompt": "Television and record executives in a late 1960s boardroom, nodding in approval while watching a black-and-white television showing the band in uniforms, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-06.png",
+      "prompt": "A dark silhouette of a young girl standing at a doorway in the evening light, with a man standing in the shadows looking conflicted and holding his hands up, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/younggirl/scene-07.png",
+      "prompt": "A young person today listening to music with modern headphones in a cozy room, looking at their phone screen with a shocked, uncomfortable expression, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/younggirl/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/younggirl/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/younggirl/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/younggirl/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/younggirl/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/younggirl/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/younggirl/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que una de las canciones más vendidas de 1968, que superó en ventas a los mismísimos Beatles, esconda hoy la letra más incómoda de la radiofórmula?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "La canción 'Young Girl' narra el dilema de un hombre que descubre que la chica de la que está enamorado es menor de edad y le ruega que se marche."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Su compositor se inspiró en el 'susto' de la carretera, al ver cómo adolescentes lucían de veinte años en las giras de los sesenta."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para evitar la censura inmediata de las emisoras conservadoras, la banda recurrió a una estricta estrategia visual: vestirse de soldados del norte de la Guerra de Secesión."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Esta estética puritana e histórica suavizó el impacto de la letra, logrando convencer a los ejecutivos de que se trataba de una obra honorable."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Sin embargo, las plataformas de streaming y el paso de las décadas han vuelto a encender el debate sobre el verdadero sentido de sus versos."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un clásico dorado del pop-rock envuelto en una fina línea moral. Y tú, ¿sientes incomodidad al escuchar su letra hoy?"
+    }
+  ]
+}

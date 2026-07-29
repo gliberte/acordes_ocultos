@@ -1,0 +1,147 @@
+{
+  "title": "The Guitar Man",
+  "artist": "Bread",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El clásico de Bread 'The Guitar Man' rinde homenaje a los músicos solitarios de la carretera, pero esconde una gran ironía de estudio. David Gates escribió este tributo, pero sabía que la canción requería un solo de guitarra eléctrica muy específico y con un sonido 'llorón'. Para grabarlo recurrieron a Larry Knechtel, quien se había unido formalmente a Bread para tocar los teclados. A pesar de ser el tecladista, Knechtel era un multiinstrumentista asombroso. Conectó una guitarra eléctrica a un pedal Whammy-Wah. La gran ironía es que mientras Gates canta sobre el solitario 'Guitar Man', el increíble solo que define el tema lo toca el tecladista. La mezcla entre la acústica rítmica de Gates y las notas distorsionadas de Knechtel creó una atmósfera fluida y melódica inolvidable. Así fue como el tecladista demostró su talento oculto, convirtiéndose en el verdadero y legendario 'Guitar Man'.",
+  "hook": "El clásico de Bread 'The Guitar Man' rinde homenaje a los músicos solitarios de la carretera, pero esconde una gran ironía de estudio.",
+  "beats": [
+    "David Gates escribió este tributo, pero sabía que la canción requería un solo de guitarra eléctrica muy específico y con un sonido 'llorón'.",
+    "Para grabarlo recurrieron a Larry Knechtel, quien se había unido formalmente a Bread para tocar los teclados.",
+    "A pesar de ser el tecladista, Knechtel era un multiinstrumentista asombroso. Conectó una guitarra eléctrica a un pedal Whammy-Wah.",
+    "La gran ironía es que mientras Gates canta sobre el solitario 'Guitar Man', el increíble solo que define el tema lo toca el tecladista.",
+    "La mezcla entre la acústica rítmica de Gates y las notas distorsionadas de Knechtel creó una atmósfera fluida y melódica inolvidable."
+  ],
+  "outro": "Así fue como el tecladista demostró su talento oculto, convirtiéndose en el verdadero y legendario 'Guitar Man'.",
+  "palette": {
+    "ink": "#181410",
+    "paper": "#fcfaf5",
+    "accent": "#bf7f30",
+    "glow": "#dfa040"
+  },
+  "music": {
+    "title": "The Guitar Man",
+    "artist": "Bread",
+    "src": "music/bread-guitar-man.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Guitar Man Bread",
+      "expectedTitle": "The Guitar Man",
+      "expectedArtist": "Bread",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bread-guitar-man/scene-01.png",
+      "prompt": "A lonely guitar player walking down the shoulder of a misty highway at sunset carrying an acoustic guitar case, twilight lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-02.png",
+      "prompt": "David Gates composing at a studio desk in the 1970s, with sheets of music scores and a Gibson acoustic guitar resting next to him, warm colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-03.png",
+      "prompt": "Larry Knechtel sitting smiling in front of a grand piano in a vintage recording studio with wooden panels, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-04.png",
+      "prompt": "Close up of a chrome vintage Wah-Wah effects pedal on the rug of a 1970s analog recording studio, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-05.png",
+      "prompt": "Larry Knechtel playing an electric guitar passionately in the recording studio, with a vintage Rhodes keyboard in the background, warm vintage vibe, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-06.png",
+      "prompt": "Two Bread band musicians sitting and playing guitars together inside a classic analog control room with warm vintage lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bread-guitar-man/scene-07.png",
+      "prompt": "A vintage copy of The Guitar Man vinyl single with butterfly Elektra Records label spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/bread-guitar-man/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/bread-guitar-man/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/bread-guitar-man/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/bread-guitar-man/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/bread-guitar-man/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/bread-guitar-man/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/bread-guitar-man/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El clásico de Bread 'The Guitar Man' rinde homenaje a los músicos solitarios de la carretera, pero esconde una gran ironía de estudio."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "David Gates escribió este tributo, pero sabía que la canción requería un solo de guitarra eléctrica muy específico y con un sonido 'llorón'."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Para grabarlo recurrieron a Larry Knechtel, quien se había unido formalmente a Bread para tocar los teclados."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "A pesar de ser el tecladista, Knechtel era un multiinstrumentista asombroso. Conectó una guitarra eléctrica a un pedal Whammy-Wah."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "La gran ironía es que mientras Gates canta sobre el solitario 'Guitar Man', el increíble solo que define el tema lo toca el tecladista."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "La mezcla entre la acústica rítmica de Gates y las notas distorsionadas de Knechtel creó una atmósfera fluida y melódica inolvidable."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Así fue como el tecladista marcó la sesión, convirtiéndose en el verdadero y legendario 'Guitar Man'."
+    }
+  ]
+}

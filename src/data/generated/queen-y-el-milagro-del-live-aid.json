@@ -1,0 +1,182 @@
+{
+  "title": "Queen y el milagro del Live Aid",
+  "artist": "Queen",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "En julio de 1985, Queen estaba en su punto mas bajo: tensiones internas, discos tibios y al borde de la separacion. El concierto benefico Live Aid en el estadio de Wembley era su ultima oportunidad para demostrar que seguian siendo relevantes. Mientras otras bandas protestaban por el sonido, el ingeniero de Queen, Trip Khalaf, subio en secreto el volumen de la consola de Wembley para que sonaran mas fuerte que nadie. Freddie Mercury salto al escenario vistiendo jeans y una camiseta blanca, con una energia desbordante que electrizo a las 72000 personas al instante. Durante 20 minutos perfectos, Freddie controlo al publico como una sola voz, logrando que todo el estadio aplaudiera en perfecta sincronia en Radio Ga Ga. La actuacion fue tan monumental que eclipso a leyendas como Led Zeppelin y Elton John, siendo recordada como el mejor show en vivo de la historia del rock. Esa tarde en Londres, Queen no solo salvo su carrera; redefinio para siempre lo que significa ser una banda de estadios.",
+  "hook": "En julio de 1985, Queen estaba al borde de la separacion, pero el Live Aid de Wembley cambiaria su historia para siempre.",
+  "beats": [
+    "Mientras otras bandas se quejaban del sonido, el ingeniero de Queen subio en secreto el volumen de la consola general.",
+    "Freddie Mercury salto al escenario vistiendo jeans y una camiseta blanca, desbordando una energia magnetica.",
+    "Desde la primera nota de 'Bohemian Rhapsody', el estadio entero quedo bajo un absoluto control hipnotico.",
+    "Durante 20 minutos impecables, Freddie unifico a 72,000 personas en una sola voz durante 'Radio Ga Ga'.",
+    "La actuacion fue tan colosal que eclipso a leyendas como Elton John, Led Zeppelin y U2."
+  ],
+  "outro": "Esa tarde en Londres, Queen no solo salvo su carrera; definio para siempre como debe sonar el rock de estadios.",
+  "palette": {
+    "ink": "#050508",
+    "paper": "#fcfbf7",
+    "accent": "#e6b800",
+    "glow": "#ff4500"
+  },
+  "music": {
+    "title": "Radio Ga Ga",
+    "artist": "Queen",
+    "src": "music/queen-live-aid.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Radio Ga Ga Live Aid Queen",
+      "expectedTitle": "Radio Ga Ga (Live Aid 13 July 1985)",
+      "expectedArtist": "Queen",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical."
+    }
+  },
+  "publication": {
+    "description": "En julio de 1985, Queen llego al concierto Live Aid en Wembley en su momento más bajo, con rumores de separacion y tensiones internas. Pero aquella tarde se convirtio en la mayor demostracion de dominio escenico del rock.\n\nMientras otras bandas se quejaban de la limitación acústica impuesta por la organizacion, el ingeniero de sonido de Queen, Trip Khalaf, decidio subir en secreto el volumen en la mesa de mezclas general, logrando que sonaran mas potente que nadie.\n\nAl salir al escenario, Freddie Mercury vistiendo de forma simple y con su energia electrizante se apodero de las 72,000 almas del estadio. Su interpretacion de 'Radio Ga Ga', con todo Wembley dando palmadas al unisono en un mar de sincronia perfecta, paso a la historia como el mejor concierto en vivo de todos los tiempos. Queen no solo salvo su carrera; cambio el rock de estadios."
+  },
+  "assets": [
+    {
+      "src": "videos/queen-live-aid/scene-01.png",
+      "prompt": "Queen band members backstage at Wembley Stadium in 1985, looking tense and anxious, retro 80s outfits, vintage documentary photograph style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-02.png",
+      "prompt": "Queen's sound engineer Trip Khalaf, secretly pushing the mixing console faders to the maximum in the sound tower at Wembley, bright daylight, realistic 80s concert photo, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-03.png",
+      "prompt": "Portrait of Freddie Mercury backstage just before going on stage, focused look, wearing white tank top and studded leather armband, sweat on skin, dramatic spotlight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-04.png",
+      "prompt": "Freddie Mercury from behind running onto the massive stage of Wembley Stadium in 1985, bright afternoon sun, facing a massive crowd of 72,000 people, iconic rock concert shot, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-05.png",
+      "prompt": "Panoramic daylight shot of Wembley Stadium crowd in 1985, 72,000 people clapping their hands in unison above their heads, electric concert atmosphere, detailed photo, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-06.png",
+      "prompt": "Freddie Mercury on his knees on the stage, chest out, holding his half-microphone stand, singing passionately under the bright afternoon sun, legendary pose, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/queen-live-aid/scene-07.png",
+      "prompt": "Queen band members standing in line on stage, bowing and smiling to the massive roaring stadium crowd at sunset, triumphant rock victory, 1985 documentary still, 9:16 aspect ratio"
+    }
+  ],
+  "clip": {
+    "src": "videos/queen-live-aid/transition-wembley-crowd.mp4",
+    "prompt": "8 second vertical cinematic transition from a guitarist behind a microphone facing a massive crowd on stage in a stadium to a panoramic view of the crowd clapping in unison, bright afternoon sun, camera sweep, no text",
+    "startSecond": 48,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 12,
+      "src": "videos/queen-live-aid/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "src": "videos/queen-live-aid/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "src": "videos/queen-live-aid/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "src": "videos/queen-live-aid/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/queen-live-aid/transition-wembley-crowd.mp4",
+      "type": "video"
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "src": "videos/queen-live-aid/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "src": "videos/queen-live-aid/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/queen-live-aid/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "En julio de 1985, Queen estaba al borde de la separacion, pero el Live Aid de Wembley cambiaria su historia para siempre."
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "Mientras otras bandas se quejaban del sonido, el ingeniero de Queen subio en secreto el volumen de la consola general."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "text": "Freddie Mercury salto al escenario vistiendo jeans y una camiseta blanca, desbordando una energia magnetica."
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "Desde la primera nota de 'Bohemian Rhapsody', el estadio entero quedo bajo un absoluto control hipnotico."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "La camara se eleva barriendo el escenario y mostrando a una multitud interminable..."
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "text": "...donde 72,000 personas aplaudian en perfecta sincronia con sus manos alzadas en 'Radio Ga Ga'."
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "La actuacion fue tan colosal que eclipso a leyendas como Elton John, Led Zeppelin y U2."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Esa tarde en Londres, Queen no solo salvo su carrera; definio para siempre como debe sonar el rock de estadios."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/queen-live-aid"
+  }
+}

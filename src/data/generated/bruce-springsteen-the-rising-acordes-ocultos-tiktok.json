@@ -1,0 +1,185 @@
+{
+  "title": "La Ascensión",
+  "artist": "Bruce Springsteen",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "Días después de los atentados del 11 de septiembre, un desconocido bajó la ventanilla de su coche en un semáforo de Nueva Jersey y le gritó a Bruce Springsteen: «¡Bruce, te necesitamos!». Conmovido y abrumado por la responsabilidad, el Boss no compuso un himno de odio o venganza bélica. Escribió «The Rising» desde los ojos de un bombero del FDNY que sube por las escaleras de la Torre Sur envuelto en humo y fuego, cargando sesenta libras de equipo mientras la gente evacúa hacia abajo. Una plegaria solemne de sacrificio, fraternidad y amor que transformó el trauma colectivo en redención.",
+  "hook": "Un desconocido le gritó en un semáforo: «¡Bruce, te necesitamos!». Lo que compuso no fue un himno de guerra, sino la mirada de un bombero subiendo hacia la muerte.",
+  "beats": [
+    "La mañana del once de septiembre amaneció radiante; en segundos, el mundo cambió para siempre.",
+    "Entre el estruendo y el polvo asfixiante, cientos de bomberos corrieron hacia el epicentro del peligro.",
+    "A las puertas de la Torre Sur, hombres valientes ajustaron sus cascos sin mirar atrás.",
+    "Cargando sesenta libras de equipo, subían escaleras mientras miles de civiles desesperados bajaban buscando salvación.",
+    "Días después, un desconocido gritó a Springsteen en un semáforo: «¡Bruce, te necesitamos ahora!».",
+    "Conmovido, Bruce tomó su guitarra para componer la plegaria íntima de aquel bombero caído.",
+    "En el estudio, coros góspel y violines transformaron el dolor colectivo en pura esperanza.",
+    "Trescientos cuarenta y tres cascos quedaron grabados como símbolo eterno de fraternidad y entrega.",
+    "«The Rising» recordó para siempre a quienes ascendieron hacia el fuego para salvar vidas ajenas."
+  ],
+  "outro": "Ascendieron hacia el fuego para que otros vivieran. ¿Qué emoción te despierta hoy escuchar The Rising de Bruce Springsteen?",
+  "palette": {
+    "ink": "#0d1117",
+    "paper": "#f3f4f6",
+    "accent": "#d97706",
+    "glow": "#2563eb"
+  },
+  "music": {
+    "title": "The Rising",
+    "artist": "Bruce Springsteen",
+    "src": "music/bruce-springsteen-the-rising.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Rising Bruce Springsteen",
+      "expectedTitle": "The Rising",
+      "expectedArtist": "Bruce Springsteen",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/bruce-springsteen-the-rising-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-01.png",
+      "prompt": "Tuesday September 11 2001 early morning 8:40 AM: Lower Manhattan skyline viewed from across the Hudson river, pristine crisp clear blue sky, majestic Twin Towers standing tall in brilliant morning sunlight, calm before the catastrophe, analog 35mm film photography grain, solemn cinematic vertical 9:16."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-02.png",
+      "prompt": "Lower Manhattan streets 8:50 AM: A red FDNY fire engine speeding down a canyon of concrete and glass with flashing emergency lights, dense rising smoke plumes reflecting in skyscraper glass, intense motion blur, dramatic sirens and urgency, cinematic 35mm photojournalism, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-03.png",
+      "prompt": "Ground level of the World Trade Center complex: A determined group of FDNY firefighters in heavy turnout coats and yellow reflective stripes, soot-streaked faces, tightening their helmet straps and checking oxygen tanks at the tower entrance, brotherhood and resolute courage, dramatic low angle lighting, 35mm documentary still, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-04.png",
+      "prompt": "Inside the narrow emergency stairwell of the World Trade Center South Tower: An FDNY firefighter climbing upward carrying heavy hose lines and axe through rising hazy smoke, passing frightened office workers evacuating downwards, warm emergency lighting, selfless bravery and sacrifice, powerful emotional contrast, 35mm cinematic vertical 9:16."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-05.png",
+      "prompt": "New Jersey coastal road September 2001: Bruce Springsteen sitting in his vintage convertible at a red traffic light, wearing a simple denim jacket, looking over as a working-class driver in an adjacent car rolls down his window and gestures with deep emotion pleading 'Bruce, we need you!', raw human moment, golden late afternoon light, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-06.png",
+      "prompt": "Intimate recording studio: Bruce Springsteen sitting on a wooden stool under a single warm tungsten spotlight, intensely strumming a vintage acoustic guitar with his eyes closed, notebooks with handwritten lyrics on the floor, composing from the soul of the firefighter, poignant solemn atmosphere, 35mm documentary photography, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-07.png",
+      "prompt": "Atlanta recording studio session late 2001: A soulful gospel choir singing with hands raised into vintage studio microphones alongside violin and rock instruments, golden dust particles floating in the warm studio lights, emotional elevation and healing through music, cinematic 35mm film still, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-08.png",
+      "prompt": "Solemn Ground Zero memorial aftermath: FDNY firefighter helmets placed respectfully in a row on steel beams, American flags gently draped, soft morning fog and rising dawn light filtering through Manhattan, reverent tribute to the 343 fallen first responders, heartfelt emotional photography, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-09.png",
+      "prompt": "Tribute in Light over Lower Manhattan night sky: Two powerful beams of bright blue-white light rising endlessly into the starry night sky above the illuminated city skyline, solemn spiritual transcendence, eternal remembrance and resilience, awe-inspiring cinematic 35mm photography, 9:16 vertical."
+    }
+  ],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 6.666,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.666,
+      "end": 13.333,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.333,
+      "end": 20,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.666,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.666,
+      "end": 33.333,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.333,
+      "end": 40,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.666,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.666,
+      "end": 53.333,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.333,
+      "end": 60,
+      "src": "videos/bruce-springsteen-the-rising-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.666,
+      "text": "La mañana del once de septiembre amaneció radiante; en segundos, el mundo cambió para siempre."
+    },
+    {
+      "start": 6.666,
+      "end": 13.333,
+      "text": "Entre el estruendo y el polvo asfixiante, cientos de bomberos corrieron hacia el epicentro del peligro."
+    },
+    {
+      "start": 13.333,
+      "end": 20,
+      "text": "A las puertas de la Torre Sur, hombres valientes ajustaron sus cascos sin mirar atrás."
+    },
+    {
+      "start": 20,
+      "end": 26.666,
+      "text": "Cargando sesenta libras de equipo, subían escaleras mientras miles de civiles desesperados bajaban buscando salvación."
+    },
+    {
+      "start": 26.666,
+      "end": 33.333,
+      "text": "Días después, un desconocido gritó a Springsteen en un semáforo: «¡Bruce, te necesitamos ahora!». "
+    },
+    {
+      "start": 33.333,
+      "end": 40,
+      "text": "Conmovido, Bruce tomó su guitarra para componer la plegaria íntima de aquel bombero caído."
+    },
+    {
+      "start": 40,
+      "end": 46.666,
+      "text": "En el estudio, coros góspel y violines transformaron el dolor colectivo en pura esperanza."
+    },
+    {
+      "start": 46.666,
+      "end": 53.333,
+      "text": "Trescientos cuarenta y tres cascos quedaron grabados como símbolo eterno de fraternidad y entrega."
+    },
+    {
+      "start": 53.333,
+      "end": 60,
+      "text": "«The Rising» recordó para siempre a quienes ascendieron hacia el fuego para salvar vidas ajenas."
+    }
+  ],
+  "publication": {
+    "description": "La Ascensión: El grito en un semáforo que impulsó a Bruce Springsteen a componer desde el corazón de las llamas del 11 de septiembre.\n\nEn los días posteriores al colapso de las Torres Gemelas, una atmósfera de desolación, polvo y silencio cubría el área metropolitana de Nueva York y Nueva Jersey. Bruce Springsteen conducía cerca de su hogar cuando un desconocido en el coche de al lado bajó la ventanilla en un semáforo en rojo, lo miró con desesperación y le gritó: «¡Bruce, te necesitamos ahora!». Aquella súplica desgarradora sacudió al Boss hasta lo más profundo.\n\nEn una época en que los medios y el fervor político clamaban por revancha bélica, Springsteen decidió alejarse por completo de la propaganda o el odio. Se encerró a componer con una premisa sagrada: contar la tragedia desde la mirada íntima, humana y sacrificial de un bombero del FDNY.\n\n«The Rising» narra la subida por las escaleras de emergencia de la Torre Sur. Un socorrista cargando más de 25 kilos de equipo a través de un laberinto asfixiante de humo y calor extremo. Mientras miles de oficinistas aterrorizados corren escaleras abajo buscando la salvación, él continúa subiendo paso a paso hacia lo desconocido, sosteniéndose en la imagen de su esposa, el recuerdo de sus hijos y la devoción ciega a sus hermanos de brigada.\n\nGrabado junto a la E Street Band y enriquecido con el violín de Soozie Tyrell y un sobrecogedor coro góspel, el tema culmina no en el derrumbe, sino en la ascensión espiritual: una transformación del duelo y la ceniza en luz imperecedera. Aquel fatídico 11 de septiembre, 343 bomberos perdieron la vida cumpliendo con su deber.\n\n«The Rising» permanece hoy como una de las obras más dignas, solemnes y conmovedoras de la historia del rock: una plegaria eterna a quienes ascendieron al fuego para que otros pudieran vivir.\n\n#BruceSpringsteen #TheRising #11Septiembre #FDNY #acordesocultos #AcordesOcultos #HistoriaDelRock #RockClasico"
+  }
+}

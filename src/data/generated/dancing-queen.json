@@ -1,0 +1,147 @@
+{
+  "title": "Dancing Queen",
+  "artist": "ABBA",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Puede una melodía ser tan perfecta que haga llorar a sus propios creadores antes de que el mundo la escuche? En 1976, Benny Andersson y Björn Ulvaeus terminaron de grabar la base rítmica instrumental de lo que sentían sería algo enorme. Al escuchar la cinta en casa, Frida Lyngstad no pudo contener las lágrimas, conmovida por la belleza oculta en los acordes. Al sumar las voces principales junto a Agnetha Fältskog en el estudio, ambas supieron que tenían un clásico imperecedero entre manos. Pero su debut no fue en las discotecas, sino ante la realeza: una gala en honor a la boda del Rey de Suecia y la futura Reina Silvia. ABBA subió al escenario vestidos con trajes barrocos del siglo XVIII e interpretaron la canción en un golpe de genialidad histórica. Una oda a las reinas del baile que nació del llanto de dos cantantes y se coronó en los salones de un palacio real.",
+  "hook": "¿Puede una melodía ser tan perfecta que haga llorar a sus propios creadores antes de que el mundo la escuche?",
+  "beats": [
+    "En 1976, Benny Andersson y Björn Ulvaeus terminaron de grabar la base rítmica instrumental de lo que sentían sería algo enorme.",
+    "Al escuchar la cinta en casa, Frida Lyngstad no pudo contener las lágrimas, conmovida por la belleza oculta en los acordes.",
+    "Al sumar las voces principales junto a Agnetha Fältskog en el estudio, ambas supieron que tenían un clásico imperecedero entre manos.",
+    "Pero su debut no fue en las discotecas, sino ante la realeza: una gala en honor a la boda del Rey de Suecia y la futura Reina Silvia.",
+    "ABBA subió al escenario vestidos con trajes barrocos del siglo XVIII e interpretaron la canción en un golpe de genialidad histórica."
+  ],
+  "outro": "Una oda a las reinas del baile que nació del llanto de dos cantantes y se coronó en los salones de un palacio real.",
+  "palette": {
+    "ink": "#110e14",
+    "paper": "#f9f6f0",
+    "accent": "#bf8a2b",
+    "glow": "#dfaf4f"
+  },
+  "music": {
+    "title": "Dancing Queen",
+    "artist": "ABBA",
+    "src": "music/dancing-queen.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Dancing Queen ABBA",
+      "expectedTitle": "Dancing Queen",
+      "expectedArtist": "ABBA",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/dancing-queen/scene-01.png",
+      "prompt": "A young Benny Andersson with a beard and Björn Ulvaeus adjusting knobs on a vintage mixing console in a Swedish recording studio in 1976, warm tape machine reels spinning in the background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-02.png",
+      "prompt": "A beautiful young Swedish woman with reddish-brown hair (Frida Lyngstad) listening to a tape recorder at home, a gentle tear of joy and deep happy emotion rolling down her smiling face, tender soft lighting, 1976 aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-03.png",
+      "prompt": "A beautiful young Swedish woman with long blonde hair and bangs (Agnetha Fältskog) singing emotional lead vocals into a large studio microphone, wearing headphones, professional recording booth in 1976, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-04.png",
+      "prompt": "A young elegant brunette bride (Silvia Sommerlath) in a stunning royal wedding dress, standing next to a king in uniform inside a Swedish palace gala, 1976, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-05.png",
+      "prompt": "The pop group ABBA performing on a grand royal theater stage dressed in elaborate 18th-century Baroque theatrical costumes and powdered wigs, theatrical stage lights, 1976, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-06.png",
+      "prompt": "Close-up of a vintage vinyl record of ABBA's 'Dancing Queen' spinning on a turntable, colorful retro label, warm retro lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dancing-queen/scene-07.png",
+      "prompt": "A grand ballroom inside a European royal palace, crystal chandeliers, elegant guests in formal gowns applauding warmly under golden lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/dancing-queen/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/dancing-queen/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/dancing-queen/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/dancing-queen/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/dancing-queen/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/dancing-queen/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/dancing-queen/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Puede una melodía ser tan perfecta que haga llorar a sus propios creadores antes de que el mundo la escuche?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1976, Benny Andersson y Björn Ulvaeus terminaron de grabar la base rítmica instrumental de lo que sentían sería algo enorme."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Al escuchar la cinta en casa, Frida Lyngstad no pudo contener las lágrimas, conmovida por la belleza oculta en los acordes."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Al sumar las voces principales junto a Agnetha Fältskog en el estudio, ambas supieron que tenían un clásico imperecedero entre manos."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Pero su debut no fue en las discotecas, sino ante la realeza: una gala en honor a la boda del Rey de Suecia y la futura Reina Silvia."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "ABBA subió al escenario vestidos con trajes barrocos del siglo XVIII e interpretaron la canción en un golpe de genialidad histórica."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una oda a las reinas del baile que nació del llanto de dos cantantes y se coronó en los salones de un palacio real."
+    }
+  ]
+}

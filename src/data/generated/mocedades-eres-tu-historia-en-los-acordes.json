@@ -1,0 +1,112 @@
+{
+  "title": "El Poema de Fuego y Agua que Detuvo el Tiempo",
+  "artist": "Mocedades",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "Hay canciones que no cuentan una historia con principio y fin, sino que pintan un refugio en el alma humana. En 1973, 'Eres tú' nació como un canto elemental a los pilares del amor y la existencia: la promesa de una mañana de verano donde el viento acaricia los campos dorados, la lluvia fresca lavando el cansancio de las manos, el agua cristalina que calma la sed más honda y el fuego de la hoguera que calienta la noche más oscura. Cada verso es una imagen viva de la naturaleza fundiéndose con el alma, una guitarra sonando bajo la luna y un horizonte sin límites. Un himno eterno que nos recuerda que amar es encontrar un hogar en el universo.",
+  "hook": "Como una promesa que despierta en la brisa de una mañana de verano.",
+  "beats": [
+    "Como lluvia fresca cayendo suave en las manos abiertas para renovar la vida.",
+    "Eres el agua pura que brota de la fuente para apagar la sed del alma.",
+    "Y el fuego cálido de la hoguera que ilumina y abriga en medio de la noche.",
+    "Como una guitarra española resonando bajo el manto de un cielo estrellado.",
+    "Todo mi horizonte, la calma infinita y el refugio donde el amor nunca termina."
+  ],
+  "outro": "Una obra de fuego, agua y poesía pura que cruzó todas las fronteras. ¿Qué imagen viene a tu mente cuando la escuchas?",
+  "palette": {
+    "ink": "#0b0c16",
+    "paper": "#fbf7ee",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Eres tú",
+    "artist": "Mocedades",
+    "src": "music/mocedades-eres-tu.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Eres tu Mocedades",
+      "expectedTitle": "Eres tú",
+      "expectedArtist": "Mocedades",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-01.png",
+      "prompt": "Cinematic 1970s photograph of a golden summer morning sunrise over rolling green hills and wheat fields in Spain, gentle morning mist glowing in golden sunlight, warm nostalgic atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-02.png",
+      "prompt": "Poetic close-up photograph of two gentle open hands catching fresh raindrops falling from a soft, sunlit summer shower, sparkling water droplets on skin, warm natural backlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-03.png",
+      "prompt": "Beautiful rustic stone water fountain in an ancient sun-drenched Mediterranean courtyard, pure crystal clear water splashing softly into a mossy basin surrounded by ivy and summer flowers, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-04.png",
+      "prompt": "Atmospheric close-up of a crackling warm bonfire at dusk under an evening sky, glowing orange embers, dancing warm flames casting golden light on wooden logs, cozy and romantic, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-05.png",
+      "prompt": "Poetic night photograph of a Spanish classical acoustic guitar resting on a wooden chair on a stone balcony under a starry night sky with a full glowing moon, soft moonlight reflections on the guitar strings, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-06.png",
+      "prompt": "Breathtaking panoramic shot of a vast horizon at golden hour where a tranquil sea meets golden coastal cliffs, soft warm breeze swaying tall grass, cinematic nostalgic light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-07.png",
+      "prompt": "Intimate close-up photograph of a handwritten poem in elegant cursive ink on aged paper resting on a wooden desk next to a burning candle and a small vase of dried wildflowers, warm romantic light, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Como una promesa que despierta en la brisa de una mañana de verano."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Como lluvia fresca cayendo suave en las manos abiertas para renovar la vida."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Eres el agua pura que brota de la fuente para apagar la sed del alma."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Y el fuego cálido de la hoguera que ilumina y abriga en medio de la noche."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Como una guitarra española resonando bajo el manto de un cielo estrellado."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Todo mi horizonte, la calma infinita y el refugio donde el amor nunca termina."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una obra de fuego, agua y poesía pura que cruzó todas las fronteras."
+    }
+  ]
+}

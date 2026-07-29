@@ -1,0 +1,147 @@
+{
+  "title": "La confesión más oscura de los años 80",
+  "artist": "Phil Collins",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Phil Collins exorcizó una de las canciones más oscuras de los ochenta... sin saber que estaba arrojando sus propias cenizas al viento. El naufragio de su primer matrimonio lo dejó a la deriva en una casa vacía de Surrey, donde el silencio era un eco insoportable que pedía auxilio. De esa rabia suspendida nació una leyenda urbana: el mito de un hombre que dejó ahogar a otro mientras Phil observaba en la penumbra. Pero la verdad es más simple y humana: no había ningún ahogado, solo un hombre roto escupiendo palabras al azar sobre una cinta de casete. El verdadero milagro ocurrió por accidente, cuando un micrófono de intercomunicación atrapó un trueno apagado dentro del estudio de grabación. Ese latido masivo, recortado en seco por la compuerta de la consola, se convirtió en el golpe de batería que definió toda una década. Un eco de dolor fortuito convertido en la firma sonora de una generación. Y a ti, ¿qué fantasmas te despierta ese redoble?",
+  "hook": "Phil Collins exorcizó una de las canciones más oscuras de los ochenta... sin saber que estaba arrojando sus propias cenizas al viento.",
+  "beats": [
+    "El naufragio de su primer matrimonio lo dejó a la deriva en una casa vacía de Surrey, donde el silencio era un eco insoportable que pedía auxilio.",
+    "De esa rabia suspendida nació una leyenda urbana: el mito de un hombre que dejó ahogar a otro mientras Phil observaba en la penumbra.",
+    "Pero la verdad es más simple y humana: no había ningún ahogado, solo un hombre roto escupiendo palabras al azar sobre una cinta de casete.",
+    "El verdadero milagro ocurrió por accidente, cuando un micrófono de intercomunicación atrapó un trueno apagado dentro del estudio de grabación.",
+    "Ese latido masivo, recortado en seco por la compuerta de la consola, se convirtió en el golpe de batería que definió toda una década."
+  ],
+  "outro": "Un eco de dolor fortuito convertido en la firma sonora de una generación. Y a ti, ¿qué fantasmas te despierta ese redoble?",
+  "palette": {
+    "ink": "#09090b",
+    "paper": "#f4f4f5",
+    "accent": "#991b1b",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "In the Air Tonight",
+    "artist": "Phil Collins",
+    "src": "music/intheair.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "In the Air Tonight Phil Collins",
+      "expectedTitle": "In the Air Tonight",
+      "expectedArtist": "Phil Collins",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/intheair/scene-01.png",
+      "prompt": "A realistic 1980 film photograph of an empty, dimly lit British country house living room in Surrey. A reel-to-reel tape recorder sits on a table, soft dust motes in a shaft of cold gray window light, melancholic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-02.png",
+      "prompt": "A realistic 1980 color photograph of a 29-year-old balding man with light stubble (representing Phil Collins) sitting at a fender rhodes piano in a dark room, looking deeply sad and tired, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-03.png",
+      "prompt": "A moody, cinematic film still of a dark lake at twilight, a silhouette of a person struggling in the water, another silhouette of a man standing cold and indifferent on the shore, misty and eerie, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-04.png",
+      "prompt": "A close-up photograph of a 29-year-old man (Phil Collins) holding a microphone close to his mouth, intensely whispering into it, sweat on his brow, vintage recording console in the background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-05.png",
+      "prompt": "A vintage talkback microphone hanging from the ceiling of a 1980 professional recording studio, with massive wood paneling and a large glass window showing a drum kit, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-06.png",
+      "prompt": "A dynamic photograph of a man with light stubble playing drums with raw energy, sticks in motion, vintage microphones surrounding the kit, captured with a dramatic, massive gated reverb aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/intheair/scene-07.png",
+      "prompt": "A realistic photograph of a black vintage 1980s Walkman sitting on a neon-lit desk, with a cassette tape inside playing 'In the Air Tonight', cool atmospheric synthwave lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/intheair/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/intheair/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/intheair/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/intheair/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/intheair/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/intheair/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/intheair/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Phil Collins exorcizó una de las canciones más oscuras de los ochenta... sin saber que estaba arrojando sus propias cenizas al viento."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "El naufragio de su primer matrimonio lo dejó a la deriva en una casa vacía de Surrey, donde el silencio era un eco insoportable que pedía auxilio."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "De esa rabia suspendida nació una leyenda urbana: el mito de un hombre que dejó ahogar a otro mientras Phil observaba en la penumbra."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Pero la verdad es más simple y humana: no había ningún ahogado, solo un hombre roto escupiendo palabras al azar sobre una cinta de casete."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El verdadero milagro ocurrió por accidente, cuando un micrófono de intercomunicación atrapó un trueno apagado dentro del estudio de grabación."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Ese latido masivo, recortado en seco por la compuerta de la consola, se convirtió en el golpe de batería que definió toda una década."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un eco de dolor fortuito convertido en la firma sonora de una generación. Y a ti, ¿qué fantasmas te despierta ese redoble?"
+    }
+  ]
+}

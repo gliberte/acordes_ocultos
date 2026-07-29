@@ -1,0 +1,186 @@
+{
+  "title": "El Llanto que Paralizó a un País",
+  "artist": "Isabel Pantoja",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "El 26 de septiembre de 1984, el toro «Avispado» corneó mortalmente al torero Francisco Rivera «Paquirri» en la plaza de Pozoblanco. Tras apenas año y medio de matrimonio, Isabel Pantoja quedó viuda con un bebé de siete meses. Recluida en la finca Cantora y sumida en un luto riguroso, juró no volver a cantar jamás. Conmovido por su tragedia, José Luis Perales compuso en secreto «Marinero de Luces», cambiando la sangre del ruedo por metáforas de mar y veleros. El 5 de diciembre de 1985, ante la Reina Sofía en el Teatro Lope de Vega de Madrid, Isabel reapareció vestida de negro; al cantar entre lágrimas, desató la mayor catarsis de la música española.",
+  "hook": "Tras catorce meses de luto riguroso, la viuda de España subió al escenario para cantarle al hombre que la muerte le arrebató.",
+  "beats": [
+    "En la primavera de 1983, España creyó en los cuentos de hadas: el torero más laureado y la tonadillera de moda unían sus vidas.",
+    "Pero el 26 de septiembre de 1984, en la arena de Pozoblanco, el toro «Avispado» quebró el sueño con una cornada fatal.",
+    "Desangrándose en la enfermería, Paquirri pidió calma a los doctores con serena entereza; horas después, la muerte sellaba su leyenda en el camino.",
+    "Convertida en «la viuda de España», Isabel se encerró en Cantora sumida en un luto riguroso, jurando que jamás volvería a cantar.",
+    "Conmovido por su dolor, José Luis Perales compuso en secreto una obra sanadora: un réquiem que transformaba la sangre del ruedo en mar.",
+    "El «traje de luces» del matador renació como un velero; las metáforas marinas permitieron a Isabel llorar sin desgarrar su propia intimidad.",
+    "El 5 de diciembre de 1985, tras catorce meses de silencio, el Teatro Lope de Vega enmudeció ante la Reina Doña Sofía.",
+    "Vestida de negro azabache, Isabel cantó entre lágrimas incontenibles, desatando la mayor catarsis emocional en la historia de la música española.",
+    "Aquel llanto vendió un millón de discos; el dolor se volvió himno y el marinero navegó hacia la inmortalidad. ¿Qué sientes al escucharla?"
+  ],
+  "outro": "«Marinero de Luces» convirtió la tragedia más honda en poesía inmortal. ¿Qué emoción te despierta hoy este tema?",
+  "palette": {
+    "ink": "#140e0b",
+    "paper": "#f9f6f0",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Marinero de Luces",
+    "artist": "Isabel Pantoja",
+    "src": "music/isabel-pantoja-marinero-de-luces-acordes-ocultos.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Marinero de Luces Isabel Pantoja",
+      "expectedTitle": "Marinero de Luces",
+      "expectedArtist": "Isabel Pantoja",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Dramatic vertical 9:16 portrait of Spanish singer Isabel Pantoja in late 1985, dressed in an elegant black mourning dress with dark lace mantilla, intense emotional dark eyes with a glint of tears, dignified and heartbroken expression, warm dramatic stage rim lighting, theatrical velvet backdrop, soft atmospheric haze, textured 35mm film grain, centered composition, safe bottom area for typography.",
+  "assets": [
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-01.png",
+      "prompt": "Seville Spain April 1983: Beautiful festive Spanish wedding of tonadillera Isabel Pantoja and matador Paquirri, sunlight glowing on a classic horse-drawn Andalusian carriage decorated with flowers, crowds cheering in the historic cobblestone streets of Seville, authentic 1980s documentary photojournalism, warm golden light, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-02.png",
+      "prompt": "Pozoblanco bullring Cordoba Spain September 1984: Golden arena sand under blazing hot afternoon sun, dramatic dust cloud, a powerful black bull charging fiercely near the wooden burladero barrier, high tension and historical drama, archival Spanish bullfighting documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-03.png",
+      "prompt": "Austere bullring infirmary Pozoblanco 1984: Chiaroscuro dramatic lighting, injured matador resting on a simple examination bed, looking with dignified calm composure toward doctors in white coats holding medical supplies, somber tragic atmosphere, 1980s photojournalism style, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-04.png",
+      "prompt": "Andalusian countryside estate Cantora late 1984: Interior of a traditional whitewashed Spanish cortijo in deep shadow, a grieving young woman in strict black mourning dress standing near a vintage wrought-iron window grating, gentle afternoon sunlight cutting through the darkness, wooden baby crib nearby, poignant solitude, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-05.png",
+      "prompt": "Madrid apartment attic studio 1985: Spanish songwriter Jose Luis Perales sitting at an upright wooden piano, pencil in hand, sheets of handwritten musical scores and poetry lyrics scattered on the piano stand, warm lamp illumination, quiet contemplative creative atmosphere, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-06.png",
+      "prompt": "Summer 1985 inside Cantora estate living room in Andalusia Spain: 40-year-old Spanish songwriter Jose Luis Perales, with his classic thick dark mustache and wavy dark hair, wearing a patterned beige wool knit sweater, sitting on a wooden chair playing a Spanish classical acoustic nylon-string guitar with gentle concentration. Sitting opposite him in a vintage velvet armchair is 28-year-old tonadillera Isabel Pantoja, clearly young, beautiful with smooth unlined olive skin, dark almond-shaped eyes, defined cheekbones and elegant posture, her black hair in a neat low bun. She is in her late twenties, wearing a modest black mourning dress with a tiny gold cross necklace, listening with deep emotional catharsis and holding a lace handkerchief as tears well in her youthful eyes. Warm golden afternoon sunlight streams through an arched wooden window onto terracotta tiles and whitewashed walls. Authentic 1985 archival atmosphere, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-07.png",
+      "prompt": "Teatro Lope de Vega Madrid December 1985: View from backstage wings, a solitary woman in a long black bata de cola dress about to step onto the grand illuminated stage, red velvet stage curtains framing the shot, packed theater audience and royal balcony visible in the soft glow, high drama anticipation, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-08.png",
+      "prompt": "Teatro Lope de Vega concert stage 1985: Close emotional shot of Isabel Pantoja singing into a chrome microphone under a bright overhead spotlight, visible tears glistening on her cheeks, passionate vocal expression, black sequined dress, dramatic concert photojournalism, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-09.png",
+      "prompt": "Poetic ocean horizon dusk: A graceful vintage white sailing boat with illuminated sails drifting peacefully across calm deep blue and violet ocean waters under a starlit twilight sky, golden sunset reflection on gentle waves, symbolic tribute to the sailor of light, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En la primavera de 1983, España creyó en los cuentos de hadas: el torero más laureado y la tonadillera de moda unían sus vidas."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Pero el 26 de septiembre de 1984, en la arena de Pozoblanco, el toro «Avispado» quebró el sueño con una cornada fatal."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Desangrándose en la enfermería, Paquirri pidió calma a los doctores con serena entereza; horas después, la muerte sellaba su leyenda en el camino."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Convertida en «la viuda de España», Isabel se encerró en Cantora sumida en un luto riguroso, jurando que jamás volvería a cantar."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Conmovido por su dolor, José Luis Perales compuso en secreto una obra sanadora: un réquiem que transformaba la sangre del ruedo en mar."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "El «traje de luces» del matador renació como un velero; las metáforas marinas permitieron a Isabel llorar sin desgarrar su propia intimidad."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El 5 de diciembre de 1985, tras catorce meses de silencio, el Teatro Lope de Vega enmudeció ante la Reina Doña Sofía."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Vestida de negro azabache, Isabel cantó entre lágrimas incontenibles, desatando la mayor catarsis emocional en la historia de la música española."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Aquel llanto vendió un millón de discos; el dolor se volvió himno y el marinero navegó hacia la inmortalidad. ¿Qué sientes al escucharla?"
+    }
+  ],
+  "publication": {
+    "description": "Tras catorce meses de silencio, la viuda de España subió al escenario para cantarle al hombre que la muerte le arrebató en el ruedo.\n\nEn 1983, el país entero celebró la boda soñada entre el matador Francisco Rivera «Paquirri» y la tonadillera Isabel Pantoja. Pero la gloria duró un suspiro: el 26 de septiembre de 1984, en Pozoblanco, el toro «Avispado» le asestó una cornada mortal. Paquirri murió desangrado camino a Córdoba, dejando a Isabel viuda con un bebé de siete meses. Hundida en el dolor, se recluyó en Cantora vestida de luto riguroso, jurando no volver a cantar jamás.\n\nJosé Luis Perales asumió la misión de rescatarla de la oscuridad. Para evitar el morbo de la sangre, transformó el ruedo en océano y el traje de luces en un velero a la deriva. El 5 de diciembre de 1985, en el Teatro Lope de Vega ante la Reina Doña Sofía, Isabel reapareció vestida de luto; al cantar «Marinero de Luces», se quebró en un llanto desgarrador que conmovió al mundo.\n\n«Marinero de Luces» no fue un simple disco; fue el réquiem con el que el amor venció a la muerte. ¿Qué emoción te despierta hoy este himno?"
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "title": "El Lugar del que Nunca Puedes Salir (Parte 2)",
+  "artist": "The Eagles",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "En la recámara principal del Hotel California, los espejos reflejaban un festín sin fin donde los invitados atacaban el banquete con cuchillos de acero, pero eran incapaces de matar a la bestia. Aterrorizado por el hechizo del lugar, el viajero corrió desesperadamente buscando la salida de regreso a la noche desértica. Al llegar a las pesadas puertas, el conserje lo observó con una sonrisa fría y le dijo las palabras heladas que sellaron su destino: 'Puedes cancelar la habitación cuando quieras... pero jamás podrás marcharte'.",
+  "hook": "El aterrador desenlace de la historia dentro de Hotel California: el festín de espíritus y la trampa sin salida.",
+  "beats": [
+    "Los invitados se reúnen en la gran sala para un festín decadente servido en vajillas de plata.",
+    "Atacan la cena con sus cuchillos de acero, pero descubren que jamás podrán matar a la bestia.",
+    "Desesperado por el terror, el viajero corre por los pasillos buscando la puerta de salida hacia el desierto.",
+    "El conserje de la noche lo detiene en el umbral con una mirada helada y despiadada.",
+    "Las heladas palabras finales resuenan: Puedes cancelar la habitación cuando quieras, pero jamás podrás marcharte."
+  ],
+  "outro": "Una historia lírica inmortal sobre las trampas doradas de las que jamás se puede escapar.",
+  "palette": {
+    "ink": "#140e0b",
+    "paper": "#f9f2ea",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Hotel California",
+    "artist": "The Eagles",
+    "src": "music/eagles-hotel-california.mp3",
+    "startSecond": 150,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Hotel California Eagles",
+      "expectedTitle": "Hotel California",
+      "expectedArtist": "The Eagles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/hotel-california-parte-2/scene-01.png",
+      "prompt": "1970 opulent banquet scene in a gothic hotel dining hall with guests in formal attire holding steel knives around a feast, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-02.png",
+      "prompt": "1970 shadowy surreal scene of a shadowy beast silhouette rising above a banquet table illuminated by red candlelight, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-03.png",
+      "prompt": "1970 panicking male traveler running down a long labyrinthine hotel hallway with red carpet looking behind in fear, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-04.png",
+      "prompt": "1970 photograph of a terrified traveler pounding on a massive locked wooden exit door of the hotel, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-05.png",
+      "prompt": "1970 ominous photograph of a sinister night nightman night-porter standing at the front desk with a set of brass keys and cold smile, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-06.png",
+      "prompt": "1970 dramatic close-up of a traveler trapped inside a glass reflection of the Hotel California looking out at the desert highway, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/hotel-california-parte-2/scene-07.png",
+      "prompt": "1970 wide shot of the Hotel California under a full moon with neon sign flickering in the desert night, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/hotel-california-parte-2/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/hotel-california-parte-2/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/hotel-california-parte-2/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/hotel-california-parte-2/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/hotel-california-parte-2/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/hotel-california-parte-2/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/hotel-california-parte-2/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El aterrador desenlace de la historia dentro de Hotel California: el festín de espíritus y la trampa sin salida."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Los invitados se reúnen en la gran sala para un festín decadente servido en vajillas de plata."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Atacan la cena con sus cuchillos de acero, pero descubren que jamás podrán matar a la bestia."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Desesperado por el terror, el viajero corre por los pasillos buscando la puerta de salida hacia el desierto."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El conserje de la noche lo detiene en el umbral con una mirada helada y despiadada."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Las heladas palabras finales resuenan: Puedes cancelar la habitación cuando quieras, pero jamás podrás marcharte."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una historia lírica inmortal sobre las trampas doradas de las que jamás se puede escapar."
+    }
+  ]
+}

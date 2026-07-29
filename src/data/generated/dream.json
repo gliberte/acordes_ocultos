@@ -1,0 +1,147 @@
+{
+  "title": "Dream Weaver",
+  "artist": "Gary Wright",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "Uno de los hits espaciales más hipnóticos de los 70 no nació en un laboratorio... sino flotando en las aguas del Ganges. En 1974, Gary Wright viajó a la India con George Harrison buscando respuestas y paz interior. En medio del viaje, Harrison le obsequió un poema místico que contenía la frase: 'Cuando mi mente teje sueños...'. La idea de un 'tejedor de sueños' como fuerza espiritual atrapó a Wright, marcando su destino. De vuelta en el estudio, tomó una decisión insólita: grabó todo el disco desterrando por completo las guitarras. Sustituyó el rock tradicional por capas de sintetizadores Minimoog y batería analógica. La discográfica lo creyó demasiado raro, pero escaló al #2 del Billboard. Y tú, ¿qué desterrarías hoy para innovar?",
+  "hook": "Uno de los hits espaciales más hipnóticos de los 70 no nació en un laboratorio... sino flotando en las aguas del Ganges.",
+  "beats": [
+    "En 1974, Gary Wright viajó a la India con George Harrison buscando respuestas y paz interior.",
+    "En medio del viaje, Harrison le obsequió un poema místico que contenía la frase: 'Cuando mi mente teje sueños...'.",
+    "La idea de un 'tejedor de sueños' como fuerza espiritual atrapó a Wright, marcando su destino.",
+    "De vuelta en el estudio, tomó una decisión insólita: grabó todo el disco desterrando por completo las guitarras.",
+    "Sustituyó el rock tradicional por capas de sintetizadores Minimoog y batería analógica."
+  ],
+  "outro": "La discográfica lo creyó demasiado raro, pero escaló al #2 del Billboard. Y tú, ¿qué desterrarías hoy para innovar?",
+  "palette": {
+    "ink": "#0d001a",
+    "paper": "#ffe5ec",
+    "accent": "#7209b7",
+    "glow": "#3a0ca3"
+  },
+  "music": {
+    "title": "Dream Weaver",
+    "artist": "Gary Wright",
+    "src": "music/dream.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Dream Weaver Gary Wright",
+      "expectedTitle": "Dream Weaver",
+      "expectedArtist": "Gary Wright",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/dream/scene-01.png",
+      "prompt": "A realistic 1974 color photograph of two stylish 1970s rock musicians (representing Gary Wright and George Harrison) sitting in a wooden boat floating on the misty Ganges river under a soft golden sunrise, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-02.png",
+      "prompt": "A close-up photograph of an open vintage book of poetry by Paramahansa Yogananda, aged paper pages, a hand holding the book, soft sunlight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-03.png",
+      "prompt": "A close-up photograph of an open leather-bound journal on a wooden desk, showing the handwritten words 'When my mind weaves dreams...', a vintage fountain pen next to it, warm candlelight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-04.png",
+      "prompt": "A close-up photograph of the control panel of a vintage 1975 Minimoog analog synthesizer, colorful dials and keys, dim recording studio ambient lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-05.png",
+      "prompt": "An artistic, dreamlike representation of a glowing silhouette floating in a cosmic violet space filled with stardust and wavy light beams, psychedelic album art style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-06.png",
+      "prompt": "A realistic 1975 photograph of two record label executives in suits sitting behind a desk, looking confused at an open-reel tape recorder, retro corporate office, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dream/scene-07.png",
+      "prompt": "A realistic 1975 photograph of a musician singing passionately with eyes closed into a vintage studio microphone, surrounded by racks of synthesizers, warm stage lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/dream/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/dream/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/dream/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/dream/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/dream/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/dream/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/dream/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Uno de los hits espaciales más hipnóticos de los 70 no nació en un laboratorio... sino flotando en las aguas del Ganges."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1974, Gary Wright viajó a la India con George Harrison buscando respuestas y paz interior."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "En medio del viaje, Harrison le obsequió un poema místico que contenía la frase: 'Cuando mi mente teje sueños...'."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La idea de un 'tejedor de sueños' como fuerza espiritual atrapó a Wright, marcando su destino."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "De vuelta en el estudio, tomó una decisión insólita: grabó todo el disco desterrando por completo las guitarras."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Sustituyó el rock tradicional por capas de sintetizadores Minimoog y batería analógica."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "La discográfica lo creyó demasiado raro, pero escaló al #2 del Billboard. Y tú, ¿qué desterrarías hoy para innovar?"
+    }
+  ]
+}

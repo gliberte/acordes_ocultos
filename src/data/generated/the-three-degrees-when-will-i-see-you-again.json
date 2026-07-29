@@ -1,0 +1,135 @@
+{
+  "title": "El Soul que Enamoró a la Corona",
+  "artist": "The Three Degrees",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1974, cuando los compositores Kenny Gamble y Leon Huff le presentaron 'When Will I See You Again' a Sheila Ferguson, vocalista principal de The Three Degrees, ella la rechazó rotundamente por considerarla una canción 'demasiado simple y cursi'. Tras insistentes ruegos en el legendario estudio Sigma Sound de Filadelfia, Sheila aceptó grabarla en una sola toma que conmovió al mundo. La balada se disparó al número uno en el Reino Unido y conquistó a un admirador insólito: el joven Príncipe Carlos (actual Rey Carlos III), quien las declaró públicamente su grupo favorito de todos los tiempos. La prensa británica las apodó 'Los Ángeles de Carlos'. En 1978, para su fiesta privada de 30 cumpleaños en el Palacio de Buckingham, el príncipe las contrató en exclusiva y rompió el protocolo real al saltar a la pista para bailar apasionadamente con Sheila Ferguson. Tres mujeres afroamericanas de Filadelfia no solo conquistaron las listas de éxitos, sino que derribaron los muros de la aristocracia británica a través del soul.",
+  "hook": "La balada soul que su cantante no quería grabar terminó enamorando al futuro Rey de Inglaterra en Buckingham.",
+  "beats": [
+    "1974: En el legendario estudio Sigma Sound de Filadelfia, los productores intentaban convencer a Sheila Ferguson.",
+    "La vocalista detestaba el tema por considerarlo infantil, pero aceptó grabarlo tras días de insistentes ruegos.",
+    "Su interpretación cargada de melancolía y elegancia transformó la melodía en un fenómeno global inmediato.",
+    "El sencillo escaló al número uno en el Reino Unido, fascinando a un joven heredero al trono: el Príncipe Carlos.",
+    "El futuro monarca las declaró su banda favorita, bautizadas por los tabloides como 'Los Ángeles de Carlos'.",
+    "En 1978, para su cumpleaños número 30, el príncipe exigió un concierto privado en el Palacio de Buckingham.",
+    "En una noche histórica, el Príncipe Carlos rompió el estricto protocolo real para bailar en la pista con Sheila.",
+    "Aquella conexión íntima desató cartas secretas, cenas privadas y un cariño que desafió todas las barreras sociales."
+  ],
+  "outro": "Tres voces de Filadelfia que vencieron los prejuicios y demostraron que la elegancia del soul no entiende de coronas.",
+  "palette": {
+    "ink": "#0a0a14",
+    "paper": "#fdfbf7",
+    "accent": "#d4af37",
+    "glow": "#2563eb"
+  },
+  "music": {
+    "title": "When Will I See You Again",
+    "artist": "The Three Degrees",
+    "src": "music/the-three-degrees-when-will-i-see-you-again.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "When Will I See You Again The Three Degrees",
+      "expectedTitle": "When Will I See You Again",
+      "expectedArtist": "The Three Degrees",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-01.png",
+      "prompt": "Authentic 1974 television studio photograph of The Three Degrees, three glamorous African-American female singers in matching sparkling champagne gold sequin gowns singing harmoniously into vintage microphones, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-02.png",
+      "prompt": "1974 Philadelphia Sigma Sound Studios control room photograph, producers Kenny Gamble and Leon Huff at the piano showing sheet music to a skeptical young Sheila Ferguson, warm analog studio atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-03.png",
+      "prompt": "Close-up 1974 recording studio photograph of beautiful young Sheila Ferguson with headphones singing with deep heartfelt emotion into a vintage Neumann condenser microphone, soft golden studio lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-04.png",
+      "prompt": "1974 London celebration photograph of The Three Degrees holding a gold record plaque for reaching number one on the UK Charts, elegant 1970s fashion, joyful smiles, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-05.png",
+      "prompt": "Atmospheric 1970s photograph of a 28-year-old Prince Charles in royal casual attire sitting in a wood-paneled palace room listening intently to a vinyl record player, contemplative look, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-06.png",
+      "prompt": "Grand November 1978 photograph of the illuminated facade and golden gates of Buckingham Palace at night, luxury vintage British cars arriving for a royal gala, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-07.png",
+      "prompt": "Historic 1978 Buckingham Palace ballroom photograph of Prince Charles in a black tuxedo smiling as he joyfully dances with glamorous singer Sheila Ferguson in a gold sequined dress on the parquet dance floor, crystal chandeliers, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-08.png",
+      "prompt": "Intimate vintage 1970s dressing table photograph with handwritten royal letter bearing a Buckingham Palace crest, red roses in a crystal vase, and pearl jewelry, warm afternoon light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-09.png",
+      "prompt": "Macro photograph of the original 1974 Philadelphia International Records vinyl 7-inch single of 'When Will I See You Again' spinning on a vintage turntable, warm amber light, stylus needle on black grooves, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/the-three-degrees-when-will-i-see-you-again/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "La balada soul que su cantante no quería grabar terminó enamorando al futuro Rey de Inglaterra en Buckingham."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1974: En el legendario estudio Sigma Sound de Filadelfia, los productores intentaban convencer a Sheila Ferguson."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "La vocalista detestaba el tema por considerarlo infantil, pero aceptó grabarlo tras días de insistentes ruegos."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Su interpretación cargada de melancolía y elegancia transformó la melodía en un fenómeno global inmediato."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "El sencillo escaló al número uno en el Reino Unido, fascinando a un joven heredero al trono: el Príncipe Carlos."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "El futuro monarca las declaró su banda favorita, bautizadas por los tabloides como 'Los Ángeles de Carlos'."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En 1978, para su cumpleaños número 30, el príncipe exigió un concierto privado en el Palacio de Buckingham."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En una noche histórica, el Príncipe Carlos rompió el estricto protocolo real para bailar en la pista con Sheila."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Tres voces de Filadelfia que vencieron los prejuicios y demostraron que la elegancia del soul no entiende de coronas."
+    }
+  ]
+}

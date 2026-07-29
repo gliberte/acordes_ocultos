@@ -1,0 +1,147 @@
+{
+  "title": "You Light Up My Life",
+  "artist": "Debby Boone",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Hay éxitos gigantescos que el mundo canta con devoción, ignorando el fantasma y la tiranía que se ocultan en su grabación. En 1977, Joe Brooks compuso una balada de amor para el cine. Pero cuando Debby Boone la cantó, no pensaba en ningún hombre. Con profunda fe religiosa, Debby le cantaba directamente a Dios, convirtiendo un tema romántico en un rezo de masas. Pero la magia ocultaba un secreto técnico: la pista original pertenecía a la voz de la cantante de jingles Kasey Cisyk. Al reusar la pista, la voz original se filtró en el micrófono del piano de cola como un fantasma imborrable. Para tapar el error, el productor obligó a Debby a imitar milimétricamente cada respiración y tono de Kasey, sin libertad. Un éxito monumental que reinó 10 semanas en el número uno, nacido bajo la sombra de un plagio y una celda creativa.",
+  "hook": "Hay éxitos gigantescos que el mundo canta con devoción, ignorando el fantasma y la tiranía que se ocultan en su grabación.",
+  "beats": [
+    "En 1977, Joe Brooks compuso una balada de amor para el cine. Pero cuando Debby Boone la cantó, no pensaba en ningún hombre.",
+    "Con profunda fe religiosa, Debby le cantaba directamente a Dios, convirtiendo un tema romántico en un rezo de masas.",
+    "Pero la magia ocultaba un secreto técnico: la pista original pertenecía a la voz de la cantante de jingles Kasey Cisyk.",
+    "Al reusar la pista, la voz original se filtró en el micrófono del piano de cola como un fantasma imborrable.",
+    "Para tapar el error, el productor obligó a Debby a imitar milimétricamente cada respiración y tono de Kasey, sin libertad."
+  ],
+  "outro": "Un éxito monumental que reinó 10 semanas en el número uno, nacido bajo la sombra de un plagio y una celda creativa.",
+  "palette": {
+    "ink": "#13110e",
+    "paper": "#fbf8f3",
+    "accent": "#c5903b",
+    "glow": "#e5ab4b"
+  },
+  "music": {
+    "title": "You Light Up My Life",
+    "artist": "Debby Boone",
+    "src": "music/boone-light.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "You Light Up My Life Debby Boone",
+      "expectedTitle": "You Light Up My Life",
+      "expectedArtist": "Debby Boone",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/you-light-up-my-life/scene-01.png",
+      "prompt": "A young white female singer with long straight blonde hair and a sincere expression (Debby Boone) in a recording studio in 1977, holding a lyric sheet, warm analog lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-02.png",
+      "prompt": "A strict white male producer (Joe Brooks) pointing firmly in a dark recording studio booth, analog mixing console in the foreground, intense and controlling look, 1970s aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-03.png",
+      "prompt": "A young white female singer in a recording studio booth, singing with eyes closed and an expression of deep spiritual devotion, soft light shining from above, warm vintage colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-04.png",
+      "prompt": "A young white female singer with brown hair (Kasey Cisyk) singing into a vintage studio microphone in a recording booth, looking like a professional session singer in the 1970s, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-05.png",
+      "prompt": "Close-up of a microphone placed inside a shiny black grand piano, warm studio ambient lighting, representing sound leakage and recording secrets, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-06.png",
+      "prompt": "A young white female singer (Debby Boone) singing into a microphone under the watchful, strict gaze of a producer behind the control room glass, visible tension in the studio, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/you-light-up-my-life/scene-07.png",
+      "prompt": "A vintage copy of 'You Light Up My Life' vinyl single by Debby Boone spinning on a retro turntable under warm golden spotlights, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/you-light-up-my-life/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/you-light-up-my-life/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/you-light-up-my-life/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/you-light-up-my-life/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/you-light-up-my-life/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/you-light-up-my-life/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/you-light-up-my-life/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay éxitos gigantescos que el mundo canta con devoción, ignorando el fantasma y la tiranía que se ocultan en su grabación."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1977, Joe Brooks compuso una balada de amor para el cine. Pero cuando Debby Boone la cantó, no pensaba en ningún hombre."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Con profunda fe religiosa, Debby le cantaba directamente a Dios, convirtiendo un tema romántico en un rezo de masas."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Pero la magia ocultaba un secreto técnico: la pista original pertenecía a la voz de la cantante de jingles Kasey Cisyk."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al reusar la pista, la voz original se filtró en el micrófono del piano de cola como un fantasma imborrable."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Para tapar el error, el productor obligó a Debby a imitar milimétricamente cada respiración y tono de Kasey, sin libertad."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un éxito monumental que reinó 10 semanas en el número uno, nacido bajo la sombra de un plagio y una celda creativa."
+    }
+  ]
+}

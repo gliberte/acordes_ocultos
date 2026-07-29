@@ -1,0 +1,147 @@
+{
+  "title": "United We Stand",
+  "artist": "Brotherhood of Man",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Hay voces errantes que se unen por un instante en la sombra, creando himnos que sobrevivirán a sus propios creadores. En 1969, el productor Tony Hiller soñó con un mensaje de paz. En un frío estudio de Londres, alquiló a músicos de sesión para darle voz. El tema 'United We Stand' estalló en las listas, pero no había una banda real para las cámaras de televisión ni las giras. Tuvieron que improvisar un grupo para desfilar bajo las luces de Top of the Pops. Un espejismo pop nacido de la urgencia. Pero la música cruzó fronteras. Su estribillo eterno fue adoptado en EE. UU. como bandera por los Derechos Civiles de los 70. Luego arropó el orgullo y la resiliencia LGBTQ+, y consoló a una nación entera tras el dolor del 11 de septiembre. Lo que empezó como una melodía de alquiler en Londres, terminó convertida en el abrazo de la humanidad. ¿Creías que era un grupo real?",
+  "hook": "Hay voces errantes que se unen por un instante en la sombra, creando himnos que sobrevivirán a sus propios creadores.",
+  "beats": [
+    "En 1969, el productor Tony Hiller soñó con un mensaje de paz. En un frío estudio de Londres, alquiló a músicos de sesión para darle voz.",
+    "El tema 'United We Stand' estalló en las listas, pero no había una banda real para las cámaras de televisión ni las giras.",
+    "Tuvieron que improvisar un grupo para desfilar bajo las luces de Top of the Pops. Un espejismo pop nacido de la urgencia.",
+    "But la música cruzó fronteras. Su estribillo eterno fue adoptado en EE. UU. como bandera por los Derechos Civiles de los 70.",
+    "Luego arropó el orgullo y la resiliencia LGBTQ+, y consoló a una nación entera tras el dolor del 11 de septiembre."
+  ],
+  "outro": "Lo que empezó como una melodía de alquiler en Londres, terminó convertida en el abrazo de la humanidad. ¿Creías que era un grupo real?",
+  "palette": {
+    "ink": "#1c140e",
+    "paper": "#faf6f0",
+    "accent": "#bf4c2a",
+    "glow": "#df6a40"
+  },
+  "music": {
+    "title": "United We Stand",
+    "artist": "Brotherhood of Man",
+    "src": "music/brotherhood-united.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "United We Stand Brotherhood of Man",
+      "expectedTitle": "United We Stand",
+      "expectedArtist": "Brotherhood of Man",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/united-we-stand/scene-01.png",
+      "prompt": "A middle-aged white male producer (Tony Hiller) standing in a London analog recording studio in 1969, giving instructions to a group of diverse session musicians gathered around vocal microphones, warm retro atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-02.png",
+      "prompt": "A young white male session singer with curly dark hair (Tony Burrows) singing passionately into a vintage studio microphone in a London recording booth in 1969, retro color grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-03.png",
+      "prompt": "A hastily assembled pop group performing on a colorful retro TV studio stage of 'Top of the Pops' in 1970, bright studio lights, vintage cameras filming them, retro fashion, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-04.png",
+      "prompt": "A vintage documentary photograph of people marching hand-in-hand during a 1970s civil rights protest in the United States, holding signs, emotional strength, black and white tone, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-05.png",
+      "prompt": "A close-up of a diverse crowd of people holding a large rainbow flag at a retro pride march in the 1980s, warm golden sunlight, expressions of pride and unity, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-06.png",
+      "prompt": "A close-up of hands holding glowing candles during a night vigil, a soft silhouette of a flying American flag in the background, warm light casting on faces, representing unity and solace, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/united-we-stand/scene-07.png",
+      "prompt": "A vintage vinyl single of 'United We Stand' with Deram Records label spinning on a retro turntable under warm golden spotlights, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/united-we-stand/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/united-we-stand/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/united-we-stand/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/united-we-stand/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/united-we-stand/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/united-we-stand/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/united-we-stand/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay voces errantes que se unen por un instante en la sombra, creando himnos que sobrevivirán a sus propios creadores."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1969, el productor Tony Hiller soñó con un mensaje de paz. En un frío estudio de Londres, alquiló a músicos de sesión para darle voz."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "El tema 'United We Stand' estalló en las listas, pero no había una banda real para las cámaras de televisión ni las giras."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Tuvieron que improvisar un grupo para desfilar bajo las luces de Top of the Pops. Un espejismo pop nacido de la urgencia."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Pero la música cruzó fronteras. Su estribillo eterno fue adoptado en EE. UU. como bandera por los Derechos Civiles de los 70."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Luego arropó el orgullo y la resiliencia LGBTQ+, y consoló a una nación entera tras el dolor del 11 de septiembre."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Lo que empezó como una melodía de alquiler en Londres, terminó convertida en el abrazo de la humanidad. ¿Creías que era un grupo real?"
+    }
+  ]
+}

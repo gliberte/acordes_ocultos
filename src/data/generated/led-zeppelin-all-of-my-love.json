@@ -1,0 +1,112 @@
+{
+  "title": "La Carta Abierta de un Padre en Duelo",
+  "artist": "Led Zeppelin",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "'All of My Love' es una carta abierta de dolor, amor paterno y despedida escrita por Robert Plant en 1978. En julio de 1977, mientras Led Zeppelin realizaba una masiva gira por Norteamérica en Nueva Orleans, Plant recibió una trágica llamada desde Inglaterra: su hijo Karac, de solo 5 años, había fallecido repentinamente por una infección. El golpe paralizó a la banda, canceló la gira y llevó a Plant a retirarse a Gales considerando abandonar la música para siempre. A finales de 1978, en los estudios Polar Studios de Estocolmo, Plant y John Paul Jones concibieron la canción con melancólicos arreglos de sintetizador Yamaha GX-1 y metáforas dedicadas a la voz de Karac. Se convirtió en una de las baladas más sagradas y conmovedoras del rock.",
+  "hook": "'All of My Love' no es solo una balada de Led Zeppelin, sino una carta abierta de dolor que Robert Plant dedicó a su hijo.",
+  "beats": [
+    "En julio de 1977, durante una gira por Nueva Orleans, Plant recibió una llamada trágica que cambió su vida para siempre.",
+    "Su pequeño hijo Karac, de solo cinco años, falleció repentinamente en Inglaterra por una infección estomacal.",
+    "Devastado por el dolor, la gira se canceló de inmediato y Robert Plant se retiró a Gales considerando dejar la música.",
+    "A finales de 1978, reunidos en Polar Studios de Estocolmo, Plant y John Paul Jones compusieron la emotiva melodía.",
+    "Con teclados melancólicos y versos sobrecogedores, crearon un homenaje eterno a la inocencia de su pequeño Karac."
+  ],
+  "outro": "Una obra maestra sagrada donde un padre convirtió su pérdida más desgarradora en inmortalidad musical.",
+  "palette": {
+    "ink": "#0c0d12",
+    "paper": "#f3eee7",
+    "accent": "#d4af37",
+    "glow": "#4a90e2"
+  },
+  "music": {
+    "title": "All of My Love",
+    "artist": "Led Zeppelin",
+    "src": "music/led-zeppelin-all-of-my-love.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "All of My Love Led Zeppelin",
+      "expectedTitle": "All of My Love",
+      "expectedArtist": "Led Zeppelin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-01.png",
+      "prompt": "Authentic 1978 portrait of Robert Plant sitting solemnly in a vintage recording studio, thoughtful melancholic expression, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-02.png",
+      "prompt": "A vintage 1977 hotel room in New Orleans, a 1970s black telephone ringing on a nightstand, moody cinematic evening shadows, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-03.png",
+      "prompt": "Emotional 1977 photograph of a young father looking out a rain-streaked window overlooking a misty green Welsh countryside, solitude and grief, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-04.png",
+      "prompt": "Robert Plant in a quiet Welsh cottage surrounding by acoustic guitars, sitting in deep reflection, atmospheric soft light, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-05.png",
+      "prompt": "John Paul Jones playing a Yamaha GX-1 synthesizer next to Robert Plant singing into a vintage microphone at Polar Studios Stockholm 1978, warm studio lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-06.png",
+      "prompt": "Ethereal poetic vision of glowing golden light beams rising into the starry night sky over a tranquil lake, symbolic of eternal love and memory, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love/scene-07.png",
+      "prompt": "Robert Plant performing on stage under a single warm golden spotlight, eyes closed in deep emotion, iconic rock legend tribute portrait, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/led-zeppelin-all-of-my-love/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/led-zeppelin-all-of-my-love/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/led-zeppelin-all-of-my-love/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/led-zeppelin-all-of-my-love/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/led-zeppelin-all-of-my-love/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/led-zeppelin-all-of-my-love/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/led-zeppelin-all-of-my-love/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "'All of My Love' no es solo una balada de Led Zeppelin, sino una carta abierta de dolor que Robert Plant dedicó a su hijo."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En julio de 1977, durante una gira por Nueva Orleans, Plant recibió una llamada trágica que cambió su vida para siempre."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Su pequeño hijo Karac, de solo cinco años, falleció repentinamente en Inglaterra por una infección estomacal."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Devastado por el dolor, la gira se canceló de inmediato y Robert Plant se retiró a Gales considerando dejar la música."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "A finales de 1978, reunidos en Polar Studios de Estocolmo, Plant y John Paul Jones compusieron la emotiva melodía."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Con teclados melancólicos y versos sobrecogedores, crearon un homenaje eterno a la inocencia de su pequeño Karac."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una obra maestra sagrada donde un padre convirtió su pérdida más desgarradora en inmortalidad musical."
+    }
+  ]
+}

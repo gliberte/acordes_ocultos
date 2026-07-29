@@ -1,0 +1,112 @@
+{
+  "title": "El Golpe que Creó una Leyenda",
+  "artist": "The Mamas and the Papas",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "A principios de 1965, en la isla de Santo Tomás (Islas Vírgenes), John Phillips se negaba rotundamente a admitir a Cass Elliot en The Mamas and the Papas, argumentando que su voz era demasiado grave y no alcanzaba el 'Mi agudo' que necesitaba para sus armonías. Un día, mientras caminaba por una calle tropical, un tubo de plomo cayó desde un andamio de construcción golpeando fuertemente a Cass en la cabeza y dejándola inconsciente. Al recuperarse y volver a ensayar semanas después, la banda descubrió algo insólito: ¡su rango vocal se había expandido mágicamente tres notas hacia arriba! Asombrado, John Phillips declaró que el golpe pareció aflojar sus cuerdas vocales e inmediatamente la integró al grupo. Hasta su muerte, Mama Cass sostuvo que el accidente del tubo fue 100% real y el responsable directo de que entrara a la historia de la música.",
+  "hook": "Un accidente insólito con un tubo de plomo convirtió a Mama Cass en la voz legendaria de The Mamas and the Papas.",
+  "beats": [
+    "En 1965, John Phillips se negaba a admitirla creyendo que su voz era demasiado grave y no alcanzaba notas agudas.",
+    "Pero paseando por la isla de Santo Tomás, un tubo de plomo cayó de un andamio golpeándola directo en la cabeza.",
+    "Tras caer inconsciente unos minutos y recuperarse semanas después, ocurrió un fenómeno insólito en los ensayos.",
+    "¡Su rango vocal se había expandido mágicamente tres notas hacia arriba, alcanzando fácilmente el 'Mi agudo'!",
+    "Sorprendido por la nueva flexibilidad de sus cuerdas vocales, John Phillips exclamó: 'Estás dentro de la banda'."
+  ],
+  "outro": "Hasta su muerte, Mama Cass sostuvo que ese milagroso golpe de la suerte cambió su vida para siempre.",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f4ede2",
+    "accent": "#ff9f1c",
+    "glow": "#2ec4b6"
+  },
+  "music": {
+    "title": "Snowqueen of Texas",
+    "artist": "Mama Cass Elliot",
+    "src": "music/snowqueen-of-texas.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Snowqueen of Texas Mama Cass",
+      "expectedTitle": "Snowqueen of Texas",
+      "expectedArtist": "Mama Cass",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-01.png",
+      "prompt": "Authentic 1965 portrait of Mama Cass Elliot with her iconic warm smile and vintage colorful bohemian dress, surrounded by tropical Virgin Islands scenery, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-02.png",
+      "prompt": "John Phillips, Michelle Phillips, and Denny Doherty rehearsing acoustic harmonies on a sunny Caribbean porch in 1965, looking skeptical at Cass Elliot standing nearby, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-03.png",
+      "prompt": "Dramatic 1965 street in Saint Thomas Virgin Islands, a heavy lead pipe falling from scaffolding on a colorful Caribbean building towards Cass Elliot walking below, atmospheric lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-04.png",
+      "prompt": "Mama Cass Elliot waking up in a sunlit 1965 hospital room surrounded by worried friends, tropical breeze, warm vintage film aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-05.png",
+      "prompt": "Mama Cass Elliot singing passionately at a vintage microphone in a 1965 recording studio, glowing musical notes and high pitch vocal frequency aura surrounding her, triumphant 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-06.png",
+      "prompt": "John Phillips with eyes wide in utter disbelief and excitement at a mixing console while listening to Mama Cass hit a flawless high E note, 1965 Abbey Road style studio, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/mamas-papas-mama-cass/scene-07.png",
+      "prompt": "The Mamas and the Papas posing together as a iconic four-member band on a sunny beach in 1965, laughing happily, historic musical group portrait, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/mamas-papas-mama-cass/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/mamas-papas-mama-cass/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/mamas-papas-mama-cass/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/mamas-papas-mama-cass/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/mamas-papas-mama-cass/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/mamas-papas-mama-cass/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/mamas-papas-mama-cass/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Un accidente insólito con un tubo de plomo convirtió a Mama Cass en la voz legendaria de The Mamas and the Papas."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1965, John Phillips se negaba a admitirla creyendo que su voz era demasiado grave y no alcanzaba notas agudas."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Pero paseando por la isla de Santo Tomás, un tubo de plomo cayó de un andamio golpeándola directo en la cabeza."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Tras caer inconsciente unos minutos y recuperarse semanas después, ocurrió un fenómeno insólito en los ensayos."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "¡Su rango vocal se había expandido mágicamente tres notas hacia arriba, alcanzando fácilmente el 'Mi agudo'!"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Sorprendido por la nueva flexibilidad de sus cuerdas vocales, John Phillips exclamó: 'Estás dentro de la banda'."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Hasta su muerte, Mama Cass sostuvo que ese milagroso golpe de la suerte cambió su vida para siempre."
+    }
+  ]
+}

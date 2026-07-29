@@ -45,13 +45,14 @@ export const StoryGenerationSchema = z.object({
 });
 
 export const StorySchema = z.object({
+  brand: z.string().optional(),
   title: z.string(),
   artist: z.string(),
   durationSeconds: z.number().default(60),
   topic: z.string(),
   anecdote: z.string(),
   hook: z.string(),
-  beats: z.array(z.string()).min(4).max(8),
+  beats: z.array(z.string()).min(4).max(12),
   outro: z.string(),
   palette: z.object({
     ink: z.string(),
@@ -79,6 +80,7 @@ export const StorySchema = z.object({
       .optional()
   }),
   assets: z.array(StoryAssetSchema).min(4),
+  coverBg: z.string().optional(),
   clip: StoryClipSchema.optional(),
   segments: z.array(StorySegmentSchema).optional(),
   visuals: z.array(StoryVisualSchema).optional(),
@@ -86,3 +88,28 @@ export const StorySchema = z.object({
 });
 
 export type StoryData = z.infer<typeof StorySchema>;
+
+// --- Carousel Subsystem Schemas ---
+
+export const CarouselSlideSchema = z.object({
+  title: z.string().optional(),
+  text: z.string(),
+  imageSrc: z.string()
+});
+
+export const CarouselSchema = z.object({
+  title: z.string(),
+  artist: z.string(),
+  topic: z.string().default('curiosidad musical'),
+  palette: z.object({
+    ink: z.string(),
+    paper: z.string(),
+    accent: z.string(),
+    glow: z.string()
+  }),
+  slides: z.array(CarouselSlideSchema).min(3).max(10),
+  hashtags: z.array(z.string()).optional()
+});
+
+export type CarouselData = z.infer<typeof CarouselSchema>;
+

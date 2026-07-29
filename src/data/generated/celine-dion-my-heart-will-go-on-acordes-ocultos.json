@@ -1,0 +1,105 @@
+{
+  "title": "La Maqueta Prohibida",
+  "artist": "Céline Dion",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1997, con el rodaje de Titanic amenazado por sobrecostes astronómicos, James Cameron prohibió terminantemente incluir canciones pop comerciales en la película. Desafiando su veto, el compositor James Horner escribió en secreto «My Heart Will Go On» junto a Will Jennings. Cuando se la mostraron a Céline Dion en Nueva York, la cantante estaba enferma con cólicos y se negó a cantarla por parecerle cursi. Su esposo René la convenció de hacer solo una pasada de cortesía: Céline bebió un café negro, se paró ante el micrófono y grabó una sola toma improvisada que erizó a los técnicos. Aquella maqueta clandestina que Horner llevó en el bolsillo jamás se regrabó: fue la que conmovió a Cameron, ganó el Oscar y vendió 18 millones de discos.",
+  "hook": "James Cameron había prohibido canciones pop en Titanic... pero una maqueta grabada a escondidas y en una sola toma cambió la historia para siempre.",
+  "beats": [
+    "En 1996, el rodaje de Titanic en México se hundía en retrasos millonarios. Los estudios auguraban el mayor fracaso de la historia del cine.",
+    "Furioso y bajo una presión asfixiante, el director James Cameron impuso un veto tajante: prohibido incluir cualquier canción pop comercial en la película.",
+    "En secreto, el compositor James Horner desafió la orden. En la penumbra de su casa en California, escribió una melodía clandestina al piano junto a Will Jennings.",
+    "Meses después, Horner viajó a Nueva York para mostrársela a Céline Dion. Agotada y con fuertes dolores menstruales, la cantante rechazó el tema por considerarlo cursi.",
+    "Fue su esposo René Angélil quien le susurró al oído: «Haz solo una prueba rápida para James. Una maqueta de cortesía y nos marchamos a casa».",
+    "Céline bebió un café negro frente al micrófono de The Hit Factory. Cerró los ojos y, en una sola toma improvisada, desató un torrente vocal irrepetible.",
+    "Durante un mes, Horner llevó la cinta en el bolsillo de su chaqueta, esperando el instante exacto en que Cameron estuviera de buen humor en el montaje.",
+    "En la sala oscura, Cameron escuchó la voz desnuda de Céline y las lágrimas brotaron en la sala. Comprendió que aquella maqueta era el corazón del filme.",
+    "La maqueta original, sin regrabar, conquistó 11 premios Oscar y vendió 18 millones de discos. Porque a veces, el milagro no se ensaya: nace en una sola toma."
+  ],
+  "outro": "Una sola toma clandestina que se convirtió en leyenda mundial. ¿Qué sientes hoy al volver a escuchar la voz de Céline Dion en Titanic?",
+  "palette": {
+    "ink": "#0b132b",
+    "paper": "#f0f8ff",
+    "accent": "#0284c7",
+    "glow": "#38bdf8"
+  },
+  "music": {
+    "title": "My Heart Will Go On",
+    "artist": "Céline Dion",
+    "src": "music/celine-dion-my-heart-will-go-on.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "My Heart Will Go On Celine Dion",
+      "expectedTitle": "My Heart Will Go On",
+      "expectedArtist": "Céline Dion",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of Canadian singer Céline Dion late 1990s around 1997, elegant shoulder-length feathered layered dark blonde hair, emotive expressive hazel eyes, wearing a simple refined black studio blouse and delicate sapphire necklace, dramatic cinematic studio chiaroscuro lighting, textured authentic 35mm film grain, centered composition, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-01.png",
+      "prompt": "Rosarito Mexico 1996: The massive oceanfront exterior film set of Titanic, giant life-sized 240-meter replica ocean liner model resting in a gigantic outdoor water tank under bright overcast sky, crane cameras, film crew scurrying, cinematic 1996 Hollywood production photograph, authentic 35mm grain, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-02.png",
+      "prompt": "Film production editing room 1996: Director James Cameron in his 40s wearing a rugged denim shirt and baseball cap, leaning over a Moviola film editing console with crossed arms and intense resolute expression, vetoing commercial pop music, dark moody studio shadows, authentic 35mm archival photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-03.png",
+      "prompt": "Calabasas California home studio night 1997: Film composer James Horner sitting at an upright wooden grand piano in warm soft lamplight, sheet music papers scattered with lyricist Will Jennings, composing a secret melody, conspiratorial intimate artistic atmosphere, textured 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-04.png",
+      "prompt": "New York luxury hotel suite May 1997: Céline Dion sitting on an antique sofa in a high-end Manhattan suite, holding a hot ceramic tea cup, weary strained expression from tour exhaustion, shaking her head in doubt as Horner plays on a portable electric keyboard, authentic 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-05.png",
+      "prompt": "Manhattan hotel suite May 1997: Céline Dion's husband and manager René Angélil with grey beard and loving gentle expression whispering encouragingly into Céline's ear, touching her shoulder softly, convincing her to record a single demo pass, warm natural window light, emotional 35mm documentary still, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-06.png",
+      "prompt": "The Hit Factory recording studio Manhattan May 1997: Céline Dion standing in the dark vocal booth holding a mug of black coffee, vintage Neumann chrome microphone in front of her, singing with immense raw passion and eyes closed, analog studio lights glowing, legendary one-take recording session, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-07.png",
+      "prompt": "Hollywood studio hallway June 1997: Composer James Horner wearing a dark jacket walking down a studio corridor, discretely holding an audio cassette tape inside his interior pocket, anxious anticipation before playing it for the director, moody cinematic lighting, 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-08.png",
+      "prompt": "Darkened film projection theater June 1997: James Cameron sitting alone in velvet theater seats illuminated only by the faint blue projection screen glow, listening deeply to the demo cassette, tears welling in his eyes, emotional realization and artistic surrender, cinematic 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-09.png",
+      "prompt": "70th Academy Awards March 1998 Shrine Auditorium: Céline Dion performing live on stage in an elegant midnight blue gown wearing the sapphire Heart of the Ocean necklace, dramatic stage spotlights and fog, standing ovation, triumph of Titanic's 11 Oscars, iconic 35mm concert photograph, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    { "start": 0, "end": 10, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/celine-dion-my-heart-will-go-on-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    { "start": 0, "end": 10, "text": "En 1996, el rodaje de Titanic en México se hundía en retrasos millonarios. Los estudios auguraban el mayor fracaso de la historia del cine." },
+    { "start": 10, "end": 20, "text": "Furioso y bajo una presión asfixiante, el director James Cameron impuso un veto tajante: prohibido incluir cualquier canción pop comercial en la película." },
+    { "start": 20, "end": 30, "text": "En secreto, el compositor James Horner desafió la orden. En la penumbra de su casa en California, escribió una melodía clandestina al piano junto a Will Jennings." },
+    { "start": 30, "end": 40, "text": "Meses después, Horner viajó a Nueva York para mostrársela a Céline Dion. Agotada y con fuertes dolores menstruales, la cantante rechazó el tema por considerarlo cursi." },
+    { "start": 40, "end": 50, "text": "Fue su esposo René Angélil quien le susurró al oído: «Haz solo una prueba rápida para James. Una maqueta de cortesía y nos marchamos a casa»." },
+    { "start": 50, "end": 60, "text": "Céline bebió un café negro frente al micrófono de The Hit Factory. Cerró los ojos y, en una sola toma improvisada, desató un torrente vocal irrepetible." },
+    { "start": 60, "end": 70, "text": "Durante un mes, Horner llevó la cinta en el bolsillo de su chaqueta, esperando el instante exacto en que Cameron estuviera de buen humor en el montaje." },
+    { "start": 70, "end": 80, "text": "En la sala oscura, Cameron escuchó la voz desnuda de Céline y las lágrimas brotaron en la sala. Comprendió que aquella maqueta era el corazón del filme." },
+    { "start": 80, "end": 90, "text": "La maqueta original, sin regrabar, conquistó 11 premios Oscar y vendió 18 millones de discos. Porque a veces, el milagro no se ensaya: nace en una sola toma." }
+  ],
+  "publication": {
+    "description": "James Cameron había vetado cualquier canción pop en Titanic... pero una toma clandestina en un estudio de Nueva York cambió la historia del cine para siempre.\n\nEn 1997, con el rodaje sumido en retrasos millonarios y los estudios en pánico, Cameron impuso una orden innegociable: cero baladas comerciales en los créditos finales. En secreto, el compositor James Horner desafió el veto y compuso una melodía clandestina al piano junto a Will Jennings.\n\nCuando se la mostraron a Céline Dion en Manhattan, la cantante estaba indispuesta y la rechazó por cursi. Su esposo René le rogó hacer solo una prueba rápida de cortesía. Céline bebió un café negro, cerró los ojos frente al micrófono y desató una sola toma irrepetible. Aquella maqueta clandestina jamás se regrabó: conmovió a Cameron hasta las lágrimas, ganó 4 premios Grammy, el Oscar y vendió 18 millones de discos.\n\nA veces los milagros no se ensayan: nacen del alma en una sola toma. ¿Qué sentiste la primera vez que escuchaste esta canción en el cine?"
+  }
+}

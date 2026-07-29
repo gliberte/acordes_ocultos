@@ -1,0 +1,174 @@
+{
+  "title": "El órgano accidental",
+  "artist": "Bob Dylan",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El 16 de junio de 1965, Bob Dylan grabó 'Like a Rolling Stone', incluyendo uno de los riffs de órgano más icónicos del rock por puro accidente. Al Kooper, un joven guitarrista, se coló en la sesión solo para observar, pero soñaba con tocar en el disco de su ídolo. Cuando el organista oficial Paul Griffin pasó al piano, Kooper vio su oportunidad y se sentó en el Hammond B3 en secreto. Como no se sabía la canción, Kooper tocaba con una fracción de segundo de retraso para guiarse por los acordes de la banda. Ese desfase accidental y el sonido cálido del Hammond se convirtieron en la firma del tema. Al escucharlo, Dylan exigió: 'Suban el órgano'. A pesar de las protestas de los ingenieros sobre la técnica amateur de Kooper, el riff se convirtió en el alma de la canción. El error de un intruso audaz dio forma al himno que cambió la historia del rock para siempre.",
+  "hook": "El 16 de junio de 1965, Bob Dylan grabó 'Like a Rolling Stone', incluyendo uno de los riffs de órgano más icónicos del rock por puro accidente.",
+  "beats": [
+    "Al Kooper, un joven guitarrista, se coló en la sesión solo para observar, pero soñaba con tocar en el disco de su ídolo.",
+    "Cuando el organista oficial Paul Griffin pasó al piano, Kooper vio su oportunidad y se sentó en el Hammond B3 en secreto.",
+    "Como no se sabía la canción, Kooper tocaba con una fracción de segundo de retraso para guiarse por los acordes de la banda.",
+    "Ese desfase accidental y el sonido cálido del Hammond se convirtieron en la firma del tema. Al escucharlo, Dylan exigió: 'Suban el órgano'.",
+    "A pesar de las protestas de los ingenieros sobre la técnica amateur de Kooper, el riff se convirtió en el alma de la canción."
+  ],
+  "outro": "El error de un intruso audaz dio forma al himno que cambió la historia del rock para siempre.",
+  "palette": {
+    "ink": "#14100c",
+    "paper": "#faf7f0",
+    "accent": "#cf682e",
+    "glow": "#cfaa2e"
+  },
+  "music": {
+    "title": "Like a Rolling Stone",
+    "artist": "Bob Dylan",
+    "src": "music/dylan-rolling-stone.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Like a Rolling Stone Bob Dylan",
+      "expectedTitle": "Like a Rolling Stone",
+      "expectedArtist": "Bob Dylan",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-01.png",
+      "prompt": "Bob Dylan in Columbia Records Studio A in 1965, looking cool with dark sunglasses, holding an acoustic guitar, warm studio light, film grain, vintage documentary look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-02.png",
+      "prompt": "A young Al Kooper standing in the corner of a busy recording studio in the 1960s, holding a guitar case, looking on with anticipation and shyness, vintage film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-03.png",
+      "prompt": "A vintage wooden Hammond B3 organ sitting in the corner of Columbia Records Studio A, warm glowing lights, vintage recording equipment, 1965, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-04.png",
+      "prompt": "Close up of Al Kooper's hands hovering hesitantly over the double-manual keyboard of a Hammond B3 organ in a recording studio, warm lighting, 1960s film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-05.png",
+      "prompt": "The producer Tom Wilson sitting at the Columbia Records mixing console, Bob Dylan standing behind him smiling and pointing at the studio monitors with excitement, 1960s film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-06.png",
+      "prompt": "Close up of vintage faders on a classic mixing console, a piece of masking tape with handwritten word 'ORGAN' in bold ink, with the fader pushed to the absolute top, 1960s look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bob-dylan-rolling-stone/scene-07.png",
+      "prompt": "A vintage vinyl record of Highway 61 Revisited spinning on a retro wood turntable under a warm overhead lamp, grainy 1960s photo, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 8,
+      "src": "videos/bob-dylan-rolling-stone/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "src": "videos/bob-dylan-rolling-stone/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "src": "videos/bob-dylan-rolling-stone/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 32,
+      "src": "videos/bob-dylan-rolling-stone/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 32,
+      "end": 40,
+      "src": "videos/bob-dylan-rolling-stone/transition-dylan-organ.mp4",
+      "type": "video"
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "src": "videos/bob-dylan-rolling-stone/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/bob-dylan-rolling-stone/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "src": "videos/bob-dylan-rolling-stone/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "El 16 de junio de 1965, Bob Dylan grabó 'Like a Rolling Stone', incluyendo uno de los riffs de órgano más icónicos del rock por puro accidente."
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "text": "Al Kooper, un joven guitarrista, se coló en la sesión solo para observar, pero soñaba con tocar en el disco de su ídolo."
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "text": "Cuando el organista oficial Paul Griffin pasó al piano, Kooper vio su oportunidad y se sentó en el Hammond B3 en secreto."
+    },
+    {
+      "start": 24,
+      "end": 40,
+      "text": "Como no se sabía la canción, Kooper tocaba con una fracción de segundo de retraso para guiarse por los acordes de la banda."
+    },
+    {
+      "start": 40,
+      "end": 48,
+      "text": "Ese desfase accidental y el sonido cálido del Hammond se convirtieron en la firma del tema. Al escucharlo, Dylan exigió: 'Suban el órgano'."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "A pesar de las protestas de los ingenieros sobre la técnica amateur de Kooper, el riff se convirtió en el alma de la canción."
+    },
+    {
+      "start": 56,
+      "end": 60,
+      "text": "El error de un intruso audaz dio forma al himno que cambió la historia del rock para siempre."
+    }
+  ],
+  "clip": {
+    "src": "videos/bob-dylan-rolling-stone/transition-dylan-organ.mp4",
+    "prompt": "8 second vertical cinematic transition from close up of hesitant hands hovering over a Hammond B3 organ keyboard to hands actively playing the keys in sync with spinning Leslie speaker wooden cabinets in the background, dust floating in warm studio light, no text",
+    "startSecond": 32,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/bob-dylan-rolling-stone"
+  }
+}

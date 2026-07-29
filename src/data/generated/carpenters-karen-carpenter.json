@@ -1,0 +1,112 @@
+{
+  "title": "La Voz más Dulce, la Lucha más Amarga",
+  "artist": "The Carpenters",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "Karen Carpenter fue poseedora de una de las voces más aclamadas de la música popular del siglo XX, pero su vida privada estuvo marcada por profundas luchas personales. En 1964 descubrió autodidactamente la batería en la secundaria de Downey para eximirse de gimnasia. En 1970, con '(They Long to Be) Close to You', alcanzó el número uno mundial y sus primeros Grammy a los 20 años. En 1973, Richard Nixon los invitó a la Casa Blanca como la cara inmaculada de la juventud. Tras colapsar en 1975 pesando 40 kilos, Karen intentó emanciparse grabando un disco solista en Nueva York en 1979 y casándose en 1980 con Tom Burris, sufriendo engaños y abusos financieros. Finalmente, el 4 de febrero de 1983, a los 32 años, sufrió un paro cardíaco por las secuelas de la anorexia, visibilizando estos trastornos ante el mundo.",
+  "hook": "Karen Carpenter fue poseedora de una de las voces más aclamadas del siglo XX, deslumbrando al mundo en su máximo esplendor.",
+  "beats": [
+    "1964: En la secundaria de Downey descubrió su talento en la batería para eximirse de gimnasia, considerándose siempre baterista que canta.",
+    "1970: A los 20 años, '(They Long to Be) Close to You' la catapultó al número uno mundial ganando sus primeros premios Grammy.",
+    "1973: El presidente Richard Nixon los invitó a la Casa Blanca nombrándolos el rostro inmaculado de la juventud norteamericana.",
+    "1975: Con apenas 40 kilos por la anorexia, colapsó en mitad de una gira e ingresó al hospital, revelando su frágil salud.",
+    "1979-1981: Grabo su disco solista en Nueva York y sufrió un tormentoso matrimonio con Tom Burris que acabó en divorcio."
+  ],
+  "outro": "1983: El 4 de febrero de 1983, a los 32 años, un paro cardíaco apagó su vida, visibilizando la anorexia ante el mundo.",
+  "palette": {
+    "ink": "#140c0e",
+    "paper": "#fbf4ee",
+    "accent": "#c1121f",
+    "glow": "#fdf0d5"
+  },
+  "music": {
+    "title": "(They Long to Be) Close to You",
+    "artist": "The Carpenters",
+    "src": "music/carpenters-close-to-you.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "(They Long to Be) Close to You The Carpenters",
+      "expectedTitle": "(They Long to Be) Close to You",
+      "expectedArtist": "The Carpenters",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-01.png",
+      "prompt": "Authentic 1970s concert photograph of 22-year-old Karen Carpenter at the peak of her glory, singing radiant and joyful into a chrome microphone on a grand stage under golden spotlights, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-02.png",
+      "prompt": "Authentic 1964 photograph of 14-year-old teenage girl Karen Carpenter playing a vintage drum kit passionately in a California high school band room, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-03.png",
+      "prompt": "Authentic 1970 photograph of 20-year-old Karen Carpenter with long brunette hair holding a Grammy award beside her brother Richard on a brightly lit TV stage, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-04.png",
+      "prompt": "1973 photograph of 23-year-old Karen Carpenter and Richard Carpenter performing at the White House with President Richard Nixon applauding in the background, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-05.png",
+      "prompt": "Dramatic 1975 photograph of a thin, frail 25-year-old Karen Carpenter in a hospital bed surrounded by medical monitoring equipment, soft melancholic lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-06.png",
+      "prompt": "30-year-old Karen Carpenter in 1980 looking distressed and heartbroken signing divorce papers in a lawyer office, emotional sadness portrait, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/carpenters-karen-carpenter/scene-07.png",
+      "prompt": "Sober, respectful 1983 tribute photograph of a Los Angeles home living room with a framed black-and-white portrait of Karen Carpenter surrounded by white roses and flickering candles, soft somber atmosphere, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 8,  "src": "videos/carpenters-karen-carpenter/scene-01.png", "type": "image" },
+    { "start": 8,  "end": 17, "src": "videos/carpenters-karen-carpenter/scene-02.png", "type": "image" },
+    { "start": 17, "end": 25, "src": "videos/carpenters-karen-carpenter/scene-03.png", "type": "image" },
+    { "start": 25, "end": 34, "src": "videos/carpenters-karen-carpenter/scene-04.png", "type": "image" },
+    { "start": 34, "end": 42, "src": "videos/carpenters-karen-carpenter/scene-05.png", "type": "image" },
+    { "start": 42, "end": 51, "src": "videos/carpenters-karen-carpenter/scene-06.png", "type": "image" },
+    { "start": 51, "end": 60, "src": "videos/carpenters-karen-carpenter/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Karen Carpenter fue poseedora de una de las voces más aclamadas del siglo XX, deslumbrando al mundo en su máximo esplendor."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "1964: En la secundaria de Downey descubrió su talento en la batería para eximirse de gimnasia, definiéndose como baterista que canta."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "1970: A los 20 años, '(They Long to Be) Close to You' la catapultó al número uno mundial ganando sus primeros premios Grammy."
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "text": "1973: El presidente Richard Nixon los invitó a la Casa Blanca nombrándolos el rostro inmaculado de la juventud norteamericana."
+    },
+    {
+      "start": 34,
+      "end": 42,
+      "text": "1975: Con apenas 40 kilos por la anorexia, colapsó en mitad de una gira e ingresó al hospital, revelando su frágil salud."
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "text": "1979-1981: Grabó su disco solista en Nueva York y sufrió un tormentoso matrimonio con Tom Burris que acabó en divorcio."
+    },
+    {
+      "start": 51,
+      "end": 60,
+      "text": "1983: El 4 de febrero de 1983, a los 32 años, un paro cardíaco apagó su vida, visibilizando la anorexia ante el mundo."
+    }
+  ]
+}

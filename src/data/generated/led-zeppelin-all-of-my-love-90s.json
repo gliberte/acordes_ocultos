@@ -1,0 +1,134 @@
+{
+  "title": "La Carta Abierta de un Padre en Duelo",
+  "artist": "Led Zeppelin",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "'All of My Love' es una carta abierta de dolor, amor paterno y despedida escrita por Robert Plant en 1978. En julio de 1977, mientras Led Zeppelin realizaba una masiva gira por Norteamérica, Plant recibió una trágica llamada en Nueva Orleans: su hijo Karac, de solo 5 años, había fallecido repentinamente en Inglaterra por una infección. El golpe paralizó a la banda, canceló la gira y llevó a Plant a retirarse a las colinas de Gales considerando abandonar la música para siempre. A finales de 1978, en los estudios Polar Studios de Estocolmo, Plant y John Paul Jones concibieron la canción con melancólicos arreglos de sintetizador Yamaha GX-1 y metáforas dedicadas a la memoria de Karac. Una obra maestra sagrada donde un padre convirtió su pérdida más desgarradora en inmortalidad musical.",
+  "hook": "La balada más hermosa y sagrada de Led Zeppelin no nació del éxito, sino del golpe más desgarrador que puede sufrir un padre.",
+  "beats": [
+    "En julio de 1977, la banda llenaba estadios colosales en Norteamérica, en la cúspide absoluta de su poderío musical.",
+    "En una solitaria habitación de hotel en Nueva Orleans, sonó el teléfono con la noticia que ningún padre está preparado para escuchar.",
+    "Su pequeño hijo Karac, de solo cinco años, había fallecido repentinamente en Inglaterra víctima de una fulminante infección.",
+    "La gira se canceló al instante; Robert Plant se aisló en una cabaña en Gales, sumido en el silencio y decidido a no volver a cantar.",
+    "Meses después, John Paul Jones lo convenció de entrar al estudio para transformar el dolor insoportable en el único refugio posible: la música.",
+    "Lejos de las guitarras pesadas de Jimmy Page, tejieron un manto de sintetizadores etéreos para abrazar la voz rota y frágil de Robert.",
+    "Cada verso fue un suspiro hacia la eternidad: una promesa grabada a fuego de que el amor de un padre trasciende las fronteras de la muerte."
+  ],
+  "outro": "Una obra de arte sagrada donde las cenizas de una pérdida irreparable se convirtieron en un faro de amor infinito.",
+  "palette": {
+    "ink": "#0c0d12",
+    "paper": "#f3eee7",
+    "accent": "#d4af37",
+    "glow": "#4a90e2"
+  },
+  "music": {
+    "title": "All of My Love",
+    "artist": "Led Zeppelin",
+    "src": "music/led-zeppelin-all-of-my-love.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "All of My Love Led Zeppelin",
+      "expectedTitle": "All of My Love",
+      "expectedArtist": "Led Zeppelin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-01.png",
+      "prompt": "Authentic 1978 portrait of Robert Plant sitting solemnly in a vintage recording studio, thoughtful melancholic expression, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-02.png",
+      "prompt": "A vintage 1977 hotel room in New Orleans, a 1970s black telephone ringing on a nightstand, moody cinematic evening shadows, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-03.png",
+      "prompt": "Emotional 1977 photograph of a young father looking out a rain-streaked window overlooking a misty green Welsh countryside, solitude and grief, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-04.png",
+      "prompt": "Robert Plant in a quiet Welsh cottage surrounding by acoustic guitars, sitting in deep reflection, atmospheric soft light, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-05.png",
+      "prompt": "John Paul Jones playing a Yamaha GX-1 synthesizer next to Robert Plant singing into a vintage microphone at Polar Studios Stockholm 1978, warm studio lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-06.png",
+      "prompt": "John Paul Jones arranging melodies on piano at Polar Studios Stockholm 1978, warm studio lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-07.png",
+      "prompt": "Robert Plant singing with deep passion and vulnerability into a studio microphone, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-08.png",
+      "prompt": "Ethereal poetic vision of glowing golden light beams rising into the starry night sky over a tranquil lake, symbolic of eternal love and memory, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/led-zeppelin-all-of-my-love-90s/scene-09.png",
+      "prompt": "Robert Plant performing on stage under a single warm golden spotlight, eyes closed in deep emotion, iconic rock legend tribute portrait, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/led-zeppelin-all-of-my-love-90s/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "La balada más hermosa y sagrada de Led Zeppelin no nació del éxito, sino del golpe más desgarrador que puede sufrir un padre."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En julio de 1977, la banda llenaba estadios colosales en Norteamérica, en la cúspide absoluta de su poderío musical."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En una solitaria habitación de hotel en Nueva Orleans, sonó el teléfono con la noticia que ningún padre está preparado para escuchar."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Su pequeño hijo Karac, de solo cinco años, había fallecido repentinamente en Inglaterra víctima de una fulminante infección."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "La gira se canceló al instante; Robert Plant se aisló en una cabaña en Gales, sumido en el silencio y decidido a no volver a cantar."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Meses después, John Paul Jones lo convenció de entrar al estudio para transformar el dolor insoportable en el único refugio posible: la música."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Lejos de las guitarras pesadas de Jimmy Page, tejieron un manto de sintetizadores etéreos para abrazar la voz rota y frágil de Robert."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Cada verso fue un suspiro hacia la eternidad: una promesa grabada a fuego de que el amor de un padre trasciende las fronteras de la muerte."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una obra de arte sagrada donde las cenizas de una pérdida irreparable se convirtieron en un faro de amor infinito."
+    }
+  ]
+}

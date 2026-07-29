@@ -1,0 +1,135 @@
+{
+  "title": "La Canción Prohibida tras el Funeral del Siglo",
+  "artist": "Elton John",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "Nacida en 1973 como un homenaje a Marilyn Monroe y a la devastadora muerte de Janis Joplin ('como una vela al viento'), 'Candle in the Wind' se transformó 24 años después en el sencillo físico más vendido de toda la historia de la música. El 6 de septiembre de 1997, durante el funeral de la Princesa Diana en la Abadía de Westminster, Elton John interpretó 'Goodbye England's Rose' ante 2.500 millones de espectadores en todo el planeta. Aterrorizado de quebrarse en llanto o cantar por error la versión original de Marilyn Monroe, Elton exigió un teleprompter junto al piano. Tras esa histórica y dolorosa actuación, juró no volver a cantar esa versión en directo jamás, convirtiéndola en un tributo sagrado e irrepetible.",
+  "hook": "La canción más vendida de la historia nació para Marilyn Monroe y se volvió sagrada tras el funeral de Lady Di.",
+  "beats": [
+    "La expresión 'como una vela al viento' nació del dolor por Janis Joplin, inspirando a Bernie Taupin en 1973.",
+    "Bajo el título 'Goodbye Norma Jeane', retrataron la soledad de la mujer real detrás del feroz mito de Hollywood.",
+    "Años después, la profunda amistad entre Elton John y la Princesa Diana convirtió a ambos en confidentes inseparables.",
+    "Tras la fatídica noche de París en 1997, el dolor nacional cubrió el palacio real con un océano infinito de flores.",
+    "A contrarreloj y entre lágrimas, Bernie Taupin reescribió cada verso para transformar el tema en 'La Rosa de Inglaterra'.",
+    "Aterrorizado de confundir la letra con la de Marilyn o romperse en llanto, Elton colocó un teleprompter junto al piano.",
+    "El sencillo vendió 33 millones de copias físicas y donó cada centavo de sus regalías a obras benéficas mundiales.",
+    "Tras cantarla ante 2.500 millones de personas, Elton hizo el voto sagrado de no volver a interpretarla en directo jamás."
+  ],
+  "outro": "Un pacto solemne donde la música se convirtió en oración eterna, guardando el dolor y la belleza para siempre en el silencio.",
+  "palette": {
+    "ink": "#0a0a12",
+    "paper": "#f6f1e9",
+    "accent": "#c9a227",
+    "glow": "#e7c169"
+  },
+  "music": {
+    "title": "Candle in the Wind",
+    "artist": "Elton John",
+    "src": "music/elton-john-candle-in-the-wind.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Candle in the Wind Elton John",
+      "expectedTitle": "Candle in the Wind",
+      "expectedArtist": "Elton John",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-01.png",
+      "prompt": "Historical September 6 1997 photograph of 50-year-old Elton John sitting at a black grand piano inside Westminster Abbey, gothic stained glass windows with solemn golden sunlight beams and glowing church candles, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-02.png",
+      "prompt": "Authentic 1973 photograph of lyricist Bernie Taupin writing on a yellow legal pad in a cozy wooden cottage in England, a vinyl turntable playing in background with a single candle flickering on the table, warm moody lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-03.png",
+      "prompt": "Melancholic 1950s photograph of young Marilyn Monroe as Norma Jeane Baker sitting by a window in a soft knit sweater looking out with gentle sorrow, black and white with warm golden tint, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-04.png",
+      "prompt": "Authentic photograph of Princess Diana smiling gracefully walking in a sunny royal garden surrounded by blooming flowers, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-05.png",
+      "prompt": "Historical September 1997 photograph of thousands of mourners crying outside Kensington Palace surrounded by a sea of millions of white flowers and tribute candles, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-06.png",
+      "prompt": "Intimate September 1997 photograph of a vintage typewriter with a sheet of paper titled 'Goodbye England's Rose', handwritten lyric edits in black ink, reading glasses and a cup of tea on the wooden desk, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-07.png",
+      "prompt": "Intense close-up photograph of Elton John at the grand piano in Westminster Abbey, eyes fixed with sorrow on a teleprompter screen with tears streaming down his face, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-08.png",
+      "prompt": "Macro photograph of the original 1997 Rocket Records vinyl single of 'Candle in the Wind 1997' resting on dark royal blue velvet beside a single pristine fresh white rose, soft spotlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/elton-john-candle-in-the-wind/scene-09.png",
+      "prompt": "Emotional Elton John bowing respectfully at a grand piano under a soft golden spotlight on a stadium stage, solitary reverent moment, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/elton-john-candle-in-the-wind/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/elton-john-candle-in-the-wind/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/elton-john-candle-in-the-wind/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/elton-john-candle-in-the-wind/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/elton-john-candle-in-the-wind/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/elton-john-candle-in-the-wind/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/elton-john-candle-in-the-wind/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/elton-john-candle-in-the-wind/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/elton-john-candle-in-the-wind/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "La canción más vendida de la historia nació para Marilyn Monroe y se volvió sagrada tras el funeral de Lady Di."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "La expresión 'como una vela al viento' nació del dolor por Janis Joplin, inspirando a Bernie Taupin en 1973."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Bajo el título 'Goodbye Norma Jeane', retrataron la soledad de la mujer real detrás del feroz mito de Hollywood."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Años después, la profunda amistad entre Elton John y la Princesa Diana convirtió a ambos en confidentes inseparables."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Tras la fatídica noche de París en 1997, el dolor nacional cubrió el palacio real con un océano infinito de flores."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "A contrarreloj y entre lágrimas, Bernie Taupin reescribió cada verso para transformar el tema en 'La Rosa de Inglaterra'."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Aterrorizado de confundir la letra con la de Marilyn o romperse en llanto, Elton colocó un teleprompter junto al piano."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El sencillo vendió 33 millones de copias físicas y donó cada centavo de sus regalías a obras benéficas mundiales."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Tras cantarla ante 2.500 millones de personas, Elton hizo el voto sagrado de no volver a interpretarla en directo jamás."
+    }
+  ]
+}

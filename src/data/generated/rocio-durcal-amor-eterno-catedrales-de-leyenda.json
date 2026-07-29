@@ -1,0 +1,183 @@
+{
+  "title": "La Reina Eterna del Mariachi",
+  "artist": "Rocío Dúrcal",
+  "durationSeconds": 90,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacida en el modesto barrio madrileño de Cuatro Caminos, María de los Ángeles de las Heras fue bautizada como Rocío Dúrcal cuando su descubridor posó al azar un dedo sobre un mapa de Granada. Tras reinar en el cine juvenil de los sesenta y rebelarse contra el régimen franquista en la huelga de actores de 1975, cruzó el Atlántico para lograr lo impensable: conquistar el alma más íntima y machista de México. De la mano de un joven Juan Gabriel, revolucionó la ranchera con un desgarro lírico irrepetible, vendiendo más de cuarenta millones de discos y convirtiendo «Amor Eterno» en una oración universal. Ni las dolorosas fracturas creativas ni una feroz batalla de cinco años contra el cáncer apagaron su elegancia frente al micrófono. Al partir en 2006, sus cenizas fueron divididas entre España y la Basílica de Guadalupe, sellando la comunión eterna de dos pueblos en su voz.",
+  "hook": "Una madrileña conquistó el alma más profunda de México cantándole a la pérdida. Esta es la vida de la reina eterna del mariachi.",
+  "beats": [
+    "En 1961, una modesta aprendiz de peluquera deslumbró en televisión. Un dedo sobre el mapa de Granada la bautizó para siempre: nacía Rocío Dúrcal.",
+    "Convertida en ídolo juvenil del cine, millones aplaudían su sonrisa luminosa, pero en su interior ardía el deseo de no ser un producto pasajero.",
+    "En 1970 selló su amor con Antonio Morales «Junior». Juntos desafiaron las presiones de la fama para construir un refugio indestructible de más de tres décadas.",
+    "En 1975 demostró su temple: fue detenida y encarcelada en los calabozos de Madrid por defender la huelga y la dignidad de los actores.",
+    "Cruzó el océano hacia México en 1977. Allí conoció a un joven Juan Gabriel; juntos desafiaron el machismo del mariachi con una química irrepetible.",
+    "En 1984 grabó «Amor Eterno», convirtiendo el luto en una oración universal y ganándose el título sagrado de «La Española más Mexicana».",
+    "Cuando las tensiones distanciaron a la dupla, Rocío renació con Marco Antonio Solís, demostrando que su grandeza no dependía de nadie.",
+    "Desde 2001 libró una batalla silenciosa contra el cáncer. Sin quejarse, cantó hasta el límite y recibió el Grammy a la Excelencia Musical con la frente en alto.",
+    "En 2006 su voz se hizo eterna; sus cenizas reposan entre Madrid y la Basílica de Guadalupe. ¿Cuál de sus canciones marcó tu vida?"
+  ],
+  "outro": "Rocío Dúrcal transformó el dolor de dos pueblos en un himno inmortal. ¿Cuál de sus canciones marcó tu vida?",
+  "palette": {
+    "ink": "#1c1917",
+    "paper": "#fefce8",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Amor Eterno",
+    "artist": "Rocío Dúrcal",
+    "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.58,
+    "instagram": {
+      "query": "Amor Eterno Rocio Durcal",
+      "expectedTitle": "Amor Eterno",
+      "expectedArtist": "Rocío Dúrcal",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial de Rocío Dúrcal en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/cover_bg.png",
+  "coverPrompt": "Cinematic portrait of Spanish singer Rocío Dúrcal in 1984, mature elegant woman with styled voluminous layered brown hair, wearing luxurious traditional Mexican embroidered charro outfit with subtle golden filigree details, singing with deep emotional expression into a vintage studio microphone, warm amber stage lighting, 35mm film grain, 9:16 vertical composition.",
+  "assets": [
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-01.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-02.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-03.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-04.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-05.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-06.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-07.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-08.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1961, una modesta aprendiz de peluquera deslumbró en televisión. Un dedo sobre el mapa de Granada la bautizó para siempre: nacía Rocío Dúrcal.",
+      "assetIndex": 0
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Convertida en ídolo juvenil del cine, millones aplaudían su sonrisa luminosa, pero en su interior ardía el deseo de no ser un producto pasajero.",
+      "assetIndex": 1
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En 1970 selló su amor con Antonio Morales «Junior». Juntos desafiaron las presiones de la fama para construir un refugio indestructible de más de tres décadas.",
+      "assetIndex": 2
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En 1975 demostró su temple: fue detenida y encarcelada en los calabozos de Madrid por defender la huelga y la dignidad de los actores.",
+      "assetIndex": 3
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Cruzó el océano hacia México en 1977. Allí conoció a un joven Juan Gabriel; juntos desafiaron el machismo del mariachi con una química irrepetible.",
+      "assetIndex": 4
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En 1984 grabó «Amor Eterno», convirtiendo el luto en una oración universal y ganándose el título sagrado de «La Española más Mexicana».",
+      "assetIndex": 5
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Cuando las tensiones distanciaron a la dupla, Rocío renació con Marco Antonio Solís, demostrando que su grandeza no dependía de nadie.",
+      "assetIndex": 6
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Desde 2001 libró una batalla silenciosa contra el cáncer. Sin quejarse, cantó hasta el límite y recibió el Grammy a la Excelencia Musical con la frente en alto.",
+      "assetIndex": 7
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "En 2006 su voz se hizo eterna; sus cenizas reposan entre Madrid y la Basílica de Guadalupe. ¿Cuál de sus canciones marcó tu vida?",
+      "assetIndex": 8
+    }
+  ]
+}

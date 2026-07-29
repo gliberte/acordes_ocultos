@@ -1,0 +1,186 @@
+{
+  "title": "El Llanto que Paralizó a un País",
+  "artist": "Isabel Pantoja",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "El 26 de septiembre de 1984, una tragedia en la plaza de Pozoblanco truncó la vida del torero Francisco Rivera «Paquirri». Tras apenas año y medio de matrimonio, Isabel Pantoja quedó sola con un bebé de siete meses. Recluida en la finca Cantora y sumida en un luto riguroso, juró no volver a cantar jamás. Conmovido por su dolor, José Luis Perales compuso en secreto «Marinero de Luces», transformando la arena del ruedo en metáforas de mar y veleros a la deriva. El 5 de diciembre de 1985, ante la Reina Sofía en el Teatro Lope de Vega de Madrid, Isabel reapareció vestida de negro; al cantar entre lágrimas, desató la mayor catarsis de la música española.",
+  "hook": "Tras catorce meses de silencio, la viuda de España subió al escenario para cantarle al amor que el destino le arrebató.",
+  "beats": [
+    "En 1983, España celebró la boda soñada entre el gran matador Paquirri y la tonadillera Isabel Pantoja.",
+    "Pero en 1984, en la plaza de Pozoblanco, el destino asestó un golpe desgarrador e irreparable.",
+    "En la penumbra de la enfermería, Paquirri pidió calma a todos antes de que su luz se apagara.",
+    "Destrozada por la pérdida, la tonadillera se recluyó en Cantora jurando no volver a cantar jamás.",
+    "José Luis Perales compuso en secreto un réquiem para rescatarla del abismo de su dolor.",
+    "Cambió la arena del ruedo por un velero a la deriva, creando una metáfora marina inmortal.",
+    "El 5 de diciembre de 1985, Isabel reapareció en Madrid ante la Reina Doña Sofía.",
+    "Vestida de riguroso luto, cantó «Marinero de Luces» llorando ante una nación entera conmovida.",
+    "El disco vendió un millón de copias, convirtiendo la nostalgia en leyenda. ¿Cuál es tu recuerdo?"
+  ],
+  "outro": "El disco vendió un millón de copias, convirtiendo la nostalgia en leyenda. ¿Cuál es tu recuerdo?",
+  "palette": {
+    "ink": "#140e0b",
+    "paper": "#f9f6f0",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Marinero de Luces",
+    "artist": "Isabel Pantoja",
+    "src": "music/isabel-pantoja-marinero-de-luces-acordes-ocultos-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Marinero de Luces Isabel Pantoja",
+      "expectedTitle": "Marinero de Luces",
+      "expectedArtist": "Isabel Pantoja",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Dramatic vertical 9:16 portrait of Spanish singer Isabel Pantoja in late 1985, dressed in an elegant black mourning dress with dark lace mantilla, intense emotional dark eyes with a glint of tears, dignified and heartbroken expression, warm dramatic stage rim lighting, theatrical velvet backdrop, soft atmospheric haze, textured 35mm film grain, centered composition, safe bottom area for typography.",
+  "assets": [
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-01.png",
+      "prompt": "Seville Spain April 1983: Beautiful festive Spanish wedding of tonadillera Isabel Pantoja and matador Paquirri, sunlight glowing on a classic horse-drawn Andalusian carriage decorated with flowers, crowds cheering in the historic cobblestone streets of Seville, authentic 1980s documentary photojournalism, warm golden light, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-02-tiktok.png",
+      "prompt": "Vertical 9:16 vintage documentary photograph: A weathered, textured whitewashed Andalusian wall in Pozoblanco Cordoba under a blazing afternoon sun, with a vintage paper bullfighting feria poster dated September 1984 peeling slightly at the edges, deep dramatic Mediterranean shadow cutting across the stucco, stark poetic tension, authentic 1984 35mm film photography grain, cinematic melancholic stillness, zero animals, zero gore."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-03-tiktok.png",
+      "prompt": "Vertical 9:16 interior photograph: An empty, quiet Spanish dressing room in chiaroscuro lighting, an ornate golden-embroidered bullfighter traje de luces jacket hanging silently on a wooden chair, gentle dust motes suspended in a narrow shaft of afternoon sun, somber solemn stillness, zero persons, zero medical equipment, zero wounds, pure allegorical nostalgia and respect, authentic 1980s 35mm film grain, poetic atmosphere."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-04.png",
+      "prompt": "Andalusian countryside estate Cantora late 1984: Interior of a traditional whitewashed Spanish cortijo in deep shadow, a grieving young woman in strict black mourning dress standing near a vintage wrought-iron window grating, gentle afternoon sunlight cutting through the darkness, wooden baby crib nearby, poignant solitude, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-05.png",
+      "prompt": "Madrid apartment attic studio 1985: Spanish songwriter Jose Luis Perales sitting at an upright wooden piano, pencil in hand, sheets of handwritten musical scores and poetry lyrics scattered on the piano stand, warm lamp illumination, quiet contemplative creative atmosphere, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-06.png",
+      "prompt": "Summer 1985 inside Cantora estate living room in Andalusia Spain: 40-year-old Spanish songwriter Jose Luis Perales, with his classic thick dark mustache and wavy dark hair, wearing a patterned beige wool knit sweater, sitting on a wooden chair playing a Spanish classical acoustic nylon-string guitar with gentle concentration. Sitting opposite him in a vintage velvet armchair is 28-year-old tonadillera Isabel Pantoja, clearly young, beautiful with smooth unlined olive skin, dark almond-shaped eyes, defined cheekbones and elegant posture, her black hair in a neat low bun. She is in her late twenties, wearing a modest black mourning dress with a tiny gold cross necklace, listening with deep emotional catharsis and holding a lace handkerchief as tears well in her youthful eyes. Warm golden afternoon sunlight streams through an arched wooden window onto terracotta tiles and whitewashed walls. Authentic 1985 archival atmosphere, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-07.png",
+      "prompt": "Teatro Lope de Vega Madrid December 1985: View from backstage wings, a solitary woman in a long black bata de cola dress about to step onto the grand illuminated stage, red velvet stage curtains framing the shot, packed theater audience and royal balcony visible in the soft glow, high drama anticipation, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-08.png",
+      "prompt": "Teatro Lope de Vega concert stage 1985: Close emotional shot of Isabel Pantoja singing into a chrome microphone under a bright overhead spotlight, visible tears glistening on her cheeks, passionate vocal expression, black sequined dress, dramatic concert photojournalism, vertical 9:16."
+    },
+    {
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-09.png",
+      "prompt": "Poetic ocean horizon dusk: A graceful vintage white sailing boat with illuminated sails drifting peacefully across calm deep blue and violet ocean waters under a starlit twilight sky, golden sunset reflection on gentle waves, symbolic tribute to the sailor of light, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-02-tiktok.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-03-tiktok.png",
+      "type": "image"
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "src": "videos/isabel-pantoja-marinero-de-luces-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1983, España celebró la boda soñada entre el gran matador Paquirri y la tonadillera Isabel Pantoja."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Pero en 1984, en la plaza de Pozoblanco, el destino asestó un golpe desgarrador e irreparable."
+    },
+    {
+      "start": 13.33,
+      "end": 20.0,
+      "text": "En la penumbra de la enfermería, Paquirri pidió calma a todos antes de que su luz se apagara."
+    },
+    {
+      "start": 20.0,
+      "end": 26.66,
+      "text": "Destrozada por la pérdida, la tonadillera se recluyó en Cantora jurando no volver a cantar jamás."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "José Luis Perales compuso en secreto un réquiem para rescatarla del abismo de su dolor."
+    },
+    {
+      "start": 33.33,
+      "end": 40.0,
+      "text": "Cambió la arena del ruedo por un velero a la deriva, creando una metáfora marina inmortal."
+    },
+    {
+      "start": 40.0,
+      "end": 46.66,
+      "text": "El 5 de diciembre de 1985, Isabel reapareció en Madrid ante la Reina Doña Sofía."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Vestida de riguroso luto, cantó «Marinero de Luces» llorando ante una nación entera conmovida."
+    },
+    {
+      "start": 53.33,
+      "end": 60.0,
+      "text": "El disco vendió un millón de copias, convirtiendo la nostalgia en leyenda. ¿Cuál es tu recuerdo?"
+    }
+  ],
+  "publication": {
+    "description": "Tras catorce meses de silencio, la viuda de España subió al escenario para cantarle al amor que el destino le arrebató.\n\nEn 1983, el país entero celebró la boda soñada entre el matador Francisco Rivera «Paquirri» y la tonadillera Isabel Pantoja. Pero la dicha duró un suspiro: el 26 de septiembre de 1984, en Pozoblanco, una tarde aciaga quebró para siempre sus vidas. En la soledad del camino, su luz se apagó, dejando a Isabel sumida en un luto riguroso con un bebé de siete meses. Hundida en el dolor, se recluyó en Cantora jurando no volver a cantar jamás.\n\nJosé Luis Perales asumió la misión de rescatarla de la penumbra. En lugar de evocar el dolor terrenal, transformó el recuerdo en un océano infinito y el traje de luces en un velero a la deriva. El 5 de diciembre de 1985, en el Teatro Lope de Vega ante la Reina Doña Sofía, Isabel reapareció de negro; al entonar «Marinero de Luces», se quebró en un llanto sincero que conmovió a una nación entera.\n\n«Marinero de Luces» no fue un simple disco; fue el testimonio lírico donde el amor trascendió la despedida. ¿Qué emoción te despierta hoy este himno?"
+  }
+}

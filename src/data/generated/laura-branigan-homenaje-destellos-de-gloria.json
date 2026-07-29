@@ -1,0 +1,145 @@
+{
+  "title": "La Voz Eterna que se Apagó en Silencio",
+  "artist": "Laura Branigan",
+  "durationSeconds": 90,
+  "topic": "destellos-de-gloria",
+  "anecdote": "Laura Branigan fue una de las artistas más portentosas y queridas de los años 80, dueña de un descomunal registro de cuatro octavas y un carisma deslumbrante. Nacida en Brewster, Nueva York, comenzó en el teatro y fue descubierta como corista por el poeta Leonard Cohen antes de que Atlantic Records la firmara como solista. En 1982, su himno 'Gloria' rompió récords históricos al mantenerse 36 semanas consecutivas en el Billboard Hot 100, seguido por el clásico mundial 'Self Control'. Sin embargo, en la cima de su carrera demostró que su mayor grandeza estaba en su corazón: en 1994 se retiró de la música para cuidar día y noche a su esposo enfermo de cáncer hasta su último aliento. El 26 de agosto de 2004, con solo 47 años, su voz se apagó en silencio mientras dormía a causa de un aneurisma cerebral no diagnosticado. Una leyenda inmortal cuya voz vivirá por siempre en el firmamento de la música.",
+  "hook": "Dueña de cuatro octavas y un brillo arrollador, Laura Branigan ocultaba detrás de sus éxitos una historia de amor y sacrificio conmovedora.",
+  "beats": [
+    "Nacida en Nueva York, estudió artes dramáticas en Manhattan con el sueño inquebrantable de conquistar los escenarios.",
+    "A finales de los 70, el legendario poeta Leonard Cohen descubrió su talento y la llevó como corista principal en su gira europea.",
+    "El fundador de Atlantic Records quedó fascinado con su prodigiosa voz y le dio la oportunidad de grabar como solista.",
+    "En 1982, su interpretación de 'Gloria' explotó a nivel global, permaneciendo 36 semanas consecutivas en las listas del Billboard.",
+    "Con 'Self Control' y su elegancia única, se consagró en Europa y América como el sonido definitivo de toda una década.",
+    "Lejos de la vanidad de la fama, encontró en su esposo Larry Kruteck un amor profundo, reservado y sincero.",
+    "En la cúspide de su carrera, cuando a Larry le diagnosticaron cáncer, Laura abandonó la música para cuidarlo hasta el final.",
+    "El 26 de agosto de 2004, con solo 47 años, su voz se apagó en silencio mientras dormía a causa de un repentino aneurisma."
+  ],
+  "outro": "Las luces de los escenarios se desvanecen, pero las voces entregadas con tanta alma y verdad resuenan para siempre en la eternidad.",
+  "palette": {
+    "ink": "#0b0c16",
+    "paper": "#f5f3ef",
+    "accent": "#d97706",
+    "glow": "#38bdf8"
+  },
+  "music": {
+    "title": "The Power of Love",
+    "artist": "Laura Branigan",
+    "src": "music/laura-branigan-power-of-love.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Power of Love Laura Branigan",
+      "expectedTitle": "The Power of Love",
+      "expectedArtist": "Laura Branigan",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-01.png",
+      "prompt": "Radiant 1980s tribute portrait of singer Laura Branigan with her signature feathered brown hair, sparkling brown eyes, warm smile, wearing a stylish satin stage outfit under golden and blue theatrical lights, 35mm portrait film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-02.png",
+      "prompt": "Authentic nostalgic 1974 photograph of a young aspiring Laura Branigan walking outside the American Academy of Dramatic Arts in Manhattan New York, carrying sheet music books, autumn foliage, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-03.png",
+      "prompt": "Archival 1979 European concert photograph of poet Leonard Cohen singing on stage with young Laura Branigan as backing vocalist behind him at vintage chrome microphone, moody stage shadows, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-04.png",
+      "prompt": "1982 Atlantic Records studio photograph of Laura Branigan singing powerfully into a studio microphone in front of the control room glass, music producer listening in awe, warm studio ambiance, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-05.png",
+      "prompt": "Electrifying 1982 television stage performance photograph of Laura Branigan singing 'Gloria' under vivid pink and cyan 1980s neon stage lights, holding the microphone with passion, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-06.png",
+      "prompt": "Glamorous 1984 music video production photograph of Laura Branigan in an elegant black trench coat singing 'Self Control' on a stylish night city rooftop under glowing neon signs and moonlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-07.png",
+      "prompt": "Intimate warm 1988 photograph of Laura Branigan smiling tenderly beside her husband Larry Kruteck in their cozy home living room, casual elegant clothes, gentle sunset light through window, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-08.png",
+      "prompt": "Emotional 1995 photograph of Laura Branigan sitting quietly by a bright sunlit home garden patio, holding a cup of tea in deep loving devotion, thoughtful peaceful expression, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-09.png",
+      "prompt": "Solemn and peaceful memorial still life with a framed vintage photograph of smiling Laura Branigan resting among glowing candles, white lilies and a classic vinyl record of Gloria, soft golden twilight atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-10.png",
+      "prompt": "Grand celestial tribute photograph of an illuminated vintage microphone on a grand theater stage under a majestic golden beam of heavenly light rising into the starry sky, symbolic of eternal voice and legacy, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-06.png", "type": "image" },
+    { "start": 54, "end": 63, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-07.png", "type": "image" },
+    { "start": 63, "end": 72, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-08.png", "type": "image" },
+    { "start": 72, "end": 81, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-09.png", "type": "image" },
+    { "start": 81, "end": 90, "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-10.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Dueña de cuatro octavas y un brillo arrollador, Laura Branigan ocultaba detrás de sus éxitos una historia de amor y devoción conmovedora."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Nacida en Nueva York, estudió artes dramáticas en Manhattan con el sueño inquebrantable de conquistar los escenarios."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "A finales de los 70, el legendario poeta Leonard Cohen descubrió su talento y la llevó como corista principal en su gira europea."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "El fundador de Atlantic Records quedó fascinado con su prodigiosa voz y le dio la oportunidad de grabar como solista."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "En 1982, su interpretación de 'Gloria' explotó a nivel global, permaneciendo 36 semanas consecutivas en las listas del Billboard."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Con 'Self Control' y su elegancia única, se consagró en Europa y América como el sonido definitivo de toda una década."
+    },
+    {
+      "start": 54,
+      "end": 63,
+      "text": "Lejos de la vanidad de la fama, encontró en su esposo Larry Kruteck un amor profundo, reservado y sincero."
+    },
+    {
+      "start": 63,
+      "end": 72,
+      "text": "En la cúspide de su carrera, cuando a Larry le diagnosticaron cáncer, Laura abandonó la música para cuidarlo hasta el final."
+    },
+    {
+      "start": 72,
+      "end": 81,
+      "text": "El 26 de agosto de 2004, con solo 47 años, su voz se apagó en silencio mientras dormía a causa de un repentino aneurisma."
+    },
+    {
+      "start": 81,
+      "end": 90,
+      "text": "Las luces de los escenarios se desvanecen, pero las voces entregadas con tanta alma y verdad resuenan para siempre en la eternidad."
+    }
+  ]
+}

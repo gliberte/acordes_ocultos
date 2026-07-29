@@ -1,0 +1,112 @@
+{
+  "title": "Stairway to Heaven (Parte 2)",
+  "artist": "Led Zeppelin",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "El viento ruge entre los árboles y la Reina de Mayo despierta en un alboroto de primavera. Aunque la confusión nuble el camino, la melodía antigua recuerda que siempre existe tiempo para cambiar de rumbo. La dama de luz blanca guía los pasos donde el eco de la guitarra se convierte en oro y todos los seres se funden en una sola voz inmortal. Al final, ante el abismo del destino, solo queda ser una piedra inamovible mientras el viento sigue soplando.",
+  "hook": "Si hay un alboroto en tu cercado, no te asustes: es la limpieza de primavera para la Reina de Mayo.",
+  "beats": [
+    "Hay dos caminos por los que puedes andar, pero aún estás a tiempo de cambiar tu ruta.",
+    "El murmullo en tu mente se aclara: el flautista misterioso te llama a unirte a su danza sagrada.",
+    "La dama envuelta en luz blanca demuestra cómo la propia existencia se transforma en oro puro.",
+    "Si escuchas con el alma, la canción te revelará el secreto: cuando todos somos uno y uno es todo.",
+    "Ser como una roca eterna ante la tormenta, mientras la brisa del viento no deja de soplar."
+  ],
+  "outro": "Y así, con la última nota del viento, ella finalmente compra su escalera hacia el cielo.",
+  "palette": {
+    "ink": "#0b0e14",
+    "paper": "#f4f1ea",
+    "accent": "#d4af37",
+    "glow": "#b8860b"
+  },
+  "music": {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "src": "music/stairway-to-heaven.mp3",
+    "startSecond": 180,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Stairway to Heaven Led Zeppelin",
+      "expectedTitle": "Stairway to Heaven",
+      "expectedArtist": "Led Zeppelin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-01.png",
+      "prompt": "A radiant May Queen in a crown of wild spring flowers dancing in a stormy enchanted forest, wind blowing flower petals and leaves wildly, ethereal fantasy light, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-02.png",
+      "prompt": "A traveler standing at a mystical fork in a glowing mountain path at dusk, two divergent roads illuminated by cosmic light, golden decision, fantasy oil painting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-03.png",
+      "prompt": "A shadowy mysterious piper standing atop a misty mountain peak playing a glowing flute, ethereal musical notes turned into golden sparks in the night sky, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-04.png",
+      "prompt": "An angelic lady radiating pure white divine light, surrounded by golden aura, turning surrounding rocks and nature into solid shimmering gold, surreal fantasy art, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-05.png",
+      "prompt": "A cosmic galaxy connecting thousands of glowing human souls into a single brilliant star of light, universal unity, awe-inspiring space and fantasy, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-06.png",
+      "prompt": "A massive ancient monolith rock standing strong on a windswept mountain peak during a furious thunderstorm, lightning in the sky, serene endurance, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-2/scene-07.png",
+      "prompt": "A golden woman ascending into the heavens on a grand spiral staircase made of solid starlight, clouds below her, infinite cosmos above, epic climax, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 8,  "src": "videos/stairway-to-heaven-parte-2/scene-01.png", "type": "image" },
+    { "start": 8,  "end": 17, "src": "videos/stairway-to-heaven-parte-2/scene-02.png", "type": "image" },
+    { "start": 17, "end": 25, "src": "videos/stairway-to-heaven-parte-2/scene-03.png", "type": "image" },
+    { "start": 25, "end": 34, "src": "videos/stairway-to-heaven-parte-2/scene-04.png", "type": "image" },
+    { "start": 34, "end": 43, "src": "videos/stairway-to-heaven-parte-2/scene-05.png", "type": "image" },
+    { "start": 43, "end": 52, "src": "videos/stairway-to-heaven-parte-2/scene-06.png", "type": "image" },
+    { "start": 52, "end": 60, "src": "videos/stairway-to-heaven-parte-2/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Si hay un alboroto en tu cercado, no te asustes: es la limpieza de primavera para la Reina de Mayo."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "Hay dos caminos por los que puedes andar, pero aún estás a tiempo de cambiar tu ruta."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "El murmullo en tu mente se aclara: el flautista misterioso te llama a unirte a su danza sagrada."
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "text": "La dama envuelta en luz blanca demuestra cómo la propia existencia se transforma en oro puro."
+    },
+    {
+      "start": 34,
+      "end": 43,
+      "text": "Si escuchas con el alma, la canción te revelará el secreto: cuando todos somos uno y uno es todo."
+    },
+    {
+      "start": 43,
+      "end": 52,
+      "text": "Ser como una roca eterna ante la tormenta, mientras la brisa del viento no deja de soplar."
+    },
+    {
+      "start": 52,
+      "end": 60,
+      "text": "Y así, con la última nota del viento, ella finalmente compra su escalera hacia el cielo."
+    }
+  ]
+}

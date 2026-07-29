@@ -1,0 +1,195 @@
+{
+  "title": "El Rey Lagarto y el Fuego Eterno",
+  "artist": "The Doors",
+  "durationSeconds": 90,
+  "topic": "destellos-de-gloria",
+  "anecdote": "Jim Morrison fue un relámpago chamánico que sacudió los cimientos del rock: una vida breve y volcánica que ardió con furia para volverse eterna. A los cuatro años presenció en una carretera de Nuevo México un accidente que selló su alma con el espíritu del desierto. En 1965, viviendo como poeta errante en las azoteas de Venice Beach, se cruzó con Ray Manzarek en la arena y decidieron abrir las puertas de la percepción. Superando un timidez paralizante en el Whisky a Go Go, lideró a The Doors hacia la cumbre mundial con 'Light My Fire', desafió la censura en el show de Ed Sullivan y reinó como el Rey Lagarto en el Hollywood Bowl. Perseguido por juicios y el peso de su propio mito, se refugió en su taller de Santa Monica para grabar desde el baño la inmortal 'L.A. Woman' y 'Riders on the Storm'. El 3 de julio de 1971, con solo 27 años, su corazón se detuvo en París, dejando una leyenda imborrable que sigue ardiendo en la memoria del rock.",
+  "hook": "Jim Morrison fue un relámpago chamánico que sacudió los cimientos del rock: una vida breve y volcánica que ardió con furia para volverse eterna.",
+  "beats": [
+    "A los cuatro años, en una ruta desértica de Nuevo México, presenció un grave accidente y sintió que el alma de un viejo chamán entraba en su pecho infantil.",
+    "En 1965, como estudiante solitario en Venice Beach, vivía en las azoteas frente al mar escribiendo febrilmente sus versos en cuadernos gastados.",
+    "Aquella tarde en la arena se cruzó con Ray Manzarek; le cantó tímidamente a capella 'Moonlight Drive' y decidieron abrir las puertas de la percepción.",
+    "En el mítico Whisky a Go Go venció el pánico escénico para guiar trances lisérgicos inolvidables, hasta su despido por la incendiaria oda de 'The End'.",
+    "En 1967, 'Light My Fire' conquistó el número uno del Billboard, desatando una histeria global que coronó a Morrison como la voz más magnética de su era.",
+    "En el show de Ed Sullivan desafió a la censura nacional cantando en vivo la palabra prohibida, convirtiéndose en el símbolo indomable de la contracultura.",
+    "La noche del Hollywood Bowl en 1968 alcanzó la apoteosis dionisíaca, dominando al público bajo las estrellas de Los Ángeles con autoridad mística.",
+    "Atrincherado en su taller de Santa Monica frente a las condenas judiciales, cantó desde el baño de la oficina para dar vida a la cumbre de 'L.A. Woman'."
+  ],
+  "outro": "El 3 de julio de 1971, su corazón se detuvo en París a los 27 años, dejando en Père-Lachaise el eco inmortal de un fuego que jamás se apagará.",
+  "palette": {
+    "ink": "#0d0b09",
+    "paper": "#fbf7ee",
+    "accent": "#c26d17",
+    "glow": "#eab308"
+  },
+  "music": {
+    "title": "Touch Me",
+    "artist": "The Doors",
+    "src": "music/the-doors-touch-me.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Touch Me The Doors",
+      "expectedTitle": "Touch Me",
+      "expectedArtist": "The Doors",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-01.png",
+      "prompt": "Iconic 1968 concert photograph of rock singer Jim Morrison with wild wavy curly brown hair, holding microphone close to his lips, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-02.png",
+      "prompt": "1947 vintage photograph of dusty New Mexico desert highway at sunset, 4-year-old boy looking through car window at Native American family roadside accident, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-03.png",
+      "prompt": "Summer 1965 rooftop overlooking Venice Beach, young 21-year-old Jim Morrison writing intensely in notebook with ocean mist, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-04.png",
+      "prompt": "Summer 1965 Venice Beach sand at golden hour, Jim Morrison singing shyly to Ray Manzarek with horn-rimmed glasses smiling in revelation, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-05.png",
+      "prompt": "1966 Whisky a Go Go on Sunset Strip, Jim Morrison in psychedelic trance at microphone stand with red and purple lights, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-06.png",
+      "prompt": "1967 authentic photograph of The Doors inside Elektra Sound Recorders studio in Los Angeles with mixing gear and tape machines, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-07.png",
+      "prompt": "September 1967 live TV set of Ed Sullivan Show, medium close-up of Jim Morrison singing defiantly looking into broadcast TV camera, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-08.png",
+      "prompt": "July 5 1968 Hollywood Bowl concert, Jim Morrison in black leather pants on stage before 18000 roaring fans under starry night sky, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-09.png",
+      "prompt": "Winter 1970 The Doors Workshop rehearsal room, mature 27-year-old Jim Morrison with full beard singing into microphone inside tiled bathroom doorway, 35mm film grain, vertical 9:16 portrait format"
+    },
+    {
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-10.png",
+      "prompt": "Poetic twilight in Paris along cobblestone banks of Seine River with poetry notebooks and wild roses against stone parapet, 35mm film grain, vertical 9:16 portrait format"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 63,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 63,
+      "end": 72,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 72,
+      "end": 81,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-09.png",
+      "type": "image"
+    },
+    {
+      "start": 81,
+      "end": 90,
+      "src": "videos/jim-morrison-homenaje-destellos-de-gloria/scene-10.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Jim Morrison fue un relámpago chamánico que sacudió los cimientos del rock: una vida breve y volcánica que ardió con furia para volverse eterna."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "A los cuatro años, en una ruta desértica de Nuevo México, presenció un grave accidente y sintió que el alma de un viejo chamán entraba en su pecho infantil."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "En 1965, como estudiante solitario en Venice Beach, vivía en las azoteas frente al mar escribiendo febrilmente sus versos en cuadernos gastados."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Aquella tarde en la arena se cruzó con Ray Manzarek; le cantó tímidamente a capella 'Moonlight Drive' y decidieron abrir las puertas de la percepción."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "En el mítico Whisky a Go Go venció el pánico escénico para guiar trances lisérgicos inolvidables, hasta su despido por la incendiaria oda de 'The End'."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En 1967, 'Light My Fire' conquistó el número uno del Billboard, desatando una histeria global que coronó a Morrison como la voz más magnética de su era."
+    },
+    {
+      "start": 54,
+      "end": 63,
+      "text": "En el show de Ed Sullivan desafió a la censura nacional cantando en vivo la palabra prohibida, convirtiéndose en el símbolo indomable de la contracultura."
+    },
+    {
+      "start": 63,
+      "end": 72,
+      "text": "La noche del Hollywood Bowl en 1968 alcanzó la apoteosis dionisíaca, dominando al público bajo las estrellas de Los Ángeles con autoridad mística."
+    },
+    {
+      "start": 72,
+      "end": 81,
+      "text": "Atrincherado en su taller de Santa Monica frente a las condenas judiciales, cantó desde el baño de la oficina para dar vida a la cumbre de 'L.A. Woman'."
+    },
+    {
+      "start": 81,
+      "end": 90,
+      "text": "El 3 de julio de 1971, su corazón se detuvo en París a los 27 años, dejando en Père-Lachaise el eco inmortal de un fuego que jamás se apagará."
+    }
+  ]
+}

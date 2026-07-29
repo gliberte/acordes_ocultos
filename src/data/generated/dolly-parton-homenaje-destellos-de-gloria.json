@@ -1,0 +1,112 @@
+{
+  "title": "El Adiós a la Reina Eterna de la Música",
+  "artist": "Dolly Parton",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "El mundo de la música despide con profunda devoción a una de las almas más luminosas, generosas y talentosas que jamás hayan pisado un escenario: Dolly Parton. Nacida en una humilde cabaña de madera en las Grandes Montañas Humeantes de Tennessee como una de 12 hermanos en extrema pobreza, Dolly transformó su origen humilde en un imperio de bondad y poesía. En una sola tarde mágica de 1973 compuso dos de los himnos más grandes del siglo: 'Jolene' e 'I Will Always Love You'. Defendió sus derechos autorales ante Elvis Presley, conquistó el mundo con su voz cristalina y su ingenio deslumbrante, y regaló más de 200 millones de libros a niños de todo el planeta a través de su fundación. Hoy su voz se eleva a la eternidad, dejando un legado imborrable de amor, autenticidad y alegría.",
+  "hook": "El mundo de la música se viste de luto para despedir a una de las almas más luminosas de la historia: Dolly Parton.",
+  "beats": [
+    "Nacida en una humilde cabaña de madera en Tennessee, creció entre la pobreza extrema y el amor de su familia.",
+    "Con una guitarra vieja y una voz cristalina, llegó a Nashville para convertirse en la reina indiscutible del country.",
+    "En una sola tarde de 1973 compuso dos obras maestras inmortales: 'Jolene' y la eterna 'I Will Always Love You'.",
+    "Defendió su arte con fiereza, pero su mayor tesoro fue su bondad: regaló más de 200 millones de libros a niños del mundo.",
+    "Su sonrisa inquebrantable, su ingenio brillante y su corazón infinito iluminaron generaciones enteras de vidas."
+  ],
+  "outro": "Hoy su voz asciende a la eternidad donde siempre brillará. Gracias por tanto amor, Dolly. ¿Cuál de sus canciones vivirá siempre en ti?",
+  "palette": {
+    "ink": "#0b0c14",
+    "paper": "#faf6ed",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "I Will Always Love You",
+    "artist": "Dolly Parton",
+    "src": "music/dolly-parton-i-will-always-love-you.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "I Will Always Love You Dolly Parton",
+      "expectedTitle": "I Will Always Love You",
+      "expectedArtist": "Dolly Parton",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-01.png",
+      "prompt": "Stunning golden-hour tribute portrait of legendary singer Dolly Parton in her prime, radiant warm smile, voluminous blonde hair, glittering elegant rhinestone outfit, holding her acoustic guitar under soft ethereal heavenly light, 35mm portrait film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-02.png",
+      "prompt": "Authentic nostalgic 1950s documentary photograph of a rustic wooden cabin in the Great Smoky Mountains of Tennessee nestled among tall green pines and misty morning sunlight, a young girl with acoustic guitar sitting on the wooden porch, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-03.png",
+      "prompt": "Authentic 1968 Nashville Grand Ole Opry stage photograph of young Dolly Parton with her signature golden smile and blonde hair, singing into a vintage chrome ribbon microphone wearing a beautiful embroidered country dress, warm theatrical stage lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-04.png",
+      "prompt": "Cinematic 1973 photograph of Dolly Parton sitting by a rustic wooden desk with a yellow legal pad, acoustic guitar in her lap, handwritten lyrics of 'I Will Always Love You' and 'Jolene' on the desk under warm sunlight streaming through the window, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-05.png",
+      "prompt": "Heartwarming photograph of Dolly Parton smiling lovingly surrounded by stacks of colorful children's storybooks from her Imagination Library, reading to joyful little children, warm gentle sunlight, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-06.png",
+      "prompt": "Epic arena concert photograph of Dolly Parton performing under glorious golden and purple stage lights, holding out her arms with gratitude to an audience of thousands holding glowing lights, a halo of warm light, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-07.png",
+      "prompt": "Solemn and beautiful memorial tribute photograph. In the center, the illuminated graceful silhouette of Dolly Parton with her iconic hairstyle holding an acoustic guitar, surrounded by a sea of glowing warm candlelight and white roses. In elegant vintage serif typography in gold leaf, it reads: 'DOLLY PARTON (1946 — 2026)'. Ethereal peaceful golden haze, cinematic memorial atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/dolly-parton-homenaje-destellos-de-gloria/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El mundo de la música se viste de luto para despedir a una de las almas más luminosas de la historia: Dolly Parton."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Nacida en una humilde cabaña de madera en Tennessee, creció entre la pobreza extrema y el amor de su familia."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Con una guitarra vieja y una voz cristalina, llegó a Nashville para convertirse en la reina indiscutible del country."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En una sola tarde de 1973 compuso dos obras maestras inmortales: 'Jolene' y la eterna 'I Will Always Love You'."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Defendió su arte con fiereza, pero su mayor tesoro fue su bondad: regaló más de 200 millones de libros a niños del mundo."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Su sonrisa inquebrantable, su ingenio brillante y su corazón infinito iluminaron generaciones enteras de vidas."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Hoy su voz asciende a la eternidad donde siempre brillará. Gracias por tanto amor, Dolly."
+    }
+  ]
+}

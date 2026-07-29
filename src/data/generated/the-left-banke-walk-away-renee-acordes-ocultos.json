@@ -1,0 +1,136 @@
+{
+  "title": "El Amor Prohibido que Hizo Temblar un Clavecín",
+  "artist": "The Left Banke",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1966, en un estudio de Nueva York, Michael Brown, un tímido tecladista de apenas 16 años criado en la música clásica, vio entrar a la sala a la novia de su bajista Tom Finn: la magnética y libre Renée Fladen. En ese instante, Michael quedó mitológicamente enamorado en secreto. La obsesión y la culpa eran tan abrumadoras que cada vez que Renée lo miraba, sus manos temblaban incontrolablemente sobre las teclas del clavecín; no podía tocar ni una sola nota frente a ella. Tuvieron que pedirle que abandonara la sala para que él pudiera calmarse y grabar. En esa soledad desgarradora, Michael volcó su tormento en una partitura: le rogó que se marchara ('Walk away, Renée') porque mirarla le partía el alma. Con un cuarteto de cuerdas y un solo de flauta plateada, inventó el Pop Barroco y escaló al Top 5 del Billboard. Sin embargo, el dolor y los celos internos terminaron quebrando a la banda para siempre.",
+  "hook": "En 1966, un tecladista de 16 años vio entrar a la novia de su bajista al estudio... y sus manos comenzaron a temblar tanto que no pudo tocar.",
+  "beats": [
+    "En 1966, Michael Brown, un prodigio tímido de 16 años, lideraba los teclados de The Left Banke en Nueva York.",
+    "Una tarde, el bajista Tom Finn cruzó la puerta del estudio tomado de la mano de su novia: la magnética Renée Fladen.",
+    "Al verla, Michael cayó en un amor secreto tan devastador que al intentar tocar, sus dedos temblaban descontrolados.",
+    "Paralizado por el pudor, tuvieron que pedirle amablemente a Renée que saliera de la sala para que él pudiera grabar a solas.",
+    "En esa soledad desgarradora, volcó su culpa y dolor en el papel: un ruego explícito pidiéndole que se marchara para siempre.",
+    "Convocó un cuarteto de cuerdas y un solo de flauta plateada, dando nacimiento al primer gran himno del Pop Barroco.",
+    "Steve Martin Caro cantó la melodía con un dolor fantasmal, prestando su voz a un desamor que no le pertenecía.",
+    "'Walk Away Renée' escaló al puesto 5 del Billboard, convirtiendo una tortura adolescente en un éxito millonario.",
+    "Pero los celos y la incomodidad quebraron a la banda para siempre. ¿Qué canción te ha hecho sentir un nudo en el estómago?"
+  ],
+  "outro": "Una obra maestra nacida de un amor imposible. ¿Qué sientes al escuchar 'Walk Away Renée'?",
+  "palette": {
+    "ink": "#0a0908",
+    "paper": "#fdf8eb",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Walk Away Renée",
+    "artist": "The Left Banke",
+    "src": "music/the-left-banke-walk-away-renee.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Walk Away Renee The Left Banke",
+      "expectedTitle": "Walk Away Renée",
+      "expectedArtist": "The Left Banke",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-01.png",
+      "prompt": "Authentic 1966 documentary photograph of 16-year-old classical keyboard prodigy Michael Brown at an antique harpsichord in a vintage New York recording studio with bandmates, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-02.png",
+      "prompt": "Cinematic 1966 photograph of beautiful blonde muse Renée Fladen arriving at the studio doorway holding hands with bassist Tom Finn, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-03.png",
+      "prompt": "Dramatic close-up photograph of 16-year-old Michael Brown's trembling hands hovering over the harpsichord keys, with Renée visible watching through the control booth window, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-04.png",
+      "prompt": "Intimate 1966 studio photograph through the glass partition showing Renée Fladen stepping out into the hallway to let Michael record alone at the harpsichord, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-05.png",
+      "prompt": "Poignant 1966 photograph of vintage music manuscript sheet paper with handwritten title 'Walk Away, Renée' and lyrics beside a pencil and ashtray under warm lamp light, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-06.png",
+      "prompt": "Atmospheric 1966 recording session photograph of a classical string quartet and flutist playing alongside The Left Banke, creating Baroque Pop, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-07.png",
+      "prompt": "Striking 1966 documentary photograph of lead singer Steve Martin Caro singing into a vintage Neumann U47 microphone with closed eyes and deep heartache, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-08.png",
+      "prompt": "Close-up photograph of an authentic November 1966 Billboard Hot 100 printed chart with red pen circling '5 - WALK AWAY RENEE - THE LEFT BANKE', vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-09.png",
+      "prompt": "Melancholic 1966 photograph of 16-year-old Michael Brown walking away alone down a rainy Greenwich Village cobblestone street at dusk, vertical 9:16 aspect ratio."
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/the-left-banke-walk-away-renee-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1966, Michael Brown, un prodigio tímido de 16 años, lideraba los teclados de The Left Banke en Nueva York."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Una tarde, el bajista Tom Finn cruzó la puerta del estudio tomado de la mano de su novia: la magnética Renée Fladen."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Al verla, Michael cayó en un amor secreto tan devastador que al intentar tocar, sus dedos temblaban descontrolados."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Paralizado por el pudor, tuvieron que pedirle amablemente a Renée que saliera de la sala para que él pudiera grabar a solas."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En esa soledad desgarradora, volcó su culpa y dolor en el papel: un ruego explícito pidiéndole que se marchara para siempre."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Convocó un cuarteto de cuerdas y un solo de flauta plateada, dando nacimiento al primer gran himno del Pop Barroco."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Steve Martin Caro cantó la melodía con un dolor fantasmal, prestando su voz a un desamor que no le pertenecía."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "'Walk Away Renée' escaló al puesto 5 del Billboard, convirtiendo una tortura adolescente en un éxito millonario."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Pero los celos y la incomodidad quebraron a la banda para siempre. ¿Qué canción te ha hecho sentir un nudo en el estómago?"
+    }
+  ]
+}

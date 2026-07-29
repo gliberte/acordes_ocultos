@@ -1,0 +1,186 @@
+{
+  "title": "El Cometa Indomable",
+  "artist": "Janis Joplin",
+  "durationSeconds": 90,
+  "topic": "destellos-de-gloria",
+  "anecdote": "De ser humillada en la universidad como «el hombre más feo del campus» a coronarse como la primera y más salvaje reina del rock mundial. En apenas cuatro años meteóricos, Janis Joplin destrozó todas las reglas de la industria, entregó su alma en Monterey y Woodstock, y ardió con tal intensidad que su voz sigue estremeciendo al planeta más de medio siglo después.",
+  "hook": "La chica nombrada «el hombre más feo del campus» que en cuatro años electrizantes conquistó el mundo y ardió para siempre.",
+  "beats": [
+    "En un conservador pueblo de Texas, una chica de risa salvaje y amor por el blues sufrió el rechazo de quienes no perdonaban su rebeldía.",
+    "En la universidad, la crueldad colegial dejó una herida imborrable: una fraternidad la nombró públicamente «el hombre más feo del campus».",
+    "Huyendo de la humillación, recorrió miles de kilómetros haciendo autostop con una vieja guitarra, cantando en tabernas por un plato de comida.",
+    "En el San Francisco psicodélico de 1966, unió fuerzas con Big Brother and the Holding Company, desatando una tormenta de blues eléctrico.",
+    "Junio de 1967: vestida de oro en el festival de Monterey, no cantó, vomitó cinco años de dolor, dejando boquiabierto al planeta entero.",
+    "Con su disco en el número uno mundial, confesó su soledad: «Hago el amor con 25.000 personas en el show, pero me voy sola a mi habitación».",
+    "A las dos de la madrugada, bajo la lluvia y el lodo de Woodstock, lideró una catarsis colectiva que definió a toda una generación.",
+    "En 1970, libre y madura en Los Ángeles, grabó las pistas maestras de Pearl, entregando el canto de cisne más desgarrador de su vida.",
+    "A los 27 años, la soledad apagó su voz en un hotel, pero sus cenizas sobre el Pacífico sembraron la inmortalidad. ¿Qué sientes al escucharla?"
+  ],
+  "outro": "Un cometa salvaje que ardió en cuatro años irrepetibles. ¿Qué recuerdos te despierta hoy el grito desgarrado de Janis Joplin?",
+  "palette": {
+    "ink": "#180c06",
+    "paper": "#fdf8f0",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Piece of My Heart",
+    "artist": "Janis Joplin",
+    "src": "music/janis-joplin-piece-of-my-heart.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Piece of My Heart Janis Joplin Big Brother",
+      "expectedTitle": "Piece of My Heart",
+      "expectedArtist": "Big Brother & The Holding Company, Janis Joplin",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/janis-joplin-destellos-de-gloria/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of Janis Joplin late 1960s, textured 35mm film grain, round tinted pink spectacles, feather boa woven through voluminous brown hair, eclectic layered bohemian jewelry, warm atmospheric stage lighting, radiant charismatic smile, centered composition, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-01.png",
+      "prompt": "Port Arthur Texas 1958: Janis Joplin sitting on wooden front porch steps holding vintage blues vinyl records and a lyric notebook, pensive artistic expression, quiet Southern neighborhood, warm dusty afternoon sunlight, textured 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-02.png",
+      "prompt": "Austin Texas 1962: University campus brick walkway, bulletin board in foreground with student notices, young Janis Joplin in knitted bohemian cardigan and denim trousers walking past with proud dignified expression, overcast daylight, authentic 1960s archival documentary photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-03.png",
+      "prompt": "Highway hitchhiking 1963: Janis Joplin standing on a dusty desert highway asphalt shoulder holding an old acoustic guitar case and a worn canvas bag, thumb outstretched, windy hair across her face, vintage cars driving by, cinematic 1960s road trip photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-04.png",
+      "prompt": "San Francisco Victorian basement 1966: Janis Joplin rehearsing with Big Brother and the Holding Company, surrounded by coiled guitar cables, glowing tube amplifiers, psychedelic tapestry on walls, singing raw blues into a microphone, atmospheric dim lighting, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-05.png",
+      "prompt": "Monterey International Pop Festival June 1967: Janis Joplin on outdoor stage wearing shimmering gold knit pant suit, head tilted back passionately, gripping chrome microphone with both hands, stage lights and California sunshine, crowd mesmerized, legendary rock documentary photography, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-06.png",
+      "prompt": "Backstage dressing room 1968: Janis Joplin sitting alone on a vintage velvet sofa after a triumphant stadium concert, holding a soda glass, wearing bohemian purple vest and round tinted glasses, pensive quiet expression, soft warm backstage lamp lighting, 35mm documentary realism, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-07.png",
+      "prompt": "Woodstock Festival August 1969 2 AM: Janis Joplin performing under massive scaffolding tower lights in rainy mist, purple tie-dye velvet blouse, beaded bell-bottoms, microphone cord in hand, singing passionately against the dark night sky with 500,000 silhouettes in background, iconic 35mm concert photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-08.png",
+      "prompt": "Sunset Sound Studios Los Angeles September 1970: Janis Joplin in recording booth wearing beaded velvet jacket and bell-bottoms, headphones over her hair, laughing joyfully while singing into vintage studio microphone, analog magnetic tape reels spinning in control room window, warm amber glow, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-09.png",
+      "prompt": "Marin County California coastline golden hour: Majestic Pacific ocean waves breaking against rugged coastal cliffs at sunset, radiant golden light rays parting through clouds, transcendent peaceful atmosphere, textured 35mm grain, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/janis-joplin-destellos-de-gloria/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En un pueblo conservador de Texas, una chica de risa salvaje y amor por el blues sufrió el rechazo de quienes no perdonaban su rebeldía."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En la universidad, la crueldad colegial dejó una herida imborrable: una fraternidad la nombró públicamente «el hombre más feo del campus»."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Huyendo de la humillación, recorrió miles de kilómetros haciendo autostop con una vieja guitarra, cantando en tabernas por un plato de comida."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En el San Francisco psicodélico de 1966, unió fuerzas con Big Brother and the Holding Company, desatando una tormenta de blues eléctrico."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Junio de 1967: vestida de oro en el festival de Monterey, no cantó, vomitó cinco años de dolor, dejando boquiabierto al planeta entero."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Con su disco en el número uno mundial, confesó su soledad: «Hago el amor con 25.000 personas en el show, pero me voy sola a mi habitación»."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "A las dos de la madrugada, bajo la lluvia y el lodo de Woodstock, lideró una catarsis colectiva que definió a toda una generación."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 1970, libre y madura en Los Ángeles, grabó las pistas maestras de Pearl, entregando el canto de cisne más desgarrador de su vida."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "A los 27 años, la soledad apagó su voz en un hotel, pero sus cenizas sobre el Pacífico sembraron la inmortalidad. ¿Qué sientes al escucharla?"
+    }
+  ],
+  "publication": {
+    "description": "El Cometa Indomable: De ser humillada como «el hombre más feo del campus» a convertirse en la reina suprema y eterna del rock.\n\nJanis Joplin no cantaba con la garganta: cantaba con las heridas abiertas de toda una vida. Crecida en Port Arthur, una pequeña y conservadora localidad petrolera de Texas, fue señalada desde su adolescencia por rechazar la segregación racial, escuchar discos de Bessie Smith y vestirse a contracorriente. El golpe más bajo llegó en 1962 en la Universidad de Texas en Austin, cuando los miembros de una fraternidad organizaron una votación pública para humillarla, proclamándola oficialmente como «el hombre más feo del campus».\n\nAquella crueldad partió su corazón, pero forjó a la leyenda. Huyendo en autostop hacia California, Janis subsistió cantando en locales nocturnos hasta que en 1966 se unió en San Francisco a Big Brother and the Holding Company. Su consagración definitiva ocurrió en junio de 1967, durante el histórico Monterey Pop Festival: al subir al escenario enfundada en su conjunto dorado brillante y desgranar «Ball and Chain», la desgarradora potencia de su voz dejó a la mismísima Mama Cass Elliot boquiabierta entre el público y obligó a la industria a rendirse a sus pies.\n\nEn apenas cuatro años de carrera meteórica, Janis lideró la contracultura en Woodstock, grabó himnos eternos como «Piece of My Heart» y «Me and Bobby McGee», y abrió una brecha imborrable para las mujeres en el rock. Sin embargo, detrás del terciopelo, las boas de plumas y las botellas de Southern Comfort, batalló incansablemente contra una soledad abrumadora que solía resumir con una lucidez demoledora: «En el escenario hago el amor con 25.000 personas, y luego me voy a casa sola».\n\nEl 4 de octubre de 1970, a los 27 años, una sobredosis accidental apagó su vida en una solitaria habitación del Landmark Motor Hotel en Los Ángeles, apenas días después de concluir las grabaciones de «Pearl». Sus cenizas fueron esparcidas desde una avioneta sobre las aguas del Océano Pacífico, sellando el destino de una estrella fugaz que ardió como el sol y nos enseñó que la libertad no es más que no tener nada que perder.\n\n#JanisJoplin #DestellosDeGloria #PieceOfMyHeart #HistoriaDelRock #LeyendasDelRock #RockClasico #AcordesOcultos"
+  }
+}

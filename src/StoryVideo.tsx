@@ -136,28 +136,103 @@ const visualOpacity = (
   return Math.min(inOpacity, outOpacity);
 };
 
-const ChannelLogo: React.FC = () => {
+const ChannelLogo: React.FC<{brand?: string}> = ({brand}) => {
   const frame = useCurrentFrame();
-  const scale = interpolate(frame, [0, 18], [0.96, 1], {
-    easing: Easing.out(Easing.cubic),
+
+  // Movimiento pendular 3D sutil y elegante
+  const tiltX = Math.sin(frame / 20) * 6.5;
+  const tiltY = Math.cos(frame / 25) * 8.5;
+  const floatY = Math.sin(frame / 16) * 4.0;
+
+  // Destello de luz especular sutil pasando cada 90 frames (3 segundos)
+  const shimmerFrame = frame % 90;
+  const shimmerX = interpolate(shimmerFrame, [0, 24], [-150, 150], {
+    extrapolateRight: 'clamp'
+  });
+  const shimmerOpacity = interpolate(shimmerFrame, [0, 6, 18, 24], [0, 0.65, 0.65, 0], {
     extrapolateRight: 'clamp'
   });
 
+  const logoFile = brand === 'secret-chords' ? 'brand/secret-chords-logo.png' : 'brand/acordes-ocultos-logo.png';
+
   return (
-    <Img
-      src={staticFile('brand/acordes-ocultos-logo.png')}
+    <div
       style={{
         position: 'absolute',
-        top: 32,
+        top: 28,
         left: '50%',
-        width: 214,
-        height: 214,
-        objectFit: 'contain',
-        opacity: 0.88,
-        transform: `translateX(-50%) scale(${scale})`,
-        filter: 'drop-shadow(0 8px 28px rgba(0,0,0,.62))'
+        width: 216,
+        height: 216,
+        transform: `translateX(-50%) translateY(${floatY}px)`,
+        perspective: 1000,
+        pointerEvents: 'none',
+        zIndex: 50
       }}
-    />
+    >
+      <div
+        style={{
+          width: '100%',
+          height: '100%',
+          transformStyle: 'preserve-3d',
+          transform: `rotateX(${tiltX}deg) rotateY(${tiltY}deg)`,
+          position: 'relative'
+        }}
+      >
+        {/* Sombra de profundidad analógica pura (sin glow de color) */}
+        <div
+          style={{
+            position: 'absolute',
+            inset: 10,
+            borderRadius: 999,
+            background: 'radial-gradient(circle, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 70%)',
+            transform: 'translateZ(-18px) translateY(12px)',
+            filter: 'blur(8px)'
+          }}
+        />
+
+        {/* Logo con sombra nítida y relieve */}
+        <Img
+          src={staticFile(logoFile)}
+          style={{
+            width: '100%',
+            height: '100%',
+            objectFit: 'contain',
+            transform: 'translateZ(8px)',
+            filter: 'drop-shadow(0 10px 24px rgba(0,0,0,0.72)) drop-shadow(0 2px 6px rgba(0,0,0,0.85))'
+          }}
+        />
+
+        {/* Destello de brillo especular elegante */}
+        <div
+          style={{
+            position: 'absolute',
+            top: 15,
+            left: 15,
+            right: 15,
+            bottom: 15,
+            borderRadius: 999,
+            overflow: 'hidden',
+            pointerEvents: 'none',
+            transform: 'translateZ(12px)'
+          }}
+        >
+          <div
+            style={{
+              position: 'absolute',
+              top: -40,
+              bottom: -40,
+              width: 40,
+              transform: `translateX(${shimmerX}px) rotate(25deg)`,
+              background:
+                'linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.7) 50%, rgba(255,255,255,0) 100%)',
+              opacity: shimmerOpacity,
+              filter: 'blur(3px)',
+              mixBlendMode: 'overlay'
+            }}
+          />
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -246,8 +321,8 @@ const TransitionVignette: React.FC<{palette: StoryData['palette']}> = ({
   <AbsoluteFill
     style={{
       background:
-        'radial-gradient(circle at 50% 42%, rgba(0,0,0,0) 0%, rgba(0,0,0,.14) 50%, rgba(0,0,0,.72) 100%)',
-      boxShadow: `inset 0 0 190px ${palette.ink}`,
+        'radial-gradient(circle at 50% 42%, rgba(0,0,0,0) 0%, rgba(0,0,0,.10) 50%, rgba(0,0,0,.45) 100%)',
+      boxShadow: `inset 0 0 140px ${palette.ink}`,
       pointerEvents: 'none'
     }}
   />
@@ -297,7 +372,7 @@ const CinematicImage: React.FC<{
       <AbsoluteFill
         style={{
           background:
-            'linear-gradient(180deg, rgba(6,7,11,.26) 0%, rgba(6,7,11,.05) 38%, rgba(6,7,11,.82) 100%)',
+            'linear-gradient(180deg, rgba(6,7,11,.15) 0%, rgba(6,7,11,.02) 38%, rgba(6,7,11,.42) 100%)',
           mixBlendMode: 'multiply'
         }}
       />
@@ -316,7 +391,8 @@ const Subtitle: React.FC<{
   text: string;
   palette: StoryData['palette'];
   variant: 'hook' | 'beat' | 'outro';
-}> = ({text, palette, variant}) => {
+  topic?: string;
+}> = ({text, palette, variant, topic}) => {
   const frame = useCurrentFrame();
   const y = interpolate(frame, [0, 16], [44, 0], {
     easing: Easing.out(Easing.cubic),
@@ -326,49 +402,53 @@ const Subtitle: React.FC<{
     extrapolateRight: 'clamp'
   });
 
+  const categoryLabel =
+    topic === 'historia-en-los-acordes'
+      ? 'Historia en los Acordes'
+      : topic === 'destellos-de-gloria'
+      ? 'Destellos de Gloria'
+      : topic === 'catedrales-de-leyenda'
+      ? 'Catedrales de Leyenda'
+      : 'Acordes Ocultos';
+
   return (
     <div
       style={{
         position: 'absolute',
         left: 62,
         right: 62,
-        bottom: 270,
+        bottom: 390,
         transform: `translateY(${y}px)`,
         opacity
       }}
     >
       <div
         style={{
-          display: 'inline-flex',
-          alignItems: 'center',
-          marginBottom: 20,
-          padding: '10px 15px',
-          background: variant === 'hook' ? palette.accent : palette.ink,
-          border: `2px solid ${variant === 'beat' ? palette.accent : palette.glow}`,
-          color: palette.paper,
-          fontFamily: 'Inter, Arial, sans-serif',
-          fontSize: 25,
-          fontWeight: 900,
-          lineHeight: 1,
+          marginBottom: 10,
+          paddingLeft: 12,
+          borderLeft: `5px solid ${palette.accent}`,
+          color: palette.accent,
+          fontFamily: 'Georgia, Times New Roman, serif',
+          fontSize: 28,
+          fontWeight: 700,
+          letterSpacing: '0.12em',
           textTransform: 'uppercase',
-          boxShadow: '0 10px 28px rgba(0,0,0,.42)'
+          textShadow: '0 2px 12px rgba(0,0,0,.9), 0 0 30px rgba(0,0,0,.8)'
         }}
       >
-        {variant === 'hook' ? 'Acordes ocultos' : variant === 'outro' ? 'El mito' : 'Archivo rock'}
+        {categoryLabel}
       </div>
       <div
         style={{
-          padding: '28px 32px 32px',
-          background: 'rgba(7,8,13,.66)',
+          paddingLeft: 12,
           borderLeft: `8px solid ${palette.accent}`,
           color: palette.paper,
           fontFamily: 'Georgia, Times New Roman, serif',
           fontSize: variant === 'hook' ? 57 : 51,
           fontWeight: 800,
           lineHeight: 1.06,
-          textShadow: '0 8px 28px rgba(0,0,0,.72)',
-          boxShadow: '0 18px 54px rgba(0,0,0,.42)',
-          backdropFilter: 'blur(5px)'
+          textShadow:
+            '0 2px 6px rgba(0,0,0,1), 0 6px 24px rgba(0,0,0,.95), 0 12px 40px rgba(0,0,0,.85)'
         }}
       >
         {text}
@@ -405,7 +485,6 @@ const VisualClip: React.FC<{
 }> = ({story, src, fadeIn, fadeOut}) => {
   const frame = useCurrentFrame();
   const {durationInFrames} = useVideoConfig();
-  const scale = interpolate(frame, [0, durationInFrames], [1.02, 1.12]);
   const opacity = visualOpacity(frame, durationInFrames, fadeIn, fadeOut);
 
   return (
@@ -417,8 +496,7 @@ const VisualClip: React.FC<{
           width: '100%',
           height: '100%',
           objectFit: 'cover',
-          transform: `scale(${scale})`,
-          filter: 'brightness(.74) contrast(1.22) saturate(1.2)'
+          filter: 'brightness(.82) contrast(1.15) saturate(1.1)'
         }}
       />
       <AbsoluteFill
@@ -525,7 +603,7 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
         );
       })}
 
-      <ChannelLogo />
+      <ChannelLogo brand={story.brand} />
       <MusicBadge story={story} />
 
       {segments.map((segment, index) => {
@@ -543,6 +621,7 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
               text={segment.text}
               palette={story.palette}
               variant={variant}
+              topic={story.topic}
             />
           </Sequence>
         );

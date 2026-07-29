@@ -1,0 +1,147 @@
+{
+  "title": "El toque maestro y el desprecio por la fama",
+  "artist": "Gerry Rafferty",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "En la parte anterior, Gerry Rafferty sobrevivió a su infierno legal con 'Right Down the Line'. Pero el secreto de su sonido fue un instrumento inesperado. En lugar del solo de guitarra eléctrica convencional, Rafferty y su productor decidieron meter una pedal steel guitar, un instrumento del country interpretado por BJ Cole. El lamento aterciopelado de las cuerdas metálicas le dio al tema esa atmósfera nostálgica y reconfortante de viaje por carretera. La canción llegó al número 1 en Estados Unidos. La discográfica United Artists preparó una gira masiva, pero Rafferty odiaba la fama. El presidente del sello voló personalmente a Escocia para suplicarle que viajara, ofreciéndole millones. Gerry se negó en su cara. Prefirió quedarse en su cabaña bebiendo y componiendo a su ritmo, rechazando los estadios para siempre y desesperando a sus mánagers. Aunque su matrimonio con Carla se rompió años después, nos dejó una de las promesas de amor más honestas de la música.",
+  "hook": "En la parte anterior, Gerry Rafferty sobrevivió a su infierno legal con 'Right Down the Line'. Pero el secreto de su sonido fue un instrumento inesperado.",
+  "beats": [
+    "En lugar del solo de guitarra eléctrica convencional, Rafferty y su productor decidieron meter una pedal steel guitar, un instrumento del country.",
+    "El lamento aterciopelado de las cuerdas metálicas le dio al tema esa atmósfera nostálgica y reconfortante de viaje por carretera.",
+    "La canción llegó al número 1 en Estados Unidos. La discográfica United Artists preparó una gira masiva, pero Rafferty odiaba la fama.",
+    "El presidente del sello voló personalmente a Escocia para suplicarle que viajara, ofreciéndole millones. Gerry se negó en su cara.",
+    "Prefirió quedarse en su cabaña bebiendo y componiendo a su ritmo, rechazando los estadios para siempre y desesperando a sus mánagers."
+  ],
+  "outro": "Aunque su matrimonio con Carla se rompió años después, nos dejó una de las promesas de amor más honestas de la música.",
+  "palette": {
+    "ink": "#14100c",
+    "paper": "#faf7f0",
+    "accent": "#cf682e",
+    "glow": "#cfaa2e"
+  },
+  "music": {
+    "title": "Right Down the Line",
+    "artist": "Gerry Rafferty",
+    "src": "music/gerry-rafferty-line-part2.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Right Down the Line Gerry Rafferty",
+      "expectedTitle": "Right Down the Line",
+      "expectedArtist": "Gerry Rafferty",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-01.png",
+      "prompt": "A vintage pedal steel guitar with its double neck and chrome legs standing in a warm, dusty recording studio, Olympic Studios style, 1970s, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-02.png",
+      "prompt": "A musician (BJ Cole) playing a vintage pedal steel guitar in a recording studio, hands adjusting the steel slide bar on the strings, warm retro lighting, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-03.png",
+      "prompt": "A classic American convertible car dashboard at sunset, steering wheel, road stretching ahead, warm golden hour light, retro travel vibe, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-04.png",
+      "prompt": "A huge empty stadium stage with scaffolding and concert lights, under an overcast moody sky, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-05.png",
+      "prompt": "A United Artists record executive in a sharp 1970s suit sitting opposite Gerry Rafferty in a rustic Scottish pub, a blank checkbook open on the wooden table, Gerry looking indifferent, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-06.png",
+      "prompt": "Gerry Rafferty sitting next to a fireplace in a cozy wooden cabin, holding a glass of whiskey, a guitar resting next to him, looking relaxed, warm firelight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-part-2/scene-07.png",
+      "prompt": "A vintage copy of City to City vinyl album spinning on a retro turntable under warm golden lamp light, grainy 1970s film photo, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/gerry-rafferty-part-2/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/gerry-rafferty-part-2/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/gerry-rafferty-part-2/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/gerry-rafferty-part-2/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/gerry-rafferty-part-2/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/gerry-rafferty-part-2/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/gerry-rafferty-part-2/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "En la parte anterior, Gerry Rafferty sobrevivió a su infierno legal con 'Right Down the Line'. Pero el secreto de su sonido fue un instrumento inesperado."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En lugar del solo de guitarra eléctrica convencional, Rafferty y su productor decidieron meter una pedal steel guitar, un instrumento del country."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "El lamento aterciopelado de las cuerdas metálicas le dio al tema esa atmósfera nostálgica y reconfortante de viaje por carretera."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La canción llegó al número 1 en Estados Unidos. La discográfica United Artists preparó una gira masiva, pero Rafferty odiaba la fama."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El presidente del sello voló personalmente a Escocia para suplicarle que viajara, ofreciéndole millones. Gerry se negó en su cara."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Prefirió quedarse en su cabaña bebiendo y componiendo a su ritmo, rechazando los estadios para siempre y desesperando a sus mánagers."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Aunque su matrimonio con Carla se rompió años después, nos dejó una de las promesas de amor más honestas de la música."
+    }
+  ]
+}

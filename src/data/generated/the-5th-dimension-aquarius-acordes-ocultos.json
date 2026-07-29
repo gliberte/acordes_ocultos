@@ -1,0 +1,136 @@
+{
+  "title": "El Himno de Luz que Nació de una Billetera Perdida",
+  "artist": "The 5th Dimension",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En una noche lluviosa de 1968 en Nueva York, Billy Davis Jr., vocalista principal del quinteto The 5th Dimension, olvidó su billetera con todos sus documentos en el asiento trasero de un taxi. Quien la encontró no solo la devolvió intacta al hotel, sino que resultó ser parte del equipo de producción de 'Hair', el musical más polémico y censurado de Broadway por su abierta protesta contra la guerra de Vietnam. En gratitud, el productor los invitó a la función. Fascinados por la mística de la obra, el grupo quiso grabar 'Aquarius', pero su productor Bones Howe sintió que a la canción le faltaba empuje. Fue entonces cuando Howe tuvo una revelación: unirla con el coro final del musical, 'Let the Sunshine In'. Junto a los virtuosos de The Wrecking Crew y la desgarradora improvisación góspel de Billy Davis Jr., la canción se convirtió en el grito pacifista más luminoso de la era, dominando el número 1 de Billboard durante seis semanas y ganando el Grammy a Grabación del Año.",
+  "hook": "En 1968, una billetera olvidada en un taxi de Manhattan terminó creando el himno que desafió la oscuridad de Vietnam.",
+  "beats": [
+    "En una noche helada de 1968, Billy Davis Jr., cantante de The 5th Dimension, olvidó su billetera en un taxi neoyorquino.",
+    "El pasajero que la encontró no solo la devolvió intacta, sino que resultó ser productor del escandaloso musical 'Hair'.",
+    "Como agradecimiento, los invitó a la función. Entre protestas contra la guerra y censura teatral, el grupo quedó hechizado.",
+    "Su productor, Bones Howe, advirtió que 'Aquarius' por sí sola carecía de fuerza, y tuvo una visión: unirla al coro final de la obra.",
+    "En los estudios de Hollywood, la legendaria banda The Wrecking Crew encendió un compás hipnótico de bajo y batería.",
+    "Frente al micrófono, Billy Davis Jr. desató un trance espiritual con desgarro góspel que cambió el rumbo de la grabación.",
+    "En una América desangrada por la guerra de Vietnam, la canción se convirtió en un grito desgarrador de sanación y esperanza.",
+    "El tema escaló al número uno del Billboard Hot 100, reinando durante seis semanas consecutivas en todo el país.",
+    "Consagrada con el Grammy a Grabación del Año, demostró que hasta en la hora más oscura, la música deja entrar el sol."
+  ],
+  "outro": "Un himno que nació del azar para iluminar a una generación. ¿Qué sientes al escuchar 'Let the Sunshine In'?",
+  "palette": {
+    "ink": "#0a0908",
+    "paper": "#fdf8eb",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Aquarius / Let the Sunshine In",
+    "artist": "The 5th Dimension",
+    "src": "music/the-5th-dimension-aquarius.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Aquarius The 5th Dimension",
+      "expectedTitle": "Aquarius / Let the Sunshine In",
+      "expectedArtist": "The 5th Dimension",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-01.png",
+      "prompt": "Authentic 1968 photograph of a vintage yellow checker taxi driving in rain at night on Broadway in New York City, neon signs reflecting on wet asphalt, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-02.png",
+      "prompt": "Authentic 1968 documentary photograph inside the warm mid-century lobby of the Americana Hotel in New York City. A theater producer returns a lost brown leather wallet to singer Billy Davis Jr. in a stylish tailored suit, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-03.png",
+      "prompt": "Cinematic 1968 photograph inside Broadway's Biltmore Theatre during a live performance of the musical Hair, with peace banners and hippie cast, while The 5th Dimension watch in awe from the audience, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-04.png",
+      "prompt": "1969 documentary photograph inside a Los Angeles recording studio control room with producer Bones Howe pointing at two separate sheet music scores labeled 'Aquarius' and 'Let the Sunshine In', explaining his vision to Marilyn McCoo and Billy Davis Jr., vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-05.png",
+      "prompt": "Dynamic 1969 studio recording photograph inside Hollywood's United Western Recorders with The Wrecking Crew: drummer Hal Blaine at his Ludwig kit and bassist Joe Osborn with his Fender Jazz Bass, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-06.png",
+      "prompt": "Passionate 1969 studio close-up photograph of African-American lead singer Billy Davis Jr. belting out vocals into a vintage Neumann microphone beside Marilyn McCoo in warm amber studio light, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-07.png",
+      "prompt": "Poignant, historic 1969 documentary photograph in Vietnam: young American soldiers sitting in a jungle trench listening to a small military transistor radio as golden sunlight breaks through the clouds, vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-08.png",
+      "prompt": "Close-up documentary photograph of an original vintage April 1969 Billboard Magazine 'Hot 100 Singles' chart with a red pen circling '1 - AQUARIUS / LET THE SUNSHINE IN - THE 5TH DIMENSION', vertical 9:16 aspect ratio."
+    },
+    {
+      "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-09.png",
+      "prompt": "Triumphant 1970 Grammy Awards photograph of the five members of The 5th Dimension in evening gala attire holding their golden Grammy Award statuettes for Record of the Year, vertical 9:16 aspect ratio."
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/the-5th-dimension-aquarius-acordes-ocultos/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En una noche helada de 1968, Billy Davis Jr., cantante de The 5th Dimension, olvidó su billetera en un taxi neoyorquino."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "El pasajero que la encontró no solo la devolvió intacta, sino que resultó ser productor del escandaloso musical 'Hair'."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Como agradecimiento, los invitó a la función. Entre protestas contra la guerra y censura teatral, el grupo quedó hechizado."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Su productor, Bones Howe, advirtió que 'Aquarius' por sí sola carecía de fuerza, y tuvo una visión: unirla al coro final de la obra."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En los estudios de Hollywood, la legendaria banda The Wrecking Crew encendió un compás hipnótico de bajo y batería."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Frente al micrófono, Billy Davis Jr. desató un trance espiritual con desgarro góspel que cambió el rumbo de la grabación."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En una América desangrada por la guerra de Vietnam, la canción se convirtió en un grito desgarrador de sanación y esperanza."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El tema escaló al número uno del Billboard Hot 100, reinando durante seis semanas consecutivas en todo el país."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Consagrada con el Grammy a Grabación del Año, demostró que hasta en la hora más oscura, la música deja entrar el sol."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+---
+import GlobalSearch from './GlobalSearch.astro';
+import { getAllStories } from '../lib/stories';
+import type { StoryItem } from '../lib/types';
+
+interface Props {
+  stories?: StoryItem[];
+}
+
+const { stories: propStories } = Astro.props;
+const stories = propStories || await getAllStories();
+---
+
+<header class="sticky top-0 z-50 backdrop-blur-md bg-[#0a0908]/90 border-b border-[#262420]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+    <!-- Logo & Brand -->
+    <a href="/" class="flex items-center gap-3 group shrink-0">
+      <div class="relative w-11 h-11 rounded-full overflow-hidden border border-amber-500/40 p-0.5 bg-[#141311] group-hover:border-amber-400 transition-colors shadow-lg shadow-amber-950/30">
+        <img 
+          src="/brand/acordes-ocultos-logo-sm.webp" 
+          alt="Acordes Ocultos Logo" 
+          width="44"
+          height="44"
+          decoding="async"
+          class="w-full h-full object-cover rounded-full group-hover:scale-105 transition-transform duration-300"
+        />
+      </div>
+      <div class="hidden sm:block">
+        <span class="block font-serif text-lg tracking-wider text-amber-400 font-bold group-hover:text-amber-300 transition-colors">
+          ACORDES OCULTOS
+        </span>
+        <span class="block text-[10px] tracking-[0.25em] text-neutral-400 uppercase font-sans">
+          Crónicas & Archivo Musical
+        </span>
+      </div>
+    </a>
+
+    <!-- Center / Right: Nav Links & Global Search -->
+    <div class="flex items-center gap-3 sm:gap-6">
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-neutral-300">
+        <a href="/#historias" class="hover:text-amber-400 transition-colors">Relatos</a>
+        <a href="/#categorias" class="hover:text-amber-400 transition-colors">Líneas Editoriales</a>
+        <a 
+          href="https://acordesocultos.substack.com" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="flex items-center gap-1.5 hover:text-amber-400 transition-colors"
+        >
+          <span>Crónicas en Substack</span>
+          <svg class="w-3.5 h-3.5 text-amber-500/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+          </svg>
+        </a>
+      </nav>
+
+      <!-- Global Search Component -->
+      <GlobalSearch stories={stories} />
+
+      <!-- Substack CTA -->
+      <a
+        href="https://acordesocultos.substack.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-md shadow-amber-950/40 hover:from-amber-500 hover:to-amber-400 transition-all transform hover:-translate-y-0.5 active:translate-y-0 shrink-0"
+      >
+        <span class="hidden sm:inline">Suscribirse Gratis</span>
+        <span class="sm:hidden">Suscribirse</span>
+      </a>
+    </div>
+  </div>
+</header>

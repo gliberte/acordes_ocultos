@@ -1,0 +1,182 @@
+{
+  "title": "La Reina Eterna del Mariachi",
+  "artist": "Rocío Dúrcal",
+  "durationSeconds": 60,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacida en el modesto barrio madrileño de Cuatro Caminos, María de los Ángeles de las Heras fue bautizada como Rocío Dúrcal cuando su descubridor posó al azar un dedo sobre un mapa de Granada. Tras reinar en el cine juvenil de los sesenta y rebelarse contra el régimen franquista en la huelga de actores de 1975, cruzó el Atlántico para lograr lo impensable: conquistar el alma más íntima y machista de México. De la mano de un joven Juan Gabriel, revolucionó la ranchera con un desgarro lírico irrepetible, vendiendo más de cuarenta millones de discos y convirtiendo «Amor Eterno» en una oración universal. Ni las dolorosas fracturas creativas ni una feroz batalla de cinco años contra el cáncer apagaron su elegancia frente al micrófono. Al partir en 2006, sus cenizas fueron divididas entre España y la Basílica de Guadalupe, sellando la comunión eterna de dos pueblos en su voz.",
+  "hook": "Una madrileña conquistó el alma de México cantando rancheras. Esta es la leyenda de Rocío Dúrcal.",
+  "beats": [
+    "En 1961, un dedo al azar sobre el mapa de España bautizó a una leyenda: nacía Rocío Dúrcal.",
+    "Reina del cine juvenil en los 60, luchó por no quedar atrapada en la jaula de niña prodigio.",
+    "En 1970 se casó con Junior, forjando un amor leal de más de 35 años lejos del espectáculo.",
+    "En 1975 fue detenida en los calabozos de Madrid por liderar la huelga de actores por sus derechos.",
+    "Llegó a México en 1977 y se unió a Juan Gabriel, revolucionando las rancheras para siempre.",
+    "En 1984 inmortalizó «Amor Eterno», coronándose como «La Española más Mexicana» con millones de discos.",
+    "Tras una dolorosa ruptura artística con Juan Gabriel, renació en la cima junto a Marco Antonio Solís.",
+    "Luchó con dignidad contra el cáncer sin soltar el micrófono, recibiendo el Grammy a la Excelencia.",
+    "Partió en 2006 y sus cenizas se dividieron entre España y México. ¿Cuál es tu canción favorita de Rocío?"
+  ],
+  "outro": "Rocío Dúrcal transformó el dolor de dos pueblos en un himno inmortal. ¿Cuál de sus canciones marcó tu vida?",
+  "palette": {
+    "ink": "#1c1917",
+    "paper": "#fefce8",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Amor Eterno",
+    "artist": "Rocío Dúrcal",
+    "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.58,
+    "instagram": {
+      "query": "Amor Eterno Rocio Durcal",
+      "expectedTitle": "Amor Eterno",
+      "expectedArtist": "Rocío Dúrcal",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial de Rocío Dúrcal en TikTok al publicar."
+    }
+  },
+  "coverBg": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-01.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-02.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-03.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-04.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-05.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-06.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-07.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-08.png"
+    },
+    {
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/rocio-durcal-amor-eterno-catedrales-de-leyenda/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "text": "En 1961, un dedo al azar sobre el mapa de España bautizó a una leyenda: nacía Rocío Dúrcal.",
+      "assetIndex": 0
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "text": "Reina del cine juvenil en los 60, luchó por no quedar atrapada en la jaula de niña prodigio.",
+      "assetIndex": 1
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "En 1970 se casó con Junior, forjando un amor leal de más de 35 años lejos del espectáculo.",
+      "assetIndex": 2
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "text": "En 1975 fue detenida en los calabozos de Madrid por liderar la huelga de actores por sus derechos.",
+      "assetIndex": 3
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "text": "Llegó a México en 1977 y se unió a Juan Gabriel, revolucionando las rancheras para siempre.",
+      "assetIndex": 4
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "En 1984 inmortalizó «Amor Eterno», coronándose como «La Española más Mexicana» con millones de discos.",
+      "assetIndex": 5
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "text": "Tras una dolorosa ruptura artística con Juan Gabriel, renació en la cima junto a Marco Antonio Solís.",
+      "assetIndex": 6
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "text": "Luchó con dignidad contra el cáncer sin soltar el micrófono, recibiendo el Grammy a la Excelencia.",
+      "assetIndex": 7
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Partió en 2006 y sus cenizas se dividieron entre España y México. ¿Cuál es tu canción favorita de Rocío?",
+      "assetIndex": 8
+    }
+  ]
+}

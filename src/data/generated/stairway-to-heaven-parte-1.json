@@ -1,0 +1,112 @@
+{
+  "title": "Stairway to Heaven (Parte 1)",
+  "artist": "Led Zeppelin",
+  "durationSeconds": 60,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "Una mujer envuelta en certezas de cristal cree que todo lo que brilla puede comprarse, incluso una escalera hacia la eternidad. Sin embargo, al llegar a las tiendas del camino, descubre letreros con mensajes ambiguos. En el bosque, el canto de un pájaro le recuerda la fragilidad de sus pensamientos, mientras hacia el oeste, la niebla y el humo entre los árboles ocultan miradas atentas. Una profecía susurra que una canción compartida y un flautista invisible guiarán a los viajeros hacia la alborada de una razón olvidada.",
+  "hook": "Una mujer convencida de que todo lo que brilla es oro busca comprar un camino hacia el cielo.",
+  "beats": [
+    "Sabe que cuando llegue a las tiendas, con una sola palabra obtendrá lo que vino a buscar.",
+    "Un letrero en la pared la hace dudar: a veces las palabras guardan dos sentidos ocultos.",
+    "En un árbol junto al arroyo, un pájaro canta que nuestros pensamientos suelen estar equivocados.",
+    "Siente una melancolía al mirar hacia el oeste, y su espíritu llora por lo que no puede ver.",
+    "Entre los árboles se alzan anillos de humo y las sombras de quienes observan en silencio."
+  ],
+  "outro": "Se susurra que pronto, si todos cantamos la melodía, el flautista nos conducirá a la razón.",
+  "palette": {
+    "ink": "#0b0e14",
+    "paper": "#f4f1ea",
+    "accent": "#d4af37",
+    "glow": "#4a7c59"
+  },
+  "music": {
+    "title": "Stairway to Heaven",
+    "artist": "Led Zeppelin",
+    "src": "music/stairway-to-heaven.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Stairway to Heaven Led Zeppelin",
+      "expectedTitle": "Stairway to Heaven",
+      "expectedArtist": "Led Zeppelin",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-01.png",
+      "prompt": "A majestic golden-haired woman in an ethereal flowing white vintage gown walking towards a glowing golden staircase rising into starry misty clouds, atmospheric surrealism, fantasy oil painting style, film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-02.png",
+      "prompt": "A mysterious vintage storefront on a foggy cobblestone mountain village at twilight, glowing lanterns, golden letters on glass windows, mystical atmosphere, cinematic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-03.png",
+      "prompt": "Ancient stone wall covered in ivy with glowing cryptic runes and double-meaning signs carved into mossy rock, foggy ancient forest, moody surreal lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-04.png",
+      "prompt": "A lone songbird perched on a mossy branch beside a crystal clear babbling brook in a sun-dappled ancient forest, magical morning light filtering through autumn leaves, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-05.png",
+      "prompt": "A woman standing at the edge of a dramatic misty cliff looking toward a glowing golden sunset in the west, wind in her hair, vast mountain valley below, emotional moody atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-06.png",
+      "prompt": "Rings of smoke rising through tall ancient pine trees in a misty forest at dawn, mysterious hooded silhouettes standing silently among the trees watching, atmospheric fog, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/stairway-to-heaven-parte-1/scene-07.png",
+      "prompt": "A shadowy mysterious piper playing a wooden flute on a mossy hill at dawn, golden morning light breaking through forest trees, ethereal magical vibe, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/stairway-to-heaven-parte-1/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/stairway-to-heaven-parte-1/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/stairway-to-heaven-parte-1/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/stairway-to-heaven-parte-1/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/stairway-to-heaven-parte-1/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/stairway-to-heaven-parte-1/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/stairway-to-heaven-parte-1/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Una mujer convencida de que todo lo que brilla es oro busca comprar un camino hacia el cielo."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Sabe que cuando llegue a las tiendas, con una sola palabra obtendrá lo que vino a buscar."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Un letrero en la pared la hace dudar: a veces las palabras guardan dos sentidos ocultos."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En un árbol junto al arroyo, un pájaro canta que nuestros pensamientos suelen estar equivocados."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Siente una melancolía al mirar hacia el oeste, y su espíritu llora por lo que no puede ver."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Entre los árboles se alzan anillos de humo y las sombras de quienes observan en silencio."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Se susurra que pronto, si todos cantamos la melodía, el flautista nos conducirá a la razón."
+    }
+  ]
+}

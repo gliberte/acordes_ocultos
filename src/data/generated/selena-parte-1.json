@@ -1,0 +1,112 @@
+{
+  "title": "La Leyenda de la Reina del Tex-Mex (Parte 1)",
+  "artist": "Selena Quintanilla",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "La primera parte de la vida de Selena Quintanilla abarca desde sus humildes inicios familiares en Texas hasta su consagracion como la voz mas importante de la musica tejana. Tras la quiebra del restaurante familiar en 1981, su padre fundo Selena y Los Dinos con Selena a los 9 años. Su debut en El Show de Johnny Canales en 1985 catapulto su grupo. En 1987 rompio barreras machistas ganando su primer Tejano Music Award a los 16 años. Tras firmar con EMI Latin y Coca-Cola en 1989, la llegada del guitarrista Chris Perez cambio su vida, culminando en un romance apasionado, el #1 de 'Buenos Amigos' y su boda secreta en 1992.",
+  "hook": "Antes de conquistar el mundo, Selena Quintanilla tuvo que romper todas las reglas de la musica tejana.",
+  "beats": [
+    "1981: Tras la quiebra del restaurante familiar, su padre formo 'Selena y Los Dinos' con ella a los 9 años.",
+    "1985: Su debut televisivo en 'El Show de Johnny Canales' abrio las puertas de la musica tejana masiva.",
+    "1987: A los 16 años gano su primer Tejano Music Award a Vocalista Femenina, rompiendo barreras machistas.",
+    "1989: Firmo con EMI Latin, lanzo su disco solista debut y cerro un historico contrato con Coca-Cola.",
+    "1989-1991: La llegada del guitarrista Chris Perez inicio su romance y lograron el #1 con 'Buenos Amigos'."
+  ],
+  "outro": "1992: El 2 de abril, Selena y Chris Perez se fugaron para casarse en secreto, uniendo a la familia.",
+  "palette": {
+    "ink": "#18061a",
+    "paper": "#fcf5ee",
+    "accent": "#e6005c",
+    "glow": "#ffcc00"
+  },
+  "music": {
+    "title": "Como la Flor",
+    "artist": "Selena",
+    "src": "music/selena-como-la-flor.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Como la Flor Selena",
+      "expectedTitle": "Como la Flor",
+      "expectedArtist": "Selena",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/selena-parte-1/scene-01.png",
+      "prompt": "1981 photograph of 9-year-old Mexican-American girl Selena Quintanilla singing passionately into a microphone at PapaGayo's family restaurant in Texas alongside her brother on bass and sister on drums, warm vintage 80s lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-02.png",
+      "prompt": "1985 TV studio photograph of 13-year-old Selena Quintanilla in modest 80s stage outfit performing live on El Show de Johnny Canales stage, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-03.png",
+      "prompt": "1987 Tejano Music Awards ceremony photograph of 16-year-old Selena Quintanilla with long black hair holding her Female Vocalist of the Year trophy proudly on stage, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-04.png",
+      "prompt": "1989 photograph of radiant 18-year-old Selena Quintanilla sitting at EMI Latin records executive desk signing her debut solo album contract with Coca-Cola promo poster in background, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-05.png",
+      "prompt": "1989 tour bus interior photograph of 18-year-old Selena Quintanilla sharing a tender romantic glance with rock guitarist Chris Perez holding his electric guitar, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-06.png",
+      "prompt": "1991 recording studio scene of 20-year-old Selena Quintanilla and Salvadoran singer Alvaro Torres singing together at studio microphone for Buenos Amigos, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-1/scene-07.png",
+      "prompt": "April 2 1992 intimate court wedding photograph of 20-year-old Selena Quintanilla and Chris Perez embracing happily after secret elopement in Nueces County Texas, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 8,  "src": "videos/selena-parte-1/scene-01.png", "type": "image" },
+    { "start": 8,  "end": 17, "src": "videos/selena-parte-1/scene-02.png", "type": "image" },
+    { "start": 17, "end": 25, "src": "videos/selena-parte-1/scene-03.png", "type": "image" },
+    { "start": 25, "end": 34, "src": "videos/selena-parte-1/scene-04.png", "type": "image" },
+    { "start": 34, "end": 42, "src": "videos/selena-parte-1/scene-05.png", "type": "image" },
+    { "start": 42, "end": 51, "src": "videos/selena-parte-1/scene-06.png", "type": "image" },
+    { "start": 51, "end": 60, "src": "videos/selena-parte-1/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Antes de conquistar el mundo, Selena Quintanilla tuvo que romper todas las reglas de la música tejana."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "1981: Tras la quiebra del restaurante familiar, su padre formó 'Selena y Los Dinos' con ella a los 9 años."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "1985: Su debut televisivo en 'El Show de Johnny Canales' abrió las puertas de la música tejana masiva."
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "text": "1987: A los 16 años ganó su primer Tejano Music Award a Vocalista Femenina, rompiendo barreras machistas."
+    },
+    {
+      "start": 34,
+      "end": 42,
+      "text": "1989: Firmó con EMI Latin, lanzó su disco solista debut y cerró un histórico contrato con Coca-Cola."
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "text": "1989-1991: La llegada del guitarrista Chris Pérez inició su romance y lograron el #1 con 'Buenos Amigos'."
+    },
+    {
+      "start": 51,
+      "end": 60,
+      "text": "1992: El 2 de abril, Selena y Chris Pérez se fugaron para casarse en secreto, uniendo a la familia."
+    }
+  ]
+}

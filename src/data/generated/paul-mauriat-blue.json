@@ -1,0 +1,147 @@
+{
+  "title": "Love is Blue",
+  "artist": "Paul Mauriat",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El único tema instrumental de un artist francés que conquistó el número 1 en EE. UU. fue odiado por su propio creador. Nació en Eurovisión 1967 cantada por Vicky Leandros representando a Luxemburgo, pero quedó en cuarto lugar sin pena ni gloria. Un año después, el director de orquesta Paul Mauriat decidió grabar una versión instrumental, aunque admitió que la canción no le gustaba. La grabó solo para cumplir con su sello Philips Records y completar las pistas de su álbum 'Blooming Hits'. Contra todo pronóstico, su versión instrumental 'Love is Blue' desató un éxito colosal en Estados Unidos. Sigue siendo hasta hoy el único número uno de un artista francés en la historia de la lista americana Billboard. Mauriat pasó el resto de su vida respondiendo preguntas sobre la obra que despreciaba y que terminó dándole la gloria eterna.",
+  "hook": "El único tema instrumental de un artista francés que conquistó el número 1 en EE. UU. fue odiado por su propio creador.",
+  "beats": [
+    "Nació en Eurovisión 1967 cantada por Vicky Leandros representando a Luxemburgo, pero quedó en cuarto lugar sin pena ni gloria.",
+    "Un año después, el director de orquesta Paul Mauriat decidió grabar una versión instrumental, aunque admitió que la canción no le gustaba.",
+    "La grabó solo para cumplir con su sello Philips Records y completar las pistas de su álbum 'Blooming Hits'.",
+    "Contra todo pronóstico, su versión instrumental 'Love is Blue' desató un éxito colosal en Estados Unidos.",
+    "Sigue siendo hasta hoy el único número uno de un artista francés en la historia de la lista americana Billboard."
+  ],
+  "outro": "Mauriat pasó el resto de su vida respondiendo preguntas sobre la obra que despreciaba y que terminó dándole la gloria eterna.",
+  "palette": {
+    "ink": "#101828",
+    "paper": "#f5f8fc",
+    "accent": "#2f6ebf",
+    "glow": "#5ba4df"
+  },
+  "music": {
+    "title": "Love is Blue",
+    "artist": "Paul Mauriat",
+    "src": "music/paul-mauriat-blue.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Love is Blue Paul Mauriat",
+      "expectedTitle": "Love is Blue",
+      "expectedArtist": "Paul Mauriat",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/paul-mauriat-blue/scene-01.png",
+      "prompt": "Paul Mauriat in 1968 standing in front of a classical symphonic orchestra holding a conductor baton, looking elegant with retro look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-02.png",
+      "prompt": "A young Greek singer Vicky Leandros performing on a brightly-lit Retro Eurovision stage in 1967, holding a vintage microphone, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-03.png",
+      "prompt": "Paul Mauriat looking skeptical, examining sheet music titled 'L'amour est bleu' on a wooden music stand in a studio room, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-04.png",
+      "prompt": "A vintage vinyl sleeve mockup of Blooming Hits with colorful psychedelic letters and flower patterns from 1968, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-05.png",
+      "prompt": "The Billboard Hot 100 chart printed on a vintage newspaper from February 1968, showing 'Love is Blue' by Paul Mauriat at Number 1 with a gold star, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-06.png",
+      "prompt": "A classic American jukebox from the late 1960s glowing with neon lights in a retro diner, showing 'Love is Blue' on the selection card, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/paul-mauriat-blue/scene-07.png",
+      "prompt": "A vintage vinyl copy of Love is Blue single with blue Philips Records label spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/paul-mauriat-blue/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/paul-mauriat-blue/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/paul-mauriat-blue/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/paul-mauriat-blue/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/paul-mauriat-blue/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/paul-mauriat-blue/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/paul-mauriat-blue/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El único tema instrumental de un artista francés que conquistó el número 1 en EE. UU. fue odiado por su propio creador."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Nació en Eurovisión 1967 cantada por Vicky Leandros representando a Luxemburgo, pero quedó en cuarto lugar sin pena ni gloria."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Un año después, el director de orquesta Paul Mauriat decidió grabar una versión instrumental, aunque admitió que la canción no le gustaba."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La grabó solo para cumplir con su sello Philips Records y completar las pistas de su álbum 'Blooming Hits'."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Contra todo pronóstico, su versión instrumental 'Love is Blue' desató un éxito colosal en Estados Unidos."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Sigue siendo hasta hoy el único número uno de un artista francés en la historia de la lista americana Billboard."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Mauriat pasó el resto de su vida respondiendo preguntas sobre la obra que despreciaba y que terminó dándole la gloria eterna."
+    }
+  ]
+}

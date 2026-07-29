@@ -1,0 +1,147 @@
+{
+  "title": "Convoy",
+  "artist": "C.W. McCall",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El himno de rebeldía más masivo de los 70 no nació en una comuna hippie... sino en una publicidad de pan de molde. William Fries creó al camionero ficticio C.W. McCall para vender pan en la televisión de Nebraska. Los comerciales se volvieron tan virales que Fries y su compositor Davis decidieron componer canciones reales. En 1975, el límite nacional de velocidad a 55 mph hizo que las radios CB explotaran entre los camioneros. Inspirado por esa jerga prohibida, Fries escribió 'Convoy', la gesta de una caravana rompiendo peajes. El tema vendió millones de copias, multiplicó las radios CB y escaló al número uno de Billboard. Su éxito fue tan brutal que Sam Peckinpah la llevó a la pantalla grande. Y tú, ¿qué ruta prohibida has tomado hoy?",
+  "hook": "El himno de rebeldía más masivo de los 70 no nació en una comuna hippie... sino en una publicidad de pan de molde.",
+  "beats": [
+    "William Fries creó al camionero ficticio C.W. McCall para vender pan en la televisión de Nebraska.",
+    "Los comerciales se volvieron tan virales que Fries y su compositor Davis decidieron componer canciones reales.",
+    "En 1975, el límite nacional de velocidad a 55 mph hizo que las radios CB explotaran entre los camioneros.",
+    "Inspirado por esa jerga prohibida, Fries escribió 'Convoy', la gesta de una caravana rompiendo peajes.",
+    "El tema vendió millones de copias, multiplicó las radios CB y escaló al número uno de Billboard."
+  ],
+  "outro": "Su éxito fue tan brutal que Sam Peckinpah la llevó a la pantalla grande. Y tú, ¿qué ruta prohibida has tomado hoy?",
+  "palette": {
+    "ink": "#2c1b18",
+    "paper": "#fefae0",
+    "accent": "#dda15e",
+    "glow": "#bc6c25"
+  },
+  "music": {
+    "title": "Convoy",
+    "artist": "C.W. McCall",
+    "src": "music/convoy.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Convoy C.W. McCall",
+      "expectedTitle": "Convoy",
+      "expectedArtist": "C.W. McCall",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/convoy/scene-01.png",
+      "prompt": "A realistic 1973 photograph of a classic American semi-truck driving on a dusty highway under a golden sunset, carrying cargo, vintage aesthetic, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-02.png",
+      "prompt": "A realistic 1970s photograph of a creative advertising executive in an office filled with storyboards of a cartoon truck driver, retro typewriter on the desk, warm office lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-03.png",
+      "prompt": "A close-up photograph of a hand holding a vintage CB radio microphone inside a truck cabin, glowing dashboard lights, night time, shallow depth of field, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-04.png",
+      "prompt": "A realistic 1975 photograph of rugged truck drivers sitting at a diner table under dim warm lights, talking on CB radios, coffee cups, raw vintage atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-05.png",
+      "prompt": "A dramatic, epic photograph of a massive convoy of semi-trucks crashing through highway toll booths, kick-up dust, sunset backlight, sense of rebellion, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-06.png",
+      "prompt": "A close-up photograph of a vintage 1976 vinyl record sleeve of Convoy by C.W. McCall resting on a worn leather truck seat, warm sunbeams, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/convoy/scene-07.png",
+      "prompt": "A realistic 1978 photograph of a retro drive-in cinema marquee glowing at night, displaying the movie title 'CONVOY', headlights of classic cars, cinematic mist, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/convoy/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/convoy/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/convoy/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/convoy/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/convoy/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/convoy/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/convoy/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno de rebeldía más masivo de los 70 no nació en una comuna hippie... sino en una publicidad de pan de molde."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "William Fries creó al camionero ficticio C.W. McCall para vender pan en la televisión de Nebraska."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Los comerciales se volvieron tan virales que Fries y su compositor Davis decidieron componer canciones reales."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "En 1975, el límite nacional de velocidad a 55 mph hizo que las radios CB explotaran entre los camioneros."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Inspirado por esa jerga prohibida, Fries escribió 'Convoy', la gesta de una caravana rompiendo peajes."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El tema vendió millones de copias, multiplicó las radios CB y escaló al número uno de Billboard."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Su éxito fue tan brutal que Sam Peckinpah la llevó a la pantalla grande. Y tú, ¿qué ruta prohibida has tomado hoy?"
+    }
+  ]
+}

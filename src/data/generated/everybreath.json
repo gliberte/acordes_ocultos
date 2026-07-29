@@ -1,0 +1,147 @@
+{
+  "title": "La canción de amor más 'terrorífica'",
+  "artist": "The Police",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que el himno romántico favorito de millones de parejas en sus bodas sea en realidad la obsesión de un acosador de manual? En 1982, Sting compuso el tema en Jamaica bajo una atmósfera de paranoia extrema, ahogado por un divorcio tóxico y la traición. Su letra no habla de amor, sino de vigilancia: 'cada vez que respires, cada movimiento que hagas, te estaré vigilando'. Años más tarde, en 1997, el rapero Puff Daddy utilizó la melodía como base para un homenaje sin pedir los permisos debidos. Por este error, Sting demandó al rapero y obtuvo el cien por ciento de las regalías, cobrando una renta vitalicia de dos mil dólares diarios. Lo irónico es que el famoso riff de guitarra lo creó Andy Summers, quien no recibió un centavo y lo calificó como el mayor robo del pop. Un negocio redondo nacido de los celos más oscuros. ¿Habías prestado atención a la verdadera letra?",
+  "hook": "¿Cómo es posible que el himno romántico favorito de millones de parejas en sus bodas sea en realidad la obsesión de un acosador de manual?",
+  "beats": [
+    "En 1982, Sting compuso el tema en Jamaica bajo una atmósfera de paranoia extrema, ahogado por un divorcio tóxico y la traición.",
+    "Su letra no habla de amor, sino de vigilancia: 'cada vez que respires, cada movimiento que hagas, te estaré vigilando'.",
+    "Años más tarde, en 1997, el rapero Puff Daddy utilizó la melodía como base para un homenaje sin pedir los permisos debidos.",
+    "Por este error, Sting demandó al rapero y obtuvo el cien por ciento de las regalías, cobrando una renta vitalicia de dos mil dólares diarios.",
+    "Lo irónico es que el famoso riff de guitarra lo creó Andy Summers, quien no recibió un centavo y lo calificó como el mayor robo del pop."
+  ],
+  "outro": "Un negocio redondo nacido de los celos más oscuros. ¿Habías prestado atención a la verdadera letra?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f5f3ef",
+    "accent": "#2b5680",
+    "glow": "#b3901b"
+  },
+  "music": {
+    "title": "Every Breath You Take",
+    "artist": "The Police",
+    "src": "music/everybreath.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Every Breath You Take The Police",
+      "expectedTitle": "Every Breath You Take",
+      "expectedArtist": "The Police",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/everybreath/scene-01.png",
+      "prompt": "A happy wedding couple slow dancing under warm hanging lights, surrounded by guests, with the words 'Every Breath You Take' appearing on a retro vinyl spinning in the foreground, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-02.png",
+      "prompt": "A young Sting with blonde spiky hair, sitting at a wooden desk in a tropical villa in Jamaica, looking paranoid and writing lyrics in a notebook at night, dramatic shadows, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-03.png",
+      "prompt": "The dark silhouette of a person watching through a window from outside in the dark night, silhouette cast by street lights, representing surveillance and paranoia, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-04.png",
+      "prompt": "The Police performing on stage in 1983, Sting singing intensely with a double bass, guitarist Andy Summers playing his guitar, tense expressions between them under blue spotlights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-05.png",
+      "prompt": "A 90s hip-hop producer and rapper in a recording studio in 1997, adjusting mixing faders while looking at a turntable, gold chains, retro studio equipment, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-06.png",
+      "prompt": "Andy Summers with a melancholic expression holding his electric guitar in a quiet backstage room, looking down, soft dramatic stage lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/everybreath/scene-07.png",
+      "prompt": "A mature Sting in a stylish suit smiling slightly while sitting in a luxury mansion office, holding a glass of wine, with gold record plaques on the wall behind him, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/everybreath/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/everybreath/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/everybreath/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/everybreath/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/everybreath/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/everybreath/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/everybreath/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que el himno romántico favorito de millones de parejas en sus bodas sea en realidad la obsesión de un acosador de manual?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1982, Sting compuso el tema en Jamaica bajo una atmósfera de paranoia extrema, ahogado por un divorcio tóxico y la traición."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Su letra no habla de amor, sino de vigilancia: 'cada vez que respires, cada movimiento que hagas, te estaré vigilando'."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Años más tarde, en 1997, el rapero Puff Daddy utilizó la melodía como base para un homenaje sin pedir los permisos debidos."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Por este error, Sting demandó al rapero y obtuvo el cien por ciento de las regalías, cobrando una renta vitalicia de dos mil dólares diarios."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Lo irónico es que el famoso riff de guitarra lo creó Andy Summers, quien no recibió un centavo y lo calificó como el mayor robo del pop."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un negocio redondo nacido de los celos más oscuros. ¿Habías prestado atención a la verdadera letra?"
+    }
+  ]
+}

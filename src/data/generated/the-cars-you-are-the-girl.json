@@ -1,0 +1,135 @@
+{
+  "title": "El Último Pacto que Salvó un Hit Inmortal",
+  "artist": "The Cars",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1987, tras el éxito colosal de 'Heartbeat City' y su triunfo en Live Aid, The Cars estaba al borde de la disolución total. Los proyectos solistas y los celos profesionales habían distanciado a sus dos líderes, Ric Ocasek y Benjamin Orr, quienes prácticamente ya no se hablaban. Sin embargo, bajo la presión de la discográfica Elektra para grabar el álbum 'Door to Door', ambos decidieron pactar una tregua creativa y sentarse a componer juntos una canción por primera vez en una década. Ric Ocasek, profundamente enamorado de la supermodelo Paulina Porizkova, escribió la lírica pensando en ella, mientras que Benjamin Orr aportó su inconfundible sensibilidad melódica. Diseñaron la canción como un dueto donde la voz seca y rítmica de Ocasek contrasta con el terciopelo vocal de Orr. 'You Are the Girl' se convirtió en el último Top 20 de la banda en el Billboard antes de su separación definitiva en 1988, sellando el último abrazo artístico de dos leyendas irrepetibles.",
+  "hook": "Detrás de este clásico ochentero se esconde el último pacto de unión entre dos leyendas del rock que ya no se hablaban.",
+  "beats": [
+    "Tras triunfar en Live Aid ante el mundo entero, los celos y los proyectos solistas fracturaron a The Cars desde adentro.",
+    "Sus dos líderes, el misterioso Ric Ocasek y el carismático Benjamin Orr, se distanciaron hasta perder la palabra.",
+    "Presionados por los contratos discográficos, ambos acordaron una tregua en el estudio para intentar salvar a la banda.",
+    "Ric Ocasek, locamente enamorado de la supermodelo Paulina Porizkova, compuso los versos como una carta de devoción pura.",
+    "Junto a Benjamin Orr, unieron sus talentos para co-escribir una melodía por primera vez en casi diez años.",
+    "Diseñaron un dueto vocal perfecto: la voz rítmica de Ric en las estrofas y el terciopelo melódico de Benjamin en el estribillo.",
+    "El tema escaló al Top 20 del Billboard, deslumbrando con un videoclip vanguardista que conquistó la era dorada de MTV.",
+    "Apenas meses después la banda se separó para siempre, convirtiendo esta canción en su última obra maestra conjunta."
+  ],
+  "outro": "Una despedida luminosa donde el orgullo cedió ante la amistad, regalándonos el último destello eterno de dos almas inseparables.",
+  "palette": {
+    "ink": "#090a14",
+    "paper": "#f5f3eb",
+    "accent": "#06b6d4",
+    "glow": "#f43f5e"
+  },
+  "music": {
+    "title": "You Are the Girl",
+    "artist": "The Cars",
+    "src": "music/the-cars-you-are-the-girl.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "You Are the Girl The Cars",
+      "expectedTitle": "You Are the Girl",
+      "expectedArtist": "The Cars",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-01.png",
+      "prompt": "Authentic 1987 photograph of The Cars leaders Ric Ocasek with his iconic dark sunglasses, spiky black hair and black suit, standing side by side with bassist Benjamin Orr with blonde feathered hair in a vintage studio lounge, moody 1980s lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-02.png",
+      "prompt": "Epic 1985 Live Aid stadium concert photograph of The Cars performing live in front of ninety thousand cheering fans in Philadelphia, bright daylight sun, huge speaker towers, iconic 1980s rock history atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-03.png",
+      "prompt": "Moody atmospheric 1986 photograph of a dimly lit modern recording studio hallway, Ric Ocasek walking in one direction with his guitar case and Benjamin Orr leaning against the wall looking away in cold distance, cinematic tension, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-04.png",
+      "prompt": "Cinematic 1987 photograph of tall thin Ric Ocasek sitting at a sunlit cafe table with vintage sunglasses on, writing handwritten lyrics on a notepad, holding a small polaroid photo of supermodel Paulina Porizkova, warm vintage colors, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-05.png",
+      "prompt": "Intimate 1987 studio photograph of Ric Ocasek playing an acoustic guitar and Benjamin Orr holding a bass guitar, seated across from each other working on chord charts in front of an analog 4-track recorder, warm studio lamps, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-06.png",
+      "prompt": "Authentic 1987 Los Angeles recording studio session of Ric Ocasek and Benjamin Orr standing at two separate vintage studio microphones singing simultaneously in vocal harmony, soundboard in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-07.png",
+      "prompt": "Close-up 1987 synthesizer keyboardist Greg Hawkes playing a vintage Prophet-5 synth and Elliot Easton adjusting a red Gibson electric guitar in the studio, glowing LED meters on mixing console, synth-pop atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-08.png",
+      "prompt": "Vibrant 1987 MTV music video set photograph with futuristic surreal alien mutant-lounge aesthetic, neon pink and turquoise lighting, band members performing with stylish retro-futuristic instruments, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/the-cars-you-are-the-girl/scene-09.png",
+      "prompt": "Macro cinematic close-up photograph of an original 1987 vinyl 7-inch 45 RPM single record on red Elektra Records label spinning on a classic vintage turntable under warm amber lamp light, label clearly reads: 'THE CARS - YOU ARE THE GIRL', phonograph needle in groove, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/the-cars-you-are-the-girl/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/the-cars-you-are-the-girl/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/the-cars-you-are-the-girl/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/the-cars-you-are-the-girl/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/the-cars-you-are-the-girl/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/the-cars-you-are-the-girl/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/the-cars-you-are-the-girl/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/the-cars-you-are-the-girl/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/the-cars-you-are-the-girl/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Detrás de este clásico ochentero se esconde el último pacto de unión entre dos leyendas del rock que ya no se hablaban."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Tras triunfar en Live Aid ante el mundo entero, los celos y los proyectos solistas fracturaron a The Cars desde adentro."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Sus dos líderes, el misterioso Ric Ocasek y el carismático Benjamin Orr, se distanciaron hasta perder la palabra."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Presionados por los contratos discográficos, ambos acordaron una tregua en el estudio para intentar salvar a la banda."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Ric Ocasek, locamente enamorado de la supermodelo Paulina Porizkova, compuso los versos como una carta de devoción pura."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Junto a Benjamin Orr, unieron sus talentos para co-escribir una melodía por primera vez en casi diez años."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Diseñaron un dueto vocal perfecto: la voz rítmica de Ric en las estrofas y el terciopelo melódico de Benjamin en el estribillo."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El tema escaló al Top 20 del Billboard, deslumbrando con un videoclip vanguardista que conquistó la era dorada de MTV."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Apenas meses después la banda se separó para siempre, sellando el último destello eterno de dos almas inseparables."
+    }
+  ]
+}

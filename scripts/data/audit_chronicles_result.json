@@ -1,0 +1,1131 @@
+{
+  "timestamp": "2026-09-25T20:13:35.521Z",
+  "totalPublicStories": 124,
+  "summary": {
+    "withFullChronicle": 51,
+    "withMediumText": 1,
+    "withShortCopyOnly": 72
+  },
+  "withFullChronicle": [
+    {
+      "title": "El Llanto que Paralizó a un País",
+      "artist": "Isabel Pantoja",
+      "songTitle": "Marinero de Luces",
+      "slug": "elllantoqueparalizoaunpais",
+      "views": 1148772,
+      "words": 1967,
+      "origin": "Local Markdown: isabel-pantoja-marinero-de-luces-acordes-ocultos"
+    },
+    {
+      "title": "La Canción en Español que Desafió al Mundo en 1973",
+      "artist": "Mocedades",
+      "songTitle": "Eres tú",
+      "slug": "lacancionenespanolquedesafioalmundoen1973",
+      "views": 156554,
+      "words": 2094,
+      "origin": "Local Markdown: mocedades-eres-tu"
+    },
+    {
+      "title": "El Poema de Fuego y Agua que Detuvo el Tiempo",
+      "artist": "Mocedades",
+      "songTitle": "Eres tú",
+      "slug": "elpoemadefuegoyaguaquedetuvoeltiempo",
+      "views": 156554,
+      "words": 2094,
+      "origin": "Local Markdown: mocedades-eres-tu"
+    },
+    {
+      "title": "La Vergüenza que Creó un Himno",
+      "artist": "José María Napoleón",
+      "songTitle": "Vive",
+      "slug": "laverguenzaquecreounhimno",
+      "views": 109552,
+      "words": 2237,
+      "origin": "Local Markdown: jose-maria-napoleon-vive"
+    },
+    {
+      "title": "La improvisación de 30 libras que cambió la historia del rock",
+      "artist": "Pink Floyd",
+      "songTitle": "The Great Gig in the Sky",
+      "slug": "laimprovisacionde30librasquecambiolahistoriadelrock",
+      "views": 87446,
+      "words": 3054,
+      "origin": "Local Markdown: pink-floyd-the-great-gig-in-the-sky"
+    },
+    {
+      "title": "La Canción de Cuna más Triste del Mundo",
+      "artist": "Minnie Riperton",
+      "songTitle": "Lovin' You",
+      "slug": "lacanciondecunamastristedelmundo",
+      "views": 77348,
+      "words": 2316,
+      "origin": "Local Markdown: minnie-riperton-lovin-you-acordes-ocultos"
+    },
+    {
+      "title": "El Cometa Indomable",
+      "artist": "Janis Joplin",
+      "songTitle": "Piece of My Heart",
+      "slug": "elcometaindomable",
+      "views": 72403,
+      "words": 3368,
+      "origin": "Local Markdown: janis-joplin-piece-of-my-heart-destellos-de-gloria"
+    },
+    {
+      "title": "La Canción Nacida del Viento en Contra (TikTok Cut)",
+      "artist": "Bob Seger",
+      "songTitle": "Against the Wind",
+      "slug": "lacancionnacidadelvientoencontratiktokcut",
+      "views": 37522,
+      "words": 2351,
+      "origin": "Local Markdown: bob-seger-against-the-wind"
+    },
+    {
+      "title": "La Canción Nacida del Viento en Contra",
+      "artist": "Bob Seger",
+      "songTitle": "Against the Wind",
+      "slug": "lacancionnacidadelvientoencontra",
+      "views": 37522,
+      "words": 2351,
+      "origin": "Local Markdown: bob-seger-against-the-wind"
+    },
+    {
+      "title": "El Himno Solar Nacido en un Cuarto Helado",
+      "artist": "The Mamas and the Papas",
+      "songTitle": "California Dreamin'",
+      "slug": "elhimnosolarnacidoenuncuartohelado",
+      "views": 19011,
+      "words": 1626,
+      "origin": "Local Markdown: the-mamas-and-the-papas-california-dreamin-acordes-ocultos"
+    },
+    {
+      "title": "El Fusil Oculto en la Nieve",
+      "artist": "Cat Stevens",
+      "songTitle": "Father and Son",
+      "slug": "elfusilocultoenlanieve",
+      "views": 17248,
+      "words": 2175,
+      "origin": "Local Markdown: cat-stevens-father-and-son"
+    },
+    {
+      "title": "La Canción que Bono Salvó del Divorcio",
+      "artist": "U2",
+      "songTitle": "With or Without You",
+      "slug": "lacancionquebonosalvodeldivorcio",
+      "views": 13158,
+      "words": 2159,
+      "origin": "Supabase web_article (Largo)"
+    },
+    {
+      "title": "El Último Pacto que Salvó un Hit Inmortal",
+      "artist": "The Cars",
+      "songTitle": "You Are the Girl",
+      "slug": "elultimopactoquesalvounhitinmortal",
+      "views": 11136,
+      "words": 2309,
+      "origin": "Local Markdown: the-cars-you-are-the-girl"
+    },
+    {
+      "title": "El Ensayo Secreto de «We Are the World»",
+      "artist": "Donna Summer",
+      "songTitle": "State of Independence",
+      "slug": "elensayosecretodewearetheworld",
+      "views": 10948,
+      "words": 2292,
+      "origin": "Local Markdown: donna-summer-state-of-independence"
+    },
+    {
+      "title": "La Canción Sagrada que las Radios Intentaron Censurar",
+      "artist": "The Beach Boys",
+      "songTitle": "God Only Knows",
+      "slug": "lacancionsagradaquelasradiosintentaroncensurar",
+      "views": 10939,
+      "words": 1621,
+      "origin": "Local Markdown: the-beach-boys-god-only-knows-acordes-ocultos"
+    },
+    {
+      "title": "La Voz más Dulce, la Lucha más Amarga",
+      "artist": "The Carpenters",
+      "songTitle": "(They Long to Be) Close to You",
+      "slug": "lavozmasdulcelaluchamasamarga",
+      "views": 9691,
+      "words": 2852,
+      "origin": "Supabase web_article (Largo)"
+    },
+    {
+      "title": "El Éxito que Destruyó a la Banda",
+      "artist": "Berlin",
+      "songTitle": "Take My Breath Away",
+      "slug": "elexitoquedestruyoalabanda",
+      "views": 8979,
+      "words": 2481,
+      "origin": "Local Markdown: berlin-take-my-breath-away-acordes-ocultos"
+    },
+    {
+      "title": "La Reina que Venció al Infierno",
+      "artist": "Tina Turner",
+      "songTitle": "The Best",
+      "slug": "lareinaquevencioalinfierno",
+      "views": 8870,
+      "words": 2328,
+      "origin": "Local Markdown: tina-turner-the-best"
+    },
+    {
+      "title": "El Salmo que Venció a la Guerra",
+      "artist": "The Byrds",
+      "songTitle": "Turn! Turn! Turn!",
+      "slug": "elsalmoquevencioalaguerra",
+      "views": 7875,
+      "words": 2384,
+      "origin": "Local Markdown: the-byrds-turn-turn-turn"
+    },
+    {
+      "title": "La Cara B que Venció a The Beatles",
+      "artist": "Lulu",
+      "songTitle": "To Sir with Love",
+      "slug": "lacarabquevencioathebeatles",
+      "views": 7672,
+      "words": 2768,
+      "origin": "Local Markdown: lulu-to-sir-with-love"
+    },
+    {
+      "title": "La Canción que Confesó el Amor Prohibido",
+      "artist": "Eric Clapton",
+      "songTitle": "Layla",
+      "slug": "lacancionqueconfesoelamorprohibido",
+      "views": 7329,
+      "words": 2457,
+      "origin": "Local Markdown: eric-clapton-layla"
+    },
+    {
+      "title": "While My Guitar Gently Weeps (Version 2)",
+      "artist": "The Beatles",
+      "songTitle": "While My Guitar Gently Weeps",
+      "slug": "whilemyguitargentlyweepsversion2",
+      "views": 6318,
+      "words": 2423,
+      "origin": "Local Markdown: the-beatles-while-my-guitar-gently-weeps"
+    },
+    {
+      "title": "While My Guitar Gently Weeps",
+      "artist": "The Beatles",
+      "songTitle": "While My Guitar Gently Weeps",
+      "slug": "whilemyguitargentlyweeps",
+      "views": 6318,
+      "words": 2423,
+      "origin": "Local Markdown: the-beatles-while-my-guitar-gently-weeps"
+    },
+    {
+      "title": "El Grito que Transformó una Balada en Leyenda",
+      "artist": "Nazareth",
+      "songTitle": "Love Hurts",
+      "slug": "elgritoquetransformounabaladaenleyenda",
+      "views": 5636,
+      "words": 1442,
+      "origin": "Local Markdown: nazareth-love-hurts-acordes-ocultos"
+    },
+    {
+      "title": "El Secreto Detrás de la Puerta",
+      "artist": "Suzanne Vega",
+      "songTitle": "Luka",
+      "slug": "elsecretodetrasdelapuerta",
+      "views": 4834,
+      "words": 1819,
+      "origin": "Local Markdown: suzanne-vega-luka-acordes-ocultos"
+    },
+    {
+      "title": "La Canción Prohibida tras el Funeral del Siglo",
+      "artist": "Elton John",
+      "songTitle": "Candle in the Wind",
+      "slug": "lacancionprohibidatraselfuneraldelsiglo",
+      "views": 4725,
+      "words": 2665,
+      "origin": "Local Markdown: elton-john-candle-in-the-wind-diana-1997"
+    },
+    {
+      "title": "El Dolor Imposible de un Niño",
+      "artist": "The Jackson 5",
+      "songTitle": "Who's Lovin' You",
+      "slug": "eldolorimposibledeunnino",
+      "views": 3971,
+      "words": 2212,
+      "origin": "Local Markdown: the-jackson-5-whos-lovin-you"
+    },
+    {
+      "title": "La Ascensión",
+      "artist": "Bruce Springsteen",
+      "songTitle": "The Rising",
+      "slug": "laascension",
+      "views": 3607,
+      "words": 2443,
+      "origin": "Local Markdown: bruce-springsteen-the-rising"
+    },
+    {
+      "title": "La Despedida Oculta Detrás del Encaje",
+      "artist": "Fleetwood Mac",
+      "songTitle": "Gypsy",
+      "slug": "ladespedidaocultadetrasdelencaje",
+      "views": 3423,
+      "words": 1448,
+      "origin": "Local Markdown: fleetwood-mac-gypsy-acordes-ocultos"
+    },
+    {
+      "title": "El Vuelo del Coraje",
+      "artist": "Neil Young",
+      "songTitle": "Let's Roll",
+      "slug": "elvuelodelcoraje",
+      "views": 3189,
+      "words": 2392,
+      "origin": "Local Markdown: neil-young-lets-roll"
+    },
+    {
+      "title": "La falsa enemistad del rock sureño",
+      "artist": "Lynyrd Skynyrd",
+      "songTitle": "Sweet Home Alabama",
+      "slug": "lafalsaenemistaddelrocksureno",
+      "views": 3001,
+      "words": 2466,
+      "origin": "Local Markdown: lynyrd-skynyrd-sweet-home-alabama"
+    },
+    {
+      "title": "El Adiós a la Reina Eterna de la Música",
+      "artist": "Dolly Parton",
+      "songTitle": "I Will Always Love You",
+      "slug": "eladiosalareinaeternadelamusica",
+      "views": 2811,
+      "words": 1580,
+      "origin": "Local Markdown: dolly-parton-i-will-always-love-you-destellos-de-gloria"
+    },
+    {
+      "title": "La Paradoja de la Tostada",
+      "artist": "Des'ree",
+      "songTitle": "Life",
+      "slug": "laparadojadelatostada",
+      "views": 2791,
+      "words": 2136,
+      "origin": "Local Markdown: des-ree-life"
+    },
+    {
+      "title": "El Salto al Vacío",
+      "artist": "Amaral",
+      "songTitle": "Kamikaze",
+      "slug": "elsaltoalvacio",
+      "views": 2720,
+      "words": 2030,
+      "origin": "Local Markdown: amaral-kamikaze"
+    },
+    {
+      "title": "La Carta Abierta de un Padre en Duelo",
+      "artist": "Led Zeppelin",
+      "songTitle": "All of My Love",
+      "slug": "lacartaabiertadeunpadreenduelo",
+      "views": 2673,
+      "words": 2124,
+      "origin": "Local Markdown: led-zeppelin-all-of-my-love"
+    },
+    {
+      "title": "El Acorde que Venció al Olvido",
+      "artist": "Glen Campbell",
+      "songTitle": "Wichita Lineman",
+      "slug": "elacordequevencioalolvido",
+      "views": 2570,
+      "words": 2640,
+      "origin": "Local Markdown: glen-campbell-wichita-lineman"
+    },
+    {
+      "title": "El Rey Lagarto y el Fuego Eterno",
+      "artist": "The Doors",
+      "songTitle": "Touch Me",
+      "slug": "elreylagartoyelfuegoeterno",
+      "views": 2458,
+      "words": 3390,
+      "origin": "Local Markdown: the-doors-touch-me"
+    },
+    {
+      "title": "El Cartel Victoriano que Enloqueció a la BBC",
+      "artist": "The Beatles",
+      "songTitle": "Being for the Benefit of Mr. Kite!",
+      "slug": "elcartelvictorianoqueenloquecioalabbc",
+      "views": 2360,
+      "words": 2385,
+      "origin": "Local Markdown: the-beatles-being-for-the-benefit-of-mr-kite"
+    },
+    {
+      "title": "El Rescate Secreto que Salvó a una Leyenda",
+      "artist": "Elton John",
+      "songTitle": "Someone Saved My Life Tonight",
+      "slug": "elrescatesecretoquesalvoaunaleyenda",
+      "views": 2338,
+      "words": 2721,
+      "origin": "Local Markdown: elton-john-someone-saved-my-life-tonight"
+    },
+    {
+      "title": "La Leyenda de la Reina del Tex-Mex (Parte 2)",
+      "artist": "Selena Quintanilla",
+      "songTitle": "Amor Prohibido",
+      "slug": "laleyendadelareinadeltexmexparte2",
+      "views": 2261,
+      "words": 2847,
+      "origin": "Local Markdown: selena-quintanilla-amor-prohibido"
+    },
+    {
+      "title": "La Llamada Real que Rompió un Corazón en 3 Minutos (TikTok Cut)",
+      "artist": "Dr. Hook",
+      "songTitle": "Sylvia's Mother",
+      "slug": "lallamadarealquerompiouncorazonen3minutostiktokcut",
+      "views": 2250,
+      "words": 1489,
+      "origin": "Local Markdown: dr-hook-sylvias-mother-acordes-ocultos"
+    },
+    {
+      "title": "La Llamada Real que Rompió un Corazón en 3 Minutos",
+      "artist": "Dr. Hook",
+      "songTitle": "Sylvia's Mother",
+      "slug": "lallamadarealquerompiouncorazonen3minutos",
+      "views": 2250,
+      "words": 1489,
+      "origin": "Local Markdown: dr-hook-sylvias-mother-acordes-ocultos"
+    },
+    {
+      "title": "El Riff que Slash Odio Tocar",
+      "artist": "Guns N' Roses",
+      "songTitle": "Sweet Child O' Mine",
+      "slug": "elriffqueslashodiotocar",
+      "views": 2189,
+      "words": 2379,
+      "origin": "Local Markdown: guns-n-roses-sweet-child-o-mine"
+    },
+    {
+      "title": "La Voz Eterna que se Apagó en Silencio",
+      "artist": "Laura Branigan",
+      "songTitle": "The Power of Love",
+      "slug": "lavozeternaqueseapagoensilencio",
+      "views": 2061,
+      "words": 2759,
+      "origin": "Local Markdown: laura-branigan-the-power-of-love"
+    },
+    {
+      "title": "I Am the Walrus",
+      "artist": "The Beatles",
+      "songTitle": "I Am the Walrus",
+      "slug": "iamthewalrus",
+      "views": 2050,
+      "words": 2289,
+      "origin": "Local Markdown: the-beatles-i-am-the-walrus"
+    },
+    {
+      "title": "El Amor Prohibido que Hizo Temblar un Clavecín",
+      "artist": "The Left Banke",
+      "songTitle": "Walk Away Renée",
+      "slug": "elamorprohibidoquehizotemblarunclavecin",
+      "views": 1679,
+      "words": 1416,
+      "origin": "Local Markdown: the-left-banke-walk-away-renee-acordes-ocultos"
+    },
+    {
+      "title": "Tres Veces una Dama: Una Carta de Amor Eterno",
+      "artist": "The Commodores",
+      "songTitle": "Three Times a Lady",
+      "slug": "tresvecesunadamaunacartadeamoreterno",
+      "views": 1559,
+      "words": 3454,
+      "origin": "Local Markdown: the-commodores-three-times-a-lady"
+    },
+    {
+      "title": "El Músico que Cambió la Fama por Hornear Pan",
+      "artist": "John Lennon",
+      "songTitle": "Watching the Wheels",
+      "slug": "elmusicoquecambiolafamaporhornearpan",
+      "views": 1479,
+      "words": 2673,
+      "origin": "Local Markdown: john-lennon-watching-the-wheels"
+    },
+    {
+      "title": "El Himno de Duelo Disfrazado de Éxito Pop",
+      "artist": "The Pretenders",
+      "songTitle": "Back on the Chain Gang",
+      "slug": "elhimnodeduelodisfrazadodeexitopop",
+      "views": 1308,
+      "words": 1439,
+      "origin": "Local Markdown: the-pretenders-back-on-the-chain-gang-acordes-ocultos"
+    },
+    {
+      "title": "El Riff Grabado Mientras Dormia",
+      "artist": "The Rolling Stones",
+      "songTitle": "(I Can't Get No) Satisfaction",
+      "slug": "elriffgrabadomientrasdormia",
+      "views": 982,
+      "words": 2533,
+      "origin": "Supabase web_article (Largo)"
+    },
+    {
+      "title": "El Mito y la Sombra de Marilyn",
+      "artist": "Marilyn Monroe",
+      "songTitle": "Candle in the Wind",
+      "slug": "elmitoylasombrademarilyn",
+      "views": 538,
+      "words": 3196,
+      "origin": "Local Markdown: marilyn-monroe-candle-in-the-wind"
+    }
+  ],
+  "withMediumText": [
+    {
+      "title": "La Canción Sin Fin",
+      "artist": "Limahl",
+      "songTitle": "The NeverEnding Story",
+      "slug": "lacancionsinfin",
+      "views": 9378,
+      "words": 428,
+      "origin": "Supabase web_article (Largo)"
+    }
+  ],
+  "withShortCopyOnly": [
+    {
+      "title": "La improvisación de 30 libras",
+      "artist": "Pink Floyd",
+      "songTitle": "",
+      "slug": "laimprovisacionde30libras",
+      "views": 87446,
+      "words": 162,
+      "igUrl": "https://www.instagram.com/reel/DbdQugIxvLr/"
+    },
+    {
+      "title": "El Himno Prohibido que Hizo Temblar a un Régimen",
+      "artist": "Pink Floyd",
+      "songTitle": "Another Brick in the Wall (Part 2)",
+      "slug": "elhimnoprohibidoquehizotemblaraunregimen",
+      "views": 74851,
+      "words": 168,
+      "igUrl": "https://www.instagram.com/reel/Dc-IquTRLPq/"
+    },
+    {
+      "title": "Gimme Shelter",
+      "artist": "The Rolling Stones",
+      "songTitle": "Gimme Shelter",
+      "slug": "gimmeshelter",
+      "views": 40891,
+      "words": 198,
+      "igUrl": "https://www.instagram.com/reel/DaryxmHivpF/"
+    },
+    {
+      "title": "El rescate de The Sound of Silence",
+      "artist": "Simon & Garfunkel",
+      "songTitle": "The Sound of Silence",
+      "slug": "elrescatedethesoundofsilence",
+      "views": 14761,
+      "words": 102,
+      "igUrl": "https://www.instagram.com/reel/DaflnUSxscz/"
+    },
+    {
+      "title": "El sabotaje musical que terminó en éxito mundial",
+      "artist": "Blur",
+      "songTitle": "Song 2",
+      "slug": "elsabotajemusicalqueterminoenexitomundial",
+      "views": 8056,
+      "words": 223,
+      "igUrl": "https://www.instagram.com/reel/Dba9oNvxNvV/"
+    },
+    {
+      "title": "La confesión más oscura de los años 80",
+      "artist": "Phil Collins",
+      "songTitle": "In the Air Tonight",
+      "slug": "laconfesionmasoscuradelosanos80",
+      "views": 6826,
+      "words": 219,
+      "igUrl": "https://www.instagram.com/reel/DbioEl8RCTr/"
+    },
+    {
+      "title": "San Francisco",
+      "artist": "Scott McKenzie",
+      "songTitle": "San Francisco (Be Sure to Wear Flowers in Your Hair)",
+      "slug": "sanfrancisco",
+      "views": 5940,
+      "words": 185,
+      "igUrl": "https://www.instagram.com/reel/Db_9qLPx_Gz/"
+    },
+    {
+      "title": "Queen y el milagro del Live Aid",
+      "artist": "Queen",
+      "songTitle": "Radio Ga Ga",
+      "slug": "queenyelmilagrodelliveaid",
+      "views": 5134,
+      "words": 155,
+      "igUrl": "https://www.instagram.com/reel/DaawAuSRAik/"
+    },
+    {
+      "title": "El himno disco que nació en el cautiverio",
+      "artist": "Boney M",
+      "songTitle": "Rivers of Babylon",
+      "slug": "elhimnodiscoquenacioenelcautiverio",
+      "views": 4671,
+      "words": 181,
+      "igUrl": "https://www.instagram.com/reel/DdFoZKJRxyv/"
+    },
+    {
+      "title": "Creep",
+      "artist": "Radiohead",
+      "songTitle": "Creep",
+      "slug": "creep",
+      "views": 4262,
+      "words": 182,
+      "igUrl": "https://www.instagram.com/reel/Da7yYKjRr3F/"
+    },
+    {
+      "title": "La Camisa que Guardó el Último Abrazo",
+      "artist": "The Irrepressibles",
+      "songTitle": "In This Shirt",
+      "slug": "lacamisaqueguardoelultimoabrazo",
+      "views": 4128,
+      "words": 212,
+      "igUrl": "https://www.instagram.com/reel/DdEWbGsRoak/"
+    },
+    {
+      "title": "El pacto de sangre de Fleetwood Mac",
+      "artist": "Fleetwood Mac",
+      "songTitle": "The Chain",
+      "slug": "elpactodesangredefleetwoodmac",
+      "views": 3923,
+      "words": 220,
+      "igUrl": "https://www.instagram.com/reel/DblJZIUxCLV/"
+    },
+    {
+      "title": "Love is Blue",
+      "artist": "Paul Mauriat",
+      "songTitle": "Love is Blue",
+      "slug": "loveisblue",
+      "views": 3899,
+      "words": 192,
+      "igUrl": "https://www.instagram.com/reel/DaygUeUxaVc/"
+    },
+    {
+      "title": "Patrick, amor mío",
+      "artist": "Isabel Paton",
+      "songTitle": "Patrick, amor mío",
+      "slug": "patrickamormio",
+      "views": 3559,
+      "words": 219,
+      "igUrl": "https://www.instagram.com/reel/DbQ29jNRklv/"
+    },
+    {
+      "title": "El órgano accidental",
+      "artist": "Bob Dylan",
+      "songTitle": "Like a Rolling Stone",
+      "slug": "elorganoaccidental",
+      "views": 3462,
+      "words": 225,
+      "igUrl": "https://www.instagram.com/reel/DanOwp2xUMO/"
+    },
+    {
+      "title": "That's All Right",
+      "artist": "Elvis Presley",
+      "songTitle": "That's All Right",
+      "slug": "thatsallright",
+      "views": 3329,
+      "words": 201,
+      "igUrl": "https://www.instagram.com/reel/Da0JIR-xxhz/"
+    },
+    {
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "songTitle": "Zombie",
+      "slug": "zombie",
+      "views": 3246,
+      "words": 207,
+      "igUrl": "https://www.instagram.com/reel/DbTBeCHR2Cj/"
+    },
+    {
+      "title": "El solo de saxo de Baker Street",
+      "artist": "Gerry Rafferty",
+      "songTitle": "Baker Street",
+      "slug": "elsolodesaxodebakerstreet",
+      "views": 3110,
+      "words": 153,
+      "igUrl": "https://www.instagram.com/reel/Dac_sDRxpmP/"
+    },
+    {
+      "title": "Ritchie Valens y la moneda",
+      "artist": "Ritchie Valens",
+      "songTitle": "La Bamba",
+      "slug": "ritchievalensylamoneda",
+      "views": 2819,
+      "words": 165,
+      "igUrl": "https://www.instagram.com/reel/DaYC_d0RxMN/"
+    },
+    {
+      "title": "El fin del mundo de Skeeter Davis",
+      "artist": "Skeeter Davis",
+      "songTitle": "The End of the World",
+      "slug": "elfindelmundodeskeeterdavis",
+      "views": 2701,
+      "words": 144,
+      "igUrl": "https://www.instagram.com/reel/DadfqkVxvXb/"
+    },
+    {
+      "title": "Dancing Queen",
+      "artist": "ABBA",
+      "songTitle": "Dancing Queen",
+      "slug": "dancingqueen",
+      "views": 2670,
+      "words": 210,
+      "igUrl": "https://www.instagram.com/reel/DbDh3IWxrJk/"
+    },
+    {
+      "title": "Video Killed the Radio Star",
+      "artist": "The Buggles",
+      "songTitle": "Video Killed the Radio Star",
+      "slug": "videokilledtheradiostar",
+      "views": 2532,
+      "words": 145,
+      "igUrl": "https://www.instagram.com/reel/DcOugPRROIB/"
+    },
+    {
+      "title": "El acorde más famoso de la historia",
+      "artist": "The Beatles",
+      "songTitle": "A Day in the Life",
+      "slug": "elacordemasfamosodelahistoria",
+      "views": 2529,
+      "words": 216,
+      "igUrl": "https://www.instagram.com/reel/DaiFaw9xi0h/"
+    },
+    {
+      "title": "La última visita del diamante loco",
+      "artist": "Pink Floyd",
+      "songTitle": "Shine On You Crazy Diamond",
+      "slug": "laultimavisitadeldiamanteloco",
+      "views": 2500,
+      "words": 123,
+      "igUrl": "https://www.instagram.com/reel/Dagf3xURmTI/"
+    },
+    {
+      "title": "El viaje tridimensional",
+      "artist": "Led Zeppelin",
+      "songTitle": "Whole Lotta Love",
+      "slug": "elviajetridimensional",
+      "views": 2446,
+      "words": 196,
+      "igUrl": "https://www.instagram.com/reel/DaorEqqxDzn/"
+    },
+    {
+      "title": "La canción de amor más 'terrorífica'",
+      "artist": "The Police",
+      "songTitle": "Every Breath You Take",
+      "slug": "lacanciondeamormasterrorifica",
+      "views": 2418,
+      "words": 223,
+      "igUrl": "https://www.instagram.com/reel/DbYJHIYRa-a/"
+    },
+    {
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "songTitle": "Every Breath You Take",
+      "slug": "everybreathyoutake",
+      "views": 2418,
+      "words": 221,
+      "igUrl": "https://www.instagram.com/reel/DbYJHIYRa-a/"
+    },
+    {
+      "title": "Brown Eyed Girl",
+      "artist": "Van Morrison",
+      "songTitle": "Brown Eyed Girl",
+      "slug": "browneyedgirl",
+      "views": 2374,
+      "words": 204,
+      "igUrl": "https://www.instagram.com/reel/DavAk5iRzW7/"
+    },
+    {
+      "title": "La canción de amor más incómoda de los años 60",
+      "artist": "Gary Puckett & The Union Gap",
+      "songTitle": "Young Girl",
+      "slug": "lacanciondeamormasincomodadelosanos60",
+      "views": 2347,
+      "words": 255,
+      "igUrl": "https://www.instagram.com/reel/DbgQqHHRzSd/"
+    },
+    {
+      "title": "El despertador que aterrorizó a Pink Floyd",
+      "artist": "Pink Floyd",
+      "songTitle": "Time",
+      "slug": "eldespertadorqueaterrorizoapinkfloyd",
+      "views": 2330,
+      "words": 172,
+      "igUrl": "https://www.instagram.com/reel/Db5n08dxSwP/"
+    },
+    {
+      "title": "It's My Life",
+      "artist": "Bon Jovi",
+      "songTitle": "It's My Life",
+      "slug": "itsmylife",
+      "views": 2289,
+      "words": 224,
+      "igUrl": "https://www.instagram.com/reel/DbGKIrFx85P/"
+    },
+    {
+      "title": "In My Dreams",
+      "artist": "REO Speedwagon",
+      "songTitle": "In My Dreams",
+      "slug": "inmydreams",
+      "views": 2209,
+      "words": 205,
+      "igUrl": "https://www.instagram.com/reel/Da5P2N3xi3W/"
+    },
+    {
+      "title": "La acústica de Heroes",
+      "artist": "David Bowie",
+      "songTitle": "Heroes",
+      "slug": "laacusticadeheroes",
+      "views": 2180,
+      "words": 193,
+      "igUrl": "https://www.instagram.com/reel/Dakwt4fRSV-/"
+    },
+    {
+      "title": "Je t'aime... moi non plus",
+      "artist": "Serge Gainsbourg & Jane Birkin",
+      "songTitle": "Je t'aime... moi non plus",
+      "slug": "jetaimemoinonplus",
+      "views": 2178,
+      "words": 170,
+      "igUrl": "https://www.instagram.com/reel/DbLNJrzR3nf/"
+    },
+    {
+      "title": "El himno que Queen rechazó",
+      "artist": "Survivor",
+      "songTitle": "Eye of the Tiger",
+      "slug": "elhimnoquequeenrechazo",
+      "views": 2174,
+      "words": 229,
+      "igUrl": "https://www.instagram.com/reel/Dbw08GcxTb8/"
+    },
+    {
+      "title": "Tiny Dancer",
+      "artist": "Elton John",
+      "songTitle": "Tiny Dancer",
+      "slug": "tinydancer",
+      "views": 2167,
+      "words": 202,
+      "igUrl": "https://www.instagram.com/reel/DbBsTogRmbe/"
+    },
+    {
+      "title": "Bonnie Tyler Tribute",
+      "artist": "Bonnie Tyler",
+      "songTitle": "Total Eclipse of the Heart",
+      "slug": "bonnietylertribute",
+      "views": 2082,
+      "words": 201,
+      "igUrl": "https://www.instagram.com/reel/DalVZecxR9h/"
+    },
+    {
+      "title": "El bocadillo que inventó el Fuzz",
+      "artist": "Marty Robbins",
+      "songTitle": "Don't Worry",
+      "slug": "elbocadilloqueinventoelfuzz",
+      "views": 1975,
+      "words": 223,
+      "igUrl": "https://www.instagram.com/reel/Db3CcjuxR0K/"
+    },
+    {
+      "title": "I'll Be There for You",
+      "artist": "The Rembrandts",
+      "songTitle": "I'll Be There for You",
+      "slug": "illbethereforyou",
+      "views": 1764,
+      "words": 158,
+      "igUrl": "https://www.instagram.com/reel/DcE01VgxTSr/"
+    },
+    {
+      "title": "La música que dirigió a una musa",
+      "artist": "Ennio Morricone",
+      "songTitle": "Once Upon a Time in the West Theme",
+      "slug": "lamusicaquedirigioaunamusa",
+      "views": 1738,
+      "words": 251,
+      "igUrl": "https://www.instagram.com/reel/Db0tsT_RG__/"
+    },
+    {
+      "title": "El acorde que salvó a un clásico",
+      "artist": "America",
+      "songTitle": "Tin Man",
+      "slug": "elacordequesalvoaunclasico",
+      "views": 1733,
+      "words": 232,
+      "igUrl": "https://www.instagram.com/reel/DbqJcrdRhb8/"
+    },
+    {
+      "title": "The Guitar Man",
+      "artist": "Bread",
+      "songTitle": "The Guitar Man",
+      "slug": "theguitarman",
+      "views": 1699,
+      "words": 202,
+      "igUrl": "https://www.instagram.com/reel/DaxjKdTxXu8/"
+    },
+    {
+      "title": "El toque maestro y el desprecio por la fama",
+      "artist": "Gerry Rafferty",
+      "songTitle": "Right Down the Line",
+      "slug": "eltoquemaestroyeldesprecioporlafama",
+      "views": 1654,
+      "words": 213,
+      "igUrl": "https://www.instagram.com/reel/DaqOgQUQTij/"
+    },
+    {
+      "title": "El infierno legal y la carta de amor",
+      "artist": "Gerry Rafferty",
+      "songTitle": "Right Down the Line",
+      "slug": "elinfiernolegalylacartadeamor",
+      "views": 1654,
+      "words": 212,
+      "igUrl": "https://www.instagram.com/reel/DaqOgQUQTij/"
+    },
+    {
+      "title": "El Soul que Enamoró a la Corona",
+      "artist": "The Three Degrees",
+      "songTitle": "When Will I See You Again",
+      "slug": "elsoulqueenamoroalacorona",
+      "views": 1628,
+      "words": 188,
+      "igUrl": "https://www.instagram.com/reel/DctYMRCR94Y/"
+    },
+    {
+      "title": "El Abrigo de una Ausencia",
+      "artist": "The Irrepressibles",
+      "songTitle": "In This Shirt",
+      "slug": "elabrigodeunaausencia",
+      "views": 1597,
+      "words": 165,
+      "igUrl": "https://www.instagram.com/reel/DcZNoJtqpLk/"
+    },
+    {
+      "title": "El Himno de Luz que Nació de una Billetera Perdida",
+      "artist": "The 5th Dimension",
+      "songTitle": "Aquarius / Let the Sunshine In",
+      "slug": "elhimnodeluzquenaciodeunabilleteraperdida",
+      "views": 1424,
+      "words": 219,
+      "igUrl": "https://www.instagram.com/reel/DdJY5i-xVAo/"
+    },
+    {
+      "title": "El hit que odiaba su propia banda",
+      "artist": "Toto",
+      "songTitle": "Africa",
+      "slug": "elhitqueodiabasupropiabanda",
+      "views": 1209,
+      "words": 229,
+      "igUrl": "https://www.instagram.com/reel/Dbnn9wPxSKd/"
+    },
+    {
+      "title": "Kurt Cobain y el susurro de Something in the Way",
+      "artist": "Kurt Cobain",
+      "songTitle": "Something in the Way",
+      "slug": "kurtcobainyelsusurrodesomethingintheway",
+      "views": 1197,
+      "words": 136,
+      "igUrl": "https://www.instagram.com/reel/DaapINXxobo/"
+    },
+    {
+      "title": "A Hard Day's Night",
+      "artist": "The Beatles",
+      "songTitle": "A Hard Day's Night",
+      "slug": "aharddaysnight",
+      "views": 1170,
+      "words": 160,
+      "igUrl": "https://www.instagram.com/reel/DcRS4h0CXv8/"
+    },
+    {
+      "title": "Mi Niña Veneno",
+      "artist": "Ritchie",
+      "songTitle": "Mi Niña Veneno",
+      "slug": "mininaveneno",
+      "views": 1157,
+      "words": 181,
+      "igUrl": "https://www.instagram.com/reel/Db8JR-NRZBA/"
+    },
+    {
+      "title": "Rasputin",
+      "artist": "Boney M",
+      "songTitle": "Rasputin",
+      "slug": "rasputin",
+      "views": 1097,
+      "words": 187,
+      "igUrl": "https://www.instagram.com/reel/DbI5Q0GR85b/"
+    },
+    {
+      "title": "El Himno de Paz que Conmovió en la Guerra",
+      "artist": "Bette Midler",
+      "songTitle": "From a Distance",
+      "slug": "elhimnodepazqueconmovioenlaguerra",
+      "views": 1069,
+      "words": 206,
+      "igUrl": "https://www.instagram.com/reel/DczPtikxvFu/"
+    },
+    {
+      "title": "Dream Weaver",
+      "artist": "Gary Wright",
+      "songTitle": "Dream Weaver",
+      "slug": "dreamweaver",
+      "views": 1052,
+      "words": 144,
+      "igUrl": "https://www.instagram.com/reel/DcCd7RaRvEM/"
+    },
+    {
+      "title": "(I Can't Get No) Satisfaction",
+      "artist": "The Rolling Stones",
+      "songTitle": "(I Can't Get No) Satisfaction",
+      "slug": "icantgetnosatisfaction",
+      "views": 982,
+      "words": 159,
+      "igUrl": "https://www.instagram.com/reel/Dc0pV5-xt0q/"
+    },
+    {
+      "title": "Lean on Me",
+      "artist": "Bill Withers",
+      "songTitle": "Lean on Me",
+      "slug": "leanonme",
+      "views": 954,
+      "words": 178,
+      "igUrl": "https://www.instagram.com/reel/Da1TF27xhyI/"
+    },
+    {
+      "title": "Jimi Hendrix y el fuego de Monterey",
+      "artist": "Jimi Hendrix",
+      "songTitle": "Wild Thing",
+      "slug": "jimihendrixyelfuegodemonterey",
+      "views": 880,
+      "words": 133,
+      "igUrl": "https://www.instagram.com/reel/DaYEH8Lxlz9/"
+    },
+    {
+      "title": "La dulce balada dedicada a una rata",
+      "artist": "Michael Jackson",
+      "songTitle": "Ben",
+      "slug": "ladulcebaladadedicadaaunarata",
+      "views": 760,
+      "words": 237,
+      "igUrl": "https://www.instagram.com/reel/DbvXZ1fRs3B/"
+    },
+    {
+      "title": "You Light Up My Life",
+      "artist": "Debby Boone",
+      "songTitle": "You Light Up My Life",
+      "slug": "youlightupmylife",
+      "views": 713,
+      "words": 208,
+      "igUrl": "https://www.instagram.com/reel/DbBDyDUR-IO/"
+    },
+    {
+      "title": "I've Never Been to Me",
+      "artist": "Charlene",
+      "songTitle": "I've Never Been to Me",
+      "slug": "iveneverbeentome",
+      "views": 651,
+      "words": 210,
+      "igUrl": "https://www.instagram.com/reel/Da25uV9RG4Y/"
+    },
+    {
+      "title": "El Golpe que Creó una Leyenda",
+      "artist": "The Mamas and the Papas",
+      "songTitle": "Snowqueen of Texas",
+      "slug": "elgolpequecreounaleyenda",
+      "views": 619,
+      "words": 163,
+      "igUrl": "https://www.instagram.com/reel/DcT39znxWNP/"
+    },
+    {
+      "title": "Del primer latido al grito mundial: Historia del Rock",
+      "artist": "Acordes Ocultos",
+      "songTitle": "15 himnos de la historia del rock — mezcla continua",
+      "slug": "delprimerlatidoalgritomundialhistoriadelrock",
+      "views": 581,
+      "words": 93,
+      "igUrl": "https://www.instagram.com/reel/DavuPDsik3t/"
+    },
+    {
+      "title": "Presentación Oficial",
+      "artist": "Acordes Ocultos",
+      "songTitle": "Varios Artistas",
+      "slug": "presentacionoficial",
+      "views": 581,
+      "words": 59,
+      "igUrl": "https://www.instagram.com/reel/DavuPDsik3t/"
+    },
+    {
+      "title": "La Canción Rechazada que Vale una Fortuna",
+      "artist": "Patrick Hernandez",
+      "songTitle": "Born to Be Alive",
+      "slug": "lacancionrechazadaquevaleunafortuna",
+      "views": 557,
+      "words": 186,
+      "igUrl": "https://www.instagram.com/reel/DclplzLRxmO/"
+    },
+    {
+      "title": "El Secreto del Ascensor: La Venganza de Simon & Garfunkel",
+      "artist": "Simon & Garfunkel",
+      "songTitle": "The Boxer",
+      "slug": "elsecretodelascensorlavenganzadesimongarfunkel",
+      "views": 551,
+      "words": 225,
+      "igUrl": "https://www.instagram.com/reel/DdtrYjXB88-/"
+    },
+    {
+      "title": "La Obsesión que Consumió a Gloria",
+      "artist": "Laura Branigan",
+      "songTitle": "Gloria",
+      "slug": "laobsesionqueconsumioagloria",
+      "views": 504,
+      "words": 209,
+      "igUrl": "https://www.instagram.com/reel/DcoRYN5RA_C/"
+    },
+    {
+      "title": "United We Stand",
+      "artist": "Brotherhood of Man",
+      "songTitle": "United We Stand",
+      "slug": "unitedwestand",
+      "views": 475,
+      "words": 216,
+      "igUrl": "https://www.instagram.com/reel/Da-MOQmxz4y/"
+    },
+    {
+      "title": "Stairway to Heaven (Parte 2)",
+      "artist": "Led Zeppelin",
+      "songTitle": "Stairway to Heaven",
+      "slug": "stairwaytoheavenparte2",
+      "views": 473,
+      "words": 153,
+      "igUrl": "https://www.instagram.com/reel/DbcSWD3xW6f/"
+    },
+    {
+      "title": "Stairway to Heaven (Parte 1)",
+      "artist": "Led Zeppelin",
+      "songTitle": "Stairway to Heaven",
+      "slug": "stairwaytoheavenparte1",
+      "views": 443,
+      "words": 144,
+      "igUrl": "https://www.instagram.com/reel/DbZYAj0x4YQ/"
+    },
+    {
+      "title": "Anduriña",
+      "artist": "Juan y Junior",
+      "songTitle": "Anduriña",
+      "slug": "andurina",
+      "views": 439,
+      "words": 200,
+      "igUrl": "https://www.instagram.com/reel/DbVoQbiRdlM/"
+    },
+    {
+      "title": "El Hombre que Volvió Bajo la Lluvia",
+      "artist": "Ronnie Milsap",
+      "songTitle": "Smoky Mountain Rain",
+      "slug": "elhombrequevolviobajolalluvia",
+      "views": 417,
+      "words": 138,
+      "igUrl": "https://www.instagram.com/reel/DcG7kKRxDvg/"
+    },
+    {
+      "title": "Convoy",
+      "artist": "C.W. McCall",
+      "songTitle": "Convoy",
+      "slug": "convoy",
+      "views": 400,
+      "words": 170,
+      "igUrl": "https://www.instagram.com/reel/Db-_orvxFJ7/"
+    }
+  ]
+}

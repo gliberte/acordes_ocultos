@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-import {existsSync, mkdirSync, readFileSync, statSync, writeFileSync} from 'node:fs';
-import {basename, extname, join, resolve} from 'node:path';
+import {copyFileSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync} from 'node:fs';
+import {execSync} from 'node:child_process';
+import {basename, dirname, extname, join, resolve} from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {PutObjectCommand, S3Client} from '@aws-sdk/client-s3';
 
@@ -46,6 +47,7 @@ const parseArgs = () => {
     skipTelegram: false,
     skipCloudflare: false,
     skipSupabase: false,
+    skipVault: false,
     env: process.env.ENV_FILE
   };
 
@@ -69,6 +71,8 @@ const parseArgs = () => {
       options.skipCloudflare = true;
     } else if (arg === '--skip-supabase') {
       options.skipSupabase = true;
+    } else if (arg === '--skip-vault') {
+      options.skipVault = true;
     }
   }
 
@@ -87,24 +91,30 @@ const unique = (items) => Array.from(new Set(items.filter(Boolean)));
 const slugFor = (value) => normalizeTag(value).toLowerCase() || 'story';
 
 const hashtagsFor = (story) => {
+  const isEnglish = story.brand === 'secret-chords';
   const artist = normalizeTag(story.artist);
   const song = normalizeTag(story.music?.title ?? '');
-  const topic = normalizeTag(story.topic ?? '');
+  
+  let topicRaw = story.topic ?? '';
+  if (isEnglish && topicRaw.toLowerCase() === 'curiosidad musical') {
+    topicRaw = 'musicalcuriosity';
+  }
+  const topic = normalizeTag(topicRaw);
+
+  const brandTag = isEnglish ? 'SecretChords' : 'AcordesOcultos';
+  const historyTag = isEnglish ? 'RockHistory' : 'HistoriaDelRock';
+  const rocktokTag = 'RockTok';
+  const musicTag = isEnglish ? 'Music' : 'Musica';
 
   return unique([
     artist,
     song,
     topic,
-    'AcordesOcultos',
-    'HistoriaDelRock',
-    'RockTok',
-    'Musica',
-    'DatosMusicales',
-    'HistoriasDeMusica',
-    'TikTokMusic',
-    'ReelsMusic',
-    'RockClasico'
-  ]).map((tag) => `#${tag}`);
+    brandTag,
+    historyTag,
+    rocktokTag,
+    musicTag
+  ]).slice(0, 5).map((tag) => `#${tag}`);
 };
 
 const firstSentence = (text) => {
@@ -113,15 +123,12 @@ const firstSentence = (text) => {
 };
 
 const defaultDescription = (story) => {
-  const music = story.music?.title ? `"${story.music.title}"` : 'su musica';
   const segments = story.segments?.map((segment) => segment.text).join(' ') || story.anecdote;
 
   return [
     `${story.title}: ${firstSentence(story.hook || story.anecdote)}`,
     '',
-    `${segments}`,
-    '',
-    `Una historia corta sobre ${story.artist}, ${music} y esos momentos donde la leyenda del rock se vuelve mas grande que la cancion.`
+    `${segments}`
   ].join('\n');
 };
 
@@ -135,11 +142,25 @@ const buildEditorialPackage = (story) => {
     status: 'manual_check_required'
   };
 
+  const tiktokDescription = story.publication?.tiktokDescription || [
+    `${story.hook || story.title} 🤯 Conoce la historia de ${story.artist} y «${story.music?.title || story.title}». 👇`,
+    '',
+    commonTags
+  ].join('\n');
+
   const copy = [
     description,
     '',
     commonTags
   ].join('\n');
+
+  const tiktokCopy = tiktokDescription.trim();
+
+  if (copy.length > 2100) {
+    console.warn(`\n⚠️  ADVERTENCIA: El copy tiene ${copy.length} caracteres y supera el límite de Instagram (2.200 caracteres máx). Podría cortarse.`);
+  } else {
+    console.log(`📏 Longitud del Copy Instagram / Reels: ${copy.length} caracteres (rango óptimo: 900 - 1.400).`);
+  }
 
   const telegramSummary = [
     `<b>${escapeHtml(title)}</b>`,
@@ -160,6 +181,7 @@ const buildEditorialPackage = (story) => {
     music: story.music,
     instagramMusic,
     copy,
+    tiktokCopy,
     hashtags: tags,
     telegramSummary
   };
@@ -178,17 +200,48 @@ const writeProductionFiles = (story, editorialPackage) => {
   const packagePath = join(packageDir, `${slug}-package.json`);
   const copyPath = join(packageDir, `${slug}-copys.md`);
 
+  const fullMarkdownCopys = [
+    `# ${editorialPackage.title}`,
+    '',
+    '## 📸 1. COPY PARA INSTAGRAM REELS',
+    '',
+    editorialPackage.copy,
+    '',
+    '---',
+    '',
+    '## 🎵 2. COPY PARA TIKTOK',
+    '',
+    editorialPackage.tiktokCopy
+  ].join('\n');
+
+  const fullTextCopys = [
+    '========================================',
+    '📸 1. COPY PARA INSTAGRAM REELS (90s)',
+    '========================================',
+    '',
+    editorialPackage.copy,
+    '',
+    '========================================',
+    '🎵 2. COPY PARA TIKTOK (60s)',
+    '========================================',
+    '',
+    editorialPackage.tiktokCopy
+  ].join('\n');
+
   writeFileSync(packagePath, `${JSON.stringify(editorialPackage, null, 2)}\n`);
-  writeFileSync(
-    copyPath,
-    [
-      `# ${editorialPackage.title}`,
-      '',
-      '## Copy Instagram / TikTok',
-      '',
-      editorialPackage.copy
-    ].join('\n')
-  );
+  writeFileSync(copyPath, `${fullMarkdownCopys}\n`);
+
+  // Guardar copys directamente en la carpeta de producción del video (todos los elementos juntos)
+  const firstAsset = story.assets?.[0]?.src;
+  if (firstAsset) {
+    const videoDir = join(rootDir, 'public', dirname(firstAsset));
+    if (existsSync(videoDir)) {
+      writeFileSync(join(videoDir, 'copys.md'), `${fullMarkdownCopys}\n`, 'utf8');
+      writeFileSync(join(videoDir, 'copys.txt'), `${fullTextCopys}\n`, 'utf8');
+    }
+  }
+  writeFileSync(join(rootDir, 'out/copys.md'), `${fullMarkdownCopys}\n`, 'utf8');
+  writeFileSync(join(rootDir, 'out/copys.txt'), `${fullTextCopys}\n`, 'utf8');
 
   return {packagePath, copyPath};
 };
@@ -257,7 +310,7 @@ const cloudflareConfig = () => {
   };
 };
 
-const uploadToCloudflare = async ({story, files, videoPath}) => {
+const uploadToCloudflare = async ({story, files, videoPath, coverPath, teaserPath, heroBannerPath}) => {
   const config = cloudflareConfig();
 
   if (!config) {
@@ -282,6 +335,23 @@ const uploadToCloudflare = async ({story, files, videoPath}) => {
     package: {path: files.packagePath, key: `${baseKey}/${basename(files.packagePath)}`}
   };
 
+  if (coverPath) {
+    targets.cover = {path: coverPath, key: `${baseKey}/${basename(coverPath)}`};
+  }
+
+  if (teaserPath) {
+    targets.story_teaser = {path: teaserPath, key: `${baseKey}/${basename(teaserPath)}`};
+  }
+
+  if (heroBannerPath) {
+    targets.hero_banner = {path: heroBannerPath, key: `${baseKey}/${basename(heroBannerPath)}`};
+  }
+
+  const tiktokVideo = join(rootDir, 'out/story_tiktok.mp4');
+  if (existsSync(tiktokVideo)) {
+    targets.video_tiktok = {path: tiktokVideo, key: `${baseKey}/story_tiktok.mp4`};
+  }
+
   const uploaded = {};
 
   for (const [name, target] of Object.entries(targets)) {
@@ -300,10 +370,36 @@ const uploadToCloudflare = async ({story, files, videoPath}) => {
     };
   }
 
+  const assetsUploaded = [];
+  if (story.assets && Array.isArray(story.assets)) {
+    for (const asset of story.assets) {
+      if (asset.src) {
+        const localPath = join(rootDir, 'public', asset.src);
+        if (existsSync(localPath)) {
+          const key = `${baseKey}/assets/${basename(asset.src)}`;
+          await client.send(
+            new PutObjectCommand({
+              Bucket: config.bucket,
+              Key: key,
+              Body: readFileSync(localPath),
+              ContentType: contentTypeFor(localPath)
+            })
+          );
+          assetsUploaded.push({
+            src: asset.src,
+            key,
+            url: config.publicUrl ? `${normalizeUrl(config.publicUrl)}/${key}` : null
+          });
+        }
+      }
+    }
+  }
+
   return {
     enabled: true,
     bucket: config.bucket,
-    files: uploaded
+    files: uploaded,
+    assets: assetsUploaded
   };
 };
 
@@ -325,7 +421,7 @@ const supabaseConfig = () => {
   };
 };
 
-const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoStats, cloudflare}) => {
+const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoStats, cloudflare, coverPath, teaserPath, heroBannerPath}) => {
   const config = supabaseConfig();
 
   if (!config) {
@@ -335,12 +431,19 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
   const localFiles = {
     packagePath: files.packagePath,
     copyPath: files.copyPath,
-    videoPath
+    videoPath,
+    coverPath,
+    teaserPath,
+    heroBannerPath
   };
   const cloudflareFiles = cloudflare?.enabled ? cloudflare.files : null;
+  const cloudflareAssets = cloudflare?.enabled ? cloudflare.assets : null;
   const packageUrl = cloudflareFiles?.package?.url || null;
   const copyUrl = cloudflareFiles?.copy?.url || null;
   const videoUrl = cloudflareFiles?.video?.url || null;
+  const coverUrl = cloudflareFiles?.cover?.url || null;
+  const teaserUrl = cloudflareFiles?.story_teaser?.url || null;
+  const heroImageUrl = cloudflareFiles?.hero_banner?.url || null;
   const tiktokScript =
     story.segments?.map((segment) => segment.text).join('\n') ||
     story.anecdote ||
@@ -360,14 +463,53 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     story,
     files: {
       local: localFiles,
-      cloudflare: cloudflareFiles
+      cloudflare: cloudflareFiles,
+      assets: cloudflareAssets
     },
     package_url: packageUrl,
     copy_url: copyUrl,
     video_url: videoUrl,
+    cover_url: coverUrl,
+    teaser_url: teaserUrl,
     video_size_bytes: videoStats.size,
     published_at: new Date().toISOString()
   };
+
+  const storySlug = slugFor(story.title);
+  let resolvedWebArticle = editorialPackage.copy;
+  const articlesBase = join(rootDir, 'articles');
+  if (existsSync(articlesBase)) {
+    const candidateDirs = [
+      storySlug,
+      story.slug,
+      normalizeTag(story.artist || '').toLowerCase()
+    ].filter(Boolean);
+
+    for (const c of candidateDirs) {
+      const p = join(articlesBase, c, 'article.md');
+      if (existsSync(p)) {
+        resolvedWebArticle = readFileSync(p, 'utf8');
+        break;
+      }
+    }
+
+    if (resolvedWebArticle === editorialPackage.copy) {
+      try {
+        const entries = readdirSync(articlesBase, { withFileTypes: true });
+        for (const e of entries) {
+          if (e.isDirectory() && e.name !== 'assets') {
+            if (e.name.includes(storySlug) || storySlug.includes(e.name)) {
+              const p = join(articlesBase, e.name, 'article.md');
+              if (existsSync(p)) {
+                resolvedWebArticle = readFileSync(p, 'utf8');
+                break;
+              }
+            }
+          }
+        }
+      } catch (_) {}
+    }
+  }
 
   const publishedNewsRow = {
     source_url: videoUrl || videoPath,
@@ -375,9 +517,9 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     platform: 'instagram_reels',
     x_published: false,
     ig_published: false,
-    web_article: editorialPackage.copy,
+    web_article: resolvedWebArticle,
     youtube_url: null,
-    image_url: null,
+    image_url: coverUrl,
     tiktok_script: tiktokScript,
     status: 'published',
     production_plan: {
@@ -390,10 +532,13 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
       story,
       files: {
         local: localFiles,
-        cloudflare: cloudflareFiles
+        cloudflare: cloudflareFiles,
+        assets: cloudflareAssets
       },
       package_url: packageUrl,
       copy_url: copyUrl,
+      story_teaser_url: teaserUrl,
+      hero_image: heroImageUrl,
       video_size_bytes: videoStats.size,
       generated_at: new Date().toISOString()
     },
@@ -429,7 +574,7 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
   };
 };
 
-const sendTelegramMessage = async (html) => {
+const sendTelegramMessage = async (html, replyMarkup = null) => {
   const token = process.env.TELEGRAM_BOT_TOKEN || process.env.TG_BOT_TOKEN;
   const chatId =
     process.env.TELEGRAM_CHAT_ID ||
@@ -441,15 +586,21 @@ const sendTelegramMessage = async (html) => {
     throw new Error('Missing TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID or TELEGRAM_CHANNEL_ID.');
   }
 
+  const body = {
+    chat_id: chatId,
+    text: html,
+    parse_mode: 'HTML',
+    disable_web_page_preview: false
+  };
+
+  if (replyMarkup) {
+    body.reply_markup = replyMarkup;
+  }
+
   const response = await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
     method: 'POST',
     headers: {'content-type': 'application/json'},
-    body: JSON.stringify({
-      chat_id: chatId,
-      text: html,
-      parse_mode: 'HTML',
-      disable_web_page_preview: false
-    })
+    body: JSON.stringify(body)
   });
 
   const payload = await response.json();
@@ -526,6 +677,82 @@ const sendTelegramVideo = async (videoPath, caption) => {
   return payload.result;
 };
 
+const optimizeCoverForWeb = ({story, coverPath}) => {
+  if (!coverPath || !existsSync(coverPath)) return;
+  const slug = story.slug || slugFor(story.title || '');
+  if (!slug) return;
+
+  const webCoversDir = join(rootDir, 'web/public/covers');
+  const publicCoversDir = join(rootDir, 'public/covers');
+  mkdirSync(webCoversDir, { recursive: true });
+  mkdirSync(publicCoversDir, { recursive: true });
+
+  const targetWebp = join(webCoversDir, `${slug}.webp`);
+  const publicWebp = join(publicCoversDir, `${slug}.webp`);
+
+  try {
+    const cwebp = ['/usr/local/bin/cwebp', '/opt/homebrew/bin/cwebp', 'cwebp'].find(c => {
+      try { execSync(`which ${c}`, { stdio: 'ignore' }); return true; } catch (_) { return false; }
+    });
+    if (cwebp) {
+      execSync(`"${cwebp}" -q 80 -resize 480 854 "${coverPath}" -o "${targetWebp}"`, { stdio: 'pipe' });
+      copyFileSync(targetWebp, publicWebp);
+      console.log(`🖼️ [Web] Portada WebP optimizada: ${targetWebp} (${(statSync(targetWebp).size / 1024).toFixed(1)} KB)`);
+
+      // Update available_covers.json manifest
+      const manifestPath = join(rootDir, 'web/src/data/available_covers.json');
+      let manifest = [];
+      if (existsSync(manifestPath)) {
+        try { manifest = JSON.parse(readFileSync(manifestPath, 'utf8')); } catch (_) {}
+      }
+      if (!manifest.includes(slug)) {
+        manifest.push(slug);
+        writeFileSync(manifestPath, JSON.stringify(manifest.sort(), null, 2));
+      }
+    }
+  } catch (err) {
+    console.warn(`⚠️ Error al generar WebP para portada: ${err.message}`);
+  }
+};
+
+const optimizeHeroForWeb = ({story, heroPath}) => {
+  if (!heroPath || !existsSync(heroPath)) return;
+  const slug = story.slug || slugFor(story.title || '');
+  if (!slug) return;
+
+  const webHeroesDir = join(rootDir, 'web/public/images/heroes');
+  const publicHeroesDir = join(rootDir, 'public/images/heroes');
+  mkdirSync(webHeroesDir, { recursive: true });
+  mkdirSync(publicHeroesDir, { recursive: true });
+
+  const targetWebp = join(webHeroesDir, `${slug}.webp`);
+  const publicWebp = join(publicHeroesDir, `${slug}.webp`);
+
+  try {
+    const cwebp = ['/usr/local/bin/cwebp', '/opt/homebrew/bin/cwebp', 'cwebp'].find(c => {
+      try { execSync(`which ${c}`, { stdio: 'ignore' }); return true; } catch (_) { return false; }
+    });
+    if (cwebp) {
+      execSync(`"${cwebp}" -q 82 -resize 1600 900 "${heroPath}" -o "${targetWebp}"`, { stdio: 'pipe' });
+      copyFileSync(targetWebp, publicWebp);
+      console.log(`🖼️ [Web] Hero horizontal WebP optimizado: ${targetWebp} (${(statSync(targetWebp).size / 1024).toFixed(1)} KB)`);
+
+      // Update available_heroes.json manifest
+      const manifestPath = join(rootDir, 'web/src/data/available_heroes.json');
+      let manifest = [];
+      if (existsSync(manifestPath)) {
+        try { manifest = JSON.parse(readFileSync(manifestPath, 'utf8')); } catch (_) {}
+      }
+      if (!manifest.includes(slug)) {
+        manifest.push(slug);
+        writeFileSync(manifestPath, JSON.stringify(manifest.sort(), null, 2));
+      }
+    }
+  } catch (err) {
+    console.warn(`⚠️ Error al generar WebP para hero horizontal: ${err.message}`);
+  }
+};
+
 const main = async () => {
   const options = parseArgs();
   loadEnv(options.env);
@@ -552,6 +779,81 @@ const main = async () => {
     }
   });
 
+  let coverPath = null;
+  let teaserPath = null;
+  const firstAsset = story.assets?.[0]?.src;
+  if (firstAsset) {
+    const coverName = story.brand === 'secret-chords' ? 'cover_eng.png' : 'cover.png';
+    let potentialCover = join(rootDir, 'public', firstAsset, '..', coverName);
+    if (!existsSync(potentialCover) && story.brand === 'secret-chords') {
+      potentialCover = join(rootDir, 'public', firstAsset, '..', 'cover.png');
+    }
+    if (existsSync(potentialCover)) {
+      coverPath = potentialCover;
+    }
+
+    const potentialTeaser = join(rootDir, 'public', firstAsset, '..', 'story_teaser.png');
+    if (existsSync(potentialTeaser)) {
+      teaserPath = potentialTeaser;
+    }
+  }
+
+  if (!coverPath) {
+    const outCover = join(rootDir, 'out', story.brand === 'secret-chords' ? 'cover_eng.png' : 'cover.png');
+    if (existsSync(outCover)) {
+      coverPath = outCover;
+    }
+  }
+
+  if (!teaserPath) {
+    const outTeaser = join(rootDir, 'out', 'story_teaser.png');
+    if (existsSync(outTeaser)) {
+      teaserPath = outTeaser;
+    }
+  }
+
+  let heroBannerPath = null;
+  if (firstAsset) {
+    for (const name of ['hero_banner.png', 'hero.png', 'landscape.png', 'cover_wide.png']) {
+      const potentialHero = join(rootDir, 'public', firstAsset, '..', name);
+      if (existsSync(potentialHero)) {
+        heroBannerPath = potentialHero;
+        break;
+      }
+    }
+  }
+
+  if (!heroBannerPath) {
+    for (const name of ['hero_banner.png', 'hero.png', 'cover_wide.png']) {
+      const outHero = join(rootDir, 'out', name);
+      if (existsSync(outHero)) {
+        heroBannerPath = outHero;
+        break;
+      }
+    }
+  }
+
+  if (!heroBannerPath) {
+    const storySlug = slugFor(story.title);
+    for (const name of ['hero_banner.png', 'hero.png', 'cover_wide.png']) {
+      const artHero = join(rootDir, 'articles', storySlug, 'images', name);
+      if (existsSync(artHero)) {
+        heroBannerPath = artHero;
+        break;
+      }
+    }
+  }
+
+  // Automatically optimize cover for web (WebP 480x854, ~15-25 KB)
+  if (coverPath) {
+    optimizeCoverForWeb({story, coverPath});
+  }
+
+  // Automatically optimize hero banner for web (WebP 1600x900, ~50-80 KB)
+  if (heroBannerPath) {
+    optimizeHeroForWeb({story, heroPath: heroBannerPath});
+  }
+
   let cloudflare = {enabled: false, skippedReason: 'Dry run.'};
   let supabase = {enabled: false, skippedReason: 'Dry run.'};
 
@@ -559,7 +861,10 @@ const main = async () => {
     cloudflare = await uploadToCloudflare({
       story,
       files,
-      videoPath: options.video
+      videoPath: options.video,
+      coverPath,
+      teaserPath,
+      heroBannerPath
     });
   } else if (!options.dryRun) {
     cloudflare = {enabled: false, skippedReason: 'Skipped by --skip-cloudflare.'};
@@ -572,21 +877,123 @@ const main = async () => {
       files,
       videoPath: options.video,
       videoStats,
-      cloudflare
+      cloudflare,
+      coverPath,
+      teaserPath,
+      heroBannerPath
     });
   } else if (!options.dryRun) {
     supabase = {enabled: false, skippedReason: 'Skipped by --skip-supabase.'};
   }
 
   if (!options.dryRun && !options.skipTelegram) {
-    let summary = editorialPackage.telegramSummary;
+    let summary = [
+      `<b>${escapeHtml(editorialPackage.title)}</b>`,
+      '',
+      `<b>Artista:</b> ${escapeHtml(story.artist)}`,
+      `<b>Tema:</b> ${escapeHtml(story.music?.title || 'N/A')}`,
+      `<b>Duracion:</b> ${escapeHtml(story.durationSeconds || 90)}s`,
+      `<b>Audio Instagram:</b> ${escapeHtml(editorialPackage.instagramMusic?.status || 'manual_check_required')} (${escapeHtml(editorialPackage.instagramMusic?.query || story.music?.title || 'N/A')})`
+    ].join('\n');
+
     if (cloudflare.enabled && cloudflare.files?.video?.url) {
-      summary += `\n\n<b>Descargar Video (Cloudflare):</b> <a href="${cloudflare.files.video.url}">Enlace de descarga</a>`;
-    } else {
-      summary += `\n\n<b>Descargar Video (Cloudflare):</b> No disponible (Cloudflare desactivado o fallido)`;
+      summary += `\n\n🎬 <b>Descargar Video Reels 90s:</b> <a href="${cloudflare.files.video.url}">Enlace directo</a>`;
     }
+    if (cloudflare.enabled && cloudflare.files?.video_tiktok?.url) {
+      summary += `\n📱 <b>Descargar Video TikTok 60s:</b> <a href="${cloudflare.files.video_tiktok.url}">Enlace directo</a>`;
+    }
+
     await sendTelegramMessage(summary);
-    await sendTelegramDocument(files.copyPath, 'Copy Instagram / TikTok');
+
+    // Mensaje exclusivo para Copy de Instagram con toque directo para copiar
+    const copyIgMessage = [
+      `<b>📋 COPY INSTAGRAM (Toca el recuadro abajo para copiar todo con un solo toque):</b>`,
+      '',
+      `<pre>${escapeHtml(editorialPackage.copy)}</pre>`
+    ].join('\n');
+    await sendTelegramMessage(copyIgMessage);
+
+    // Mensaje exclusivo para Copy de TikTok si existe en out/copys.md
+    const outCopysPath = join(rootDir, 'out/copys.md');
+    if (existsSync(outCopysPath)) {
+      const fullCopys = readFileSync(outCopysPath, 'utf8');
+      const parts = fullCopys.split('## 🎵 2. COPY PARA TIKTOK');
+      if (parts.length > 1) {
+        const cleanTiktok = parts[1].replace(/^\s*\*[^*]+\*\s*/, '').trim();
+        if (cleanTiktok) {
+          const copyTtMessage = [
+            `<b>🎵 COPY TIKTOK (Toca el recuadro abajo para copiar con un solo toque):</b>`,
+            '',
+            `<pre>${escapeHtml(cleanTiktok)}</pre>`
+          ].join('\n');
+          await sendTelegramMessage(copyTtMessage);
+        }
+      }
+    }
+    await sendTelegramDocument(files.copyPath, '📄 Copy Instagram / TikTok');
+    if (coverPath) {
+      await sendTelegramDocument(coverPath, '🖼️ Portada (Instagram / Reels)');
+    }
+    if (heroBannerPath) {
+      await sendTelegramDocument(heroBannerPath, '🖼️ Banner Web Horizontal (16:9 Widescreen)');
+    }
+    if (teaserPath) {
+      await sendTelegramDocument(teaserPath, '🎞️ Avance para Historias (Instagram Stories Teaser)');
+    }
+    if (existsSync(options.video)) {
+      try {
+        let videoToSend = options.video;
+        const tgVideo = join(rootDir, 'out/story_90s_tg.mp4');
+        if (existsSync(tgVideo)) {
+          videoToSend = tgVideo;
+        }
+        await sendTelegramDocument(videoToSend, `Video Reels (90s) - ${story.artist} - ${story.title}`);
+      } catch (err) {
+        console.warn(`Could not send main video to Telegram: ${err.message}`);
+      }
+    }
+    const tiktokVideoPath = join(rootDir, 'out/story_tiktok.mp4');
+    if (existsSync(tiktokVideoPath)) {
+      try {
+        let tiktokToSend = tiktokVideoPath;
+        const tgTiktok = join(rootDir, 'out/story_tiktok_tg.mp4');
+        if (existsSync(tgTiktok)) {
+          tiktokToSend = tgTiktok;
+        }
+        await sendTelegramDocument(tiktokToSend, `Video TikTok Cut (60s) - ${story.artist} - ${story.title}`);
+      } catch (err) {
+        console.warn(`Could not send TikTok video to Telegram: ${err.message}`);
+      }
+    }
+  }
+
+  // Sincronización con la Bóveda Maestra (Google Drive / Vault)
+  let vault = {enabled: false, skippedReason: 'Not configured or skipped.'};
+  if (!options.dryRun && !options.skipVault && process.env.GOOGLE_DRIVE_VAULT_PATH) {
+    try {
+      console.log('\n🏛️  Sincronizando automáticamente con la Bóveda Maestra...');
+      const {execSync} = await import('node:child_process');
+      execSync(`node scripts/backup-vault.mjs --story "${options.story}"`, {
+        cwd: rootDir,
+        stdio: 'inherit'
+      });
+      vault = {enabled: true, path: process.env.GOOGLE_DRIVE_VAULT_PATH};
+    } catch (vaultErr) {
+      console.warn(`⚠️ Error al sincronizar con la Bóveda: ${vaultErr.message}`);
+      vault = {enabled: false, error: vaultErr.message};
+    }
+  }
+
+  // Sincronización automática de recursos web (WebP y dataset chronicles.json)
+  if (!options.dryRun) {
+    try {
+      console.log('\n🌐 Sincronizando recursos optimizados para la Web (WebP & dataset)...');
+      const {execSync} = await import('node:child_process');
+      execSync('node scripts/optimize-web-images.mjs', { cwd: rootDir, stdio: 'inherit' });
+      execSync('node scripts/compile-chronicles.mjs', { cwd: rootDir, stdio: 'inherit' });
+    } catch (webErr) {
+      console.warn(`⚠️ Aviso al sincronizar recursos web: ${webErr.message}`);
+    }
   }
 
   const result = {
@@ -594,7 +1001,8 @@ const main = async () => {
     dryRun: options.dryRun,
     files,
     cloudflare,
-    supabase
+    supabase,
+    vault
   };
 
   console.log(JSON.stringify(result, null, 2));

@@ -1,0 +1,147 @@
+{
+  "title": "Gimme Shelter",
+  "artist": "The Rolling Stones",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El grito más desgarrador de la historia del rock se grabó en pijama, de madrugada, y escondió una tragedia personal. En noviembre de 1969, The Rolling Stones necesitaban con urgencia una voz femenina potente para terminar 'Gimme Shelter'. Llamaron a medianoche a Merry Clayton. Ella estaba embarazada y dormía, pero se levantó y fue al estudio en pijama. Clayton se paró frente al micrófono y desató una tormenta de voz improvisada, cantando sobre la violación y el asesinato. En la tercera toma, al gritar la palabra 'Murder', su voz se quebró por la fuerza. Mick Jagger gritó de asombro en la cabina. Trágicamente, tras volver a casa esa noche, el esfuerzo físico extremo le provocó un aborto, marcando el tema para siempre. A pesar del dolor, su lamento quedó inmortalizado como uno de los momentos más puros y viscerales de la música.",
+  "hook": "El grito más desgarrador de la historia del rock se grabó en pijama, de madrugada, y escondió una tragedia personal.",
+  "beats": [
+    "En noviembre de 1969, The Rolling Stones necesitaban con urgencia una voz femenina potente para terminar 'Gimme Shelter'.",
+    "Llamaron a medianoche a Merry Clayton. Ella estaba embarazada y dormía, pero se levantó y fue al estudio en pijama.",
+    "Clayton se paró frente al micrófono y desató una tormenta de voz improvisada, cantando sobre la violación y el asesinato.",
+    "En la tercera toma, al gritar la palabra 'Murder', su voz se quebró por la fuerza. Mick Jagger gritó de asombro en la cabina.",
+    "Trágicamente, tras volver a casa esa noche, el esfuerzo físico extremo le provocó un aborto, marcando el tema para siempre."
+  ],
+  "outro": "A pesar del dolor, su lamento quedó inmortalizado como uno de los momentos más puros y viscerales de la música.",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f5f5f7",
+    "accent": "#c92a2a",
+    "glow": "#e67e22"
+  },
+  "music": {
+    "title": "Gimme Shelter",
+    "artist": "The Rolling Stones",
+    "src": "music/rolling-stones-shelter.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Gimme Shelter The Rolling Stones",
+      "expectedTitle": "Gimme Shelter",
+      "expectedArtist": "The Rolling Stones",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/rolling-stones-shelter/scene-01.png",
+      "prompt": "Merry Clayton in a recording studio in 1969, wearing silk pajamas and hair curlers, singing passionately into a vintage microphone under dim studio lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-02.png",
+      "prompt": "Mick Jagger and Keith Richards standing in the control room of Sunset Sound Studios, looking through the glass window, intense 1969 look, cigarettes smoking, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-03.png",
+      "prompt": "A classic 1960s telephone ringing on a bedside table in a dimly lit bedroom, retro wallpaper, warm lamp light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-04.png",
+      "prompt": "Close up of Merry Clayton's face, mouth open singing powerfully, closed eyes, expression of absolute emotion, vintage film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-05.png",
+      "prompt": "Vintage VU meters on an analog mixing console peaking in the red zone, warm studio backing lights, dark background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-06.png",
+      "prompt": "A single red rose lying on the wet pavement under streetlights at night, soft rain falling, moody cinematic colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-07.png",
+      "prompt": "A vintage copy of Let It Bleed vinyl album spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/rolling-stones-shelter/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/rolling-stones-shelter/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/rolling-stones-shelter/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/rolling-stones-shelter/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/rolling-stones-shelter/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/rolling-stones-shelter/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/rolling-stones-shelter/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El grito más desgarrador de la historia del rock se grabó en pijama, de madrugada, y escondió una tragedia personal."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En noviembre de 1969, The Rolling Stones necesitaban con urgencia una voz femenina potente para terminar 'Gimme Shelter'."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Llamaron a medianoche a Merry Clayton. Ella estaba embarazada y dormía, pero se levantó y fue al estudio en pijama."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Clayton se paró frente al micrófono y desató una tormenta de voz improvisada, cantando sobre la violación y el asesinato."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "En la tercera toma, al gritar la palabra 'Murder', su voz se quebró por la fuerza. Mick Jagger gritó de asombro en la cabina."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Trágicamente, tras volver a casa esa noche, el esfuerzo físico extremo le provocó un aborto, marcando el tema para siempre."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "A pesar del dolor, su lamento quedó inmortalizado como uno de los momentos más puros y viscerales de la música."
+    }
+  ]
+}

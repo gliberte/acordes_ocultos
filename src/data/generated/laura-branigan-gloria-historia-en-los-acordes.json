@@ -1,0 +1,135 @@
+{
+  "title": "La Obsesión que Consumió a Gloria",
+  "artist": "Laura Branigan",
+  "durationSeconds": 90,
+  "topic": "historia-en-los-acordes",
+  "anecdote": "La letra en inglés de 'Gloria' narra el descenso psicológico de una mujer atrapada en el vértigo de la alta sociedad y las noches interminables. Gloria vive obsesionada con la validación exterior, corriendo a toda prisa para no escuchar el eco de su propio vacío. Ha cambiado sus sueños por dinero y estatus, pero cuando la música se detiene y la multitud se marcha, el teléfono permanece en un silencio ensordecedor. Frente al espejo del tocador, su sonrisa ensayada empieza a resquebrajarse, revelando el pánico de un colapso inminente. Una fábula poética sobre el alto precio de perseguir espejismos en la oscuridad.",
+  "hook": "Bajo las luces de la noche ochentera, una mujer corre a toda velocidad hacia un abismo que nadie más puede ver.",
+  "beats": [
+    "Gloria camina por salones repletos de miradas y copas de cristal, envuelta en la ilusión de ser el centro del universo.",
+    "Todo el mundo pronuncia su nombre, pero nadie conoce la soledad que se oculta detrás de su vestido de seda.",
+    "Aceptó casarse por dinero y posición, convencida de que el lujo podría comprarle un refugio contra sus propios miedos.",
+    "Pero las noches se vuelven más largas y el vacío más profundo; busca desesperadamente voces que nunca llaman.",
+    "Corre por avenidas iluminadas de neón, huyendo de las sombras del pasado que amenazan con alcanzarla.",
+    "Frente al espejo del tocador, su respiración se acelera: la fachada perfecta empieza a desmoronarse en silencio.",
+    "Siente el vértigo de una caída inminente, intentando contener las lágrimas para que nadie note que está perdiendo el control.",
+    "La noche termina y las luces se apagan, dejándola a solas con el eco de promesas que jamás se cumplirán."
+  ],
+  "outro": "Cuando persigues sombras en la oscuridad, el mayor peligro no es la soledad, sino perderte a ti misma antes del amanecer.",
+  "palette": {
+    "ink": "#080914",
+    "paper": "#f4f1ea",
+    "accent": "#e11d48",
+    "glow": "#fb7185"
+  },
+  "music": {
+    "title": "Gloria",
+    "artist": "Laura Branigan",
+    "src": "music/laura-branigan-gloria.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Gloria Laura Branigan",
+      "expectedTitle": "Gloria",
+      "expectedArtist": "Laura Branigan",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-01.png",
+      "prompt": "Cinematic 1980s neon noir photograph of a glamorous elegant woman named Gloria with styled dark brunette hair, wearing a shimmering red evening gown, standing under glowing magenta and blue neon streetlights of a bustling nightlife city avenue, looking back with an intense melancholic gaze, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-02.png",
+      "prompt": "Opulent 1980s penthouse cocktail party with crystal chandeliers, elegant guests in tuxedos holding champagne glasses, Gloria standing in the center surrounded by people yet looking completely isolated and detached, warm cinematic lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-03.png",
+      "prompt": "Cinematic dramatic photograph of a wealthy cold mansion interior, Gloria looking down at a large sparkling diamond ring on her hand with profound regret and sorrow, dramatic shadows through tall French windows, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-04.png",
+      "prompt": "Moody 1980s hotel bedroom at 3 AM, a vintage black rotary telephone sitting silent on a glass bedside table, Gloria sitting on the edge of the bed in shadows staring at the silent phone, moody streetlights filtering through blinds, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-05.png",
+      "prompt": "Dynamic cinematic night street photograph of Gloria running in high heels down a rain-slicked city alley illuminated by reflections of flickering neon signs, hair blowing in the wind, looking over her shoulder with urgency and fear, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-06.png",
+      "prompt": "Intense close-up photograph of Gloria in front of a vintage theater dressing room mirror surrounded by warm round vanity bulbs, her reflection showing smudged mascara and trembling vulnerability as she tries to fix her makeup, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-07.png",
+      "prompt": "Dramatic portrait of Gloria clutching her fur coat tightly against her chest, leaning against a cold marble wall in a nightclub hallway, eyes wide with anxiety on the verge of a breakdown, cinematic moody lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-08.png",
+      "prompt": "Atmospheric wide photograph of an empty lavish ballroom at 5 AM with confetti on the floor, chairs on tables, Gloria standing alone in the center under dim janitor lights looking up at the high ceiling, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-09.png",
+      "prompt": "Poetic cinematic dawn photograph of Gloria standing on a misty ocean pier at sunrise, watching the morning fog roll over the cold blue water, silhouette bathed in soft golden morning light, serene and contemplative, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/laura-branigan-gloria-historia-en-los-acordes/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Bajo las luces de la noche ochentera, una mujer corre a toda velocidad hacia un abismo que nadie más puede ver."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Gloria camina por salones repletos de miradas y copas de cristal, envuelta en la ilusión de ser el centro del universo."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Todo el mundo pronuncia su nombre, pero nadie conoce la soledad que se oculta detrás de su vestido de seda."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Aceptó casarse por dinero y posición, convencida de que el lujo podría comprarle un refugio contra sus propios miedos."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Pero las noches se vuelven más largas y el vacío más profundo; busca desesperadamente voces que nunca llaman."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Frente al espejo del tocador, su respiración se acelera: la fachada perfecta empieza a desmoronarse en silencio."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Siente el vértigo de una caída inminente, intentando contener las lágrimas para que nadie note que está perdiendo el control."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "La noche termina y las luces se apagan, dejándola a solas con el eco de promesas que jamás se cumplirán."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Cuando persigues sombras en la oscuridad, el mayor peligro no es la soledad, sino perderte a ti misma antes del amanecer."
+    }
+  ]
+}

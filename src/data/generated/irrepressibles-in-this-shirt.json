@@ -1,0 +1,107 @@
+{
+  "title": "La Camisa que Guardó el Último Abrazo",
+  "artist": "The Irrepressibles",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "Detrás de una de las piezas orquestales más desgarradoras y virales del siglo XXI se esconde una tragedia de desamor real. A finales de los años 2000 en Londres, el compositor británico Jamie McDermott sufrió el colapso definitivo de su relación amorosa. Despojado de su hogar y con el corazón destrozado, solo rescató una pertenencia de su expareja: una vieja camisa de lino, usándola como un amuleto para no olvidar su aroma. Meses después, Jamie regresó al barrio con la esperanza de revivir sus recuerdos, pero se topó con un golpe demoledor: gigantescas grúas mecánicas estaban derribando el edificio entero para convertirlo en rascacielos. Sentado en un banco frente a los escombros y el polvo, con la camisa puesta y lágrimas en los ojos, escribió la desgarradora frase: 'En esta camisa puedo ser tú para estar cerca de ti'. Al reunir a un ensamble de diez músicos clásicos, convirtió el luto de una demolición en una de las mayores catarsis sonoras del arte moderno.",
+  "hook": "Detrás de esta desgarradora pieza orquestal se esconde una de las historias de desamor más reales del arte moderno.",
+  "beats": [
+    "Londres, 2008: El compositor Jamie McDermott atravesaba la ruptura más dolorosa de su vida, quedando a la deriva.",
+    "De la casa que compartieron solo rescató una vieja camisa de su expareja, usándola a diario para no olvidar su aroma.",
+    "Meses después, Jamie regresó al antiguo barrio buscando revivir los rincones donde alguna vez fue feliz.",
+    "Al doblar la esquina, el impacto fue demoledor: enormes grúas estaban reduciendo a escombros y polvo el edificio de su amor.",
+    "Sentado en la acera con la camisa puesta, escribió entre lágrimas: 'En esta camisa puedo ser tú para estar cerca de ti'.",
+    "En el estudio, reunió a un ensamble de diez músicos de cuerda, grabando una sinfonía visceral que suena a llanto y redención.",
+    "Con los años, la canción conquistó el cine, el patinaje olímpico y millones de corazones como el himno definitivo de la ausencia."
+  ],
+  "outro": "Una pieza nacida entre escombros demostró que el amor sobrevive incluso cuando las paredes de un hogar caen para siempre.",
+  "palette": {
+    "ink": "#0b0e14",
+    "paper": "#f4ede4",
+    "accent": "#52796f",
+    "glow": "#a3b18a"
+  },
+  "music": {
+    "title": "In This Shirt",
+    "artist": "The Irrepressibles",
+    "src": "music/irrepressibles-in-this-shirt.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "In This Shirt The Irrepressibles",
+      "expectedTitle": "In This Shirt",
+      "expectedArtist": "The Irrepressibles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    { "src": "videos/irrepressibles-in-this-shirt/scene-01.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-02.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-03.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-04.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-05.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-06.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-07.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-08.png" },
+    { "src": "videos/irrepressibles-in-this-shirt/scene-09.png" }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/irrepressibles-in-this-shirt/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/irrepressibles-in-this-shirt/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/irrepressibles-in-this-shirt/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/irrepressibles-in-this-shirt/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/irrepressibles-in-this-shirt/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/irrepressibles-in-this-shirt/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/irrepressibles-in-this-shirt/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/irrepressibles-in-this-shirt/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/irrepressibles-in-this-shirt/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Detrás de esta desgarradora pieza orquestal se esconde una de las historias de desamor más reales del arte moderno."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Londres, 2008: El compositor Jamie McDermott atravesaba la ruptura más dolorosa de su vida, quedando a la deriva."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "De la casa que compartieron solo rescató una vieja camisa de su expareja, usándola a diario para no olvidar su aroma."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Meses después, Jamie regresó al antiguo barrio buscando revivir los rincones donde alguna vez fue feliz."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Al doblar la esquina, el impacto fue demoledor: enormes grúas estaban reduciendo a escombros y polvo el edificio de su amor."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Sentado en la acera con la camisa puesta, escribió entre lágrimas: 'En esta camisa puedo ser tú para estar cerca de ti'."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En el estudio, reunió a un ensamble de diez músicos de cuerda, grabando una sinfonía visceral que suena a llanto y redención."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Con los años, la canción conquistó el cine, el patinaje olímpico y millones de corazones como el himno definitivo de la ausencia."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una pieza nacida entre escombros demostró que el amor sobrevive incluso cuando las paredes de un hogar caen para siempre."
+    }
+  ]
+}

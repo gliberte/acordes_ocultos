@@ -1,0 +1,185 @@
+{
+  "title": "El Salto al Vacío",
+  "artist": "Amaral",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 2007, tras la gira más masiva de su carrera, el fallecimiento repentino de la madre de Eva Amaral sumió a la cantante en una severa depresión. Convencida de que no tenía fuerzas para continuar, Eva decidió disolver el grupo y abandonar la música para siempre. Su compañero Juan Aguirre se negó a dejarla caer: se encerraron en el estudio casero O Gato Negro para componer sin presiones de la discográfica. De esa catarsis nació «Kamikaze», un tema eufórico que millones coreaban creyendo que era una fiesta juvenil, pero que en realidad fue un salto al vacío a tumba abierta para escapar del duelo y salvar la existencia misma de la banda.",
+  "hook": "El himno eufórico que millones cantaban en festivales... sin saber que nació de las cenizas de un duelo que casi destruye a la banda.",
+  "beats": [
+    "En 2006, Amaral llenaba estadios y dominaba las listas; pero detrás del éxito arrollador, el peso de la fama comenzaba a asfixiarlos.",
+    "En el verano de 2007, una llamada telefónica quebró la vida de Eva: la muerte repentina de su madre la sumió en un duelo devastador.",
+    "Incapaz de cantar y con el alma rota, Eva se encerró en la oscuridad y tomó una decisión tajante: abandonar la música para siempre.",
+    "Juan Aguirre se negó a verla caer. La llevó a su modesto estudio casero no para componer un éxito, sino para salvarle la vida.",
+    "Entre tazas de café y guitarras acústicas, Juan rasgueó un acorde luminoso. Por primera vez en meses, la voz de Eva volvió a brotar.",
+    "Comprendieron que debían lanzarse al vacío sin paracaídas; «Kamikaze» nació como un grito desesperado para desafiar al abismo y volver a sentir el pulso.",
+    "Cambiaron las fórmulas comerciales por guitarras eléctricas desgarradas y baterías crudas; grabaron diecinueve canciones como un exorcismo colectivo contra la tristeza.",
+    "«Gato Negro, Dragón Rojo» vio la luz y «Kamikaze» arrasó en la radio. España entera celebraba un himno que escondía una desgarradora herida secreta.",
+    "Frente a cincuenta mil almas saltando al unísono, Eva sonreía emocionada. Habían sobrevivido al precipicio gracias a una canción que les devolvió la luz."
+  ],
+  "outro": "Saltaron al vacío para no morir en el intento. ¿Qué sientes hoy al escuchar la voz de Eva en Kamikaze?",
+  "palette": {
+    "ink": "#0d1117",
+    "paper": "#f3f4f6",
+    "accent": "#e11d48",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Kamikaze",
+    "artist": "Amaral",
+    "src": "music/amaral-kamikaze.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Kamikaze Amaral",
+      "expectedTitle": "Kamikaze",
+      "expectedArtist": "Amaral",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/amaral-kamikaze-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-01.png",
+      "prompt": "2006 massive Spanish music arena: Eva Amaral singing with raw energy under bright stage lights, iconic straight dark hair with bangs, Juan Aguirre playing his electric guitar wearing his signature knitted beanie, 50,000 cheering fans with lighters, backstage corridor showing signs of exhaustion and heavy pressure, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-02.png",
+      "prompt": "Summer 2007 tragedy: A solitary dark hallway in a Zaragoza residential apartment, late afternoon shadows, Eva Amaral sitting by a vintage landline phone with tears in her eyes, receiving the devastating news of her mother passing away, solemn somber moody cinematic atmosphere, poetic 35mm photography, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-03.png",
+      "prompt": "Autumn 2007 grief and silence: Eva Amaral in a dimly lit room sitting on the floor wrapped in an oversized dark cardigan, looking out a rainy window with deep melancholia, an acoustic guitar untouched inside its case in the corner, quitting music, emotional vulnerability, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-04.png",
+      "prompt": "Late 2007 intimate home studio O Gato Negro: Juan Aguirre with his knitted beanie sitting next to Eva at a wooden mixing desk, holding an acoustic guitar gently, offering emotional support and brotherhood, warm desk lamp lighting in the cozy home studio, genuine connection, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-05.png",
+      "prompt": "The musical spark: Eva Amaral closing her eyes and singing softly into a studio microphone, holding a cup of tea, Juan Aguirre strumming a 12-string acoustic guitar with intense focus, golden amber dust motes in the warm studio air, the return of her voice, 35mm film still, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-06.png",
+      "prompt": "Symbolic cinematic visual of the Kamikaze jump: Silhouette of a woman standing at the edge of a dramatic stormy coastal cliff looking down at crashing ocean waves under dramatic sunset clouds, feeling the wild wind, metaphor of jumping into the unknown with passion and freedom, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-07.png",
+      "prompt": "2008 fierce recording session: Eva Amaral singing with ferocious power in a professional London studio, vintage tube microphones, Juan Aguirre aggressively playing a red electric Rickenbacker guitar, distorted amplifiers, raw rock catharsis and exorcism of pain, 35mm film, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-08.png",
+      "prompt": "Spring 2008 release of Gato Negro Dragon Rojo: A vintage vinyl record player spinning with the iconic black cat and red dragon artwork, radio broadcast tower glowing at dusk, album posters on Madrid streets, triumphant comeback, 9:16 vertical."
+    },
+    {
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-09.png",
+      "prompt": "Glorious triumphant concert: Eva Amaral smiling with tears of joy on a summer festival stage, arms raised high to the night sky, thousands of jumping fans under golden pyrotechnics and confetti, Juan Aguirre jumping with his guitar, healing through music, epic 35mm cinematic photograph, 9:16 vertical."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/amaral-kamikaze-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 2006, Amaral llenaba estadios y dominaba las listas; pero detrás del éxito arrollador, el peso de la fama comenzaba a asfixiarlos."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En el verano de 2007, una llamada telefónica quebró la vida de Eva: la muerte repentina de su madre la sumió en un duelo devastador."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Incapaz de cantar y con el alma rota, Eva se encerró en la oscuridad y tomó una decisión tajante: abandonar la música para siempre."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Juan Aguirre se negó a verla caer. La llevó a su modesto estudio casero no para componer un éxito, sino para salvarle la vida."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Entre tazas de café y guitarras acústicas, Juan rasgueó un acorde luminoso. Por primera vez en meses, la voz de Eva volvió a brotar."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Comprendieron que debían lanzarse al vacío sin paracaídas; «Kamikaze» nació como un grito desesperado para desafiar al abismo y volver a sentir el pulso."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Cambiaron las fórmulas comerciales por guitarras eléctricas desgarradas y baterías crudas; grabaron diecinueve canciones como un exorcismo colectivo contra la tristeza."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "«Gato Negro, Dragón Rojo» vio la luz y «Kamikaze» arrasó en la radio. España entera celebraba un himno que escondía una desgarradora herida secreta."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Frente a cincuenta mil almas saltando al unísono, Eva sonreía emocionada. Habían sobrevivido al precipicio gracias a una canción que les devolvió la luz."
+    }
+  ],
+  "publication": {
+    "description": "El Salto al Vacío: El himno eufórico que millones cantaban en festivales... sin saber que nació de las cenizas de un duelo que casi destruye a la banda.\n\nEn 2006, Amaral era un fenómeno imparable. Tras la colosal repercusión de «Pájaros en la cabeza», llenaban estadios en España y Latinoamérica. Sin embargo, el vértigo de las giras interminables y la presión mediática estaban agotando física y mentalmente al dúo zaragozano.\n\nPero el verdadero golpe llegó en el verano de 2007: una llamada telefónica destrozó el mundo de Eva Amaral. Su madre acababa de fallecer. El dolor fue tan devastador que la cantante cayó en una parálisis emocional absoluta. No encontraba fuerzas para levantarse de la cama, sentía que su voz se había extinguido y tomó una decisión drástica e irrevocable: disolver el grupo y renunciar a la música para siempre.\n\nLa banda más importante del pop-rock español estuvo a punto de desaparecer en silencio. Fue entonces cuando Juan Aguirre intervino. Se negó a aceptar ese final. Sin presiones, sin plazos y sin permitir que los ejecutivos de la discográfica intervinieran, la llevó a su estudio casero, «O Gato Negro». El objetivo no era grabar canciones para vender discos, sino utilizar la guitarra como medicina para curar el alma.\n\nAllí, en la intimidad de dos amigos de toda la vida, Juan empezó a improvisar un arpegio brillante. Eva se acercó al micrófono y, por primera vez en meses, las palabras salieron de su garganta. Fue un relámpago: decidieron que no iban a esconderse ni a buscar refugio seguro. Iban a tirarse al vacío a tumba abierta, sin frenos ni ataduras.\n\nAsí nació «Kamikaze»: no como una apología de la autodestrucción, sino como una metáfora vital extrema. Un salto al abismo para volver a sentir el latido del corazón frente a la muerte. Cambiaron el sonido pulido de la radio por distorsión, guitarras viscerales y un doble álbum («Gato Negro, Dragón Rojo») de diecinueve temas que funcionó como un salvavidas.\n\nCuando «Kamikaze» se estrenó en 2008, escaló de inmediato al número uno. Miles de jóvenes la bailaban eufóricos en conciertos de verano, creyendo que era un himno a la fiesta y la libertad, sin sospechar que detrás de ese estribillo luminoso se escondía la lágrima más dolorosa de Eva Amaral.\n\nPorque a veces, cuando todo a tu alrededor se derrumba y la tristeza amenaza con devorarte, la única salvación es dar un salto de fe y volar hacia la eternidad.\n\n#Amaral #Kamikaze #acordesocultos #AcordesOcultos #HistoriaDelRock #PopRockEspanol"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Mi Niña Veneno",
+  "artist": "Ritchie",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El mayor éxito ochentero de la música latina no nació para una mujer real... sino para un fantasma de la mente. Ritchie y Bernardo Vilhena querían atrapar la silueta onírica que nos visita en la parálisis del sueño. Buscando retratar a ese espectro que domina el inconsciente, se inspiraron en las páginas de Carl Jung. Mientras componían, una bebé de dos años abrió la puerta, miró a su alrededor en silencio y se retiró. Ese paso inocente dictó al instante: 'Oigo sus pasos acercando, veo la puerta abrir...' y la letra cobró vida. En solo veinte minutos terminaron de dibujar la habitación de sábanas azules y media luz color carne. La cinta causó histeria radial y conquistó a todo un continente. Y tú, ¿has sentido a tu niña veneno al soñar?",
+  "hook": "El mayor éxito ochentero de la música latina no nació para una mujer real... sino para un fantasma de la mente.",
+  "beats": [
+    "Ritchie y Bernardo Vilhena querían atrapar la silueta onírica que nos visita en la parálisis del sueño.",
+    "Buscando retratar a ese espectro que domina el inconsciente, se inspiraron en las páginas de Carl Jung.",
+    "Mientras componían, una bebé de dos años abrió la puerta, miró a su alrededor en silencio y se retiró.",
+    "Ese paso inocente dictó al instante: 'Oigo sus pasos acercando, veo la puerta abrir...' y la letra cobró vida.",
+    "En solo veinte minutos terminaron de dibujar la habitación de sábanas azules y media luz color carne."
+  ],
+  "outro": "La cinta causó histeria radial y conquistó a todo un continente. Y tú, ¿has sentido a tu niña veneno al soñar?",
+  "palette": {
+    "ink": "#11001c",
+    "paper": "#fff2fc",
+    "accent": "#d90429",
+    "glow": "#ff007f"
+  },
+  "music": {
+    "title": "Mi Niña Veneno",
+    "artist": "Ritchie",
+    "src": "music/veneno.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Mi Niña Veneno Ritchie",
+      "expectedTitle": "Mi Niña Veneno",
+      "expectedArtist": "Ritchie",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/veneno/scene-01.png",
+      "prompt": "A realistic 1983 color photograph of a glowing vintage synthesizer in a dim bedroom, neon blue and pink light reflection, warm atmosphere, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-02.png",
+      "prompt": "A realistic 1983 photograph of a handsome English songwriter with short blonde hair (representing Ritchie) composing at a small electronic keyboard, retro room, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-03.png",
+      "prompt": "A beautiful artistic representation of a dreamlike feminine silhouette glowing in mist, floating inside a dark room with blue velvet textures, dream analysis, surreal, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-04.png",
+      "prompt": "A close-up photograph of a toddler's small feet in little leather shoes taking first steps through a slightly open wooden door, warm light pouring from the hallway, cozy mood, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-05.png",
+      "prompt": "A realistic 1983 photograph of a blue fabric sheet folded over a wooden chair in a retro bedroom, soft morning light, warm wallpaper, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-06.png",
+      "prompt": "A realistic 1983 photograph of a retro radio announcer speaking into a large microphone, shelves of vinyl records behind him, glowing audio equipment, warm studio light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/veneno/scene-07.png",
+      "prompt": "A beautiful photograph of a classic vinyl record spinning on a vintage turntable, neon blue reflections, 1980s aesthetic, retro ambient lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/veneno/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/veneno/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/veneno/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/veneno/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/veneno/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/veneno/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/veneno/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El mayor éxito ochentero de la música latina no nació para una mujer real... sino para un fantasma de la mente."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Ritchie y Bernardo Vilhena querían atrapar la silueta onírica que nos visita en la parálisis del sueño."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Buscando retratar a ese espectro que domina el inconsciente, se inspiraron en las páginas de Carl Jung."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Mientras componían, una bebé de dos años abrió la puerta, miró a su alrededor en silencio y se retiró."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Ese paso inocente dictó al instante: 'Oigo sus pasos acercando, veo la puerta abrir...' y la letra cobró vida."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En solo veinte minutos terminaron de dibujar la habitación de sábanas azules y media luz color carne."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "La cinta causó histeria radial y conquistó a todo un continente. Y tú, ¿has sentido a tu niña veneno al soñar?"
+    }
+  ]
+}

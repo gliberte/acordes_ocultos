@@ -1,0 +1,147 @@
+{
+  "title": "El bocadillo que inventó el Fuzz",
+  "artist": "Marty Robbins",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "El efecto que definió la historia del rock no nació en un laboratorio de sonido... sino por un sándwich de queso derretido en el circuito. A finales de 1960, Marty Robbins grababa en Nashville la canción instrumental Don’t Worry, cuando de pronto el bajista Grady Martin tocó su solo. El altavoz del amplificador no emitió un sonido limpio, sino un zumbido distorsionado, agresivo y zumbante muy parecido a un abejorro furioso. La causa real fue un transformador de la consola de tubos de vacío que se había derretido parcialmente por un cortocircuito. Pero la leyenda dice que a un técnico se le había caído un trozo de sándwich de queso derretido en los circuitos de la mesa. En lugar de detener la grabación, el productor Don Law le ordenó a Grady continuar tocando y la canción se convirtió en un éxito inmenso. Inspirado en este error, el ingeniero Glenn Snoddy diseñó un circuito que recreaba el fallo, naciendo así el Maestro Fuzz-Tone. En 1965, Keith Richards usó ese pedal para el riff de Satisfaction de The Rolling Stones, cambiando la historia del rock para siempre. Y tú, ¿qué error genial te ha sorprendido hoy?",
+  "hook": "El efecto que definió la historia del rock no nació en un laboratorio de sonido... sino por un sándwich de queso derretido en el circuito.",
+  "beats": [
+    "A finales de 1960, Marty Robbins grababa en Nashville la canción instrumental Don’t Worry, cuando de pronto el bajista Grady Martin tocó su solo.",
+    "El altavoz del amplificador no emitió un sonido limpio, sino un zumbido distorsionado, agresivo y zumbante muy parecido a un abejorro furioso.",
+    "La causa real fue un transformador de la consola de tubos de vacío que se había derretido parcialmente por un cortocircuito de queso derretido.",
+    "En lugar de detener la grabación, el productor Don Law le ordenó a Grady continuar tocando y la canción se convirtió en un éxito inmenso.",
+    "Inspirado en este error, el ingeniero Glenn Snoddy diseñó un circuito que recreaba el fallo, naciendo así el Maestro Fuzz-Tone."
+  ],
+  "outro": "En 1965, Keith Richards usó ese pedal para el riff de Satisfaction de The Rolling Stones, cambiando la historia del rock para siempre. Y tú, ¿qué error genial te ha sorprendido hoy?",
+  "palette": {
+    "ink": "#1e293b",
+    "paper": "#fffbeb",
+    "accent": "#b45309",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Don't Worry",
+    "artist": "Marty Robbins",
+    "src": "music/fuzz.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Don't Worry Marty Robbins",
+      "expectedTitle": "Don't Worry",
+      "expectedArtist": "Marty Robbins",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/fuzz/scene-01.png",
+      "prompt": "A realistic 1960 color photograph of a vintage six-string bass guitar resting against a tweed amplifier in a historic Nashville recording studio, warm wood panels, dust motes in sunbeams, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-02.png",
+      "prompt": "A realistic 1960 photograph of a vintage mixing console with warm glowing vacuum tubes, smoke gently rising from a single hot tube, metallic knobs and dials, authentic analog studio environment, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-03.png",
+      "prompt": "A dramatic close-up photograph of a toasted cheese sandwich cut in half on a paper wrapper, with melted yellow cheese oozing out onto a table next to vintage electronic schematics and wires, warm lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-04.png",
+      "prompt": "A realistic 1960 photograph of a professional country bass player with short hair (representing Grady Martin) looking shocked and confused inside a recording booth, wearing vintage headphones, holding a bass, warm studio light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-05.png",
+      "prompt": "A realistic 1960 photograph of an audio engineer in a short-sleeve shirt and glasses (representing Glenn Snoddy) examining a small vintage green circuit board with transistors and wires under a magnifying lamp, retro workspace, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-06.png",
+      "prompt": "A close-up photograph of a vintage 1962 Gibson Maestro Fuzz-Tone FZ-1 metal pedal sitting on a worn wooden stage, a guitar cable plugged into the side, raw stage lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/fuzz/scene-07.png",
+      "prompt": "A realistic 1965 black and white photograph of a young Keith Richards with messy hair, performing live on stage, playing a vintage electric guitar, sweat under concert spotlights, raw rock energy, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/fuzz/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/fuzz/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/fuzz/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/fuzz/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/fuzz/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/fuzz/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/fuzz/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El efecto que definió la historia del rock no nació en un laboratorio de sonido... sino por un sándwich de queso derretido en el circuito."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "A finales de 1960, Marty Robbins grababa en Nashville la canción instrumental Don’t Worry, cuando de pronto el bajista Grady Martin tocó su solo."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "El altavoz del amplificador no emitió un sonido limpio, sino un zumbido distorsionado, agresivo y zumbante muy parecido a un abejorro furioso."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La causa real fue un transformador de la consola de tubos de vacío que se había derretido parcialmente por un cortocircuito de queso derretido."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "En lugar de detener la grabación, el productor Don Law le ordenó a Grady continuar tocando y la canción se convirtió en un éxito inmenso."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Inspirado en este error, el ingeniero Glenn Snoddy diseñó un circuito que recreaba el fallo, naciendo así el Maestro Fuzz-Tone."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "En 1965, Keith Richards usó ese pedal para el riff de Satisfaction de The Rolling Stones, cambiando la historia del rock para siempre. Y tú, ¿qué error genial te ha sorprendido hoy?"
+    }
+  ]
+}

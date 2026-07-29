@@ -1,0 +1,335 @@
+{
+  "title": "Especial: El Mosaico de Acordes Ocultos",
+  "artist": "Cass Elliot",
+  "durationSeconds": 90,
+  "music": {
+    "title": "Make Your Own Kind of Music",
+    "artist": "Cass Elliot",
+    "src": "music/cass-elliot-make-your-own-kind-of-music.mp3",
+    "startSecond": 0,
+    "volume": 0.85
+  },
+  "palette": {
+    "ink": "#07080b",
+    "paper": "#fdfbf7",
+    "accent": "#f59e0b",
+    "glow": "#fbbf24"
+  },
+  "scenes": [
+    {
+      "index": 0,
+      "src": "videos/rasputin/scene-01.png",
+      "folder": "rasputin",
+      "start": 0,
+      "end": 2
+    },
+    {
+      "index": 1,
+      "src": "videos/tiny-dancer/scene-01.png",
+      "folder": "tiny-dancer",
+      "start": 2,
+      "end": 4
+    },
+    {
+      "index": 2,
+      "src": "videos/ritchie-valens-dia-musica/scene-01-v2.png",
+      "folder": "ritchie-valens-dia-musica",
+      "start": 4,
+      "end": 6
+    },
+    {
+      "index": 3,
+      "src": "videos/david-bowie-heroes/scene-01.png",
+      "folder": "david-bowie-heroes",
+      "start": 6,
+      "end": 8
+    },
+    {
+      "index": 4,
+      "src": "videos/john-lennon-watching-the-wheels/scene-01.png",
+      "folder": "john-lennon-watching-the-wheels",
+      "start": 8,
+      "end": 10
+    },
+    {
+      "index": 5,
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-01.png",
+      "folder": "guns-n-roses-sweet-child-o-mine",
+      "start": 10,
+      "end": 12
+    },
+    {
+      "index": 6,
+      "src": "videos/bob-seger-against-the-wind/scene-01.png",
+      "folder": "bob-seger-against-the-wind",
+      "start": 12,
+      "end": 14
+    },
+    {
+      "index": 7,
+      "src": "videos/veneno/scene-01.png",
+      "folder": "veneno",
+      "start": 14,
+      "end": 16
+    },
+    {
+      "index": 8,
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-01.png",
+      "folder": "pink-floyd-another-brick-in-the-wall",
+      "start": 16,
+      "end": 18
+    },
+    {
+      "index": 9,
+      "src": "videos/patrick/scene-01.png",
+      "folder": "patrick",
+      "start": 18,
+      "end": 20
+    },
+    {
+      "index": 10,
+      "src": "videos/while-my-guitar-gently-weeps/scene-01.png",
+      "folder": "while-my-guitar-gently-weeps",
+      "start": 20,
+      "end": 22
+    },
+    {
+      "index": 11,
+      "src": "videos/while-my-guitar-gently-weeps-v2/scene-01.png",
+      "folder": "while-my-guitar-gently-weeps-v2",
+      "start": 22,
+      "end": 24
+    },
+    {
+      "index": 12,
+      "src": "videos/dream/scene-01.png",
+      "folder": "dream",
+      "start": 24,
+      "end": 26
+    },
+    {
+      "index": 13,
+      "src": "videos/van-morrison-girl/scene-01.png",
+      "folder": "van-morrison-girl",
+      "start": 26,
+      "end": 28
+    },
+    {
+      "index": 14,
+      "src": "videos/elvis-thats-all-right/scene-01.png",
+      "folder": "elvis-thats-all-right",
+      "start": 28,
+      "end": 30
+    },
+    {
+      "index": 15,
+      "src": "videos/dr-hook-sylvias-mother/scene-01.png",
+      "folder": "dr-hook-sylvias-mother",
+      "start": 30,
+      "end": 32
+    },
+    {
+      "index": 16,
+      "src": "videos/illbethere/scene-01.png",
+      "folder": "illbethere",
+      "start": 32,
+      "end": 34
+    },
+    {
+      "index": 17,
+      "src": "videos/mamas-papas-mama-cass/scene-01.png",
+      "folder": "mamas-papas-mama-cass",
+      "start": 34,
+      "end": 36
+    },
+    {
+      "index": 18,
+      "src": "videos/skeeter-davis-end-of-the-world/scene-01.png",
+      "folder": "skeeter-davis-end-of-the-world",
+      "start": 36,
+      "end": 38
+    },
+    {
+      "index": 19,
+      "src": "videos/bette-midler-from-a-distance/scene-01.png",
+      "folder": "bette-midler-from-a-distance",
+      "start": 38,
+      "end": 40
+    },
+    {
+      "index": 20,
+      "src": "videos/rock-day-2026/scene-01-elvis.png",
+      "folder": "rock-day-2026",
+      "start": 40,
+      "end": 42
+    },
+    {
+      "index": 21,
+      "src": "videos/intheair/scene-01.png",
+      "folder": "intheair",
+      "start": 42,
+      "end": 44
+    },
+    {
+      "index": 22,
+      "src": "videos/irrepressibles-in-this-shirt/scene-01.png",
+      "folder": "irrepressibles-in-this-shirt",
+      "start": 44,
+      "end": 46
+    },
+    {
+      "index": 23,
+      "src": "videos/laura-branigan-homenaje-destellos-de-gloria/scene-01.png",
+      "folder": "laura-branigan-homenaje-destellos-de-gloria",
+      "start": 46,
+      "end": 48
+    },
+    {
+      "index": 24,
+      "src": "videos/convoy/scene-01.png",
+      "folder": "convoy",
+      "start": 48,
+      "end": 50
+    },
+    {
+      "index": 25,
+      "src": "videos/creep/scene-01.png",
+      "folder": "creep",
+      "start": 50,
+      "end": 52
+    },
+    {
+      "index": 26,
+      "src": "videos/fuzz/scene-01.png",
+      "folder": "fuzz",
+      "start": 52,
+      "end": 54
+    },
+    {
+      "index": 27,
+      "src": "videos/in-my-dreams/scene-01.png",
+      "folder": "in-my-dreams",
+      "start": 54,
+      "end": 56
+    },
+    {
+      "index": 28,
+      "src": "videos/charlene-never/scene-01.png",
+      "folder": "charlene-never",
+      "start": 56,
+      "end": 58
+    },
+    {
+      "index": 29,
+      "src": "videos/mocedades-eres-tu-historia-en-los-acordes/scene-01.jpeg",
+      "folder": "mocedades-eres-tu-historia-en-los-acordes",
+      "start": 58,
+      "end": 60
+    },
+    {
+      "index": 30,
+      "src": "videos/thechain/scene-01.png",
+      "folder": "thechain",
+      "start": 60,
+      "end": 62
+    },
+    {
+      "index": 31,
+      "src": "videos/tiger/scene-01.png",
+      "folder": "tiger",
+      "start": 62,
+      "end": 64
+    },
+    {
+      "index": 32,
+      "src": "videos/rolling-stones-shelter/scene-01.png",
+      "folder": "rolling-stones-shelter",
+      "start": 64,
+      "end": 66
+    },
+    {
+      "index": 33,
+      "src": "videos/boney-m-rivers-of-babylon/scene-01.png",
+      "folder": "boney-m-rivers-of-babylon",
+      "start": 66,
+      "end": 68
+    },
+    {
+      "index": 34,
+      "src": "videos/marilyn-monroe/scene-01.png",
+      "folder": "marilyn-monroe",
+      "start": 68,
+      "end": 70
+    },
+    {
+      "index": 35,
+      "src": "videos/it-s-my-life/scene-01.png",
+      "folder": "it-s-my-life",
+      "start": 70,
+      "end": 72
+    },
+    {
+      "index": 36,
+      "src": "videos/sylvias-mother-historia-en-los-acordes/scene-01.png",
+      "folder": "sylvias-mother-historia-en-los-acordes",
+      "start": 72,
+      "end": 74
+    },
+    {
+      "index": 37,
+      "src": "videos/elton-john-candle-in-the-wind/scene-01.png",
+      "folder": "elton-john-candle-in-the-wind",
+      "start": 74,
+      "end": 76
+    },
+    {
+      "index": 38,
+      "src": "videos/pink-floyd-syd-barrett/scene-01.png",
+      "folder": "pink-floyd-syd-barrett",
+      "start": 76,
+      "end": 78
+    },
+    {
+      "index": 39,
+      "src": "videos/simon-garfunkel-sound-of-silence/scene-01.png",
+      "folder": "simon-garfunkel-sound-of-silence",
+      "start": 78,
+      "end": 80
+    },
+    {
+      "index": 40,
+      "src": "videos/time/scene-01.png",
+      "folder": "time",
+      "start": 80,
+      "end": 82
+    },
+    {
+      "index": 41,
+      "src": "videos/stairway-to-heaven-parte-1/scene-01.png",
+      "folder": "stairway-to-heaven-parte-1",
+      "start": 82,
+      "end": 84
+    },
+    {
+      "index": 42,
+      "src": "videos/gerry-rafferty-baker-street/scene-01.png",
+      "folder": "gerry-rafferty-baker-street",
+      "start": 84,
+      "end": 86
+    },
+    {
+      "index": 43,
+      "src": "videos/sanfrancisco/scene-01.png",
+      "folder": "sanfrancisco",
+      "start": 86,
+      "end": 88
+    },
+    {
+      "index": 44,
+      "src": "videos/elton-john-someone-saved-my-life-tonight/scene-01.png",
+      "folder": "elton-john-someone-saved-my-life-tonight",
+      "start": 88,
+      "end": 90
+    }
+  ]
+}

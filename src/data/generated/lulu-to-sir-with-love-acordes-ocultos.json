@@ -1,0 +1,185 @@
+{
+  "title": "La Cara B que Venció a The Beatles",
+  "artist": "Lulu",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1967, en pleno auge de la psicodelia y el Verano del Amor, la discográfica británica Columbia consideró que una emotiva balada escolar era un tema menor sin futuro comercial. El productor Mickie Most decidió desterrarla a la Cara B del sencillo pop «The Boat That I Row». La canción formaba parte de la película «To Sir, with Love», donde Sidney Poitier encarnaba a un maestro antillano que enseñaba dignidad y respeto a jóvenes rebeldes del East End de Londres en medio de una época de agudas tensiones raciales. La intérprete era Lulu, una cantante escocesa de apenas dieciocho años célebre por su fiera voz de R&B, que desnudó su alma para cantar con una fragilidad conmovedora. Al llegar a Estados Unidos, los locutores de radio le dieron la vuelta al vinilo por simple curiosidad y las centrales telefónicas colapsaron. «To Sir with Love» se mantuvo cinco semanas consecutivas en el número uno del Billboard Hot 100 y se coronó como la canción número uno de todo el año 1967 en América, superando a The Beatles, The Doors y Aretha Franklin.",
+  "hook": "La canción número uno del año más revolucionario de la música... había sido arrojada a la basura por su discográfica como una simple Cara B.",
+  "beats": [
+    "En el otoño de mil novecientos sesenta y siete, un vinilo de cuarenta y cinco revoluciones giraba en las emisoras más influyentes de Manhattan.",
+    "En el East End londinense de posguerra, jóvenes desahuciados por la pobreza sobrevivían entre fábricas grises y miradas cargadas de desconfianza.",
+    "Frente a ellos se plantó Sidney Poitier: un maestro antillano que desafió la hostilidad de la época enseñando dignidad antes que obediencia.",
+    "Para musicalizar aquella lección humana, el director James Clavell rechazó decenas de compositores consagrados hasta escuchar una modesta maqueta.",
+    "Lulu, una escocesa de dieciocho años famosa por su voz desgarrada, despojó su garganta de artificios para cantar desde la pura vulnerabilidad.",
+    "Pero en Londres, los ejecutivos discográficos mostraron su ceguera: consideraron la balada desechable y la desterraron a la Cara B del vinilo.",
+    "El milagro ocurrió en América: locutores curiosos voltearon el disco y las líneas telefónicas colapsaron ante miles de oyentes conmovidos.",
+    "«To Sir with Love» escaló cinco semanas al número uno de Billboard, coronándose como la canción más exitosa del año sobre The Beatles.",
+    "Una plegaria nacida en el lado oculto de un disco para recordar que un verdadero maestro puede transformar el destino de una vida."
+  ],
+  "outro": "Nació en el lado olvidado de un vinilo para derrotar a los más grandes. ¿Qué maestro o mentor cambió el rumbo de tu vida?",
+  "palette": {
+    "ink": "#0f1416",
+    "paper": "#f8f6f0",
+    "accent": "#c2410c",
+    "glow": "#eab308"
+  },
+  "music": {
+    "title": "To Sir with Love",
+    "artist": "Lulu",
+    "src": "videos/lulu-to-sir-with-love-acordes-ocultos/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.6,
+    "instagram": {
+      "query": "To Sir with Love Lulu",
+      "expectedTitle": "To Sir with Love",
+      "expectedArtist": "Lulu",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/lulu-to-sir-with-love-acordes-ocultos/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-01.png",
+      "prompt": "Cinematic close-up of a vintage 1967 vinyl record single 45 RPM spinning on a turntable under a warm amber beam, focus on the B-side paper record label with text 'To Sir with Love', atmospheric analog 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-02.png",
+      "prompt": "East End London 1967: Damp cobblestone alley between dark industrial brick Victorian warehouses, a group of tough working-class teenagers in 1960s mod jackets and trench coats looking defiant and guarded, soft London fog, documentary 35mm grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-03.png",
+      "prompt": "School classroom London 1967: The distinguished black teacher Mr. Thackeray (resembling Sidney Poitier in his prime) impeccably dressed in a dark 1960s tailored suit, standing tall with profound dignity and warmth before a blackboard with chalk writing, looking calmly at his students, 35mm archival still, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-04.png",
+      "prompt": "Film studio production office 1967: Director James Clavell sitting behind a mahogany desk with a reel-to-reel tape recorder, discarded sheet music in a wastebasket, listening to an acoustic reel tape with deep attention, warm cinematic lighting, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-05.png",
+      "prompt": "Olympic Studios London 1967: Young 18-year-old Scottish singer Lulu with her signature mod light blonde bob haircut, wearing a vintage ribbed sweater, singing with closed eyes and tender emotion into a large Neumann tube microphone, studio headphones over one ear, warm analog glow, 35mm vertical 9:16."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-06.png",
+      "prompt": "London record executive boardroom 1967: Smug music producer in a bespoke suit stamping approval on a vinyl sleeve contract, carelessly tossing the single marked as 'B-Side' onto a pile, oblivious to its brilliance, vintage office interior, 35mm documentary realism, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-07.png",
+      "prompt": "New York City radio station booth autumn 1967: An American radio DJ from behind manually flipping a 45 RPM vinyl record on the studio turntable, bright blinking telephone console lights indicating overwhelming incoming caller requests, view of Manhattan skyline through rain-streaked glass, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-08.png",
+      "prompt": "Vintage 1967 Billboard magazine and music chart documents laid out on a wooden table, highlighted #1 spot showing 'To Sir with Love - Lulu', surpassing Sgt Pepper's Beatles and The Doors singles, golden warm light, authentic archival historical evidence, 35mm film grain, 9:16 vertical."
+    },
+    {
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-09.png",
+      "prompt": "Empty London school classroom at golden sunset: Sunbeams streaming through tall classroom windows onto an oak teacher's desk where a bouquet of flowers and a handwritten thank-you card lie resting, an open doorway leading out, deep poetic nostalgia and gratitude, 35mm documentary still, 9:16 vertical."
+    }
+  ],
+  "timeline": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/lulu-to-sir-with-love-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En el otoño de mil novecientos sesenta y siete, un vinilo de cuarenta y cinco revoluciones giraba en las emisoras más influyentes de Manhattan."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En el East End londinense de posguerra, jóvenes desahuciados por la pobreza sobrevivían entre fábricas grises y miradas cargadas de desconfianza."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Frente a ellos se plantó Sidney Poitier: un maestro antillano que desafió la hostilidad de la época enseñando dignidad antes que obediencia."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Para musicalizar aquella lección humana, el director James Clavell rechazó decenas de compositores consagrados hasta escuchar una modesta maqueta."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Lulu, una escocesa de dieciocho años famosa por su voz desgarrada, despojó su garganta de artificios para cantar desde la pura vulnerabilidad."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Pero en Londres, los ejecutivos discográficos mostraron su ceguera: consideraron la balada desechable y la desterraron a la Cara B del vinilo."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El milagro ocurrió en América: locutores curiosos voltearon el disco y las líneas telefónicas colapsaron ante miles de oyentes conmovidos."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "«To Sir with Love» escaló cinco semanas al número uno de Billboard, coronándose como la canción más exitosa del año sobre The Beatles."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Una plegaria nacida en el lado oculto de un disco para recordar que un verdadero maestro puede transformar el destino de una vida."
+    }
+  ],
+  "publication": {
+    "description": "La Cara B que Venció a The Beatles: Despreciada por su discográfica y desterrada al reverso de un vinilo... la balada que conquistó el número uno de América.\n\nEn 1967, en pleno auge del «Sgt. Pepper's», los ejecutivos londinenses consideraron que una modesta balada escolar no tenía futuro comercial. El productor Mickie Most decidió arrojarla a la Cara B del sencillo «The Boat That I Row».\n\nLa canción pertenecía a la película «To Sir, with Love», donde Sidney Poitier enseñaba dignidad a jóvenes del East End de Londres. La voz era de Lulu, una escocesa de dieciocho años que despojó su garganta de artificios para cantar desde la pura vulnerabilidad.\n\nAl llegar a Estados Unidos, locutores curiosos voltearon el vinilo y las centrales telefónicas colapsaron. «To Sir with Love» escaló cinco semanas al #1 de Billboard y se coronó como la canción más exitosa de todo 1967, superando a The Beatles, The Doors y Aretha Franklin.\n\nNació en el lado olvidado de un disco para recordarnos que un verdadero maestro puede transformar el destino de una vida. ¿Qué mentor o profesor cambió el rumbo de tu vida? Te leemos en los comentarios."
+  }
+}

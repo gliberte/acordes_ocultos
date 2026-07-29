@@ -1,0 +1,148 @@
+{
+  "brand": "secret-chords",
+  "title": "Rasputin",
+  "artist": "Boney M",
+  "durationSeconds": 60,
+  "topic": "musical curiosity",
+  "anecdote": "Can the shadow of destiny stretch so far that a disco star ends his life mathematically mirroring the death of the monk he sang of? During the freezing years of the Iron Curtain, Boney M crossed into Moscow under strict censorship, banned from singing their anthem of rebellion. To the communist regime, the song was an insult; yet on snowy streets, the youth embraced it through clandestinely traded cassette tapes. A year later in Poland, the group defied authority before millions, unleashing pure euphoria with those forbidden chords. On stage, the charismatic Bobby Farrell embodied the wild, mystical figure of Rasputin, fusing his own soul with the myth. Until one cold December night, death claimed him in a hotel room in Saint Petersburg during a winter tour. He died on the exact same day, and in the same city, where the monk was assassinated a century before. A haunting, eternal echo that music could never silence.",
+  "hook": "Can the shadow of destiny stretch so far that a disco star ends his life mathematically mirroring the death of the monk he sang of?",
+  "beats": [
+    "During the freezing years of the Iron Curtain, Boney M crossed into Moscow under strict censorship, banned from singing their anthem of rebellion.",
+    "To the communist regime, the song was an insult; yet on snowy streets, the youth embraced it through clandestinely traded cassette tapes.",
+    "A year later in Poland, the group defied authority before millions, unleashing pure euphoria with those forbidden chords.",
+    "On stage, the charismatic Bobby Farrell embodied the wild, mystical figure of Rasputin, fusing his own soul with the myth.",
+    "Until one cold December night, death claimed him in a hotel room in Saint Petersburg during a winter tour."
+  ],
+  "outro": "He died on the exact same day, and in the same city, where the monk was assassinated a century before. A haunting, eternal echo that music could never silence.",
+  "palette": {
+    "ink": "#0f0808",
+    "paper": "#fbf8f5",
+    "accent": "#cc1a1a",
+    "glow": "#d4af37"
+  },
+  "music": {
+    "title": "Rasputin",
+    "artist": "Boney M",
+    "src": "music/rasputin.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Rasputin Boney M",
+      "expectedTitle": "Rasputin",
+      "expectedArtist": "Boney M",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/rasputin/scene-01.png",
+      "prompt": "A 1978 vinyl single of Boney M's 'Rasputin' on a wooden table, with Red Square in Moscow visible through a snowy window in the background, cold winter lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-02.png",
+      "prompt": "Strict Soviet leader Leonid Brezhnev with bushy eyebrows sitting at a dark wood desk in a Kremlin office, surrounded by Soviet files and red flags, 1978, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-03.png",
+      "prompt": "A dynamic black dancer (Bobby Farrell style) with an afro, wearing a flamboyant open-chest 1970s disco jumpsuit, shouting into a microphone on a massive outdoor festival stage under bright lights, 1979, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-04.png",
+      "prompt": "Hands exchanging a clandestine bootleg cassette tape in a dark, snowy alleyway in Moscow, retro 1970s clothing, espionage vibe, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-05.png",
+      "prompt": "A mysterious Russian monk Grigori Rasputin with a long dark beard and piercing, intense eyes, wearing dark simple robes, vintage black and white photograph look, 1916, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-06.png",
+      "prompt": "A dark hotel room in Saint Petersburg looking out of a frosted glass window onto frozen canals and snowy historical Russian palaces at night, winter, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rasputin/scene-07.png",
+      "prompt": "A theatrical representation of a dancer's silhouette fading into a snowy St. Petersburg street under streetlamps, a haunting intersection of history and disco, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/rasputin/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/rasputin/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/rasputin/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/rasputin/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/rasputin/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/rasputin/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/rasputin/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Can the shadow of destiny stretch so far that a disco star ends his life mathematically mirroring the death of the monk he sang of?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "During the freezing years of the Iron Curtain, Boney M crossed into Moscow under strict censorship, banned from singing their anthem of rebellion."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "To the communist regime, the song was an insult; yet on snowy streets, the youth embraced it through clandestinely traded cassette tapes."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "A year later in Poland, the group defied authority before millions, unleashing pure euphoria with those forbidden chords."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "On stage, the charismatic Bobby Farrell embodied the wild, mystical figure of Rasputin, fusing his own soul with the myth."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Until one cold December night, death claimed him in a hotel room in Saint Petersburg during a winter tour."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "He died on the exact same day, and in the same city, where the monk was assassinated a century before. A haunting, eternal echo that music could never silence."
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "title": "Anduriña",
+  "artist": "Juan y Junior",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo pudo una melancólica balada pop española tocar la fibra sensible del mismísimo Pablo Picasso en su exilio de Francia? En 1968, Juan y Junior compusieron 'Anduriña', un sentido tributo a la juventud ausente y a los paisajes verdes de Galicia. La melodía llegó a Mougins, donde un anciano Picasso, añorando sus años de juventud en La Coruña, quedó cautivado por su dulzura. Conmovido, el maestro tomó un papel y, con unos trazos minimalistas a rotulador, les regaló una anduriña para ilustrar la portada. Aquel boceto de Picasso se convirtió en la icónica portada de miles de discos que inundaron los hogares españoles. Décadas después, entre las mudanzas de la discográfica y la separación del dúo, el dibujo original se perdió para siempre. Un tesoro artístico extraviado del que solo queda su eco en el vinilo. Y tú, ¿qué anduriña has visto volar y no volver?",
+  "hook": "¿Cómo pudo una melancólica balada pop española tocar la fibra sensible del mismísimo Pablo Picasso en su exilio de Francia?",
+  "beats": [
+    "En 1968, Juan y Junior compusieron 'Anduriña', un sentido tributo a la juventud ausente y a los paisajes verdes de Galicia.",
+    "La melodía llegó a Mougins, donde un anciano Picasso, añorando sus años de juventud en La Coruña, quedó cautivado por su dulzura.",
+    "Conmovido, el maestro tomó un papel y, con unos trazos minimalistas a rotulador, les regaló una anduriña para ilustrar la portada.",
+    "Aquel boceto de Picasso se convirtió en la icónica portada de miles de discos que inundaron los hogares españoles.",
+    "Décadas después, entre las mudanzas de la discográfica y la separación del dúo, el dibujo original se perdió para siempre."
+  ],
+  "outro": "Un tesoro artístico extraviado del que solo queda su eco en el vinilo. Y tú, ¿qué anduriña has visto volar y no volver?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f5f3ef",
+    "accent": "#2b5680",
+    "glow": "#cca025"
+  },
+  "music": {
+    "title": "Anduriña",
+    "artist": "Juan y Junior",
+    "src": "music/andurina.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Anduriña Juan y Junior",
+      "expectedTitle": "Anduriña",
+      "expectedArtist": "Juan y Junior",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/andurina/scene-01.png",
+      "prompt": "A 1968 vinyl record single of 'Anduriña' spinning on a vintage wooden turntable, displaying the iconic minimalist swallow cover designed by Pablo Picasso, warm nostalgia, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-02.png",
+      "prompt": "Two young men in 1960s mod fashion (representing Juan Pardo and Junior) standing on a green cliff overlooking a stormy Galician coast in Spain, 1968 vintage film look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-03.png",
+      "prompt": "An elderly Pablo Picasso with a bald head and intense dark eyes, wearing a striped shirt, sitting in his sunny art studio in Mougins, South of France, surrounded by canvases and paintings, 1968, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-04.png",
+      "prompt": "Pablo Picasso's hands drawing a simple, elegant line art swallow on a piece of paper with a black marker, minimalist style, closeup, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-05.png",
+      "prompt": "Dozens of 45 RPM vinyl record singles with the Picasso swallow cover sliding off a vintage factory conveyor belt in Madrid, 1968, retro print look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-06.png",
+      "prompt": "A dusty cardboard box full of old papers and vintage files in an abandoned, empty record label office, afternoon light streaming in, representing lost treasure, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/andurina/scene-07.png",
+      "prompt": "A solitary swallow flying high over a vast green Galician landscape and cliffs overlooking the blue ocean under a soft golden hour sky, highly poetic, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/andurina/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/andurina/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/andurina/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/andurina/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/andurina/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/andurina/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/andurina/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo pudo una melancólica balada pop española tocar la fibra sensible del mismísimo Pablo Picasso en su exilio de Francia?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1968, Juan y Junior compusieron 'Anduriña', un sentido tributo a la juventud ausente y a los paisajes verdes de Galicia."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "La melodía llegó a Mougins, donde un anciano Picasso, añorando sus años de juventud en La Coruña, quedó cautivado por su dulzura."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Conmovido, el maestro tomó un papel y, con unos trazos minimalistas a rotulador, les regaló una anduriña para ilustrar la portada."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Aquel boceto de Picasso se convirtió en la icónica portada de miles de discos que inundaron los hogares españoles."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Décadas después, entre las mudanzas de la discográfica y la separación del dúo, el dibujo original se perdió para siempre."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un tesoro artístico extraviado del que solo queda su eco en el vinilo. Y tú, ¿qué anduriña has visto volar y no volver?"
+    }
+  ]
+}

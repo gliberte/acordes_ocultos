@@ -1,0 +1,182 @@
+{
+  "title": "El Salmo que Venció a la Guerra",
+  "artist": "The Byrds",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1965, The Byrds alcanzaron el número uno mundial con «Turn! Turn! Turn!», logrando un récord insólito: es el éxito pop con la letra más antigua de la humanidad, tomada casi palabra por palabra del Libro de Eclesiastés, atribuido al Rey Salomón hace casi tres mil años. Su origen moderno nació de la indignación: el legendario trovador Pete Seeger, perseguido y censurado por el macartismo, recibió una carta de su editor exigiéndole dejar las canciones de protesta para escribir temas comerciales y bailables. Furioso, Seeger sacó de su bolsillo los versos bíblicos, les puso música en quince minutos y añadió una sola línea de su puño y letra: «Un tiempo para la paz, juro que no es tarde». Años después, The Byrds, heridos en su orgullo porque en su debut los ejecutivos contrataron a músicos de sesión a sus espaldas, se encerraron cinco días y grabaron setenta y ocho agotadoras tomas hasta lograr la perfección en vivo. Cuando el tema escaló a la cima mientras miles de jóvenes marchaban a Vietnam, Seeger donó el 45% de sus regalías millonarias a comités pacifistas, convirtiendo un antiguo proverbio en el escudo moral de toda una generación.",
+  "hook": "El número uno de Billboard con la letra más antigua de la historia: escrita hace casi tres mil años.",
+  "beats": [
+    "A finales de 1965, un éxito pop sacudió el mundo. Su autor no era un rockero: llevaba tres milenios muerto.",
+    "Años atrás, Pete Seeger era perseguido y vetado de radios por el macartismo.",
+    "Su editor le exigió pop comercial; indignado, Seeger musicalizó versos bíblicos exigiendo paz.",
+    "The Byrds necesitaban limpiar su honor: la industria decía que no sabían tocar sus instrumentos.",
+    "Exigidos por Terry Melcher, grabaron setenta y ocho tomas agotadoras en vivo.",
+    "En la toma setenta y ocho, la guitarra de doce cuerdas sonó como un himno celestial.",
+    "A finales de 1965, la canción fue el refugio espiritual de los reclutas en Vietnam.",
+    "Pete Seeger donó casi la mitad de sus regalías millonarias a fundaciones por la paz.",
+    "Un salmo milenario convertido en el escudo de una generación. ¿Qué opinas tú?"
+  ],
+  "outro": "Un salmo milenario convertido en el escudo de una generación. ¿Crees que la música puede frenar una guerra?",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#fef3c7",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Turn! Turn! Turn!",
+    "artist": "The Byrds",
+    "src": "videos/turn-turn-turn-the-byrds/audio.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Turn! Turn! Turn! The Byrds",
+      "expectedTitle": "Turn! Turn! Turn! (To Everything There Is a Season)",
+      "expectedArtist": "The Byrds",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial de The Byrds en TikTok al publicar."
+    }
+  },
+  "coverBg": "videos/turn-turn-turn-the-byrds/cover_bg.png",
+  "assets": [
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-01.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-02.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-03.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-04.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-05.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-06.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-07.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-08.png"
+    },
+    {
+      "src": "videos/turn-turn-turn-the-byrds/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "src": "videos/turn-turn-turn-the-byrds/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "src": "videos/turn-turn-turn-the-byrds/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/turn-turn-turn-the-byrds/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "src": "videos/turn-turn-turn-the-byrds/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "src": "videos/turn-turn-turn-the-byrds/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/turn-turn-turn-the-byrds/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "src": "videos/turn-turn-turn-the-byrds/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "src": "videos/turn-turn-turn-the-byrds/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/turn-turn-turn-the-byrds/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.67,
+      "text": "A finales de 1965, un éxito pop sacudió el mundo. Su autor no era un rockero: llevaba tres milenios muerto.",
+      "assetIndex": 0
+    },
+    {
+      "start": 6.67,
+      "end": 13.33,
+      "text": "Años atrás, Pete Seeger era perseguido y vetado de radios por el macartismo.",
+      "assetIndex": 1
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "Su editor le exigió pop comercial; indignado, Seeger musicalizó versos bíblicos exigiendo paz.",
+      "assetIndex": 2
+    },
+    {
+      "start": 20,
+      "end": 26.67,
+      "text": "The Byrds necesitaban limpiar su honor: la industria decía que no sabían tocar sus instrumentos.",
+      "assetIndex": 3
+    },
+    {
+      "start": 26.67,
+      "end": 33.33,
+      "text": "Exigidos por Terry Melcher, grabaron setenta y ocho tomas agotadoras en vivo.",
+      "assetIndex": 4
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "En la toma setenta y ocho, la guitarra de doce cuerdas sonó como un himno celestial.",
+      "assetIndex": 5
+    },
+    {
+      "start": 40,
+      "end": 46.67,
+      "text": "A finales de 1965, la canción fue el refugio espiritual de los reclutas en Vietnam.",
+      "assetIndex": 6
+    },
+    {
+      "start": 46.67,
+      "end": 53.33,
+      "text": "Pete Seeger donó casi la mitad de sus regalías millonarias a fundaciones por la paz.",
+      "assetIndex": 7
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Un salmo milenario convertido en el escudo de una generación. ¿Qué opinas tú?",
+      "assetIndex": 8
+    }
+  ]
+}

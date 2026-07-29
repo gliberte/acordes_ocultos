@@ -1,0 +1,112 @@
+{
+  "title": "Video Killed the Radio Star",
+  "artist": "The Buggles",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "A finales de los 70, Trevor Horn y Geoff Downes compusieron 'Video Killed the Radio Star' inspirados en la ciencia ficción de J.G. Ballard, narrando con nostalgia cómo las pantallas reemplazarían la magia de la radio. La profecía se cumplió el 1 de agosto de 1981 cuando nació MTV. Para inaugurar el canal de música por cable, los ejecutivos eligieron este tema como el primer video transmitido en la historia de la televisión musical. La canción fue un fenómeno global inmediato, pero paradójicamente The Buggles jamás volvió a colocar otro sencillo en las listas, convirtiéndose en el One-Hit Wonder definitivo. Sin embargo, su líder Trevor Horn se transformó en el productor más codiciado de los 80, moldeando los megahits de bandas como Yes, Frankie Goes to Hollywood y Pet Shop Boys.",
+  "hook": "El 1 de agosto de 1981, nació MTV transmitiendo una canción profética que anunciaba el fin de una era.",
+  "beats": [
+    "A finales de los 70, The Buggles compusieron el tema inspirados en la ciencia ficción de J.G. Ballard.",
+    "La letra advertía con melancolía cómo la tecnología y los videos aplastaban la magia del sonido radial.",
+    "Para su lanzamiento histórico, los ejecutivos de MTV eligieron unánimemente su video como el primero en transmitirse.",
+    "El impacto fue mundial e instantáneo, revolucionando para siempre la forma de consumir la música.",
+    "Paradójicamente, The Buggles jamás tuvo otro éxito, convirtiéndose en el One-Hit Wonder supremo."
+  ],
+  "outro": "Su líder Trevor Horn resurgió como el productor legendario que definió el sonido de los años 80.",
+  "palette": {
+    "ink": "#0a0c10",
+    "paper": "#f3f0e6",
+    "accent": "#ff0055",
+    "glow": "#00f0ff"
+  },
+  "music": {
+    "title": "Video Killed the Radio Star",
+    "artist": "The Buggles",
+    "src": "music/buggles-video-star.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Video Killed the Radio Star The Buggles",
+      "expectedTitle": "Video Killed the Radio Star",
+      "expectedArtist": "The Buggles",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-01.png",
+      "prompt": "Retro 1981 CRT television screen glowing in a dark room showing the iconic MTV logo with static and neon light rays, historic cable TV launch, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-02.png",
+      "prompt": "Trevor Horn (wearing iconic giant thick round glasses) and Geoff Downes in a late 1970s synth studio with vintage synthesizers, futuristic retro sci-fi vibe inspired by J.G. Ballard, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-03.png",
+      "prompt": "An old vintage 1950s radio standing alone on a table with a crack through its wooden speaker grille, glowing television cameras and video monitors surrounding it, retrofuturism, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-04.png",
+      "prompt": "MTV control room on August 1st 1981, TV executives looking excitedly at broadcast monitors playing the Video Killed the Radio Star music video, historic television moment, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-05.png",
+      "prompt": "Surreal 1980s music video set with silver jumpsuit singers, vintage video cameras, neon grid floor, iconic synth-pop aesthetic, film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-06.png",
+      "prompt": "A vinyl record player spinning a 1979 single with one solitary spotlight on a dark stage, symbolic of a legendary One-Hit Wonder, nostalgic 80s lighting, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/buggles-video-killed-radio-star/scene-07.png",
+      "prompt": "Trevor Horn in a high-end 1980s mixing studio surrounded by massive mixing boards and gold records on the wall, iconic music producer portrait, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/buggles-video-killed-radio-star/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/buggles-video-killed-radio-star/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/buggles-video-killed-radio-star/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/buggles-video-killed-radio-star/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/buggles-video-killed-radio-star/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/buggles-video-killed-radio-star/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/buggles-video-killed-radio-star/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El 1 de agosto de 1981, nació MTV transmitiendo una canción profética que anunciaba el fin de una era."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "A finales de los 70, The Buggles compusieron el tema inspirados en la ciencia ficción de J.G. Ballard."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "La letra advertía con melancolía cómo la tecnología y los videos aplastaban la magia del sonido radial."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Para su lanzamiento histórico, los ejecutivos de MTV eligieron unánimemente su video como el primero en transmitirse."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El impacto fue mundial e instantáneo, revolucionando para siempre la forma de consumir la música."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Paradójicamente, The Buggles jamás tuvo otro éxito, convirtiéndose en el One-Hit Wonder supremo."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Su líder Trevor Horn resurgió como el productor legendario que definió el sonido de los años 80."
+    }
+  ]
+}

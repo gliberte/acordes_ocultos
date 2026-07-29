@@ -1,0 +1,112 @@
+{
+  "title": "La Interrupción que Cambió el Pop",
+  "artist": "Taylor Swift",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "En los VMA de 2009, una joven Taylor Swift de 19 años ganó el premio a Mejor Video Femenino por 'You Belong with Me', superando a Beyoncé. Mientras daba emocionada su discurso de agradecimiento, Kanye West subió sorpresivamente al escenario, le arrebató el micrófono de la mano y pronunció la célebre frase: 'Oye, Taylor, me alegro mucho por ti, te voy a dejar terminar, ¡pero Beyoncé tenía uno de los mejores videos de todos los tiempos!'. El público comenzó a abuchear masivamente a Kanye, pero la joven Taylor creyó paralizada que la abucheaban a ella. Más tarde en la noche, al ganar Video del Año, Beyoncé demostró una gran elegancia llamando a Taylor de vuelta al escenario para que tuviera su momento. Lo que comenzó como una humillación en vivo se convirtió en el combustible narrativo de la cultura pop durante más de una década, inspirando canciones como 'Innocent', la era de Reputation y enseñándole a Taylor a tomar el control absoluto de su narrativa artística.",
+  "hook": "Con solo 19 años, Taylor Swift ganó el VMA desencadenando la interrupción más escandalosa de la cultura pop.",
+  "beats": [
+    "Mientras daba su discurso, Kanye West subió al escenario, le arrebató el micrófono y gritó su célebre frase.",
+    "El público abucheó masivamente a Kanye, pero Taylor, parada a su lado, creyó paralizada que la abucheaban a ella.",
+    "Más tarde, Beyoncé demostró clase absoluta al ganar Video del Año: llamó a Taylor para entregarle su momento.",
+    "Lo que parecía una humillación en vivo se convirtió en el combustible narrativo del pop durante más de una década.",
+    "Inspiró temas como 'Innocent' y la era oscura de Reputation con 'Look What You Made Me Do'."
+  ],
+  "outro": "Aquella noche le enseñó a no buscar validación externa y tomar el control de su propia historia.",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f4f1ea",
+    "accent": "#c5a059",
+    "glow": "#e6005c"
+  },
+  "music": {
+    "title": "The Fate of Ophelia",
+    "artist": "Taylor Swift",
+    "src": "music/the-fate-of-ophelia.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "The Fate of Ophelia Taylor Swift",
+      "expectedTitle": "The Fate of Ophelia",
+      "expectedArtist": "Taylor Swift",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-01.mp4",
+      "prompt": "Cinematic short video clip of 19-year-old Taylor Swift in 2009 (wearing a sparkling one-shoulder silver gown, blonde curly hair, holding a Moonman award) walking excitedly to the VMA stage under bright award show spotlights, crowd cheering in background, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-02.mp4",
+      "prompt": "Cinematic short video clip of Kanye West in 2009 (wearing a black leather jacket and sunglasses) grabbing the microphone from 19-year-old Taylor Swift on the VMA stage, speaking aggressively into the mic while Taylor stands shocked, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-03.mp4",
+      "prompt": "Cinematic short video clip of a young blonde Taylor Swift in a silver dress looking stunned and holding back tears on a brightly lit VMA stage while flashbulbs pop and audience boos loudly in the background, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-04.mp4",
+      "prompt": "Cinematic short video clip of Beyoncé in 2009 (wearing an elegant red gown, long wavy hair) smiling warmly on the VMA stage and waving Taylor Swift back up to the microphone, high class gesture, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-05.mp4",
+      "prompt": "Cinematic short video clip of Taylor Swift smiling triumphantly at the microphone holding her award, bright spotlights shining down on her, audience giving a standing ovation, emotional moment, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-06.mp4",
+      "prompt": "Cinematic short video clip of a dark edgy Reputation era aesthetic with glowing snake imagery, dark moody studio lighting, dramatic transformation, modern pop icon, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/taylor-swift-kanye-vma-2009/scene-07.mp4",
+      "prompt": "Cinematic short video clip of a mature confident Taylor Swift walking onto a massive stadium stage surrounded by thousands of cheering fans and glowing lights, powerful artist taking control of her narrative, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/taylor-swift-kanye-vma-2009/scene-01.mp4", "type": "video" },
+    { "start": 9,  "end": 18, "src": "videos/taylor-swift-kanye-vma-2009/scene-02.mp4", "type": "video" },
+    { "start": 18, "end": 27, "src": "videos/taylor-swift-kanye-vma-2009/scene-03.mp4", "type": "video" },
+    { "start": 27, "end": 36, "src": "videos/taylor-swift-kanye-vma-2009/scene-04.mp4", "type": "video" },
+    { "start": 36, "end": 45, "src": "videos/taylor-swift-kanye-vma-2009/scene-05.mp4", "type": "video" },
+    { "start": 45, "end": 54, "src": "videos/taylor-swift-kanye-vma-2009/scene-06.mp4", "type": "video" },
+    { "start": 54, "end": 60, "src": "videos/taylor-swift-kanye-vma-2009/scene-07.mp4", "type": "video" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Con solo 19 años, Taylor Swift ganó el VMA desencadenando la interrupción más escandalosa de la cultura pop."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Mientras daba su discurso, Kanye West subió al escenario, le arrebató el micrófono y gritó su célebre frase."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "El público abucheó masivamente a Kanye, pero Taylor, parada a su lado, creyó paralizada que la abucheaban a ella."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Más tarde, Beyoncé demostró clase absoluta al ganar Video del Año: llamó a Taylor para entregarle su momento."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Lo que parecía una humillación en vivo se convirtió en el combustible narrativo del pop durante más de una década."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Inspiró temas como 'Innocent' y la era oscura de Reputation con 'Look What You Made Me Do'."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Aquella noche le enseñó a no buscar validación externa y tomar el control de su propia historia."
+    }
+  ]
+}

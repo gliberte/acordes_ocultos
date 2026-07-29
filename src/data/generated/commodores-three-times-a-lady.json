@@ -1,0 +1,112 @@
+{
+  "title": "Tres Veces una Dama: Una Carta de Amor Eterno",
+  "artist": "The Commodores",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "'Three Times a Lady' no nació como un cálculo comercial, sino del impacto emocional más íntimo en la vida de Lionel Richie. A finales de los 70, durante la fiesta del 35º aniversario de bodas de sus padres, Lionel escuchó a su padre alzarse ante la multitud, mirar a su esposa con lágrimas en los ojos y dedicarle una declaración de devoción atemporal: 'Te quise en el pasado, te quiero en el presente y te querré en el futuro. Eres tres veces una dama en mi vida'. Conmovido profundamente al contemplar tres generaciones de amor y pensando en su propia esposa Brenda, Lionel regresó esa noche a la soledad del piano. Entre sombras y sentimientos a flor de piel, compuso un vals romántico y melancólico que transformó el susurro de su padre en un himno inmortal para todos los enamorados del mundo.",
+  "hook": "'Three Times a Lady' no nació en un estudio, sino en el abrazo eterno de dos almas que celebraban 35 años de amor.",
+  "beats": [
+    "Durante la fiesta de aniversario, el padre de Lionel alzó su copa y pronunció una declaración que conmovió su alma.",
+    "'Te quise ayer, te quiero hoy y te querré mañana... eres tres veces una dama en mi vida'.",
+    "Aquel gesto de devoción atemporal caló tan hondo en Lionel que lo hizo reflexionar sobre su propio matrimonio con Brenda.",
+    "Esa misma noche, entre sombras y nostalgia, se sentó al piano para transformar ese amor maduro en una melodía inmortal.",
+    "Aunque en el estudio dudaban de la balada, la belleza lírica de la canción trascendió todo miedo convirtiéndose en un himno."
+  ],
+  "outro": "Una carta de amor donde Lionel Richie inmortalizó el sentimiento más puro que unió a su familia para siempre.",
+  "palette": {
+    "ink": "#0d0914",
+    "paper": "#f7f0e6",
+    "accent": "#e6b89c",
+    "glow": "#f4a261"
+  },
+  "music": {
+    "title": "Three Times a Lady",
+    "artist": "The Commodores",
+    "src": "music/commodores-three-times-a-lady.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Three Times a Lady The Commodores",
+      "expectedTitle": "Three Times a Lady",
+      "expectedArtist": "The Commodores",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-01.png",
+      "prompt": "Romantic melancholic 1978 portrait of young 29-year-old Lionel Richie with afro and moustache sitting at a grand piano in dimly lit room, warm candlelight glow, emotional expression, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-02.png",
+      "prompt": "Deeply emotional 1978 anniversary scene, an elderly African American couple embracing tenderly under soft golden party lights, tear of joy on father's cheek, romantic atmosphere, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-03.png",
+      "prompt": "Poetic 1978 photograph of an aging love letter and golden wedding rings resting on ivory piano keys, warm nostalgic lighting, soft focus, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-04.png",
+      "prompt": "Young 29-year-old Lionel Richie holding hands with his wife Brenda in a cozy 1978 living room, looking into her eyes with deep devotion, intimate candlelit moment, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-05.png",
+      "prompt": "Lionel Richie sitting at a piano late at night, silhouette reflected in rain-streaked window overlooking a quiet city night, deep romance and nostalgia, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-06.png",
+      "prompt": "Ethereal vision of a couple dancing a slow romantic waltz in a ballroom lit by thousands of floating golden fairy lights, magical romance atmosphere, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/commodores-three-times-a-lady/scene-07.png",
+      "prompt": "Lionel Richie singing with heartfelt passion into a vintage microphone on stage, warm golden spotlight, emotional soul legend portrait, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/commodores-three-times-a-lady/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/commodores-three-times-a-lady/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/commodores-three-times-a-lady/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/commodores-three-times-a-lady/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/commodores-three-times-a-lady/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/commodores-three-times-a-lady/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/commodores-three-times-a-lady/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "'Three Times a Lady' no nació en un estudio, sino en el abrazo eterno de dos almas que celebraban 35 años de amor."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Durante la fiesta de aniversario, el padre de Lionel alzó su copa y pronunció una declaración que conmovió su alma."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "'Te quise ayer, te quiero hoy y te querré mañana... eres tres veces una dama en mi vida'."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Aquel gesto de devoción atemporal caló tan hondo en Lionel que lo hizo reflexionar sobre su propio matrimonio con Brenda."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Esa misma noche, entre sombras y nostalgia, se sentó al piano para transformar ese amor maduro en una melodía inmortal."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Aunque en el estudio dudaban de la balada, la belleza lírica de la canción trascendió todo miedo convirtiéndose en un himno."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Una carta de amor donde Lionel Richie inmortalizó el sentimiento más puro que unió a su familia para siempre."
+    }
+  ]
+}

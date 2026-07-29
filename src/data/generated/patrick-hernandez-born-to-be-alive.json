@@ -1,0 +1,135 @@
+{
+  "title": "La Canción Rechazada que Vale una Fortuna",
+  "artist": "Patrick Hernandez",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "La historia detrás de 'Born to Be Alive' es fascinante. Escrita en 1973 como una balada lenta de rock, fue rechazada por todas las discográficas y quedó archivada durante cinco años. En 1978, en plena era disco, un productor transformó su ritmo acelerándolo por completo. El resultado fue un éxito devastador que vendió más de 25 millones de copias en todo el mundo. En su gira promocional de 1979 por París, entre su cuerpo de bailarines secundarios destacaba una joven desconocida de 20 años llamada Madonna. Aunque Patrick Hernandez jamás volvió a colocar otro hit mundial, al poseer el 100% de los derechos como autor, compositor y editor, genera entre 800 y 1.500 euros diarios en regalías desde hace más de cuatro décadas.",
+  "hook": "'Born to Be Alive' vendió 25 millones de discos, pero estuvo 5 años guardada porque nadie la quería.",
+  "beats": [
+    "En 1973 nació como una balada lenta de rock que todas las discográficas rechazaron rotundamente.",
+    "Cinco años olvidada en un cajón, hasta que en 1978 aceleraron su compás al ritmo de la música disco.",
+    "El tema explotó en las pistas de baile del planeta, vendiendo más de 25 millones de copias.",
+    "Para su gran gira por París en 1979, Patrick Hernandez convocó audiciones para su cuerpo de baile.",
+    "Entre aquellas bailarinas anónimas de 20 años brillaba una joven con hambre de gloria: Madonna.",
+    "Los productores quedaron fascinados con ella y le propusieron viajar a Nueva York para lanzarla como solista.",
+    "Hernández no volvió a tener otro éxito, pero tomó la decisión más inteligente de su carrera musical.",
+    "Al conservar el 100% de los derechos de autor y edición, cobra entre 800 y 1.500 euros diarios de por vida."
+  ],
+  "outro": "Un solo golpe de genialidad y visión financiera bastaron para transformar un rechazo en una fortuna eterna.",
+  "palette": {
+    "ink": "#0e0914",
+    "paper": "#f7f0e6",
+    "accent": "#ff007f",
+    "glow": "#00f0ff"
+  },
+  "music": {
+    "title": "Born to Be Alive",
+    "artist": "Patrick Hernandez",
+    "src": "music/patrick-hernandez-born-to-be-alive.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Born to Be Alive Patrick Hernandez",
+      "expectedTitle": "Born to Be Alive",
+      "expectedArtist": "Patrick Hernandez",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-01.png",
+      "prompt": "Authentic 1979 photograph of 30-year-old Patrick Hernandez with moustache and white suit dancing with a cane under vibrant disco club lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-02.png",
+      "prompt": "1973 photograph of young Patrick Hernandez playing a slow acoustic guitar in a dusty dim recording studio with rejected paper contracts on the floor, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-03.png",
+      "prompt": "Glitz 1978 Studio 54 style disco dance floor with glittering mirror ball reflections, neon lights, dynamic crowd dancing, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-04.png",
+      "prompt": "Vibrant 1979 European discotheque night scene with packed crowd jumping and dancing under pulsating pink and cyan laser lights, euphoric atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-05.png",
+      "prompt": "1979 Paris rehearsal studio scene of a dance troupe rehearsing energetic choreography for a disco TV show performance, mirrors in background, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-06.png",
+      "prompt": "Authentic 1979 photograph of a 20-year-old unknown Madonna with short dark hair in a dancer outfit performing on stage behind Patrick Hernandez in Paris, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-07.png",
+      "prompt": "Cinematic 1979 airport terminal photograph of ambitious young Madonna carrying a dance duffel bag looking at flights to New York, bright vintage lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-08.png",
+      "prompt": "Close-up of a gold 1979 vinyl record of Born to Be Alive spinning on a turntable with royal royalty contract documents beside it, warm neon lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick-hernandez-born-to-be-alive/scene-09.png",
+      "prompt": "Modern relaxed portrait of an older Patrick Hernandez enjoying coffee on the sunlit terrace of his French countryside stone estate, peaceful luxury life, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/patrick-hernandez-born-to-be-alive/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/patrick-hernandez-born-to-be-alive/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/patrick-hernandez-born-to-be-alive/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/patrick-hernandez-born-to-be-alive/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/patrick-hernandez-born-to-be-alive/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/patrick-hernandez-born-to-be-alive/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/patrick-hernandez-born-to-be-alive/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/patrick-hernandez-born-to-be-alive/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/patrick-hernandez-born-to-be-alive/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "'Born to Be Alive' vendió 25 millones de discos, pero estuvo 5 años guardada porque nadie la quería."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En 1973 nació como una balada lenta de rock que todas las discográficas rechazaron rotundamente."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Cinco años olvidada en un cajón, hasta que en 1978 aceleraron su compás al ritmo de la música disco."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "El tema explotó en las pistas de baile del planeta, vendiendo más de 25 millones de copias."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Para su gran gira por París en 1979, Patrick Hernandez convocó audiciones para su cuerpo de baile."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Entre aquellas bailarinas anónimas de 20 años brillaba una joven con hambre de gloria: Madonna."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Los productores quedaron fascinados con ella y le propusieron viajar a Nueva York para lanzarla como solista."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Hernández no volvió a tener otro éxito, pero tomó la decisión más inteligente de su carrera musical."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Al conservar el 100% de los derechos de autor y edición, cobra entre 800 y 1.500 euros diarios de por vida."
+    }
+  ]
+}

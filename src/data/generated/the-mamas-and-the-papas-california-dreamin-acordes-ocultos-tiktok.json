@@ -1,0 +1,172 @@
+{
+  "title": "El Himno Solar Nacido en un Cuarto Helado",
+  "artist": "The Mamas and the Papas",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1963, el invierno glacial de Nueva York inspiró California Dreamin, un himno que casi no ve la luz y cuyo máster guarda un misterio sonoro.",
+  "hook": "El himno solar más famoso del mundo nació a tres grados bajo cero en un cuarto sin calefacción.",
+  "beats": [
+    "En 1963, Michelle Phillips tenía 18 años y descubrió el terror de la nieve en Nueva York.",
+    "En un cuarto helado del Albert Hotel, sus manos temblaban de frío bajo mantas raídas.",
+    "Se refugió en la Catedral de San Patricio, pero la frialdad eclesiástica la empujó a la calle.",
+    "A las 3 AM, John tomó la guitarra y escribió: All the leaves are brown and the sky is gray.",
+    "En 1965, la canción fue grabada por Barry McGuire con ellos solo en los coros.",
+    "Lou Adler frenó la sesión y borró a Barry para darle la voz líder a The Mamas and the Papas.",
+    "Bud Shank improvisó el solo de flauta más famoso de la historia en una sola toma.",
+    "En el máster original aún se escucha la voz fantasma de Barry en el canal izquierdo.",
+    "Un himno solar que nació del dolor helado y conquistó al mundo. ¿Qué te transmite?"
+  ],
+  "outro": "Un himno solar nacido del frío. ¿Qué sientes al escucharla?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#fbf7ee",
+    "accent": "#f59e0b",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "California Dreamin'",
+    "artist": "The Mamas and the Papas",
+    "src": "music/the-mamas-and-the-papas-california-dreamin.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "California Dreamin The Mamas and the Papas",
+      "expectedTitle": "California Dreamin'",
+      "expectedArtist": "The Mamas & The Papas",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-01.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-02.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-03.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-04.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-05.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-06.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-07.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-08.png"
+    },
+    {
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-09.png"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/the-mamas-and-the-papas-california-dreamin-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1963, Michelle Phillips tenía 18 años y descubrió el terror de la nieve en Nueva York."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "En un cuarto helado del Albert Hotel, sus manos temblaban de frío bajo mantas raídas."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "Se refugió en la Catedral de San Patricio, pero la frialdad eclesiástica la empujó a la calle."
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "text": "A las 3 AM, John tomó la guitarra y escribió: All the leaves are brown and the sky is gray."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "En 1965, la canción fue grabada por Barry McGuire con ellos solo en los coros."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "Lou Adler frenó la sesión y borró a Barry para darle la voz líder a The Mamas and the Papas."
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "text": "Bud Shank improvisó el solo de flauta más famoso de la historia en una sola toma."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "En el máster original aún se escucha la voz fantasma de Barry en el canal izquierdo."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Un himno solar que nació del dolor helado y conquistó al mundo. ¿Qué te transmite?"
+    }
+  ]
+}

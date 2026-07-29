@@ -1,0 +1,107 @@
+{
+  "title": "La Llamada Real que Rompió un Corazón en 3 Minutos (TikTok Cut)",
+  "artist": "Dr. Hook",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "Durante décadas creyeron que era una historia de ficción, pero cada palabra de esta llamada ocurrió en la vida real. En 1966, el compositor Shel Silverstein llamó desesperado a su antiguo amor Sylvia Pandolfi desde una cabina pública. Quien atendió fue su madre Louisa para darle una noticia demoledora: Sylvia empacaba sus maletas para casarse en México. Con la operadora cobrando monedas implacablemente, la madre le suplicó que no arruinara su boda. Shel escribió cada palabra exacta de la conversación y en 1972 Dr. Hook la convirtió en un clásico mundial. Porque a veces, el adiós más doloroso ocurre cuando quien amas ya eligió otro camino.",
+  "hook": "Durante décadas creyeron que era ficción... pero cada segundo de esta llamada ocurrió en la vida real.",
+  "beats": [
+    "Bajo una lluvia torrencial en Nueva York, el compositor Shel Silverstein llamó desesperado al amor de su vida.",
+    "Al otro lado de la línea atendió la madre de Sylvia, Louisa, con voz protectora y firme.",
+    "Le dio la noticia más devastadora: Sylvia empacaba sus maletas para casarse en México.",
+    "Cada tres minutos, la voz de la operadora exigía más monedas para no cortar la llamada.",
+    "Con lágrimas en los ojos, Shel suplicó escuchar a Sylvia una última vez antes de perderla.",
+    "En su apartamento de Greenwich Village, Shel escribió con el corazón roto cada palabra exacta de la llamada.",
+    "En 1972, la banda Dr. Hook convirtió aquella herida en un himno mundial inolvidable."
+  ],
+  "outro": "Porque el adiós más doloroso ocurre cuando la persona que amas ya eligió otro camino.",
+  "palette": {
+    "ink": "#0a0d14",
+    "paper": "#f5f3ef",
+    "accent": "#d97706",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Sylvia's Mother",
+    "artist": "Dr. Hook & the Medicine Show",
+    "src": "music/dr-hook-sylvias-mother.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Sylvia's Mother Dr. Hook",
+      "expectedTitle": "Sylvia's Mother",
+      "expectedArtist": "Dr. Hook & the Medicine Show",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de TikTok / Instagram."
+    }
+  },
+  "assets": [
+    { "src": "videos/dr-hook-sylvias-mother/scene-01.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-02.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-03.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-04.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-05.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-06.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-07.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-08.png" },
+    { "src": "videos/dr-hook-sylvias-mother/scene-09.png" }
+  ],
+  "visuals": [
+    { "start": 0,    "end": 6.7,  "src": "videos/dr-hook-sylvias-mother/scene-01.png", "type": "image" },
+    { "start": 6.7,  "end": 13.4, "src": "videos/dr-hook-sylvias-mother/scene-02.png", "type": "image" },
+    { "start": 13.4, "end": 20.1, "src": "videos/dr-hook-sylvias-mother/scene-03.png", "type": "image" },
+    { "start": 20.1, "end": 26.8, "src": "videos/dr-hook-sylvias-mother/scene-04.png", "type": "image" },
+    { "start": 26.8, "end": 33.5, "src": "videos/dr-hook-sylvias-mother/scene-05.png", "type": "image" },
+    { "start": 33.5, "end": 40.2, "src": "videos/dr-hook-sylvias-mother/scene-06.png", "type": "image" },
+    { "start": 40.2, "end": 46.9, "src": "videos/dr-hook-sylvias-mother/scene-07.png", "type": "image" },
+    { "start": 46.9, "end": 53.6, "src": "videos/dr-hook-sylvias-mother/scene-08.png", "type": "image" },
+    { "start": 53.6, "end": 60.0, "src": "videos/dr-hook-sylvias-mother/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.7,
+      "text": "Durante décadas creyeron que era ficción... pero cada segundo de esta llamada ocurrió en la vida real."
+    },
+    {
+      "start": 6.7,
+      "end": 13.4,
+      "text": "Bajo una lluvia torrencial en Nueva York, el compositor Shel Silverstein llamó desesperado al amor de su vida."
+    },
+    {
+      "start": 13.4,
+      "end": 20.1,
+      "text": "Al otro lado de la línea atendió la madre de Sylvia, Louisa, con voz protectora y firme."
+    },
+    {
+      "start": 20.1,
+      "end": 26.8,
+      "text": "Le dio la noticia más devastadora: Sylvia empacaba sus maletas para casarse en México."
+    },
+    {
+      "start": 26.8,
+      "end": 33.5,
+      "text": "Cada tres minutos, la voz de la operadora exigía más monedas para no cortar la llamada."
+    },
+    {
+      "start": 33.5,
+      "end": 40.2,
+      "text": "Con lágrimas en los ojos, Shel suplicó escuchar a Sylvia una última vez antes de perderla."
+    },
+    {
+      "start": 40.2,
+      "end": 46.9,
+      "text": "En su apartamento de Greenwich Village, Shel escribió con el corazón roto cada palabra exacta de la llamada."
+    },
+    {
+      "start": 46.9,
+      "end": 53.6,
+      "text": "En 1972, la banda Dr. Hook convirtió aquella herida en un himno mundial inolvidable."
+    },
+    {
+      "start": 53.6,
+      "end": 60.0,
+      "text": "Porque el adiós más doloroso ocurre cuando la persona que amas ya eligió otro camino."
+    }
+  ]
+}

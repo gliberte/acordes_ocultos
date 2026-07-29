@@ -1,0 +1,135 @@
+{
+  "title": "El Riff que Slash Odio Tocar",
+  "artist": "Guns N' Roses",
+  "durationSeconds": 90,
+  "topic": "curiosidad musical",
+  "anecdote": "La historia detrás de 'Sweet Child O' Mine' es una de las mayores ironías del rock. En 1986, durante un ensayo en una casa de Sunset Strip, Slash comenzó a tocar un ejercicio técnico circense haciendo muecas para burlarse del baterista Steven Adler. Izzy Stradlin comenzó a seguirlo con acordes rítmicos y Axl Rose, desde su habitación en el segundo piso, escuchó la melodía y escribió apresuradamente un poema inspirado en su novia Erin Everly. A pesar de que Slash odiaba la canción por considerarla 'demasiado dulce y suave' para una banda salvaje de hard rock, durante la grabación improvisaron la famosa línea 'Where do we go now?' al no saber cómo terminar la coda. Aquel calentamiento despreciado por Slash se convirtió en el único número uno de Guns N' Roses en el Billboard Hot 100 y en uno de los himnos más inmortales de la historia de la música.",
+  "hook": "El riff de guitarra más famoso de la historia del rock nació de un chiste circense que Slash odiaba profundamente.",
+  "beats": [
+    "1986: En una caótica casa de Sunset Strip, Slash tocaba un ejercicio repetitivo para burlarse de Steven Adler.",
+    "Desde el segundo piso, Axl Rose escuchó las notas y comenzó a escribir un poema para su novia Erin Everly.",
+    "Aquellos versos íntimos hablaban de la calidez de su mirada y el refugio que encontraba en su sonrisa.",
+    "Slash detestaba el tema por considerarlo una balada empalagosa e impropia de una banda salvaje de hard rock.",
+    "En el estudio, al no saber cómo rematar el final, Axl murmuró angustiado al micrófono: 'Where do we go now?'.",
+    "A pesar de sus dudas, Slash enchufó su amplificador Marshall y grabó uno de los solos más épicos de la historia.",
+    "El sencillo catapultó a la banda a la cima del planeta, desatando la euforia en estadios repletos de todo el mundo.",
+    "Aquel chiste de calentamiento que Slash quiso borrar del disco se convirtió en su único número uno en Billboard."
+  ],
+  "outro": "A veces, las creaciones más inmortales nacen del juego más simple y de los momentos que intentamos ignorar.",
+  "palette": {
+    "ink": "#120507",
+    "paper": "#fbf2ee",
+    "accent": "#d90429",
+    "glow": "#ffb703"
+  },
+  "music": {
+    "title": "Sweet Child O' Mine",
+    "artist": "Guns N' Roses",
+    "src": "music/guns-n-roses-sweet-child-o-mine.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Sweet Child O Mine Guns N Roses",
+      "expectedTitle": "Sweet Child O' Mine",
+      "expectedArtist": "Guns N' Roses",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-01.png",
+      "prompt": "Authentic 1987 photograph of 21-year-old Slash playing a Sunburst Gibson Les Paul guitar with top hat and long curly hair under golden stage lights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-02.png",
+      "prompt": "1986 rehearsal scene in a messy Sunset Strip living room of 21-year-old Slash smirking while playing guitar towards drummer Steven Adler, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-03.png",
+      "prompt": "1986 photograph of 24-year-old Axl Rose with red bandana sitting on upstairs stairs writing lyrics in a worn notebook, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-04.png",
+      "prompt": "1986 tender romantic photograph of 24-year-old Axl Rose and his girlfriend Erin Everly in a vintage 80s Los Angeles apartment, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-05.png",
+      "prompt": "1987 recording studio scene of frustrated Slash arguing with producer Mike Clink over a mixing console about guitar riff, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-06.png",
+      "prompt": "1987 photograph of Axl Rose at studio microphone looking confused asking Where do we go now with headset on, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-07.png",
+      "prompt": "Intense 1987 recording studio photograph of 21-year-old Slash bent backward playing a blazing guitar solo on his Sunburst Les Paul in front of a wall of vintage Marshall amplifiers, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-08.png",
+      "prompt": "Historic 1988 stadium concert shot of Guns N Roses performing Sweet Child O Mine live with massive crowd and stage pyrotechnics, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/guns-n-roses-sweet-child-o-mine/scene-09.png",
+      "prompt": "Macro photograph of an original 1987 Geffen Records vinyl LP of Appetite for Destruction spinning on a turntable with Billboard Number One single chart plaque for Sweet Child O Mine, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 10, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-01.png", "type": "image" },
+    { "start": 10, "end": 20, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-02.png", "type": "image" },
+    { "start": 20, "end": 30, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-03.png", "type": "image" },
+    { "start": 30, "end": 40, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-04.png", "type": "image" },
+    { "start": 40, "end": 50, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-05.png", "type": "image" },
+    { "start": 50, "end": 60, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-06.png", "type": "image" },
+    { "start": 60, "end": 70, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-07.png", "type": "image" },
+    { "start": 70, "end": 80, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-08.png", "type": "image" },
+    { "start": 80, "end": 90, "src": "videos/guns-n-roses-sweet-child-o-mine/scene-09.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "El riff de guitarra más famoso de la historia del rock nació de un chiste circense que Slash odiaba profundamente."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "1986: En una caótica casa de Sunset Strip, Slash tocaba un ejercicio repetitivo para burlarse de Steven Adler."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Desde el segundo piso, Axl Rose escuchó las notas y comenzó a escribir un poema para su novia Erin Everly."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Aquellos versos íntimos hablaban de la calidez de su mirada y el refugio que encontraba en su sonrisa."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Slash detestaba el tema por considerarlo una balada empalagosa e impropia de una banda salvaje de hard rock."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "En el estudio, al no saber cómo rematar el final, Axl murmuró angustiado al micrófono: 'Where do we go now?'."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "A pesar de sus dudas, Slash enchufó su amplificador Marshall y grabó uno de los solos más épicos de la historia."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "El sencillo catapultó a la banda a la cima del planeta, desatando la euforia en estadios repletos de todo el mundo."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Aquel chiste de calentamiento que Slash quiso borrar del disco se convirtió en su único número uno en Billboard."
+    }
+  ]
+}

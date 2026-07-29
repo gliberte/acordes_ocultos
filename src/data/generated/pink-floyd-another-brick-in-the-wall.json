@@ -1,0 +1,112 @@
+{
+  "title": "El Himno Prohibido que Hizo Temblar a un Régimen",
+  "artist": "Pink Floyd",
+  "durationSeconds": 60,
+  "topic": "curiosidad musical",
+  "anecdote": "En 1979, el productor Bob Ezrin llevó en secreto a 23 niños de una modesta escuela pública londinense (Islington Green) a los estudios Britannia Row para grabar el icónico coro: 'We don't need no education'. Roger Waters y la banda no imaginaban el impacto mundial que tendría. Meses después, en 1980, al otro lado del planeta, miles de estudiantes negros en Sudáfrica salieron a las calles para protestar contra la educación segregada e inferior impuesta por el Apartheid, coreando al unísono el tema de Pink Floyd como su himno de guerra y dignidad. El impacto fue tan demoledor que el 2 de mayo de 1980, el régimen racista sudafricano declaró la canción una 'amenaza a la seguridad del Estado' y ordenó su prohibición total en radio, televisión y tiendas de discos. La música demostró una vez más que ningún muro de censura puede silenciar el anhelo de libertad.",
+  "hook": "En 1979, Pink Floyd grabó en secreto a 23 niños de Londres... creando sin saberlo un himno de resistencia mundial.",
+  "beats": [
+    "Aquel coro infantil cantando 'No necesitamos educación' se convirtió en el corazón del tema más rebelde de la banda.",
+    "Pero meses después, en 1980, miles de estudiantes en Sudáfrica marcharon contra el racismo del Apartheid con esta canción.",
+    "Las calles de Soweto y Ciudad del Cabo resonaron con la frase de Pink Floyd convertida en un grito de dignidad.",
+    "Aterrorizado por la rebelión escolar, el régimen racista declaró el tema una amenaza de Estado y lo prohibió totalmente.",
+    "La censura no pudo frenar el fuego: el tema se convirtió en el único número 1 de la banda y un símbolo de libertad."
+  ],
+  "outro": "Un himno inmortal que demostró que no hay muro ni dictadura capaz de silenciar la verdad. ¿Qué sientes al escucharlo?",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f4f1ea",
+    "accent": "#dc2626",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Another Brick in the Wall (Part 2)",
+    "artist": "Pink Floyd",
+    "src": "music/pink-floyd-another-brick-in-the-wall.mp3",
+    "startSecond": 42,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Another Brick in the Wall Pink Floyd",
+      "expectedTitle": "Another Brick in the Wall, Pt. 2",
+      "expectedArtist": "Pink Floyd",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-01.png",
+      "prompt": "Authentic 1979 London recording studio photograph at Britannia Row Studios. Producer Bob Ezrin and sound engineers recording a group of 23 diverse British school children from Islington Green School gathered around studio microphones singing with enthusiasm, analog tape machines in background, warm 1970s studio lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-02.png",
+      "prompt": "Cinematic 1979 studio photograph of Roger Waters with long dark hair and David Gilmour playing his black Fender Stratocaster guitar inside the studio mixing room, smoke in the air, warm vintage atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-03.png",
+      "prompt": "Historical 1980 documentary photograph of South African students during the Apartheid era school boycotts in Cape Town, large crowd of young black students marching peacefully with determined expressions through dusty streets, 35mm photojournalism film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-04.png",
+      "prompt": "Dramatic 1980 photograph of South African student protesters holding handmade protest signs with 'WE DONT NEED NO EDUCATION' written in bold letters, facing military police vehicles in the background, high contrast, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-05.png",
+      "prompt": "Macro still life of a 1980 official South African government censorship decree document with red 'BANNED / VERBODE' rubber stamp over a Pink Floyd 'The Wall' vinyl record sleeve, dark moody lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-06.png",
+      "prompt": "Epic 1980 live concert photograph of Pink Floyd performing 'The Wall' on an enormous stage with the colossal white brick wall partially constructed, giant sinister schoolmaster puppet looming in stage spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-07.png",
+      "prompt": "Cinematic close-up of the original 1979 'The Wall' vinyl record with the iconic white brick wall cover design and Gerald Scarfe typography spinning on a vintage turntable under warm amber lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/pink-floyd-another-brick-in-the-wall/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "En 1979, Pink Floyd grabó en secreto a 23 niños de Londres... creando sin saberlo un himno de resistencia mundial."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Aquel coro infantil cantando 'No necesitamos educación' se convirtió en el corazón del tema más rebelde de la banda."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Pero meses después, en 1980, miles de estudiantes en Sudáfrica marcharon contra el racismo del Apartheid con esta canción."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Las calles de Soweto y Ciudad del Cabo resonaron con la frase de Pink Floyd convertida en un grito de dignidad."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Aterrorizado por la rebelión escolar, el régimen racista declaró el tema una amenaza de Estado y lo prohibió totalmente."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "La censura no pudo frenar el fuego: el tema se convirtió en el único número 1 de la banda y un símbolo de libertad."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un himno inmortal que demostró que no hay muro ni dictadura capaz de silenciar la verdad. ¿Qué sientes al escucharlo?"
+    }
+  ]
+}

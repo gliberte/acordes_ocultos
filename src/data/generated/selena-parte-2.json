@@ -1,0 +1,112 @@
+{
+  "title": "La Leyenda de la Reina del Tex-Mex (Parte 2)",
+  "artist": "Selena Quintanilla",
+  "durationSeconds": 60,
+  "topic": "destellos-de-gloria",
+  "anecdote": "La segunda parte de la historia de Selena Quintanilla relata su explosion internacional, su consagración como icono de la cultura pop y su inmortalidad tras su trágica desaparicion. En 1992 su cancion 'Como la flor' la catapulito en Mexico. En 1994 hizo historia al ganar el Grammy al Mejor Album de Musica Mexicano-Americana por Selena LIVE! e inauguro sus boutiques Selena Etc. El lanzamiento de 'Amor Prohibido' en 1994 y su legendario concierto final en el Astrodome de Houston en 1995 con el jumpsuit morado consagraron su reinado. El 31 de marzo de 1995 su vida fue truncada a los 23 años, y su disco postumo 'Dreaming of You' debuto en el #1 del Billboard 200.",
+  "hook": "Selena Quintanilla se convirtio en la Reina del Tex-Mex y en un icono inmortal de la cultura pop mundial.",
+  "beats": [
+    "1992: El fenomeno de 'Como la flor' supero las 300,000 copias y la consacro definitivamente en Mexico.",
+    "1994: Hizo historia al ganar el Premio Grammy y abrio sus famosas boutiques de moda 'Selena Etc.'",
+    "1994: Lanzo 'Amor Prohibido', uno de los discos latinos mas vendidos de todos los tiempos con 'Bidi Bidi Bom Bom'.",
+    "1995: Su ultimo concierto en el Astrodome de Houston ante 66,000 personas con el jumpsuit morado marco la historia.",
+    "1995: El 31 de marzo de 1995 a los 23 años, su vida fue arrebata trágicamente en Corpus Christi."
+  ],
+  "outro": "1995: Su album postumo 'Dreaming of You' debuto en el #1 del Billboard 200, inmortalizando su leyenda.",
+  "palette": {
+    "ink": "#14041a",
+    "paper": "#faf2fb",
+    "accent": "#9900cc",
+    "glow": "#ff007f"
+  },
+  "music": {
+    "title": "Amor Prohibido",
+    "artist": "Selena",
+    "src": "music/selena-amor-prohibido.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Amor Prohibido Selena",
+      "expectedTitle": "Amor Prohibido",
+      "expectedArtist": "Selena",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/selena-parte-2/scene-01.png",
+      "prompt": "May 1992 photograph of radiant 21-year-old Selena Quintanilla performing Como la Flor live on a stadium stage in Mexico with a sea of fans cheering, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-02.png",
+      "prompt": "March 1 1994 Grammys photograph of 22-year-old Selena Quintanilla in iconic white embroidered gown holding her Grammy Award for Best Mexican-American Album proudly, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-03.png",
+      "prompt": "1994 photograph of 22-year-old fashion designer Selena Quintanilla smiling inside her stylish Selena Etc boutique and beauty salon in Corpus Christi, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-04.png",
+      "prompt": "March 1994 album cover style photograph of 22-year-old Selena Quintanilla in black leather jacket and red lipstick for Amor Prohibido album release, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-05.png",
+      "prompt": "Historic February 26 1995 photograph of 23-year-old Selena Quintanilla performing at Houston Astrodome in her iconic purple glitter jumpsuit in front of 66000 cheering fans, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-06.png",
+      "prompt": "Sober respectful March 31 1995 tribute photograph of a candlelit vigil with white roses and tears outside Days Inn motel in Corpus Christi, 35mm film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/selena-parte-2/scene-07.png",
+      "prompt": "July 1995 photograph of the vinyl record and CD of Dreaming of You with a gold #1 Billboard chart plaque and a glowing angel spotlight, 35mm film grain, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 8,  "src": "videos/selena-parte-2/scene-01.png", "type": "image" },
+    { "start": 8,  "end": 17, "src": "videos/selena-parte-2/scene-02.png", "type": "image" },
+    { "start": 17, "end": 25, "src": "videos/selena-parte-2/scene-03.png", "type": "image" },
+    { "start": 25, "end": 34, "src": "videos/selena-parte-2/scene-04.png", "type": "image" },
+    { "start": 34, "end": 42, "src": "videos/selena-parte-2/scene-05.png", "type": "image" },
+    { "start": 42, "end": 51, "src": "videos/selena-parte-2/scene-06.png", "type": "image" },
+    { "start": 51, "end": 60, "src": "videos/selena-parte-2/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Selena Quintanilla se convirtió en la Reina del Tex-Mex y en un ícono inmortal de la cultura pop mundial."
+    },
+    {
+      "start": 8,
+      "end": 17,
+      "text": "1992: El fenómeno de 'Como la flor' superó las 300,000 copias y la consagró definitivamente en México."
+    },
+    {
+      "start": 17,
+      "end": 25,
+      "text": "1994: Hizo historia al ganar el Premio Grammy y abrió sus famosas boutiques de moda 'Selena Etc.'"
+    },
+    {
+      "start": 25,
+      "end": 34,
+      "text": "1994: Lanzó 'Amor Prohibido', uno de los discos latinos más vendidos de todos los tiempos con 'Bidi Bidi Bom Bom'."
+    },
+    {
+      "start": 34,
+      "end": 42,
+      "text": "1995: Su último concierto en el Astrodome de Houston ante 66,000 personas con el jumpsuit morado marcó la historia."
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "text": "1995: El 31 de marzo de 1995 a los 23 años, su vida fue arrebatada trágicamente en Corpus Christi."
+    },
+    {
+      "start": 51,
+      "end": 60,
+      "text": "1995: Su álbum póstumo 'Dreaming of You' debutó en el #1 del Billboard 200, inmortalizando su leyenda."
+    }
+  ]
+}

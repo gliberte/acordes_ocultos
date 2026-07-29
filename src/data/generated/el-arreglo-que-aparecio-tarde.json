@@ -1,0 +1,182 @@
+{
+  "title": "El solo de saxo de Baker Street",
+  "artist": "Gerry Rafferty",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "Gerry Rafferty estaba atrapado en un limbo legal y durmiendo en el suelo de un amigo cuando escribio Baker Street, la cancion que lo cambiaria todo. La cancion estaba casi lista, pero Gerry sentia que la melodia principal tocada en guitarra no tenia la fuerza dramatica suficiente. En el estudio, decidieron cambiar la guitarra por un saxo alto y llamaron al musico de sesion Raphael Ravenscroft. Ravenscroft entro a la cabina y, en pocas tomas, soplo ese electrizante y melancolico riff de 8 notas. El solo provoco el 'Fenomeno Baker Street': las ventas de saxofones se dispararon a niveles nunca antes vistos en el rock. Ironicamente, el musico recibio un pago de solo 27 libras esterlinas por esa sesion historica, y el cheque inicialmente rebotó. Baker Street demostro que la frustracion urbana y un instrumento de viento pueden inmortalizar un himno eterno.",
+  "hook": "Gerry Rafferty estaba atrapado en un limbo legal y durmiendo en el suelo cuando escribio Baker Street, la cancion que lo cambiaria todo.",
+  "beats": [
+    "La cancion estaba casi lista, pero Gerry sentia que la melodia principal en guitarra no tenia la fuerza suficiente.",
+    "En el estudio, decidieron cambiar la guitarra por un saxo alto y llamaron al musico de sesion Raphael Ravenscroft.",
+    "Ravenscroft entro a la cabina y, en pocas tomas, soplo ese electrizante y melancolico riff de 8 notas.",
+    "El solo provoco el 'Fenomeno Baker Street': las ventas de saxofones se dispararon a niveles nunca antes vistos en el rock.",
+    "Ironicamente, el musico recibio un pago de solo 27 libras esterlinas... y el cheque inicialmente rebotó."
+  ],
+  "outro": "Baker Street demostro que la frustracion urbana y un instrumento de viento pueden inmortalizar un himno eterno.",
+  "palette": {
+    "ink": "#0a0c10",
+    "paper": "#fcfaf2",
+    "accent": "#d4af37",
+    "glow": "#e55b13"
+  },
+  "music": {
+    "title": "Baker Street",
+    "artist": "Gerry Rafferty",
+    "src": "music/gerry-baker-street.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Baker Street Gerry Rafferty",
+      "expectedTitle": "Baker Street",
+      "expectedArtist": "Gerry Rafferty",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical."
+    }
+  },
+  "publication": {
+    "description": "Gerry Rafferty escribio 'Baker Street' en 1978 mientras estaba atrapado en un tenso limbo legal por la disolución de su banda Stealers Wheel. Viajaba de Escocia a Londres y dormia en el suelo del apartamento de un amigo en Baker Street.\n\nLa cancion estaba casi lista, pero faltaba algo definitivo. Rafferty escribio una melodia para que fuera el puente instrumental, pero la guitarra electrica no lograba capturar el impacto deseado. Fue entonces cuando decidieron probar con un saxofon.\n\nEl musico de sesion Raphael Ravenscroft entro a la cabina y grabo el riff de 8 notas mas celebre de la historia del rock. Aquel solo desato el 'Efecto Baker Street', disparando la venta de saxofones en todo el mundo. Lo mas ironico de este himno millonario es que Ravenscroft cobro solo la tarifa estandar de sesion: 27 libras, mediante un cheque que inicialmente reboto."
+  },
+  "assets": [
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-01.png",
+      "prompt": "Gerry Rafferty sitting on a mattress on the floor of a cozy messy London flat in 1977, writing lyrics with an acoustic guitar nearby, warm retro 70s photo style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-02.png",
+      "prompt": "Close-up of 1970s cassette recorder, notebooks with handwritten lyrics, cozy living room in London, soft vintage morning light, analog texture, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-03.png",
+      "prompt": "Gerry Rafferty and a producer listening intently in a 1978 recording studio control room, tape reels spinning, mixing console dials lit up, cinematic documentary feel, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-04.png",
+      "prompt": "Session saxophonist Raphael Ravenscroft standing inside a dim studio recording booth in 1978, holding an alto saxophone, warm spotlight on the brass, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-05.png",
+      "prompt": "Close-up of hands and fingers playing the golden keys of an alto saxophone, dramatic spotlight showing dust particles in the air, warm brass reflections, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-06.png",
+      "prompt": "Moody rainy night in London on Baker Street in the late 1970s, streetlights reflecting on wet asphalt, classic red double-decker bus blurred in the background, cinematic urban melancholy, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/gerry-rafferty-baker-street/scene-07.png",
+      "prompt": "Raphael Ravenscroft smiling backstage in 1978, holding a small paper check of 27 pounds, vintage polaroid photo style, warm color palette, 9:16 aspect ratio"
+    }
+  ],
+  "clip": {
+    "src": "videos/gerry-rafferty-baker-street/transition-sax-solo.mp4",
+    "prompt": "8 second vertical cinematic transition from a backstage saxophonist in a recording booth to a close-up of fingers playing the golden keys of a saxophone, warm studio spotlight, slow camera glide, no text",
+    "startSecond": 48,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 12,
+      "src": "videos/gerry-rafferty-baker-street/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "src": "videos/gerry-rafferty-baker-street/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "src": "videos/gerry-rafferty-baker-street/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "src": "videos/gerry-rafferty-baker-street/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/gerry-rafferty-baker-street/transition-sax-solo.mp4",
+      "type": "video"
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "src": "videos/gerry-rafferty-baker-street/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "src": "videos/gerry-rafferty-baker-street/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/gerry-rafferty-baker-street/scene-06.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "Gerry Rafferty estaba atrapado en un limbo legal y durmiendo en el suelo cuando escribio Baker Street, la cancion que lo cambiaria todo."
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "La cancion estaba casi lista, pero Gerry sentia que la melodia principal en guitarra no tenia la fuerza suficiente."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "text": "En el estudio, decidieron cambiar la guitarra por un saxo alto y llamaron al musico de sesion Raphael Ravenscroft."
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "Ravenscroft entro a la cabina y, en pocas tomas, soplo ese electrizante y melancolico riff de 8 notas."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "El sonido del saxofon resuena con fuerza a traves de los altavoces de la consola..."
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "text": "El solo provoco el 'Fenomeno Baker Street': las ventas de saxofones se dispararon a niveles nunca antes vistos en el rock."
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "Ironicamente, el musico recibio un pago de solo 27 libras esterlinas... y el cheque inicialmente rebotó."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Baker Street demostro que la frustracion urbana y un instrumento de viento pueden inmortalizar un himno eterno."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/gerry-rafferty-baker-street"
+  }
+}

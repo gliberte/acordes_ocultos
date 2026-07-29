@@ -1,0 +1,147 @@
+{
+  "title": "El sabotaje musical que terminó en éxito mundial",
+  "artist": "Blur",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que una broma pesada de diez minutos para fastidiar a una discográfica terminara convertida en el mayor éxito mundial de su carrera? En 1997, Blur estaba harto de las presiones comerciales de su sello y de la guerra del Britpop contra sus eternos rivales, Oasis. Buscando sabotear las exigencias de la radio, compusieron un tema ruidoso, crudo y distorsionado al más puro estilo del grunge americano. Improvisaron una letra sin sentido, colocaron a dos baterías tocando a la vez y dejaron un provisional 'Woo-hoo!' que jamás pensaron conservar. Al recibir la maqueta esperando una bronca, el director de la discográfica se volvió loco de entusiasmo y la lanzó sin cambiarle un solo segundo. La parodia se les fue de las manos: conquistó Estados Unidos, sonorizó el mítico FIFA 98 y se convirtió en el himno de los estadios. Un sabotaje musical perfecto que el destino transformó en leyenda. Y tú, ¿gritaste también el famoso 'Woo-hoo'?",
+  "hook": "¿Cómo es posible que una broma pesada de diez minutos para fastidiar a una discográfica terminara convertida en el mayor éxito mundial de su carrera?",
+  "beats": [
+    "En 1997, Blur estaba harto de las presiones comerciales de su sello y de la guerra del Britpop contra sus eternos rivales, Oasis.",
+    "Buscando sabotear las exigencias de la radio, compusieron un tema ruidoso, crudo y distorsionado al más puro estilo del grunge americano.",
+    "Improvisaron una letra sin sentido, colocaron a dos baterías tocando a la vez y dejaron un provisional 'Woo-hoo!' que jamás pensaron conservar.",
+    "Al recibir la maqueta esperando una bronca, el director de la discográfica se volvió loco de entusiasmo y la lanzó sin cambiarle un solo segundo.",
+    "La parodia se les fue de las manos: conquistó Estados Unidos, sonorizó el mítico FIFA 98 y se convirtió en el himno de los estadios."
+  ],
+  "outro": "Un sabotaje musical perfecto que el destino transformó en leyenda. Y tú, ¿gritaste también el famoso 'Woo-hoo'?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f5f3ef",
+    "accent": "#d9a72b",
+    "glow": "#cca025"
+  },
+  "music": {
+    "title": "Song 2",
+    "artist": "Blur",
+    "src": "music/song2.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Song 2 Blur",
+      "expectedTitle": "Song 2",
+      "expectedArtist": "Blur",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/song2/scene-01.png",
+      "prompt": "A 1997 vinyl record of Blur's self-titled album with 'Song 2' spinning on a turntable, surrounded by grunge stickers and messy electric cables, moody lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-02.png",
+      "prompt": "Two young British musicians with mid-90s indie hairstyles (representing Damon Albarn and Graham Coxon), looking frustrated and defiant in a messy London rehearsal studio, retro Britpop look, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-03.png",
+      "prompt": "Damon Albarn with a spiky haircut screaming 'Woo-hoo!' into a studio microphone, while Graham Coxon with glasses plays a distorted electric guitar aggressively, high energy, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-04.png",
+      "prompt": "Two drummers playing drum kits simultaneously side-by-side in a cramped, hazy recording studio, dramatic lighting, capturing chaotic raw musical energy, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-05.png",
+      "prompt": "Record label executives in a sleek 90s London office, listening to a tape recorder, looking shocked and excited, throwing their hands in the air with enthusiasm, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-06.png",
+      "prompt": "A massive, packed sports stadium crowd cheering under bright stadium lights and confetti, representing the ultimate sports anthem atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/song2/scene-07.png",
+      "prompt": "Damon Albarn in a retro tracksuit jacket, smiling smugly and holding a golden record plaque, vintage 1990s photography style, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/song2/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/song2/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/song2/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/song2/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/song2/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/song2/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/song2/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que una broma pesada de diez minutos para fastidiar a una discográfica terminara convertida en el mayor éxito mundial de su carrera?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1997, Blur estaba harto de las presiones comerciales de su sello y de la guerra del Britpop contra sus eternos rivales, Oasis."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Buscando sabotear las exigencias de la radio, compusieron un tema ruidoso, crudo y distorsionado al más puro estilo del grunge americano."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Improvisaron una letra sin sentido, colocaron a dos baterías tocando a la vez y dejaron un provisional 'Woo-hoo!' que jamás pensaron conservar."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al recibir la maqueta esperando una bronca, el director de la discográfica se volvió loco de entusiasmo y la lanzó sin cambiarle un solo segundo."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "La parodia se les fue de las manos: conquistó Estados Unidos, sonorizó el mítico FIFA 98 y se convirtió en el himno de los estadios."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Un sabotaje musical perfecto que el destino transformó en leyenda. Y tú, ¿gritaste también el famoso 'Woo-hoo'?"
+    }
+  ]
+}

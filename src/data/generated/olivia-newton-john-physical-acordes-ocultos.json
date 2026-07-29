@@ -1,0 +1,183 @@
+{
+  "title": "El Pánico de Physical",
+  "artist": "Olivia Newton-John",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1981, Olivia Newton-John era el arquetipo de la inocencia y la reina indiscutible del pop angelical tras encarnar a Sandy en Grease. Buscando un sonido más maduro, grabó una maqueta descartada por Rod Stewart titulada «Physical». Pero al escuchar la mezcla final en la soledad de su casa, una frase provocadora la paralizó de terror: «There's nothing left to talk about unless it's horizontally». Aterrorizada de que la moral conservadora destrozara su reputación de chica dulce, llamó de madrugada a su representante suplicando llorando que retirara el disco y destruyera las cintas de las radios. Ya era tarde: las emisoras ya la tenían y subía como la espuma. Para salvar su imagen, ideó una jugada maestra: transformar la carnalidad de la letra en una divertida rutina de ejercicios aeróbicos con cintas en el pelo y mallas fluorescentes. Pese a ser censurada en varios estados, la canción reinó diez semanas consecutivas en el número uno de Billboard, coronándose como el mayor éxito comercial de toda la década de los ochenta. ¿Qué otra canción recuerdas con un doble sentido brillante?",
+  "hook": "Llamó llorando a su manager suplicando que destruyeran la cinta... porque una sola frase podía arruinar su carrera para siempre.",
+  "beats": [
+    "En 1981, Olivia Newton-John era el mayor símbolo de pureza y dulzura del pop tras el éxito colosal de Grease.",
+    "Buscando un sonido más maduro, grabó una maqueta rechazada por Rod Stewart con un bajo sintetizado irresistible.",
+    "Pero al escuchar la mezcla terminada en la soledad de su casa, una frase la paralizó de espanto: «unless it's horizontally».",
+    "Aterrorizada de ser juzgada como vulgar por la moral conservadora, llamó a medianoche a su manager exigiendo destruir la cinta.",
+    "Ya era demasiado tarde: el sello había enviado los discos a las emisoras y el público comenzaba a pedirla en masa.",
+    "Para salvar su reputación, ideó una jugada maestra: cambiar el significado carnal por una divertida sesión de gimnasio.",
+    "El videoclip con cintas en el pelo y mallas fluorescentes desató el furor, aunque emisoras de varios estados censuraron la canción.",
+    "La polémica se convirtió en el mayor trampolín de su vida: diez semanas consecutivas en el número uno indiscutible de Billboard.",
+    "El tema que casi sepulta de vergüenza terminó coronándose como el mayor éxito comercial de los años ochenta. ¿Qué otra canción recuerdas con un doble sentido brillante?"
+  ],
+  "outro": "El tema que casi sepulta de vergüenza terminó coronándose como el mayor éxito comercial de los años ochenta. ¿Qué otra canción recuerdas con un doble sentido brillante?",
+  "palette": {
+    "ink": "#111827",
+    "paper": "#fdf4ff",
+    "accent": "#db2777",
+    "glow": "#06b6d4"
+  },
+  "music": {
+    "title": "Physical",
+    "artist": "Olivia Newton-John",
+    "src": "music/olivia-newton-john-physical-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Physical Olivia Newton-John",
+      "expectedTitle": "Physical",
+      "expectedArtist": "Olivia Newton-John",
+      "status": "manual_check_required",
+      "notes": "Audio oficial de Physical al publicar en Instagram Reels."
+    }
+  },
+  "coverBg": "videos/olivia-newton-john-physical-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vintage 1981 analog 35mm film photograph of 33-year-old Australian singer Olivia Newton-John, unmistakable short textured blonde hair, radiant blue eyes, athletic delicate facial features, wearing a stylish 1980s pink and turquoise headband and white off-the-shoulder sweatshirt, slight sweat glow, warm studio lights with soft pastel cyan and magenta neon rim lights, iconic pop aesthetic, 9:16 vertical composition, no text.",
+  "assets": [
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-01.png",
+      "prompt": "1978-1980, vertical 9:16: Olivia Newton-John as the beloved wholesome sweet blonde pop icon in an ethereal soft pastel dress, radiant warm smile, angelic glow, clean studio background, authentic vintage 35mm photography, innocent girl-next-door superstar image."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-02.png",
+      "prompt": "1981 Los Angeles music studio, vertical 9:16: Producer John Farrar and British-Australian singer Olivia Newton-John listening at a high-end analog mixing console, reel-to-reel tape recorder spinning, vintage Minimoog and synthesizers in the background, neon studio glow, 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-03.png",
+      "prompt": "Late night 1981, vertical 9:16: Olivia Newton-John at home in her cozy dimly lit Malibu living room, sitting by a vintage high-end turntable with headphones around her neck, staring in sudden shock and panic at a vinyl test pressing sleeve, warm lamp light, moody 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-04.png",
+      "prompt": "Midnight 1981, vertical 9:16: Close-up of 33-year-old Olivia Newton-John gripping a vintage wall telephone receiver in desperation, distressed emotional expression, blonde hair slightly disheveled, tears in her eyes, pleading into the receiver to stop the release, dark moody room, cinematic 35mm film."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-05.png",
+      "prompt": "Autumn 1981, vertical 9:16: An authentic 1980s radio station studio control room with cart machines and glowing 'ON AIR' red sign, radio DJ speaking into an RCA microphone, stacks of 7-inch vinyl singles labeled 'Physical - Olivia Newton-John', broadcast needles peaking into the red, 35mm documentary grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-06.png",
+      "prompt": "Late 1981 video set brainstorm, vertical 9:16: Director Brian Grant and Olivia Newton-John reviewing colorful storyboard sketches showing funny aerobics gym scenes, sweatbands, dumbells and pastel locker rooms, a sudden breakthrough smile of relief on Olivia's face, 35mm film style."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-07.png",
+      "prompt": "1981 music video shoot, vertical 9:16: Olivia Newton-John in her iconic workout outfit with blue headband, white top and pink tights, leading an aerobics class of men in a brightly lit pastel 1980s gym, towel around her neck, dynamic energetic pose, vibrant 80s film aesthetic."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-08.png",
+      "prompt": "Late 1981, vertical 9:16: Authentic Billboard magazine Hot 100 chart printed page resting on a lacquer table, bold letters showing '#1 PHYSICAL - OLIVIA NEWTON-JOHN', a gold record award leaning beside it, champagne glass reflecting festive 1980s party lights, 35mm film grain."
+    },
+    {
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-09.png",
+      "prompt": "1982 live concert, vertical 9:16: Olivia Newton-John performing on a massive arena stage under dazzling neon laser beams and pink spotlights, triumphant confident smile, stylish 80s stage costume, holding microphone as tens of thousands of ecstatic fans cheer, iconic legend status, 35mm concert documentary photography."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/olivia-newton-john-physical-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1981, Olivia Newton-John era el mayor símbolo de pureza y dulzura del pop tras el éxito colosal de Grease."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Buscando un sonido más maduro, grabó una maqueta rechazada por Rod Stewart con un bajo sintetizado irresistible."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Pero al escuchar la mezcla terminada en la soledad de su casa, una frase la paralizó de espanto: «unless it's horizontally»."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Aterrorizada de ser juzgada como vulgar por la moral conservadora, llamó a medianoche a su manager exigiendo destruir la cinta."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Ya era demasiado tarde: el sello había enviado los discos a las emisoras y el público comenzaba a pedirla en masa."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Para salvar su reputación, ideó una jugada maestra: cambiar el significado carnal por una divertida sesión de gimnasio."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "El videoclip con cintas en el pelo y mallas fluorescentes desató el furor, aunque emisoras de varios estados censuraron la canción."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "La polémica se convirtió en el mayor trampolín de su vida: diez semanas consecutivas en el número uno indiscutible de Billboard."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "El tema que casi sepulta de vergüenza terminó coronándose como el mayor éxito comercial de los años ochenta. ¿Qué otra canción recuerdas con un doble sentido brillante?"
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "title": "El Secreto de As Tears Go By",
+  "artist": "The Rolling Stones",
+  "durationSeconds": 90,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1964, los Rolling Stones eran solo una ruda banda de versiones de blues. Desesperado por competir con los Beatles, su manager Andrew Loog Oldham encerró bajo llave a Mick Jagger y Keith Richards en una pequeña cocina de Londres, advirtiéndoles que no saldrían hasta escribir una canción original sin sexo y rodeada de nostalgia. De aquel encierro forzado nació «As Tears Go By», pero a los Stones les pareció tan tierna y blanda que se negaron a grabarla. Oldham se la entregó a Marianne Faithfull, una inocente colegiala de 17 años que la convirtió en un éxito mundial. Marianne se transformó en la musa y amante de Jagger, sumergiéndose en una espiral destructiva de drogas, escándalos mediáticos y un intento de suicidio en Sídney que la dejó días en coma. Años después, tras perderlo todo y vivir como indigente en las calles del Soho, Marianne resurgió de las cenizas para volver a cantar aquella canción con una voz rajada por el dolor. Aquellos versos que dos jóvenes escribieron encerrados en una cocina cobraron una desgarradora verdad: la pérdida irremediable de la inocencia.",
+  "hook": "Los encerraron con llave en una cocina para obligarlos a componer... y su canción predijo la tragedia de su mayor musa.",
+  "beats": [
+    "En 1964, desesperado por competir contra los Beatles, el manager de los Rolling Stones encerró bajo llave a Mick Jagger y Keith Richards en una cocina.",
+    "Tras horas de encierro compusieron su primera canción original, «As Tears Go By»; pero les pareció tan tierna y melancólica que se negaron a grabarla.",
+    "Oldham decidió regalarle el tema a Marianne Faithfull, una inocente colegiala de diecisiete años cuya voz angelical transformó la balada en un hit mundial.",
+    "Marianne se convirtió en la musa y amante de Mick Jagger, sumergiéndose juntos en el torbellino más salvaje y deslumbrante de la cultura pop británica.",
+    "Al ver el impacto arrollador de la balada, los propios Rolling Stones se rindieron a su belleza y la grabaron arropados por un cuarteto de cuerdas.",
+    "Pero el mito cobró un peaje atroz: acosada por los escándalos, Marianne cayó en una sobredosis en Australia que la dejó seis días en coma profundo.",
+    "Tras la ruptura con Jagger, lo perdió todo: pasó dos años viviendo como indigente en edificios ocupados del Soho, consumida por una severa adicción.",
+    "Resurgió de sus cenizas años después para volver a cantar aquella balada, pero ahora con una voz rota y rasgada por las heridas del dolor real.",
+    "El tiempo pasa y la inocencia jamás regresa. ¿Crees que el sufrimiento y las cicatrices hacen que una canción sea verdaderamente inmortal?"
+  ],
+  "outro": "El tiempo pasa y la inocencia jamás regresa. ¿Crees que el sufrimiento y las cicatrices hacen que una canción sea verdaderamente inmortal?",
+  "palette": {
+    "ink": "#0f0e0c",
+    "paper": "#fbf8f2",
+    "accent": "#991b1b",
+    "glow": "#d97706"
+  },
+  "music": {
+    "title": "As Tears Go By",
+    "artist": "The Rolling Stones",
+    "src": "music/the-rolling-stones-as-tears-go-by-acordes-ocultos-90s.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "As Tears Go By The Rolling Stones",
+      "expectedTitle": "As Tears Go By",
+      "expectedArtist": "The Rolling Stones",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Authentic vertical 9:16 portrait of young 21-year-old Mick Jagger and 20-year-old Keith Richards in early 1965 London: Mick Jagger with his iconic full lips, shaggy dark mop-top hair and brooding soulful eyes wearing a dark turtleneck; Keith Richards beside him holding an acoustic guitar with sharp cheekbones, moody natural London studio shadows with soft golden light dust motes, 1960s 35mm black and white tinted vintage film grain photography, centered composition, safe bottom area for typography, no text.",
+  "assets": [
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-01.png",
+      "prompt": "London apartment hallway 1964, vertical 9:16: Manager Andrew Loog Oldham (sharp mod suit, dark sunglasses, cigarette in mouth) standing outside an old painted kitchen door, turning a heavy iron key in the lock, through the frosted glass panel the vague silhouettes of young Mick Jagger and Keith Richards trapped inside, gritty 1964 London atmosphere, black and white archival documentary photography, 35mm grain, no text."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-02.png",
+      "prompt": "Small London tenement kitchen 1964, vertical 9:16: 20-year-old Mick Jagger sitting at a worn wooden kitchen table scribbling lyrics on a notepad, while young Keith Richards sits across holding an acoustic guitar, looking at the chord paper with cynical skepticism, a single bare lightbulb hanging from the ceiling, vintage tea mugs on the table, 1964 35mm film photography grain, authentic archival look."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-03.png",
+      "prompt": "London recording studio 1964, vertical 9:16: A young British blonde female singer in an elegant white turtleneck knit sweater, standing poised and singing into a vintage studio microphone with warm golden studio halo lighting, acoustic guitars in the soft background, classic 1960s 35mm film photography grain, poignant atmosphere, no text."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-04.png",
+      "prompt": "Authentic 1966 London street candid 35mm film photography, vertical 9:16 aspect ratio: Mick Jagger and Marianne Faithfull walking arm in arm down King's Road Chelsea in warm golden afternoon sunlight. Mick Jagger is 22 years old with his unmistakable full lips, slender jawline, shaggy dark brown mod hair, wearing a dark green velvet tailored blazer and slim black trousers. Beside him, Marianne Faithfull is 19 years old with her world-famous long platinum blonde straight hair and heavy straight-across bangs/fringe, big expressive blue eyes and delicate angelic face, wearing a chic 1966 London swinging sixties stylish coat and mini dress. In the background, elegant London brick Georgian townhouses, red double-decker bus in soft distance, authentic 1960s British youth culture, Kodachrome vintage color palette, rich analog 35mm grain, no text."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-05.png",
+      "prompt": "London recording studio 1965, vertical 9:16: The Rolling Stones in the studio, a young singer singing into a microphone beside an acoustic guitar player, surrounded by a four-piece classical string quartet playing violins and cello under warm amber lamps, baroque pop atmosphere, 35mm film grain."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-06.png",
+      "prompt": "Cinematic 1960s hotel room interior at night in Sydney, vertical 9:16: A warm vintage bedside lamp with glowing amber light illuminating a dark wooden desk where a poignant handwritten farewell letter, an old fountain pen, and a glass of water rest. Soft rain streaks glistening on the window panes overlooking misty nighttime city lights outside, deep emotional melancholia, Kodachrome 35mm film photography grain, rich warm chiaroscuro lighting, poignant sadness, no people, no text."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-07.png",
+      "prompt": "Atmospheric 1970s London Soho street at dusk, vertical 9:16: A solitary woman wrapped in a bohemian oversized wool coat and dark scarf walking past historic brick buildings and dim bohemian storefronts under the glowing warm golden illumination of traditional London wrought iron streetlamps. Wet cobblestones reflecting the street lights, soft evening mist, poignant mood of resilience and survival, 35mm documentary photography, rich film grain, authentic vintage tone, no text."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-08.png",
+      "prompt": "Concert stage 1980s, vertical 9:16: A mature blonde female rock singer with short hair and an expressive weathered gaze, singing with emotional intensity into a stage microphone under a single piercing amber spotlight cutting through dark haze, powerful performance of a survivor, 35mm concert photography."
+    },
+    {
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-09.png",
+      "prompt": "Poetic closing metaphor London park at dusk, vertical 9:16: A solitary weathered wooden park bench resting on wet green grass covered with scattered golden autumn leaves, soft amber twilight glowing in the chilly evening mist, distant empty wooden playground swings gently rocking in the breeze, cinematic visual metaphor for the passage of time and lost days, no people, 35mm film still."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/the-rolling-stones-as-tears-go-by-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "En 1964, desesperado por competir contra los Beatles, el manager de los Rolling Stones encerró bajo llave a Mick Jagger y Keith Richards en una cocina."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Tras horas de encierro compusieron su primera canción original, «As Tears Go By»; pero les pareció tan tierna y melancólica que se negaron a grabarla."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Oldham decidió regalarle el tema a Marianne Faithfull, una inocente colegiala de diecisiete años cuya voz angelical transformó la balada en un hit mundial."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Marianne se convirtió en la musa y amante de Mick Jagger, sumergiéndose juntos en el torbellino más salvaje y deslumbrante de la cultura pop británica."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Al ver el impacto arrollador de la balada, los propios Rolling Stones se rindieron a su belleza y la grabaron arropados por un cuarteto de cuerdas."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Pero el mito cobró un peaje atroz: acosada por los escándalos, Marianne cayó en una sobredosis en Australia que la dejó seis días en coma profundo."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Tras la ruptura con Jagger, lo perdió todo: pasó dos años viviendo como indigente en edificios ocupados del Soho, consumida por una severa adicción."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Resurgió de sus cenizas años después para volver a cantar aquella balada, pero ahora con una voz rota y rasgada por las heridas del dolor real."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "El tiempo pasa y la inocencia jamás regresa. ¿Crees que el sufrimiento y las cicatrices hacen que una canción sea verdaderamente inmortal?"
+    }
+  ],
+  "publication": {
+    "title": "La balada nacida bajo llave",
+    "description": "Los encerraron con llave en una cocina para obligarlos a componer... y su primera canción predijo la tragedia de su mayor musa.\n\nEn 1964, los Rolling Stones eran solo una banda de versiones de blues. Para forzarlos a competir con los Beatles, su manager encerró a Mick Jagger y Keith Richards en una pequeña cocina de Londres, advirtiéndoles que no saldrían hasta escribir una canción original sin sexo ni rudeza. Así nació «As Tears Go By», pero a los Stones les pareció tan tierna y blanda que se negaron a grabarla.\n\nEl tema le fue entregado a Marianne Faithfull, una colegiala de 17 años que la convirtió en un éxito planetario. Marianne se convirtió en amante y musa de Jagger, pero el torbellino de los sesenta la arrastró a un intento de suicidio y a terminar viviendo como indigente en las calles del Soho. Años después resurgió para volver a cantarla con una voz rota por las cicatrices de la vida.\n\n¿Crees que el dolor real hace que una obra musical sea verdaderamente inmortal?\n\n#TheRollingStones #MickJagger #MarianneFaithfull #AsTearsGoBy #AcordesOcultos #HistoriaDelRock #LeyendasDelRock",
+    "social": {
+      "instagram": {
+        "caption": "Los encerraron con llave en una cocina para obligarlos a componer... y su primera canción predijo la tragedia de su mayor musa.\n\nEn 1964, los Rolling Stones eran solo una banda de versiones de blues. Para forzarlos a competir con los Beatles, su manager encerró a Mick Jagger y Keith Richards en una pequeña cocina de Londres, advirtiéndoles que no saldrían hasta escribir una canción original sin sexo ni rudeza. Así nació «As Tears Go By», pero a los Stones les pareció tan tierna y blanda que se negaron a grabarla.\n\nEl tema le fue entregado a Marianne Faithfull, una colegiala de 17 años que la convirtió en un éxito planetario. Marianne se convirtió en amante y musa de Jagger, pero el torbellino de los sesenta la arrastró a un intento de suicidio y a terminar viviendo como indigente en las calles del Soho. Años después resurgió para volver a cantarla con una voz rota por las cicatrices de la vida.\n\n¿Crees que el dolor real hace que una obra musical sea verdaderamente inmortal?\n\n#TheRollingStones #MickJagger #MarianneFaithfull #AsTearsGoBy #AcordesOcultos #HistoriaDelRock #LeyendasDelRock",
+        "hashtags": [
+          "#TheRollingStones",
+          "#MickJagger",
+          "#MarianneFaithfull",
+          "#AsTearsGoBy",
+          "#AcordesOcultos",
+          "#HistoriaDelRock",
+          "#LeyendasDelRock"
+        ]
+      }
+    }
+  }
+}

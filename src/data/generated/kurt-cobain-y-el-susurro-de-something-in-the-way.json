@@ -1,0 +1,183 @@
+{
+  "title": "Kurt Cobain y el susurro de Something in the Way",
+  "artist": "Kurt Cobain",
+  "durationSeconds": 90,
+  "topic": "anecdota musical",
+  "anecdote": "En 1991, Nirvana estaba grabando su disco Nevermind en los estudios Sound City de Los Angeles. Kurt Cobain queria grabar una balada acustica y melancolica, 'Something in the Way', pero la banda no lograba capturar el tono correcto tocando con fuerza. Frustrado, Kurt entro a la cabina del productor Butch Vig con una guitarra acustica de 12 cuerdas barata que apenas se mantenia afinada. Kurt se acosto en un viejo sofa de los estudios y comenzo a tocar y susurrar la cancion de manera extremadamente fragil. Butch Vig supo que ese era el sonido: apago el aire acondicionado para evitar ruidos y subio los microfonos al maximo para capturar cada susurro. Tuvieron que grabar la bateria y el bajo despues, siguiendo el ritmo irregular de la guitarra acustica de Kurt. El resultado fue la cancion mas intima y desoladora de Nevermind, nacida de un susurro en un sofa viejo.",
+  "hook": "En 1991, Nirvana intentaba grabar una de sus canciones mas tristes, pero la banda no lograba dar con el tono.",
+  "beats": [
+    "Tocaban con demasiada fuerza. Frustrado, Kurt se retiro a la cabina del productor Butch Vig con una guitarra acustica barata.",
+    "Kurt se acosto en un viejo sofa verde del estudio y comenzo a tocar y susurrar la cancion de forma fragil.",
+    "Butch Vig supo de inmediato que ese era el sonido: apago el aire acondicionado y subio los microfonos al maximo.",
+    "La grabacion fue tan intima que los instrumentos de Dave y Krist tuvieron que grabarse despues, siguiendo su ritmo irregular.",
+    "Dave Grohl tuvo que tocar la bateria con una suavidad extrema, algo casi imposible para su estilo salvaje.",
+    "El violonchelo de Kirk Canning tambien se agrego despues para darle ese tono desolador y melancolico."
+  ],
+  "outro": "Asi nacio la cancion mas desoladora de Nevermind, grabada desde la fragilidad de un susurro en un sofa.",
+  "palette": {
+    "ink": "#0d0f12",
+    "paper": "#e8e6e1",
+    "accent": "#0a6470",
+    "glow": "#ffd60a"
+  },
+  "music": {
+    "title": "Something in the Way",
+    "artist": "Nirvana",
+    "src": "music/kurt-something.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Something in the Way Nirvana",
+      "expectedTitle": "Something in the Way",
+      "expectedArtist": "Nirvana",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone busqueda completa de la libreria musical."
+    }
+  },
+  "publication": {
+    "description": "En 1991, durante las sesiones de Nevermind en Sound City, Nirvana intentaba grabar 'Something in the Way'. Sin embargo, la banda tocaba con tanta fuerza que era imposible plasmar el tono melancolico y deprimente que Kurt buscaba.\n\nFrustrado, Kurt se retiro del area de grabacion comun y entro a la cabina con una vieja guitarra acustica de 12 cuerdas. Se acosto en un viejo sofa y comenzo a susurrar la letra.\n\nEl productor Butch Vig supo que ese era el momento magico: apago la ventilacion y coloco los microfonos pegados a sus labios para registrar la fragilidad de su voz. Dave Grohl y Krist Novoselic tuvieron que agregar sus partes despues, tocando con una suavidad inusual en ellos. Asi se esculpio un himno de desolacion absoluta."
+  },
+  "assets": [
+    {
+      "src": "videos/kurt-cobain-something/scene-01.png",
+      "prompt": "Kurt Cobain in 1991 sitting on a wooden stool in a recording studio, holding an acoustic guitar, looking tired and reflective, wearing a striped cardigan, grunge aesthetic, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-02.png",
+      "prompt": "The recording room of Sound City studios, messy with amplifiers, cables, and microphones, dim moody lighting, vintage 1991 documentary photo style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-03.png",
+      "prompt": "Kurt Cobain in a tense discussion with producer Butch Vig in front of a mixing console, warm yellow lighting, smoke in the air, intimate studio atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-04.png",
+      "prompt": "Kurt Cobain lying down on a worn-out vintage brown leather sofa in a dimly lit studio corner, holding a cheap 12-string acoustic guitar, looking up at the ceiling, grunge photography, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-05.png",
+      "prompt": "A dramatic close-up of a vintage studio microphone (Neumann U47) positioned close to Kurt Cobain's face as he whispers, dark studio background, dust particles lit by a single spotlight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-06.png",
+      "prompt": "Krist Novoselic and Dave Grohl listening intently in the control room, looking through the studio glass at Kurt, soft backlighting, 1990s documentary style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/kurt-cobain-something/scene-07.png",
+      "prompt": "An iconic grunge portrait of Kurt Cobain close-up, eyes closed, whispering into a vintage microphone, dark moody background, high contrast, 9:16 aspect ratio"
+    }
+  ],
+  "clip": {
+    "src": "videos/kurt-cobain-something/transition-whisper-soundcity.mp4",
+    "prompt": "8 second vertical cinematic transition from a guitarist lying on a sofa to a close-up of a studio microphone in front of his face, slow motion, warm dark lighting, no text",
+    "startSecond": 48,
+    "durationSeconds": 8,
+    "transitionFromAssetIndex": 3,
+    "transitionToAssetIndex": 4
+  },
+  "visuals": [
+    {
+      "start": 0,
+      "end": 12,
+      "src": "videos/kurt-cobain-something/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "src": "videos/kurt-cobain-something/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "src": "videos/kurt-cobain-something/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "src": "videos/kurt-cobain-something/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "src": "videos/kurt-cobain-something/transition-whisper-soundcity.mp4",
+      "type": "video"
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "src": "videos/kurt-cobain-something/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "src": "videos/kurt-cobain-something/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/kurt-cobain-something/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 12,
+      "text": "En 1991, Nirvana intentaba grabar una de sus canciones mas tristes, pero la banda no lograba dar con el tono."
+    },
+    {
+      "start": 12,
+      "end": 24,
+      "text": "Tocaban con demasiada fuerza. Frustrado, Kurt se retiro a la cabina del productor Butch Vig con una guitarra acustica barata."
+    },
+    {
+      "start": 24,
+      "end": 36,
+      "text": "Kurt se acosto en un viejo sofa verde del estudio y comenzo a tocar y susurrar la cancion de forma fragil."
+    },
+    {
+      "start": 36,
+      "end": 48,
+      "text": "Butch Vig supo de inmediato que ese era el sonido: apago el aire acondicionado y subio los microfonos al maximo."
+    },
+    {
+      "start": 48,
+      "end": 56,
+      "text": "La grabacion fue tan intima que los instrumentos de Dave y Krist tuvieron que grabarse despues, siguiendo su ritmo irregular."
+    },
+    {
+      "start": 56,
+      "end": 68,
+      "text": "Dave Grohl tuvo que tocar la bateria con una suavidad extrema, algo casi imposible para su estilo salvaje."
+    },
+    {
+      "start": 68,
+      "end": 80,
+      "text": "El violonchelo de Kirk Canning tambien se agrego despues para darle ese tono desolador y melancolico."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Asi nacio la cancion mas desoladora de Nevermind, grabada desde la fragilidad de un susurro en un sofa."
+    }
+  ],
+  "generation": {
+    "provider": "openai-veo",
+    "imageProvider": "codex-imagegen",
+    "videoProvider": "veo",
+    "imageModel": "gpt-image-2",
+    "videoModel": "veo-3.1-generate-preview",
+    "imageAspectRatio": "9:16",
+    "imageSize": "1088x1920",
+    "videoAspectRatio": "9:16",
+    "videoResolution": "720p",
+    "videoDurationSeconds": 8,
+    "outputDir": "videos/kurt-cobain-something"
+  }
+}

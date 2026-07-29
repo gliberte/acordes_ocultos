@@ -1,0 +1,147 @@
+{
+  "title": "Lean on Me",
+  "artist": "Bill Withers",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El himno de hermandad 'Lean on Me' de Bill Withers nació de la soledad y un piano tocado por accidente. Tras mudarse a la gigantesca Los Ángeles, Withers se sintió profundamente solo y nostálgico de su hogar. Extrañaba Slab Fork, el pequeño y humilde pueblo minero de Virginia Occidental donde creció rodeado de solidaridad. Buscando consuelo, compró un piano eléctrico pequeño. Pero Withers apenas sabía tocarlo. Por puro azar y limitaciones técnicas, deslizó sus dedos únicamente por las teclas blancas del teclado. Ese simple y limitado movimiento improvisado dio origen a uno de los riffs de piano más reconfortantes de la historia. Así fue como la nostalgia por su pueblo y un tropiezo al teclado crearon un himno universal de amistad.",
+  "hook": "El himno de hermandad 'Lean on Me' de Bill Withers nació de la soledad y un piano tocado por accidente.",
+  "beats": [
+    "Tras mudarse a la gigantesca Los Ángeles, Withers se sintió profundamente solo y nostálgico de su hogar.",
+    "Extrañaba Slab Fork, el pequeño y humilde pueblo minero de Virginia Occidental donde creció rodeado de solidaridad.",
+    "Buscando consuelo, compró un piano eléctrico pequeño. Pero Withers apenas sabía tocarlo.",
+    "Por puro azar y limitaciones técnicas, deslizó sus dedos únicamente por las teclas blancas del teclado.",
+    "Ese simple y limitado movimiento improvisado dio origen a uno de los riffs de piano más reconfortantes de la historia."
+  ],
+  "outro": "Así fue como la nostalgia por su pueblo y un tropiezo al teclado crearon un himno universal de amistad.",
+  "palette": {
+    "ink": "#181008",
+    "paper": "#fbf8f0",
+    "accent": "#bf7a2a",
+    "glow": "#dfa53a"
+  },
+  "music": {
+    "title": "Lean on Me",
+    "artist": "Bill Withers",
+    "src": "music/bill-withers-lean.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Lean on Me Bill Withers",
+      "expectedTitle": "Lean on Me",
+      "expectedArtist": "Bill Withers",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/bill-withers-lean/scene-01.png",
+      "prompt": "Bill Withers in 1972 sitting at a warm electric piano in a recording studio, looking thoughtful, retro film color grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-02.png",
+      "prompt": "A panoramic twilight shot of 1970s Los Angeles skyline covered in light smog, vast and busy highway traffic below, nostalgic vintage grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-03.png",
+      "prompt": "A simple and small coal mining town in West Virginia in the 1970s, humble wooden houses, hills, misty and nostalgic atmosphere, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-04.png",
+      "prompt": "A vintage Wurlitzer electric piano sitting in a small, warm apartment living room under soft yellow lamplight, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-05.png",
+      "prompt": "Close up of hands playing on a vintage electric piano keys, with clear focus on only the white keys, warm golden studio lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-06.png",
+      "prompt": "An analog VU meter on a recording studio mixing board showing warm levels, with fuzzy yellow indicator lights in the background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/bill-withers-lean/scene-07.png",
+      "prompt": "A vintage copy of Lean on Me vinyl single with yellow Sussex Records label spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/bill-withers-lean/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/bill-withers-lean/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/bill-withers-lean/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/bill-withers-lean/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/bill-withers-lean/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/bill-withers-lean/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/bill-withers-lean/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno de hermandad 'Lean on Me' de Bill Withers nació de la soledad y un piano tocado por accidente."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Tras mudarse a la gigantesca Los Ángeles, Withers se sintió profundamente solo y nostálgico de su hogar."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Extrañaba Slab Fork, el pequeño y humilde pueblo minero de Virginia Occidental donde creció rodeado de solidaridad."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Buscando consuelo, compró un piano eléctrico pequeño. Pero Withers apenas sabía tocarlo."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Por puro azar y limitaciones técnicas, deslizó sus dedos únicamente por las teclas blancas del teclado."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Ese simple y limitado movimiento improvisado dio origen a uno de los riffs de piano más reconfortantes de la historia."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Así fue como la nostalgia por su pueblo y un tropiezo al teclado crearon un himno universal de amistad."
+    }
+  ]
+}

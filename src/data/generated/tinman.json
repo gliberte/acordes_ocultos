@@ -1,0 +1,147 @@
+{
+  "title": "El acorde que salvó a un clásico",
+  "artist": "America",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Una lección del Mago de Oz estuvo a punto de perderse en el caos, hasta que el oído del 'Quinto Beatle' encontró su latido oculto. En 1974, el trío America buscaba un nuevo rumbo tras la gloria; decidieron invocar a Sir George Martin, el arquitecto sonoro de los Beatles. Gerry Beckley arrastraba un boceto triste al piano: el Hombre de Hojalata mendigando un corazón en el Edén ficticio de Oz. Una hermosa metáfora sobre buscar en el exterior el amor y el coraje que, en silencio, ya habitaban dentro de nosotros. Pero la melodía andaba a la deriva en los Air Studios de Londres, hasta que George Martin cazó al vuelo un acorde de séptima mayor. Con precisión quirúrgica, Martin desnudó la pista, sumó el susurro de un piano Wurlitzer y entrelazó tres voces en una armonía celestial. El personaje de la película halló un pecho donde sentir. La canción, gracias al alquimista de Liverpool, halló su alma. Y tú, ¿sigues buscando fuera lo que ya tienes dentro?",
+  "hook": "Una lección del Mago de Oz estuvo a punto de perderse en el caos, hasta que el oído del 'Quinto Beatle' encontró su latido oculto.",
+  "beats": [
+    "En 1974, el trío America buscaba un nuevo rumbo tras la gloria; decidieron invocar a Sir George Martin, el arquitecto sonoro de los Beatles.",
+    "Gerry Beckley arrastraba un boceto triste al piano: el Hombre de Hojalata mendigando un corazón en el Edén ficticio de Oz.",
+    "Una hermosa metáfora sobre buscar en el exterior el amor y el coraje que, en silencio, ya habitaban dentro de nosotros.",
+    "Pero la melodía andaba a la deriva en los Air Studios de Londres, hasta que George Martin cazó al vuelo un acorde de séptima mayor.",
+    "Con precisión quirúrgica, Martin desnudó la pista, sumó el susurro de un piano Wurlitzer y entrelazó tres voces en una armonía celestial."
+  ],
+  "outro": "El personaje de la película halló un pecho donde sentir. La canción, gracias al alquimista de Liverpool, halló su alma. Y tú, ¿sigues buscando fuera lo que ya tienes dentro?",
+  "palette": {
+    "ink": "#271c19",
+    "paper": "#fcfaf2",
+    "accent": "#92400e",
+    "glow": "#b45309"
+  },
+  "music": {
+    "title": "Tin Man",
+    "artist": "America",
+    "src": "music/tinman.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "Tin Man America",
+      "expectedTitle": "Tin Man",
+      "expectedArtist": "America",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/tinman/scene-01.png",
+      "prompt": "A close-up 1974 photograph of hands playing a melancholic melody on an old upright piano inside a dimly lit living room, sheet music of The Wizard of Oz on the stand, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/tinman/scene-02.png",
+      "prompt": "A realistic 1974 photograph of a distinguished English record producer with neat hair and a smart shirt (representing Sir George Martin) listening intently in AIR Studios London, vintage mixing console, warm analogue lighting, textured film grain, vertical 9:16 composition"
+    },
+    {
+      "src": "videos/tinman/scene-03.png",
+      "prompt": "A dreamlike, cinematic illustration of the metallic Tin Man silhouette standing on a foggy, golden brick road to Oz, looking down at a glowing red heart shape inside his chest, textured film grain, vertical 9:16 composition"
+    },
+    {
+      "src": "videos/tinman/scene-04.png",
+      "prompt": "A realistic 1974 photograph of a young musician with light hair and wire-rimmed glasses (representing Gerry Beckley) playing piano in a London recording studio, focused expression, warm studio light, textured film grain, vertical 9:16 composition"
+    },
+    {
+      "src": "videos/tinman/scene-05.png",
+      "prompt": "A close-up photograph of vintage Wurlitzer electric piano keys in a 1970s recording studio booth, warm analogue glow, selective focus, textured film grain, vertical 9:16 composition"
+    },
+    {
+      "src": "videos/tinman/scene-06.png",
+      "prompt": "A realistic 1974 photograph of three young long-haired musicians standing close around a single vintage studio microphone, singing in deep harmony, soft studio lighting, textured film grain, vertical 9:16 composition"
+    },
+    {
+      "src": "videos/tinman/scene-07.png",
+      "prompt": "A spinning vinyl record on a high-end 1970s turntable, warm ambient light, gold foil accents on the record label, retro aesthetic, textured film grain, vertical 9:16 composition"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/tinman/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/tinman/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/tinman/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/tinman/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/tinman/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/tinman/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/tinman/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Una lección del Mago de Oz estuvo a punto de perderse en el caos, hasta que el oído del 'Quinto Beatle' encontró su latido oculto."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1974, el trío America buscaba un nuevo rumbo tras la gloria; decidieron invocar a Sir George Martin, el arquitecto sonoro de los Beatles."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Gerry Beckley arrastraba un boceto triste al piano: el Hombre de Hojalata mendigando un corazón en el Edén ficticio de Oz."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Una hermosa metáfora sobre buscar en el exterior el amor y el coraje que, en silencio, ya habitaban dentro de nosotros."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Pero la melodía andaba a la deriva en los Air Studios de Londres, hasta que George Martin cazó al vuelo un acorde de séptima mayor."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Con precisión quirúrgica, Martin desnudó la pista, sumó el susurro de un piano Wurlitzer y entrelazó tres voces en una armonía celestial."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "El personaje de la película halló un pecho donde sentir. La canción, gracias al alquimista de Liverpool, halló su alma. Y tú, ¿sigues buscando fuera lo que ya tienes dentro?"
+    }
+  ]
+}

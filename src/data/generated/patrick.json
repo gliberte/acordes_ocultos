@@ -1,0 +1,147 @@
+{
+  "title": "Patrick, amor mío",
+  "artist": "Isabel Paton",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "¿Cómo es posible que una canción pop de los 70 lograra confundir a miles de personas haciéndoles creer que la radio transmitía un drama real? En 1978, 'Patrick, amor mío' irrumpió con la voz de un locutor de radio AM real anunciando lluvias en la playa, rompiendo la barrera entre música y realidad. La producción buscaba que el oyente en su coche sintiera la melancolía del fin de las vacaciones de una forma casi física. El tema inmortalizó el 'amor de verano' mediterráneo: romances efímeros entre locales y extranjeros en las soleadas playas de la Costa Brava. Al terminar el verano, solo quedaba la lluvia de septiembre, la distancia y la dolorosa certeza de cartas que jamás llegarían. Durante años, oyentes obsesionados llamaban a las emisoras buscando la identidad real del misterioso Patrick de aquella carta cantada. Aunque Patrick era solo una ficción lírica, encarnó la nostalgia de toda una generación. ¿Tuviste tú también ese amor imposible?",
+  "hook": "¿Cómo es posible que una canción pop de los 70 lograra confundir a miles de personas haciéndoles creer que la radio transmitía un drama real?",
+  "beats": [
+    "En 1978, 'Patrick, amor mío' irrumpió con la voz de un locutor de radio AM real anunciando lluvias en la playa, rompiendo la barrera entre música y realidad.",
+    "La producción buscaba que el oyente en su coche sintiera la melancolía del fin de las vacaciones de una forma casi física.",
+    "El tema inmortalizó el 'amor de verano' mediterráneo: romances efímeros entre locales y extranjeros en las soleadas playas de la Costa Brava.",
+    "Al terminar el verano, solo quedaba la lluvia de septiembre, la distancia y la dolorosa certeza de cartas que jamás llegarían.",
+    "Durante años, oyentes obsesionados llamaban a las emisoras buscando la identidad real del misterioso Patrick de aquella carta cantada."
+  ],
+  "outro": "Aunque Patrick era solo una ficción lírica, encarnó la nostalgia de toda una generación. ¿Tuviste tú también ese amor imposible?",
+  "palette": {
+    "ink": "#0a0a0f",
+    "paper": "#f5f3ef",
+    "accent": "#d9652b",
+    "glow": "#2b5680"
+  },
+  "music": {
+    "title": "Patrick, amor mío",
+    "artist": "Isabel Paton",
+    "src": "music/patrick.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Patrick, amor mío Isabel Paton",
+      "expectedTitle": "Patrick, amor mío",
+      "expectedArtist": "Isabel Paton",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/patrick/scene-01.png",
+      "prompt": "A retro 1970s transistor radio and a spinning vinyl single of 'Patrick, amor mío' on a table, with heavy rain pouring outside a window overlooking a beach, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-02.png",
+      "prompt": "A professional radio announcer with a mustache and retro 1970s headphones speaking into a vintage Neumann microphone in a dark, warm radio studio booth, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-03.png",
+      "prompt": "An intimate scene of a young couple (a handsome blonde European man named Patrick and a Spanish woman) laughing together on a sunny sandy beach of the Costa Brava, 1977, vintage film look, warm colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-04.png",
+      "prompt": "A young woman looking out of a rainy window at a grey beach in September, crying and clutching a hand-written letter, melancholy atmosphere, 1970s bedroom, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-05.png",
+      "prompt": "A pile of vintage letters tied with a ribbon and a handwritten diary page open on a wooden desk, retro pen, warm candlelit ambient light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-06.png",
+      "prompt": "Close-up of a 1970s classic car dashboard at sunset, with a gloved hand adjusting the dial of a retro AM car radio, coastal landscape visible outside, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/patrick/scene-07.png",
+      "prompt": "A nostalgic silhouette of a woman walking alone on a vast empty beach under a dark stormy September sky, cinematic retro lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/patrick/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/patrick/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/patrick/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/patrick/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/patrick/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/patrick/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/patrick/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "¿Cómo es posible que una canción pop de los 70 lograra confundir a miles de personas haciéndoles creer que la radio transmitía un drama real?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1978, 'Patrick, amor mío' irrumpió con la voz de un locutor de radio AM real anunciando lluvias en la playa, rompiendo la barrera entre música y realidad."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "La producción buscaba que el oyente en su coche sintiera la melancolía del fin de las vacaciones de una forma casi física."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "El tema inmortalizó el 'amor de verano' mediterráneo: romances efímeros entre locales y extranjeros en las soleadas playas de la Costa Brava."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Al terminar el verano, solo quedaba la lluvia de septiembre, la distancia y la dolorosa certeza de cartas que jamás llegarían."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Durante años, oyentes obsesionados llamaban a las emisoras buscando la identidad real del misterioso Patrick de aquella carta cantada."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Aunque Patrick era solo una ficción lírica, encarnó la nostalgia de toda una generación. ¿Tuviste tú también ese amor imposible?"
+    }
+  ]
+}

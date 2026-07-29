@@ -23,6 +23,20 @@ graph TD
 
 ---
 
+## ✍️ Estilo Narrativo y Tono
+ 
+Los videos deben evitar un formato de reportaje puramente objetivo, frío o periodístico. El guion de cada escena debe escribirse bajo una estricta pauta artística:
+* **Rigor Factual y Veracidad Absoluta (CERO ALUCINACIONES):** Es estrictamente obligatorio que todo el contenido (videos, guiones, copys y crónicas de Substack) esté rigurosamente apegado a la verdad de los hechos comprobados. Queda terminantemente prohibido inventar diálogos, falsear fechas, alterar cronologías, inflar cifras o dramatizar anécdotas ficticias. La metáfora poética sirve para transmitir la emoción y la belleza íntima, jamás para alterar los hechos históricos comprobables.
+* **Primacía de la Experiencia Emocional y Humana (INNEGOCIABLE):** Las métricas de viralidad y compartidos (*shares* vía DM >40%) demuestran que el impacto masivo de la cuenta reside en la catarsis humana: el duelo, la tragedia real, el coraje frente al poder, el amor y la redención. Queda terminantemente prohibido estructurar historias o guiones en torno a curiosidades técnicas o ingenieriles frías (pedales de efectos, marcas de consolas, microfonía o trucos de estudio descontextualizados). El detalle sonoro solo tiene cabida si nace de una herida o vivencia humana extrema (ej. una voz quebrada en lágrimas o un grito de rebelión).
+* **Fusión de Hechos y Poesía:** Combina de forma orgánica los datos clave de la anécdota con metáforas, símiles y figuras retóricas (ej. usar *"exorcizó"* o *"arrojó sus cenizas"* en lugar de *"escribió"*).
+* **Belleza Íntima y Emoción:** Resalta el sentimiento, la vulnerabilidad humana o el humor inherente a la historia del artista, logrando que el espectador conecte emocionalmente con la obra musical desde la primera línea.
+* **Metáfora Visual de Cierre (Escena 9 — Prohibición de Tornamesas/Vinilos):** Siguiendo la fórmula maestra de nuestro mayor éxito (*Marinero de Luces* con 2.5M de vistas, donde el cierre fue un velero solitario en la niebla marina), **queda terminantemente prohibido cerrar los videos con tocadiscos o vinilos genéricos**. La escena 9 debe presentar siempre una **metáfora visual cinematográfica, poética y evocadora** que condense el tema central de la historia e invite a la reflexión profunda (ej. un velero en el horizonte brumoso, un banco solitario en un parque otoñal con niños jugando a lo lejos, una ventana con lluvia y luz cálida interior).
+* **Calibración de Subtítulos vs. Copys:**
+  - **Subtítulos en Escena:** Breves, líricos y contundentes. No deben ser una mera descripción de hechos secos, ni tan extensos que saturen la pantalla o impidan su lectura relajada durante la duración de la escena (**~18 a 24 palabras** por 10s en Reels, **~12 a 16 palabras** por ~6.6s en TikTok).
+  - **Copy de Publicación (Instagram Reels / Post):** Debe ser conciso y calibrado para no cortarse en Instagram (límite técnico: 2.200 caracteres; **rango óptimo recomendado: ~900 a 1.300 caracteres**, máximo 1.500 con hashtags). Debe iniciar con 1-2 líneas de gancho potente visibles antes de «... más», 2 párrafos breves de microhistoria, una reflexión con pregunta de debate y 5 a 8 hashtags selectos.
+
+---
+
 ## 🛠️ Detalle de las Etapas
 
 ### 1. Inicialización de la Historia
@@ -61,13 +75,20 @@ Los videos requieren una banda sonora de fondo basada en la anécdota. Usamos he
    ```
 
 ### 3. Generación de Imágenes Estáticas
-Un video de 60 segundos consta de 7 escenas visuales estáticas principales.
+La producción estándar dual consta de 9 escenas visuales estáticas más la portada de fondo (`cover_bg.png` + `scene-01.png` a `scene-09.png`).
 * **Proporción**: Debe usarse siempre un aspect ratio de **9:16** (portrait vertical).
 * **Estilo Visual**: Documental de rock clásico, blanco y negro o alto contraste, colores saturados en la paleta, textura de grano de película, safe-area inferior libre de detalles importantes para los subtítulos.
-* **Ubicación de Salida**: `public/videos/<slug-del-video>/scene-01.png` a `scene-07.png`.
+* **Consistencia Fisonómica y Rigor Histórico (INNEGOCIABLE)**:
+  - **No negociable**: Es preferible detener por completo una producción antes que utilizar imágenes con personajes genéricos o figuras que no se parezcan al artista real.
+  - Si el personaje aparece en múltiples escenas, debe mantenerse exactamente la **misma fisonomía facial, etnia, corte de cabello y vestimenta canónica** en toda la secuencia.
+  - Respetar rigurosamente el género, la raza y la cronología de edad real del artista.
+* **Ubicación de Salida**: `public/videos/<slug-del-video>/cover_bg.png` y `scene-01.png` a `scene-09.png`.
 
-*Ejemplo de Prompts Sugeridos:*
-> `"<Artista> performing live on the stage, dramatic colorful spotlights, vintage Marshall amplifiers, 1960s rock documentary aesthetic, 9:16"`
+#### 🖼️ Protocolo de Jerarquía y Control de Calidad:
+1. **Primera Opción (Sandbox Interno)**: Se intenta generar utilizando la herramienta interna de generación de imágenes (`generate_image`), aprovechando el anclaje de imagen (`ImagePaths`) para garantizar el parecido facial exacto.
+2. **Fotografía Histórica y Documental Real (Internet / Dominio Público)**: Si la producción lo amerita y existen fotografías históricas tomadas en el contexto directo de los acontecimientos narrados, se autoriza y recomienda el uso de estas fotos reales públicas como alternativa o complemento de altísimo valor testimonial (ej. la foto real de Syd Barrett en Abbey Road 1975 para *"Shine On You Crazy Diamond"*).
+3. **Segunda Opción / Contingencia (Google Flow)**: Si la cuota del sandbox está agotada, se recurre a Google Flow (`npm run assets:flow`) **únicamente si los prompts pueden garantizar el parecido real del artista sin disparar filtros de seguridad**.
+4. **Detención Obligatoria de Calidad**: Si una alternativa genera figuras genéricas o distorsionadas debido a filtros de la plataforma, **la producción se detiene de inmediato** hasta poder ejecutar la generación con la herramienta o material documental que asegure la fidelidad fisonómica e histórica real.
 
 ### 4. Transición de Video (Image-to-Video)
 Para elevar la tensión dramática del video, se debe elegir el punto de máximo suspenso e insertar una transición fluida generada por IA (de 8 a 10 segundos).
@@ -103,28 +124,71 @@ Edita el archivo JSON de la historia (y cópialo a `src/data/story.json` para ha
 * `scene-06`: 44s - 52s
 * `scene-07` (Outro): 52s - 60s
 
-### 6. Compilación, Render y Publicación
-1. **Chequeo de Tipos**:
-   ```bash
-   npm run check
-   ```
-2. **Previsualización interactiva**:
-   ```bash
-   npm run dev
-   ```
-   *Abre Remotion Studio localmente para validar que los textos, opacidades de cortes y partículas fluyan correctamente.*
-3. **Renderizado a MP4**:
-   ```bash
-   npm run render
-   ```
-   *El video final se compilará en `out/story.mp4`.*
-4. **Empaquetado y Distribución**:
-   * **Requisito de Configuración**: La variable `CLOUDFLARE_R2_PUBLIC_URL` en `.env` debe configurarse con el dominio público del bucket (`https://pub-xxxxxx.r2.dev` o un dominio customizado) para permitir descargas anónimas desde el navegador.
+### 6. Compilación, Render y Publicación Dual (90s Reels & 60s TikTok)
+A partir de ahora, cada producción genera dos versiones optimizadas:
+
+1. **Versión Estándar: Instagram Reels & Feed (90 Segundos)**:
+   * 9 escenas de 10 segundos cada una (`out/story.mp4`).
+   * Renderizado: `npm run render`
+
+2. **Versión TikTok Cut (60 Segundos Exactos)**:
+   * Utiliza las **mismas 9 imágenes** ya generadas distribuidas a ritmo ágil de **~6.6 a 6.7 segundos por escena** (`src/data/generated/<slug>-tiktok.json`).
+   * Subtítulos condensados y de lectura rápida para retención de TikTok.
+   * **🛡️ Blindaje Algorítmico («TikTok-Proofing»)**: Aplicar obligatoriamente el filtro de suavizado léxico en subtítulos y copys para TikTok en temáticas intensas (tragedias, guerras, atentados, muertes). Evitar términos explícitos de sangre, disparos o heridas crudas (e.g. sustituir *«murió desangrado»* por *«su vida se apagó en el camino»*, *«cornada mortal»* por *«tragedia en el ruedo»*).
+   * Renderizado a `out/story_tiktok.mp4`.
+
+3. **Empaquetado y Distribución**:
    * **Publicación**: Ejecuta el pipeline:
      ```bash
      npm run publish:package
      ```
-     *Esto subirá el `.mp4` y los metadatos a Cloudflare R2, los registrará en la base de datos de Supabase y enviará una notificación enriquecida a Telegram con la copia editorial y el enlace directo de descarga del video.*
+     *O para publicar directamente la versión TikTok:*
+     ```bash
+     node scripts/publish-package.mjs --story src/data/generated/<slug>-tiktok.json --video out/story_tiktok.mp4
+     ```
+   * Esto sube los videos y metadatos a Cloudflare R2, los registra en Supabase y envía la notificación enriquecida a Telegram con la copia editorial y el enlace de descarga directa.
+
+4. **Bóveda Maestra de Archivo (Google Drive 4 TB)**:
+   * **Archivado Automático**: Al publicar con `GOOGLE_DRIVE_VAULT_PATH` configurado en `.env`, el paquete completo se archiva de forma automática.
+   * **Comando Manual Dedicado**:
+     ```bash
+     npm run backup:vault
+     ```
+   * **Sincronización Total del Catálogo**:
+     ```bash
+     npm run backup:vault -- --all
+     ```
+   * **Restauración Instantánea desde la Bóveda**:
+     ```bash
+     npm run restore:vault -- <nombre-episodio>
+     ```
+   * Guarda de forma organizada en `01_Episodios_Completados/<artista>-<cancion>/`: videos másteres (90s y 60s), portada oficial, teaser, las 9 escenas estáticas, audios, story.json, copys y crónicas de Substack.
+
+5. **Capa Editorial Web y Crónicas Extendidas (Substack & Portal Web)**:
+   * **Estructura Modular**: Cada crónica extendida reside en `articles/<slug>/` con su texto `article.md` y fotografías másteres en `images/*.png`.
+   * **Optimización WebP Preservativa (`npm run images:optimize`)**:
+     - Las imágenes maestras en PNG se mantienen **100% intactas y en alta resolución** en `articles/<slug>/images/*.png` para futuras descargas de los usuarios.
+     - Genera automáticamente versiones `.webp` (calidad 82) lado a lado y las replica a `web/public/articles/<slug>/images/` para la web y lectura móvil.
+   * **Compilación de Dataset Web (`npm run chronicle:compile`)**:
+     - Compila en milisegundos todo el markdown de `articles/*/article.md` en `web/src/data/chronicles.json` (~550 KB), eliminando escaneos de disco en tiempo de ejecución en Vercel.
+   * **Lectura Móvil Autónoma (`npm run chronicle:html`)**:
+     - Genera `articles/<slug>/lectura_movil.html` con las imágenes WebP embebidas en Base64 (~1.5 MB en vez de 25 MB) y lo sincroniza a la Bóveda de Google Drive.
+   * **Pipeline Unificado de Sincronización (`npm run chronicle:sync`)**:
+     - Ejecuta en un solo comando la optimización de imágenes, la compilación del dataset JSON, la generación de HTML móvil y la sincronización del campo `web_article` en Supabase.
+   * **Despliegue a Producción Web**:
+     - El portal web en Astro compila en ~25 segundos y se despliega con:
+       ```bash
+       npx vercel --prod
+       ```
+
+---
+
+## 🏷️ Categorías Editoriales Soportadas
+Esta arquitectura de producción dual aplica para todas las líneas editoriales del canal:
+1. **Acordes Ocultos** (`topic: "acordes-ocultos"`): La microhistoria real, anécdota biográfica oculta y tensión humana detrás de canciones icónicas.
+2. **Historia en los Acordes** (`topic: "historia-en-los-acordes"`): La narración cinematográfica y poética de la trama que cuenta la letra de la canción.
+3. **Destellos de Gloria** (`topic: "destellos-de-gloria"`): Consagrada a las estrellas fugaces que vivieron vidas cortas pero intensas que brillaron como el sol (e.g. Buddy Holly, Ritchie Valens, Janis Joplin, Jimi Hendrix, Kurt Cobain, Selena). Su estructura editorial identifica rigurosamente los **9 eventos o hechos epistolares clave** que marcaron un quiebre en su vida personal y artística, manteniendo la línea artística y poética de Acordes Ocultos.
+4. **Catedrales de Leyenda** (`topic: "catedrales-de-leyenda"`): Consagrada a las leyendas vivas y longevas que desafiaron el tiempo con décadas de gloria y reinvención (e.g. Paul McCartney, Rolling Stones, Tina Turner, David Bowie, Bob Dylan). Su estructura editorial identifica los **9 eventos o hechos epistolares clave** que representaron puntos de inflexión fundamentales en su vida personal y trayectoria artística, con la misma sensibilidad poética y emotiva de Acordes Ocultos.
 
 ---
 
@@ -156,3 +220,8 @@ Antes de realizar el render final y empaquetar la producción, verifica que se c
    * Asegura que el corte de música empiece exactamente en el segundo donde arranca la melodía principal o el ritmo que define la historia.
 3. **Chequeo de Tipos y Validación de Story**:
    * Ejecuta siempre `npm run check` para garantizar que el archivo JSON cumpla estrictamente con el esquema Zod de Remotion sin errores de tipado.
+
+---
+
+## 📽️ Video de Presentación del Canal
+Para el video especial de presentación de la cuenta (duración de 1:30 minutos, fragmentos secuenciales con sonido original), existe un protocolo y flujo independiente detallado en el archivo [PRESENTATION_WORKFLOW.md](file://./PRESENTATION_WORKFLOW.md). Este flujo utiliza una composición Remotion dedicada y no altera la línea de producción regular de videos de 60 segundos.

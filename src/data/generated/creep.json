@@ -1,0 +1,147 @@
+{
+  "title": "Creep",
+  "artist": "Radiohead",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "Hay ruidos que no nacen del deseo de crear, sino del impulso desesperado de destruir lo que parece demasiado dócil. En 1992, Radiohead intentaba registrar 'Creep'. Thom Yorke cantaba una dulce canción de cuna pop, melódica y pacífica. Jonny Greenwood sentía que la balada carecía de urgencia nerviosa, de esa agresión eléctrica que ardía dentro de él. Lleno de frustración, decidió arruinar la toma. Justo antes del estribillo, azotó su Fender Telecaster con violencia pura. El Marshall Shredmaster rugió. Un estallido disonante, un 'KA-CHUNG' agresivo que golpeó el aire del estudio. En la cabina de control, los productores se quedaron atónitos. Ese intento de sabotaje era el alma que le faltaba al tema. El error se convirtió en leyenda, transformando una canción ordinaria en el grito generacional de una era.",
+  "hook": "Hay ruidos que no nacen del deseo de crear, sino del impulso desesperado de destruir lo que parece demasiado dócil.",
+  "beats": [
+    "En 1992, Radiohead intentaba registrar 'Creep'. Thom Yorke cantaba una dulce canción de cuna pop, melódica y pacífica.",
+    "Jonny Greenwood sentía que la balada carecía de urgencia nerviosa, de esa agresión eléctrica que ardía dentro de él.",
+    "Lleno de frustración, decidió arruinar la toma. Justo antes del estribillo, azotó su Fender Telecaster con violencia pura.",
+    "El Marshall Shredmaster rugió. Un estallido disonante, un 'KA-CHUNG' agresivo que golpeó el aire del estudio.",
+    "En la cabina de control, los productores se quedaron atónitos. Ese intento de sabotaje era el alma que le faltaba al tema."
+  ],
+  "outro": "El error se convirtió en leyenda, transformando una canción ordinaria en el grito generacional de una era.",
+  "palette": {
+    "ink": "#141518",
+    "paper": "#f5f6f8",
+    "accent": "#d12a2a",
+    "glow": "#ff5252"
+  },
+  "music": {
+    "title": "Creep",
+    "artist": "Radiohead",
+    "src": "music/radiohead-creep.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Creep Radiohead",
+      "expectedTitle": "Creep",
+      "expectedArtist": "Radiohead",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/creep/scene-01.png",
+      "prompt": "A young Thom Yorke in 1992 with messy reddish-brown hair, sitting on a sofa in a wood-paneled recording studio, gently playing an acoustic guitar, warm intimate lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-02.png",
+      "prompt": "A young Jonny Greenwood in 1992 with long straight black hair falling over his face, looking unhappy and frustrated in a corner of the recording studio, holding an electric guitar, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-03.png",
+      "prompt": "A close-up of a Fender Telecaster Plus electric guitar plugged into a vintage Marshall ShredMaster distortion pedal on the wooden studio floor, red status light glowing, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-04.png",
+      "prompt": "Jonny Greenwood in 1992 with long straight black hair covering his face, aggressively striking the strings of his Fender Telecaster guitar with a pick, dynamic motion blur, extreme close-up of pick hitting the strings, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-05.png",
+      "prompt": "Two recording producers (Sean Slade and Paul Q. Kolderie) staring in shock and awe behind the glass of the control room window, vintage analog mixing console illuminated in the foreground, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-06.png",
+      "prompt": "Close-up of a vintage Fender Twin Reverb amplifier, silver faceplate grill vibrating, dust particles floating in a shaft of warm light, representing massive volume, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/creep/scene-07.png",
+      "prompt": "A vintage copy of Pablo Honey vinyl record spinning on a retro turntable in a cozy room, warm golden spotlights, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/creep/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/creep/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/creep/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/creep/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/creep/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/creep/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/creep/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "Hay ruidos que no nacen del deseo de crear, sino del impulso desesperado de destruir lo que parece demasiado dócil."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "En 1992, Radiohead intentaba registrar 'Creep'. Thom Yorke cantaba una dulce canción de cuna pop, melódica y pacífica."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Jonny Greenwood sentía que la balada carecía de urgencia nerviosa, de esa agresión eléctrica que ardía dentro de él."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Lleno de frustración, decidió arruinar la toma. Justo antes del estribillo, azotó su Fender Telecaster con violencia pura."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "El Marshall Shredmaster rugió. Un estallido disonante, un 'KA-CHUNG' agresivo que golpeó el aire del estudio."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "En la cabina de control, los productores se quedaron atónitos. Ese intento de sabotaje era el alma que le faltaba al tema."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "El error se convirtió en leyenda, transformando una canción ordinaria en el grito generacional de una era."
+    }
+  ]
+}

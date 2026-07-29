@@ -1,0 +1,187 @@
+{
+  "title": "El Dolor Imposible de un Niño",
+  "artist": "The Jackson 5",
+  "durationSeconds": 60,
+  "topic": "acordes-ocultos",
+  "anecdote": "En 1969, un niño de apenas 10 años dejó atónita a la industria al cantar un blues desgarrador sobre la culpa adulta de perder al amor de su vida. El autor de la canción, Smokey Robinson, exigió ver su acta de nacimiento incrédulo de que un crío pudiera transmitir tanto sufrimiento. Lo que el mundo ignoraba era el aterrador secreto detrás de aquella voz: en una modesta casa de Gary, Indiana, su padre Joe Jackson los encerraba a ensayar de pie durante horas con un cinturón en la mano, golpeándolos ante el menor error. Michael no cantaba al desamor, cantaba desde el pánico y el llanto de una infancia robada.",
+  "hook": "El niño de 10 años que cantó sobre el desamor como un anciano derrotado... ocultando el verdadero infierno que inspiraba su voz.",
+  "beats": [
+    "En 1969, un niño de diez años cantó un blues con el dolor de un anciano.",
+    "Smokey Robinson exigió ver su acta de nacimiento: era imposible que un crío sufriera tanto.",
+    "El tema hablaba de culpa y desamor adulto, pero Michael ocultaba un secreto aterrador.",
+    "En público fingía que era un juego infantil, ocultando el calvario de su hogar.",
+    "En Gary, Indiana, su padre los obligaba a ensayar horas bajo amenaza de golpes.",
+    "Aquel desgarro en su voz no venía del amor, sino del terror a equivocarse.",
+    "El mundo entero aplaudió el milagro, sin ver las lágrimas detrás de cada nota.",
+    "Se convirtieron en reyes del pop mientras su infancia se desvanecía para siempre.",
+    "Michael nos regaló su alma, pero pagó con su propia niñez. ¿Tú qué opinas?"
+  ],
+  "outro": "Un prodigio vocal nacido en las sombras del miedo. ¿Crees que el talento de Michael Jackson justificaba el precio de su infancia?",
+  "palette": {
+    "ink": "#0f172a",
+    "paper": "#f8fafc",
+    "accent": "#f59e0b",
+    "glow": "#fbbf24"
+  },
+  "music": {
+    "title": "Who's Lovin' You",
+    "artist": "The Jackson 5",
+    "src": "music/jackson-5-whos-lovin-you-tiktok.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Who's Lovin' You The Jackson 5",
+      "expectedTitle": "Who's Lovin' You",
+      "expectedArtist": "The Jackson 5",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    },
+    "notes": "Confirmar audio oficial en TikTok al publicar."
+  },
+  "coverBg": "videos/jackson-5-whos-lovin-you-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of late 1960s Motown lead soul vocalist, vintage rounded natural afro hairstyle, expressive soulful eyes with intense emotional depth, wearing colorful 1969 retro velvet stage vest, warm amber studio rim lighting, textured authentic 35mm film grain, centered composition, vertical 9:16 framing.",
+  "assets": [
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-01.png",
+      "prompt": "Motown Hitsville USA recording studio Detroit 1969: Young African American soul vocalist standing on wooden studio floor singing passionately into a large vintage chrome studio microphone, studio headphones on head, warm analog studio lights, authentic 1969 35mm Kodak photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-02.png",
+      "prompt": "Motown recording studio control room 1969: Legendary African American music producer with headphones around neck, looking stunned and astonished behind glass window of mixing booth, analog tape reels spinning, moody dramatic studio lighting, authentic 35mm archival photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-03.png",
+      "prompt": "Emotional soulful close-up portrait 1969: African American soul singer singing with closed eyes and furrowed brow in authentic sorrow, solitary tear on cheek, dramatic chiaroscuro studio lighting, emotional depth and vulnerability, textured 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-04.png",
+      "prompt": "Vintage television music broadcast stage 1969: Charismatic young soul vocalist holding chrome microphone smiling under bright television studio spotlights, wearing colorful purple retro vest and fedora hat, vintage broadcast cameras in background, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-05.png",
+      "prompt": "Modest 1960s Midwestern living room interior: Five African American brothers practicing synchronized soul dance steps in tight formation, while a stern father figure in shadow sits rigidly in wooden armchair watching intently, somber oppressive atmosphere, authentic 35mm photograph, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-06.png",
+      "prompt": "Exhausted rehearsal space at night: Young soul artist sitting on vintage amplifier cabinet with head in hands, tired expression, dimly lit room with tangled guitar cables on wooden floor, dramatic moody shadows, cinematic 35mm documentary realism, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-07.png",
+      "prompt": "Massive 1970 concert auditorium: Sibling soul band performing triumphantly under dazzling stage floodlights, silhouettes of huge cheering audience waving arms, dynamic high-contrast concert photography, textured 35mm grain, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-08.png",
+      "prompt": "High-rise luxury hotel room 1970: Silhouetted young figure standing alone gazing through tall glass window at the sunlit city park and street far below, quiet melancholic atmosphere, dramatic soft window light, emotional 35mm film portrait, vertical 9:16."
+    },
+    {
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-09.png",
+      "prompt": "Poetic evocative portrait: Young soul vocalist under a single ethereal golden spotlight on dark stage, holding vintage microphone stand, golden dust particles floating in warm light, transcendent look of lost innocence, timeless 35mm film still, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "src": "videos/jackson-5-whos-lovin-you-acordes-ocultos/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "En 1969, un niño de diez años cantó un blues con el dolor de un anciano."
+    },
+    {
+      "start": 6.66,
+      "end": 13.33,
+      "text": "Smokey Robinson exigió ver su acta de nacimiento: era imposible que un crío sufriera tanto."
+    },
+    {
+      "start": 13.33,
+      "end": 20,
+      "text": "El tema hablaba de culpa y desamor adulto, pero Michael ocultaba un secreto aterrador."
+    },
+    {
+      "start": 20,
+      "end": 26.66,
+      "text": "En público fingía que era un juego infantil, ocultando el calvario de su hogar."
+    },
+    {
+      "start": 26.66,
+      "end": 33.33,
+      "text": "En Gary, Indiana, su padre los obligaba a ensayar horas bajo amenaza de golpes."
+    },
+    {
+      "start": 33.33,
+      "end": 40,
+      "text": "Aquel desgarro en su voz no venía del amor, sino del terror a equivocarse."
+    },
+    {
+      "start": 40,
+      "end": 46.66,
+      "text": "El mundo entero aplaudió el milagro, sin ver las lágrimas detrás de cada nota."
+    },
+    {
+      "start": 46.66,
+      "end": 53.33,
+      "text": "Se convirtieron en reyes del pop mientras su infancia se desvanecía para siempre."
+    },
+    {
+      "start": 53.33,
+      "end": 60,
+      "text": "Michael nos regaló su alma, pero pagó con su propia niñez. ¿Tú qué opinas?"
+    }
+  ],
+  "publication": {
+    "description": "El Dolor Imposible de un Niño: La desgarradora verdad detrás de la voz infantil que conmovió a las leyendas del soul.\n\nEn 1969, un niño menudo de diez años llamado Michael Jackson se colocó frente a un enorme micrófono en los estudios Hitsville U.S.A. de Detroit. Cuando abrió la boca para cantar «Who's Lovin' You», el aire de la sala de grabación se congeló. La canción, compuesta por el legendario Smokey Robinson en 1960 para The Miracles, no era un juego infantil: era un blues desgarrador sobre el remordimiento, la culpa adulta y la desesperación de un hombre que destruyó a la persona que amaba y ahora se pregunta quién la estará abrazando en las noches.\n\nAl escuchar la grabación terminada, Smokey Robinson quedó en completo estado de shock. Se dirigió de inmediato a Berry Gordy, fundador de Motown, y con una mezcla de incredulidad y asombro le espetó: «Quiero ver el certificado de nacimiento de ese niño. Es humanamente imposible que alguien de diez años cante con semejante nivel de desgarro emocional. No ha vivido lo suficiente como para conocer ese dolor. ¿De dónde saca esa herida en la voz?».\n\nPara el público y la televisión de la época, Michael representaba el prodigio alegre y deslumbrante. En sus legendarias actuaciones en directo, como en The Ed Sullivan Show, el pequeño Michael montaba una tierna introducción cómica: contaba que la canción iba dedicada a una niña de la escuela que le había robado sus galletas en el recreo. El auditorio reía enternecido. Nadie sospechaba que aquella inocente historieta era una máscara protectora para encubrir una de las realidades más oscuras del espectáculo.\n\nAquel llanto y aquella angustia que estremecían en cada nota no venían de un amorío escolar ni de una mágica madurez innata: venían del terror más absoluto. En su pequeña y precaria casa de Gary, Indiana, los hermanos Jackson eran sometidos por su padre, Joe Jackson, a extenuantes jornadas de ensayo de seis horas diarias de pie. Joe se sentaba frente a ellos con un grueso cinturón de cuero en la mano; cualquier fallo en una coreografía, cualquier desliz en una nota vocal o cualquier muestra de cansancio se pagaba con castigos físicos implacables e insultos degradantes. Michael cantaba con el corazón desgarrado porque en cada ensayo se jugaba su propia integridad.\n\n«Who's Lovin' You» catapultó a The Jackson 5 a la estratosfera de la música y encumbró a Michael como un fenómeno generacional. Sin embargo, mientras el planeta aplaudía de pie al niño prodigio, detrás de las puertas cerradas de los hoteles de lujo aquel pequeño rey se asomaba a las ventanas para llorar en silencio, viendo a niños comunes correr por los parques y comprendiendo que su infancia había sido sacrificada para siempre en el altar del éxito.\n\nAl final, aquella grabación irrepetible quedó como un monumento trágico de la historia de la música: la prueba eterna de que el talento más deslumbrante a veces florece desde el dolor más profundo y desgarrador de un niño al que nunca le permitieron ser niño.\n\n#TheJackson5 #MichaelJackson #WhosLovinYou #AcordesOcultos #Motown #SoulClassics #HistoriaDeLaMusica #SmokeyRobinson #LeyendasDeLaMusica"
+  }
+}

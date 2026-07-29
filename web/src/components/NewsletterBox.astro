@@ -1,0 +1,142 @@
+---
+interface Props {
+  source?: string;
+}
+
+const { source = 'web_story' } = Astro.props;
+---
+
+<div class="my-10 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1c1813] via-[#12100e] to-[#0a0908] border border-amber-500/30 p-6 sm:p-10 shadow-2xl">
+  <!-- Subtle vinyl record watermark in background -->
+  <div class="absolute -right-16 -bottom-16 w-64 h-64 rounded-full border border-amber-500/10 pointer-events-none opacity-40"></div>
+  <div class="absolute -right-8 -bottom-8 w-48 h-48 rounded-full border border-amber-500/15 pointer-events-none opacity-40"></div>
+  <div class="absolute 0 0 w-32 h-32 rounded-full border border-amber-500/20 pointer-events-none opacity-40"></div>
+
+  <div class="relative z-10 max-w-2xl">
+    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 mb-4 font-sans">
+      <span>✉️ BOLETÍN SEMANAL</span>
+      <span class="text-amber-500">•</span>
+      <span>EDICIÓN PARA MELÓMANOS</span>
+    </div>
+
+    <h3 class="font-serif text-2xl sm:text-3xl font-black text-white leading-snug mb-3">
+      La Crónica Oculta en tu Bandeja de Entrada
+    </h3>
+
+    <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed mb-6">
+      Cada semana desenterramos una microhistoria de alta tensión, fotografías documentales de época y el enigma detrás de las canciones que hicieron historia. Cero relleno, pura devoción sonora.
+    </p>
+
+    <form id="newsletter-form" class="space-y-3" data-source={source}>
+      <div class="flex flex-col sm:flex-row gap-3">
+        <input
+          type="email"
+          id="newsletter-email"
+          name="email"
+          required
+          placeholder="tu.correo@ejemplo.com"
+          class="flex-1 px-4 py-3 rounded-xl bg-[#0f0e0c] border border-neutral-700 focus:border-amber-400 focus:outline-none text-white text-sm placeholder:text-neutral-500 transition-colors shadow-inner"
+        />
+        <button
+          type="submit"
+          id="newsletter-submit-btn"
+          class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-sans font-bold text-xs sm:text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-950/50 transition-all cursor-pointer shrink-0 disabled:opacity-50"
+        >
+          <span>Unirme a la Cofradía</span>
+          <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mandatory RGPD & Minors Checkbox -->
+      <div class="flex items-start gap-2.5 pt-1">
+        <input
+          type="checkbox"
+          id="newsletter-consent"
+          required
+          class="mt-1 w-4 h-4 rounded border-neutral-700 bg-[#0f0e0c] text-amber-500 focus:ring-amber-400 focus:ring-offset-0 focus:outline-none cursor-pointer accent-amber-500 shrink-0"
+        />
+        <label for="newsletter-consent" class="text-[11px] sm:text-xs text-neutral-400 leading-snug cursor-pointer select-none">
+          He leído y acepto la <a href="/privacidad" target="_blank" class="text-amber-400 underline hover:text-amber-300">Política de Privacidad</a> y confirmo que tengo <strong>14 años o más</strong>.
+        </label>
+      </div>
+    </form>
+
+    <div id="newsletter-feedback" class="hidden mt-4 p-4 rounded-xl text-xs font-sans"></div>
+
+    <!-- First Layer RGPD / LOPDGDD Information Summary -->
+    <div class="mt-4 pt-3 border-t border-[#221f1a] text-[10px] text-neutral-400 leading-relaxed space-y-1 font-sans">
+      <p>
+        <strong class="text-neutral-300">Información básica de protección de datos:</strong> Responsable: Luis Solano (Acordes Ocultos). Finalidad: Envío del boletín cultural semanal y novedades editoriales. Legitimación: Consentimiento expreso del interesado (Art. 6.1.a RGPD). Destinatarios: Supabase y Substack (encargados del tratamiento). Derechos: Acceso, rectificación y supresión enviando un correo a <span class="text-neutral-400">luis.solano.l@gmail.com</span> o mediante el enlace de baja en cada correo. Consulta todos los detalles en nuestra <a href="/privacidad" target="_blank" class="text-amber-400 underline hover:text-amber-300">Política de Privacidad</a>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    const form = document.getElementById('newsletter-form') as HTMLFormElement | null;
+    const input = document.getElementById('newsletter-email') as HTMLInputElement | null;
+    const consent = document.getElementById('newsletter-consent') as HTMLInputElement | null;
+    const btn = document.getElementById('newsletter-submit-btn') as HTMLButtonElement | null;
+    const feedback = document.getElementById('newsletter-feedback');
+
+    if (form && input && consent && btn && feedback) {
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = input.value.trim();
+        const source = form.dataset.source || 'web_story';
+
+        if (!email) return;
+        if (!consent.checked) {
+          alert('Debes aceptar la política de privacidad y confirmar que eres mayor de 14 años.');
+          return;
+        }
+
+        btn.disabled = true;
+        btn.innerHTML = '<span>Guardando...</span>';
+
+        try {
+          const res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, source })
+          });
+
+          const data = await res.json();
+
+          if (res.ok && data.success) {
+            form.classList.add('hidden');
+            feedback.className = 'mt-4 p-5 rounded-xl text-sm font-sans bg-emerald-950/80 border border-emerald-500/50 text-emerald-200';
+            feedback.innerHTML = `
+              <div class="flex items-start gap-3">
+                <span class="text-2xl">🎉</span>
+                <div>
+                  <h4 class="font-bold text-white mb-1">¡Bienvenido a Acordes Ocultos!</h4>
+                  <p class="text-xs text-emerald-300 leading-relaxed mb-3">${data.message}</p>
+                  <a href="${data.substackUrl}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-500 text-black hover:bg-emerald-400 transition-colors">
+                    <span>Confirmar también en Substack →</span>
+                  </a>
+                </div>
+              </div>
+            `;
+            feedback.classList.remove('hidden');
+          } else {
+            feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200';
+            feedback.textContent = data.error || 'Ocurrió un error al registrar tu correo. Intenta de nuevo.';
+            feedback.classList.remove('hidden');
+            btn.disabled = false;
+            btn.innerHTML = '<span>Unirme a la Cofradía</span>';
+          }
+        } catch (err: any) {
+          feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200';
+          feedback.textContent = 'Error de conexión. Por favor intenta de nuevo.';
+          feedback.classList.remove('hidden');
+          btn.disabled = false;
+          btn.innerHTML = '<span>Unirme a la Cofradía</span>';
+        }
+      });
+    }
+  })();
+</script>

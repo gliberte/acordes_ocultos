@@ -1,0 +1,147 @@
+{
+  "title": "Brown Eyed Girl",
+  "artist": "Van Morrison",
+  "durationSeconds": 60,
+  "topic": "anecdota musical",
+  "anecdote": "El himno alegre y festivo 'Brown Eyed Girl' de Van Morrison oculta censura, un lapsus de traducción y una ruina financiera total. Originalmente se titulaba 'Brown Skinned Girl' sobre un romance interracial, pero Morrison la cambió al cantar por pura pereza. A las radios de 1967 no les gustó la línea 'haciendo el amor en la hierba verde', considerándola demasiado explícita. La discográfica lo obligó a volver al estudio y parchar el verso censurado pegándole encima una línea limpia. A pesar del éxito masivo del tema, Morrison firmó un contrato leonino sin leer y no recibió ni un centavo en regalías. El productor murió y su viuda congeló sus cuentas, dejándolo tan arruinado que pedía prestado para comer mientras sonaba el número 1. Así es como uno de los mayores éxitos de la historia dejó a su creador sin dinero, marcando su carrera para siempre.",
+  "hook": "El himno alegre y festivo 'Brown Eyed Girl' de Van Morrison oculta censura, un lapsus de traducción y una ruina financiera total.",
+  "beats": [
+    "Originalmente se titulaba 'Brown Skinned Girl' sobre un romance interracial, pero Morrison la cambió al cantar por pura pereza.",
+    "A las radios de 1967 no les gustó la línea 'haciendo el amor en la hierba verde', considerándola demasiado explícita.",
+    "La discográfica lo obligó a volver al estudio y parchar el verso censurado pegándole encima una línea limpia.",
+    "A pesar del éxito masivo del tema, Morrison firmó un contrato leonino sin leer y no recibió ni un centavo en regalías.",
+    "El productor murió y su viuda congeló sus cuentas, dejándolo tan arruinado que pedía prestado para comer mientras sonaba el número 1."
+  ],
+  "outro": "Así es como uno de los mayores éxitos de la historia dejó a su creador sin dinero, marcando su carrera para siempre.",
+  "palette": {
+    "ink": "#181008",
+    "paper": "#fbf9f4",
+    "accent": "#bf5a2a",
+    "glow": "#df9d2a"
+  },
+  "music": {
+    "title": "Brown Eyed Girl",
+    "artist": "Van Morrison",
+    "src": "music/van-morrison-girl.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Brown Eyed Girl Van Morrison",
+      "expectedTitle": "Brown Eyed Girl",
+      "expectedArtist": "Van Morrison",
+      "status": "manual_check_required",
+      "notes": "Confirmar disponibilidad dentro de Instagram al crear el Reel; la API disponible no expone búsqueda completa de la librería musical."
+    }
+  },
+  "assets": [
+    {
+      "src": "videos/van-morrison-girl/scene-01.png",
+      "prompt": "Van Morrison as a young man in 1967 standing on a sunny street holding an acoustic guitar, warm vintage film color grading, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-02.png",
+      "prompt": "Handwritten song lyrics on an aged yellow sheet of paper, with the words 'Brown Skinned Girl' crossed out in ink and 'Brown Eyed Girl' written above, vintage pen, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-03.png",
+      "prompt": "A tall classic 1960s steel radio broadcasting tower standing in a lush green grassy field under a bright blue sunny sky, retro photo style, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-04.png",
+      "prompt": "A 1960s sound editing desk in a recording studio, close up of hands using editing tape scissors to splice magnetic tape on reel-to-reel machines, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-05.png",
+      "prompt": "A page of a legal contract with dense small print, a gold fountain pen lying on it, harsh desk lighting creating strong shadows on the document, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-06.png",
+      "prompt": "Van Morrison walking down a cold, rainy New York street at night, looking sad and lonely, street lamps and neon signs reflecting on wet asphalt, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/van-morrison-girl/scene-07.png",
+      "prompt": "A vintage copy of Brown Eyed Girl vinyl single with red Bang Records label spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/van-morrison-girl/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/van-morrison-girl/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/van-morrison-girl/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/van-morrison-girl/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/van-morrison-girl/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/van-morrison-girl/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/van-morrison-girl/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "El himno alegre y festivo 'Brown Eyed Girl' de Van Morrison oculta censura, un lapsus de traducción y una ruina financiera total."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Originalmente se titulaba 'Brown Skinned Girl' sobre un romance interracial, pero Morrison la cambió al cantar por pura pereza."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "A las radios de 1967 no les gustó la línea 'haciendo el amor en la hierba verde', considerándola demasiado explícita."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "La discográfica lo obligó a volver al estudio y parchar el verso censurado pegándole encima una línea limpia."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "A pesar del éxito masivo del tema, Morrison firmó un contrato leonino sin leer y no recibió ni un centavo en regalías."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "El productor murió y su viuda congeló sus cuentas, dejándolo tan arruinado que pedía prestado para comer mientras sonaba el número 1."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Así es como uno de los mayores éxitos de la historia dejó a su creador sin dinero, marcando su carrera para siempre."
+    }
+  ]
+}

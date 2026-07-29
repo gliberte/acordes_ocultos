@@ -1,0 +1,186 @@
+{
+  "title": "El Arquitecto del Sonido Eterno",
+  "artist": "Gustavo Cerati",
+  "durationSeconds": 90,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacido en Buenos Aires en 1959, Gustavo Cerati transformó el mapa cultural hispanoamericano. Fundó Soda Stereo en plena primavera democrática de 1982, liderando la conquista continental del rock en español. Tras convocar a 250.000 personas en la Avenida 9 de Julio con «Canción Animal», desafió las modas abrazando el shoegaze en «Dynamo». Tras el histórico adiós de «Gracias Totales» en 1997, renació en solitario grabando «Bocanada» en Abbey Road, dominó los 2000 con la potencia guitarrera de «Ahí Vamos» y llenó seis estadios River Plate en la gira «Me Verás Volver». Su partida en 2014 consagró a un arquitecto insaciable que convirtió el rock en una catedral viva de sonido eterno.",
+  "hook": "Rechazó la fórmula del éxito para reinventar el rock latino durante tres décadas de gloria y vanguardia absoluta.",
+  "beats": [
+    "Bajo el cielo naciente de la democracia argentina, un joven de rizos negros fundó Soda Stereo: guitarras angulares que despertaban a una juventud silenciada.",
+    "Con «Signos», el terremoto llegó a Viña del Mar; la histeria colectiva derribó fronteras y el continente entero cayó rendido ante su magnetismo.",
+    "En 1991 coronó la gloria popular: 250.000 almas colmaron la Avenida 9 de Julio, coreando «De Música Ligera» como un nuevo himno latinoamericano.",
+    "En la cumbre del éxito masivo, Gustavo desafió la complacencia: sumergió las guitarras en el shoegaze británico de «Dynamo», adelantándose a su propia era.",
+    "En 1997, el desgaste interno apagó la maquinaria en un Monumental abarrotado; con dos palabras eternas, «Gracias Totales», selló el adiós más conmovedor.",
+    "Renació en solitario desde Abbey Road con «Bocanada»: una catedral de elegancia electrónica, samples refinados y misterio que redefinió el pop en español.",
+    "Con «Ahí Vamos» desató la furia valvular de las guitarras; un regreso visceral a las raíces que arrasó en la crítica y los Grammy.",
+    "En 2007, la gira «Me Verás Volver» pulverizó récords históricos: seis estadios River Plate colmados consagraron la inmortalidad de su leyenda viva.",
+    "«Fuerza Natural» fue su testamento cósmico; el arquitecto del sonido partió hacia el infinito, dejándonos una obra eterna. ¿Cuál es su tema supremo?"
+  ],
+  "outro": "Gustavo Cerati convirtió la música en una catedral infinita. ¿Cuál de sus discos o canciones marcó tu vida para siempre?",
+  "palette": {
+    "ink": "#0b121c",
+    "paper": "#f3f6f9",
+    "accent": "#0284c7",
+    "glow": "#38bdf8"
+  },
+  "music": {
+    "title": "Corazón Delator (Sinfónico)",
+    "artist": "Gustavo Cerati",
+    "src": "music/gustavo-cerati-corazon-delator-catedrales-de-leyenda.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Corazon Delator Gustavo Cerati 11 Episodios Sinfonicos",
+      "expectedTitle": "Corazón Delator",
+      "expectedArtist": "Gustavo Cerati",
+      "status": "manual_check_required",
+      "notes": "Confirmar audio oficial en Instagram Reels al publicar."
+    }
+  },
+  "coverBg": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/cover_bg.png",
+  "coverPrompt": "Iconic vertical 9:16 portrait of Gustavo Cerati in his early 2000s era, distinctive wavy curly dark hair, sharp aristocratic jawline, intense expressive blue-green eyes, slight charismatic poetic smile, wearing a tailored black coat with upturned collar, dramatic blue and amber concert stage rim lighting, atmospheric theatrical smoke, textured 35mm film grain, Hasselblad rock portrait, centered composition, safe bottom area for typography.",
+  "assets": [
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-01.png",
+      "prompt": "Buenos Aires basement club 1983: Young 24-year-old Gustavo Cerati with iconic 1980s voluminous backcombed new wave hair, wearing an oversized thin-striped retro blazer, intensely playing an electric guitar, energetic punk-ska new wave atmosphere, authentic early 1980s Argentine rock documentary photograph, 35mm film grain, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-02.png",
+      "prompt": "Vina del Mar Festival stage Chile February 1987: Gustavo Cerati in his Signos era, iconic teased curls, white dress shirt and dark vest, passionately singing into a chrome microphone under blazing arena spotlights, ecstatic sea of fans cheering in the dark Chilean summer night, authentic 1980s concert photojournalism, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-03.png",
+      "prompt": "Avenida 9 de Julio Buenos Aires December 1991: Epic monumental concert stage with the Obelisco in the background, Gustavo Cerati in his Cancion Animal era, casual vintage leather jacket over t-shirt, playing his blue PRS guitar before a massive historic sea of 250,000 people filling the avenue, golden dusk light, wide documentary crowd shot, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-04.png",
+      "prompt": "Buenos Aires recording studio 1992: Gustavo Cerati during the Dynamo sessions, wearing dark oval sunglasses, kneeling over a complex pedalboard of delay and reverb guitar effects pedals, vintage Fender amplifier softly glowing, cool cobalt blue and cyan studio lighting, ethereal shoegaze atmosphere, 35mm film still, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-05.png",
+      "prompt": "River Plate Stadium Buenos Aires September 1997: El Ultimo Concierto, Gustavo Cerati standing alone at the front of the colossal stadium stage, eyes closed with intense gratitude, holding his guitar close to his chest, dramatic spotlight beam from above piercing through stadium mist, emotional historic farewell moment, iconic rock documentary photo, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-06.png",
+      "prompt": "Abbey Road Studios London 1999: Gustavo Cerati during Bocanada sessions, elegant dark turtleneck sweater, sitting beside a vintage analog mixing console and Akai sampler, subtle cigarette smoke wafting into soft moody studio illumination, sophisticated art-pop atmosphere, cinematic 35mm documentary, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-07.png",
+      "prompt": "Concert stage 2006: Gustavo Cerati in his Ahi Vamos era, tailored black jacket, intensely bending strings during a soaring guitar solo on a vintage electric guitar, sweat glistening under warm golden and red backlights, sheer rock and roll virtuosity and commanding authority, high contrast 35mm photography, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-08.png",
+      "prompt": "River Plate Stadium 2007: Soda Stereo Me Veras Volver tour, colossal stadium stage viewed from elevated perspective, towering LED screens showing Gustavo Cerati in majestic motion, 65,000 cheering fans with flashlights glowing in the dark, fireworks exploding above stadium roof, triumphant monumental concert photo, vertical 9:16."
+    },
+    {
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-09.png",
+      "prompt": "Mystical open landscape dusk 2009: Gustavo Cerati in his Fuerza Natural cosmic era, wearing his iconic cream white fedora hat and tailored traveler suit, looking toward an expansive golden starlit horizon, soft wind moving through his curls, surreal celestial clouds and twilight sky, timeless poetic tribute photograph, vertical 9:16."
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 10,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-07.png",
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-08.png",
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "src": "videos/gustavo-cerati-corazon-delator-catedrales-de-leyenda/scene-09.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "Bajo el cielo naciente de la democracia argentina, un joven de rizos negros fundó Soda Stereo: guitarras angulares que despertaban a una juventud silenciada."
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "Con «Signos», el terremoto llegó a Viña del Mar; la histeria colectiva derribó fronteras y el continente entero cayó rendido ante su magnetismo."
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "En 1991 coronó la gloria popular: 250.000 almas colmaron la Avenida 9 de Julio, coreando «De Música Ligera» como un nuevo himno latinoamericano."
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "En la cumbre del éxito masivo, Gustavo desafió la complacencia: sumergió las guitarras en el shoegaze británico de «Dynamo», adelantándose a su propia era."
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "En 1997, el desgaste interno apagó la maquinaria en un Monumental abarrotado; con dos palabras eternas, «Gracias Totales», selló el adiós más conmovedor."
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Renació en solitario desde Abbey Road con «Bocanada»: una catedral de elegancia electrónica, samples refinados y misterio que redefinió el pop en español."
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "Con «Ahí Vamos» desató la furia valvular de las guitarras; un regreso visceral a las raíces que arrasó en la crítica y los Grammy."
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "En 2007, la gira «Me Verás Volver» pulverizó récords históricos: seis estadios River Plate colmados consagraron la inmortalidad de su leyenda viva."
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "«Fuerza Natural» fue su testamento cósmico; el arquitecto del sonido partió hacia el infinito, dejándonos una obra eterna. ¿Cuál es su tema supremo?"
+    }
+  ],
+  "publication": {
+    "description": "Rechazó la comodidad de la fama masiva para reinventar el rock de todo un continente a lo largo de tres décadas irrepetibles.\n\nA comienzos de los ochenta, cuando Argentina despertaba de la oscuridad de la dictadura militar, un joven con peinado angular y una guitarra afilada inventó un nuevo idioma. Junto a Soda Stereo, Gustavo Cerati derribó fronteras: desde la histeria en Viña del Mar hasta el hito histórico de 250.000 almas cantando «De Música Ligera» en la 9 de Julio. Pero cuando todos esperaban que repitiera la fórmula, rompió el molde abrazando el shoegaze británico en «Dynamo».\n\nTras el histórico «Gracias Totales» de 1997 en River Plate, muchos creyeron que su cima había quedado atrás. Cerati respondió renaciendo como un orfebre: desde la elegancia electrónica de «Bocanada» en Abbey Road, hasta la furia rockera de «Ahí Vamos» y el récord monumental de seis estadios River Plate en la gira «Me Verás Volver». Su partida consagró al hombre en mito, pero su obra permanece viva como una catedral indestructible.\n\nGustavo Cerati no compuso simples canciones; diseñó una arquitectura sonora eterna. ¿Cuál de sus discos o etapas marcó tu vida de forma más profunda?"
+  }
+}
