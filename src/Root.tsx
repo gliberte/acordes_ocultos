@@ -1,4 +1,5 @@
 import {CalculateMetadataFunction, Composition} from 'remotion';
+import {Analytics} from '@vercel/analytics/react';
 import story from './data/story.json';
 import {StoryVideo} from './StoryVideo';
 import {StorySchema} from './types';
@@ -18,15 +19,18 @@ const calculateStoryMetadata: CalculateMetadataFunction<typeof defaultStory> = (
 
 export const Root = () => {
   return (
-    <Composition
-      id="StoryVideo"
-      component={StoryVideo}
-      durationInFrames={defaultStory.durationSeconds * fps}
-      fps={fps}
-      width={1080}
-      height={1920}
-      defaultProps={defaultStory}
-      calculateMetadata={calculateStoryMetadata}
-    />
+    <>
+      <Composition
+        id="StoryVideo"
+        component={StoryVideo}
+        durationInFrames={defaultStory.durationSeconds * fps}
+        fps={fps}
+        width={1080}
+        height={1920}
+        defaultProps={defaultStory}
+        calculateMetadata={calculateStoryMetadata}
+      />
+      <Analytics />
+    </>
   );
 };
