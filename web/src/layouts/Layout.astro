@@ -15,6 +15,7 @@ interface Props {
   section?: string;
   tags?: string[];
   jsonLd?: Record<string, any> | Array<Record<string, any>>;
+  noindex?: boolean;
 }
 
 const {
@@ -27,7 +28,8 @@ const {
   author = 'Acordes Ocultos',
   section,
   tags = [],
-  jsonLd
+  jsonLd,
+  noindex = false
 } = Astro.props;
 
 const siteUrl = Astro.site?.origin || 'https://www.acordesocultos.com';
@@ -81,6 +83,7 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Open Graph / Facebook / WhatsApp -->
     <meta property="og:site_name" content="Acordes Ocultos" />

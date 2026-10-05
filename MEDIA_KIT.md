@@ -17,16 +17,16 @@ Frente a la superficialidad de las redes sociales modernas, *Acordes Ocultos* ha
 
 ## 2. Métricas de Impacto y Rendimiento (Datos Verificados)
 
-> **Datos consolidados de Meta Graph API / Instagram Insights (Septiembre 2026)**
+> **Datos consolidados de Meta Graph API / Instagram Insights (Octubre 2026)**
 
 | Métrica Clave | Cifra Oficial | Contexto en la Industria |
 | :--- | :--- | :--- |
-| **Comunidad Total** | **+22.800 seguidores** | Crecimiento orgánico acelerado (+8.600 seguidores en 7 días) |
-| **Pico de Alcance (Reel Viral)** | **+1.543.000 visualizaciones** | +1.005.500 cuentas únicas alcanzadas en un solo contenido |
-| **Suelo Garantizado (Baseline)** | **30.000 – 90.000 vistas/post** | Rango promedio de reproducciones en producciones regulares |
-| **Ratio de Viralidad (Shares)** | **+16.500 compartidos** | Top 1% de ratio de difusión orgánica en Instagram Reels |
-| **Interacciones Totales** | **+97.200 por producción** | Altísimo nivel de retención, debate y comentarios cualitativos |
-| **Guardados (Saves)** | **+8.290 guardados** | Contenido percibido como archivo coleccionable de consulta |
+| **Comunidad Total** | **+26.700 seguidores** | Crecimiento orgánico acelerado (+620 seguidores nuevos por día) |
+| **Pico de Alcance (Reel Viral)** | **+1.650.000 visualizaciones** | +1.068.800 cuentas únicas alcanzadas en un solo contenido |
+| **Tracción Recurrente (Hits)** | **30.000 – 125.000 vistas/post** | Rango habitual de reproducciones en producciones destacadas |
+| **Ratio de Viralidad (Shares)** | **+17.940 compartidos** | Hasta 33.4% de ratio Shares/Likes por DM (Top 1% en difusión orgánica) |
+| **Interacciones Totales** | **+105.800 por producción** | Altísimo nivel de retención, debate (+71.500 likes) y comentarios cualitativos |
+| **Guardados (Saves)** | **+8.910 guardados** | Contenido percibido como archivo coleccionable de consulta |
 
 ---
 
@@ -53,22 +53,26 @@ La comunidad de *Acordes Ocultos* es un segmento **culturalmente sofisticado, co
 ## 4. Casos de Estudio: El Poder del Formato
 
 ### Caso 1: Isabel Pantoja y José Luis Perales («Marinero de Luces»)
-* **Visualizaciones:** 1.543.000+
-* **Alcance Único:** 1.005.522 cuentas
-* **Compartidos:** 16.561 | **Guardados:** 8.290 | **Comentarios:** 1.770+ | **Interacciones Totales:** 97.250+
-* **El Fenómeno:** Demostró el poder arrollador de rescatar la verdad íntima de un mito popular mediante una narrativa de alta emoción y elegancia visual.
+* **Visualizaciones:** 1.650.370+
+* **Alcance Único:** 1.068.800 cuentas
+* **Compartidos:** 17.947 | **Guardados:** 8.919 | **Likes:** 71.499+ | **Interacciones Totales:** 105.800+
+* **El Fenómeno:** Demostró el poder arrollador de rescatar la verdad íntima de un mito popular mediante una narrativa de alta emoción y elegancia visual, superando el millón de personas únicas alcanzadas.
 
 ### Caso 2: Bob Marley («Redemption Song»)
-* **Visualizaciones:** 91.900+
-* **Alcance Único:** 60.558 cuentas
-* **Compartidos:** 1.666 | **Guardados:** 773 | **Interacciones Totales:** 10.650+
+* **Visualizaciones:** 125.600+
+* **Alcance Único:** 85.060 cuentas
+* **Compartidos:** 2.223 | **Guardados:** 1.035 | **Interacciones Totales:** 14.280+
 * **El Fenómeno:** Conexión inmediata con el público de rock/reggae y resiliencia humana frente a la adversidad.
 
-### Caso 3: Rocío Dúrcal y Juan Gabriel («Amor Eterno»)
-* **Visualizaciones:** 74.600+
-* **Alcance Único:** 53.911 cuentas
-* **Compartidos:** 431 | **Comentarios:** 115 | **Interacciones Totales:** 4.070+
-* **El Fenómeno:** Penetración masiva en los mercados de México, España y el sur de Estados Unidos.
+### Caso 3: Tormenta («Adiós, chico de mi barrio»)
+* **Visualizaciones:** 87.880+
+* **Alcance Único:** 55.523 cuentas
+* **Compartidos:** 2.512 (33.4% Ratio Shares/Likes) | **Comentarios:** 393+ | **Interacciones Totales:** 11.839+
+* **El Fenómeno:** Viralidad masiva por mensaje directo al revelar la historia real y desconocida detrás de un himno generacional hispanoamericano.
+
+### Caso 4: Rocío Dúrcal y Juan Gabriel («Amor Eterno») & John Lennon («Jealous Guy»)
+* **«Amor Eterno»:** 74.600+ visualizaciones | 53.911 cuentas alcanzadas | 4.070+ interacciones.
+* **«Jealous Guy»:** 34.940+ visualizaciones | 25.180 cuentas alcanzadas | 3.147+ interacciones (407 guardados).
 
 ---
 

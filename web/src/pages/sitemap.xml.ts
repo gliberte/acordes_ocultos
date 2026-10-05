@@ -38,12 +38,6 @@ export const GET: APIRoute = async () => {
 
   <!-- Páginas Estáticas y Legales -->
   <url>
-    <loc>${siteUrl}/media-kit</loc>
-    <lastmod>${latestDate}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>${siteUrl}/privacidad</loc>
     <lastmod>${latestDate}</lastmod>
     <changefreq>monthly</changefreq>
