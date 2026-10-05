@@ -146,6 +146,34 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
 
       inject();
       injectSpeedInsights();
+
+      // Protect editorial images from right-click save and drag-and-drop
+      document.addEventListener('contextmenu', (e) => {
+        const target = e.target as HTMLElement | null;
+        if (!target) return;
+        if (
+          target.tagName === 'IMG' ||
+          target.tagName === 'PICTURE' ||
+          target.closest('figure') ||
+          target.closest('picture') ||
+          target.hasAttribute('data-image-shield')
+        ) {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('dragstart', (e) => {
+        const target = e.target as HTMLElement | null;
+        if (!target) return;
+        if (
+          target.tagName === 'IMG' ||
+          target.tagName === 'PICTURE' ||
+          target.closest('figure') ||
+          target.closest('picture')
+        ) {
+          e.preventDefault();
+        }
+      });
     </script>
   </body>
 </html>

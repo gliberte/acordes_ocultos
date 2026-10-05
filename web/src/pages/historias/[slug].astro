@@ -12,7 +12,7 @@ import { getAllStories } from '../../lib/stories';
 import { formatChronicleMarkdown } from '../../lib/markdown';
 
 const { slug } = Astro.params;
-const isPreview = Astro.url.searchParams.get('preview') === 'true';
+const isPreview = Astro.url.searchParams.get('preview') === 'true' && Astro.locals.isAdmin;
 const allStories = await getAllStories({ includeHidden: isPreview });
 const story = allStories.find(s => s.slug === slug || s.articleSlug === slug);
 
@@ -26,7 +26,7 @@ const relatedStories = allStories
 
 const formattedContent = formatChronicleMarkdown(story.content, story.articleSlug || story.slug);
 
-Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=60, stale-while-revalidate=86400');
+Astro.response.headers.set('Cache-Control', isPreview ? 'private, no-store' : 'public, max-age=0, s-maxage=60, stale-while-revalidate=86400');
 
 const siteUrl = 'https://www.acordesocultos.com';
 const storyUrl = `${siteUrl}/historias/${story.slug}`;
@@ -213,11 +213,14 @@ const articleSchema = {
 
         <!-- Teaser Card (if available) -->
         {story.teaserUrl && (
-          <div class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] p-3 text-center">
+          <div class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] p-3 text-center select-none">
             <span class="block text-[10px] uppercase tracking-widest text-neutral-400 mb-2">
               Fotogramas Clave de la Producción
             </span>
-            <img src={story.teaserUrl} alt="Story Teaser" class="rounded-lg w-full object-cover" />
+            <div class="relative">
+              <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
+              <img src={story.teaserUrl} alt="Story Teaser" draggable="false" class="rounded-lg w-full object-cover select-none pointer-events-none" />
+            </div>
           </div>
         )}
 
@@ -279,13 +282,15 @@ const articleSchema = {
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
               {story.extraImages.map(img => (
-                <figure class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] shadow-lg group">
+                <figure class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] shadow-lg group select-none">
                   <div class="relative aspect-[4/3] bg-black/40 overflow-hidden">
+                    <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
                     <img
                       src={img.url}
                       alt={img.caption || story.title}
                       loading="lazy"
-                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      draggable="false"
+                      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 select-none pointer-events-none"
                     />
                   </div>
                   {(img.caption || img.credit) && (
