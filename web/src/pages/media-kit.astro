@@ -1,355 +1,373 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-const pageTitle = "Media Kit Oficial 2026 | Acordes Ocultos";
-const pageDescription = "Presentación comercial, métricas oficiales de impacto y formatos de patrocinio para marcas y sellos discográficos en Acordes Ocultos.";
+const pageTitle = "Media Kit 2026 | Acordes Ocultos";
+const pageDescription = "Historias detrás de las canciones que forman parte de nuestra vida. Comunidad y resultados verificados, formatos y propuestas de colaboración en Acordes Ocultos.";
+
+const reelsVerified = [
+  {
+    title: "Isabel Pantoja — Marinero de Luces",
+    url: "https://www.instagram.com/reel/DdpS1qrKB1j/",
+    views: "1.664.789",
+    reach: "1.075.483",
+    shares: "18.088",
+    saves: "9.007",
+    highlight: true
+  },
+  {
+    title: "Tormenta — Adiós, chico de mi barrio",
+    url: "https://www.instagram.com/reel/DeAkQDqRhti/",
+    views: "100.494",
+    reach: "64.018",
+    shares: "2.878",
+    saves: "767",
+    highlight: false
+  },
+  {
+    title: "Mercedes Sosa — Todo Cambia",
+    url: "https://www.instagram.com/reel/DeHBG89RDh2/",
+    views: "53.621",
+    reach: "39.069",
+    shares: "1.211",
+    saves: "481",
+    highlight: false
+  },
+  {
+    title: "Nino Bravo — Un beso y una flor",
+    url: "https://www.instagram.com/reel/DeB79WORNzg/",
+    views: "25.027",
+    reach: "15.650",
+    shares: "475",
+    saves: "225",
+    highlight: false
+  },
+  {
+    title: "Kiki Dee — Amoureuse",
+    url: "https://www.instagram.com/reel/DeF5GfPRTb8/",
+    views: "2.724",
+    reach: "1.897",
+    shares: "4",
+    saves: "14",
+    highlight: false
+  },
+  {
+    title: "Jay and the Americans — This Magic Moment",
+    url: "https://www.instagram.com/reel/DeJbPfoRjq7/",
+    views: "1.596",
+    reach: "1.227",
+    shares: "3",
+    saves: "14",
+    highlight: false
+  }
+];
+
+const countriesBreakdown = [
+  { country: "México", followers: "1.724" },
+  { country: "Venezuela", followers: "1.524" },
+  { country: "España", followers: "1.485" },
+  { country: "Argentina", followers: "1.367" },
+  { country: "Chile", followers: "934" },
+  { country: "Estados Unidos", followers: "675" }
+];
+
+const formats = [
+  {
+    name: "Mención integrada",
+    deliverables: "Un Reel en Instagram y adaptación para TikTok, con identificación del patrocinio y mención en el texto.",
+    rate: "$450–$750",
+    currency: "USD"
+  },
+  {
+    name: "Microdocumental temático",
+    deliverables: "Un Reel producido alrededor de una historia documentada vinculada a la campaña.",
+    rate: "$900–$1.400",
+    currency: "USD"
+  },
+  {
+    name: "Campaña multicanal",
+    deliverables: "Un Reel en Instagram, una adaptación para TikTok y una crónica web con identificación del patrocinador.",
+    rate: "$1.500–$2.200",
+    currency: "USD"
+  },
+  {
+    name: "Recomendación con enlace de afiliación",
+    deliverables: "Producto seleccionado por afinidad editorial, ubicación y duración acordadas.",
+    rate: "Comisión y/o tarifa fija a negociar",
+    currency: ""
+  }
+];
 ---
 
 <Layout title={pageTitle} description={pageDescription} noindex={true}>
-  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-neutral-300">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-neutral-300 space-y-16">
     
-    <!-- Hero Header -->
-    <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+    <!-- Header -->
+    <div class="text-center max-w-3xl mx-auto space-y-4">
       <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold tracking-widest uppercase">
-        <span>Press & Brand Partnerships</span>
+        <span>Actualizado: 7 de octubre de 2026 · Tarifas en USD</span>
       </div>
       <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight">
-        Acordes Ocultos <span class="text-amber-400 italic">Media Kit</span>
+        Acordes Ocultos <span class="text-amber-400 italic">| Media Kit 2026</span>
       </h1>
       <p class="text-neutral-400 text-base sm:text-lg font-serif italic max-w-2xl mx-auto">
-        "Donde la historia de la música se cuenta con alma, tensión y rigor cinematográfico."
+        Historias detrás de las canciones que forman parte de nuestra vida.
       </p>
     </div>
 
-    <!-- Executive Summary / Manifiesto -->
-    <div class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-10 mb-16 shadow-2xl relative overflow-hidden">
+    <!-- 1. Qué es Acordes Ocultos -->
+    <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-10 shadow-2xl relative overflow-hidden space-y-4">
       <div class="absolute -top-24 -right-24 w-72 h-72 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
-      <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-3">Manifiesto & Propuesta de Valor</h2>
-      <p class="text-lg text-neutral-200 leading-relaxed font-sans mb-6">
-        <strong class="text-white">Acordes Ocultos</strong> es el medio digital de referencia en español consagrado a rescatar los enigmas, censuras, pérdidas y milagros sonoros que forjaron las grabaciones más icónicas de la historia.
+      <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">1. Qué es Acordes Ocultos</h2>
+      <p class="text-base sm:text-lg text-neutral-200 leading-relaxed font-sans">
+        <strong class="text-white">Acordes Ocultos</strong> cuenta historias humanas detrás de canciones y artistas: el amor, las pérdidas, las decisiones y los momentos que marcaron su música.
       </p>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4 border-t border-[#26221c] text-sm">
-        <div class="space-y-1">
-          <span class="text-amber-300 font-semibold block">Rigor Histórico Absoluto</span>
-          <span class="text-neutral-400 text-xs">Cero especulaciones ni mitos falsos; cada dato respaldado por archivos hemerográficos y notas de producción.</span>
+      <p class="text-sm sm:text-base text-neutral-300 leading-relaxed font-sans">
+        El proyecto combina videos verticales con una estética cinematográfica y crónicas de lectura extendida en <a href="https://www.acordesocultos.com" class="text-amber-400 hover:underline">acordesocultos.com</a>. La línea editorial busca unir una narración cercana con hechos documentados y fuentes que el lector pueda consultar.
+      </p>
+      <p class="text-sm sm:text-base text-neutral-300 leading-relaxed font-sans pt-2 border-t border-[#221f1a]">
+        Para las marcas, ofrecemos colaboraciones alrededor de la música y la cultura, con una integración clara y respetuosa de la historia y de la audiencia.
+      </p>
+    </section>
+
+    <!-- 2. Comunidad y resultados verificados -->
+    <section class="space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+        <div>
+          <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-1">2. Comunidad y resultados verificados</h2>
+          <p class="text-xl sm:text-2xl font-serif text-white font-bold">
+            Instagram: <a href="https://www.instagram.com/acordesocultos72/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">@acordesocultos72</a> · 27.851 seguidores
+          </p>
         </div>
-        <div class="space-y-1">
-          <span class="text-amber-300 font-semibold block">Estética Cinematográfica</span>
-          <span class="text-neutral-400 text-xs">Producción vertical 9:16 con grano retro de película 35mm y cuidado orfebre del color y tipografía.</span>
-        </div>
-        <div class="space-y-1">
-          <span class="text-amber-300 font-semibold block">Ecosistema Integrado</span>
-          <span class="text-neutral-400 text-xs">Reels de impacto masivo, cortes ágiles para TikTok y crónicas profundas de archivo en nuestro portal web.</span>
-        </div>
+        <span class="text-xs px-3 py-1 rounded bg-[#1e1b16] border border-[#332e26] text-neutral-400 self-start sm:self-auto">
+          Consulta: 7 de octubre de 2026
+        </span>
       </div>
+
+      <p class="text-xs sm:text-sm text-neutral-400 leading-relaxed">
+        Fuente: perfil e Instagram Insights consultados mediante Composio el 7 de octubre de 2026. Las cifras siguientes son acumuladas de cada publicación hasta la consulta.
+      </p>
+
+      <!-- Responsive Verified Metrics Table -->
+      <div class="overflow-x-auto rounded-2xl border border-[#26221c] bg-[#12100d] shadow-xl">
+        <table class="w-full text-left border-collapse text-xs sm:text-sm">
+          <thead>
+            <tr class="border-b border-[#26221c] bg-[#181511] text-neutral-400 uppercase tracking-wider text-[11px]">
+              <th class="py-3.5 px-4 sm:px-6 font-semibold">Publicación</th>
+              <th class="py-3.5 px-4 text-right font-semibold">Visualizaciones</th>
+              <th class="py-3.5 px-4 text-right font-semibold">Cuentas alcanzadas</th>
+              <th class="py-3.5 px-4 text-right font-semibold">Compartidos</th>
+              <th class="py-3.5 px-4 sm:px-6 text-right font-semibold">Guardados</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-[#221f1a]">
+            {reelsVerified.map((item) => (
+              <tr class={item.highlight ? "bg-amber-500/5 hover:bg-amber-500/10 transition-colors" : "hover:bg-[#181511] transition-colors"}>
+                <td class="py-3.5 px-4 sm:px-6 font-medium text-white">
+                  <a href={item.url} target="_blank" rel="noopener noreferrer" class="hover:text-amber-400 transition-colors inline-flex items-center gap-1.5">
+                    <span>{item.title}</span>
+                    <span class="text-amber-400 text-xs">↗</span>
+                  </a>
+                </td>
+                <td class="py-3.5 px-4 text-right font-serif font-bold text-amber-400">{item.views}</td>
+                <td class="py-3.5 px-4 text-right text-neutral-200">{item.reach}</td>
+                <td class="py-3.5 px-4 text-right text-amber-300 font-medium">{item.shares}</td>
+                <td class="py-3.5 px-4 sm:px-6 text-right text-neutral-300">{item.saves}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 text-xs text-neutral-400 space-y-2 leading-relaxed">
+        <p>
+          Esta selección incluye resultados altos y bajos de seis reels consultados; no constituye un promedio ni una muestra representativa del rendimiento habitual. Las publicaciones tienen distinta antigüedad. Los resultados de una colaboración dependerán de su contenido y distribución; no se garantiza un número de visualizaciones o ventas.
+        </p>
+        <p>
+          El alcance es una estimación de cuentas únicas. Las visualizaciones pueden incluir varias de una misma cuenta. La métrica de compartidos no distingue envíos por mensaje directo de otros tipos de difusión.
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. Audiencia: países registrados & 4. Ejemplos del contenido -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <!-- 3. Audiencia -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-6">
+        <div class="space-y-4">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">3. Audiencia: países registrados</h2>
+          <p class="text-xs sm:text-sm text-neutral-300 leading-relaxed">
+            El desglose de seguidores por país devuelto por Instagram para <code class="text-amber-300 bg-[#1a1713] px-1.5 py-0.5 rounded">this_month</code>, consultado el 7 de octubre de 2026, incluye estos seis países con mayor número de seguidores en la respuesta:
+          </p>
+
+          <div class="overflow-hidden rounded-xl border border-[#26221c] bg-[#16130f]">
+            <table class="w-full text-left border-collapse text-xs sm:text-sm">
+              <thead>
+                <tr class="border-b border-[#26221c] bg-[#1c1813] text-neutral-400 text-[11px] uppercase tracking-wider">
+                  <th class="py-2.5 px-4 font-semibold">País</th>
+                  <th class="py-2.5 px-4 text-right font-semibold">Seguidores registrados en el desglose</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-[#221f1a]">
+                {countriesBreakdown.map((c) => (
+                  <tr>
+                    <td class="py-2.5 px-4 text-white font-medium">{c.country}</td>
+                    <td class="py-2.5 px-4 text-right font-serif font-bold text-amber-400">{c.followers}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <p class="text-xs text-neutral-400 leading-relaxed pt-3 border-t border-[#221f1a]">
+          El desglose devuelto no cubre la totalidad de los 27.851 seguidores; estas cifras no se extrapolan a porcentajes de toda la comunidad. No se dispone en esta revisión de datos verificados de edad, ingresos o intención de compra.
+        </p>
+      </section>
+
+      <!-- 4. Ejemplos del contenido -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8 flex flex-col justify-between space-y-6">
+        <div class="space-y-4">
+          <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">4. Ejemplos del contenido</h2>
+          <div class="space-y-4 pt-1">
+            <div class="p-4 rounded-xl bg-[#16130f] border border-[#26221c]">
+              <h3 class="text-sm font-serif font-bold text-white mb-1">Marinero de Luces</h3>
+              <p class="text-xs text-neutral-300 leading-relaxed">
+                Una historia sobre pérdida, música y regreso al escenario. Es el caso de mayor alcance entre los seis reels consultados.
+              </p>
+            </div>
+            <div class="p-4 rounded-xl bg-[#16130f] border border-[#26221c]">
+              <h3 class="text-sm font-serif font-bold text-white mb-1">Adiós, chico de mi barrio</h3>
+              <p class="text-xs text-neutral-300 leading-relaxed">
+                Una canción que conecta con recuerdos de juventud; registró 2.878 compartidos y 767 guardados.
+              </p>
+            </div>
+            <div class="p-4 rounded-xl bg-[#16130f] border border-[#26221c]">
+              <h3 class="text-sm font-serif font-bold text-white mb-1">Todo Cambia</h3>
+              <p class="text-xs text-neutral-300 leading-relaxed">
+                Un relato alrededor de la trayectoria y la voz de Mercedes Sosa; alcanzó 39.069 cuentas.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-xs text-neutral-400 leading-relaxed pt-3 border-t border-[#221f1a]">
+          Estos ejemplos muestran el enfoque editorial y sus resultados observados. No atribuyen el rendimiento a una causa única ni anticipan los resultados de futuras campañas.
+        </p>
+      </section>
     </div>
 
-    <!-- Métricas Verificadas Grid -->
-    <div class="mb-16">
-      <div class="flex items-center justify-between mb-8">
-        <div>
-          <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">Métricas de Impacto</h2>
-          <p class="text-xl sm:text-2xl font-serif text-white font-bold">Datos Oficiales Consolidados</p>
-        </div>
-        <span class="text-xs px-3 py-1 rounded bg-[#1e1b16] border border-[#332e26] text-neutral-400">Octubre 2026</span>
+    <!-- 5. Formatos y tarifas propuestas -->
+    <section class="space-y-8">
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-1">5. Formatos y tarifas propuestas</h2>
+        <p class="text-xl sm:text-2xl font-serif text-white font-bold mb-2">Propuesta Comercial y Entregables</p>
+        <p class="text-xs sm:text-sm text-neutral-400">
+          Los siguientes rangos son una propuesta comercial de Acordes Ocultos. La cotización final se acuerda según producción, entregables y derechos de uso.
+        </p>
       </div>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-white block mb-1 font-serif">+26.700</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-1">Comunidad Total</span>
-          <span class="text-[11px] text-neutral-500">Crecimiento orgánico de +620 seg./día</span>
-        </div>
-
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-amber-400 block mb-1 font-serif">1.65M+</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-neutral-300 block mb-1">Pico de Alcance</span>
-          <span class="text-[11px] text-neutral-500">+1.068.800 cuentas únicas en 1 solo Reel</span>
-        </div>
-
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-white block mb-1 font-serif">30k – 125k</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-1">Tracción Recurrente</span>
-          <span class="text-[11px] text-neutral-500">Rango habitual en producciones destacadas</span>
-        </div>
-
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-amber-300 block mb-1 font-serif">+17.900</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-neutral-300 block mb-1">Veces Compartido</span>
-          <span class="text-[11px] text-neutral-500">Hasta 33.4% de ratio Shares/Likes por DM</span>
-        </div>
-
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-white block mb-1 font-serif">+105.800</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-1">Interacciones</span>
-          <span class="text-[11px] text-neutral-500">Por producción destacada (+71.500 Likes)</span>
-        </div>
-
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-5 sm:p-6 text-center">
-          <span class="text-3xl sm:text-4xl font-bold text-white block mb-1 font-serif">+8.900</span>
-          <span class="text-xs font-semibold uppercase tracking-wider text-neutral-300 block mb-1">Guardados (Saves)</span>
-          <span class="text-[11px] text-neutral-500">Alto valor como archivo de consulta</span>
-        </div>
-      </div>
-    </div>
-
-    <!-- Casos de Éxito / Rendimiento por Producción -->
-    <div class="mb-16">
-      <div class="flex items-center justify-between mb-8">
-        <div>
-          <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">Casos de Éxito</h2>
-          <p class="text-xl sm:text-2xl font-serif text-white font-bold">Rendimiento Comprobado por Producción</p>
-        </div>
-        <span class="text-xs px-3 py-1 rounded bg-[#1e1b16] border border-[#332e26] text-neutral-400">Instagram Insights</span>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {formats.map((f) => (
+          <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6 flex flex-col justify-between hover:border-amber-500/30 transition-colors">
+            <div>
+              <h3 class="text-lg font-serif font-bold text-white mb-2">{f.name}</h3>
+              <p class="text-xs sm:text-sm text-neutral-300 leading-relaxed mb-6">
+                {f.deliverables}
+              </p>
+            </div>
+            <div class="pt-4 border-t border-[#221f1a] flex items-baseline justify-between">
+              <span class="text-xs text-neutral-400 uppercase tracking-wider">Tarifa orientativa</span>
+              <span class="text-lg sm:text-xl font-bold text-amber-400 font-serif">
+                {f.rate} {f.currency && <span class="text-xs font-sans text-neutral-400 font-normal">{f.currency}</span>}
+              </span>
+            </div>
+          </div>
+        ))}
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Caso 1 -->
-        <div class="bg-[#12100d] border border-amber-500/30 rounded-xl p-6 relative">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-[11px] font-bold uppercase tracking-wider text-amber-400">Mega Hit Viral</span>
-            <span class="text-xs text-neutral-500">Oct 2026</span>
-          </div>
-          <h3 class="text-lg font-serif font-bold text-white mb-1">Isabel Pantoja & Perales</h3>
-          <p class="text-xs text-neutral-400 italic mb-4">«Marinero de Luces» — La verdad tras el luto</p>
-          <div class="space-y-2.5 text-xs border-t border-[#221f1a] pt-4">
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Visualizaciones</span>
-              <span class="text-amber-400 font-bold text-sm font-serif">1.650.000+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Cuentas Únicas (Alcance)</span>
-              <span class="text-white font-semibold">1.068.800+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Veces Compartido (Shares)</span>
-              <span class="text-amber-300 font-semibold">17.940+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Guardados (Saves)</span>
-              <span class="text-white font-semibold">8.910+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Interacciones Totales</span>
-              <span class="text-amber-400 font-bold">105.800+</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Caso 2 -->
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-[11px] font-bold uppercase tracking-wider text-neutral-400">Rock / Reggae Clásico</span>
-            <span class="text-xs text-neutral-500">Oct 2026</span>
-          </div>
-          <h3 class="text-lg font-serif font-bold text-white mb-1">Bob Marley</h3>
-          <p class="text-xs text-neutral-400 italic mb-4">«Redemption Song» — El testamento acústico</p>
-          <div class="space-y-2.5 text-xs border-t border-[#221f1a] pt-4">
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Visualizaciones</span>
-              <span class="text-amber-400 font-bold text-sm font-serif">125.600+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Cuentas Únicas (Alcance)</span>
-              <span class="text-white font-semibold">85.000+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Veces Compartido (Shares)</span>
-              <span class="text-amber-300 font-semibold">2.220+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Guardados (Saves)</span>
-              <span class="text-white font-semibold">1.035+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Interacciones Totales</span>
-              <span class="text-amber-400 font-bold">14.280+</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Caso 3 -->
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6">
-          <div class="flex items-center justify-between mb-3">
-            <span class="text-[11px] font-bold uppercase tracking-wider text-neutral-400">Balada Clásica Hispana</span>
-            <span class="text-xs text-neutral-500">Oct 2026</span>
-          </div>
-          <h3 class="text-lg font-serif font-bold text-white mb-1">Tormenta</h3>
-          <p class="text-xs text-neutral-400 italic mb-4">«Adiós, chico de mi barrio» — El secreto oculto</p>
-          <div class="space-y-2.5 text-xs border-t border-[#221f1a] pt-4">
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Visualizaciones</span>
-              <span class="text-amber-400 font-bold text-sm font-serif">87.800+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Cuentas Únicas (Alcance)</span>
-              <span class="text-white font-semibold">55.500+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Veces Compartido (Shares)</span>
-              <span class="text-amber-300 font-semibold">2.510+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Comentarios</span>
-              <span class="text-white font-semibold">393+</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <span class="text-neutral-400">Interacciones Totales</span>
-              <span class="text-amber-400 font-bold">11.830+</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Demografía y Audiencia -->
-    <div class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-10 mb-16">
-      <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-2">Perfil de Audiencia</h2>
-      <h3 class="text-xl sm:text-2xl font-serif text-white font-bold mb-6">Un público de alto valor cultural y poder adquisitivo</h3>
-      
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
-        <div>
-          <span class="text-neutral-400 font-semibold uppercase tracking-wider text-xs block mb-3">Distribución por Edad</span>
-          <ul class="space-y-2">
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>25 – 44 años (Núcleo)</span>
-              <span class="text-amber-400 font-bold">52%</span>
-            </li>
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>45 – 65+ años (Senior)</span>
-              <span class="text-amber-400 font-bold">38%</span>
-            </li>
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>18 – 24 años (Jóvenes)</span>
-              <span class="text-neutral-500 font-bold">10%</span>
-            </li>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Cómo se integra una marca -->
+        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6 space-y-3">
+          <h3 class="text-sm font-serif font-bold text-white uppercase tracking-wider text-amber-300">Cómo se integra una marca</h3>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-300 leading-relaxed list-disc list-inside">
+            <li>Una mención breve y directa: <em>«Este episodio cuenta con el apoyo de [Marca]»</em>.</li>
+            <li>Una historia vinculada a una reedición musical, una biografía, un aniversario o un encuentro cultural, siempre que exista material documental suficiente.</li>
+            <li>Un enlace o una invitación concreta a conocer la propuesta de la marca, según el objetivo de la campaña.</li>
           </ul>
+          <p class="text-xs text-neutral-400 leading-relaxed pt-3 border-t border-[#221f1a]">
+            La colaboración conserva la independencia editorial y se identifica como patrocinada o afiliada cuando corresponda. La música y las imágenes de cada campaña se seleccionan según los permisos aplicables.
+          </p>
         </div>
 
-        <div>
-          <span class="text-neutral-400 font-semibold uppercase tracking-wider text-xs block mb-3">Geografía Principal</span>
-          <ul class="space-y-2">
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>España</span>
-              <span class="text-white font-bold">45%</span>
-            </li>
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>América Latina (MX, CO, AR)</span>
-              <span class="text-white font-bold">38%</span>
-            </li>
-            <li class="flex justify-between items-center pb-1 border-b border-[#221f1a]">
-              <span>Estados Unidos Hispano</span>
-              <span class="text-white font-bold">17%</span>
-            </li>
+        <!-- Condiciones que se concretan en la propuesta -->
+        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6 space-y-3">
+          <h3 class="text-sm font-serif font-bold text-white uppercase tracking-wider text-amber-300">Condiciones que se concretan en la propuesta</h3>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-300 leading-relaxed list-disc list-inside">
+            <li>Fechas de entrega y publicación, guion, número de revisiones y materiales que aporta la marca.</li>
+            <li>Exclusividad, reutilización del contenido, publicidad pagada y licencias de música o archivo se cotizan aparte cuando se soliciten.</li>
+            <li>Impuestos, forma de pago y cualquier gasto adicional quedan especificados antes de contratar.</li>
+            <li>Reporte de métricas disponibles a los siete días de publicación. La medición de clics o ventas requiere enlaces identificables y acceso a los datos correspondientes.</li>
           </ul>
-        </div>
-
-        <div>
-          <span class="text-neutral-400 font-semibold uppercase tracking-wider text-xs block mb-3">Intereses & Aficiones</span>
-          <p class="text-xs text-neutral-400 leading-relaxed">
-            Nuestros seguidores son coleccionistas de discos en vinilo, usuarios de equipamiento de audio Hi-Fi (auriculares, tocadiscos, amplificadores), lectores asiduos de biografías musicales y asistentes regulares a festivales y conciertos.
+          <p class="text-xs text-neutral-400 leading-relaxed pt-3 border-t border-[#221f1a]">
+            Las métricas verificadas de este documento corresponden a Instagram. TikTok y la web son canales propuestos de distribución; aquí no se presentan cifras verificadas de su audiencia o tráfico.
           </p>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- Formatos de Patrocinio y Tarifas -->
-    <div class="mb-16">
-      <div class="mb-8">
-        <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">Oportunidades Comerciales</h2>
-        <p class="text-xl sm:text-2xl font-serif text-white font-bold">Formatos de Integración y Tarifas</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        
-        <!-- Formato 1 -->
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6 flex flex-col justify-between hover:border-amber-500/40 transition-colors">
-          <div>
-            <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-2">Formato 01</span>
-            <h3 class="text-lg font-serif font-bold text-white mb-2">Mención Integrada en Reel & TikTok</h3>
-            <p class="text-xs text-neutral-400 leading-relaxed mb-4">
-              Integración sutil y de alta elegancia como presentador oficial del episodio en los primeros 5 segundos o en el cierre del video, con etiqueta de colaborador oficial y mención en copy.
-            </p>
-          </div>
-          <div class="pt-4 border-t border-[#221f1a]">
-            <span class="text-xs text-neutral-500 block">Tarifa estimada</span>
-            <span class="text-2xl font-bold text-white font-serif">$450 – $750 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
-          </div>
-        </div>
-
-        <!-- Formato 2 -->
-        <div class="bg-[#12100d] border border-amber-500/40 rounded-xl p-6 flex flex-col justify-between relative shadow-lg shadow-amber-500/5">
-          <div class="absolute -top-3 right-4 px-2.5 py-0.5 rounded-full bg-amber-500 text-[#0c0a08] text-[10px] font-bold uppercase tracking-wider">
-            Más Popular
-          </div>
-          <div>
-            <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-2">Formato 02</span>
-            <h3 class="text-lg font-serif font-bold text-white mb-2">Microdocumental Temático a Medida</h3>
-            <p class="text-xs text-neutral-400 leading-relaxed mb-4">
-              Una historia completa investigada y producida en torno al territorio de la marca (lanzamiento de vinilo, historia de un amplificador o instrumento legendario, aniversario discográfico).
-            </p>
-          </div>
-          <div class="pt-4 border-t border-[#221f1a]">
-            <span class="text-xs text-neutral-500 block">Tarifa estimada</span>
-            <span class="text-2xl font-bold text-amber-300 font-serif">$900 – $1.400 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
-          </div>
-        </div>
-
-        <!-- Formato 3 -->
-        <div class="bg-[#12100d] border border-[#26221c] rounded-xl p-6 flex flex-col justify-between hover:border-amber-500/40 transition-colors">
-          <div>
-            <span class="text-xs font-semibold uppercase tracking-wider text-amber-400 block mb-2">Formato 03</span>
-            <h3 class="text-lg font-serif font-bold text-white mb-2">Campaña Multicanal Premium</h3>
-            <p class="text-xs text-neutral-400 leading-relaxed mb-4">
-              Máximo impacto y permanencia: Reel en Instagram + TikTok Cut + Crónica de archivo permanente en la web con banner y mención exclusiva de marca.
-            </p>
-          </div>
-          <div class="pt-4 border-t border-[#221f1a]">
-            <span class="text-xs text-neutral-500 block">Tarifa estimada</span>
-            <span class="text-2xl font-bold text-white font-serif">$1.500 – $2.200 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- Marcas Objetivo / Target Fit -->
-    <div class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8 mb-16 text-center">
-      <h3 class="text-xs font-bold uppercase tracking-widest text-neutral-400 mb-3">Sectores Naturales de Colaboración</h3>
-      <div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 text-xs text-neutral-300 font-medium">
-        <span class="px-3.5 py-1.5 rounded-lg bg-[#181512] border border-[#2b2720]">🎧 Auriculares y Audio Hi-Fi</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-[#181512] border border-[#2b2720]">💿 Sellos Discográficos & Vinilos</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-[#181512] border border-[#2b2720]">📚 Editoriales Literarias & Biografías</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-[#181512] border border-[#2b2720]">📻 Giradiscos & Tocadiscos</span>
-        <span class="px-3.5 py-1.5 rounded-lg bg-[#181512] border border-[#2b2720]">🎸 Instrumentos & Festivales</span>
-      </div>
-    </div>
-
-    <!-- Contact CTA -->
-    <div class="text-center py-10 px-6 rounded-2xl bg-gradient-to-b from-[#181512] to-[#0c0a08] border border-amber-500/20 shadow-2xl">
-      <h2 class="text-2xl sm:text-3xl font-serif font-bold text-white mb-3">¿Deseas conectar tu marca con historias inolvidables?</h2>
-      <p class="text-neutral-400 text-sm max-w-xl mx-auto mb-6">
-        Diseñamos colaboraciones con la misma devoción y belleza con la que producimos cada una de nuestras crónicas. Hablemos hoy.
+    <!-- 6. Colaboraciones que buscamos -->
+    <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8 space-y-4">
+      <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400">6. Colaboraciones que buscamos</h2>
+      <p class="text-sm text-neutral-300">
+        Por afinidad con el contenido, proponemos explorar colaboraciones con:
       </p>
-      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm text-neutral-200">
+        <div class="p-3.5 rounded-xl bg-[#181512] border border-[#2b2720]">📚 Editoriales que publiquen biografías y libros sobre música.</div>
+        <div class="p-3.5 rounded-xl bg-[#181512] border border-[#2b2720]">💿 Sellos y distribuidores que preparen reediciones o aniversarios de catálogo.</div>
+        <div class="p-3.5 rounded-xl bg-[#181512] border border-[#2b2720]">🎭 Festivales, salas y proyectos de divulgación cultural.</div>
+        <div class="p-3.5 rounded-xl bg-[#181512] border border-[#2b2720]">🎧 Marcas de audio y accesorios musicales con una propuesta relevante para la historia.</div>
+      </div>
+      <p class="text-xs text-neutral-400 pt-2">
+        Esta afinidad es editorial; no equivale a intereses de compra medidos ni a acuerdos existentes con marcas.
+      </p>
+    </section>
+
+    <!-- 7. Contacto -->
+    <section class="text-center py-10 px-6 rounded-2xl bg-gradient-to-b from-[#181512] to-[#0c0a08] border border-amber-500/20 shadow-2xl space-y-6">
+      <div>
+        <h2 class="text-xs font-bold uppercase tracking-widest text-amber-400 mb-2">7. Contacto</h2>
+        <p class="text-2xl sm:text-3xl font-serif font-bold text-white mb-2">Canales Oficiales de Acordes Ocultos</p>
+        <p class="text-neutral-400 text-sm max-w-xl mx-auto">
+          Para propuestas de colaboración, patrocinios o consultas editoriales, escríbenos directamente a través de nuestros canales oficiales.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap items-center justify-center gap-4">
         <a 
           href="https://www.instagram.com/acordesocultos72/" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="w-full sm:w-auto px-6 py-3 rounded-lg bg-amber-500 hover:bg-amber-400 text-[#0c0a08] font-bold text-sm tracking-wide transition-colors shadow-lg shadow-amber-500/20"
+          class="px-6 py-3 rounded-lg bg-amber-500 hover:bg-amber-400 text-[#0c0a08] font-bold text-sm tracking-wide transition-colors shadow-lg shadow-amber-500/20"
         >
-          Contactar vía Instagram (@acordesocultos72) →
+          Instagram: @acordesocultos72 →
+        </a>
+        <a 
+          href="https://www.tiktok.com/@acordesocultos" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          class="px-6 py-3 rounded-lg bg-[#1a1714] hover:bg-[#25211c] border border-[#332e26] text-neutral-300 font-semibold text-sm transition-colors"
+        >
+          TikTok: @acordesocultos
         </a>
         <a 
           href="https://acordesocultos.substack.com" 
           target="_blank" 
           rel="noopener noreferrer"
-          class="w-full sm:w-auto px-6 py-3 rounded-lg bg-[#1a1714] hover:bg-[#25211c] border border-[#332e26] text-neutral-300 font-semibold text-sm transition-colors"
+          class="px-6 py-3 rounded-lg bg-[#1a1714] hover:bg-[#25211c] border border-[#332e26] text-neutral-300 font-semibold text-sm transition-colors"
         >
-          Explorar Crónicas en Substack
+          Substack: Crónicas Extendidas
         </a>
       </div>
-    </div>
+    </section>
 
   </div>
 </Layout>

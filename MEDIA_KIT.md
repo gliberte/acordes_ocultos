@@ -1,125 +1,102 @@
 # ACORDES OCULTOS | MEDIA KIT 2026
-### *Donde la historia de la música se cuenta con alma, tensión y rigor cinematográfico.*
 
----
+*Historias detrás de las canciones que forman parte de nuestra vida.*
 
-## 1. Manifiesto y Propuesta de Valor
+**Actualizado: 7 de octubre de 2026 · Tarifas en USD**
 
-**Acordes Ocultos** es una plataforma de contenido documental y cultural consagrada a desenterrar los secretos, tragedias, censuras y milagros humanos que dieron origen a las canciones más legendarias de la historia.
+## 1. Qué es Acordes Ocultos
 
-Frente a la superficialidad de las redes sociales modernas, *Acordes Ocultos* ha consolidado un lenguaje propio:
-* **Microdocumentales cinematográficos** en formato vertical (9:16) con estética retro de película 35mm.
-* **Tensión narrativa y rigor histórico absoluto:** Cero invenciones, cero mitos infundados; historias contrastadas en hemerotecas y testimonios oficiales.
-* **Sensibilidad poética y humana:** Conectando el proceso creativo con el alma, el duelo y el triunfo del artista.
-* **Capa editorial extendida:** Crónicas profundas de archivo en nuestro portal oficial ([acordesocultos.com](https://www.acordesocultos.com)).
+Acordes Ocultos cuenta historias humanas detrás de canciones y artistas: el amor, las pérdidas, las decisiones y los momentos que marcaron su música.
 
----
+El proyecto combina videos verticales con una estética cinematográfica y crónicas de lectura extendida en [acordesocultos.com](https://www.acordesocultos.com). La línea editorial busca unir una narración cercana con hechos documentados y fuentes que el lector pueda consultar.
 
-## 2. Métricas de Impacto y Rendimiento (Datos Verificados)
+Para las marcas, ofrecemos colaboraciones alrededor de la música y la cultura, con una integración clara y respetuosa de la historia y de la audiencia.
 
-> **Datos consolidados de Meta Graph API / Instagram Insights (Octubre 2026)**
+## 2. Comunidad y resultados verificados
 
-| Métrica Clave | Cifra Oficial | Contexto en la Industria |
-| :--- | :--- | :--- |
-| **Comunidad Total** | **+26.700 seguidores** | Crecimiento orgánico acelerado (+620 seguidores nuevos por día) |
-| **Pico de Alcance (Reel Viral)** | **+1.650.000 visualizaciones** | +1.068.800 cuentas únicas alcanzadas en un solo contenido |
-| **Tracción Recurrente (Hits)** | **30.000 – 125.000 vistas/post** | Rango habitual de reproducciones en producciones destacadas |
-| **Ratio de Viralidad (Shares)** | **+17.940 compartidos** | Hasta 33.4% de ratio Shares/Likes por DM (Top 1% en difusión orgánica) |
-| **Interacciones Totales** | **+105.800 por producción** | Altísimo nivel de retención, debate (+71.500 likes) y comentarios cualitativos |
-| **Guardados (Saves)** | **+8.910 guardados** | Contenido percibido como archivo coleccionable de consulta |
+**Instagram: [@acordesocultos72](https://www.instagram.com/acordesocultos72/) · 27.851 seguidores.**
 
----
+Fuente: perfil e Instagram Insights consultados mediante Composio el 7 de octubre de 2026. Las cifras siguientes son acumuladas de cada publicación hasta la consulta.
 
-## 3. Perfil de Audiencia y Demografía
+| Publicación | Visualizaciones | Cuentas alcanzadas | Compartidos | Guardados |
+| :--- | ---: | ---: | ---: | ---: |
+| [Isabel Pantoja — Marinero de Luces](https://www.instagram.com/reel/DdpS1qrKB1j/) | 1.664.789 | 1.075.483 | 18.088 | 9.007 |
+| [Tormenta — Adiós, chico de mi barrio](https://www.instagram.com/reel/DeAkQDqRhti/) | 100.494 | 64.018 | 2.878 | 767 |
+| [Mercedes Sosa — Todo Cambia](https://www.instagram.com/reel/DeHBG89RDh2/) | 53.621 | 39.069 | 1.211 | 481 |
+| [Nino Bravo — Un beso y una flor](https://www.instagram.com/reel/DeB79WORNzg/) | 25.027 | 15.650 | 475 | 225 |
+| [Kiki Dee — Amoureuse](https://www.instagram.com/reel/DeF5GfPRTb8/) | 2.724 | 1.897 | 4 | 14 |
+| [Jay and the Americans — This Magic Moment](https://www.instagram.com/reel/DeJbPfoRjq7/) | 1.596 | 1.227 | 3 | 14 |
 
-La comunidad de *Acordes Ocultos* es un segmento **culturalmente sofisticado, con poder adquisitivo medio-alto y una profunda vinculación con el coleccionismo físico y la tecnología de audio**.
+Esta selección incluye resultados altos y bajos de seis reels consultados; no constituye un promedio ni una muestra representativa del rendimiento habitual. Las publicaciones tienen distinta antigüedad. Los resultados de una colaboración dependerán de su contenido y distribución; no se garantiza un número de visualizaciones o ventas.
 
-* **Rango de Edad:**
-  * **25 – 44 años (52%):** Consumidores activos de conciertos, audio Hi-Fi, libros y streaming de alta fidelidad.
-  * **45 – 65+ años (38%):** Coleccionistas de vinilo, nostálgicos de la edad de oro del pop/rock y melómanos tradicionales.
-  * **18 – 24 años (10%):** Jóvenes descubridores de clásicos musicales y estudiantes de humanidades/artes.
-* **Distribución Geográfica:**
-  * **España (45%):** Madrid, Barcelona, Sevilla, Valencia, Bilbao.
-  * **América Latina (38%):** México, Colombia, Argentina, Chile, Panamá.
-  * **Estados Unidos Hispano (17%):** Florida, California, Texas, Nueva York.
-* **Intereses Declarados:**
-  * Tocadiscos y giradiscos vintage / Audio Hi-Fi.
-  * Coleccionismo de ediciones especiales en vinilo y merchandising de autor.
-  * Biografías de músicos, libros de historia cultural y novelas gráficas.
-  * Festivales de música, giras conmemorativas y teatro musical.
+El alcance es una estimación de cuentas únicas. Las visualizaciones pueden incluir varias de una misma cuenta. La métrica de compartidos no distingue envíos por mensaje directo de otros tipos de difusión.
 
----
+## 3. Audiencia: países registrados
 
-## 4. Casos de Estudio: El Poder del Formato
+El desglose de seguidores por país devuelto por Instagram para `this_month`, consultado el 7 de octubre de 2026, incluye estos seis países con mayor número de seguidores en la respuesta:
 
-### Caso 1: Isabel Pantoja y José Luis Perales («Marinero de Luces»)
-* **Visualizaciones:** 1.650.370+
-* **Alcance Único:** 1.068.800 cuentas
-* **Compartidos:** 17.947 | **Guardados:** 8.919 | **Likes:** 71.499+ | **Interacciones Totales:** 105.800+
-* **El Fenómeno:** Demostró el poder arrollador de rescatar la verdad íntima de un mito popular mediante una narrativa de alta emoción y elegancia visual, superando el millón de personas únicas alcanzadas.
+| País | Seguidores registrados en el desglose |
+| :--- | ---: |
+| México | 1.724 |
+| Venezuela | 1.524 |
+| España | 1.485 |
+| Argentina | 1.367 |
+| Chile | 934 |
+| Estados Unidos | 675 |
 
-### Caso 2: Bob Marley («Redemption Song»)
-* **Visualizaciones:** 125.600+
-* **Alcance Único:** 85.060 cuentas
-* **Compartidos:** 2.223 | **Guardados:** 1.035 | **Interacciones Totales:** 14.280+
-* **El Fenómeno:** Conexión inmediata con el público de rock/reggae y resiliencia humana frente a la adversidad.
+El desglose devuelto no cubre la totalidad de los 27.851 seguidores; estas cifras no se extrapolan a porcentajes de toda la comunidad. No se dispone en esta revisión de datos verificados de edad, ingresos o intención de compra.
 
-### Caso 3: Tormenta («Adiós, chico de mi barrio»)
-* **Visualizaciones:** 87.880+
-* **Alcance Único:** 55.523 cuentas
-* **Compartidos:** 2.512 (33.4% Ratio Shares/Likes) | **Comentarios:** 393+ | **Interacciones Totales:** 11.839+
-* **El Fenómeno:** Viralidad masiva por mensaje directo al revelar la historia real y desconocida detrás de un himno generacional hispanoamericano.
+## 4. Ejemplos del contenido
 
-### Caso 4: Rocío Dúrcal y Juan Gabriel («Amor Eterno») & John Lennon («Jealous Guy»)
-* **«Amor Eterno»:** 74.600+ visualizaciones | 53.911 cuentas alcanzadas | 4.070+ interacciones.
-* **«Jealous Guy»:** 34.940+ visualizaciones | 25.180 cuentas alcanzadas | 3.147+ interacciones (407 guardados).
+- **Marinero de Luces:** una historia sobre pérdida, música y regreso al escenario. Es el caso de mayor alcance entre los seis reels consultados.
+- **Adiós, chico de mi barrio:** una canción que conecta con recuerdos de juventud; registró 2.878 compartidos y 767 guardados.
+- **Todo Cambia:** un relato alrededor de la trayectoria y la voz de Mercedes Sosa; alcanzó 39.069 cuentas.
 
----
+Estos ejemplos muestran el enfoque editorial y sus resultados observados. No atribuyen el rendimiento a una causa única ni anticipan los resultados de futuras campañas.
 
-## 5. Menú de Formatos Comerciales y Tarifas Orientativas
+## 5. Formatos y tarifas propuestas
 
-Todos los patrocinios se integran de manera orgánica y cinematográfica para preservar la credibilidad editorial y maximizar el recuerdo de marca.
+Los siguientes rangos son una propuesta comercial de Acordes Ocultos. La cotización final se acuerda según producción, entregables y derechos de uso.
 
-| FORMATO | DESCRIPCIÓN | TARIFA ESTIMADA |
-| :--- | :--- | :--- |
-| **1. Mención Integrada en Reel / TikTok** | Co-branding sutil (Presentador oficial del microdocumental) | $450 – $750 USD |
-| **2. Microdocumental Temático Exclusivo** | Historia dedicada a medida alineada al territorio de la marca | $900 – $1.400 USD |
-| **3. Campaña Multicanal Premium** | Reel en Instagram + TikTok Cut + Crónica Web de Archivo | $1.500 – $2.200 USD |
-| **4. Recomendación en Storefront / Afiliado** | Enlace oficial en bio y mención recurrente curada | Comisión 8-15% o fee fijo mensual |
+| Formato | Entregables propuestos | Tarifa orientativa |
+| :--- | :--- | ---: |
+| Mención integrada | Un Reel en Instagram y adaptación para TikTok, con identificación del patrocinio y mención en el texto | $450–$750 |
+| Microdocumental temático | Un Reel producido alrededor de una historia documentada vinculada a la campaña | $900–$1.400 |
+| Campaña multicanal | Un Reel en Instagram, una adaptación para TikTok y una crónica web con identificación del patrocinador | $1.500–$2.200 |
+| Recomendación con enlace de afiliación | Producto seleccionado por afinidad editorial, ubicación y duración acordadas | Comisión y/o tarifa fija a negociar |
 
-### Detalles de cada formato:
+**Cómo se integra una marca**
 
-#### Formato 1: Mención Integrada (Reel + TikTok)
-* Integración visual limpia en los primeros 5 segundos o en el cierre del video (*«Este episodio llega a ti con la fidelidad acústica de [Marca]»*).
-* Etiqueta de colaborador oficial / mención destacada en el copy y primer comentario fijado.
-* **Ideal para:** Auriculares, accesorios de vinilo, gadgets de audio, apps musicales.
+- Una mención breve y directa: «Este episodio cuenta con el apoyo de [Marca]».
+- Una historia vinculada a una reedición musical, una biografía, un aniversario o un encuentro cultural, siempre que exista material documental suficiente.
+- Un enlace o una invitación concreta a conocer la propuesta de la marca, según el objetivo de la campaña.
 
-#### Formato 2: Microdocumental Temático a Medida
-* Creación de un microdocumental completo vinculado al territorio de la marca (ejemplo: la historia de cómo se inventó un amplificador legendario, la grabación analógica de un álbum mítico de un sello, o el lanzamiento de una reedición en vinilo).
-* Enfoque editorial apasionante donde la marca es el héroe facilitador de la música.
-* **Ideal para:** Sellos discográficos (Sony Music Legacy, Universal, Warner), marcas de audio de alta gama (Marshall, Audio-Technica, Sennheiser).
+La colaboración conserva la independencia editorial y se identifica como patrocinada o afiliada cuando corresponda. La música y las imágenes de cada campaña se seleccionan según los permisos aplicables.
 
-#### Formato 3: Campaña Multicanal Premium
-* 1 Reel en Instagram (alcance masivo inmediato).
-* 1 TikTok Cut optimizado.
-* 1 Crónica escrita con fotos de archivo y banner exclusivo en [acordesocultos.com](https://www.acordesocultos.com).
-* **Ideal para:** Campañas de posicionamiento institucional, aniversarios discográficos, lanzamientos editoriales de libros y festivales.
+**Condiciones que se concretan en la propuesta**
 
----
+- Fechas de entrega y publicación, guion, número de revisiones y materiales que aporta la marca.
+- Exclusividad, reutilización del contenido, publicidad pagada y licencias de música o archivo se cotizan aparte cuando se soliciten.
+- Impuestos, forma de pago y cualquier gasto adicional quedan especificados antes de contratar.
+- Reporte de métricas disponibles a los siete días de publicación. La medición de clics o ventas requiere enlaces identificables y acceso a los datos correspondientes.
 
-## 6. Marcas y Sectores Objetivo (Target Fit)
+Las métricas verificadas de este documento corresponden a Instagram. TikTok y la web son canales propuestos de distribución; aquí no se presentan cifras verificadas de su audiencia o tráfico.
 
-* 🎧 **Audio, Auriculares y Tocadiscos:** Marshall, Audio-Technica, Sennheiser, Sony Audio, Pro-Ject Audio Systems, Sonos, JBL.
-* 💿 **Sellos Discográficos y Distribuidoras:** Sony Music Legacy, Universal Music Spain/LatAm, Warner Music, Record Store Day, Vinyl Me Please.
-* 📚 **Editoriales y Libros Musicales:** Penguin Random House, Grupo Planeta, Ediciones Cúpula (biografías de artistas, libros de memorabilia).
-* 🎸 **Instrumentos y Plataformas:** Fender, Gibson, Spotify/Apple Music campaigns, Tidal.
+## 6. Colaboraciones que buscamos
 
----
+Por afinidad con el contenido, proponemos explorar colaboraciones con:
 
-## 7. Contacto y Colaboraciones
+- Editoriales que publiquen biografías y libros sobre música.
+- Sellos y distribuidores que preparen reediciones o aniversarios de catálogo.
+- Festivales, salas y proyectos de divulgación cultural.
+- Marcas de audio y accesorios musicales con una propuesta relevante para la historia.
 
-* **Medio Oficial:** Acordes Ocultos
-* **Plataforma Web:** [www.acordesocultos.com](https://www.acordesocultos.com)
-* **Instagram:** [@acordesocultos72](https://www.instagram.com/acordesocultos72/)
-* **TikTok:** [@acordesocultos](https://www.tiktok.com/@acordesocultos)
-* **Gestión de Alianzas y Prensa:** `luis.solano.l@gmail.com`
+Esta afinidad es editorial; no equivale a intereses de compra medidos ni a acuerdos existentes con marcas.
+
+## 7. Contacto
+
+- **Web:** [acordesocultos.com](https://www.acordesocultos.com)
+- **Instagram:** [@acordesocultos72](https://www.instagram.com/acordesocultos72/)
+- **TikTok:** [@acordesocultos](https://www.tiktok.com/@acordesocultos)
+- **Substack:** [acordesocultos.substack.com](https://acordesocultos.substack.com)
+
