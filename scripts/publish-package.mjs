@@ -271,6 +271,18 @@ const contentTypeFor = (filePath) => {
     return 'video/mp4';
   }
 
+  if (extension === '.webp') {
+    return 'image/webp';
+  }
+
+  if (extension === '.png') {
+    return 'image/png';
+  }
+
+  if (extension === '.jpg' || extension === '.jpeg') {
+    return 'image/jpeg';
+  }
+
   if (extension === '.json') {
     return 'application/json';
   }
@@ -310,7 +322,7 @@ const cloudflareConfig = () => {
   };
 };
 
-const uploadToCloudflare = async ({story, files, videoPath, coverPath, teaserPath, heroBannerPath}) => {
+const uploadToCloudflare = async ({story, files, videoPath, coverPath, coverWebpPath, teaserPath, heroBannerPath}) => {
   const config = cloudflareConfig();
 
   if (!config) {
@@ -337,6 +349,10 @@ const uploadToCloudflare = async ({story, files, videoPath, coverPath, teaserPat
 
   if (coverPath) {
     targets.cover = {path: coverPath, key: `${baseKey}/${basename(coverPath)}`};
+  }
+
+  if (coverWebpPath && existsSync(coverWebpPath)) {
+    targets.cover_webp = {path: coverWebpPath, key: `${baseKey}/cover.webp`};
   }
 
   if (teaserPath) {
@@ -441,7 +457,7 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
   const packageUrl = cloudflareFiles?.package?.url || null;
   const copyUrl = cloudflareFiles?.copy?.url || null;
   const videoUrl = cloudflareFiles?.video?.url || null;
-  const coverUrl = cloudflareFiles?.cover?.url || null;
+  const coverUrl = cloudflareFiles?.cover_webp?.url || cloudflareFiles?.cover?.url || null;
   const teaserUrl = cloudflareFiles?.story_teaser?.url || null;
   const heroImageUrl = cloudflareFiles?.hero_banner?.url || null;
   const tiktokScript =
@@ -478,10 +494,19 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
   const storySlug = slugFor(story.title);
   let resolvedWebArticle = editorialPackage.copy;
   const articlesBase = join(rootDir, 'articles');
+  let matchedArticleSlug = null;
   if (existsSync(articlesBase)) {
+    const assetFolder = story.assets?.[0]?.src ? dirname(story.assets[0].src).replace(/^videos\//, '').replace(/^.*\//, '') : null;
+    const musicFolder = story.music?.src ? dirname(story.music.src).replace(/^music\//, '').replace(/^.*\//, '') : null;
+    const artistClean = slugFor(story.artist || '').replace(/-/g, '');
+    const songClean = slugFor(story.music?.title || '').replace(/-/g, '');
+
     const candidateDirs = [
-      storySlug,
+      story.articleSlug,
       story.slug,
+      assetFolder,
+      musicFolder,
+      storySlug,
       normalizeTag(story.artist || '').toLowerCase()
     ].filter(Boolean);
 
@@ -489,6 +514,7 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
       const p = join(articlesBase, c, 'article.md');
       if (existsSync(p)) {
         resolvedWebArticle = readFileSync(p, 'utf8');
+        matchedArticleSlug = c;
         break;
       }
     }
@@ -498,10 +524,21 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
         const entries = readdirSync(articlesBase, { withFileTypes: true });
         for (const e of entries) {
           if (e.isDirectory() && e.name !== 'assets') {
+            const eClean = e.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+            // Check matching both artist and song in directory name
+            if (artistClean && songClean && eClean.includes(artistClean) && eClean.includes(songClean)) {
+              const p = join(articlesBase, e.name, 'article.md');
+              if (existsSync(p)) {
+                resolvedWebArticle = readFileSync(p, 'utf8');
+                matchedArticleSlug = e.name;
+                break;
+              }
+            }
             if (e.name.includes(storySlug) || storySlug.includes(e.name)) {
               const p = join(articlesBase, e.name, 'article.md');
               if (existsSync(p)) {
                 resolvedWebArticle = readFileSync(p, 'utf8');
+                matchedArticleSlug = e.name;
                 break;
               }
             }
@@ -509,6 +546,12 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
         }
       } catch (_) {}
     }
+  }
+
+  if (matchedArticleSlug) {
+    console.log(`📰 [Web] Crónica extendida enlazada con éxito desde articles/${matchedArticleSlug}/ (${resolvedWebArticle.length} caracteres).`);
+  } else {
+    console.warn('⚠️ [Web] No se encontró crónica extendida en articles/. Se usará el copy como respaldo.');
   }
 
   const publishedNewsRow = {
@@ -524,6 +567,7 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     status: 'published',
     production_plan: {
       slug: slugFor(story.title),
+      article_slug: matchedArticleSlug,
       artist: editorialPackage.artist,
       duration_seconds: editorialPackage.durationSeconds,
       music: story.music,
@@ -678,41 +722,55 @@ const sendTelegramVideo = async (videoPath, caption) => {
 };
 
 const optimizeCoverForWeb = ({story, coverPath}) => {
-  if (!coverPath || !existsSync(coverPath)) return;
-  const slug = story.slug || slugFor(story.title || '');
-  if (!slug) return;
+  if (!coverPath || !existsSync(coverPath)) return null;
+  const candidateSlugs = unique([
+    slugFor(story.title || ''),
+    story.slug,
+    story.articleSlug
+  ]);
+  if (candidateSlugs.length === 0) return null;
 
   const webCoversDir = join(rootDir, 'web/public/covers');
   const publicCoversDir = join(rootDir, 'public/covers');
   mkdirSync(webCoversDir, { recursive: true });
   mkdirSync(publicCoversDir, { recursive: true });
 
-  const targetWebp = join(webCoversDir, `${slug}.webp`);
-  const publicWebp = join(publicCoversDir, `${slug}.webp`);
+  const primarySlug = candidateSlugs[0];
+  const primaryWebp = join(webCoversDir, `${primarySlug}.webp`);
 
   try {
     const cwebp = ['/usr/local/bin/cwebp', '/opt/homebrew/bin/cwebp', 'cwebp'].find(c => {
       try { execSync(`which ${c}`, { stdio: 'ignore' }); return true; } catch (_) { return false; }
     });
     if (cwebp) {
-      execSync(`"${cwebp}" -q 80 -resize 480 854 "${coverPath}" -o "${targetWebp}"`, { stdio: 'pipe' });
-      copyFileSync(targetWebp, publicWebp);
-      console.log(`🖼️ [Web] Portada WebP optimizada: ${targetWebp} (${(statSync(targetWebp).size / 1024).toFixed(1)} KB)`);
+      execSync(`"${cwebp}" -q 80 -resize 480 854 "${coverPath}" -o "${primaryWebp}"`, { stdio: 'pipe' });
 
-      // Update available_covers.json manifest
       const manifestPath = join(rootDir, 'web/src/data/available_covers.json');
       let manifest = [];
       if (existsSync(manifestPath)) {
         try { manifest = JSON.parse(readFileSync(manifestPath, 'utf8')); } catch (_) {}
       }
-      if (!manifest.includes(slug)) {
-        manifest.push(slug);
-        writeFileSync(manifestPath, JSON.stringify(manifest.sort(), null, 2));
+
+      for (const s of candidateSlugs) {
+        const targetWebp = join(webCoversDir, `${s}.webp`);
+        const publicWebp = join(publicCoversDir, `${s}.webp`);
+        if (targetWebp !== primaryWebp) {
+          copyFileSync(primaryWebp, targetWebp);
+        }
+        copyFileSync(primaryWebp, publicWebp);
+        if (!manifest.includes(s)) {
+          manifest.push(s);
+        }
       }
+
+      writeFileSync(manifestPath, JSON.stringify(manifest.sort(), null, 2));
+      console.log(`🖼️ [Web] Portada WebP optimizada (${candidateSlugs.join(', ')}): ${(statSync(primaryWebp).size / 1024).toFixed(1)} KB`);
+      return primaryWebp;
     }
   } catch (err) {
     console.warn(`⚠️ Error al generar WebP para portada: ${err.message}`);
   }
+  return null;
 };
 
 const optimizeHeroForWeb = ({story, heroPath}) => {
@@ -845,8 +903,9 @@ const main = async () => {
   }
 
   // Automatically optimize cover for web (WebP 480x854, ~15-25 KB)
+  let coverWebpPath = null;
   if (coverPath) {
-    optimizeCoverForWeb({story, coverPath});
+    coverWebpPath = optimizeCoverForWeb({story, coverPath});
   }
 
   // Automatically optimize hero banner for web (WebP 1600x900, ~50-80 KB)
@@ -863,6 +922,7 @@ const main = async () => {
       files,
       videoPath: options.video,
       coverPath,
+      coverWebpPath,
       teaserPath,
       heroBannerPath
     });
@@ -943,8 +1003,11 @@ const main = async () => {
     if (existsSync(options.video)) {
       try {
         let videoToSend = options.video;
-        const tgVideo = join(rootDir, 'out/story_90s_tg.mp4');
-        if (existsSync(tgVideo)) {
+        const sizeMb = statSync(options.video).size / (1024 * 1024);
+        if (sizeMb > 48) {
+          const tgVideo = join(rootDir, 'out/story_90s_tg.mp4');
+          console.log(`⚡ Comprimiendo video de 90s para Telegram (${sizeMb.toFixed(1)}MB > 48MB)...`);
+          execSync(`ffmpeg -y -i "${options.video}" -vcodec libx264 -crf 28 -preset faster -c:a aac -b:a 128k "${tgVideo}"`, {stdio: 'inherit'});
           videoToSend = tgVideo;
         }
         await sendTelegramDocument(videoToSend, `Video Reels (90s) - ${story.artist} - ${story.title}`);
@@ -956,8 +1019,11 @@ const main = async () => {
     if (existsSync(tiktokVideoPath)) {
       try {
         let tiktokToSend = tiktokVideoPath;
-        const tgTiktok = join(rootDir, 'out/story_tiktok_tg.mp4');
-        if (existsSync(tgTiktok)) {
+        const sizeMb = statSync(tiktokVideoPath).size / (1024 * 1024);
+        if (sizeMb > 48) {
+          const tgTiktok = join(rootDir, 'out/story_tiktok_tg.mp4');
+          console.log(`⚡ Comprimiendo video de TikTok para Telegram (${sizeMb.toFixed(1)}MB > 48MB)...`);
+          execSync(`ffmpeg -y -i "${tiktokVideoPath}" -vcodec libx264 -crf 28 -preset faster -c:a aac -b:a 128k "${tgTiktok}"`, {stdio: 'inherit'});
           tiktokToSend = tgTiktok;
         }
         await sendTelegramDocument(tiktokToSend, `Video TikTok Cut (60s) - ${story.artist} - ${story.title}`);
@@ -984,15 +1050,35 @@ const main = async () => {
     }
   }
 
-  // Sincronización automática de recursos web (WebP y dataset chronicles.json)
+  // Sincronización automática de recursos web (portadas WebP, imágenes de artículos y dataset chronicles.json) + Git Push
   if (!options.dryRun) {
     try {
-      console.log('\n🌐 Sincronizando recursos optimizados para la Web (WebP & dataset)...');
+      console.log('\n🌐 Sincronizando recursos optimizados para la Web (Portadas WebP, Artículos & Dataset)...');
       const {execSync} = await import('node:child_process');
+      execSync('node scripts/generate-webp-covers.mjs', { cwd: rootDir, stdio: 'inherit' });
       execSync('node scripts/optimize-web-images.mjs', { cwd: rootDir, stdio: 'inherit' });
       execSync('node scripts/compile-chronicles.mjs', { cwd: rootDir, stdio: 'inherit' });
+
+      // Auto-commit y push de portadas y activos web para que jamás queden sin desplegar en producción
+      const syncPaths = [
+        'web/public/covers',
+        'public/covers',
+        'web/public/articles',
+        'web/public/images/heroes',
+        'web/src/data/available_covers.json',
+        'web/src/data/available_heroes.json',
+        'web/src/data/chronicles.json'
+      ];
+      execSync(`git add ${syncPaths.join(' ')}`, { cwd: rootDir, stdio: 'ignore' });
+      const diffCheck = execSync('git diff --cached --name-only', { cwd: rootDir, encoding: 'utf8' }).trim();
+      if (diffCheck) {
+        console.log('🚀 Subiendo automáticamente portadas WebP y activos sincronizados a Git (origin/main)...');
+        execSync(`git commit -m "chore(web): auto-sync WebP covers and chronicle assets [${slugFor(story.title)}]"`, { cwd: rootDir, stdio: 'inherit' });
+        execSync('git push origin main', { cwd: rootDir, stdio: 'inherit' });
+        console.log('✅ Portadas y activos web desplegados en Git/Vercel con éxito.');
+      }
     } catch (webErr) {
-      console.warn(`⚠️ Aviso al sincronizar recursos web: ${webErr.message}`);
+      console.warn(`⚠️ Aviso al sincronizar/subir recursos web: ${webErr.message}`);
     }
   }
 

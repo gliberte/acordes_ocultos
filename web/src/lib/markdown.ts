@@ -3,7 +3,21 @@
  */
 export function stripFrontmatter(md: string): string {
   if (!md) return '';
-  return md.replace(/^\s*---\r?\n[\s\S]*?\r?\n---\r?\n*/, '').trim();
+  let text = md.replace(/^\s*---\r?\n[\s\S]*?\r?\n---\r?\n*/, '').trim();
+  // Defensive cleanup for short articles that had a duplicated opening sentence
+  if (text.length > 40 && text.length < 2500) {
+    for (let len = 220; len >= 20; len--) {
+      if (text.length < len * 2) continue;
+      const candidate = text.slice(0, len).trim();
+      if (candidate.length < 20) continue;
+      const remainder = text.slice(len).trimStart();
+      if (remainder.startsWith(candidate)) {
+        text = candidate + '\n\n' + remainder.slice(candidate.length).trimStart();
+        break;
+      }
+    }
+  }
+  return text;
 }
 
 /**
@@ -58,7 +72,7 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
           <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
           <picture>
             <source srcset="/articles/${slug}/images/${webpFilename}" type="image/webp" />
-            <img src="/articles/${slug}/images/${webpFilename}" alt="${alt || captionText}" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
+            <img src="/articles/${slug}/images/${webpFilename}" alt="${alt || captionText}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
           </picture>
         </div>
         ${captionText ? `<figcaption class="p-3.5 text-xs text-center text-neutral-400 font-sans italic border-t border-[#1f1d19] bg-[#0f0e0b] leading-relaxed">${formatInlineMarkdown(captionText)}</figcaption>` : ''}
@@ -75,7 +89,7 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
       return `\n\n<figure class="my-10 max-w-[440px] sm:max-w-[480px] mx-auto rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] shadow-2xl transition-all select-none">
       <div class="relative">
         <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
-        <img src="${src.trim()}" alt="${alt || captionText}" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
+        <img src="${src.trim()}" alt="${alt || captionText}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
       </div>
       ${captionText ? `<figcaption class="p-3.5 text-xs text-center text-neutral-400 font-sans italic border-t border-[#1f1d19] bg-[#0f0e0b] leading-relaxed">${formatInlineMarkdown(captionText)}</figcaption>` : ''}
     </figure>\n\n`;
@@ -97,7 +111,7 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
     }
 
     // Horizontal rule
-    if (/^---|\*\*\*|___$/.test(block)) {
+    if (/^(?:---|\*\*\*|___)$/.test(block)) {
       // Avoid consecutive duplicate <hr> tags
       if (renderedBlocks.length > 0 && !renderedBlocks[renderedBlocks.length - 1].startsWith('<hr')) {
         renderedBlocks.push('<hr class="my-10 border-[#26231e]" />');

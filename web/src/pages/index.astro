@@ -100,6 +100,8 @@ const websiteSchema = {
           <img
             src={featuredStory.heroImageUrl || featuredStory.coverUrl}
             alt={featuredStory.title}
+            width="1600"
+            height="900"
             class="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
             loading="eager"
             decoding="async"
@@ -285,6 +287,10 @@ const websiteSchema = {
             <img
               src={latestReelStory.coverUrl}
               alt={latestReelStory.title}
+              width="480"
+              height="854"
+              loading="lazy"
+              decoding="async"
               class="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
               onerror="this.src='/brand/acordes-ocultos-logo-sm.webp'"
             />

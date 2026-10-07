@@ -32,7 +32,7 @@ Los videos deben evitar un formato de reportaje puramente objetivo, frío o peri
 * **Belleza Íntima y Emoción:** Resalta el sentimiento, la vulnerabilidad humana o el humor inherente a la historia del artista, logrando que el espectador conecte emocionalmente con la obra musical desde la primera línea.
 * **Metáfora Visual de Cierre (Escena 9 — Prohibición de Tornamesas/Vinilos):** Siguiendo la fórmula maestra de nuestro mayor éxito (*Marinero de Luces* con 2.5M de vistas, donde el cierre fue un velero solitario en la niebla marina), **queda terminantemente prohibido cerrar los videos con tocadiscos o vinilos genéricos**. La escena 9 debe presentar siempre una **metáfora visual cinematográfica, poética y evocadora** que condense el tema central de la historia e invite a la reflexión profunda (ej. un velero en el horizonte brumoso, un banco solitario en un parque otoñal con niños jugando a lo lejos, una ventana con lluvia y luz cálida interior).
 * **Calibración de Subtítulos vs. Copys:**
-  - **Subtítulos en Escena:** Breves, líricos y contundentes. No deben ser una mera descripción de hechos secos, ni tan extensos que saturen la pantalla o impidan su lectura relajada durante la duración de la escena (**~18 a 24 palabras** por 10s en Reels, **~12 a 16 palabras** por ~6.6s en TikTok).
+  - **Subtítulos en Escena:** Breves, líricos, humanos y contundentes. Sin abandonar la poesía, metáforas y lirismo, deben redactarse en un **lenguaje humano, cercano y de fácil y ágil lectura, descartando vocabulario rebuscado o barroco**. No deben ser una mera descripción de hechos secos, ni tan extensos que saturen la pantalla o impidan su lectura relajada durante la duración de la escena (**~18 a 24 palabras** por 10s en Reels, **~12 a 16 palabras** por ~6.6s en TikTok).
   - **Copy de Publicación (Instagram Reels / Post):** Debe ser conciso y calibrado para no cortarse en Instagram (límite técnico: 2.200 caracteres; **rango óptimo recomendado: ~900 a 1.300 caracteres**, máximo 1.500 con hashtags). Debe iniciar con 1-2 líneas de gancho potente visibles antes de «... más», 2 párrafos breves de microhistoria, una reflexión con pregunta de debate y 5 a 8 hashtags selectos.
 
 ---
@@ -87,8 +87,10 @@ La producción estándar dual consta de 9 escenas visuales estáticas más la po
 #### 🖼️ Protocolo de Jerarquía y Control de Calidad:
 1. **Primera Opción (Sandbox Interno)**: Se intenta generar utilizando la herramienta interna de generación de imágenes (`generate_image`), aprovechando el anclaje de imagen (`ImagePaths`) para garantizar el parecido facial exacto.
 2. **Fotografía Histórica y Documental Real (Internet / Dominio Público)**: Si la producción lo amerita y existen fotografías históricas tomadas en el contexto directo de los acontecimientos narrados, se autoriza y recomienda el uso de estas fotos reales públicas como alternativa o complemento de altísimo valor testimonial (ej. la foto real de Syd Barrett en Abbey Road 1975 para *"Shine On You Crazy Diamond"*).
-3. **Segunda Opción / Contingencia (Google Flow)**: Si la cuota del sandbox está agotada, se recurre a Google Flow (`npm run assets:flow`) **únicamente si los prompts pueden garantizar el parecido real del artista sin disparar filtros de seguridad**.
-4. **Detención Obligatoria de Calidad**: Si una alternativa genera figuras genéricas o distorsionadas debido a filtros de la plataforma, **la producción se detiene de inmediato** hasta poder ejecutar la generación con la herramienta o material documental que asegure la fidelidad fisonómica e histórica real.
+3. **Segunda Opción / Contingencia (Google Flow)**: Si la cuota del sandbox está agotada, se recurre a Google Flow (`npm run assets:flow`) **únicamente si los prompts pueden garantizar el parecido real del artista sin disparar filtros de seguridad ni exigir la alteración del guion**.
+4. **🚨 Inviolabilidad Argumental y Protocolo de Parada Obligatoria (INNEGOCIABLE)**:
+   - **Prohibición de Decisiones Unilaterales**: Ninguna escena, personaje, edad cronológica, hecho histórico ni núcleo dramático del guion aprobado se modificará, atenuará o eliminará para complacer los filtros de seguridad de una herramienta de IA externa. Queda estrictamente prohibido que el agente tome decisiones unilaterales de producción (como reemplazar niños por adultos o eliminar personajes clave) para forzar que una herramienta de IA apruebe un prompt.
+   - **Detención Obligatoria y Consulta al Usuario**: Si una herramienta rechaza un prompt por políticas de contenido (menores, guerra, armas, fuego, dictaduras, muerte) o cuota, **la producción se detiene de inmediato**. El agente debe informar al usuario con total transparencia el motivo exacto del bloqueo y someter a su criterio las alternativas viables (uso de fotos reales de archivo, espera de cuota o replanteamiento consensuado) antes de tocar un solo fotograma.
 
 ### 4. Transición de Video (Image-to-Video)
 Para elevar la tensión dramática del video, se debe elegir el punto de máximo suspenso e insertar una transición fluida generada por IA (de 8 a 10 segundos).
@@ -174,9 +176,9 @@ A partir de ahora, cada producción genera dos versiones optimizadas:
    * **Lectura Móvil Autónoma (`npm run chronicle:html`)**:
      - Genera `articles/<slug>/lectura_movil.html` con las imágenes WebP embebidas en Base64 (~1.5 MB en vez de 25 MB) y lo sincroniza a la Bóveda de Google Drive.
    * **Pipeline Unificado de Sincronización (`npm run chronicle:sync`)**:
-     - Ejecuta en un solo comando la optimización de imágenes, la compilación del dataset JSON, la generación de HTML móvil y la sincronización del campo `web_article` en Supabase.
+     - Ejecuta en un solo comando la optimización de portadas WebP (`generate-webp-covers.mjs`) e imágenes de artículos (`optimize-web-images.mjs`), la compilación del dataset JSON (`chronicles.json`), la generación de HTML móvil (`lectura_movil.html`), la sincronización del campo `web_article` en Supabase y el **auto-commit + `git push origin main` automático** de todas las portadas (`web/public/covers/*.webp`, `public/covers/*.webp`, `web/src/data/available_covers.json`) e imágenes WebP para que ninguna portada quede jamás sin subir ni sincronizar en producción.
    * **Despliegue a Producción Web**:
-     - El portal web en Astro compila en ~25 segundos y se despliega con:
+     - Tanto `npm run publish:package` como `npm run chronicle:sync` hacen `git push origin main` automáticamente de las portadas y activos WebP (disparando el despliegue en Vercel). Si se requiere despliegue directo desde CLI:
        ```bash
        npx vercel --prod
        ```
@@ -220,6 +222,11 @@ Antes de realizar el render final y empaquetar la producción, verifica que se c
    * Asegura que el corte de música empiece exactamente en el segundo donde arranca la melodía principal o el ritmo que define la historia.
 3. **Chequeo de Tipos y Validación de Story**:
    * Ejecuta siempre `npm run check` para garantizar que el archivo JSON cumpla estrictamente con el esquema Zod de Remotion sin errores de tipado.
+4. **Enlace Innegociable de la Crónica Extendida para la Web**:
+   * Cada producción debe incluir `slug` y `articleSlug` en el JSON de la historia apuntando a `articles/<slug>/`.
+   * Registrar el alias en `CHRONICLE_ALIASES` en `web/src/lib/stories.ts`.
+   * Verificar que `publish-package.mjs` suba el texto íntegro de la crónica en el campo `web_article` de Supabase (no solo el copy).
+   * Ejecutar siempre `npm run chronicle:sync` para compilar el dataset web (`web/src/data/chronicles.json`), generar imágenes WebP y sincronizar con la Bóveda Maestra.
 
 ---
 

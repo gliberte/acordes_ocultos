@@ -13,3 +13,10 @@ src/data/*.json
 /public/videos/*
 .vercel
 .env*
+
+# Local Cloud Studio execution lock
+.studio/
+web/public/videos/studio/
+web/public/articles/**/*.png
+web/public/articles/**/*.jpg
+web/public/articles/**/*.jpeg

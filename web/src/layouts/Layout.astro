@@ -77,8 +77,12 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
     )}
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="/brand/acordes-ocultos-logo.png" />
+    <link rel="icon" type="image/webp" href="/brand/acordes-ocultos-logo-sm.webp" />
     <meta name="generator" content={Astro.generator} />
+
+    {image && (
+      <link rel="preload" as="image" href={image} fetchpriority="high" />
+    )}
 
     <title>{title}</title>
     <meta name="description" content={description} />
@@ -125,13 +129,26 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
       <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
     )}
 
-    <!-- Google Fonts -->
+    <!-- Google Fonts (Non-Render-Blocking for Fast Mobile FCP/LCP) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&display=swap" 
-      rel="stylesheet" 
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400;1,600&display=swap"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400;1,600&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;0,900;1,400;1,600&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
   </head>
   <body class="min-h-screen flex flex-col bg-[#0a0908] text-neutral-100 antialiased selection:bg-amber-600 selection:text-white">
     <div class="fixed inset-0 pointer-events-none vinyl-radial -z-10"></div>

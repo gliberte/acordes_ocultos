@@ -2,10 +2,30 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
 
-const supabaseUrl = process.env.SUPABASE_URL || 'https://dsyxiowlipttwjuhoqio.supabase.co';
-const supabaseKey = process.env.SUPABASE_SECRET_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || '';
-
 const rootDir = process.cwd();
+
+function loadEnvFile(envPath) {
+  if (!fs.existsSync(envPath)) return;
+  const lines = fs.readFileSync(envPath, 'utf8').split(/\r?\n/);
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#') || !trimmed.includes('=')) continue;
+    const [key, ...rest] = trimmed.split('=');
+    const val = rest.join('=').trim().replace(/^['"]|['"]$/g, '');
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
+
+loadEnvFile(path.join(rootDir, '.env'));
+loadEnvFile(path.join(rootDir, 'web', '.env'));
+
+const supabaseUrl = process.env.SUPABASE_URL || process.env.PUBLIC_SUPABASE_URL || 'https://dsyxiowlipttwjuhoqio.supabase.co';
+const supabaseKey =
+  process.env.SUPABASE_SECRET_KEY ||
+  process.env.SUPABASE_SERVICE_ROLE_KEY ||
+  process.env.PUBLIC_SUPABASE_ANON_KEY ||
+  '';
+
 const coversDir = path.join(rootDir, 'web', 'public', 'covers');
 const publicCoversDir = path.join(rootDir, 'public', 'covers');
 const videosDir = path.join(rootDir, 'public', 'videos');

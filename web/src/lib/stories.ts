@@ -1,6 +1,7 @@
 import { supabase } from './supabase';
 import type { StoryItem, Scene } from './types';
 import { getCategoryInfo } from './categories';
+import { extractCleanSummary } from './markdown';
 import chroniclesMap from '../data/chronicles.json';
 import availableCoversList from '../data/available_covers.json';
 import availableHeroesList from '../data/available_heroes.json';
@@ -120,7 +121,7 @@ function normalizeSupabaseRow(row: any): StoryItem {
     hook: story.hook || undefined,
     anecdote: story.anecdote || undefined,
     content,
-    summary: content ? content.slice(0, 220) + '...' : undefined,
+    summary: content ? extractCleanSummary(content) : undefined,
     coverUrl,
     heroImageUrl,
     teaserUrl,
@@ -238,6 +239,7 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'lavozmasdulcelaluchamasamarga': 'the-carpenters-close-to-you',
           'lacancionquebonosalvodeldivorcio': 'u2-with-or-without-you',
           'laimprovisacionde30libras': 'pink-floyd-the-great-gig-in-the-sky',
+          'laimprovisacionde30librasquecambiolahistoriadelrock': 'pink-floyd-the-great-gig-in-the-sky',
           'elhimnoprohibidoquehizotemblaraunregimen': 'pink-floyd-another-brick-in-the-wall-part-2',
           'gimmeshelter': 'the-rolling-stones-gimme-shelter',
           'elrescatedethesoundofsilence': 'simon-and-garfunkel-the-sound-of-silence',
@@ -255,7 +257,75 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'eldesafiodejesucristosuperstar': 'camilo-sesto-jesucristo-superstar-acordes-ocultos',
           'elarquitectodelsonidoeterno': 'gustavo-cerati-corazon-delator-catedrales-de-leyenda',
           'elmitoylasombrademarilyn': 'marilyn-monroe-candle-in-the-wind',
-          'lareinaeternadelmariachi': 'rocio-durcal-amor-eterno-catedrales-de-leyenda'
+          'lareinaeternadelmariachi': 'rocio-durcal-amor-eterno-catedrales-de-leyenda',
+          'elcometaindomable': 'janis-joplin-piece-of-my-heart-destellos-de-gloria',
+          'delahumillacionalagloriaeterna': 'janis-joplin-piece-of-my-heart-destellos-de-gloria',
+          'elprofetadescalzoquedesafioalamuerte': 'bob-marley-redemption-song-destellos-de-gloria',
+          'lacanciondecunamastristedelmundo': 'minnie-riperton-lovin-you-acordes-ocultos',
+          'elsecretodetimeinabottle': 'jim-croce-time-in-a-bottle-acordes-ocultos',
+          'elmilagrodedoschicoshambrientos': 'jay-and-the-americans-this-magic-moment-acordes-ocultos',
+          'elhombrequeaprendioacorrercontraelviento': 'bob-seger-against-the-wind',
+          'lacancionnacidadelvientoencontra': 'bob-seger-against-the-wind',
+          'lacancionnacidadelvientoencontratiktokcut': 'bob-seger-against-the-wind',
+          'lamaquetaprohibida': 'celine-dion-my-heart-will-go-on',
+          'elfusilocultoenlanieve': 'cat-stevens-father-and-son',
+          'elhimnosolarnacidoenuncuartohelado': 'the-mamas-and-the-papas-california-dreamin-acordes-ocultos',
+          'elllantoqueparalizoaunpais': 'isabel-pantoja-marinero-de-luces-acordes-ocultos',
+          'elhimnoquejuraronnocantarjamas': 'acdc-its-a-long-way-to-the-top-acordes-ocultos',
+          'elvalsnupcialquenacioenelpresidio': 'paloma-san-basilio-luna-de-miel-acordes-ocultos',
+          'videokilledtheradiostar': 'buggles-video-killed-radio-star',
+          'lacanciondeamormasterrorifica': 'everybreath',
+          'lacanciondeamormasincomodadelosanos60': 'younggirl',
+          'elhimnoquequeenrechazo': 'tiger',
+          'elbocadilloqueinventoelfuzz': 'fuzz',
+          'illbethereforyou': 'illbethere',
+          'lamusicaquedirigioaunamusa': 'west',
+          'elacordequesalvoaunclasico': 'tinman',
+          'elsoulqueenamoroalacorona': 'the-three-degrees-when-will-i-see-you-again',
+          'elhimnodeluzquenaciodeunabilleteraperdida': 'the-5th-dimension-aquarius-acordes-ocultos',
+          'elhitqueodiabasupropiabanda': 'africa',
+          'mininaveneno': 'veneno',
+          'elhimnodepazqueconmovioenlaguerra': 'bette-midler-from-a-distance',
+          'dreamweaver': 'dream',
+          'elsecretodeadioschicodemibarrio': 'tormenta-adios-chico-de-mi-barrio-acordes-ocultos',
+          'elhimnodelamorquetuvoquecruzareloceano': 'manolo-galvan-te-quise-te-quiero-y-te-querre-acordes-ocultos',
+          'lavozquevencioalmiedo': 'mercedes-sosa-todo-cambia-catedrales-de-leyenda',
+          'lallamadaquehizolloraraamerica': 'king-clave-mi-corazon-lloro-acordes-ocultos',
+          'lacanciondelabandonomasinexplicabledelpop': 'kiki-dee-amoureuse-acordes-ocultos',
+          'lavozincombustiblequedesafioaltiempo': 'raphael-ave-maria-catedrales-de-leyenda',
+          'lavozdetrasdeunabandaquenoexistia': 'the-archies-sugar-sugar-acordes-ocultos',
+          'lacancionmasdulcenacidadeunavenganza': 'the-archies-sugar-sugar-acordes-ocultos',
+          'elhimnoquenaciodeunadespedida': 'the-hollies-he-aint-heavy-hes-my-brother-acordes-ocultos',
+          'ninobravolavozeternaquedetuvoelasfalto': 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria',
+          'elcometaqueardioensupropiofuego': 'amy-winehouse-back-to-black-destellos-de-gloria',
+          'lacancionprohibidaquedesafiolamoralde1975': 'manolo-galvan-hoy-no-me-levanto-acordes-ocultos',
+          'elsecretotraslasgafasoscuras': 'fr-david-words-acordes-ocultos',
+          'laconfesionquevencioalsilencio': 'fr-david-words-acordes-ocultos',
+          'elnombrequesalvounavidacuarentaanosdespues': 'the-poppy-family-which-way-you-goin-billy-acordes-ocultos',
+          'elhijoquenadieesperaba': 'miguel-angel-robles-viuda-a-los-20-anos-historia-en-los-acordes',
+          'elenigmadelgatoazul': 'roberto-carlos-un-gato-en-la-oscuridad-acordes-ocultos',
+          'laquiebraqueparioaqueen': 'queen-bohemian-rhapsody-forjados-en-el-barro',
+          'elgigantequecantodesdelassombras': 'nelson-ned-dejame-si-estoy-llorando',
+          'elcolosodeunmetro': 'nelson-ned-dejame-si-estoy-llorando',
+          'elcolosodeunmetroqueconquistoelmundo': 'nelson-ned-dejame-si-estoy-llorando',
+          'nelsonneddejamesiestoyllorando': 'nelson-ned-dejame-si-estoy-llorando',
+          'lacanciondeamorquecreyeronunamaldicion': 'silvio-rodriguez-ojala-acordes-ocultos',
+          'elexorcismoqueconfundieronconunamaldicion': 'silvio-rodriguez-ojala-acordes-ocultos',
+          'silviorodriguezojalaacordesocultos': 'silvio-rodriguez-ojala-acordes-ocultos',
+          'lacanterainagotable': 'silvio-rodriguez-catedrales-de-leyenda',
+          'silviorodriguezcatedralesdeleyenda': 'silvio-rodriguez-catedrales-de-leyenda',
+          'elcantoquetrascendiolaseras': 'silvio-rodriguez-catedrales-de-leyenda',
+          'patrickamormio': 'isabel-paton-patrick-amor-mio-acordes-ocultos',
+          'elorganoaccidental': 'bob-dylan-like-a-rolling-stone-acordes-ocultos',
+          'thatsallright': 'elvis-presley-thats-all-right-acordes-ocultos',
+          'zombie': 'the-cranberries-zombie-acordes-ocultos',
+          'elsolodesaxodebakerstreet': 'gerry-rafferty-baker-street-acordes-ocultos',
+          'elfracasoolvidadoqueconquistoelmundo': 'jeanette-porque-te-vas-acordes-ocultos',
+          'jeanetteporquetevas': 'jeanette-porque-te-vas-acordes-ocultos',
+          'jeanetteporquetevasacordesocultos': 'jeanette-porque-te-vas-acordes-ocultos',
+          'lasuplicaqueparoungolpe': 'the-supremes-stop-in-the-name-of-love',
+          'stopinthenameoflove': 'the-supremes-stop-in-the-name-of-love',
+          'thesupremesstopinthenameoflove': 'the-supremes-stop-in-the-name-of-love'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
@@ -292,6 +362,21 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           const isCustomEdited = Boolean(row.production_plan?.custom_article);
           if (!isCustomEdited || !item.content || item.content.length < 1000) {
             item.content = localArticles[matchingArticleKey];
+            item.summary = extractCleanSummary(item.content);
+          }
+        }
+
+        // Ensure coverUrl always uses local WebP if available under any of the story's slugs or aliases
+        if (!item.coverUrl.startsWith('/covers/')) {
+          const altCoverSlug = [
+            item.slug,
+            item.articleSlug,
+            row.production_plan?.article_slug,
+            row.production_plan?.story?.slug,
+            CHRONICLE_ALIASES[item.slug]
+          ].find(s => s && availableCovers.has(s));
+          if (altCoverSlug) {
+            item.coverUrl = `/covers/${altCoverSlug}.webp`;
           }
         }
 
