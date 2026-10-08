@@ -325,7 +325,24 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'jeanetteporquetevasacordesocultos': 'jeanette-porque-te-vas-acordes-ocultos',
           'lasuplicaqueparoungolpe': 'the-supremes-stop-in-the-name-of-love',
           'stopinthenameoflove': 'the-supremes-stop-in-the-name-of-love',
-          'thesupremesstopinthenameoflove': 'the-supremes-stop-in-the-name-of-love'
+          'thesupremesstopinthenameoflove': 'the-supremes-stop-in-the-name-of-love',
+          'lamujerqueesperotodasuvidaenelanden': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
+          'penelopeserrat': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
+          'joanmanuelserratpenelope': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
+          'joanmanuelserratpenelopehistoriaenlosacordes': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
+          'eltestamentodeamormaspurodelamusica': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
+          'esoquetumedas': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
+          'paudonesesoquetumedas': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
+          'jarabedepaloesoquetumedas': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
+          'jarabedepaloesoquetumedasacordesocultos': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
+          'elpactoquedisolvioalgigantedelrock': 'led-zeppelin-kashmir-acordes-ocultos',
+          'ledzeppelinkashmir': 'led-zeppelin-kashmir-acordes-ocultos',
+          'ledzeppelinkashmiracordesocultos': 'led-zeppelin-kashmir-acordes-ocultos',
+          'elreylagartoyelfuegoeterno': 'the-doors-touch-me',
+          'thedoorstouchme': 'the-doors-touch-me',
+          'jimmorrisonhomenajedestellosdegloria': 'the-doors-touch-me',
+          'lamuertedebonzo': 'led-zeppelin-kashmir-acordes-ocultos',
+          'elpactodehonor': 'led-zeppelin-kashmir-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
