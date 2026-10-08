@@ -19,15 +19,16 @@ export interface StoryAdminItem {
 
 interface Props {
   initialStories: StoryAdminItem[];
-  supabaseUrl: string;
-  supabaseKey: string;
-  expectedSecret: string;
 }
 
-export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, expectedSecret }: Props) {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
-  const [passwordInput, setPasswordInput] = useState<string>('');
-  const [authError, setAuthError] = useState<string>('');
+export default function AdminPanel({ initialStories }: Props) {
+  useEffect(() => {
+    // Remove plaintext credentials left by the previous client-side login.
+    try {
+      sessionStorage.removeItem('acordes_admin_pw');
+      sessionStorage.removeItem('acordes_admin_auth');
+    } catch { /* Storage can be unavailable in private browsing. */ }
+  }, []);
   const [stories, setStories] = useState<StoryAdminItem[]>(initialStories);
   const [search, setSearch] = useState<string>('');
   const [tab, setTab] = useState<'all' | 'pending' | 'linked' | 'hidden'>('all');
@@ -49,38 +50,10 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
   const [rowErrors, setRowErrors] = useState<Record<string, string>>({});
   const [statusMessage, setStatusMessage] = useState<string>('');
 
-  // Check sessionStorage on mount
-  useEffect(() => {
-    const stored = sessionStorage.getItem('acordes_admin_auth');
-    if (stored === 'true') {
-      setIsAuthenticated(true);
-    }
-  }, []);
-
-  const handleLogin = (e: React.FormEvent) => {
-    e.preventDefault();
-    setAuthError('');
-
-    try {
-      const cleanInput = passwordInput.trim();
-      const inputBase64 = btoa(cleanInput);
-      if (cleanInput && expectedSecret && inputBase64 === expectedSecret) {
-        setIsAuthenticated(true);
-        sessionStorage.setItem('acordes_admin_auth', 'true');
-        sessionStorage.setItem('acordes_admin_pw', cleanInput);
-      } else {
-        setAuthError('Contraseña incorrecta. Acceso denegado.');
-      }
-    } catch (err) {
-      setAuthError('Error validando credenciales.');
-    }
-  };
-
-  const handleLogout = () => {
-    sessionStorage.removeItem('acordes_admin_auth');
-    sessionStorage.removeItem('acordes_admin_pw');
-    setIsAuthenticated(false);
-    setPasswordInput('');
+  const handleLogout = async () => {
+    const response = await fetch('/api/admin/logout', { method: 'POST' });
+    if (response.ok) window.location.assign('/admin/login');
+    else setStatusMessage('No se pudo cerrar la sesión. Intenta nuevamente.');
   };
 
   const handleInputChange = (id: string, value: string) => {
@@ -124,7 +97,7 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
     setStatusMessage('');
 
     try {
-      const savedPw = sessionStorage.getItem('acordes_admin_pw') || passwordInput || '';
+
 
       const res = await fetch('/api/set-reel', {
         method: 'POST',
@@ -132,7 +105,6 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
           'content-type': 'application/json'
         },
         body: JSON.stringify({
-          password: savedPw,
           storyId: story.id,
           slug: story.slug,
           title: story.title,
@@ -168,12 +140,11 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
     const nextHidden = !story.isHidden;
     setTogglingVisibility(prev => ({ ...prev, [story.id]: true }));
     try {
-      const savedPw = sessionStorage.getItem('acordes_admin_pw') || passwordInput || '';
+
       const res = await fetch('/api/toggle-visibility', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          password: savedPw,
           storyId: story.id,
           slug: story.slug,
           isHidden: nextHidden
@@ -228,62 +199,6 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
   const linkedCount = useMemo(() => stories.filter(s => Boolean(s.instagramUrl) && !s.isHidden).length, [stories]);
   const pendingCount = useMemo(() => stories.filter(s => !s.instagramUrl && !s.isHidden).length, [stories]);
 
-  // 1. Render Login Screen if not authenticated
-  if (!isAuthenticated) {
-    return (
-      <div className="min-h-[70vh] flex items-center justify-center px-4">
-        <div className="w-full max-w-md bg-[#13110e] border border-[#2b2721] rounded-2xl p-8 shadow-2xl shadow-black/80 space-y-6">
-          <div className="text-center space-y-2">
-            <div className="w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/30 flex items-center justify-center mx-auto text-amber-400">
-              <svg className="w-8 h-8 fill-current" viewBox="0 0 24 24">
-                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
-              </svg>
-            </div>
-            <h2 className="font-serif text-2xl font-bold text-neutral-100">
-              Acceso Administrativo
-            </h2>
-            <p className="text-xs text-neutral-400">
-              Panel exclusivo de control editorial de Acordes Ocultos.
-            </p>
-          </div>
-
-          <form onSubmit={handleLogin} className="space-y-4">
-            <div>
-              <label className="block text-xs uppercase tracking-wider font-semibold text-neutral-300 mb-1.5">
-                Clave Maestra de Administrador
-              </label>
-              <input
-                type="password"
-                value={passwordInput}
-                onChange={e => setPasswordInput(e.target.value)}
-                placeholder="Escribe tu contraseña..."
-                required
-                className="w-full px-4 py-3 rounded-xl bg-[#1a1714] border border-[#332e26] text-neutral-100 placeholder-neutral-500 focus:outline-none focus:border-amber-500 transition-colors text-sm font-sans"
-              />
-            </div>
-
-            {authError && (
-              <p className="text-xs text-rose-400 bg-rose-500/10 border border-rose-500/20 p-2.5 rounded-lg text-center font-medium">
-                {authError}
-              </p>
-            )}
-
-            <button
-              type="submit"
-              className="w-full py-3 rounded-xl text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-black shadow-lg shadow-amber-950/40 transition-all cursor-pointer"
-            >
-              Entrar al Panel
-            </button>
-          </form>
-
-          <p className="text-[11px] text-neutral-500 text-center italic">
-            Sesión segura protegida mediante token local cifrado.
-          </p>
-        </div>
-      </div>
-    );
-  }
-
   // 2. Render Main Admin Dashboard
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
@@ -306,6 +221,15 @@ export default function AdminPanel({ initialStories, supabaseUrl, supabaseKey, e
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
+          {/* Cloud Studio Creation Button */}
+          <a
+            href="/admin/estudio"
+            className="px-4 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider text-emerald-300 bg-emerald-500/15 border border-emerald-500/35 hover:bg-emerald-500/25 transition-all flex items-center gap-2 shadow-lg shadow-emerald-950/30"
+          >
+            <span className="text-sm">✨</span>
+            <span>Estudio Cloud (Crear Nueva)</span>
+          </a>
+
           {/* Global Archive Browser Button */}
           <button
             type="button"

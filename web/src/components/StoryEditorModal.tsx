@@ -105,13 +105,12 @@ export default function StoryEditorModal({
 
     setIsUploading(true);
     try {
-      const savedPw = sessionStorage.getItem('acordes_admin_pw') || '';
+
 
       const res = await fetch('/api/upload-image', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          password: savedPw,
           imageBase64: filePreview,
           filename: selectedFile.name,
           mimeType: selectedFile.type,
@@ -175,13 +174,12 @@ export default function StoryEditorModal({
     setSaveStatus('');
 
     try {
-      const savedPw = sessionStorage.getItem('acordes_admin_pw') || '';
+
 
       const res = await fetch('/api/update-story', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          password: savedPw,
           storyId: story.id,
           slug: story.slug,
           title: story.title,

@@ -1,8 +1,22 @@
 import type { APIRoute } from 'astro';
+import { adminConfig, PRIVATE_HEADERS, sameOrigin, SESSION_COOKIE, validSession } from '../../lib/admin-session';
 
 export const prerender = false;
 
-export const POST: APIRoute = async ({ request }) => {
+export const POST: APIRoute = async ({ request, cookies }) => {
+  if (!sameOrigin(request)) {
+    return new Response(JSON.stringify({ success: false, error: 'Origen no autorizado' }), {
+      status: 403,
+      headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' }
+    });
+  }
+  if (!validSession(cookies.get(SESSION_COOKIE)?.value, adminConfig())) {
+    return new Response(JSON.stringify({ success: false, error: 'No autorizado' }), {
+      status: 401,
+      headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' }
+    });
+  }
+
   const SUPABASE_URL =
     import.meta.env.SUPABASE_URL ||
     process.env.SUPABASE_URL ||
@@ -15,26 +29,9 @@ export const POST: APIRoute = async ({ request }) => {
     process.env.SUPABASE_PUBLISHABLE_KEY ||
     '';
 
-  const ADMIN_PASSWORD =
-    import.meta.env.ADMIN_PASSWORD ||
-    process.env.ADMIN_PASSWORD ||
-    '';
-
   try {
     const body = await request.json();
-    const { password, storyId, slug, isHidden } = body || {};
-
-    const cleanPw = (password || '').trim();
-    const valid =
-      cleanPw === ADMIN_PASSWORD ||
-      Buffer.from(cleanPw).toString('base64') === Buffer.from(ADMIN_PASSWORD).toString('base64');
-
-    if (!ADMIN_PASSWORD || !valid) {
-      return new Response(
-        JSON.stringify({ success: false, error: 'Contraseña de administrador incorrecta' }),
-        { status: 401, headers: { 'Content-Type': 'application/json' } }
-      );
-    }
+    const { storyId, slug, isHidden } = body || {};
 
     const headers = {
       apikey: SUPABASE_KEY,
@@ -66,7 +63,7 @@ export const POST: APIRoute = async ({ request }) => {
           const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
           const match = rows.find((r: any) => {
             const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-            return rSlug && cleanSlug && (rSlug === cleanSlug || rSlug.includes(cleanSlug) || cleanSlug.includes(rSlug));
+            return Boolean(rSlug && cleanSlug && rSlug === cleanSlug);
           });
           if (match) {
             targetRowId = match.id;

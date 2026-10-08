@@ -1,13 +1,22 @@
 import type { APIRoute } from 'astro';
 import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { adminConfig, PRIVATE_HEADERS, sameOrigin, SESSION_COOKIE, validSession } from '../../lib/admin-session';
 
 export const prerender = false;
 
-export const POST: APIRoute = async ({ request }) => {
-  const ADMIN_PASSWORD =
-    import.meta.env.ADMIN_PASSWORD ||
-    process.env.ADMIN_PASSWORD ||
-    '';
+export const POST: APIRoute = async ({ request, cookies }) => {
+  if (!sameOrigin(request)) {
+    return new Response(JSON.stringify({ success: false, error: 'Origen no autorizado' }), {
+      status: 403,
+      headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' }
+    });
+  }
+  if (!validSession(cookies.get(SESSION_COOKIE)?.value, adminConfig())) {
+    return new Response(JSON.stringify({ success: false, error: 'No autorizado' }), {
+      status: 401,
+      headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' }
+    });
+  }
 
   const R2_ACCOUNT_ID =
     import.meta.env.CLOUDFLARE_R2_ACCOUNT_ID ||
@@ -37,19 +46,7 @@ export const POST: APIRoute = async ({ request }) => {
 
   try {
     const body = await request.json();
-    const { password, imageBase64, filename, mimeType, storySlug } = body || {};
-
-    const cleanPw = (password || '').trim();
-    const valid =
-      cleanPw === ADMIN_PASSWORD ||
-      Buffer.from(cleanPw).toString('base64') === Buffer.from(ADMIN_PASSWORD).toString('base64');
-
-    if (!ADMIN_PASSWORD || !valid) {
-      return new Response(
-        JSON.stringify({ success: false, error: 'Contraseña de administrador incorrecta' }),
-        { status: 401, headers: { 'Content-Type': 'application/json' } }
-      );
-    }
+    const { imageBase64, filename, mimeType, storySlug } = body || {};
 
     if (!imageBase64 || typeof imageBase64 !== 'string') {
       return new Response(

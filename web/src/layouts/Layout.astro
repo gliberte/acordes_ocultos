@@ -48,8 +48,41 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
     {gaId && (
       <script is:inline define:vars={{ gaId }}>
         (function() {
+          function purgeGaCookies() {
+            var cookies = document.cookie ? document.cookie.split(';') : [];
+            var hostParts = window.location.hostname.split('.');
+            var rootDomain = hostParts.length >= 2 ? '.' + hostParts.slice(-2).join('.') : window.location.hostname;
+            for (var i = 0; i < cookies.length; i++) {
+              var name = cookies[i].split('=')[0].trim();
+              if (name === '_ga' || name === '_gid' || name.indexOf('_ga_') === 0 || name.indexOf('_gat') === 0) {
+                document.cookie = name + '=; Max-Age=0; path=/; SameSite=Lax';
+                document.cookie = name + '=; Max-Age=0; path=/; domain=' + window.location.hostname + '; SameSite=Lax';
+                document.cookie = name + '=; Max-Age=0; path=/; domain=' + rootDomain + '; SameSite=Lax';
+              }
+            }
+          }
+
+          function disableGA() {
+            window['ga-disable-' + gaId] = true;
+            if (typeof window.gtag === 'function') {
+              window.gtag('consent', 'update', {
+                analytics_storage: 'denied',
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied'
+              });
+            }
+            purgeGaCookies();
+          }
+
           function loadGA() {
-            if (window._gaLoaded) return;
+            window['ga-disable-' + gaId] = false;
+            if (window._gaLoaded) {
+              if (typeof window.gtag === 'function') {
+                window.gtag('consent', 'update', { analytics_storage: 'granted' });
+              }
+              return;
+            }
             window._gaLoaded = true;
             var script = document.createElement('script');
             script.async = true;
@@ -59,17 +92,27 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             window.gtag = gtag;
+            gtag('consent', 'default', {
+              analytics_storage: 'granted',
+              ad_storage: 'denied',
+              ad_user_data: 'denied',
+              ad_personalization: 'denied'
+            });
             gtag('js', new Date());
             gtag('config', gaId, { anonymize_ip: true });
           }
 
           if (localStorage.getItem('acordes_cookies_consent') === 'accepted') {
             loadGA();
+          } else {
+            disableGA();
           }
 
           window.addEventListener('acordes_consent_updated', function(e) {
             if (e.detail && e.detail.choice === 'accepted') {
               loadGA();
+            } else {
+              disableGA();
             }
           });
         })();

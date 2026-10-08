@@ -26,7 +26,7 @@ export default function CoverSelectorModal({ isOpen, onClose, story, onSuccess }
     setUploading(true);
 
     try {
-      const pw = sessionStorage.getItem('acordes_admin_pw') || '';
+
       const reader = new FileReader();
 
       reader.onload = async () => {
@@ -37,7 +37,6 @@ export default function CoverSelectorModal({ isOpen, onClose, story, onSuccess }
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
-              password: pw,
               imageBase64: base64Data,
               filename: file.name,
               mimeType: file.type,
@@ -75,12 +74,11 @@ export default function CoverSelectorModal({ isOpen, onClose, story, onSuccess }
     setError('');
 
     try {
-      const pw = sessionStorage.getItem('acordes_admin_pw') || '';
+
       const res = await fetch('/api/update-cover', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          password: pw,
           storyId: story.id,
           slug: story.slug,
           title: story.title,

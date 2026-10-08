@@ -1,0 +1,8 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AdminLogin from '../../components/AdminLogin';
+if (Astro.locals.isAdmin) return Astro.redirect('/admin');
+---
+<Layout title="Acceso Administrativo | Acordes Ocultos" description="Acceso al panel editorial.">
+  <AdminLogin client:only="react" />
+</Layout>

@@ -1,5 +1,6 @@
 import type { APIRoute } from 'astro';
 import { supabase } from '../../lib/supabase';
+import { adminConfig, allowPublicAction, getClientKey, sameOrigin, SESSION_COOKIE, validSession } from '../../lib/admin-session';
 
 export const prerender = false;
 
@@ -13,10 +14,25 @@ function sanitize(text: string): string {
     .replace(/'/g, '&#039;');
 }
 
+export function normalizeCommentSlug(val: string): string {
+  return (val || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+}
+
+export function matchesStorySlug(row: any, cleanSlug: string): boolean {
+  if (!cleanSlug) return false;
+  const plan = row?.production_plan;
+  if (!plan || typeof plan !== 'object') return false;
+  const rSlug = normalizeCommentSlug(plan.slug || plan.story?.slug || '');
+  const rArticleSlug = normalizeCommentSlug(plan.articleSlug || plan.story?.articleSlug || '');
+  if (!rSlug && !rArticleSlug) return false;
+  return rSlug === cleanSlug || rArticleSlug === cleanSlug;
+}
+
 // GET: Return comments for a story
 export const GET: APIRoute = async ({ url }) => {
   const slug = url.searchParams.get('slug');
-  if (!slug) {
+  const cleanSlug = normalizeCommentSlug(slug || '');
+  if (!cleanSlug || cleanSlug.length > 120) {
     return new Response(JSON.stringify({ error: 'Slug is required' }), {
       status: 400,
       headers: { 'Content-Type': 'application/json' }
@@ -36,11 +52,7 @@ export const GET: APIRoute = async ({ url }) => {
       });
     }
 
-    const cleanSlug = slug.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const row = data.find((r: any) => {
-      const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      return rSlug === cleanSlug || rSlug.includes(cleanSlug) || cleanSlug.includes(rSlug);
-    });
+    const row = data.find((r: any) => matchesStorySlug(r, cleanSlug));
 
     const comments = (row?.production_plan?.social?.comments || []).filter((c: any) => c.status !== 'rejected');
 
@@ -52,7 +64,7 @@ export const GET: APIRoute = async ({ url }) => {
       }
     });
   } catch (err: any) {
-    return new Response(JSON.stringify({ comments: [], error: err.message }), {
+    return new Response(JSON.stringify({ comments: [], error: 'Error al consultar comentarios' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
@@ -61,19 +73,51 @@ export const GET: APIRoute = async ({ url }) => {
 
 // POST: Add a new comment
 export const POST: APIRoute = async ({ request }) => {
-  try {
-    const body = await request.json();
-    const { slug, author, content } = body || {};
+  if (!sameOrigin(request)) {
+    return new Response(JSON.stringify({ error: 'Origen no autorizado' }), {
+      status: 403,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
 
-    if (!slug) {
+  if (!allowPublicAction(getClientKey(request, 'comments_post'), 6, 5 * 60_000)) {
+    return new Response(JSON.stringify({ error: 'Demasiados comentarios enviados recientemente. Espera unos minutos.' }), {
+      status: 429,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+
+  try {
+    const rawBody = await request.text();
+    if (!rawBody || rawBody.length > 4096) {
+      return new Response(JSON.stringify({ error: 'Solicitud inválida o demasiado extensa' }), {
+        status: 413,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
+
+    let body: any;
+    try {
+      body = JSON.parse(rawBody);
+    } catch {
+      return new Response(JSON.stringify({ error: 'Formato JSON inválido' }), {
+        status: 400,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
+
+    const { slug, author, content } = body || {};
+    const cleanSlug = normalizeCommentSlug(typeof slug === 'string' ? slug : '');
+
+    if (!cleanSlug || cleanSlug.length < 2 || cleanSlug.length > 120) {
       return new Response(JSON.stringify({ error: 'Slug is required' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' }
       });
     }
 
-    const cleanAuthor = sanitize(author || 'Melómano Anónimo');
-    const cleanContent = sanitize(content || '');
+    const cleanAuthor = sanitize(typeof author === 'string' && author.trim() ? author : 'Melómano Anónimo');
+    const cleanContent = sanitize(typeof content === 'string' ? content : '');
 
     if (cleanAuthor.length < 2 || cleanAuthor.length > 60) {
       return new Response(JSON.stringify({ error: 'El nombre debe tener entre 2 y 60 caracteres' }), {
@@ -101,11 +145,7 @@ export const POST: APIRoute = async ({ request }) => {
       });
     }
 
-    const cleanSlug = slug.toLowerCase().replace(/[^a-z0-9]/g, '');
-    const row = data.find((r: any) => {
-      const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      return rSlug === cleanSlug || rSlug.includes(cleanSlug) || cleanSlug.includes(rSlug);
-    });
+    const row = data.find((r: any) => matchesStorySlug(r, cleanSlug));
 
     if (!row) {
       return new Response(JSON.stringify({ error: 'Story not found' }), {
@@ -150,7 +190,7 @@ export const POST: APIRoute = async ({ request }) => {
       headers: { 'Content-Type': 'application/json' }
     });
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: err.message }), {
+    return new Response(JSON.stringify({ error: 'Error al publicar el comentario' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });
@@ -158,33 +198,45 @@ export const POST: APIRoute = async ({ request }) => {
 };
 
 // DELETE: Admin moderation to remove/hide a comment
-export const DELETE: APIRoute = async ({ request }) => {
-  const ADMIN_PASSWORD =
-    import.meta.env.ADMIN_PASSWORD ||
-    process.env.ADMIN_PASSWORD ||
-    '';
+export const DELETE: APIRoute = async ({ request, cookies }) => {
+  if (!sameOrigin(request)) {
+    return new Response(JSON.stringify({ error: 'Origen no autorizado' }), {
+      status: 403,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
+
+  if (!validSession(cookies.get(SESSION_COOKIE)?.value, adminConfig())) {
+    return new Response(JSON.stringify({ error: 'No autorizado' }), {
+      status: 401,
+      headers: { 'Content-Type': 'application/json' }
+    });
+  }
 
   try {
     const body = await request.json();
-    const { slug, commentId, password } = body || {};
+    const { slug, commentId } = body || {};
+    const cleanSlug = normalizeCommentSlug(typeof slug === 'string' ? slug : '');
 
-    const cleanPw = (password || '').trim();
-    if (!ADMIN_PASSWORD || cleanPw !== ADMIN_PASSWORD) {
-      return new Response(JSON.stringify({ error: 'No autorizado' }), {
-        status: 401,
+    if (!cleanSlug || !commentId) {
+      return new Response(JSON.stringify({ error: 'Slug y commentId requeridos' }), {
+        status: 400,
         headers: { 'Content-Type': 'application/json' }
       });
     }
 
-    const { data } = await supabase
+    const { data, error: selectError } = await supabase
       .from('published_news')
       .select('id, production_plan');
 
-    const cleanSlug = (slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-    const row = data?.find((r: any) => {
-      const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      return rSlug === cleanSlug || rSlug.includes(cleanSlug) || cleanSlug.includes(rSlug);
-    });
+    if (selectError || !data) {
+      return new Response(JSON.stringify({ error: 'No se pudo consultar la historia' }), {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
+
+    const row = data.find((r: any) => matchesStorySlug(r, cleanSlug));
 
     if (!row) {
       return new Response(JSON.stringify({ error: 'Story not found' }), {
@@ -197,7 +249,7 @@ export const DELETE: APIRoute = async ({ request }) => {
     const social = currentPlan.social || {};
     const comments = (social.comments || []).filter((c: any) => c.id !== commentId);
 
-    await supabase
+    const { error: updateError } = await supabase
       .from('published_news')
       .update({
         production_plan: {
@@ -210,12 +262,19 @@ export const DELETE: APIRoute = async ({ request }) => {
       })
       .eq('id', row.id);
 
+    if (updateError) {
+      return new Response(JSON.stringify({ error: 'No se pudo eliminar el comentario' }), {
+        status: 500,
+        headers: { 'Content-Type': 'application/json' }
+      });
+    }
+
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: { 'Content-Type': 'application/json' }
     });
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: err.message }), {
+    return new Response(JSON.stringify({ error: 'Error interno al moderar comentario' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });

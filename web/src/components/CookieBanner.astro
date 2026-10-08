@@ -4,6 +4,9 @@
 
 <div
   id="acordes-cookie-banner"
+  hidden
+  inert
+  aria-hidden="true"
   class="fixed bottom-4 left-4 right-4 sm:left-auto sm:right-6 sm:max-w-lg z-50 transform translate-y-32 opacity-0 pointer-events-none transition-all duration-300 ease-out"
   role="dialog"
   aria-live="polite"
@@ -28,7 +31,7 @@
       <button
         type="button"
         id="cookie-accept-all"
-        class="flex-1 px-4 py-2.5 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold text-xs uppercase tracking-wider transition-all shadow-md shadow-amber-950/40 text-center cursor-pointer"
+        class="flex-1 px-4 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-black border border-amber-500 font-bold text-xs uppercase tracking-wider transition-all shadow-md text-center cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300"
       >
         Aceptar todas
       </button>
@@ -36,14 +39,14 @@
       <button
         type="button"
         id="cookie-reject-nonessential"
-        class="flex-1 px-4 py-2.5 rounded-xl bg-[#1c1915] hover:bg-[#25211c] text-neutral-200 border border-neutral-700 hover:border-amber-500/40 font-semibold text-xs uppercase tracking-wider transition-all text-center cursor-pointer"
+        class="flex-1 px-4 py-2.5 rounded-xl bg-[#1f1b16] hover:bg-[#2a241d] text-amber-300 border border-amber-500/60 hover:border-amber-400 font-bold text-xs uppercase tracking-wider transition-all shadow-md text-center cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300"
       >
         Solo necesarias
       </button>
 
       <a
         href="/cookies"
-        class="px-3 py-2 text-center text-xs text-amber-400 hover:text-amber-300 transition-colors underline sm:no-underline sm:hover:underline"
+        class="px-3 py-2 text-center text-xs text-amber-400 hover:text-amber-300 transition-colors underline sm:no-underline sm:hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 rounded-lg"
       >
         Política
       </a>
@@ -59,30 +62,57 @@
     const btnReject = document.getElementById('cookie-reject-nonessential');
 
     const STORAGE_KEY = 'acordes_cookies_consent';
+    const META_KEY = 'acordes_cookies_consent_meta';
+    const CONSENT_VERSION = '2026-10';
 
     function showBanner() {
       if (!banner) return;
-      banner.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
-      banner.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+      banner.removeAttribute('hidden');
+      banner.removeAttribute('inert');
+      banner.setAttribute('aria-hidden', 'false');
+      requestAnimationFrame(() => {
+        banner.classList.remove('translate-y-32', 'opacity-0', 'pointer-events-none');
+        banner.classList.add('translate-y-0', 'opacity-100', 'pointer-events-auto');
+      });
     }
 
     function hideBanner() {
       if (!banner) return;
+      banner.setAttribute('inert', '');
+      banner.setAttribute('aria-hidden', 'true');
       banner.classList.remove('translate-y-0', 'opacity-100', 'pointer-events-auto');
       banner.classList.add('translate-y-32', 'opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        if (banner.hasAttribute('inert')) {
+          banner.setAttribute('hidden', '');
+        }
+      }, 300);
     }
 
     function saveChoice(choice: 'accepted' | 'rejected') {
+      const meta = {
+        choice,
+        version: CONSENT_VERSION,
+        timestamp: new Date().toISOString()
+      };
       localStorage.setItem(STORAGE_KEY, choice);
+      localStorage.setItem(META_KEY, JSON.stringify(meta));
       hideBanner();
-      window.dispatchEvent(new CustomEvent('acordes_consent_updated', { detail: { choice } }));
+      window.dispatchEvent(new CustomEvent('acordes_consent_updated', { detail: meta }));
     }
 
-    // Check if choice was already made
+    // Check if choice was already made for current policy version
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) {
-      // Delay slightly for smooth page entrance
-      setTimeout(showBanner, 800);
+    let validVersion = false;
+    try {
+      const parsedMeta = JSON.parse(localStorage.getItem(META_KEY) || '{}');
+      validVersion = parsedMeta && parsedMeta.version === CONSENT_VERSION;
+    } catch {
+      validVersion = false;
+    }
+
+    if (!saved || !validVersion) {
+      setTimeout(showBanner, 600);
     }
 
     if (btnAccept) {

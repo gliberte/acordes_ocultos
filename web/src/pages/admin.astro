@@ -3,28 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import AdminPanel from '../components/AdminPanel';
 import { getAllStories } from '../lib/stories';
 
-const adminPassword =
-  import.meta.env.ADMIN_PASSWORD ||
-  process.env.ADMIN_PASSWORD ||
-  '';
-
-if (!adminPassword) {
-  throw new Error('ADMIN_PASSWORD must be configured in the environment.');
-}
-
-const expectedSecret = Buffer.from(adminPassword.trim()).toString('base64');
-
-const supabaseUrl =
-  import.meta.env.SUPABASE_URL ||
-  process.env.SUPABASE_URL ||
-  'https://dsyxiowlipttwjuhoqio.supabase.co';
-
-const supabaseKey =
-  import.meta.env.SUPABASE_SECRET_KEY ||
-  process.env.SUPABASE_SECRET_KEY ||
-  import.meta.env.SUPABASE_PUBLISHABLE_KEY ||
-  process.env.SUPABASE_PUBLISHABLE_KEY ||
-  '';
+if (!Astro.locals.isAdmin) return Astro.redirect('/admin/login');
 
 const stories = await getAllStories({ includeHidden: true });
 
@@ -50,8 +29,5 @@ const adminStories = stories.map(s => ({
   <AdminPanel
     client:only="react"
     initialStories={adminStories}
-    supabaseUrl={supabaseUrl}
-    supabaseKey={supabaseKey}
-    expectedSecret={expectedSecret}
   />
 </Layout>

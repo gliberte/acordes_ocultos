@@ -28,12 +28,11 @@ export default function ArchiveImageBrowserModal({
     setLoading(true);
     setError('');
     try {
-      const pw = sessionStorage.getItem('acordes_admin_pw') || '';
+
       const res = await fetch('/api/search-images', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          password: pw,
           refresh
         })
       });

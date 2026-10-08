@@ -9,12 +9,17 @@
     "dev": "astro dev",
     "build": "ASTRO_TELEMETRY_DISABLED=1 astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "test:security": "node --experimental-strip-types --test tests/admin-session.test.ts tests/studio.test.ts",
+    "test:security:http": "node tests/admin-http.mjs",
+    "test:studio:http": "node tests/studio-http.mjs",
+    "test:studio:browser": "node tests/studio-browser.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^6.0.6",
     "@astrojs/vercel": "^11.0.10",
     "@aws-sdk/client-s3": "^3.1136.0",
+    "@google/genai": "^2.24.0",
     "@supabase/supabase-js": "^2.116.0",
     "@tailwindcss/vite": "^4.3.3",
     "@vercel/analytics": "^2.0.1",

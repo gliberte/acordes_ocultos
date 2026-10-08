@@ -40,8 +40,36 @@ export function extractCleanSummary(md: string, maxLength = 220): string {
   return plain.length > maxLength ? plain.slice(0, maxLength).trim() + '...' : plain;
 }
 
+export function escapeHtml(raw: string): string {
+  return (raw || '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;')
+    .replace(/\bon([a-z]+)\s*=/gi, 'on$1&#61;');
+}
+
+export function sanitizeUrl(rawUrl: string): string {
+  const trimmed = (rawUrl || '').trim();
+  if (!trimmed) return '';
+  if (trimmed.startsWith('/') && !trimmed.startsWith('//')) {
+    return trimmed.replace(/["'<>\\\s]/g, '');
+  }
+  try {
+    const parsed = new URL(trimmed);
+    if (parsed.protocol === 'https:' || parsed.protocol === 'http:') {
+      return parsed.toString().replace(/["'<>\\]/g, '');
+    }
+  } catch {
+    // Disallow invalid or non-http(s) URLs
+  }
+  return '';
+}
+
 function formatInlineMarkdown(text: string): string {
-  return text
+  const safe = escapeHtml(text);
+  return safe
     .replace(/\*\*\*(.*?)\*\*\*/g, '<strong class="text-amber-200 font-bold"><em>$1</em></strong>')
     .replace(/\*\*(.*?)\*\*/g, '<strong class="text-neutral-100 font-semibold">$1</strong>')
     .replace(/\*(.*?)\*/g, '<em class="text-neutral-200 italic">$1</em>');
@@ -59,24 +87,35 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
   // 2. Strip leading H1 title if present (since page header already renders the main title)
   html = html.replace(/^#\s+[^\r\n]+\r?\n+/, '');
 
+  const figures: string[] = [];
+  const safeSlug = slug ? slug.replace(/[^a-zA-Z0-9_-]/g, '') : '';
+
   // 3. Fix relative image links like images/foto.png (and optional immediate *caption* line) -> /articles/<slug>/images/foto.webp
-  if (slug) {
+  if (safeSlug) {
     html = html.replace(
       /!\[(.*?)\]\((?:\.\/)?images\/(.*?)\)(?:\r?\n\*([^\r\n*]+)\*)?/gi,
       (_match, alt, filename, italicCaption) => {
-        const baseName = filename.trim().replace(/\.[^.]+$/, '');
-        const webpFilename = `${baseName}.webp`;
-        const captionText = (italicCaption || alt || '').trim();
-        return `\n\n<figure class="my-10 max-w-[440px] sm:max-w-[480px] mx-auto rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] shadow-2xl transition-all select-none">
+        const baseName = String(filename || '')
+          .trim()
+          .replace(/\.[^.]+$/, '')
+          .replace(/[^a-zA-Z0-9._-]/g, '');
+        if (!baseName) return '';
+        const webpUrl = sanitizeUrl(`/articles/${safeSlug}/images/${baseName}.webp`);
+        if (!webpUrl) return '';
+        const captionText = String(italicCaption || alt || '').trim();
+        const safeAlt = escapeHtml(String(alt || captionText).trim());
+        const idx = figures.length;
+        figures.push(`<figure class="my-10 max-w-[440px] sm:max-w-[480px] mx-auto rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] shadow-2xl transition-all select-none">
         <div class="relative">
           <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
           <picture>
-            <source srcset="/articles/${slug}/images/${webpFilename}" type="image/webp" />
-            <img src="/articles/${slug}/images/${webpFilename}" alt="${alt || captionText}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
+            <source srcset="${webpUrl}" type="image/webp" />
+            <img src="${webpUrl}" alt="${safeAlt}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
           </picture>
         </div>
         ${captionText ? `<figcaption class="p-3.5 text-xs text-center text-neutral-400 font-sans italic border-t border-[#1f1d19] bg-[#0f0e0b] leading-relaxed">${formatInlineMarkdown(captionText)}</figcaption>` : ''}
-      </figure>\n\n`;
+      </figure>`);
+        return `\n\n__ACORDES_FIGURE_${idx}__\n\n`;
       }
     );
   }
@@ -85,14 +124,19 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
   html = html.replace(
     /!\[(.*?)\]\((.*?)\)(?:\r?\n\*([^\r\n*]+)\*)?/g,
     (_match, alt, src, italicCaption) => {
-      const captionText = (italicCaption || alt || '').trim();
-      return `\n\n<figure class="my-10 max-w-[440px] sm:max-w-[480px] mx-auto rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] shadow-2xl transition-all select-none">
+      const safeSrc = sanitizeUrl(String(src || ''));
+      if (!safeSrc) return '';
+      const captionText = String(italicCaption || alt || '').trim();
+      const safeAlt = escapeHtml(String(alt || captionText).trim());
+      const idx = figures.length;
+      figures.push(`<figure class="my-10 max-w-[440px] sm:max-w-[480px] mx-auto rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] shadow-2xl transition-all select-none">
       <div class="relative">
         <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
-        <img src="${src.trim()}" alt="${alt || captionText}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
+        <img src="${safeSrc}" alt="${safeAlt}" width="720" height="900" loading="lazy" decoding="async" draggable="false" class="w-full h-auto object-contain block mx-auto select-none pointer-events-none" />
       </div>
       ${captionText ? `<figcaption class="p-3.5 text-xs text-center text-neutral-400 font-sans italic border-t border-[#1f1d19] bg-[#0f0e0b] leading-relaxed">${formatInlineMarkdown(captionText)}</figcaption>` : ''}
-    </figure>\n\n`;
+    </figure>`);
+      return `\n\n__ACORDES_FIGURE_${idx}__\n\n`;
     }
   );
 
@@ -104,9 +148,11 @@ export function formatChronicleMarkdown(md: string, slug?: string): string {
     const block = rawBlock.trim();
     if (!block) continue;
 
-    // Pass-through already rendered <figure> blocks
-    if (block.startsWith('<figure')) {
-      renderedBlocks.push(block);
+    // Pass-through only verified sanitized figure tokens
+    const figMatch = block.match(/^__ACORDES_FIGURE_(\d+)__$/);
+    if (figMatch) {
+      const figHtml = figures[Number(figMatch[1])];
+      if (figHtml) renderedBlocks.push(figHtml);
       continue;
     }
 

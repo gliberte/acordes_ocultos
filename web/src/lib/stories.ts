@@ -342,7 +342,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'thedoorstouchme': 'the-doors-touch-me',
           'jimmorrisonhomenajedestellosdegloria': 'the-doors-touch-me',
           'lamuertedebonzo': 'led-zeppelin-kashmir-acordes-ocultos',
-          'elpactodehonor': 'led-zeppelin-kashmir-acordes-ocultos'
+          'elpactodehonor': 'led-zeppelin-kashmir-acordes-ocultos',
+          'elmitodelninoahogado': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos',
+          'unvelerollamadolibertad': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos',
+          'joseluisperalesunvelerollamadolibertad': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos',
+          'joseluisperalesunvelerollamadolibertadacordesocultos': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos',
+          'elmitodelninoahogadoyeldolorrealdejoseluisperales': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos',
+          'pequenomarinero': 'jose-luis-perales-un-velero-llamado-libertad-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');

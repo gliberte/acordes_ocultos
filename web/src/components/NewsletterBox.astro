@@ -101,7 +101,14 @@ const { source = 'web_story' } = Astro.props;
           const res = await fetch('/api/subscribe', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ email, source })
+            body: JSON.stringify({
+              email,
+              source,
+              privacyPolicyConsent: consent.checked === true,
+              minorsDeclaration: consent.checked ? 'over_14_years' : '',
+              consentVersion: '2026-10',
+              purpose: 'newsletter_editorial'
+            })
           });
 
           const data = await res.json();

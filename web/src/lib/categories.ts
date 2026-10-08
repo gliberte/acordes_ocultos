@@ -24,6 +24,12 @@ export const CATEGORIES: Record<string, CategoryInfo> = {
     name: 'Catedrales de Leyenda',
     description: 'Monumentos incombustibles y titanes que reinventaron la música a lo largo de décadas.',
     badgeClass: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30'
+  },
+  'forjados-en-el-barro': {
+    id: 'forjados-en-el-barro',
+    name: 'Forjados en el Barro',
+    description: 'Bandas legendarias que nacieron en la miseria y el rechazo, forjando su gloria desde el abismo.',
+    badgeClass: 'bg-orange-500/20 text-orange-300 border-orange-500/30'
   }
 };
 
@@ -32,6 +38,7 @@ export function getCategoryInfo(topicOrCategory?: string): CategoryInfo {
   const key = topicOrCategory.toLowerCase().trim();
   if (CATEGORIES[key]) return CATEGORIES[key];
 
+  if (key.includes('forjado') || key.includes('barro')) return CATEGORIES['forjados-en-el-barro'];
   if (key.includes('destello')) return CATEGORIES['destellos-de-gloria'];
   if (key.includes('catedral')) return CATEGORIES['catedrales-de-leyenda'];
   if (key.includes('letra') || key.includes('historia-en-los-acordes')) return CATEGORIES['historia-en-los-acordes'];
