@@ -73,82 +73,36 @@ export const POST: APIRoute = async ({ request }) => {
     const cleanVersion = String(consentVersion || '2026-10').replace(/[^a-zA-Z0-9._-]/g, '').slice(0, 32) || '2026-10';
     const cleanPurpose = String(purpose || 'newsletter_editorial').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || 'newsletter_editorial';
 
-    // Find system subscribers row
-    const { data: rows, error: selectError } = await supabase
-      .from('published_news')
-      .select('id, production_plan')
-      .eq('title', '__system_subscribers__');
+    const nowIso = new Date().toISOString();
 
-    if (selectError) {
-      return new Response(JSON.stringify({ error: 'No se pudo verificar el registro de suscriptores.' }), {
+    const { error: upsertError } = await supabase
+      .from('subscribers')
+      .upsert(
+        {
+          email: cleanEmail,
+          source: cleanSource,
+          privacy_policy_consent: true,
+          minors_declaration: 'over_14_years',
+          consent_version: cleanVersion,
+          purpose: cleanPurpose,
+          consent_timestamp: nowIso,
+          status: 'active',
+          updated_at: nowIso
+        },
+        { onConflict: 'email' }
+      );
+
+    if (upsertError) {
+      return new Response(JSON.stringify({ error: 'No se pudo guardar tu suscripción. Intenta nuevamente.' }), {
         status: 500,
         headers: { 'Content-Type': 'application/json' }
       });
     }
 
-    const systemRow = Array.isArray(rows) && rows.length > 0 ? rows[0] : null;
-    const nowIso = new Date().toISOString();
-
-    const newSubscriber = {
-      email: cleanEmail,
-      createdAt: nowIso,
-      source: cleanSource,
-      privacyPolicyConsent: true,
-      minorsDeclaration: 'over_14_years',
-      consentVersion: cleanVersion,
-      purpose: cleanPurpose,
-      consentTimestamp: nowIso
-    };
-
-    if (systemRow) {
-      const currentPlan = systemRow.production_plan || {};
-      const subscribers = Array.isArray(currentPlan.subscribers) ? currentPlan.subscribers : [];
-
-      const exists = subscribers.some((s: any) => s.email === cleanEmail);
-      if (!exists) {
-        const updatedSubscribers = [newSubscriber, ...subscribers];
-        const { error: updateError } = await supabase
-          .from('published_news')
-          .update({
-            production_plan: {
-              ...currentPlan,
-              subscribers: updatedSubscribers
-            }
-          })
-          .eq('id', systemRow.id);
-
-        if (updateError) {
-          return new Response(JSON.stringify({ error: 'No se pudo guardar tu suscripción. Intenta nuevamente.' }), {
-            status: 500,
-            headers: { 'Content-Type': 'application/json' }
-          });
-        }
-      }
-    } else {
-      // Create new system row
-      const { error: insertError } = await supabase
-        .from('published_news')
-        .insert({
-          title: '__system_subscribers__',
-          platform: 'system',
-          status: 'hidden',
-          production_plan: {
-            subscribers: [newSubscriber]
-          }
-        });
-
-      if (insertError) {
-        return new Response(JSON.stringify({ error: 'No se pudo inicializar el registro de suscripción.' }), {
-          status: 500,
-          headers: { 'Content-Type': 'application/json' }
-        });
-      }
-    }
-
     return new Response(
       JSON.stringify({
         success: true,
-        message: '¡Bienvenido a la comunidad de Acordes Ocultos!',
+        message: 'Tu correo ha quedado registrado en el boletín oficial de Acordes Ocultos.',
         substackUrl: `https://acordesocultos.gumroad.com/subscribe`
       }),
       {
