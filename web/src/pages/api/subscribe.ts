@@ -74,6 +74,8 @@ export const POST: APIRoute = async ({ request }) => {
     const cleanPurpose = String(purpose || 'newsletter_editorial').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || 'newsletter_editorial';
 
     const nowIso = new Date().toISOString();
+    const rawCountry = request.headers.get('x-vercel-ip-country') || request.headers.get('cf-ipcountry') || '';
+    const cleanCountry = rawCountry.replace(/[^A-Z]/gi, '').toUpperCase().slice(0, 2) || null;
 
     const { error: upsertError } = await supabase
       .from('subscribers')
@@ -81,6 +83,7 @@ export const POST: APIRoute = async ({ request }) => {
         {
           email: cleanEmail,
           source: cleanSource,
+           ...(cleanCountry ? { country: cleanCountry } : {}),
           privacy_policy_consent: true,
           minors_declaration: 'over_14_years',
           consent_version: cleanVersion,
