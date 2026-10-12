@@ -41,24 +41,31 @@ const stories = propStories || await getAllStories();
         <a href="/#historias" class="hover:text-amber-400 transition-colors">Relatos</a>
         <a href="/#categorias" class="hover:text-amber-400 transition-colors">Líneas Editoriales</a>
         <a 
-          href="https://acordesocultos.substack.com" 
+          href="https://acordesocultos.gumroad.com/coffee" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="flex items-center gap-1.5 hover:text-amber-400 transition-colors"
+          class="flex items-center gap-1.5 text-amber-300 hover:text-amber-200 transition-colors font-semibold"
         >
-          <span>Crónicas en Substack</span>
-          <svg class="w-3.5 h-3.5 text-amber-500/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-          </svg>
+          <span>☕ Apoyar el Archivo</span>
         </a>
       </nav>
 
       <!-- Global Search Component -->
       <GlobalSearch stories={stories} />
 
-      <!-- Substack CTA -->
+      <!-- Mobile Support Icon + Subscribe CTA -->
       <a
-        href="https://acordesocultos.substack.com"
+        href="https://acordesocultos.gumroad.com/coffee"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Apoyar el Archivo de Acordes Ocultos"
+        class="lg:hidden inline-flex items-center gap-1 px-3 py-2 rounded-full text-xs font-semibold bg-[#1c1813] border border-amber-500/40 text-amber-300 hover:bg-amber-500/15 transition-colors shrink-0"
+      >
+        <span>☕ Apoyar</span>
+      </a>
+
+      <a
+        href="https://acordesocultos.gumroad.com/subscribe"
         target="_blank"
         rel="noopener noreferrer"
         class="inline-flex items-center gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-md shadow-amber-950/40 hover:from-amber-500 hover:to-amber-400 transition-all transform hover:-translate-y-0.5 active:translate-y-0 shrink-0"

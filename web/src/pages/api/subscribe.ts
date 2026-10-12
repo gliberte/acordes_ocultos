@@ -149,7 +149,7 @@ export const POST: APIRoute = async ({ request }) => {
       JSON.stringify({
         success: true,
         message: '¡Bienvenido a la comunidad de Acordes Ocultos!',
-        substackUrl: `https://acordesocultos.substack.com`
+        substackUrl: `https://acordesocultos.gumroad.com/subscribe`
       }),
       {
         status: 200,
