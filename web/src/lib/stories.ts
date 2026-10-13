@@ -442,7 +442,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'elhombrequefingioserotro': 'the-rubettes-baby-i-know-historia-en-los-acordes',
           'babyiknow': 'the-rubettes-baby-i-know-historia-en-los-acordes',
           'therubettesbabyiknow': 'the-rubettes-baby-i-know-historia-en-los-acordes',
-          'therubettesbabyiknowhistoriaenlosacordes': 'the-rubettes-baby-i-know-historia-en-los-acordes'
+          'therubettesbabyiknowhistoriaenlosacordes': 'the-rubettes-baby-i-know-historia-en-los-acordes',
+          'laprofeciadeunadespedida': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
+          'sergiodenis': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
+          'tellamoparadespedirme': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
+          'sergiodenistellamoparadespedirme': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
+          'sergiodenistellamoparadespedirmeacordesocultos': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
