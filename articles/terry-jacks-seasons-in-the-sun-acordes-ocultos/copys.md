@@ -1,0 +1,21 @@
+# El Himno Alegre de un Moribundo
+
+## 📸 1. COPY PARA INSTAGRAM REELS (90s)
+
+Durante cinco décadas, millones de personas han tarareado su estribillo en las playas creyendo que era una celebración juvenil del verano. Pocos conocen que detrás de esa melodía luminosa se oculta una de las historias de duelo más conmovedoras de la música popular.
+
+En 1961, el cantautor belga Jacques Brel compuso «Le Moribond», una sátira amarga sobre un hombre que se despedía con humor negro en su lecho de muerte. Años más tarde, el canadiense Terry Jacks intentó grabarla con The Beach Boys en Los Ángeles, pero la banda desechó la maqueta. Poco después, la vida de Terry se detuvo: su mejor amigo fue diagnosticado con leucemia terminal. Con el alma rota, Jacks rescató aquella cinta, borró todo el cinismo original y reescribió cada verso desde el dolor real de la pérdida: una carta de amor y despedida a su amigo de infancia, a su padre y a su pequeña niña.
+
+Las grandes discográficas le dijeron que nadie compraría un disco sobre la muerte. Terry arriesgó todo en un sello independiente y vendió 14 millones de copias en todo el planeta. A veces el mayor acto de amor no es negar el final, sino convertirlo en un rayo de sol eterno.
+
+¿En qué momento de tu vida te acompañó esta canción? La crónica completa y los documentos de archivo están en el enlace de nuestro perfil.
+
+#AcordesOcultos #TerryJacks #SeasonsInTheSun #JacquesBrel #BeachBoys #PopClasico #HistoriasDeLaMusica #Años70
+
+---
+
+## 🎵 2. COPY PARA TIKTOK (60s)
+
+Vendió 14 millones de discos y el mundo la bailó sonriendo, sin saber que era la carta de despedida de un amigo muriendo de cáncer. 🕊️☀️
+
+#AcordesOcultos #TerryJacks #SeasonsInTheSun #HistoriaDeLaMusica

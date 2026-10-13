@@ -447,7 +447,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'sergiodenis': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
           'tellamoparadespedirme': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
           'sergiodenistellamoparadespedirme': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
-          'sergiodenistellamoparadespedirmeacordesocultos': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos'
+          'sergiodenistellamoparadespedirmeacordesocultos': 'sergio-denis-te-llamo-para-despedirme-acordes-ocultos',
+          'elhimnoalegredeunmoribundo': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
+          'terryjacks': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
+          'seasonsinthesun': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
+          'terryjacksseasonsinthesun': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
+          'terryjacksseasonsinthesunacordesocultos': 'terry-jacks-seasons-in-the-sun-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
