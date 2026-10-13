@@ -1018,7 +1018,7 @@ const main = async () => {
     if (teaserPath) {
       await sendTelegramDocument(teaserPath, '🎞️ Avance para Historias (Instagram Stories Teaser)');
     }
-    if (existsSync(options.video)) {
+    if (!cloudflare.enabled && existsSync(options.video)) {
       try {
         let videoToSend = options.video;
         const sizeMb = statSync(options.video).size / (1024 * 1024);
@@ -1034,7 +1034,7 @@ const main = async () => {
       }
     }
     const tiktokVideoPath = join(rootDir, 'out/story_tiktok.mp4');
-    if (existsSync(tiktokVideoPath)) {
+    if (!cloudflare.enabled && existsSync(tiktokVideoPath)) {
       try {
         let tiktokToSend = tiktokVideoPath;
         const sizeMb = statSync(tiktokVideoPath).size / (1024 * 1024);
