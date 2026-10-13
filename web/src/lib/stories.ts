@@ -433,7 +433,10 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'therubettessugarbabyloveacordesocultos': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'elviajetridimensional': 'led-zeppelin-whole-lotta-love',
           'wholelottalove': 'led-zeppelin-whole-lotta-love',
-          'ledzeppelinwholelottalove': 'led-zeppelin-whole-lotta-love'
+          'ledzeppelinwholelottalove': 'led-zeppelin-whole-lotta-love',
+          'tinydancer': 'elton-john-tiny-dancer',
+          'eltonjohntinydancer': 'elton-john-tiny-dancer',
+          'lacostureradelabanda': 'elton-john-tiny-dancer'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
