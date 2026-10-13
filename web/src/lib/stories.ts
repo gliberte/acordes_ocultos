@@ -430,7 +430,10 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'sydbarrett': 'pink-floyd-shine-on-you-crazy-diamond',
           'pauldavinci': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'therubettessugarbabylove': 'the-rubettes-sugar-baby-love-acordes-ocultos',
-          'therubettessugarbabyloveacordesocultos': 'the-rubettes-sugar-baby-love-acordes-ocultos'
+          'therubettessugarbabyloveacordesocultos': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'elviajetridimensional': 'led-zeppelin-whole-lotta-love',
+          'wholelottalove': 'led-zeppelin-whole-lotta-love',
+          'ledzeppelinwholelottalove': 'led-zeppelin-whole-lotta-love'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
