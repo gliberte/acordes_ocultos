@@ -403,7 +403,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'ritchievalensylamoneda': 'ritchie-valens-la-bamba-destellos-de-gloria',
           'ritchievalens': 'ritchie-valens-la-bamba-destellos-de-gloria',
           'labamba': 'ritchie-valens-la-bamba-destellos-de-gloria',
-          'eldiaquemuriolamusica': 'ritchie-valens-la-bamba-destellos-de-gloria'
+          'eldiaquemuriolamusica': 'ritchie-valens-la-bamba-destellos-de-gloria',
+          'elfindelmundodeskeeterdavis': 'skeeter-davis-the-end-of-the-world',
+          'skeeterdavis': 'skeeter-davis-the-end-of-the-world',
+          'theendoftheworld': 'skeeter-davis-the-end-of-the-world',
+          'skeeterdavistheendoftheworld': 'skeeter-davis-the-end-of-the-world'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
