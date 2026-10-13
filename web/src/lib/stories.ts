@@ -415,7 +415,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'emiliojosenuestraplayahistoriaenlosacordes': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
           'dancingqueen': 'abba-dancing-queen',
           'abba': 'abba-dancing-queen',
-          'abbadancingqueen': 'abba-dancing-queen'
+          'abbadancingqueen': 'abba-dancing-queen',
+          'elacordemasfamosodelahistoria': 'the-beatles-a-day-in-the-life',
+          'adayinthelife': 'the-beatles-a-day-in-the-life',
+          'thebeatlesadayinthelife': 'the-beatles-a-day-in-the-life',
+          'beatlesadayinthelife': 'the-beatles-a-day-in-the-life'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
