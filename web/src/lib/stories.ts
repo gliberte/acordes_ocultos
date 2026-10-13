@@ -423,6 +423,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'lavozfantasmadeltrajeblanco': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'therubettes': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'sugarbabylove': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'laultimavisitadeldiamanteloco': 'pink-floyd-shine-on-you-crazy-diamond',
+          'shineonyoucrazydiamond': 'pink-floyd-shine-on-you-crazy-diamond',
+          'pinkfloydshineonyoucrazydiamond': 'pink-floyd-shine-on-you-crazy-diamond',
+          'eldiamantequevolviodelfrio': 'pink-floyd-shine-on-you-crazy-diamond',
+          'sydbarrett': 'pink-floyd-shine-on-you-crazy-diamond',
           'pauldavinci': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'therubettessugarbabylove': 'the-rubettes-sugar-baby-love-acordes-ocultos',
           'therubettessugarbabyloveacordesocultos': 'the-rubettes-sugar-baby-love-acordes-ocultos'
