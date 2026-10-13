@@ -436,7 +436,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'ledzeppelinwholelottalove': 'led-zeppelin-whole-lotta-love',
           'tinydancer': 'elton-john-tiny-dancer',
           'eltonjohntinydancer': 'elton-john-tiny-dancer',
-          'lacostureradelabanda': 'elton-john-tiny-dancer'
+          'lacostureradelabanda': 'elton-john-tiny-dancer',
+          'browneyedgirl': 'van-morrison-brown-eyed-girl',
+          'vanmorrisonbrowneyedgirl': 'van-morrison-brown-eyed-girl'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
