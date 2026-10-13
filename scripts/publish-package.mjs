@@ -554,8 +554,9 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     console.warn('⚠️ [Web] No se encontró crónica extendida en articles/. Se usará el copy como respaldo.');
   }
 
+  const resolvedSourceUrl = videoUrl || `${videoPath}#${story.slug || slugFor(story.title)}`;
   const publishedNewsRow = {
-    source_url: videoUrl || videoPath,
+    source_url: resolvedSourceUrl,
     title: editorialPackage.title,
     platform: 'instagram_reels',
     x_published: false,
@@ -594,21 +595,38 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
 
   const row = config.table === 'published_news' ? publishedNewsRow : legacyRow;
 
-  const response = await fetch(`${config.url}/rest/v1/${config.table}`, {
+  let response = await fetch(`${config.url}/rest/v1/${config.table}`, {
     method: 'POST',
     headers: {
       apikey: config.key,
       authorization: `Bearer ${config.key}`,
       'content-type': 'application/json',
-      prefer: 'return=representation'
+      prefer: 'return=representation,resolution=merge-duplicates'
     },
     body: JSON.stringify(row)
   });
 
-  const payload = await response.json().catch(() => null);
+  let payload = await response.json().catch(() => null);
+
+  // Si falló por clave única duplicada, actualizar mediante PATCH sobre source_url
+  if (!response.ok && payload?.code === '23505' && row.source_url) {
+    console.log('🔄 Registro existente en Supabase. Actualizando con PATCH...');
+    const updateUrl = `${config.url}/rest/v1/${config.table}?source_url=eq.${encodeURIComponent(row.source_url)}`;
+    response = await fetch(updateUrl, {
+      method: 'PATCH',
+      headers: {
+        apikey: config.key,
+        authorization: `Bearer ${config.key}`,
+        'content-type': 'application/json',
+        prefer: 'return=representation'
+      },
+      body: JSON.stringify(row)
+    });
+    payload = await response.json().catch(() => null);
+  }
 
   if (!response.ok) {
-    throw new Error(`Supabase insert failed: ${JSON.stringify(payload)}`);
+    throw new Error(`Supabase save failed: ${JSON.stringify(payload)}`);
   }
 
   return {
