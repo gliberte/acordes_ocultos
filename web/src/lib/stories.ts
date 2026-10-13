@@ -438,7 +438,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'eltonjohntinydancer': 'elton-john-tiny-dancer',
           'lacostureradelabanda': 'elton-john-tiny-dancer',
           'browneyedgirl': 'van-morrison-brown-eyed-girl',
-          'vanmorrisonbrowneyedgirl': 'van-morrison-brown-eyed-girl'
+          'vanmorrisonbrowneyedgirl': 'van-morrison-brown-eyed-girl',
+          'elhombrequefingioserotro': 'the-rubettes-baby-i-know-historia-en-los-acordes',
+          'babyiknow': 'the-rubettes-baby-i-know-historia-en-los-acordes',
+          'therubettesbabyiknow': 'the-rubettes-baby-i-know-historia-en-los-acordes',
+          'therubettesbabyiknowhistoriaenlosacordes': 'the-rubettes-baby-i-know-historia-en-los-acordes'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
