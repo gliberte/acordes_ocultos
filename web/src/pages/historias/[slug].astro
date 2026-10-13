@@ -17,7 +17,7 @@ const allStories = await getAllStories({ includeHidden: isPreview });
 const story = allStories.find(s => s.slug === slug || s.articleSlug === slug);
 
 if (!story) {
-  return Astro.redirect('/');
+  return Astro.redirect('/404');
 }
 
 const relatedStories = allStories
