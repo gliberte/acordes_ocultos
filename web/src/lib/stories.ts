@@ -233,6 +233,8 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       for (const { item, row } of itemsBySlug.values()) {
         // Explicit aliases for compiled chronicle keys matching special production slugs
         const CHRONICLE_ALIASES: Record<string, string> = {
+          'el-amor-que-llegaba-sin-firma': 'cecilia-un-ramito-de-violetas-historia-en-los-acordes',
+          'elamorquellegabasinfirma': 'cecilia-un-ramito-de-violetas-historia-en-los-acordes',
           'elsecretodelascensorlavenganzadesimongarfunkel': 'simon-and-garfunkel-the-boxer',
           'icantgetnosatisfaction': 'the-rolling-stones-satisfaction',
           'lacancionsinfin': 'limahl-never-ending-story',
@@ -375,9 +377,33 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'comopuedesremendaruncorazonroto': 'bee-gees-how-can-you-mend-a-broken-heart-acordes-ocultos',
           'elcolosodeunmetroqueconquistoelmundo': 'nelson-ned-dejame-si-estoy-llorando',
           'elcolosodeunmetro': 'nelson-ned-dejame-si-estoy-llorando',
-          'nelsonned': 'nelson-ned-dejame-si-estoy-llorando',
           'dejamesiestoyllorando': 'nelson-ned-dejame-si-estoy-llorando',
-          'nelsonneddejamesiestoyllorando': 'nelson-ned-dejame-si-estoy-llorando'
+          'nelsonneddejamesiestoyllorando': 'nelson-ned-dejame-si-estoy-llorando',
+          'blacksabbath': 'black-sabbath-paranoid-forjados-en-el-barro',
+          'paranoid': 'black-sabbath-paranoid-forjados-en-el-barro',
+          'blacksabbathparanoid': 'black-sabbath-paranoid-forjados-en-el-barro',
+          'elaceroquesangroenlaniebla': 'black-sabbath-paranoid-forjados-en-el-barro',
+          'descalzasenelparaiso': 'the-supremes-love-child-acordes-ocultos',
+          'lovechild': 'the-supremes-love-child-acordes-ocultos',
+          'thesupremeslovechild': 'the-supremes-love-child-acordes-ocultos',
+          'dianarosslovechild': 'the-supremes-love-child-acordes-ocultos',
+          'thesupremeslovechildacordesocultos': 'the-supremes-love-child-acordes-ocultos',
+          'lanoviaeternadeunpais': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'angelicamaria': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'adondevanuestroamor': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'angelicamariaadondevanuestroamor': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'lanoviademexico': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'muchachaitalianavieneacasarse': 'angelica-maria-a-donde-va-nuestro-amor-catedrales-de-leyenda',
+          'lamascaradediosenelcuadrilatero': 'mister-loco-religious-man-acordes-ocultos',
+          'misterloco': 'mister-loco-religious-man-acordes-ocultos',
+          'religiousman': 'mister-loco-religious-man-acordes-ocultos',
+          'misterlocoreligiousman': 'mister-loco-religious-man-acordes-ocultos',
+          'misterlocoreligiousmanacordesocultos': 'mister-loco-religious-man-acordes-ocultos',
+          'fraytormenta': 'mister-loco-religious-man-acordes-ocultos',
+          'ritchievalensylamoneda': 'ritchie-valens-la-bamba-destellos-de-gloria',
+          'ritchievalens': 'ritchie-valens-la-bamba-destellos-de-gloria',
+          'labamba': 'ritchie-valens-la-bamba-destellos-de-gloria',
+          'eldiaquemuriolamusica': 'ritchie-valens-la-bamba-destellos-de-gloria'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
