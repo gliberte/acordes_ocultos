@@ -419,7 +419,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'elacordemasfamosodelahistoria': 'the-beatles-a-day-in-the-life',
           'adayinthelife': 'the-beatles-a-day-in-the-life',
           'thebeatlesadayinthelife': 'the-beatles-a-day-in-the-life',
-          'beatlesadayinthelife': 'the-beatles-a-day-in-the-life'
+          'beatlesadayinthelife': 'the-beatles-a-day-in-the-life',
+          'lavozfantasmadeltrajeblanco': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'therubettes': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'sugarbabylove': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'pauldavinci': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'therubettessugarbabylove': 'the-rubettes-sugar-baby-love-acordes-ocultos',
+          'therubettessugarbabyloveacordesocultos': 'the-rubettes-sugar-baby-love-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
