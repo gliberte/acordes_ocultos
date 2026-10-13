@@ -407,7 +407,15 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'elfindelmundodeskeeterdavis': 'skeeter-davis-the-end-of-the-world',
           'skeeterdavis': 'skeeter-davis-the-end-of-the-world',
           'theendoftheworld': 'skeeter-davis-the-end-of-the-world',
-          'skeeterdavistheendoftheworld': 'skeeter-davis-the-end-of-the-world'
+          'skeeterdavistheendoftheworld': 'skeeter-davis-the-end-of-the-world',
+          'dondeelmarguardounamor': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
+          'emiliojose': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
+          'nuestraplaya': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
+          'emiliojosenuestraplaya': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
+          'emiliojosenuestraplayahistoriaenlosacordes': 'emilio-jose-nuestra-playa-historia-en-los-acordes',
+          'dancingqueen': 'abba-dancing-queen',
+          'abba': 'abba-dancing-queen',
+          'abbadancingqueen': 'abba-dancing-queen'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
