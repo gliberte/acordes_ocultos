@@ -2,7 +2,7 @@
 
 *Historias detrás de las canciones que forman parte de nuestra vida.*
 
-**Actualizado: 12 de octubre de 2026 · Tarifas en USD**
+**Actualizado: 13 de octubre de 2026 · Tarifas en USD**
 
 ## 1. Qué es Acordes Ocultos
 
@@ -14,18 +14,18 @@ Para las marcas, ofrecemos colaboraciones alrededor de la música y la cultura, 
 
 ## 2. Comunidad y resultados verificados
 
-**Instagram: [@acordesocultos72](https://www.instagram.com/acordesocultos72/) · 36.245 seguidores.**
+**Instagram: [@acordesocultos72](https://www.instagram.com/acordesocultos72/) · 37.106 seguidores.**
 
-Fuente: perfil e Instagram Insights consultados mediante Composio el 12 de octubre de 2026. Las cifras siguientes son acumuladas de cada publicación hasta la consulta.
+Fuente: perfil e Instagram Insights consultados mediante Composio el 13 de octubre de 2026. Las cifras siguientes son acumuladas de cada publicación hasta la consulta.
 
 | Publicación | Visualizaciones | Cuentas alcanzadas | Compartidos | Guardados |
 | :--- | ---: | ---: | ---: | ---: |
-| [Isabel Pantoja — Marinero de Luces](https://www.instagram.com/reel/DdpS1qrKB1j/) | 1.725.448 | 1.108.666 | 18.792 | 9.367 |
-| [Tormenta — Adiós, chico de mi barrio](https://www.instagram.com/reel/DeAkQDqRhti/) | 157.146 | 98.416 | 4.199 | 1.224 |
-| [Mercedes Sosa — Todo Cambia](https://www.instagram.com/reel/DeHBG89RDh2/) | 111.365 | 86.172 | 2.475 | 956 |
-| [Nino Bravo — Un beso y una flor](https://www.instagram.com/reel/DeB79WORNzg/) | 31.666 | 20.136 | 593 | 296 |
-| [Kiki Dee — Amoureuse](https://www.instagram.com/reel/DeF5GfPRTb8/) | 3.533 | 2.563 | 10 | 18 |
-| [Jay and the Americans — This Magic Moment](https://www.instagram.com/reel/DeJbPfoRjq7/) | 2.441 | 1.938 | 7 | 14 |
+| [Isabel Pantoja — Marinero de Luces](https://www.instagram.com/reel/DdpS1qrKB1j/) | 1.731.579 | 1.111.452 | 18.840 | 9.411 |
+| [Tormenta — Adiós, chico de mi barrio](https://www.instagram.com/reel/DeAkQDqRhti/) | 160.409 | 101.372 | 4.285 | 1.246 |
+| [Mercedes Sosa — Todo Cambia](https://www.instagram.com/reel/DeHBG89RDh2/) | 115.942 | 89.652 | 2.530 | 986 |
+| [Nino Bravo — Un beso y una flor](https://www.instagram.com/reel/DeB79WORNzg/) | 33.008 | 20.936 | 602 | 305 |
+| [Kiki Dee — Amoureuse](https://www.instagram.com/reel/DeF5GfPRTb8/) | 3.609 | 2.609 | 10 | 18 |
+| [Jay and the Americans — This Magic Moment](https://www.instagram.com/reel/DeJbPfoRjq7/) | 2.513 | 1.988 | 7 | 14 |
 
 Esta selección incluye resultados altos y bajos de seis reels consultados; no constituye un promedio ni una muestra representativa del rendimiento habitual. Las publicaciones tienen distinta antigüedad. Los resultados de una colaboración dependerán de su contenido y distribución; no se garantiza un número de visualizaciones o ventas.
 
@@ -33,7 +33,7 @@ El alcance es una estimación de cuentas únicas. Las visualizaciones pueden inc
 
 ## 3. Audiencia: países registrados
 
-El desglose de seguidores por país devuelto por Instagram para `this_month`, consultado el 12 de octubre de 2026, incluye estos seis países con mayor número de seguidores en la respuesta:
+El desglose de seguidores por país devuelto por Instagram para `this_month`, consultado el 13 de octubre de 2026, incluye estos seis países con mayor número de seguidores en la respuesta:
 
 | País | Seguidores registrados en el desglose |
 | :--- | ---: |
@@ -44,13 +44,13 @@ El desglose de seguidores por país devuelto por Instagram para `this_month`, co
 | Chile | 934 |
 | Estados Unidos | 675 |
 
-El desglose devuelto no cubre la totalidad de los 36.245 seguidores; estas cifras no se extrapolan a porcentajes de toda la comunidad. No se dispone en esta revisión de datos verificados de edad, ingresos o intención de compra.
+El desglose devuelto no cubre la totalidad de los 37.106 seguidores; estas cifras no se extrapolan a porcentajes de toda la comunidad. No se dispone en esta revisión de datos verificados de edad, ingresos o intención de compra.
 
 ## 4. Ejemplos del contenido
 
 - **Marinero de Luces:** una historia sobre pérdida, música y regreso al escenario. Es el caso de mayor alcance entre los seis reels consultados.
-- **Adiós, chico de mi barrio:** una canción que conecta con recuerdos de juventud; registró 4.199 compartidos y 1.224 guardados.
-- **Todo Cambia:** un relato alrededor de la trayectoria y la voz de Mercedes Sosa; alcanzó 86.172 cuentas.
+- **Adiós, chico de mi barrio:** una canción que conecta con recuerdos de juventud; registró 4.285 compartidos y 1.246 guardados.
+- **Todo Cambia:** un relato alrededor de la trayectoria y la voz de Mercedes Sosa; alcanzó 89.652 cuentas.
 
 Estos ejemplos muestran el enfoque editorial y sus resultados observados. No atribuyen el rendimiento a una causa única ni anticipan los resultados de futuras campañas.
 

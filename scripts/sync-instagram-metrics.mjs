@@ -326,7 +326,9 @@ export async function syncInstagramMetrics() {
         const tMatch = storyTitle && storyTitle.length >= 8 && capNorm.includes(storyTitle);
         const penelopeMatch = sc === 'DeZEmV8RSRc' && (combinedMeta.includes('penelope') || combinedMeta.includes('anden'));
         const galvanMatch = sc === 'DeNb7k9A-BF' && (combinedMeta.includes('manolo galvan') || combinedMeta.includes('madre entera') || combinedMeta.includes('hoy no me levanto'));
-        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch) {
+        const supremesMatch = sc === 'Debi4zsAJxh' && (combinedMeta.includes('supremes') || combinedMeta.includes('stop in the name') || combinedMeta.includes('name of love'));
+        const zeppelinMatch = sc === 'DeabzmlR_Sx' && (combinedMeta.includes('zeppelin') || combinedMeta.includes('bonham') || combinedMeta.includes('bonzo'));
+        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch || supremesMatch || zeppelinMatch) {
           const postObj = postsByShortcode.get(sc);
           if (postObj) {
             igUrl = postObj.permalink;
@@ -382,8 +384,10 @@ export async function syncInstagramMetrics() {
           if (patchRes.ok) {
             updatedCount++;
             if (views > 50000 || isLatest) {
+              const fullTitle = (row.title || pp.title || '').trim();
+              const extra = [pp.song, pp.artist].filter(Boolean).join(' — ');
               topUpdated.push({
-                title: (row.title || pp.title || '').split('|')[0].trim(),
+                title: fullTitle.includes('|') || !extra ? fullTitle : `${fullTitle} (${extra})`,
                 views,
                 reach,
                 isLatest,
