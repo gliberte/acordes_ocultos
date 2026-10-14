@@ -20,3 +20,7 @@ web/public/videos/studio/
 web/public/articles/**/*.png
 web/public/articles/**/*.jpg
 web/public/articles/**/*.jpeg
+tmp/
+scratch/
+book/volumen-01/output/
+book/volumen-01/archive/

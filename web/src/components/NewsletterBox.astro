@@ -7,8 +7,9 @@ const { source = 'web_story' } = Astro.props;
 ---
 
 <!-- Mecenazgo Cultural / Apoya el Archivo (Gumroad Coffee) -->
+<!-- Mecenazgo Cultural / Apoya el Archivo (Gumroad Coffee) -->
 <div class="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1910] via-[#14110c] to-[#0a0908] border border-amber-500/40 p-6 sm:p-8 shadow-2xl">
-  <div class="relative z-10 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+  <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
     <div class="space-y-2 max-w-xl">
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30 font-sans">
         <span>☕ MECENAZGO INDEPENDIENTE</span>
@@ -17,20 +18,56 @@ const { source = 'web_story' } = Astro.props;
         ¿Esta historia te acompañó o te devolvió un recuerdo?
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed">
-        <strong>Acordes Ocultos</strong> es un archivo documental independiente. Si nuestras crónicas o videos te han emocionado, puedes apoyar la continuidad de esta investigación con un aporte voluntario.
+        <strong>Acordes Ocultos</strong> es un archivo documental independiente y libre de publicidad. Si nuestras crónicas o videos te han emocionado, puedes apoyar la continuidad de esta investigación con un aporte voluntario.
+      </p>
+      <p class="text-[11px] text-amber-300/80 italic font-sans pt-1">
+        Aporte único y voluntario, sin suscripción. El archivo seguirá abierto para todos.
       </p>
     </div>
-    <div class="w-full md:w-auto flex flex-col items-stretch md:items-end gap-2 shrink-0">
-      <a
-        href="https://acordesocultos.gumroad.com/l/ryhupd"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-sans font-bold text-xs sm:text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-500/20 transition-all transform hover:-translate-y-0.5 text-center"
-      >
-        <span>☕ Apoyar el Archivo ($3 · $5 · $10)</span>
-      </a>
-      <span class="text-[11px] text-neutral-400 text-center md:text-right font-sans">
-        Pago rápido con Apple Pay, Google Pay o Tarjeta
+
+    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-2.5 shrink-0">
+      <!-- Direct Tier Buttons that skip the intermediate screen -->
+      <div class="flex flex-wrap items-center gap-2">
+        <a
+          href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=3"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-white dark:bg-[#1a1713] text-neutral-900 dark:text-amber-200 border border-amber-500/40 hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
+        >
+          ☕ $3 USD
+        </a>
+        <a
+          href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=5"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-md shadow-amber-500/20 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-1.5"
+        >
+          <span>🎙️ $5 USD</span>
+          <span class="text-[9px] uppercase px-1 rounded bg-black/20 font-black">Sugerido</span>
+        </a>
+        <a
+          href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=10"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-white dark:bg-[#1a1713] text-neutral-900 dark:text-amber-200 border border-amber-500/40 hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
+        >
+          🏛️ $10 USD
+        </a>
+      </div>
+
+      <div class="flex items-center justify-between lg:justify-end gap-2 text-[11px] text-neutral-400 font-sans">
+        <a
+          href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-amber-400 hover:text-amber-300 underline"
+        >
+          Elegir otro importe libre →
+        </a>
+      </div>
+
+      <span class="text-[10px] text-neutral-400 text-center lg:text-right font-sans">
+        Pago seguro con tarjeta y otros métodos disponibles según tu dispositivo en Gumroad.
       </span>
     </div>
   </div>

@@ -175,46 +175,52 @@
         </p>
 
         <!-- Primary Action Buttons -->
-        <div class="pt-2 flex flex-wrap items-center gap-3.5">
-          <button
-            type="button"
-            data-gumroad-action="buy"
-            data-gumroad-price="3"
-            class="px-5 py-3.5 rounded-xl font-bold text-sm bg-white dark:bg-[#171410] border-2 border-amber-500/40 hover:border-amber-400 text-neutral-900 dark:text-amber-200 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer"
-          >
-            ☕ Invitar 1 Café ($3)
-          </button>
+        <div class="pt-2 flex flex-col gap-2">
+          <div class="flex flex-wrap items-center gap-3.5">
+            <button
+              type="button"
+              data-gumroad-action="buy"
+              data-gumroad-price="3"
+              data-gumroad-checkout-params='{"price":"3"}'
+              class="px-5 py-3.5 rounded-xl font-bold text-sm bg-white dark:bg-[#171410] border-2 border-amber-500/40 hover:border-amber-400 text-neutral-900 dark:text-amber-200 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer"
+            >
+              ☕ Invitar 1 Café ($3)
+            </button>
 
-          <button
-            type="button"
-            data-gumroad-action="buy"
-            data-gumroad-price="5"
-            class="px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/25 hover:-translate-y-0.5 transition-all cursor-pointer flex items-center gap-2"
-          >
-            <span>🎙️ Apoyo de Estudio ($5)</span>
-            <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-black/15 font-extrabold">Popular</span>
-          </button>
+            <button
+              type="button"
+              data-gumroad-action="buy"
+              data-gumroad-price="5"
+              data-gumroad-checkout-params='{"price":"5"}'
+              class="px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/25 hover:-translate-y-0.5 transition-all cursor-pointer flex items-center gap-2"
+            >
+              <span>🎙️ Apoyo de Estudio ($5)</span>
+              <span class="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-black/20 text-black font-extrabold">Sugerido</span>
+            </button>
 
-          <button
-            type="button"
-            data-gumroad-action="buy"
-            data-gumroad-price="10"
-            class="px-5 py-3.5 rounded-xl font-bold text-sm bg-white dark:bg-[#171410] border-2 border-amber-500/40 hover:border-amber-400 text-neutral-900 dark:text-amber-200 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer"
-          >
-            🏛️ Mecenas del Archivo ($10)
-          </button>
+            <button
+              type="button"
+              data-gumroad-action="buy"
+              data-gumroad-price="10"
+              data-gumroad-checkout-params='{"price":"10"}'
+              class="px-5 py-3.5 rounded-xl font-bold text-sm bg-white dark:bg-[#171410] border-2 border-amber-500/40 hover:border-amber-400 text-neutral-900 dark:text-amber-200 shadow-sm hover:-translate-y-0.5 transition-all cursor-pointer"
+            >
+              🏛️ Mecenas del Archivo ($10)
+            </button>
+          </div>
+          <p class="text-xs text-neutral-600 dark:text-neutral-400 font-sans italic pt-1">
+            Aporte único y voluntario, sin suscripción. El archivo seguirá abierto para todos.
+          </p>
         </div>
 
-        <!-- Trust & Rating Metadata -->
-        <div class="pt-2 flex flex-wrap items-center gap-4 text-xs text-neutral-600 dark:text-neutral-400">
-          <div class="flex items-center gap-1.5">
-            <span class="text-amber-500">★★★★★</span>
-            <span data-gumroad-field="rating" class="font-semibold text-neutral-800 dark:text-neutral-200">5.0</span>
-            <span>·</span>
-            <span data-gumroad-field="review-count">Comunidad de +28,600 melómanos</span>
+        <!-- Trust & Verified Community Metadata -->
+        <div class="pt-2 flex flex-wrap items-center gap-3 text-xs text-neutral-600 dark:text-neutral-400">
+          <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 rounded-full bg-amber-500"></span>
+            <span class="font-medium text-neutral-800 dark:text-neutral-200">Comunidad de +37.700 seguidores en redes</span>
           </div>
-          <span class="hidden sm:inline">•</span>
-          <span>Aporte sugerido: <strong data-gumroad-field="price" class="text-amber-700 dark:text-amber-400">$3+</strong></span>
+          <span>•</span>
+          <span>Aporte sugerido: <strong class="text-amber-700 dark:text-amber-400">$3+</strong></span>
         </div>
       </div>
 
@@ -266,9 +272,10 @@
             type="button"
             data-gumroad-action="buy"
             data-gumroad-price="3"
+            data-gumroad-checkout-params='{"price":"3"}'
             class="mt-6 w-full py-3 px-4 rounded-xl font-bold text-xs uppercase tracking-wider bg-neutral-900 dark:bg-[#211d17] hover:bg-amber-500 dark:hover:bg-amber-500 text-white hover:text-black border border-amber-500/30 transition-colors cursor-pointer"
           >
-            Invitar por $3 →
+            Invitar por $3 en Gumroad →
           </button>
         </div>
 
@@ -277,7 +284,7 @@
           <div class="space-y-3">
             <div class="flex items-center justify-between">
               <span class="text-xs font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-amber-500 text-black">
-                ★ Más Elegido
+                Aporte sugerido
               </span>
               <span class="font-serif text-2xl font-black text-amber-600 dark:text-amber-400">$5</span>
             </div>
@@ -290,9 +297,10 @@
             type="button"
             data-gumroad-action="buy"
             data-gumroad-price="5"
+            data-gumroad-checkout-params='{"price":"5"}'
             class="mt-6 w-full py-3.5 px-4 rounded-xl font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-500/20 transition-all cursor-pointer"
           >
-            Apoyar con $5 →
+            Apoyar con $5 en Gumroad →
           </button>
         </div>
 
@@ -314,11 +322,19 @@
             type="button"
             data-gumroad-action="buy"
             data-gumroad-price="10"
+            data-gumroad-checkout-params='{"price":"10"}'
             class="mt-6 w-full py-3 px-4 rounded-xl font-bold text-xs uppercase tracking-wider bg-neutral-900 dark:bg-[#211d17] hover:bg-amber-500 dark:hover:bg-amber-500 text-white hover:text-black border border-amber-500/30 transition-colors cursor-pointer"
           >
-            Apoyar con $10 →
+            Apoyar con $10 en Gumroad →
           </button>
         </div>
+      </div>
+
+      <!-- Explicit Clarification requested by user -->
+      <div class="text-center py-1">
+        <p class="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 font-sans italic">
+          Aporte único y voluntario, sin suscripción. El archivo seguirá abierto para todos.
+        </p>
       </div>
 
       <!-- Custom Pay-What-You-Want Box -->
@@ -328,7 +344,7 @@
             ¿Prefieres elegir otro monto libre?
           </h3>
           <p class="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400">
-            Introduce cualquier cantidad en dólares (USD) y pasa directamente a la pasarela segura con Apple Pay, Google Pay o tarjeta.
+            Introduce cualquier cantidad en dólares (USD) y pasa directamente a la pasarela de pago seguro con tarjeta y otros métodos disponibles según tu dispositivo.
           </p>
         </div>
 
@@ -352,7 +368,7 @@
             type="button"
             class="px-6 py-3 rounded-xl font-bold text-xs sm:text-sm uppercase tracking-wider bg-amber-500 hover:bg-amber-400 text-black shadow-md transition-all cursor-pointer shrink-0"
           >
-            Continuar al Pago →
+            Continuar al pago seguro en Gumroad →
           </button>
         </div>
       </div>
@@ -369,7 +385,7 @@
       <div class="p-5 rounded-xl bg-white/60 dark:bg-[#12100d] border border-neutral-200/80 dark:border-[#24201a] space-y-2">
         <div class="text-amber-600 dark:text-amber-400 font-serif font-bold text-lg">02. Archivo Abierto</div>
         <p class="text-xs text-neutral-600 dark:text-neutral-400 leading-relaxed">
-          Más de 150 crónicas extendidas y mini-documentales disponibles gratuitamente para preservar el patrimonio emocional de la música.
+          Más de 180 relatos documentados y crónicas de archivo disponibles gratuitamente para preservar el patrimonio emocional de la música.
         </p>
       </div>
       <div class="p-5 rounded-xl bg-white/60 dark:bg-[#12100d] border border-neutral-200/80 dark:border-[#24201a] space-y-2">
@@ -396,8 +412,33 @@
 </div>
 
   <script>
-    // Custom Pay-What-You-Want checkout handler
     (function () {
+      // Direct buy buttons delegation handler (preserves price and eliminates extra intermediate step)
+      document.addEventListener("click", function (e) {
+        var target = e.target;
+        var buyButton = target && target.closest ? target.closest('[data-gumroad-action="buy"]') : null;
+        if (!buyButton) return;
+        e.preventDefault();
+
+        var params = {};
+        try {
+          params = JSON.parse(buyButton.dataset.gumroadCheckoutParams || "{}");
+        } catch (_e) {}
+
+        var priceAttr = buyButton.getAttribute("data-gumroad-price");
+        if (priceAttr && !params.price) {
+          params.price = String(priceAttr);
+        }
+
+        if (window.parent && window.parent !== window) {
+          parent.postMessage({ type: "gumroad:checkout", params: params }, "*");
+        } else {
+          var priceParam = params.price ? "&price=" + encodeURIComponent(params.price) : "";
+          window.location.href = "https://acordesocultos.gumroad.com/l/ryhupd?wanted=true" + priceParam;
+        }
+      }, true);
+
+      // Custom Pay-What-You-Want checkout handler
       var buyBtn = document.getElementById("gr-buy");
       var priceInput = document.getElementById("gr-price");
       if (buyBtn && priceInput) {
@@ -410,7 +451,12 @@
               params.price = String(n);
             }
           }
-          parent.postMessage({ type: "gumroad:checkout", params: params }, "*");
+          if (window.parent && window.parent !== window) {
+            parent.postMessage({ type: "gumroad:checkout", params: params }, "*");
+          } else {
+            var priceParam = params.price ? "&price=" + encodeURIComponent(params.price) : "";
+            window.location.href = "https://acordesocultos.gumroad.com/l/ryhupd?wanted=true" + priceParam;
+          }
         });
       }
 
