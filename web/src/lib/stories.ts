@@ -452,7 +452,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'terryjacks': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
           'seasonsinthesun': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
           'terryjacksseasonsinthesun': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
-          'terryjacksseasonsinthesunacordesocultos': 'terry-jacks-seasons-in-the-sun-acordes-ocultos'
+          'terryjacksseasonsinthesunacordesocultos': 'terry-jacks-seasons-in-the-sun-acordes-ocultos',
+          'elpactorotodeunacuna': 'pablo-milanes-yolanda-acordes-ocultos',
+          'pablomilanes': 'pablo-milanes-yolanda-acordes-ocultos',
+          'yolanda': 'pablo-milanes-yolanda-acordes-ocultos',
+          'pablomilanesyolanda': 'pablo-milanes-yolanda-acordes-ocultos',
+          'pablomilanesyolandaacordesocultos': 'pablo-milanes-yolanda-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
