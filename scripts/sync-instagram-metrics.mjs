@@ -328,7 +328,9 @@ export async function syncInstagramMetrics() {
         const galvanMatch = sc === 'DeNb7k9A-BF' && (combinedMeta.includes('manolo galvan') || combinedMeta.includes('madre entera') || combinedMeta.includes('hoy no me levanto'));
         const supremesMatch = sc === 'Debi4zsAJxh' && (combinedMeta.includes('supremes') || combinedMeta.includes('stop in the name') || combinedMeta.includes('name of love'));
         const zeppelinMatch = sc === 'DeabzmlR_Sx' && (combinedMeta.includes('zeppelin') || combinedMeta.includes('bonham') || combinedMeta.includes('bonzo'));
-        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch || supremesMatch || zeppelinMatch) {
+        const sergioMatch = sc === 'DeeHsfCA3bZ' && (combinedMeta.includes('sergio denis') || combinedMeta.includes('despedida') || combinedMeta.includes('profecia'));
+        const peralesMatch = sc === 'Dec4KgbRvke' && (combinedMeta.includes('perales') || combinedMeta.includes('velero') || combinedMeta.includes('ahogado'));
+        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch || supremesMatch || zeppelinMatch || sergioMatch || peralesMatch) {
           const postObj = postsByShortcode.get(sc);
           if (postObj) {
             igUrl = postObj.permalink;
