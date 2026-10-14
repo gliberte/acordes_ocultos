@@ -493,8 +493,8 @@ const websiteSchema = {
             </div>
             <button 
               type="button" 
-              onclick={`filterByCat('${cat.id}')`}
-              class="mt-4 text-xs font-semibold text-amber-400 hover:text-amber-300 text-left"
+              onclick={`filterByCat('${cat.id}', true)`}
+              class="mt-4 text-xs font-semibold text-amber-400 hover:text-amber-300 text-left cursor-pointer"
             >
               Explorar relatos →
             </button>
@@ -525,7 +525,7 @@ const websiteSchema = {
             type="button" 
             onclick="filterByCat('all')" 
             id="pill-all"
-            class="filter-pill px-3.5 py-1.5 rounded-full text-xs font-medium border border-amber-500 bg-amber-500 text-black transition-all"
+            class="filter-pill px-3.5 py-1.5 rounded-full text-xs font-medium border border-amber-500 bg-amber-500 text-black transition-all cursor-pointer"
           >
             Todas ({allStories.length})
           </button>
@@ -536,7 +536,7 @@ const websiteSchema = {
                 type="button" 
                 onclick={`filterByCat('${cat.id}')`}
                 id={`pill-${cat.id}`}
-                class="filter-pill px-3.5 py-1.5 rounded-full text-xs font-medium border border-[#2b2721] bg-[#14120f] text-neutral-300 hover:border-amber-500/50 transition-all"
+                class="filter-pill px-3.5 py-1.5 rounded-full text-xs font-medium border border-[#2b2721] bg-[#14120f] text-neutral-300 hover:border-amber-500/50 transition-all cursor-pointer"
               >
                 {cat.name} ({count})
               </button>
@@ -547,11 +547,40 @@ const websiteSchema = {
 
       <!-- Stories Grid -->
       <div id="stories-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {allStories.map(story => (
-          <div class="story-item-wrapper" data-category={story.category}>
+        {allStories.map((story, index) => (
+          <div 
+            class="story-item-wrapper" 
+            data-category={story.category}
+            style={index >= 24 ? "display: none;" : undefined}
+          >
             <StoryCard story={story} />
           </div>
         ))}
+      </div>
+
+      <!-- Load More / Explorar más relatos Controller -->
+      <div id="load-more-container" class="mt-12 mb-14 flex flex-col items-center justify-center gap-3.5">
+        <button
+          id="load-more-btn"
+          type="button"
+          onclick="loadMoreStories()"
+          class="group inline-flex items-center gap-3 px-8 py-3.5 rounded-full text-xs sm:text-sm font-bold uppercase tracking-wider bg-gradient-to-r from-[#1c1914] via-[#161410] to-[#14120e] text-amber-300 border border-amber-500/40 hover:border-amber-400 hover:text-amber-200 hover:shadow-xl hover:shadow-amber-500/10 transition-all transform hover:-translate-y-0.5 active:translate-y-0 font-sans cursor-pointer"
+        >
+          <span>Explorar más relatos</span>
+          <span id="load-more-count" class="px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 text-xs font-mono border border-amber-500/30 group-hover:bg-amber-500/30 transition-colors">
+            ...
+          </span>
+          <svg class="w-4 h-4 text-amber-400 fill-none stroke-current transform group-hover:translate-y-0.5 transition-transform" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <p id="stories-progress-text" class="text-xs text-neutral-400 font-sans text-center">
+          Mostrando <strong id="current-shown" class="text-amber-400 font-mono">24</strong> de <strong id="total-available" class="text-neutral-200 font-mono">{allStories.length}</strong> relatos del archivo
+        </p>
+        <div id="stories-all-loaded" class="hidden items-center gap-2 px-5 py-2 rounded-full bg-[#161410] border border-amber-500/20 text-xs text-neutral-400 font-sans">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>
+          <span>Has recorrido todos los relatos de esta sección</span>
+        </div>
       </div>
 
       <!-- Newsletter Box & Subscription Gateway -->
@@ -560,10 +589,82 @@ const websiteSchema = {
     </div>
   </section>
 
-  <!-- Instant Category Filter Script -->
+  <!-- Instant Category Filter & Dynamic Pagination Script -->
   <script is:inline>
-    function filterByCat(catId) {
+    const INITIAL_COUNT = 24;
+    const BATCH_SIZE = 24;
+    let currentCategory = 'all';
+    let visibleCount = INITIAL_COUNT;
+
+    function updateGridDisplay() {
       const wrappers = document.querySelectorAll('.story-item-wrapper');
+      let matchingCount = 0;
+      let shownCount = 0;
+
+      wrappers.forEach(wrap => {
+        const itemCat = wrap.getAttribute('data-category');
+        const matchesCategory = (currentCategory === 'all' || itemCat === currentCategory);
+
+        if (matchesCategory) {
+          matchingCount++;
+          if (matchingCount <= visibleCount) {
+            wrap.style.display = '';
+            shownCount++;
+          } else {
+            wrap.style.display = 'none';
+          }
+        } else {
+          wrap.style.display = 'none';
+        }
+      });
+
+      // Update counters and UI
+      const currentShownEl = document.getElementById('current-shown');
+      const totalAvailableEl = document.getElementById('total-available');
+      const loadMoreBtn = document.getElementById('load-more-btn');
+      const loadMoreCount = document.getElementById('load-more-count');
+      const allLoadedEl = document.getElementById('stories-all-loaded');
+      const progressText = document.getElementById('stories-progress-text');
+
+      if (currentShownEl) currentShownEl.textContent = shownCount;
+      if (totalAvailableEl) totalAvailableEl.textContent = matchingCount;
+
+      const remaining = matchingCount - shownCount;
+
+      if (remaining > 0) {
+        if (loadMoreBtn) {
+          loadMoreBtn.classList.remove('hidden');
+          loadMoreBtn.style.display = 'inline-flex';
+        }
+        if (loadMoreCount) {
+          loadMoreCount.textContent = `+${Math.min(remaining, BATCH_SIZE)} (${remaining} restantes)`;
+        }
+        if (allLoadedEl) {
+          allLoadedEl.classList.add('hidden');
+          allLoadedEl.classList.remove('flex');
+        }
+        if (progressText) progressText.classList.remove('hidden');
+      } else {
+        if (loadMoreBtn) {
+          loadMoreBtn.classList.add('hidden');
+          loadMoreBtn.style.display = 'none';
+        }
+        if (allLoadedEl) {
+          allLoadedEl.classList.remove('hidden');
+          allLoadedEl.classList.add('flex');
+        }
+      }
+    }
+
+    function loadMoreStories() {
+      visibleCount += BATCH_SIZE;
+      updateGridDisplay();
+    }
+
+    function filterByCat(catId, scroll = false) {
+      currentCategory = catId;
+      visibleCount = INITIAL_COUNT;
+
       const pills = document.querySelectorAll('.filter-pill');
 
       // Update pills appearance
@@ -578,16 +679,18 @@ const websiteSchema = {
         activePill.classList.add('bg-amber-500', 'text-black', 'border-amber-500');
       }
 
-      // Filter grid
-      wrappers.forEach(wrap => {
-        const itemCat = wrap.getAttribute('data-category');
-        if (catId === 'all' || itemCat === catId) {
-          wrap.style.display = '';
-        } else {
-          wrap.style.display = 'none';
+      updateGridDisplay();
+
+      if (scroll) {
+        const storiesEl = document.getElementById('historias');
+        if (storiesEl) {
+          storiesEl.scrollIntoView({ behavior: 'smooth' });
         }
-      });
+      }
     }
+
+    // Run immediately when script parses
+    updateGridDisplay();
 
     // Check URL search param on load
     window.addEventListener('DOMContentLoaded', () => {
