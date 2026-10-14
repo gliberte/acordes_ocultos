@@ -457,7 +457,26 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'pablomilanes': 'pablo-milanes-yolanda-acordes-ocultos',
           'yolanda': 'pablo-milanes-yolanda-acordes-ocultos',
           'pablomilanesyolanda': 'pablo-milanes-yolanda-acordes-ocultos',
-          'pablomilanesyolandaacordesocultos': 'pablo-milanes-yolanda-acordes-ocultos'
+          'pablomilanesyolandaacordesocultos': 'pablo-milanes-yolanda-acordes-ocultos',
+          'elecodelninoquenoqueriaserdios': 'kurt-cobain-the-man-who-sold-the-world-destellos-de-gloria',
+          'kurtcobain': 'kurt-cobain-the-man-who-sold-the-world-destellos-de-gloria',
+          'themanwhosoldtheworld': 'kurt-cobain-the-man-who-sold-the-world-destellos-de-gloria',
+          'kurtcobainthemanwhosoldtheworld': 'kurt-cobain-the-man-who-sold-the-world-destellos-de-gloria',
+          'kurtcobainthemanwhosoldtheworlddestellosdegloria': 'kurt-cobain-the-man-who-sold-the-world-destellos-de-gloria',
+          'laapuestasuicidadelainvasionmarciana': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'jeffwayne': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'thewaroftheworlds': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'theeveofthewar': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'jeffwaynethewaroftheworlds': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'jeffwaynethewaroftheworldsacordesocultos': 'jeff-wayne-the-war-of-the-worlds-acordes-ocultos',
+          'elgigantedeaceroquedesafioalasestrellas': 'jeff-wayne-thunder-child-historia-en-los-acordes',
+          'thunderchild': 'jeff-wayne-thunder-child-historia-en-los-acordes',
+          'jeffwaynethunderchild': 'jeff-wayne-thunder-child-historia-en-los-acordes',
+          'jeffwaynethunderchildhistoriaenlosacordes': 'jeff-wayne-thunder-child-historia-en-los-acordes',
+          'elhimnoqueaprendioalevantarnosdelosescombros': 'soda-stereo-cuando-pase-el-temblor',
+          'el-himno-que-aprendio-a-levantarnos-de-los-escombros': 'soda-stereo-cuando-pase-el-temblor',
+          'cuandopaseeltemblor': 'soda-stereo-cuando-pase-el-temblor',
+          'sodastereocuandopaseeltemblor': 'soda-stereo-cuando-pase-el-temblor'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');

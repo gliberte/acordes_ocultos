@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, copyFileSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, copyFileSync, statSync } from 'fs';
 import { join, dirname, extname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -288,13 +288,25 @@ function copyDirRecursive(srcDir, destDir) {
 }
 
 function processAllArticles() {
+  const args = process.argv.slice(2);
+  let targetSlug = null;
+  const slugIdx = args.indexOf('--slug');
+  if (slugIdx !== -1 && args[slugIdx + 1]) {
+    targetSlug = args[slugIdx + 1];
+  }
+
   const articlesDir = join(rootDir, 'articles');
   if (!existsSync(articlesDir)) return;
 
-  const dirs = readdirSync(articlesDir, { withFileTypes: true })
+  let dirs = readdirSync(articlesDir, { withFileTypes: true })
     .filter(d => d.isDirectory() && existsSync(join(articlesDir, d.name, 'article.md')));
 
-  console.log(`\n📚 Encontradas ${dirs.length} crónicas para compilar a HTML móvil...`);
+  if (targetSlug) {
+    dirs = dirs.filter(d => d.name === targetSlug);
+    console.log(`\n🎯 Compilando únicamente la crónica objetivo: ${targetSlug}...`);
+  } else {
+    console.log(`\n📚 Encontradas ${dirs.length} crónicas para verificar/compilar a HTML móvil...`);
+  }
 
   const driveSubstackDir = join(vaultBase, '02_Cronicas_Substack');
   try {
@@ -305,6 +317,20 @@ function processAllArticles() {
     const slug = d.name;
     const articleFolder = join(articlesDir, slug);
     const mdPath = join(articleFolder, 'article.md');
+    const localOut = join(articleFolder, 'lectura_movil.html');
+
+    // Comprobar si ya está compilado y al día (a menos que sea el objetivo específico)
+    if (!targetSlug && existsSync(localOut)) {
+      try {
+        const mdTime = statSync(mdPath).mtimeMs;
+        const outTime = statSync(localOut).mtimeMs;
+        const driveOut = join(driveSubstackDir, `${slug}.html`);
+        if (outTime >= mdTime && existsSync(driveOut)) {
+          continue; // Ya está al día, omitir para no saturar Google Drive
+        }
+      } catch (_) {}
+    }
+
     const mdContent = readFileSync(mdPath, 'utf8');
 
     const firstLine = mdContent.split('\n').find(l => l.startsWith('# ')) || `# Crónica - ${slug}`;
@@ -314,7 +340,6 @@ function processAllArticles() {
     const fullHtml = generateHtmlDocument(title, bodyHtml);
 
     // 1. Local
-    const localOut = join(articleFolder, 'lectura_movil.html');
     writeFileSync(localOut, fullHtml, 'utf8');
 
     // 2. Google Drive: Bóveda Episodio (01_Episodios_Completados/<slug>/substack/)
