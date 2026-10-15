@@ -490,7 +490,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'angie': 'the-rolling-stones-angie-acordes-ocultos',
           'therollingstonesangie': 'the-rolling-stones-angie-acordes-ocultos',
           'therollingstonesangieacordesocultos': 'the-rolling-stones-angie-acordes-ocultos',
-          'rollingstonesangie': 'the-rolling-stones-angie-acordes-ocultos'
+          'rollingstonesangie': 'the-rolling-stones-angie-acordes-ocultos',
+          'lapreguntaquehizotemblarauncorazon': 'jose-luis-perales-dime-historia-en-los-acordes',
+          'la-pregunta-que-hizo-temblar-a-un-corazon': 'jose-luis-perales-dime-historia-en-los-acordes',
+          'dime': 'jose-luis-perales-dime-historia-en-los-acordes',
+          'joseluisperalesdime': 'jose-luis-perales-dime-historia-en-los-acordes',
+          'joseluisperalesdimehistoriaenlosacordes': 'jose-luis-perales-dime-historia-en-los-acordes'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
