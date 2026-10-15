@@ -513,7 +513,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'elsabotajedelosdosminutos': 'blur-song-2',
           'riversofbabylon': 'boney-m-rivers-of-babylon',
           'boneymriversofbabylon': 'boney-m-rivers-of-babylon',
-          'ellamentodelosesclavos': 'boney-m-rivers-of-babylon'
+          'ellamentodelosesclavos': 'boney-m-rivers-of-babylon',
+          'eljardininfinitodelnuevosol': 'nino-bravo-america-america-historia-en-los-acordes',
+          'el-jardin-infinito-del-nuevo-sol': 'nino-bravo-america-america-historia-en-los-acordes',
+          'ninobravoamericaamerica': 'nino-bravo-america-america-historia-en-los-acordes',
+          'ninobravoamericaamericahistoriaenlosacordes': 'nino-bravo-america-america-historia-en-los-acordes',
+          'americaamerica': 'nino-bravo-america-america-historia-en-los-acordes'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');

@@ -1,248 +1,248 @@
 {
-  "topic": "acordes-ocultos",
-  "title": "La verdadera historia tras «En el muelle de San Blas»",
-  "artist": "Maná",
-  "slug": "mana-en-el-muelle-de-san-blas-acordes-ocultos",
-  "articleSlug": "mana-en-el-muelle-de-san-blas-acordes-ocultos",
-  "hook": "El pueblo entero la llamaba «la loca del muelle», pero su traje blanco guardaba una de las heridas más conmovedoras de la música.",
-  "anecdote": "En mayo de 1997, en el muelle de madera de San Blas, Nayarit, Fher Olvera conoció a una mujer de cabello cano que vendía figuras de conchas vestida de blanco. La leyenda decía que esperaba a un pescador que el mar nunca devolvió, pero la verdad documentada de Rebeca Méndez Jiménez guardaba un dolor aún más profundo: la pérdida de sus hijos y una soledad que quebró su mente. Fher conversó con ella y esa misma noche compuso «En el muelle de San Blas», convirtiendo su dolor en un himno universal.",
+  "topic": "historia-en-los-acordes",
+  "title": "El jardín infinito del nuevo sol",
+  "artist": "Nino Bravo",
+  "slug": "nino-bravo-america-america-historia-en-los-acordes",
+  "articleSlug": "nino-bravo-america-america-historia-en-los-acordes",
+  "hook": "«Cuando Dios hizo la armonía entre el cielo y el mar, creó un mundo del nuevo sol...»",
+  "anecdote": "En 1973, Nino Bravo inmortalizó la alabanza más grandiosa jamás dedicada al continente americano. Una oda a la majestuosidad de sus cordilleras, el verde infinito de sus selvas y la nobleza de sus pueblos, concebida como un canto de gratitud a la tierra donde la libertad es el destino del alma.",
   "durationSeconds": 90,
   "beats": [
-    "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino.",
-    "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara.",
-    "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco.",
-    "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente.",
-    "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo.",
-    "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa.",
-    "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada.",
-    "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal.",
-    "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
+    "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo.",
+    "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento.",
+    "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua.",
+    "Manos sabias que acarician la siembra y custodian la dignidad de la raíz.",
+    "Llanuras interminables donde el viento corre sin cadenas ni fronteras.",
+    "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo.",
+    "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos.",
+    "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno.",
+    "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
   ],
-  "outro": "¿Qué sientes cada vez que suena «En el muelle de San Blas» y a quién recuerdas al escucharla?",
+  "outro": "¿Qué rincón de nuestra América hace latir más fuerte tu corazón al escuchar este himno?",
   "palette": {
     "ink": "#18181b",
     "paper": "#fef2f2",
-    "accent": "#0284c7",
-    "glow": "#f59e0b"
+    "accent": "#d97706",
+    "glow": "#fbbf24"
   },
   "music": {
-    "title": "En el Muelle de San Blas",
-    "artist": "Maná",
-    "src": "music/mana-en-el-muelle-de-san-blas.mp3",
-    "file": "music/mana-en-el-muelle-de-san-blas.mp3",
+    "title": "América, América",
+    "artist": "Nino Bravo",
+    "src": "music/nino-bravo-america-america.mp3",
+    "file": "music/nino-bravo-america-america.mp3",
     "startSecond": 0,
-    "volume": 0.6,
+    "volume": 0.65,
     "instagram": {
-      "query": "En el Muelle de San Blas Mana",
-      "expectedTitle": "En el Muelle de San Blas",
-      "expectedArtist": "Maná",
+      "query": "America America Nino Bravo",
+      "expectedTitle": "América, América",
+      "expectedArtist": "Nino Bravo",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de En el Muelle de San Blas de Maná en Instagram Reels."
+      "notes": "Seleccionar audio oficial de América, América de Nino Bravo en Instagram Reels."
     }
   },
-  "video": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos",
-  "cover": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, 1997. The historic weathered wooden pier of San Blas, Nayarit, extending into the wide Pacific Ocean at sunset. Golden warm sunlight reflecting on gentle ocean waves, soft sea mist, wooden posts covered in sea salt and barnacles, seagulls in the distant sky. Evocative, deeply nostalgic atmosphere, cinematic 1990s Kodachrome film texture, ample negative space at top and bottom for text, no words or typography.",
+  "video": "videos/nino-bravo-america-america-historia-en-los-acordes",
+  "cover": "videos/nino-bravo-america-america-historia-en-los-acordes/cover_bg.png",
+  "coverBg": "videos/nino-bravo-america-america-historia-en-los-acordes/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 cinematic landscape photograph, 1970s. A breathtaking aerial panoramic view of the American continent where snow-capped mountain peaks of the Andes meet vast emerald rainforest valleys and glowing golden ocean shores under a warm celestial sunrise. Majestic, awe-inspiring, deep saturated colors, authentic 1970s film grain, ample negative space at top and bottom for typography, no words or text.",
   "assets": [
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1990s. The rustic wooden dock and pier of San Blas in Nayarit, Mexico, shrouded in coastal morning sea mist. Weathered timber planks encrusted with salt, gentle Pacific waves breaking softly against the shore, small fishing dories bobbing in the distance, moody overcast sky, deep atmospheric nostalgia, authentic 1990s film grain, documentary realism, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-01.png",
+      "prompt": "Vertical 9:16 majestic color landscape photography, 35mm film grain. Golden morning sunlight breaking over an untouched tropical coastal shoreline in the Americas, crystalline ocean waves lapping softly on pristine golden sand, sea mist rising in the dawn, wild palm trees swaying gently, radiant atmosphere of a new world awakening, natural light, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 vintage 1971 color photograph, 35mm film grain. A young Mexican woman in her late 20s, slender, with natural dark wavy hair gathered gently, wearing a simple modest white cotton dress from 1971. She stands at the edge of the rustic wooden pier of San Blas, one hand raised waving a sorrowful farewell to an old wooden fishing boat sailing into dark ocean storm clouds on the horizon. Somber, deeply emotional atmosphere, authentic 1970s color palette, natural soft ocean light, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-02.png",
+      "prompt": "Vertical 9:16 awe-inspiring 35mm documentary nature photograph. The towering snow-covered peaks of the Andes mountain range at twilight, under an immaculate deep indigo sky filled with millions of bright stars. Crystal clear mountain air, rugged glaciers glowing softly under starlight, pure primordial silence, majestic scale, vintage film grain, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 authentic 35mm film photograph, late 1970s. A Mexican woman in her 30s with natural dark wavy hair, sitting quietly on the wet weathered wooden planks of the San Blas pier under heavy tropical rain, looking out toward the endless grey sea. Her simple white dress is damp from the ocean spray and rain, her expression still, melancholic and deeply devoted, holding on to a silent promise. Authentic 1970s grain, cinematic mood, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-03.png",
+      "prompt": "Vertical 9:16 breathtaking aerial cinematic photograph. The winding, serpentine curves of the mighty Amazon River flowing through an endless sea of emerald green rainforest canopy at sunrise. Golden morning mist drifting over the water and treetops, birds soaring in the distance, vibrant primeval nature, rich textured 1970s film aesthetic, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 vintage 1980s color photograph, 35mm film grain. A Mexican woman in her early 40s, same distinctive facial structure and solemn dark eyes, hair with silver strands. She is sitting in a sunlit modest seaside room, gently holding a small vintage photograph close to her chest. She gazes out an open wooden window towards the distant Pacific Ocean with tender grief and quiet resilience. Intimate, profoundly moving emotional atmosphere, warm nostalgic tones, authentic film grain, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-04.png",
+      "prompt": "Vertical 9:16 intimate documentary portrait photograph, 1970s. A proud indigenous Andean farmer and a young woman in traditional colorful woven textiles, gently kneeling in a terraced fertile green mountain field, holding rich dark earth and freshly harvested golden maize. Serene dignified smiles, weathered hands, warm natural sunlight, authentic ethnographic respect, 35mm grain, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 documentary color photograph, early 1990s, 35mm film grain. On the wooden pier of San Blas, a kind elderly Mexican fisherman with a sun-weathered face and cap gently hands a ceramic mug of hot coffee to a 50-year-old Mexican woman with silver-streaked wavy hair, wearing a white coastal dress and light shawl. A moment of deep human warmth, empathy and community affection by the misty ocean shore. Natural daylight, authentic candid realism, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-05.png",
+      "prompt": "Vertical 9:16 dynamic action landscape photograph, 35mm film grain. A herd of spirited wild horses galloping freely across the vast, golden grasslands of the South American Pampas under a dramatic open sky. Wind blowing through their manes, dust kicked up in the late afternoon sun, absolute sense of boundless freedom and untamed wilderness, cinematic framing, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1997. A Mexican woman in her mid-50s with silvery grey curly hair, seated calmly on the weathered wooden dock of San Blas by the ocean. Before her is a rustic woven basket filled with handmade seashell necklaces and small traditional Mexican sweets. Her sunlit, serene face holds a gentle, peaceful smile; her weathered hands rest over a string of seashells. Dressed in her characteristic simple white cotton dress. Natural Pacific coastal light, warm 1990s film texture, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-06.png",
+      "prompt": "Vertical 9:16 vibrant cultural documentary photograph, 1970s. A charming colonial stone plaza in Latin America, colorful painted facades with wrought iron balconies overflowing with bougainvillea. Local people of diverse backgrounds greeting each other warmly on cobblestone streets, children running joyfully, lively warm communal spirit, sun-drenched nostalgic 35mm film texture, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, May 1997. On the wooden dock of San Blas by the sea, Fher Olvera (lead singer of Maná in 1997, thin build, long dark curly rock hair, wearing a loose unbuttoned casual cotton shirt and faded jeans) sits attentively on the edge of the dock conversing with the Mexican woman in her white dress with her basket of seashells. Fher is listening to her with deep respect and emotional awe. Late afternoon warm golden sun reflecting on the Pacific Ocean, documentary candid intimacy, authentic 1997 film grain, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-07.png",
+      "prompt": "Vertical 9:16 touching candid documentary photograph. A group of Latin American children sitting together on a grassy riverbank at sunset, smiling with pure joy and wonder as they look toward the horizon. Warm golden backlight catching their dark curls, hopeful bright eyes full of innocence and future, gentle river water reflecting the evening sky, cinematic warmth, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, 1997. Mexican singer Fher Olvera in 1997, in his late 30s with long curly dark hair, sitting in a rustic beachside room with open wooden shutters overlooking the night sea. He is holding a wooden acoustic guitar, focused in quiet inspiration, with an open paper notebook and pen resting on a small wooden table beside a vintage warm lamp. Intimate musical creation moment, authentic 1990s recording session mood, warm grain, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-08.png",
+      "prompt": "Vertical 9:16 inspiring human gathering photograph, 1970s. A diverse group of young men and women from across the Americas standing together atop a scenic mountain overlook, arms over shoulders, looking out over a vast continent of valleys and oceans. Smiles of unity, brotherhood, and collective hope, bathed in warm sunset glow, authentic vintage documentary realism, no text."
     },
     {
-      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 authentic 35mm documentary photograph, twilight. The life-sized bronze commemorative statue of Rebeca Mendez Jimenez standing at the edge of the wooden pier of San Blas, facing the vast calm Pacific Ocean at dusk. Deep indigo and amber sunset sky, warm lantern light reflecting softly on the bronze and wet wooden planks, distant ocean horizon, cinematic contemplation, quiet solemnity, no text."
+      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-09.png",
+      "prompt": "Vertical 9:16 monumental contemplative landscape photograph, twilight. A transcendent panoramic sunset where the mighty mountains meet the vast Pacific and Atlantic oceans, the sky painted in radiant layers of amber, violet, and gold. Gentle calm waves, infinite distant horizon, poetic stillness, spiritual grandeur, honoring a land of eternal light, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino.",
+      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1990s. The rustic wooden dock and pier of San Blas in Nayarit, Mexico, shrouded in coastal morning sea mist. Weathered timber planks encrusted with salt, gentle Pacific waves breaking softly against the shore, small fishing dories bobbing in the distance, moody overcast sky, deep atmospheric nostalgia, authentic 1990s film grain, documentary realism, no text."
+      "prompt": "Vertical 9:16 majestic color landscape photography, 35mm film grain. Golden morning sunlight breaking over an untouched tropical coastal shoreline in the Americas, crystalline ocean waves lapping softly on pristine golden sand, sea mist rising in the dawn, wild palm trees swaying gently, radiant atmosphere of a new world awakening, natural light, no text."
     },
     {
       "id": 2,
-      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara.",
+      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 vintage 1971 color photograph, 35mm film grain. A young Mexican woman in her late 20s, slender, with natural dark wavy hair gathered gently, wearing a simple modest white cotton dress from 1971. She stands at the edge of the rustic wooden pier of San Blas, one hand raised waving a sorrowful farewell to an old wooden fishing boat sailing into dark ocean storm clouds on the horizon. Somber, deeply emotional atmosphere, authentic 1970s color palette, natural soft ocean light, no text."
+      "prompt": "Vertical 9:16 awe-inspiring 35mm documentary nature photograph. The towering snow-covered peaks of the Andes mountain range at twilight, under an immaculate deep indigo sky filled with millions of bright stars. Crystal clear mountain air, rugged glaciers glowing softly under starlight, pure primordial silence, majestic scale, vintage film grain, no text."
     },
     {
       "id": 3,
-      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco.",
+      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 authentic 35mm film photograph, late 1970s. A Mexican woman in her 30s with natural dark wavy hair, sitting quietly on the wet weathered wooden planks of the San Blas pier under heavy tropical rain, looking out toward the endless grey sea. Her simple white dress is damp from the ocean spray and rain, her expression still, melancholic and deeply devoted, holding on to a silent promise. Authentic 1970s grain, cinematic mood, no text."
+      "prompt": "Vertical 9:16 breathtaking aerial cinematic photograph. The winding, serpentine curves of the mighty Amazon River flowing through an endless sea of emerald green rainforest canopy at sunrise. Golden morning mist drifting over the water and treetops, birds soaring in the distance, vibrant primeval nature, rich textured 1970s film aesthetic, no text."
     },
     {
       "id": 4,
-      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente.",
+      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 vintage 1980s color photograph, 35mm film grain. A Mexican woman in her early 40s, same distinctive facial structure and solemn dark eyes, hair with silver strands. She is sitting in a sunlit modest seaside room, gently holding a small vintage photograph close to her chest. She gazes out an open wooden window towards the distant Pacific Ocean with tender grief and quiet resilience. Intimate, profoundly moving emotional atmosphere, warm nostalgic tones, authentic film grain, no text."
+      "prompt": "Vertical 9:16 intimate documentary portrait photograph, 1970s. A proud indigenous Andean farmer and a young woman in traditional colorful woven textiles, gently kneeling in a terraced fertile green mountain field, holding rich dark earth and freshly harvested golden maize. Serene dignified smiles, weathered hands, warm natural sunlight, authentic ethnographic respect, 35mm grain, no text."
     },
     {
       "id": 5,
-      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo.",
+      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 documentary color photograph, early 1990s, 35mm film grain. On the wooden pier of San Blas, a kind elderly Mexican fisherman with a sun-weathered face and cap gently hands a ceramic mug of hot coffee to a 50-year-old Mexican woman with silver-streaked wavy hair, wearing a white coastal dress and light shawl. A moment of deep human warmth, empathy and community affection by the misty ocean shore. Natural daylight, authentic candid realism, no text."
+      "prompt": "Vertical 9:16 dynamic action landscape photograph, 35mm film grain. A herd of spirited wild horses galloping freely across the vast, golden grasslands of the South American Pampas under a dramatic open sky. Wind blowing through their manes, dust kicked up in the late afternoon sun, absolute sense of boundless freedom and untamed wilderness, cinematic framing, no text."
     },
     {
       "id": 6,
-      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa.",
+      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1997. A Mexican woman in her mid-50s with silvery grey curly hair, seated calmly on the weathered wooden dock of San Blas by the ocean. Before her is a rustic woven basket filled with handmade seashell necklaces and small traditional Mexican sweets. Her sunlit, serene face holds a gentle, peaceful smile; her weathered hands rest over a string of seashells. Dressed in her characteristic simple white cotton dress. Natural Pacific coastal light, warm 1990s film texture, no text."
+      "prompt": "Vertical 9:16 vibrant cultural documentary photograph, 1970s. A charming colonial stone plaza in Latin America, colorful painted facades with wrought iron balconies overflowing with bougainvillea. Local people of diverse backgrounds greeting each other warmly on cobblestone streets, children running joyfully, lively warm communal spirit, sun-drenched nostalgic 35mm film texture, no text."
     },
     {
       "id": 7,
-      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada.",
+      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, May 1997. On the wooden dock of San Blas by the sea, Fher Olvera (lead singer of Maná in 1997, thin build, long dark curly rock hair, wearing a loose unbuttoned casual cotton shirt and faded jeans) sits attentively on the edge of the dock conversing with the Mexican woman in her white dress with her basket of seashells. Fher is listening to her with deep respect and emotional awe. Late afternoon warm golden sun reflecting on the Pacific Ocean, documentary candid intimacy, authentic 1997 film grain, no text."
+      "prompt": "Vertical 9:16 touching candid documentary photograph. A group of Latin American children sitting together on a grassy riverbank at sunset, smiling with pure joy and wonder as they look toward the horizon. Warm golden backlight catching their dark curls, hopeful bright eyes full of innocence and future, gentle river water reflecting the evening sky, cinematic warmth, no text."
     },
     {
       "id": 8,
-      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal.",
+      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, 1997. Mexican singer Fher Olvera in 1997, in his late 30s with long curly dark hair, sitting in a rustic beachside room with open wooden shutters overlooking the night sea. He is holding a wooden acoustic guitar, focused in quiet inspiration, with an open paper notebook and pen resting on a small wooden table beside a vintage warm lamp. Intimate musical creation moment, authentic 1990s recording session mood, warm grain, no text."
+      "prompt": "Vertical 9:16 inspiring human gathering photograph, 1970s. A diverse group of young men and women from across the Americas standing together atop a scenic mountain overlook, arms over shoulders, looking out over a vast continent of valleys and oceans. Smiles of unity, brotherhood, and collective hope, bathed in warm sunset glow, authentic vintage documentary realism, no text."
     },
     {
       "id": 9,
-      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte.",
+      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 authentic 35mm documentary photograph, twilight. The life-sized bronze commemorative statue of Rebeca Mendez Jimenez standing at the edge of the wooden pier of San Blas, facing the vast calm Pacific Ocean at dusk. Deep indigo and amber sunset sky, warm lantern light reflecting softly on the bronze and wet wooden planks, distant ocean horizon, cinematic contemplation, quiet solemnity, no text."
+      "prompt": "Vertical 9:16 monumental contemplative landscape photograph, twilight. A transcendent panoramic sunset where the mighty mountains meet the vast Pacific and Atlantic oceans, the sky painted in radiant layers of amber, violet, and gold. Gentle calm waves, infinite distant horizon, poetic stillness, spiritual grandeur, honoring a land of eternal light, no text."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino."
+      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara."
+      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco."
+      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente."
+      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo."
+      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa."
+      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada."
+      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal."
+      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
+      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
     }
   ],
   "subtitles": [
     {
       "start": 0,
       "end": 10,
-      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino."
+      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara."
+      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco."
+      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente."
+      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo."
+      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa."
+      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada."
+      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal."
+      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
+      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
     }
   ],
   "publication": {
-    "description": "El pueblo entero la llamaba «la loca del muelle», pero su traje blanco guardaba una de las heridas más conmovedoras de la música en español.\n\nEn mayo de 1997, Fher Olvera caminaba por el muelle de madera de San Blas, Nayarit, cuando vio a una mujer de cabello plateado vendiendo dulces y figuras de conchas marinas. Llevaba décadas allí, vestida de blanco y mirando con paciencia infinita hacia las olas del Pacífico. La leyenda local decía que esperaba a un pescador que una tormenta jamás devolvió, pero la verdad documentada de Rebeca Méndez Jiménez guardaba un dolor aún más profundo: el desgarro de haber perdido la custodia de sus hijos y una mente quebrada por la soledad que eligió el océano como su único refugio de paz.\n\nFher se sentó a su lado, conversó con ella durante horas y esa misma noche, conmovido hasta las lágrimas por la dignidad de sus ojos, compuso los primeros acordes de «En el muelle de San Blas». Aquella mujer olvidada por el mundo encontró en la voz de Maná una promesa inmortal que hoy resuena en cada rincón del continente.\n\n¿Qué sientes cada vez que suena el arpegio de «En el muelle de San Blas» y a quién recuerdas al escucharla? Te leemos en comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #Mana #FherOlvera #EnElMuelleDeSanBlas #RockEnEspanol #SuenosLiquidos #HistoriasReales #RockLatino",
-    "tiktokDescription": "El pueblo la llamaba «la loca del muelle», pero su vestido blanco guardaba una historia de amor y dolor real que conmovió a Maná. 🌊🎸✨\n\n#AcordesOcultos #Mana #EnElMuelleDeSanBlas #RockEnEspanol #HistoriasReales #AprendeEnTikTok"
+    "description": "«Cuando Dios hizo la armonía entre el cielo y el mar, creó un mundo del nuevo sol...»\n\nEn 1973, poco antes de partir de este mundo, Nino Bravo dejó grabada la alabanza más colosal que jamás se haya cantado al continente americano. Una voz monumental que no le cantaba al poder ni a las fronteras, sino al asombro primitivo de una tierra bendecida: desde las nieves perpetuas de los Andes hasta el misterio esmeralda de la Amazonía y el rumor dorado de sus costas.\n\n«América, América» es la celebración de un jardín inmenso donde el río es hablador, el monte se hace selva y los pueblos aprendieron a renacer de cada herida con la frente en alto. Un homenaje lírico a la tierra que acogió a millones de soñadores con el abrazo de la libertad.\n\n¿Qué rincón de nuestra América hace latir más fuerte tu corazón cada vez que escuchas este himno? Te leemos en comentarios.\n\nLa narración completa y los paisajes están en nuestra crónica en el perfil.\n\n#HistoriaEnLosAcordes #NinoBravo #AmericaAmerica #MusicaEspanola #Latinoamerica #GrandesCanciones #BaladasDeOro #OrgulloLatino",
+    "tiktokDescription": "«América, América»: el himno inmortal de Nino Bravo que exalta el alma y la libertad de nuestro continente. 🌄🦅✨\n\n#HistoriaEnLosAcordes #NinoBravo #AmericaAmerica #OrgulloLatino #MusicaParaElAlma #AprendeEnTikTok"
   }
 }
