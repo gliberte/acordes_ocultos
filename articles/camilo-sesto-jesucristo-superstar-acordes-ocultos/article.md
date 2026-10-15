@@ -1,12 +1,29 @@
+---
+title: "El Desafío de Jesucristo Superstar: Cuando Camilo Sesto Desafió a una Dictadura"
+description: "Cómo el ídolo del pop hispano arriesgó toda su fortuna personal, soportó amenazas de bomba y piquetes de ultraderecha, y desató con «Getsemaní» el mayor do sobreagudo de la historia del teatro español."
+slug: "camilo-sesto-jesucristo-superstar-acordes-ocultos"
+artist: "Camilo Sesto"
+song: "Getsemaní (Jesucristo Superstar)"
+year: 1975
+genre: "Ópera Rock / Balada Dramática"
+author: "Acordes Ocultos"
+date: "2026-10-01"
+category: "Acordes Ocultos"
+coverImage: "images/cover_acordes_ocultos.webp"
+readingTime: "9 min"
+---
+
 # ✝️ El Desafío de Jesucristo Superstar: Cuando Camilo Sesto Desafió a una Dictadura
+
 ### *Cómo el ídolo del pop hispano arriesgó toda su fortuna personal, soportó amenazas de bomba y piquetes de ultraderecha, y desató con «Getsemaní» el mayor do sobreagudo de la historia del teatro español.*
 
 ---
 
 **Por la redacción de Acordes Ocultos**  
-*Tiempo de lectura estimado: 8 minutos*
+*Tiempo de lectura estimado: 9 minutos*
 
-![Portada Oficial - Camilo Sesto en Jesucristo Superstar](images/cover_acordes_ocultos.png)
+![Portada Oficial - Camilo Sesto en Jesucristo Superstar](images/cover_acordes_ocultos.webp)
+*Madrid, 1975: Camilo Sesto en la piel de Jesús de Nazaret, la producción más arriesgada de su carrera.*
 
 ---
 
@@ -20,7 +37,7 @@ Durante una escapada privada a Londres, Camilo asistió al Palace Theatre en el 
 
 Al descender el telón, Camilo tomó una decisión que sus apoderados calificaron de suicidio profesional: **iba a traer la ópera rock a Madrid y se pondría en la piel de Jesús**.
 
-![Londres 1974: Camilo Sesto en el West End](images/camilo_londres_1974.png)
+![Londres 1974: Camilo Sesto en el West End](images/camilo_londres_1974.webp)
 *Londres, 1974: Camilo Sesto en las butacas del West End, maravillado por la fuerza vanguardista de la ópera rock británica.*
 
 ---
@@ -36,7 +53,7 @@ Ningún inversor puso una sola peseta. Fue en ese momento cuando el ídolo pop d
 
 Se convirtió en productor, director musical en la sombra y traductor del libreto junto a su equipo. No buscaba enriquecerse; buscaba sacudir la conciencia cultural de un país que se asfixiaba.
 
-![Madrid 1975: La soledad de la firma](images/camilo_despacho_1975.png)
+![Madrid 1975: La soledad de la firma](images/camilo_despacho_1975.webp)
 *Madrid, 1975: Camilo Sesto en el despacho donde arriesgó su patrimonio personal ante la negativa del empresariado teatral.*
 
 ---
@@ -51,10 +68,10 @@ Dentro del teatro, sin embargo, el ambiente era un hervidero de creatividad y ca
 
 Los ensayos eran maratonianos. Camilo cuidaba cada inflexión vocal, cada acorde de sintetizador Moog y cada foco de luz. Estaba decidido a ofrecer una producción con el mismo estándar técnico que en Nueva York o Londres.
 
-![Ensayos en el Alcalá-Palace: Camilo Sesto, Ángela Carrasco y Teddy Bautista](images/ensayos_angela_camilo_1975.png)
+![Ensayos en el Alcalá-Palace: Camilo Sesto, Ángela Carrasco y Teddy Bautista](images/ensayos_angela_camilo_1975.webp)
 *Octubre de 1975: Camilo Sesto junto a una joven Ángela Carrasco y Teddy Bautista ensayando las partituras al piano entre bambalinas.*
 
-![Tensión en la Calle Alcalá 1975](images/protestas_alcala_1975.png)
+![Tensión en la Calle Alcalá 1975](images/protestas_alcala_1975.webp)
 *Calle Alcalá, otoño de 1975: Piquetes ultraconservadores intentando frenar el estreno frente a los furgones policiales.*
 
 ---
@@ -71,7 +88,7 @@ La interpretación fue de una intensidad aterradora. Su voz pasó del susurro í
 
 De pronto, el Alcalá-Palace estalló en un rugido unánime. Los espectadores saltaron de sus butacas, llorando y aplaudiendo a rabiar en una ovación que superó los quince minutos.
 
-![Camilo Sesto cantando Getsemaní](images/camilo_getsemani_1975.png)
+![Camilo Sesto cantando Getsemaní](images/camilo_getsemani_1975.webp)
 *6 de noviembre de 1975: Camilo Sesto de rodillas en el escenario del Alcalá-Palace clavando el do sobreagudo de «Getsemaní».*
 
 ---
@@ -85,7 +102,7 @@ El compositor británico, célebre por su severidad crítica y celoso custodio d
 
 La obra se mantuvo en cartelera durante meses con lleno diario, atrayendo a más de 300.000 espectadores y abriendo de par en par las compuertas de la modernidad escénica en España.
 
-![Andrew Lloyd Webber aplaudiendo en el Alcalá-Palace](images/lloyd_webber_aplausos_1975.png)
+![Andrew Lloyd Webber aplaudiendo en el Alcalá-Palace](images/lloyd_webber_aplausos_1975.webp)
 *Noviembre de 1975: Andrew Lloyd Webber en pie aplaudiendo la producción de Camilo Sesto en Madrid.*
 
 ---

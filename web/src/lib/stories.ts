@@ -495,7 +495,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'la-pregunta-que-hizo-temblar-a-un-corazon': 'jose-luis-perales-dime-historia-en-los-acordes',
           'dime': 'jose-luis-perales-dime-historia-en-los-acordes',
           'joseluisperalesdime': 'jose-luis-perales-dime-historia-en-los-acordes',
-          'joseluisperalesdimehistoriaenlosacordes': 'jose-luis-perales-dime-historia-en-los-acordes'
+          'joseluisperalesdimehistoriaenlosacordes': 'jose-luis-perales-dime-historia-en-los-acordes',
+          'elexitoquedestruyoalabanda': 'berlin-take-my-breath-away-acordes-ocultos',
+          'el-exito-que-destruyo-a-la-banda': 'berlin-take-my-breath-away-acordes-ocultos',
+          'takemybreathaway': 'berlin-take-my-breath-away-acordes-ocultos',
+          'berlintakemybreathaway': 'berlin-take-my-breath-away-acordes-ocultos',
+          'berlin-take-my-breath-away': 'berlin-take-my-breath-away-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
