@@ -1,118 +1,126 @@
-# ⛵ El Llanto que Paralizó a un País: La Tragedia Real de «Marinero de Luces»
-### *Cómo la muerte televisada de Paquirri en Pozoblanco vistió de luto a España, el encierro de Isabel Pantoja en Cantora y el réquiem sanador de José Luis Perales que convirtió la sangre del ruedo en un velero hacia la eternidad.*
+---
+title: "El Llanto que Paralizó a un País: La Tragedia Real de 'Marinero de Luces'"
+subtitle: "Cómo la muerte televisada de Paquirri en Pozoblanco vistió de luto a España, el encierro de Isabel Pantoja en Cantora y el réquiem sanador de José Luis Perales que convirtió la sangre del ruedo en un velero hacia la eternidad"
+author: "Acordes Ocultos"
+date: "2026-09-21"
+category: "acordes-ocultos"
+cover_image: "images/cover_acordes_ocultos.webp"
+---
+
+![Portada Oficial - Marinero de Luces](images/cover_acordes_ocultos.webp)
+*Isabel Pantoja: El regreso desde el luto más profundo con la obra maestra que conmovió a España.*
+
+### Prólogo: La calima de Pozoblanco y la serenidad en la camilla
+
+La tarde del 26 de septiembre de 1984, la localidad cordobesa de **Pozoblanco** se asfixiaba bajo un sol plomizo de final de verano. Era el festejo de clausura de la feria de Nuestra Señora de las Mercedes. En los carteles figuraban dos jóvenes espadas, Vicente Ruiz «El Soro» y José Cubero «El Yiyo», junto a la máxima figura indiscutida del toreo de la época: **Francisco Rivera «Paquirri»**, con treinta y seis años y en el punto más alto de su madurez física y profesional.
+
+Nadie sospechaba la tragedia. Saltó a la arena el cuarto toro de la corrida, llamado **«Avispado»**, cárdeno, marcado con el número 22 de la ganadería de Sayalero y Bandrés. Durante un quite con el capote ceñido a las tablas del tendido uno, el animal derrotó con violencia y prendió al matador por el muslo derecho. Avispado no soltó la presa de inmediato: suspendió el cuerpo en vilo de la taleguilla durante varios segundos atroces que paralizaron la respiración de la plaza.
+
+Cuando sus hombres lograron zafarlo de las astas y llevarlo en volandas hasta la enfermería, la seda y el oro del traje de torear manaban una hemorragia imparable. El corresponsal de TVE en Córdoba, Antonio Salmoral, encendió su cámara y registró una escena que quedaría grabada para siempre en la retina de millones de españoles. Tendido sobre una modesta camilla de hule, lívido pero con una mirada de desconcertante serenidad, Paquirri clavó sus ojos en el cirujano de la plaza, el doctor **Eliseo Morán**, y pronunció una advertencia de escalofriante lucidez:
+
+> *«Doctor, yo quiero hablar con usted o no me voy a quedar tranquilo. La cornada es fuerte. Tiene al menos dos trayectorias: una para acá y otra para allá. Abra todo lo que tenga que abrir, lo demás está en sus manos. Y tranquilo, doctor»*.
+
+![Pozoblanco 1984: La cornada fatal de Avispado](images/pozoblanco_avispado_1984.webp)
+*Pozoblanco, 26 de septiembre de 1984: La angustia en el callejón de la plaza tras el derrote fatal de Avispado en el muslo de Paquirri.*
+
+El pitón de Avispado había reventado la vena safena y la arteria femoral. En una enfermería rural sin banco de transfusión ni instrumental para cirugía vascular mayor, los facultativos taponaron la herida como pudieron para intentar ganar tiempo. Se dispuso una evacuación desesperada en una ambulancia Seat 131, sin equipamiento de cuidados intensivos, rumbo al **Hospital Militar de Córdoba**. Durante el sinuoso trayecto por la carretera comarcal y al coronar las curvas de **Cerro Muriano**, el cuerpo de Paquirri no resistió la pérdida masiva de sangre y entró en shock hipovolémico. Cuando el vehículo frenó ante las puertas del hospital militar a las 21:40 horas, el cirujano de guardia, el doctor Villarta, solo pudo certificar que el torero había ingresado cadáver.
 
 ---
 
-**Por la redacción de Acordes Ocultos**  
-*Tiempo de lectura estimado: 8 minutos*
+### Acto I: La boda del siglo y el sueño que duró diecisiete meses
 
-![Portada Oficial - Marinero de Luces](images/cover_acordes_ocultos.png)
+![Sevilla 1983: La boda del siglo](images/pantoja_boda_1983.webp)
+*Sevilla, 30 de abril de 1983: Isabel Pantoja y Francisco Rivera «Paquirri» en la Basílica del Gran Poder durante la llamada «boda del siglo».*
 
----
+Para dimensionar la conmoción que estremeció a España aquella noche, es preciso rebobinar apenas año y medio en el almanaque. El **30 de abril de 1983**, Sevilla se echó a la calle para celebrar lo que la prensa bautizó unánimemente como «la boda del siglo». En el altar mayor de la Basílica de Jesús del Gran Poder se entrelazaban los dos grandes mitos de la cultura popular andaluza: el matador de toros más idolatrado y la joven tonadillera llamada a heredar el trono de la copla tras la estela de Juanita Reina, **Isabel Pantoja**.
 
-### Prólogo: La calima de Pozoblanco y la serenidad en la enfermería
+Aquel enlace encarnaba el triunfo del esfuerzo y la autenticidad. Isabel, nacida en la calle Juan Díaz de Solís del barrio obrero del Tardón en Triana, había cantado desde los siete años en tablaos de Palma de Mallorca y Madrid para sostener a su familia tras la prematura pérdida de su padre, el cantaor Juan Pantoja «Chiquetete». Paquirri, hijo de un mayoral de Zahara de los Atunes, representaba la nobleza serena del héroe del campo bravo.
 
-La tarde del 26 de septiembre de 1984, la localidad cordobesa de **Pozoblanco** ardía bajo un sol plomizo de final de verano. Era el cierre de feria. En los carteles figuraban Vicente Ruiz «El Soro», José Cubero «Yiyo» y la máxima figura del toreo de la época: **Francisco Rivera «Paquirri»**, con treinta y seis años recién cumplidos y en el cenit de su poderío físico y profesional.
-
-Nadie presagiaba el horror. Saltó al ruedo el cuarto toro de la tarde, llamado **«Avispado»**, cárdeno, de la ganadería de Sayalero y Bandrés. Durante un quite con el capote pegado a las tablas del tendido uno, el astado derrotó con violencia y prendió al matador por el muslo derecho. El toro no lo soltó de inmediato: lo zarandeó en el aire suspendido de la taleguilla durante varios segundos angustiosos que parecieron una eternidad.
-
-Cuando sus cuadrillas lograron arrancar el cuerpo de los pitones y lo trasladaron a la enfermería de la plaza, el pantalón de seda y oro manaba una hemorragia torrencial. Las cámaras de televisión grabaron una escena que heló el corazón de millones de españoles. Tendido sobre una modesta camilla de hule, pálido pero con los ojos abiertos de par en par, Paquirri miró al médico cirujano de la plaza, el doctor **Eliseo Morán**, y pronunció unas palabras que pasaron a la historia del toreo por su escalofriante temple:
-
-> *«Doctor, yo quiero hablar con usted o no me voy a quedar tranquilo. La herida es fuerte. Tiene al menos dos trayectorias: una para allá y otra para acá. Abran todo lo que tengan que abrir, y lo demás está en sus manos. Y calma, doctor, mucha calma»*.
-
-![Pozoblanco 1984: La cornada fatal de Avispado](images/pozoblanco_avispado_1984.png)
-*Pozoblanco, 26 de septiembre de 1984: La arena ensangrentada del ruedo cordobés donde el toro Avispado segó la vida del torero más célebre de la época.*
-
-El asta de Avispado había destrozado la vena safena y la arteria femoral. En una enfermería de pueblo carente de banco de sangre e instrumental para cirugía vascular compleja, los médicos taponaron la hemorragia a la desesperada. En la ambulancia que lo trasladaba a Córdoba, a la altura del término municipal de Villaharta, el torero entró en parada cardiorrespiratoria irreversible. Paquirri murió desangrado antes de llegar al hospital.
+En febrero de 1984 nació su único hijo en común, Francisco José («Kiko»). La vida sonreía a la pareja con una plenitud luminosa. Sin embargo, apenas siete meses después del bautizo del niño, una llamada telefónica desde el hospital de Córdoba quebró de cuajo la existencia de la cantante. Con apenas veintiocho años, Isabel Pantoja se convertía en una viuda desolada frente a un país que no daba crédito a la desgracia.
 
 ---
 
-### Acto I: La boda del siglo y el sueño truncado (1983)
+### Acto II: El silencio sepulcral de Cantora y «La Viuda de España»
 
-Para entender la onda expansiva que sacudió a España aquella tarde, es necesario retroceder diecisiete meses en el tiempo. El **30 de abril de 1983**, Sevilla fue el epicentro de la llamada «boda del siglo». Ante el altar de la Basílica del Gran Poder, unían sus destinos las dos grandes pasiones populares de la tradición andaluza: el matador de toros más carismático y la joven tonadillera llamada a heredar el trono de la copla, **Isabel Pantoja**.
+![El encierro de Cantora 1984](images/pantoja_luto_cantora_1984.webp)
+*Cantora en penumbra: Catorce meses de clausura, silencio sepulcral y luto riguroso que convirtieron a la tonadillera en «La Viuda de España».*
 
-![Sevilla 1983: La boda del siglo](images/pantoja_boda_1983.png)
-*Sevilla, 30 de abril de 1983: Isabel Pantoja y Paquirri en su enlace nupcial, la unión cumbre de la tonadilla y la tauromaquia que cautivó al país.*
+El entierro en el Cementerio de San Fernando de Sevilla desbordó cualquier previsión: una multitud sobrecogida arropó el coche fúnebre mientras Isabel, sostenida apenas en pie tras un velo de luto riguroso y unas gafas oscuras, parecía consumida por la pena.
 
-Aquel romance representaba el triunfo del amor joven y fulgurante. Isabel, criada en el barrio sevillano del Tardón e hija de un cantaor humilde, había trabajado desde niña en los tablaos. Paquirri, divorciado de Carmina Ordóñez, personificaba la estampa del héroe clásico andaluz: noble, valiente y generoso.
+Cumplidas las exequias, la tonadillera tomó una determinación tajante: canceló todos sus contratos artísticos, despidió compromisos y se recluyó tras los portones de **Cantora**, la inmensa finca ganadera de Medina Sidonia que su esposo había levantado con el sudor de los ruedos y que ambos proyectaron como su hogar definitivo.
 
-En febrero de 1984 nació su único hijo en común, Francisco José (conocido popularmente como «Kiko»). La felicidad de la pareja parecía inexpugnable. Apenas siete meses después del nacimiento del niño, la llamada telefónica desde Córdoba partió en dos la existencia de Isabel Pantoja. Tenía veintiocho años y su mundo se había derrumbado para siempre.
-
----
-
-### Acto II: El silencio sepulcral de Cantora y la viuda de España (1984–1985)
-
-El entierro de Paquirri en el cementerio de San Fernando de Sevilla fue una marea humana desbordada de dolor popular. Detrás del féretro, oculta bajo unas gafas oscuras y un velo de luto impenetrable, Isabel apenas podía sostenerse en pie.
-
-Tras las exequias, la cantante tomó una decisión radical: canceló todos sus contratos discográficos, clausuró sus apariciones públicas y se recluyó tras los muros encalados de **Cantora**, la inmensa finca ganadera gaditana que su marido había comprado y que ambos habían soñado como su paraíso familiar.
-
-![El encierro de Cantora 1984](images/pantoja_luto_cantora_1984.png)
-*Cantora, finales de 1984: Isabel Pantoja sumida en el luto riguroso y la reclusión absoluta, negándose a pisar un escenario tras la muerte de su esposo.*
-
-Durante catorce meses ininterrumpidos, Cantora se convirtió en un convento laico. Isabel vistió rigurosamente de negro azabache, sin joyas ni maquillaje, encerrada en la penumbra del cortijo y dedicada exclusivamente a criar a su hijo huérfano. La prensa bautizó a la artista como **«La Viuda de España»**. Los periódicos especulaban sobre su salud mental; los promotores musicales intentaban contactarla sin éxito. Su respuesta era siempre la misma: *«No volveré a cantar jamás. La voz se me murió con Paco»*.
+Durante catorce meses ininterrumpidos, Cantora permaneció en penumbra. Isabel vistió estrictamente de negro, renunció al maquillaje, a las joyas y a la música, volcada únicamente en el cuidado de su pequeño huérfano. Los medios de comunicación la bautizaron con un apelativo que condensaba el dolor colectivo: **«La Viuda de España»**. Circulaban rumores de todo tipo sobre su estado anímico, mientras empresarios y discográficas intentaban en vano una entrevista. Su respuesta no admitía dudas: *«No volveré a cantar jamás. La voz se me murió en Pozoblanco con Paco»*.
 
 ---
 
-### Acto III: El orfebre secreto y la metáfora del mar (1985)
+### Acto III: El orfebre secreto y la metáfora del mar
 
-A comienzos de 1985, los directivos de la discográfica RCA/Ariola sabían que solo existía un hombre en España capaz de tender un puente entre la oscuridad de Isabel y la música: **José Luis Perales**.
+![José Luis Perales componiendo al piano en 1985](images/perales_composicion_1985.webp)
+*Madrid, 1985: José Luis Perales transformando el ruedo sangriento en metáfora marina frente a su piano para proteger el dolor de la viuda.*
 
-El cantautor conquense era el compositor melódico más respetado del momento, célebre por su delicadeza poética y su capacidad para desnudar las emociones humanas sin caer jamás en la vulgaridad ni el sensacionalismo. Cuando le propusieron el encargo de escribir el disco del regreso de Pantoja, Perales sintió un pánico inicial:
+A comienzos de 1985, en las oficinas de RCA/Ariola se gestaba una certeza: si existía un creador capaz de convencer a Isabel de romper su silencio sin traicionar su duelo, ese era **José Luis Perales**.
 
-> *«Pensé que era una responsabilidad tremenda. Toda España estaba pendiente de aquel dolor. Yo no quería hacer un disco morboso. Si mencionaba la arena, los toros, las cornadas o la sangre, habría sido una profanación del duelo»*.
+El cantautor de Castejón no era un fabricante de canciones comerciales al uso; era un poeta de las pequeñas cosas, dotado de un pudor innato y un respeto reverencial por los sentimientos ajenos. Cuando los directivos le plantearon el reto de componer el álbum de regreso de Pantoja, sintió un vértigo insondable:
 
-Perales se encerró en el ático de su casa en Madrid frente al piano. Allí tomó una decisión creativa genial: **trasladar la tragedia al mar**.
+> *«Me pareció una responsabilidad desmedida. Toda España tenía la mirada puesta en aquella mujer. Yo tenía claro que jamás escribiría una línea morbosa. Si en las letras metía toros, plazas, sangre o cornadas, aquello habría sido una profanación obscena del dolor»*.
 
-![José Luis Perales componiendo al piano en 1985](images/perales_composicion_1985.png)
-*Madrid, 1985: José Luis Perales al piano, componiendo en secreto el réquiem poético que salvaría a Isabel Pantoja del abismo emocional.*
+Perales se sentó frente a su piano en su casa de Madrid y concibió una solución de refinada orfebrería poética: **mudar la tragedia del ruedo a la inmensidad del mar**.
 
-El «traje de luces» del torero se transformó poéticamente en un **«marinero de luces»**. El albero de la plaza pasó a ser la orilla (*«con alma de fuego y espalda de arena»*). La partida mortal no se nombró como una cornada sangrienta, sino como un viaje en la distancia: *«ese barco velero, cargado de sueños, cruzó la bahía...»*. Las metáforas marinas funcionaban como un escudo protector: le permitían a Isabel gritar su llanto a los cuatro vientos sin tener que nombrar la herida de Pozoblanco.
+El «traje de luces» del torero se transformó líricamente en un **«marinero de luces»**. El albero de la plaza pasó a ser la orilla solitaria (*«con alma de fuego y espalda de arena»*). La partida fatal no fue una cornada desgarradora, sino un viaje sin retorno hacia el horizonte: *«ese barco velero, cargado de sueños, cruzó la bahía...»*. Las metáforas marinas obraron el milagro: le ofrecían a Isabel un manto de protección poética que le permitía desahogar su llanto desgarrado sin tener que pronunciar el horror de Pozoblanco.
 
-Con una maqueta grabada a guitarra y voz, Perales viajó a Cantora. En la soledad del salón de la finca, tomó su guitarra española y le cantó *«Marinero de Luces»* mirándola a los ojos. Isabel rompió a llorar desconsoladamente durante más de una hora. Cuando secó sus lágrimas, alzó la mirada y susurró: *«José Luis, estas canciones son mi propia alma. Las voy a cantar»*.
-
----
-
-### Acto IV: La noche del Lope de Vega y el llanto ante la Reina (5 de diciembre de 1985)
-
-La noche del **5 de diciembre de 1985**, la Gran Vía madrileña quedó paralizada. En el **Teatro Lope de Vega**, no cabía un alfiler. En el palco de honor se encontraba la **Reina Doña Sofía**, acompañada por las principales personalidades de la cultura, la política y la sociedad española. Televisión Española transmitía en directo para millones de hogares que contenían la respiración.
-
-Se apagaron las luces de la sala. Tras catorce meses de mutismo, se descorrió el telón de terciopelo granate. Sobre el proscenio apareció la silueta solitaria de Isabel Pantoja: bata de cola de terciopelo negro azabache, peineta oscura y el cabello recogido con sobria elegancia.
-
-![Teatro Lope de Vega 1985: La silueta enlutada](images/lope_de_vega_bata_cola_1985.png)
-*Madrid, 5 de diciembre de 1985: La silueta de espaldas de Isabel Pantoja antes de salir al escenario del Lope de Vega frente a la Reina Sofía.*
-
-Cuando la orquesta dirigida por el maestro Rafael Ferro inició los compases de *«Marinero de Luces»*, un silencio sobrecogedor se apoderó del teatro. Isabel tomó el micrófono con manos temblorosas. Al pronunciar los versos:
-
-> *«Ese barco velero, cargado de sueños, cruzó la bahía*  
-> *Me dejó aquella tarde agitando el pañuelo*  
-> *Sentada en la orilla...»*
-
-La cantante no pudo contener el dique del dolor. Grandes lágrimas negras de rímel surcaron sus mejillas ante las cámaras. Su voz se quebró por momentos, transformando la balada en un desgarro visceral, casi telúrico, que trascendió la música popular. La Reina Sofía, conmovida en el palco, aplaudió con los ojos humedecidos. El teatro entero se puso en pie en una ovación interminable de más de diez minutos que fue secundada por el llanto de un país entero frente al televisor.
-
-![La catarsis en el escenario del Lope de Vega](images/lope_de_vega_catarsis_1985.png)
-*5 de diciembre de 1985: El llanto desgarrador de Isabel Pantoja cantando «Marinero de Luces», la mayor catarsis colectiva en la historia de la televisión española.*
-
-Aquella noche, el duelo privado de una viuda se convirtió en la catarsis colectiva de toda España. Isabel Pantoja no solo no había perdido la voz: había aprendido a cantar desde las cenizas.
+Con las diez canciones del disco grabadas en una simple cinta de casete con su voz y una guitarra de palo, Perales viajó hasta Cantora. En la intimidad del salón rústico, tomó la guitarra y le cantó los temas mirándola a los ojos. Isabel escuchó inmóvil y rompió en un llanto incontenible que duró casi una hora. Cuando logró serenarse, miró al compositor con los ojos enrojecidos y sentenció: *«José Luis, estas canciones no las has escrito tú; me las ha mandado Paco desde arriba. Las voy a cantar»*.
 
 ---
 
-### Epílogo: El velero que nunca volvió a puerto
+### Acto IV: La noche del Lope de Vega y el llanto ante la Reina
 
-El disco **«Marinero de Luces»** fue un fenómeno social sin precedentes en la industria discográfica española. Vendió **más de un millón de copias**, copó las listas de éxitos durante meses en toda América Latina y consagró a Isabel Pantoja como la mayor vendedora de discos del país.
+![Teatro Lope de Vega 1985: La silueta enlutada](images/lope_de_vega_bata_cola_1985.webp)
+*Teatro Lope de Vega, 5 de diciembre de 1985: La silueta solemne de Isabel Pantoja en bata de cola negra ante la mirada de la Reina Doña Sofía.*
 
-Canciones como *«Hoy quiero confesarme»*, *«Era mi vida él»* y *«Pensando en ti»* completaron una obra redonda donde cada surco respiraba la ausencia del hombre amado. Pero ninguna alcanzó la dimensión mítica de *«Marinero de Luces»*.
+La noche del **5 de diciembre de 1985**, Madrid se detuvo. En el **Teatro Lope de Vega** de la Gran Vía no quedaba una sola butaca libre. En el palco de honor tomaba asiento la **Reina Doña Sofía**, presidiendo una gala a beneficio de la Asociación Española contra el Cáncer. Televisión Española desplegó sus unidades móviles para retransmitir el acontecimiento en riguroso directo a todo el país.
 
-![El velero en alta mar](images/velero_alta_mar.png)
-*Alegoría poética del velero de luces que zarpó hacia el infinito, inmortalizado por los versos de José Luis Perales.*
+La orquesta, bajo la batuta del maestro Rafael Ferro —quien había pulido los arreglos entre Madrid y Milán—, dio entrada a los primeros acordes. Se descorrió el telón y apareció en el centro del escenario una figura sobrecogedora: Isabel Pantoja enfundada en una severa bata de cola de terciopelo negro azabache, peineta oscura y mantón del mismo tono. Ni una sola concesión al color.
 
-Las heridas del ruedo de Pozoblanco jamás cicatrizaron del todo en la memoria de los españoles. Sin embargo, gracias a la sensibilidad orfebre de José Luis Perales y a la valentía desgarrada de una mujer herida, la muerte de Paquirri no quedó sepultada en una camilla de hospital, sino suspendida en un océano eterno donde los barcos nunca naufragan del todo.
+Tomó el micrófono con pulso trémulo. Al desgranar las primeras estrofas de *«Marinero de Luces»*:
+
+> *«Ese barco velero, cargado de sueños, cruzó la bahía...*  
+> *Me dejó aquella tarde agitando el pañuelo,*  
+> *sentada en la orilla...»*
+
+La compostura escénica saltó en pedazos. Lágrimas de rímel negro comenzaron a descender por sus mejillas ante el primer plano de las cámaras. La voz de Isabel no impostaba el dolor: se quebraba en un lamento ancestral, visceral y genuino, que traspasó la pantalla para conmover a un país entero. 
+
+![La catarsis en el escenario del Lope de Vega](images/lope_de_vega_catarsis_1985.webp)
+*La mayor catarsis de la televisión española: Las lágrimas de rímel negro quebrando la voz en directo durante el estreno de «Marinero de Luces».*
+
+En el palco real, la Reina Doña Sofía aplaudía conmovida con los ojos húmedos. Al apagarse el último acorde, el teatro entero se puso en pie en una ovación atronadora de más de diez minutos. Aquella noche, el luto privado de una mujer se transformó en la mayor catarsis emocional de la historia de la música popular en España. Isabel Pantoja demostró que no había perdido la voz: la había rescatado del abismo para convertir su herida en arte inmortal.
+
+---
+
+### Epílogo: El velero que navega en la eternidad
+
+![El velero en alta mar](images/velero_alta_mar.webp)
+*Alegoría del velero que partió hacia el horizonte: La memoria viva de un amor inmortalizado en la luz inagotable del mar.*
+
+El lanzamiento discográfico de **«Marinero de Luces»** rompió todos los techos comerciales de la época. Despachó **más de un millón de copias** solo en España, encabezó durante meses las listas de ventas en toda América Latina y situó a Isabel Pantoja en la cima absoluta de la balada dramática en español.
+
+Obras maestras incluidas en el mismo álbum como *«Hoy quiero confesarme»*, *«Era mi vida él»* o la nana protectora *«Mi pequeño del alma»* completaron una producción irrepetible donde cada compás respiraba la memoria del ausente.
+
+Más de cuatro décadas después de aquella aciaga tarde en Pozoblanco, la imagen del velero adentrándose en el horizonte permanece como una de las cumbres líricas de nuestro cancionero. Gracias al pudor poético de José Luis Perales y a la entereza de una mujer que cantó con el corazón descalzo, la partida de Paquirri no quedó confinada al polvo sangriento del ruedo, sino anclada para siempre en la luz infinita del mar.
 
 ---
 
 ### 📚 Fuentes y Archivo Documental
 
-1. **Perales, José Luis** (2015–2020). Entrevistas testimoniales en RTVE (*«Lazos de Sangre»*) y declaraciones hemerográficas sobre la composición de *Marinero de Luces* y su encuentro con Isabel Pantoja en Cantora.
-2. **Archivo Histórico de Radio Televisión Española (RTVE)** (1984–1985). Registro audiovisual de la cornada de Pozoblanco (26 de septiembre de 1984) y grabación íntegra del recital benéfico en el Teatro Lope de Vega de Madrid ante la Reina Doña Sofía (5 de diciembre de 1985).
-3. **Dr. Eliseo Morán** (1984). *Parte médico oficial de la enfermería de la Plaza de Toros de Pozoblanco*, certificando la herida por asta de toro de Francisco Rivera «Paquirri» con rotura de vasos femorales.
-4. **Hemeroteca Diario ABC y El País** (Ediciones del 27–30 de septiembre de 1984 y 6 de diciembre de 1985). Cobertura del fallecimiento de Paquirri y crónica cultural de la reaparición musical de Isabel Pantoja.
-5. **RCA / Ariola Records** (1985). *Notas de producción y créditos discográficos del álbum «Marinero de Luces»*, arreglos de Rafael Ferro y letras de José Luis Perales.
+1. **Hemerografía y Prensa Histórica**:
+   - Archivo de *El País*: Ediciones del 27 al 30 de septiembre de 1984 («El torero Francisco Rivera 'Paquirri' muere desangrado tras una cornada en Pozoblanco») y del 6 de diciembre de 1985 («Isabel Pantoja reaparece en el Lope de Vega ante la Reina»).
+   - Hemeroteca del diario *ABC* (Madrid y Sevilla, septiembre de 1984 y diciembre de 1985: Crónicas taurinas y cobertura de la reaparición artística).
+
+2. **Registros Audiovisuales y Sanitarios**:
+   - Salmoral, Antonio (TVE, 1984): *Grabación documental en la enfermería de la Plaza de Toros de Pozoblanco* (Archivo de RTVE Play).
+   - Dr. Eliseo Morán (1984): *Parte facultativo de la enfermería de Pozoblanco sobre la herida por asta de toro de Francisco Rivera «Paquirri»*.
+   - Dr. Villarta (1984): *Certificación de defunción e ingreso de urgencias en el Hospital Militar de Córdoba*.
+   - Retransmisión íntegra de TVE: *Recital benéfico de Isabel Pantoja en el Teatro Lope de Vega de Madrid* (5 de diciembre de 1985).
+
+3. **Discografía y Testimonios de Autores**:
+   - Perales, José Luis: Declaraciones testimoniales en el programa *Lazos de Sangre: Isabel Pantoja* (RTVE, 2018) y entrevistas documentadas sobre el proceso creativo de *Marinero de Luces*.
+   - RCA / Ariola (1985): *Créditos técnicos del álbum «Marinero de Luces»* (Letra y música de José Luis Perales, arreglos y dirección musical de Rafael Ferro).
