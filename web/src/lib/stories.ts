@@ -506,7 +506,14 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'enelmuelledesanblas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
           'en-el-muelle-de-san-blas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
           'manaenelmuelledesanblas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
-          'manaenelmuelledesanblasacordesocultos': 'mana-en-el-muelle-de-san-blas-acordes-ocultos'
+          'manaenelmuelledesanblasacordesocultos': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'elpactodelascenizas': 'bee-gees-how-can-you-mend-a-broken-heart-acordes-ocultos',
+          'song2': 'blur-song-2',
+          'blursong2': 'blur-song-2',
+          'elsabotajedelosdosminutos': 'blur-song-2',
+          'riversofbabylon': 'boney-m-rivers-of-babylon',
+          'boneymriversofbabylon': 'boney-m-rivers-of-babylon',
+          'ellamentodelosesclavos': 'boney-m-rivers-of-babylon'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
