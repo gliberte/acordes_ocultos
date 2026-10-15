@@ -3,7 +3,8 @@
 > *«I may not always love you, but long as there are stars above you, you never need to doubt it. I'll make you so sure about it... God only knows what I'd be without you.»*  
 > — **Brian Wilson & Tony Asher, 1966**
 
-![Portada Acordes Ocultos - God Only Knows de The Beach Boys](images/cover_acordes_ocultos.png)
+![Portada Acordes Ocultos - God Only Knows de The Beach Boys](images/cover_acordes_ocultos.webp)
+*1966: The Beach Boys y la gestación de Pet Sounds, el disco que elevó la música pop a los altares del arte sacro.*
 
 ---
 
@@ -11,7 +12,8 @@
 
 A comienzos de 1966, en una colina de Beverly Hills, un joven de apenas veintitrés años se sentaba al piano con la mirada fija en el vacío y el corazón abrumado por una exigencia sobrehumana. Brian Wilson había decidido retirarse de las agotadoras giras de The Beach Boys para encerrarse en el estudio de grabación. Su ambición no era simplemente componer otro éxito sobre tablas de surf, coches trucados y romances playeros bajo el sol de California; su misión era concebir una sinfonía de bolsillo capaz de rozar lo divino, una plegaria secular que sirviera como bálsamo para el alma de una juventud desconcertada.
 
-![Brian Wilson al piano en su casa de Beverly Hills en 1966](images/brian_wilson_piano_beverly_hills_1966.png)
+![Brian Wilson al piano en su casa de Beverly Hills en 1966](images/brian_wilson_piano_beverly_hills_1966.webp)
+*Beverly Hills, 1966: Brian Wilson en la soledad de su piano concibiendo una sinfonía de bolsillo para tocar el cielo.*
 
 Lo que Brian no sospechaba en aquellas madrugadas de fiebre creativa era que la obra cumbre de su existencia tropezaría contra el muro más infranqueable de la sociedad estadounidense de su tiempo: el tabú religioso, el pánico de las cadenas de radiodifusión y la feroz resistencia interna de su propia banda.
 
@@ -21,7 +23,8 @@ Lo que Brian no sospechaba en aquellas madrugadas de fiebre creativa era que la 
 
 Para dar forma lírica a la música que retumbaba en su cabeza, Brian no acudió a sus colaboradores habituales. Reclutó a Tony Asher, un joven redactor publicitario al que había conocido fugazmente en los pasillos de una productora audiovisual. Encerrados en la sala de estar de Wilson, ambos comenzaron a trabajar sobre un bloc de notas legal amarillo, buscando una honestidad emocional que el pop de la época rara vez se atrevía a rozar.
 
-![Tony Asher y Brian Wilson dando forma a la letra en 1966](images/tony_asher_bloc_letras_1966.png)
+![Tony Asher y Brian Wilson dando forma a la letra en 1966](images/tony_asher_bloc_letras_1966.webp)
+*El bloc amarillo: Brian Wilson y el publicista Tony Asher buscando una honestidad radical para el arranque de la balada.*
 
 El arranque de la canción desafiaba todas las leyes de la balada romántica tradicional:
 
@@ -38,14 +41,16 @@ Sin embargo, el verdadero terremoto residía en el título. En 1966, pronunciar 
 
 El pánico se apoderó de los ejecutivos de Capitol Records en cuanto recibieron la maqueta. Los directores de programación de las poderosas cadenas de radio del *Bible Belt* (el cinturón bíblico del sur y medio oeste norteamericano) enviaron memorandos formales advirtiendo que vetarían el disco si salía al aire: consideraban que invocar el nombre del Creador en una pieza de entretenimiento juvenil rozaba el sacrilegio comercial.
 
-![El memorándum de censura radial y la amenaza de veto en 1966](images/censura_radio_memorandum_1966.png)
+![El memorándum de censura radial y la amenaza de veto en 1966](images/censura_radio_memorandum_1966.webp)
+*La amenaza del veto: Memorandos de emisoras conservadoras advirtiendo sobre el supuesto sacrilegio de incluir "Dios" en el título.*
 
 La tensión estalló con violencia dentro del propio seno de The Beach Boys cuando el resto del grupo regresó de una gira por Japón para registrar las voces de las nuevas pistas. Mike Love, vocalista principal y primo de los hermanos Wilson, escuchó los complejos arreglos sinfónicos de *Pet Sounds* y montó en cólera contra Brian en la sala de control de *Western Studios*:
 
 > *«¿Quién diablos va a escuchar esta basura? ¿Acaso estás haciendo música para los oídos de un perro? ¡No te metas con la fórmula que nos da de comer!»*  
 > — **Mike Love a Brian Wilson, 1966**
 
-![La violenta confrontación entre Mike Love y Brian Wilson en el estudio](images/enfrentamiento_mike_love_estudio.png)
+![La violenta confrontación entre Mike Love y Brian Wilson en el estudio](images/enfrentamiento_mike_love_estudio.webp)
+*Western Studios: Mike Love confrontando con furia a Brian Wilson por alejarse de la fórmula comercial del surf.*
 
 Love temía que el alejamiento del surf pop arruinara la carrera del grupo, y el título *«God Only Knows»* representaba, a sus ojos, un suicidio comercial garantizado ante los programadores radiales.
 
@@ -55,7 +60,8 @@ Love temía que el alejamiento del surf pop arruinara la carrera del grupo, y el
 
 Aislándose de las recriminaciones familiares, Brian Wilson se refugió en el Estudio 3 de *Western Recorders* el 10 de marzo de 1966, rodeado por los virtuosos músicos de sesión de *The Wrecking Crew*. Lo que Brian orquestó aquella tarde no tenía precedentes en la historia de la música ligera.
 
-![La legendaria sesión de The Wrecking Crew grabando la base instrumental](images/the_wrecking_crew_corno_frances_sesion.png)
+![La legendaria sesión de The Wrecking Crew grabando la base instrumental](images/the_wrecking_crew_corno_frances_sesion.webp)
+*10 de marzo de 1966: The Wrecking Crew tejiendo con corno francés, acordeón y percusiones una atmósfera ingrávida.*
 
 En lugar de limitarse a guitarras y baterías convencionales, Brian convocó al maestro Alan Robinson para interpretar una melancólica melodía en corno francés; introdujo un acordeón tocado por Leonard Hartman; campanas de trineo y percusiones que simulaban cascos de caballo; y una arquitectura de bajo diseñada entre Carol Kaye y Lyle Ritz que evitaba deliberadamente caer en la nota tónica fundamental. La música parecía flotar en el aire, suspendida en una ingravidez armónica que producía una conmovedora sensación de vulnerabilidad y misterio.
 
@@ -69,7 +75,8 @@ En un gesto de humildad fraternal irrepetible, Brian apagó el micrófono y llam
 
 > *«Carl, ven aquí. Tienes que cantarla tú. Tu corazón es más limpio que el mío; tu voz tiene el alma que Dios necesita escuchar.»*
 
-![Carl Wilson frente al micrófono Neumann U47 en 1966](images/carl_wilson_grabacion_voz_emblematica.png)
+![Carl Wilson frente al micrófono Neumann U47 en 1966](images/carl_wilson_grabacion_voz_emblematica.webp)
+*Un canto celestial: Carl Wilson frente al micrófono Neumann U47 entregando una interpretación de pureza irrepetible.*
 
 Con los ojos cerrados frente al micrófono Neumann U47, Carl entregó una interpretación de una ternura sobrecogedora, desprovista de vibratos afectados o manierismos teatrales. En el clímax final, las voces de Brian, Carl y Bruce Johnston se entrelazaron en un canon contrapuntístico de tres partes que emulaba las polifonías del Renacimiento sacro, culminando una de las mayores hazañas vocales del siglo XX.
 
@@ -79,13 +86,15 @@ Con los ojos cerrados frente al micrófono Neumann U47, Carl entregó una interp
 
 En mayo de 1966, Bruce Johnston viajó a Londres con varias copias en acetato de *Pet Sounds*. En una suite privada de hotel, organizó una sesión de escucha exclusiva para los líderes de la vanguardia británica: John Lennon y Paul McCartney.
 
-![Paul McCartney emocionado en Londres al escuchar el acetato de God Only Knows](images/paul_mccartney_lagrimas_londres_1966.png)
+![Paul McCartney emocionado en Londres al escuchar el acetato de God Only Knows](images/paul_mccartney_lagrimas_londres_1966.webp)
+*Londres, mayo de 1966: Paul McCartney escuchando el acetato conmovido hasta las lágrimas ante la belleza de la pieza.*
 
 Al sonar los últimos compases de *«God Only Knows»*, el silencio en la habitación fue absoluto. Paul McCartney tenía lágrimas corriendo por sus mejillas. Pidió que volvieran a colocar la aguja al inicio del surco una y otra vez. Años más tarde, McCartney declararía públicamente y en innumerables ocasiones: *«God Only Knows es la mejor canción jamás escrita. Me hizo llorar la primera vez que la escuché y me inspiró directamente para escribir 'Here, There and Everywhere'»*.
 
 A pesar de la admiración unánime de los genios británicos, el miedo corporativo prevaleció en Estados Unidos. Capitol Records, temerosa de las amenazas de boicot radial en el interior del país, relegó la canción a la cara B del sencillo *«Wouldn't It Be Nice»*.
 
-![El vinilo histórico y el triunfo indiscutible en las listas del Reino Unido](images/single_vinilo_cara_b_reino_unido.png)
+![El vinilo histórico y el triunfo indiscutible en las listas del Reino Unido](images/single_vinilo_cara_b_reino_unido.webp)
+*El vinilo de 1966: Relegada a cara B en Estados Unidos por miedo al boicot, coronada como obra maestra en el Reino Unido.*
 
 Mientras en Estados Unidos las emisoras titubeaban y la censura sofocaba su difusión inicial confinándola al puesto 39, en el Reino Unido la canción fue editada como cara A estelar, catapultándose de inmediato hasta el número dos de las listas y transformando para siempre la historia del arte sonoro.
 
@@ -95,7 +104,8 @@ Mientras en Estados Unidos las emisoras titubeaban y la censura sofocaba su difu
 
 El tiempo ha puesto a cada elemento en su justo lugar. Los censores que intentaron amordazar la invocación de Dios en la radio han sido olvidados por la historia, mientras que la obra de Brian y Carl Wilson resuena hoy con la misma pureza deslumbrante de hace sesenta años.
 
-![Los hermanos Wilson y el legado imperecedero de una obra divina](images/hermanos_wilson_legado_inmortal.png)
+![Los hermanos Wilson y el legado imperecedero de una obra divina](images/hermanos_wilson_legado_inmortal.webp)
+*El legado de los hermanos Wilson: La prueba indeleble de que el pop puede rozar la eternidad cuando nace del corazón.*
 
 *«God Only Knows»* demostró que el pop podía ser un vehículo de elevación espiritual sin recurrir al dogma ni a la hipocresía institucional. Bastaron el talento herido de dos hermanos, un corno francés y la honestidad radical de admitir que, sin amor, el universo entero pierde su sentido.
 
