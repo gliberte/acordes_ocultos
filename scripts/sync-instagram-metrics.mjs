@@ -315,9 +315,9 @@ export async function syncInstagramMetrics() {
       const songAndArtist = parts[1] || '';
       const [songPart, artistPart] = songAndArtist.split(' - ').map(s => normalizeStr(s || ''));
       const slugNorm = normalizeStr(pp.slug || '');
-      const articleSlugNorm = normalizeStr(pp.articleSlug || '');
-      const songField = normalizeStr(pp.song || '');
-      const artistField = normalizeStr(pp.artist || '');
+      const articleSlugNorm = normalizeStr(pp.articleSlug || pp.article_slug || pp.story?.articleSlug || '');
+      const songField = normalizeStr(pp.song || pp.music?.title || pp.story?.music?.title || '');
+      const artistField = normalizeStr(pp.artist || pp.music?.artist || pp.story?.artist || '');
       const combinedMeta = `${storyTitle} ${slugNorm} ${articleSlugNorm} ${songField} ${artistField}`;
 
       for (const [sc, capNorm] of captionByShortcode.entries()) {
@@ -330,7 +330,8 @@ export async function syncInstagramMetrics() {
         const zeppelinMatch = sc === 'DeabzmlR_Sx' && (combinedMeta.includes('zeppelin') || combinedMeta.includes('bonham') || combinedMeta.includes('bonzo'));
         const sergioMatch = sc === 'DeeHsfCA3bZ' && (combinedMeta.includes('sergio denis') || combinedMeta.includes('despedida') || combinedMeta.includes('profecia'));
         const peralesMatch = sc === 'Dec4KgbRvke' && (combinedMeta.includes('perales') || combinedMeta.includes('velero') || combinedMeta.includes('ahogado'));
-        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch || supremesMatch || zeppelinMatch || sergioMatch || peralesMatch) {
+        const jarabeMatch = sc === 'Deh-xwvAXuc' && (combinedMeta.includes('jarabe') || combinedMeta.includes('dones') || combinedMeta.includes('eso que tu me das') || combinedMeta.includes('despedida mas bella'));
+        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || penelopeMatch || galvanMatch || supremesMatch || zeppelinMatch || sergioMatch || peralesMatch || jarabeMatch) {
           const postObj = postsByShortcode.get(sc);
           if (postObj) {
             igUrl = postObj.permalink;

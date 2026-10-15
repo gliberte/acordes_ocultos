@@ -332,6 +332,7 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'penelopeserrat': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
           'joanmanuelserratpenelope': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
           'joanmanuelserratpenelopehistoriaenlosacordes': 'joan-manuel-serrat-penelope-historia-en-los-acordes',
+          'ladespedidamasbelladelamusica': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
           'eltestamentodeamormaspurodelamusica': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
           'esoquetumedas': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
           'paudonesesoquetumedas': 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos',
@@ -476,7 +477,14 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'elhimnoqueaprendioalevantarnosdelosescombros': 'soda-stereo-cuando-pase-el-temblor',
           'el-himno-que-aprendio-a-levantarnos-de-los-escombros': 'soda-stereo-cuando-pase-el-temblor',
           'cuandopaseeltemblor': 'soda-stereo-cuando-pase-el-temblor',
-          'sodastereocuandopaseeltemblor': 'soda-stereo-cuando-pase-el-temblor'
+          'sodastereocuandopaseeltemblor': 'soda-stereo-cuando-pase-el-temblor',
+          'ladisculpaquetardo80anosellegrar': 'don-mclean-vincent-acordes-ocultos',
+          'ladisculpaquetardo80anosenllegar': 'don-mclean-vincent-acordes-ocultos',
+          'la-disculpa-que-tardo-80-anos-en-llegar': 'don-mclean-vincent-acordes-ocultos',
+          'vincent': 'don-mclean-vincent-acordes-ocultos',
+          'starrystarrynight': 'don-mclean-vincent-acordes-ocultos',
+          'donmcleanvincent': 'don-mclean-vincent-acordes-ocultos',
+          'donmcleanvincentacordesocultos': 'don-mclean-vincent-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
