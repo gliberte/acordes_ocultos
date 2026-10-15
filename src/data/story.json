@@ -1,248 +1,248 @@
 {
   "topic": "acordes-ocultos",
-  "title": "La disculpa que tardó 80 años en llegar",
-  "artist": "Don McLean",
-  "slug": "don-mclean-vincent-acordes-ocultos",
-  "articleSlug": "don-mclean-vincent-acordes-ocultos",
-  "hook": "En 1890, Vincent van Gogh murió creyendo que su vida fue un fracaso absoluto. Ochenta años después, un músico arruinado le escribió la disculpa que la humanidad le debía.",
-  "anecdote": "En 1890, Vincent van Gogh murió en soledad y miseria creyendo que su vida había sido un fracaso absoluto. Solo vendió un cuadro formal y sus últimas palabras a su hermano Theo fueron: «La tristeza durará para siempre». Ochenta años después, en 1970, un Don McLean empobrecido leyendo las cartas íntimas de Vincent y Theo descubrió la tragedia de un hombre incomprendido que amó al mundo con sus colores, escribiendo una balada que se convirtió en la disculpa universal de la humanidad hacia su dolor.",
+  "title": "El milagro acústico en la clínica suiza",
+  "artist": "The Rolling Stones",
+  "slug": "the-rolling-stones-angie-acordes-ocultos",
+  "articleSlug": "the-rolling-stones-angie-acordes-ocultos",
+  "hook": "En 1972, Keith Richards no podía mover los dedos en una clínica suiza... hasta que una guitarra acústica le salvó la vida.",
+  "anecdote": "En la primavera de 1972, acosado por la policía y una severa adicción, Keith Richards ingresó en una clínica de Vevey, Suiza, para someterse a una durísima desintoxicación. Convaleciente y tras semanas de temblores, estiró la mano hacia una guitarra acústica y de sus dedos entumecidos brotó el arpegio de «Angie». Casi al mismo tiempo, a pocos kilómetros, su pareja Anita Pallenberg daba a luz a su hija Angela. Meses más tarde, en el exilio de Jamaica, Mick Jagger y Nicky Hopkins transformaron aquel suspiro de supervivencia en la balada acústica más emotiva y universal del rock.",
   "durationSeconds": 90,
   "beats": [
-    "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
-    "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
-    "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
-    "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
-    "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
-    "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
-    "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
-    "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
-    "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor."
+    "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
+    "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
+    "Una mañana, cuando la tormenta física amainó, estiró el brazo hacia una vieja guitarra acústica.",
+    "Con dedos entumecidos buscó un arpegio y sus labios susurraron un nombre al aire: Angie, Angie.",
+    "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
+    "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
+    "Mick Jagger escuchó los acordes y escribió versos sinceros sobre el dolor de despedir un amor herido.",
+    "El piano de Nicky Hopkins y la voz rota de Jagger convirtieron aquella fragilidad en el número uno mundial.",
+    "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar."
   ],
-  "outro": "¿Qué cuadro o canción te ha hecho sentir comprendido en tus días más solitarios?",
+  "outro": "¿Qué recuerdo o persona llega a tu mente cada vez que escuchas el arpegio de «Angie»?",
   "palette": {
-    "ink": "#0f172a",
-    "paper": "#fef3c7",
-    "accent": "#d97706",
-    "glow": "#38bdf8"
+    "ink": "#18181b",
+    "paper": "#fef2f2",
+    "accent": "#b91c1c",
+    "glow": "#f59e0b"
   },
   "music": {
-    "title": "Vincent",
-    "artist": "Don McLean",
-    "src": "music/don-mclean-vincent-acordes-ocultos.mp3",
-    "file": "music/don-mclean-vincent-acordes-ocultos.mp3",
+    "title": "Angie",
+    "artist": "The Rolling Stones",
+    "src": "music/the-rolling-stones-angie-acordes-ocultos.mp3",
+    "file": "music/the-rolling-stones-angie-acordes-ocultos.mp3",
     "startSecond": 0,
     "volume": 0.65,
     "instagram": {
-      "query": "Vincent Don McLean",
-      "expectedTitle": "Vincent",
-      "expectedArtist": "Don McLean",
+      "query": "Angie The Rolling Stones",
+      "expectedTitle": "Angie",
+      "expectedArtist": "The Rolling Stones",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Vincent (Starry, Starry Night) de Don McLean en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Angie de The Rolling Stones en Instagram Reels."
     }
   },
-  "video": "videos/don-mclean-vincent-acordes-ocultos",
-  "cover": "videos/don-mclean-vincent-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/don-mclean-vincent-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, early 1970s. Young Don McLean sitting outdoors with his acoustic guitar, long natural wavy brown hair, gentle thoughtful expression, soft earthy 1970s jacket, warm golden autumn twilight light filtering through Berkshire trees, swirling starry twilight sky in distant horizon, rich cinematic film grain, generous negative space at top and bottom for typography, no text.",
+  "video": "videos/the-rolling-stones-angie-acordes-ocultos",
+  "cover": "videos/the-rolling-stones-angie-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/the-rolling-stones-angie-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, 1972. Keith Richards in 1972, faithful facial likeness, shaggy dark layered rock hairstyle, distinct sharp cheekbones, gentle tired thoughtful expression, wearing a 1972 bohemian velvet jacket, sitting outdoors overlooking the calm mist of Lake Geneva in Switzerland, an acoustic guitar resting on his knee, soft natural morning daylight, authentic Kodachrome film grain, generous negative space at top and bottom for typography, no text.",
   "assets": [
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 atmospheric historical scene, July 1890. Vincent van Gogh standing in the golden wheat fields of Auvers-sur-Oise under an overcast somber sky, authentic facial features matching his 1889 self-portrait with red beard, deep set troubled eyes, worn artist jacket, holding a wooden easel and brushes, flocks of dark crows flying in the distant sky, 35mm documentary film grain, melancholic and cinematic."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 atmospheric 1972 documentary scene. The serene Alpine lakeside town of Vevey, Switzerland, early morning mist over Lake Geneva, an austere historic stone medical clinic building surrounded by silent pine trees, cold overcast sky, vintage 1970s European cars parked along the street, 35mm film grain, moody and realistic."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 intimate 1890 historical interior photograph. The modest wooden attic room at Auberge Ravoux, Vincent van Gogh lying weak in bed, his devoted younger brother Theo van Gogh sitting closely beside him holding his hand with profound grief and tears, soft candlelight casting warm shadows, antique wooden furniture, medical bottles, deeply moving and human, 35mm vintage grain."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate historical interior scene, spring 1972. Keith Richards in a quiet private Swiss clinic room, pale and exhausted, sitting upright on a white hospital bed with rumpled blankets, distinct 1972 shaggy dark hair, weary but determined expression, soft morning light coming through tall alpine windows, medical table with water glass, 35mm vintage grain, emotional realism."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 late 19th century Parisian art gallery or bohemian salon scene, 1890. Elegant French critics and bourgeois patrons in Victorian top hats and suits turning away with skeptical mocking gestures from a brightly colored impasto painting on an easel, thick swirling yellow and cobalt pigments ignored on the wall, moody gaslamp illumination, rich period textures, authentic archival aesthetic."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 intimate candid shot, 1972. Keith Richards sitting on the edge of the bed holding a natural wood acoustic guitar, close-up on his slender ringed fingers gently placing chords on the fretboard, feeling the resonance of the steel strings, warm soft sunlight bathing the wooden guitar body, authentic 1970s film grain, deeply human."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 candid 1970 documentary photograph. Young Don McLean, 25 years old, slender build, long wavy dark brown hair, wearing a humble 1970 denim jacket, walking alone with a worn acoustic guitar case through a quiet rural Massachusetts road in autumn, fallen golden leaves, gentle melancholy, authentic 1970s Kodachrome film grain."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 touching 1972 hospital documentary scene. Anita Pallenberg resting in a Swiss maternity hospital room, holding newborn baby Angela (Dandelion) swaddled in soft white blankets, gentle exhausted motherly smile, soft golden afternoon light, vintage nursing room interior, 35mm period photography, delicate and authentic."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 atmospheric 1970 interior scene. Don McLean sitting at a wooden table in a modest Berkshire veranda, soft autumn morning light through the window, reading an open hardcover biography with handwritten letters and art sketches of Van Gogh, intense revelation and empathy in his eyes, tea mug, handwritten notes scattered, 35mm film grain."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 candid 1972 recording studio scene, Kingston Jamaica. Inside Dynamic Sound Studios, Keith Richards sitting with an acoustic guitar talking with Mick Jagger, authentic facial features of both, tropical wooden jalousie windows, ceiling fans, vintage Neumann microphones, casual 1970s rock attire, warm humid tropical lighting, 35mm Kodachrome grain."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 poetic impressionistic historical montage. The swirling cosmic blue and yellow vortexes of Van Gogh's Starry Night gently reflected in a studio window, contrasting with the tired, compassionate face of Vincent painting alone in his studio in Saint-Rémy, vibrant cobalt blues and brilliant radiant yellow spirals, artistic realism, cinematic depth."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 expressive studio photography, late 1972. Mick Jagger singing with raw vulnerability into a vintage studio condenser microphone, hands gesturing gently, eyes closed in deep emotional concentration, soft amber studio lights highlighting his iconic face and lips, 1970s tape machines in the blurred background, 35mm film grain."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 intimate 1970 songwriting scene. Don McLean holding an old acoustic guitar, resting a paper envelope on his knee while scribbling lyrics with a pencil, eyes closed in deep emotion as his fingers pluck the strings, warm lamp light, simple wooden room, pure authenticity and inspiration, vintage 35mm film grain."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 atmospheric music studio scene, 1972. Renowned pianist Nicky Hopkins sitting at an upright wooden acoustic piano in the studio, focused hands gracefully playing the iconic delicate piano intro chords, cigarette in an ashtray, sheet music on the piano stand, warm tungsten lamplight, nostalgic 35mm film texture."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 documentary museum scene, 1973. Inside the newly opened Van Gogh Museum in Amsterdam, visitors of different ages quietly standing in awe before vibrant original Van Gogh masterpieces on white gallery walls, soft modern gallery lighting, museum curators placing sheet music and archival documents into a ceremonial commemorative vault case, 35mm documentary aesthetic."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 iconic 1973 Rolling Stones live concert scene. Mick Jagger and Keith Richards performing on an intimate European stage under dramatic spotlights, Keith playing acoustic guitar seated on a stool, Jagger singing close to microphone, sea of glowing lighters and audience hands in deep reverence below, 35mm concert photography grain."
     },
     {
-      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 breathtaking contemplative landscape at midnight over Auvers-sur-Oise. A vast, majestic deep indigo night sky filled with radiant swirling stars, soft mist floating over quiet rolling hills, distant silhouette of the village church tower illuminated by starlight, sublime serenity and timeless peace, zero people, zero vinyl or turntables, pure poetic reflection, cinematic 35mm aesthetic."
+      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 breathtaking contemplative landscape at dusk over Lake Geneva, Switzerland. Majestic snow-capped Alpine peaks in the far distance, tranquil deep blue waters reflecting the soft twilight pink and violet sky, an empty wooden bench on the lakeside promenade, gentle mountain breeze, zero people, zero vinyl or turntables, pure poetic serenity, cinematic 35mm aesthetic."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
+      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 atmospheric historical scene, July 1890. Vincent van Gogh standing in the golden wheat fields of Auvers-sur-Oise under an overcast somber sky, authentic facial features matching his 1889 self-portrait with red beard, deep set troubled eyes, worn artist jacket, holding a wooden easel and brushes, flocks of dark crows flying in the distant sky, 35mm documentary film grain, melancholic and cinematic."
+      "prompt": "Vertical 9:16 atmospheric 1972 documentary scene. The serene Alpine lakeside town of Vevey, Switzerland, early morning mist over Lake Geneva, an austere historic stone medical clinic building surrounded by silent pine trees, cold overcast sky, vintage 1970s European cars parked along the street, 35mm film grain, moody and realistic."
     },
     {
       "id": 2,
-      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
+      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 intimate 1890 historical interior photograph. The modest wooden attic room at Auberge Ravoux, Vincent van Gogh lying weak in bed, his devoted younger brother Theo van Gogh sitting closely beside him holding his hand with profound grief and tears, soft candlelight casting warm shadows, antique wooden furniture, medical bottles, deeply moving and human, 35mm vintage grain."
+      "prompt": "Vertical 9:16 intimate historical interior scene, spring 1972. Keith Richards in a quiet private Swiss clinic room, pale and exhausted, sitting upright on a white hospital bed with rumpled blankets, distinct 1972 shaggy dark hair, weary but determined expression, soft morning light coming through tall alpine windows, medical table with water glass, 35mm vintage grain, emotional realism."
     },
     {
       "id": 3,
-      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
+      "text": "Una mañana, cuando la tormenta física amainó, estiró el brazo hacia una vieja guitarra acústica.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 late 19th century Parisian art gallery or bohemian salon scene, 1890. Elegant French critics and bourgeois patrons in Victorian top hats and suits turning away with skeptical mocking gestures from a brightly colored impasto painting on an easel, thick swirling yellow and cobalt pigments ignored on the wall, moody gaslamp illumination, rich period textures, authentic archival aesthetic."
+      "prompt": "Vertical 9:16 intimate candid shot, 1972. Keith Richards sitting on the edge of the bed holding a natural wood acoustic guitar, close-up on his slender ringed fingers gently placing chords on the fretboard, feeling the resonance of the steel strings, warm soft sunlight bathing the wooden guitar body, authentic 1970s film grain, deeply human."
     },
     {
       "id": 4,
-      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
+      "text": "Con dedos entumecidos buscó un arpegio y sus labios susurraron un nombre al aire: Angie, Angie.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 candid 1970 documentary photograph. Young Don McLean, 25 years old, slender build, long wavy dark brown hair, wearing a humble 1970 denim jacket, walking alone with a worn acoustic guitar case through a quiet rural Massachusetts road in autumn, fallen golden leaves, gentle melancholy, authentic 1970s Kodachrome film grain."
+      "prompt": "Vertical 9:16 candid 1972 portrait of Keith Richards sitting in bed with acoustic guitar, lips slightly parted in quiet song, warm light on his expressive face, profound relief and musical connection, vintage 35mm film grain."
     },
     {
       "id": 5,
-      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
+      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 atmospheric 1970 interior scene. Don McLean sitting at a wooden table in a modest Berkshire veranda, soft autumn morning light through the window, reading an open hardcover biography with handwritten letters and art sketches of Van Gogh, intense revelation and empathy in his eyes, tea mug, handwritten notes scattered, 35mm film grain."
+      "prompt": "Vertical 9:16 touching 1972 hospital documentary scene. Anita Pallenberg resting in a Swiss maternity hospital room, holding newborn baby Angela (Dandelion) swaddled in soft white blankets, gentle exhausted motherly smile, soft golden afternoon light, vintage nursing room interior, 35mm period photography, delicate and authentic."
     },
     {
       "id": 6,
-      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
+      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 poetic impressionistic historical montage. The swirling cosmic blue and yellow vortexes of Van Gogh's Starry Night gently reflected in a studio window, contrasting with the tired, compassionate face of Vincent painting alone in his studio in Saint-Rémy, vibrant cobalt blues and brilliant radiant yellow spirals, artistic realism, cinematic depth."
+      "prompt": "Vertical 9:16 candid 1972 recording studio scene, Kingston Jamaica. Inside Dynamic Sound Studios, Keith Richards sitting with an acoustic guitar talking with Mick Jagger, authentic facial features of both, tropical wooden jalousie windows, ceiling fans, vintage Neumann microphones, casual 1970s rock attire, warm humid tropical lighting, 35mm Kodachrome grain."
     },
     {
       "id": 7,
-      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
+      "text": "Mick Jagger escuchó los acordes y escribió versos sinceros sobre el dolor de despedir un amor herido.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 intimate 1970 songwriting scene. Don McLean holding an old acoustic guitar, resting a paper envelope on his knee while scribbling lyrics with a pencil, eyes closed in deep emotion as his fingers pluck the strings, warm lamp light, simple wooden room, pure authenticity and inspiration, vintage 35mm film grain."
+      "prompt": "Vertical 9:16 expressive studio photography, late 1972. Mick Jagger singing with raw vulnerability into a vintage studio condenser microphone, hands gesturing gently, eyes closed in deep emotional concentration, soft amber studio lights highlighting his iconic face and lips, 1970s tape machines in the blurred background, 35mm film grain."
     },
     {
       "id": 8,
-      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
+      "text": "El piano de Nicky Hopkins y la voz rota de Jagger convirtieron aquella fragilidad en el número uno mundial.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 documentary museum scene, 1973. Inside the newly opened Van Gogh Museum in Amsterdam, visitors of different ages quietly standing in awe before vibrant original Van Gogh masterpieces on white gallery walls, soft modern gallery lighting, museum curators placing sheet music and archival documents into a ceremonial commemorative vault case, 35mm documentary aesthetic."
+      "prompt": "Vertical 9:16 iconic 1973 Rolling Stones live concert scene. Mick Jagger and Keith Richards performing on an intimate European stage under dramatic spotlights, Keith playing acoustic guitar seated on a stool, Jagger singing close to microphone, sea of glowing lighters and audience hands in deep reverence below, 35mm concert photography grain."
     },
     {
       "id": 9,
-      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor.",
+      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 breathtaking contemplative landscape at midnight over Auvers-sur-Oise. A vast, majestic deep indigo night sky filled with radiant swirling stars, soft mist floating over quiet rolling hills, distant silhouette of the village church tower illuminated by starlight, sublime serenity and timeless peace, zero people, zero vinyl or turntables, pure poetic reflection, cinematic 35mm aesthetic."
+      "prompt": "Vertical 9:16 breathtaking contemplative landscape at dusk over Lake Geneva, Switzerland. Majestic snow-capped Alpine peaks in the far distance, tranquil deep blue waters reflecting the soft twilight pink and violet sky, an empty wooden bench on the lakeside promenade, gentle mountain breeze, zero people, zero vinyl or turntables, pure poetic serenity, cinematic 35mm aesthetic."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total."
+      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre."
+      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma."
+      "text": "Una mañana, cuando la tormenta física amainó, estiró el brazo hacia una vieja guitarra acústica."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares."
+      "text": "Con dedos entumecidos buscó un arpegio y sus labios susurraron un nombre al aire: Angie, Angie."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco."
+      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar."
+      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio."
+      "text": "Mick Jagger escuchó los acordes y escribió versos sinceros sobre el dolor de despedir un amor herido."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent."
+      "text": "El piano de Nicky Hopkins y la voz rota de Jagger convirtieron aquella fragilidad en el número uno mundial."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor."
+      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar."
     }
   ],
   "subtitles": [
     {
-      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
+      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
       "start": 0,
       "end": 10
     },
     {
-      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
+      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
       "start": 10,
       "end": 20
     },
     {
-      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
+      "text": "Una mañana, cuando la tormenta física amainó, estiró el brazo hacia una vieja guitarra acústica.",
       "start": 20,
       "end": 30
     },
     {
-      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
+      "text": "Con dedos entumecidos buscó un arpegio y sus labios susurraron un nombre al aire: Angie, Angie.",
       "start": 30,
       "end": 40
     },
     {
-      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
+      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
       "start": 40,
       "end": 50
     },
     {
-      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
+      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
       "start": 50,
       "end": 60
     },
     {
-      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
+      "text": "Mick Jagger escuchó los acordes y escribió versos sinceros sobre el dolor de despedir un amor herido.",
       "start": 60,
       "end": 70
     },
     {
-      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
+      "text": "El piano de Nicky Hopkins y la voz rota de Jagger convirtieron aquella fragilidad en el número uno mundial.",
       "start": 70,
       "end": 80
     },
     {
-      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor.",
+      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar.",
       "start": 80,
       "end": 90
     }
   ],
   "publication": {
-    "description": "En 1890, Vincent van Gogh murió en la miseria absoluta creyendo que su vida había sido un fracaso total. Solo vendió un cuadro formal y sus últimas palabras a su hermano Theo fueron desgarradoras: «La tristeza durará para siempre». Nadie quiso escuchar su dolor ni comprender los soles de fuego que pintaba en sus lienzos.\n\nOchenta años después, en 1970, un joven Don McLean sobrevivía cantando en colegios públicos por unos pocos dólares. Mientras hojeaba una biografía prestada con las cartas íntimas entre Vincent y Theo, descubrió la verdad de un hombre incomprendido que no estaba loco, sino devastado por la soledad de entregar tanta belleza a un mundo sordo.\n\nTomó una guitarra acústica y un sobre usado, y en apenas una hora compuso «Vincent (Starry, Starry Night)»: la plegaria que tardó casi un siglo en llegar como la disculpa que la humanidad le debía a su memoria. Hoy, sus partituras descansan en una cápsula del tiempo en el Museo Van Gogh de Ámsterdam, junto a los pinceles del genio.\n\n¿Qué cuadro o canción te ha hecho sentir profundamente comprendido en tus momentos más solitarios? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #DonMcLean #VincentVanGogh #StarryNight #HistoriaDeLaMusica #VanGogh #RockClasico #ArteYMusica",
-    "tiktokDescription": "En 1890 Vincent van Gogh murió en la miseria creyendo que fue un fracaso. 80 años después, Don McLean leyó sus cartas íntimas y le compuso la canción que la humanidad tardó un siglo en dedicarle: Vincent (Starry, Starry Night). 🌻✨\n\n#AcordesOcultos #VincentVanGogh #DonMcLean #StarryNight #HistoriasReales #Musica #DatosCuriosos #AprendeEnTikTok"
+    "description": "En la primavera de 1972, Keith Richards no podía mover los dedos. Internado en una solitaria clínica de Vevey, Suiza, para someterse a una severa desintoxicación, el guitarrista de los Rolling Stones atravesaba semanas de fiebre, náuseas y temblores incontrolables.\n\nUna mañana, cuando la tormenta física empezó a ceder, estiró el brazo hacia una vieja guitarra acústica apoyada en el rincón. Sus manos frías buscaron un arpegio intuitivo y de sus labios brotó un suspiro involuntario: «Angie, Angie...». A escasos kilómetros de allí, en un hospital vecino, su pareja Anita Pallenberg daba a luz a su hija Angela. Aquellos acordes no nacieron de un escándalo de la prensa rosa, sino del milagro de un hombre quebrado que volvía a sentir el latido de la vida.\n\nMeses después, exiliados en un estudio sofocante de Jamaica, Mick Jagger y el pianista Nicky Hopkins terminaron de pulir la balada que conquistaría al mundo entero: la prueba viva de que incluso en los cuartos más oscuros, la música siempre rescata al alma del abismo.\n\n¿Qué recuerdo imborrable o qué persona llega a tu mente cada vez que suena el arpegio de «Angie»? Te leemos en comentarios.\n\nLa historia completa y los archivos documentales están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TheRollingStones #KeithRichards #MickJagger #Angie #HistoriaDelRock #RockClasico #GoatsHeadSoup",
+    "tiktokDescription": "En 1972 Keith Richards no podía mover los dedos en una clínica suiza. Tomó una guitarra para volver a respirar y de sus manos nació «Angie»: la balada más humana del rock. 🎸✨\n\n#AcordesOcultos #TheRollingStones #KeithRichards #MickJagger #Angie #RockClasico #HistoriasReales #AprendeEnTikTok"
   }
 }

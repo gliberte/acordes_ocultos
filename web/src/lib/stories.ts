@@ -484,7 +484,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'vincent': 'don-mclean-vincent-acordes-ocultos',
           'starrystarrynight': 'don-mclean-vincent-acordes-ocultos',
           'donmcleanvincent': 'don-mclean-vincent-acordes-ocultos',
-          'donmcleanvincentacordesocultos': 'don-mclean-vincent-acordes-ocultos'
+          'donmcleanvincentacordesocultos': 'don-mclean-vincent-acordes-ocultos',
+          'elmilagroacusticoenlaclinicasuiza': 'the-rolling-stones-angie-acordes-ocultos',
+          'el-milagro-acustico-en-la-clinica-suiza': 'the-rolling-stones-angie-acordes-ocultos',
+          'angie': 'the-rolling-stones-angie-acordes-ocultos',
+          'therollingstonesangie': 'the-rolling-stones-angie-acordes-ocultos',
+          'therollingstonesangieacordesocultos': 'the-rolling-stones-angie-acordes-ocultos',
+          'rollingstonesangie': 'the-rolling-stones-angie-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
