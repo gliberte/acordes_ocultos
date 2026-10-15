@@ -1,248 +1,248 @@
 {
   "topic": "acordes-ocultos",
-  "title": "El milagro acústico en la clínica suiza",
-  "artist": "The Rolling Stones",
-  "slug": "the-rolling-stones-angie-acordes-ocultos",
-  "articleSlug": "the-rolling-stones-angie-acordes-ocultos",
-  "hook": "En 1972, Keith Richards no podía mover los dedos en una clínica suiza... hasta que una guitarra acústica le salvó la vida.",
-  "anecdote": "En la primavera de 1972, acosado por la policía y una severa adicción, Keith Richards ingresó en una clínica de Vevey, Suiza, para someterse a una durísima desintoxicación. Convaleciente y tras semanas de temblores, estiró la mano hacia una guitarra acústica y de sus dedos entumecidos brotó el arpegio de «Angie». Casi al mismo tiempo, a pocos kilómetros, su pareja Anita Pallenberg daba a luz a su hija Angela. Meses más tarde, en el exilio de Jamaica, Mick Jagger y Nicky Hopkins transformaron aquel suspiro de supervivencia en la balada acústica más emotiva y universal del rock.",
+  "title": "La verdadera historia tras «En el muelle de San Blas»",
+  "artist": "Maná",
+  "slug": "mana-en-el-muelle-de-san-blas-acordes-ocultos",
+  "articleSlug": "mana-en-el-muelle-de-san-blas-acordes-ocultos",
+  "hook": "El pueblo entero la llamaba «la loca del muelle», pero su traje blanco guardaba una de las heridas más conmovedoras de la música.",
+  "anecdote": "En mayo de 1997, en el muelle de madera de San Blas, Nayarit, Fher Olvera conoció a una mujer de cabello cano que vendía figuras de conchas vestida de blanco. La leyenda decía que esperaba a un pescador que el mar nunca devolvió, pero la verdad documentada de Rebeca Méndez Jiménez guardaba un dolor aún más profundo: la pérdida de sus hijos y una soledad que quebró su mente. Fher conversó con ella y esa misma noche compuso «En el muelle de San Blas», convirtiendo su dolor en un himno universal.",
   "durationSeconds": 90,
   "beats": [
-    "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
-    "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
-    "Una mañana, al calmarse el dolor, sus dedos temblorosos acariciaron una vieja guitarra acústica.",
-    "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
-    "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
-    "Mick Jagger escuchó la melodía y grabó con el alma abierta los versos de un adiós doloroso.",
-    "En el piano, el maestro Nicky Hopkins tejió una introducción cristalina que conmovió a la banda entera.",
-    "Al salir al mundo, aquella fragilidad nacida en un cuarto de hospital se convirtió en el número uno global.",
-    "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar."
+    "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino.",
+    "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara.",
+    "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco.",
+    "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente.",
+    "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo.",
+    "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa.",
+    "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada.",
+    "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal.",
+    "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
   ],
-  "outro": "¿Qué recuerdo o persona llega a tu mente cada vez que escuchas el arpegio de «Angie»?",
+  "outro": "¿Qué sientes cada vez que suena «En el muelle de San Blas» y a quién recuerdas al escucharla?",
   "palette": {
     "ink": "#18181b",
     "paper": "#fef2f2",
-    "accent": "#b91c1c",
+    "accent": "#0284c7",
     "glow": "#f59e0b"
   },
   "music": {
-    "title": "Angie",
-    "artist": "The Rolling Stones",
-    "src": "music/the-rolling-stones-angie-acordes-ocultos.mp3",
-    "file": "music/the-rolling-stones-angie-acordes-ocultos.mp3",
+    "title": "En el Muelle de San Blas",
+    "artist": "Maná",
+    "src": "music/mana-en-el-muelle-de-san-blas.mp3",
+    "file": "music/mana-en-el-muelle-de-san-blas.mp3",
     "startSecond": 0,
-    "volume": 0.65,
+    "volume": 0.6,
     "instagram": {
-      "query": "Angie The Rolling Stones",
-      "expectedTitle": "Angie",
-      "expectedArtist": "The Rolling Stones",
+      "query": "En el Muelle de San Blas Mana",
+      "expectedTitle": "En el Muelle de San Blas",
+      "expectedArtist": "Maná",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Angie de The Rolling Stones en Instagram Reels."
+      "notes": "Seleccionar audio oficial de En el Muelle de San Blas de Maná en Instagram Reels."
     }
   },
-  "video": "videos/the-rolling-stones-angie-acordes-ocultos",
-  "cover": "videos/the-rolling-stones-angie-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/the-rolling-stones-angie-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, 1972. Keith Richards in 1972, faithful facial likeness, shaggy dark layered rock hairstyle, distinct sharp cheekbones, gentle tired thoughtful expression, wearing a 1972 bohemian velvet jacket, sitting outdoors overlooking the calm mist of Lake Geneva in Switzerland, an acoustic guitar resting on his knee, soft natural morning daylight, authentic Kodachrome film grain, generous negative space at top and bottom for typography, no text.",
+  "video": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos",
+  "cover": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, 1997. The historic weathered wooden pier of San Blas, Nayarit, extending into the wide Pacific Ocean at sunset. Golden warm sunlight reflecting on gentle ocean waves, soft sea mist, wooden posts covered in sea salt and barnacles, seagulls in the distant sky. Evocative, deeply nostalgic atmosphere, cinematic 1990s Kodachrome film texture, ample negative space at top and bottom for text, no words or typography.",
   "assets": [
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 atmospheric 1972 documentary scene. The serene Alpine lakeside town of Vevey, Switzerland, early morning mist over Lake Geneva, an austere historic stone medical clinic building surrounded by silent pine trees, cold overcast sky, vintage 1970s European cars parked along the street, 35mm film grain, moody and realistic."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1990s. The rustic wooden dock and pier of San Blas in Nayarit, Mexico, shrouded in coastal morning sea mist. Weathered timber planks encrusted with salt, gentle Pacific waves breaking softly against the shore, small fishing dories bobbing in the distance, moody overcast sky, deep atmospheric nostalgia, authentic 1990s film grain, documentary realism, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 intimate historical interior scene, spring 1972. Keith Richards in a quiet private Swiss clinic room, pale and exhausted, sitting upright on a white hospital bed with rumpled blankets, distinct 1972 shaggy dark hair, weary but determined expression, soft morning light coming through tall alpine windows, medical table with water glass, 35mm vintage grain, emotional realism."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 vintage 1971 color photograph, 35mm film grain. A young Mexican woman in her late 20s, slender, with natural dark wavy hair gathered gently, wearing a simple modest white cotton dress from 1971. She stands at the edge of the rustic wooden pier of San Blas, one hand raised waving a sorrowful farewell to an old wooden fishing boat sailing into dark ocean storm clouds on the horizon. Somber, deeply emotional atmosphere, authentic 1970s color palette, natural soft ocean light, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 intimate candid shot, 1972. Keith Richards sitting on the edge of the bed holding a natural wood acoustic guitar, close-up on his slender ringed fingers gently placing chords on the fretboard, feeling the resonance of the steel strings, warm soft sunlight bathing the wooden guitar body, authentic 1970s film grain, deeply human."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 authentic 35mm film photograph, late 1970s. A Mexican woman in her 30s with natural dark wavy hair, sitting quietly on the wet weathered wooden planks of the San Blas pier under heavy tropical rain, looking out toward the endless grey sea. Her simple white dress is damp from the ocean spray and rain, her expression still, melancholic and deeply devoted, holding on to a silent promise. Authentic 1970s grain, cinematic mood, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 touching 1972 hospital documentary scene. Anita Pallenberg resting in a Swiss maternity hospital room, holding newborn baby Angela (Dandelion) swaddled in soft white blankets, gentle exhausted motherly smile, soft golden afternoon light, vintage nursing room interior, 35mm period photography, delicate and authentic."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 vintage 1980s color photograph, 35mm film grain. A Mexican woman in her early 40s, same distinctive facial structure and solemn dark eyes, hair with silver strands. She is sitting in a sunlit modest seaside room, gently holding a small vintage photograph close to her chest. She gazes out an open wooden window towards the distant Pacific Ocean with tender grief and quiet resilience. Intimate, profoundly moving emotional atmosphere, warm nostalgic tones, authentic film grain, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 candid 1972 recording studio scene, Kingston Jamaica. Inside Dynamic Sound Studios, Keith Richards sitting with an acoustic guitar talking with Mick Jagger, authentic facial features of both, tropical wooden jalousie windows, ceiling fans, vintage Neumann microphones, casual 1970s rock attire, warm humid tropical lighting, 35mm Kodachrome grain."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 documentary color photograph, early 1990s, 35mm film grain. On the wooden pier of San Blas, a kind elderly Mexican fisherman with a sun-weathered face and cap gently hands a ceramic mug of hot coffee to a 50-year-old Mexican woman with silver-streaked wavy hair, wearing a white coastal dress and light shawl. A moment of deep human warmth, empathy and community affection by the misty ocean shore. Natural daylight, authentic candid realism, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 expressive studio photography, late 1972. Mick Jagger singing with raw vulnerability into a vintage studio condenser microphone, hands gesturing gently, eyes closed in deep emotional concentration, soft amber studio lights highlighting his iconic face and lips, 1970s tape machines in the blurred background, 35mm film grain."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1997. A Mexican woman in her mid-50s with silvery grey curly hair, seated calmly on the weathered wooden dock of San Blas by the ocean. Before her is a rustic woven basket filled with handmade seashell necklaces and small traditional Mexican sweets. Her sunlit, serene face holds a gentle, peaceful smile; her weathered hands rest over a string of seashells. Dressed in her characteristic simple white cotton dress. Natural Pacific coastal light, warm 1990s film texture, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 atmospheric music studio scene, 1972. Renowned pianist Nicky Hopkins sitting at an upright wooden acoustic piano in the studio, focused hands gracefully playing the iconic delicate piano intro chords, cigarette in an ashtray, sheet music on the piano stand, warm tungsten lamplight, nostalgic 35mm film texture."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, May 1997. On the wooden dock of San Blas by the sea, Fher Olvera (lead singer of Maná in 1997, thin build, long dark curly rock hair, wearing a loose unbuttoned casual cotton shirt and faded jeans) sits attentively on the edge of the dock conversing with the Mexican woman in her white dress with her basket of seashells. Fher is listening to her with deep respect and emotional awe. Late afternoon warm golden sun reflecting on the Pacific Ocean, documentary candid intimacy, authentic 1997 film grain, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 iconic 1973 Rolling Stones live concert scene. Mick Jagger and Keith Richards performing on an intimate European stage under dramatic spotlights, Keith playing acoustic guitar seated on a stool, Jagger singing close to microphone, sea of glowing lighters and audience hands in deep reverence below, 35mm concert photography grain."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, 1997. Mexican singer Fher Olvera in 1997, in his late 30s with long curly dark hair, sitting in a rustic beachside room with open wooden shutters overlooking the night sea. He is holding a wooden acoustic guitar, focused in quiet inspiration, with an open paper notebook and pen resting on a small wooden table beside a vintage warm lamp. Intimate musical creation moment, authentic 1990s recording session mood, warm grain, no text."
     },
     {
-      "src": "videos/the-rolling-stones-angie-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 breathtaking contemplative landscape at dusk over Lake Geneva, Switzerland. Majestic snow-capped Alpine peaks in the far distance, tranquil deep blue waters reflecting the soft twilight pink and violet sky, an empty wooden bench on the lakeside promenade, gentle mountain breeze, zero people, zero vinyl or turntables, pure poetic serenity, cinematic 35mm aesthetic."
+      "src": "videos/mana-en-el-muelle-de-san-blas-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 authentic 35mm documentary photograph, twilight. The life-sized bronze commemorative statue of Rebeca Mendez Jimenez standing at the edge of the wooden pier of San Blas, facing the vast calm Pacific Ocean at dusk. Deep indigo and amber sunset sky, warm lantern light reflecting softly on the bronze and wet wooden planks, distant ocean horizon, cinematic contemplation, quiet solemnity, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
+      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 atmospheric 1972 documentary scene. The serene Alpine lakeside town of Vevey, Switzerland, early morning mist over Lake Geneva, an austere historic stone medical clinic building surrounded by silent pine trees, cold overcast sky, vintage 1970s European cars parked along the street, 35mm film grain, moody and realistic."
+      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1990s. The rustic wooden dock and pier of San Blas in Nayarit, Mexico, shrouded in coastal morning sea mist. Weathered timber planks encrusted with salt, gentle Pacific waves breaking softly against the shore, small fishing dories bobbing in the distance, moody overcast sky, deep atmospheric nostalgia, authentic 1990s film grain, documentary realism, no text."
     },
     {
       "id": 2,
-      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
+      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 intimate historical interior scene, spring 1972. Keith Richards in a quiet private Swiss clinic room, pale and exhausted, sitting upright on a white hospital bed with rumpled blankets, distinct 1972 shaggy dark hair, weary but determined expression, soft morning light coming through tall alpine windows, medical table with water glass, 35mm vintage grain, emotional realism."
+      "prompt": "Vertical 9:16 vintage 1971 color photograph, 35mm film grain. A young Mexican woman in her late 20s, slender, with natural dark wavy hair gathered gently, wearing a simple modest white cotton dress from 1971. She stands at the edge of the rustic wooden pier of San Blas, one hand raised waving a sorrowful farewell to an old wooden fishing boat sailing into dark ocean storm clouds on the horizon. Somber, deeply emotional atmosphere, authentic 1970s color palette, natural soft ocean light, no text."
     },
     {
       "id": 3,
-      "text": "Una mañana, al calmarse el dolor, sus dedos temblorosos acariciaron una vieja guitarra acústica.",
+      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 intimate candid shot, 1972. Keith Richards sitting on the edge of the bed holding a natural wood acoustic guitar, close-up on his slender ringed fingers gently placing chords on the fretboard, feeling the resonance of the steel strings, warm soft sunlight bathing the wooden guitar body, authentic 1970s film grain, deeply human."
+      "prompt": "Vertical 9:16 authentic 35mm film photograph, late 1970s. A Mexican woman in her 30s with natural dark wavy hair, sitting quietly on the wet weathered wooden planks of the San Blas pier under heavy tropical rain, looking out toward the endless grey sea. Her simple white dress is damp from the ocean spray and rain, her expression still, melancholic and deeply devoted, holding on to a silent promise. Authentic 1970s grain, cinematic mood, no text."
     },
     {
       "id": 4,
-      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
+      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 touching 1972 hospital documentary scene. Anita Pallenberg resting in a Swiss maternity hospital room, holding newborn baby Angela (Dandelion) swaddled in soft white blankets, gentle exhausted motherly smile, soft golden afternoon light, vintage nursing room interior, 35mm period photography, delicate and authentic."
+      "prompt": "Vertical 9:16 vintage 1980s color photograph, 35mm film grain. A Mexican woman in her early 40s, same distinctive facial structure and solemn dark eyes, hair with silver strands. She is sitting in a sunlit modest seaside room, gently holding a small vintage photograph close to her chest. She gazes out an open wooden window towards the distant Pacific Ocean with tender grief and quiet resilience. Intimate, profoundly moving emotional atmosphere, warm nostalgic tones, authentic film grain, no text."
     },
     {
       "id": 5,
-      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
+      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 candid 1972 recording studio scene, Kingston Jamaica. Inside Dynamic Sound Studios, Keith Richards sitting with an acoustic guitar talking with Mick Jagger, authentic facial features of both, tropical wooden jalousie windows, ceiling fans, vintage Neumann microphones, casual 1970s rock attire, warm humid tropical lighting, 35mm Kodachrome grain."
+      "prompt": "Vertical 9:16 documentary color photograph, early 1990s, 35mm film grain. On the wooden pier of San Blas, a kind elderly Mexican fisherman with a sun-weathered face and cap gently hands a ceramic mug of hot coffee to a 50-year-old Mexican woman with silver-streaked wavy hair, wearing a white coastal dress and light shawl. A moment of deep human warmth, empathy and community affection by the misty ocean shore. Natural daylight, authentic candid realism, no text."
     },
     {
       "id": 6,
-      "text": "Mick Jagger escuchó la melodía y grabó con el alma abierta los versos de un adiós doloroso.",
+      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 expressive studio photography, late 1972. Mick Jagger singing with raw vulnerability into a vintage studio condenser microphone, hands gesturing gently, eyes closed in deep emotional concentration, soft amber studio lights highlighting his iconic face and lips, 1970s tape machines in the blurred background, 35mm film grain."
+      "prompt": "Vertical 9:16 authentic 35mm documentary color photograph, 1997. A Mexican woman in her mid-50s with silvery grey curly hair, seated calmly on the weathered wooden dock of San Blas by the ocean. Before her is a rustic woven basket filled with handmade seashell necklaces and small traditional Mexican sweets. Her sunlit, serene face holds a gentle, peaceful smile; her weathered hands rest over a string of seashells. Dressed in her characteristic simple white cotton dress. Natural Pacific coastal light, warm 1990s film texture, no text."
     },
     {
       "id": 7,
-      "text": "En el piano, el maestro Nicky Hopkins tejió una introducción cristalina que conmovió a la banda entera.",
+      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 atmospheric music studio scene, 1972. Renowned pianist Nicky Hopkins sitting at an upright wooden acoustic piano in the studio, focused hands gracefully playing the iconic delicate piano intro chords, cigarette in an ashtray, sheet music on the piano stand, warm tungsten lamplight, nostalgic 35mm film texture."
+      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, May 1997. On the wooden dock of San Blas by the sea, Fher Olvera (lead singer of Maná in 1997, thin build, long dark curly rock hair, wearing a loose unbuttoned casual cotton shirt and faded jeans) sits attentively on the edge of the dock conversing with the Mexican woman in her white dress with her basket of seashells. Fher is listening to her with deep respect and emotional awe. Late afternoon warm golden sun reflecting on the Pacific Ocean, documentary candid intimacy, authentic 1997 film grain, no text."
     },
     {
       "id": 8,
-      "text": "Al salir al mundo, aquella fragilidad nacida en un cuarto de hospital se convirtió en el número uno global.",
+      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 iconic 1973 Rolling Stones live concert scene. Mick Jagger and Keith Richards performing on an intimate European stage under dramatic spotlights, Keith playing acoustic guitar seated on a stool, Jagger singing close to microphone, sea of glowing lighters and audience hands in deep reverence below, 35mm concert photography grain."
+      "prompt": "Vertical 9:16 authentic 35mm candid color photograph, 1997. Mexican singer Fher Olvera in 1997, in his late 30s with long curly dark hair, sitting in a rustic beachside room with open wooden shutters overlooking the night sea. He is holding a wooden acoustic guitar, focused in quiet inspiration, with an open paper notebook and pen resting on a small wooden table beside a vintage warm lamp. Intimate musical creation moment, authentic 1990s recording session mood, warm grain, no text."
     },
     {
       "id": 9,
-      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar.",
+      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 breathtaking contemplative landscape at dusk over Lake Geneva, Switzerland. Majestic snow-capped Alpine peaks in the far distance, tranquil deep blue waters reflecting the soft twilight pink and violet sky, an empty wooden bench on the lakeside promenade, gentle mountain breeze, zero people, zero vinyl or turntables, pure poetic serenity, cinematic 35mm aesthetic."
+      "prompt": "Vertical 9:16 authentic 35mm documentary photograph, twilight. The life-sized bronze commemorative statue of Rebeca Mendez Jimenez standing at the edge of the wooden pier of San Blas, facing the vast calm Pacific Ocean at dusk. Deep indigo and amber sunset sky, warm lantern light reflecting softly on the bronze and wet wooden planks, distant ocean horizon, cinematic contemplation, quiet solemnity, no text."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza."
+      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables."
+      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Una mañana, al calmarse el dolor, sus dedos temblorosos acariciaron una vieja guitarra acústica."
+      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela."
+      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston."
+      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Mick Jagger escuchó la melodía y grabó con el alma abierta los versos de un adiós doloroso."
+      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En el piano, el maestro Nicky Hopkins tejió una introducción cristalina que conmovió a la banda entera."
+      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Al salir al mundo, aquella fragilidad nacida en un cuarto de hospital se convirtió en el número uno global."
+      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar."
+      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
     }
   ],
   "subtitles": [
     {
-      "text": "En la primavera de 1972, Keith Richards ingresó a una solitaria clínica médica en Vevey, Suiza.",
       "start": 0,
-      "end": 10
+      "end": 10,
+      "text": "En la costa de Nayarit, los tablones centenarios del muelle de San Blas custodian el misterio más hondo del rock latino."
     },
     {
-      "text": "Acosado por la policía y sus adicciones, el guitarrista atravesó semanas de fiebre y temblores incontrolables.",
       "start": 10,
-      "end": 20
+      "end": 20,
+      "text": "En el otoño de 1971, una muchacha despidió en la orilla a su prometido antes de que una tormenta se lo tragara."
     },
     {
-      "text": "Una mañana, al calmarse el dolor, sus dedos temblorosos acariciaron una vieja guitarra acústica.",
       "start": 20,
-      "end": 30
+      "end": 30,
+      "text": "Durante décadas de soles implacables y aguaceros torrenciales, ella permaneció sentada en el mismo muelle vestida de blanco."
     },
     {
-      "text": "A pocos kilómetros de allí, en un hospital vecino, su compañera Anita Pallenberg daba a luz a su hija Angela.",
       "start": 30,
-      "end": 40
+      "end": 40,
+      "text": "Pero tras el mito latía una herida real: el desgarro de perder a sus hijos y una soledad que quebró su mente."
     },
     {
-      "text": "Meses más tarde, desterrados en Jamaica sin poder pisar Europa, The Rolling Stones se reunieron en Kingston.",
       "start": 40,
-      "end": 50
+      "end": 50,
+      "text": "Lejos de juzgarla, los pescadores del puerto la arroparon con ternura, protegiendo su inocencia frente a la crueldad del mundo."
     },
     {
-      "text": "Mick Jagger escuchó la melodía y grabó con el alma abierta los versos de un adiós doloroso.",
       "start": 50,
-      "end": 60
+      "end": 60,
+      "text": "Para subsistir, Rebeca vendía figuras de conchas a los viajeros, manteniendo en sus ojos una paz limpia y luminosa."
     },
     {
-      "text": "En el piano, el maestro Nicky Hopkins tejió una introducción cristalina que conmovió a la banda entera.",
       "start": 60,
-      "end": 70
+      "end": 70,
+      "text": "En mayo de 1997, Fher Olvera se sentó a su lado en el muelle y escuchó conmovido la verdad de su mirada."
     },
     {
-      "text": "Al salir al mundo, aquella fragilidad nacida en un cuarto de hospital se convirtió en el número uno global.",
       "start": 70,
-      "end": 80
+      "end": 80,
+      "text": "Esa misma noche, el cantante compuso una plegaria que convirtió el dolor de una mujer olvidada en un himno universal."
     },
     {
-      "text": "A veces la gloria del rock no nace de la furia, sino de la valentía de un hombre quebrado que vuelve a respirar.",
       "start": 80,
-      "end": 90
+      "end": 90,
+      "text": "Hay amores que desafían a la muerte y ausencias tan sagradas que ningún olvido puede borrar del horizonte."
     }
   ],
   "publication": {
-    "description": "En la primavera de 1972, Keith Richards no podía mover los dedos. Internado en una solitaria clínica de Vevey, Suiza, para someterse a una severa desintoxicación, el guitarrista de los Rolling Stones atravesaba semanas de fiebre, náuseas y temblores incontrolables.\n\nUna mañana, cuando la tormenta física empezó a ceder, estiró el brazo hacia una vieja guitarra acústica apoyada en el rincón. Sus manos frías buscaron un arpegio intuitivo y de sus labios brotó un suspiro involuntario: «Angie, Angie...». A escasos kilómetros de allí, en un hospital vecino, su pareja Anita Pallenberg daba a luz a su hija Angela. Aquellos acordes no nacieron de un escándalo de la prensa rosa, sino del milagro de un hombre quebrado que volvía a sentir el latido de la vida.\n\nMeses después, exiliados en un estudio sofocante de Jamaica, Mick Jagger y el pianista Nicky Hopkins terminaron de pulir la balada que conquistaría al mundo entero: la prueba viva de que incluso en los cuartos más oscuros, la música siempre rescata al alma del abismo.\n\n¿Qué recuerdo imborrable o qué persona llega a tu mente cada vez que suena el arpegio de «Angie»? Te leemos en comentarios.\n\nLa historia completa y los archivos documentales están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TheRollingStones #KeithRichards #MickJagger #Angie #HistoriaDelRock #RockClasico #GoatsHeadSoup",
-    "tiktokDescription": "En 1972 Keith Richards no podía mover los dedos en una clínica suiza. Tomó una guitarra para volver a respirar y de sus manos nació «Angie»: la balada más humana del rock. 🎸✨\n\n#AcordesOcultos #TheRollingStones #KeithRichards #MickJagger #Angie #RockClasico #HistoriasReales #AprendeEnTikTok"
+    "description": "El pueblo entero la llamaba «la loca del muelle», pero su traje blanco guardaba una de las heridas más conmovedoras de la música en español.\n\nEn mayo de 1997, Fher Olvera caminaba por el muelle de madera de San Blas, Nayarit, cuando vio a una mujer de cabello plateado vendiendo dulces y figuras de conchas marinas. Llevaba décadas allí, vestida de blanco y mirando con paciencia infinita hacia las olas del Pacífico. La leyenda local decía que esperaba a un pescador que una tormenta jamás devolvió, pero la verdad documentada de Rebeca Méndez Jiménez guardaba un dolor aún más profundo: el desgarro de haber perdido la custodia de sus hijos y una mente quebrada por la soledad que eligió el océano como su único refugio de paz.\n\nFher se sentó a su lado, conversó con ella durante horas y esa misma noche, conmovido hasta las lágrimas por la dignidad de sus ojos, compuso los primeros acordes de «En el muelle de San Blas». Aquella mujer olvidada por el mundo encontró en la voz de Maná una promesa inmortal que hoy resuena en cada rincón del continente.\n\n¿Qué sientes cada vez que suena el arpegio de «En el muelle de San Blas» y a quién recuerdas al escucharla? Te leemos en comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #Mana #FherOlvera #EnElMuelleDeSanBlas #RockEnEspanol #SuenosLiquidos #HistoriasReales #RockLatino",
+    "tiktokDescription": "El pueblo la llamaba «la loca del muelle», pero su vestido blanco guardaba una historia de amor y dolor real que conmovió a Maná. 🌊🎸✨\n\n#AcordesOcultos #Mana #EnElMuelleDeSanBlas #RockEnEspanol #HistoriasReales #AprendeEnTikTok"
   }
 }

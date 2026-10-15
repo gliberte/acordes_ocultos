@@ -500,7 +500,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'el-exito-que-destruyo-a-la-banda': 'berlin-take-my-breath-away-acordes-ocultos',
           'takemybreathaway': 'berlin-take-my-breath-away-acordes-ocultos',
           'berlintakemybreathaway': 'berlin-take-my-breath-away-acordes-ocultos',
-          'berlin-take-my-breath-away': 'berlin-take-my-breath-away-acordes-ocultos'
+          'berlin-take-my-breath-away': 'berlin-take-my-breath-away-acordes-ocultos',
+          'laverdaderahistoriatrasenelmuelledesanblas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'la-verdadera-historia-tras-en-el-muelle-de-san-blas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'enelmuelledesanblas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'en-el-muelle-de-san-blas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'manaenelmuelledesanblas': 'mana-en-el-muelle-de-san-blas-acordes-ocultos',
+          'manaenelmuelledesanblasacordesocultos': 'mana-en-el-muelle-de-san-blas-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
