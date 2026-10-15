@@ -1,248 +1,248 @@
 {
   "topic": "acordes-ocultos",
-  "title": "El himno que aprendió a levantarnos de los escombros",
-  "artist": "Soda Stereo",
-  "slug": "el-himno-que-aprendio-a-levantarnos-de-los-escombros",
-  "articleSlug": "soda-stereo-cuando-pase-el-temblor",
-  "hook": "Gustavo Cerati escribió una metáfora sobre el miedo íntimo, pero América Latina la convirtió en su mayor plegaria contra el destino.",
-  "anecdote": "En 1985, Gustavo Cerati concibió el ritmo andino de «Cuando pase el temblor» pensando en un colapso emocional privado. Sin embargo, semanas antes de que el disco saliera al público, el terremoto de septiembre devastó la Ciudad de México. Cuando Soda Stereo llegó a tocar entre las ruinas y el luto, miles de personas no bailaron un tema pop; se abrazaron entre lágrimas para cantarlo como una plegaria de vida. Cuarenta años después, en este 2026, tres terremotos de más de 7 grados sacudieron en menos de 100 días a Venezuela, Colombia y Panamá. En noches de réplicas y calles a oscuras, el mismo estribillo volvió a sonar en radios y balcones: la certeza de que el suelo puede quebrarse, pero la hermandad de nuestra gente jamás se derrumba.",
+  "title": "La disculpa que tardó 80 años en llegar",
+  "artist": "Don McLean",
+  "slug": "don-mclean-vincent-acordes-ocultos",
+  "articleSlug": "don-mclean-vincent-acordes-ocultos",
+  "hook": "En 1890, Vincent van Gogh murió creyendo que su vida fue un fracaso absoluto. Ochenta años después, un músico arruinado le escribió la disculpa que la humanidad le debía.",
+  "anecdote": "En 1890, Vincent van Gogh murió en soledad y miseria creyendo que su vida había sido un fracaso absoluto. Solo vendió un cuadro formal y sus últimas palabras a su hermano Theo fueron: «La tristeza durará para siempre». Ochenta años después, en 1970, un Don McLean empobrecido leyendo las cartas íntimas de Vincent y Theo descubrió la tragedia de un hombre incomprendido que amó al mundo con sus colores, escribiendo una balada que se convirtió en la disculpa universal de la humanidad hacia su dolor.",
   "durationSeconds": 90,
   "beats": [
-    "En 1985, Gustavo Cerati tomó su guitarra buscando un compás andino para hablar del dolor y la soledad íntima.",
-    "Semanas antes del lanzamiento, la tierra se abrió en México: la capital quedó sepultada bajo toneladas de polvo y escombros.",
-    "Al llegar a tocar, la multitud no bailó: miles de voces lloraron juntas, transformando la canción en una plegaria de supervivencia.",
-    "Cuatro décadas después, en este 2026, el mar de La Guaira en Venezuela se estremeció bajo un violento doblete sísmico.",
-    "Semanas más tarde, las montañas de Colombia temblaron con fuerza, sacudiendo desde el Chocó hasta los valles del Eje Cafetero.",
-    "Y en octubre, el istmo de Panamá sintió el coloso de 7.7 en Azuero, poniendo a prueba la entereza de su gente.",
-    "En cada calle a oscuras, radios y teléfonos encendieron la misma melodía para acompañar el miedo y abrazar a los vecinos.",
-    "La voz eterna de Cerati demostró que la música no detiene los muros, pero sostiene el alma cuando todo parece caer.",
-    "Los mapas trazan fronteras políticas, pero cuando la tierra tiembla, descubrimos que bajo el miedo todos compartimos el mismo latido."
+    "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
+    "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
+    "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
+    "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
+    "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
+    "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
+    "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
+    "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
+    "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor."
   ],
-  "outro": "¿En qué momento difícil de tu vida te acompañó la voz de Gustavo Cerati?",
+  "outro": "¿Qué cuadro o canción te ha hecho sentir comprendido en tus días más solitarios?",
   "palette": {
-    "ink": "#1e1b18",
-    "paper": "#fdf6e2",
-    "accent": "#b45309",
-    "glow": "#f59e0b"
+    "ink": "#0f172a",
+    "paper": "#fef3c7",
+    "accent": "#d97706",
+    "glow": "#38bdf8"
   },
   "music": {
-    "title": "Cuando Pase El Temblor",
-    "artist": "Soda Stereo",
-    "src": "music/soda-stereo-cuando-pase-el-temblor.mp3",
-    "file": "music/soda-stereo-cuando-pase-el-temblor.mp3",
+    "title": "Vincent",
+    "artist": "Don McLean",
+    "src": "music/don-mclean-vincent-acordes-ocultos.mp3",
+    "file": "music/don-mclean-vincent-acordes-ocultos.mp3",
     "startSecond": 0,
-    "volume": 0.6,
+    "volume": 0.65,
     "instagram": {
-      "query": "Cuando Pase El Temblor Soda Stereo",
-      "expectedTitle": "Cuando Pase El Temblor",
-      "expectedArtist": "Soda Stereo",
+      "query": "Vincent Don McLean",
+      "expectedTitle": "Vincent",
+      "expectedArtist": "Don McLean",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Cuando Pase El Temblor de Soda Stereo en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Vincent (Starry, Starry Night) de Don McLean en Instagram Reels."
     }
   },
-  "video": "videos/soda-stereo-cuando-pase-el-temblor",
-  "cover": "videos/soda-stereo-cuando-pase-el-temblor/cover_bg.png",
-  "coverBg": "videos/soda-stereo-cuando-pase-el-temblor/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, 1985. Gustavo Cerati standing outdoors in high-contrast cinematic natural light, iconic messy layered dark curly hair, high cheekbones, intense poetic gaze, black leather jacket with popped collar over dark shirt, mysterious atmospheric mountain fog in background, rich cinematic film grain, generous negative space at top and bottom for typography, no text.",
+  "video": "videos/don-mclean-vincent-acordes-ocultos",
+  "cover": "videos/don-mclean-vincent-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/don-mclean-vincent-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 35mm film photograph, early 1970s. Young Don McLean sitting outdoors with his acoustic guitar, long natural wavy brown hair, gentle thoughtful expression, soft earthy 1970s jacket, warm golden autumn twilight light filtering through Berkshire trees, swirling starry twilight sky in distant horizon, rich cinematic film grain, generous negative space at top and bottom for typography, no text.",
   "assets": [
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-01.png",
-      "prompt": "Vertical 9:16 warm atmospheric 1985 recording studio photography. Young Gustavo Cerati in 1985, distinct curly dark hair, high cheekbones and sharp jaw, wearing casual 80s dark knit sweater, holding an acoustic guitar and testing synthesizer keys, soft warm amber incandescent studio lamps, sheet music, microphone stand, 35mm film grain, moody intimate lighting."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 atmospheric historical scene, July 1890. Vincent van Gogh standing in the golden wheat fields of Auvers-sur-Oise under an overcast somber sky, authentic facial features matching his 1889 self-portrait with red beard, deep set troubled eyes, worn artist jacket, holding a wooden easel and brushes, flocks of dark crows flying in the distant sky, 35mm documentary film grain, melancholic and cinematic."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-02.png",
-      "prompt": "Vertical 9:16 powerful documentary-style archival photography, September 1985. Ciudad de México after the earthquake, dusty atmospheric haze, group of brave civilian rescue volunteers forming a human chain passing buckets and concrete debris, determined emotional expressions, historic 1985 Mexican urban street setting, dust in the air, 35mm photojournalism aesthetic, authentic grain."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate 1890 historical interior photograph. The modest wooden attic room at Auberge Ravoux, Vincent van Gogh lying weak in bed, his devoted younger brother Theo van Gogh sitting closely beside him holding his hand with profound grief and tears, soft candlelight casting warm shadows, antique wooden furniture, medical bottles, deeply moving and human, 35mm vintage grain."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-03.png",
-      "prompt": "Vertical 9:16 emotional concert photography, late 1985. Soda Stereo performing on an energetic stage in Mexico City, Gustavo Cerati singing passionately into microphone with vintage stage lights, audience below seen from behind with arms raised towards the stage in emotional solidarity, dramatic silhouettes, authentic 1980s concert atmosphere, 35mm vintage grain."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 late 19th century Parisian art gallery or bohemian salon scene, 1890. Elegant French critics and bourgeois patrons in Victorian top hats and suits turning away with skeptical mocking gestures from a brightly colored impasto painting on an easel, thick swirling yellow and cobalt pigments ignored on the wall, moody gaslamp illumination, rich period textures, authentic archival aesthetic."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-04.png",
-      "prompt": "Vertical 9:16 authentic documentary photography, June 2026. A coastal street in La Guaira, Venezuela, during dawn after a seismic tremor, residents gathered outside holding flashlights and jackets, neighbors checking on each other with care and calm solidarity, Caribbean coastal architecture, soft morning twilight glow, 35mm photojournalism look, respectful and human."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 candid 1970 documentary photograph. Young Don McLean, 25 years old, slender build, long wavy dark brown hair, wearing a humble 1970 denim jacket, walking alone with a worn acoustic guitar case through a quiet rural Massachusetts road in autumn, fallen golden leaves, gentle melancholy, authentic 1970s Kodachrome film grain."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-05.png",
-      "prompt": "Vertical 9:16 documentary photojournalism style, August 2026. An Andean town square in the Colombian coffee axis region, people gathered peacefully in a park after earthquake tremors, civil defense volunteers talking with local families, traditional Colombian mountain town architecture, lush green hills in distant mist, natural morning daylight, respectful community unity."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 atmospheric 1970 interior scene. Don McLean sitting at a wooden table in a modest Berkshire veranda, soft autumn morning light through the window, reading an open hardcover biography with handwritten letters and art sketches of Van Gogh, intense revelation and empathy in his eyes, tea mug, handwritten notes scattered, 35mm film grain."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-06.png",
-      "prompt": "Vertical 9:16 documentary photography, October 2026. Streets in the Azuero peninsula, Panama, following the strong tremor, local residents and rescue workers in orange vests assisting an elderly neighbor, orderly street scene with tropical colonial style houses, overcast humid sky, warmth and mutual aid, realistic 35mm news photography."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 poetic impressionistic historical montage. The swirling cosmic blue and yellow vortexes of Van Gogh's Starry Night gently reflected in a studio window, contrasting with the tired, compassionate face of Vincent painting alone in his studio in Saint-Rémy, vibrant cobalt blues and brilliant radiant yellow spirals, artistic realism, cinematic depth."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-07.png",
-      "prompt": "Vertical 9:16 cinematic intimate documentary shot. A small group of young people and an elder sitting together on a sidewalk curb at twilight, listening attentively to an old portable transistor radio and smartphone broadcast, warm golden streetlamp glow, expressions of relief and quiet hope, authentic street camaraderie, 35mm grain, poetic realism."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 intimate 1970 songwriting scene. Don McLean holding an old acoustic guitar, resting a paper envelope on his knee while scribbling lyrics with a pencil, eyes closed in deep emotion as his fingers pluck the strings, warm lamp light, simple wooden room, pure authenticity and inspiration, vintage 35mm film grain."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-08.png",
-      "prompt": "Vertical 9:16 breathtaking live stadium photography. Gustavo Cerati singing with deep emotion at microphone with eyes closed, stage lights creating a halo behind him, stadium crowd glowing with thousands of tiny lights held up like stars in the dark, immense emotional connection, cinematic live music photography, rich grain."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 documentary museum scene, 1973. Inside the newly opened Van Gogh Museum in Amsterdam, visitors of different ages quietly standing in awe before vibrant original Van Gogh masterpieces on white gallery walls, soft modern gallery lighting, museum curators placing sheet music and archival documents into a ceremonial commemorative vault case, 35mm documentary aesthetic."
     },
     {
-      "src": "videos/soda-stereo-cuando-pase-el-temblor/scene-09.png",
-      "prompt": "Vertical 9:16 majestic cinematic landscape photography. A breathtaking golden sunrise rising over Latin American mountain peaks and distant tranquil coastline, soft morning mist floating through valleys, warm ethereal golden light bathing a peaceful village below, symbols of hope and eternal renewal, zero people, zero vinyl or turntables, pure contemplation and sublime quietness, 35mm film aesthetic."
+      "src": "videos/don-mclean-vincent-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 breathtaking contemplative landscape at midnight over Auvers-sur-Oise. A vast, majestic deep indigo night sky filled with radiant swirling stars, soft mist floating over quiet rolling hills, distant silhouette of the village church tower illuminated by starlight, sublime serenity and timeless peace, zero people, zero vinyl or turntables, pure poetic reflection, cinematic 35mm aesthetic."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En 1985, Gustavo Cerati tomó su guitarra buscando un compás andino para hablar del dolor y la soledad íntima.",
+      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 warm atmospheric 1985 recording studio photography. Young Gustavo Cerati in 1985, distinct curly dark hair, high cheekbones and sharp jaw, wearing casual 80s dark knit sweater, holding an acoustic guitar and testing synthesizer keys, soft warm amber incandescent studio lamps, sheet music, microphone stand, 35mm film grain, moody intimate lighting."
+      "prompt": "Vertical 9:16 atmospheric historical scene, July 1890. Vincent van Gogh standing in the golden wheat fields of Auvers-sur-Oise under an overcast somber sky, authentic facial features matching his 1889 self-portrait with red beard, deep set troubled eyes, worn artist jacket, holding a wooden easel and brushes, flocks of dark crows flying in the distant sky, 35mm documentary film grain, melancholic and cinematic."
     },
     {
       "id": 2,
-      "text": "Semanas antes del lanzamiento, la tierra se abrió en México: la capital quedó sepultada bajo toneladas de polvo y escombros.",
+      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 powerful documentary-style archival photography, September 1985. Ciudad de México after the earthquake, dusty atmospheric haze, group of brave civilian rescue volunteers forming a human chain passing buckets and concrete debris, determined emotional expressions, historic 1985 Mexican urban street setting, dust in the air, 35mm photojournalism aesthetic, authentic grain."
+      "prompt": "Vertical 9:16 intimate 1890 historical interior photograph. The modest wooden attic room at Auberge Ravoux, Vincent van Gogh lying weak in bed, his devoted younger brother Theo van Gogh sitting closely beside him holding his hand with profound grief and tears, soft candlelight casting warm shadows, antique wooden furniture, medical bottles, deeply moving and human, 35mm vintage grain."
     },
     {
       "id": 3,
-      "text": "Al llegar a tocar, la multitud no bailó: miles de voces lloraron juntas, transformando la canción en una plegaria de supervivencia.",
+      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 emotional concert photography, late 1985. Soda Stereo performing on an energetic stage in Mexico City, Gustavo Cerati singing passionately into microphone with vintage stage lights, audience below seen from behind with arms raised towards the stage in emotional solidarity, dramatic silhouettes, authentic 1980s concert atmosphere, 35mm vintage grain."
+      "prompt": "Vertical 9:16 late 19th century Parisian art gallery or bohemian salon scene, 1890. Elegant French critics and bourgeois patrons in Victorian top hats and suits turning away with skeptical mocking gestures from a brightly colored impasto painting on an easel, thick swirling yellow and cobalt pigments ignored on the wall, moody gaslamp illumination, rich period textures, authentic archival aesthetic."
     },
     {
       "id": 4,
-      "text": "Cuatro décadas después, en este 2026, el mar de La Guaira en Venezuela se estremeció bajo un violento doblete sísmico.",
+      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 authentic documentary photography, June 2026. A coastal street in La Guaira, Venezuela, during dawn after a seismic tremor, residents gathered outside holding flashlights and jackets, neighbors checking on each other with care and calm solidarity, Caribbean coastal architecture, soft morning twilight glow, 35mm photojournalism look, respectful and human."
+      "prompt": "Vertical 9:16 candid 1970 documentary photograph. Young Don McLean, 25 years old, slender build, long wavy dark brown hair, wearing a humble 1970 denim jacket, walking alone with a worn acoustic guitar case through a quiet rural Massachusetts road in autumn, fallen golden leaves, gentle melancholy, authentic 1970s Kodachrome film grain."
     },
     {
       "id": 5,
-      "text": "Semanas más tarde, las montañas de Colombia temblaron con fuerza, sacudiendo desde el Chocó hasta los valles del Eje Cafetero.",
+      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 documentary photojournalism style, August 2026. An Andean town square in the Colombian coffee axis region, people gathered peacefully in a park after earthquake tremors, civil defense volunteers talking with local families, traditional Colombian mountain town architecture, lush green hills in distant mist, natural morning daylight, respectful community unity."
+      "prompt": "Vertical 9:16 atmospheric 1970 interior scene. Don McLean sitting at a wooden table in a modest Berkshire veranda, soft autumn morning light through the window, reading an open hardcover biography with handwritten letters and art sketches of Van Gogh, intense revelation and empathy in his eyes, tea mug, handwritten notes scattered, 35mm film grain."
     },
     {
       "id": 6,
-      "text": "Y en octubre, el istmo de Panamá sintió el coloso de 7.7 en Azuero, poniendo a prueba la entereza de su gente.",
+      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 documentary photography, October 2026. Streets in the Azuero peninsula, Panama, following the strong tremor, local residents and rescue workers in orange vests assisting an elderly neighbor, orderly street scene with tropical colonial style houses, overcast humid sky, warmth and mutual aid, realistic 35mm news photography."
+      "prompt": "Vertical 9:16 poetic impressionistic historical montage. The swirling cosmic blue and yellow vortexes of Van Gogh's Starry Night gently reflected in a studio window, contrasting with the tired, compassionate face of Vincent painting alone in his studio in Saint-Rémy, vibrant cobalt blues and brilliant radiant yellow spirals, artistic realism, cinematic depth."
     },
     {
       "id": 7,
-      "text": "En cada calle a oscuras, radios y teléfonos encendieron la misma melodía para acompañar el miedo y abrazar a los vecinos.",
+      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 cinematic intimate documentary shot. A small group of young people and an elder sitting together on a sidewalk curb at twilight, listening attentively to an old portable transistor radio and smartphone broadcast, warm golden streetlamp glow, expressions of relief and quiet hope, authentic street camaraderie, 35mm grain, poetic realism."
+      "prompt": "Vertical 9:16 intimate 1970 songwriting scene. Don McLean holding an old acoustic guitar, resting a paper envelope on his knee while scribbling lyrics with a pencil, eyes closed in deep emotion as his fingers pluck the strings, warm lamp light, simple wooden room, pure authenticity and inspiration, vintage 35mm film grain."
     },
     {
       "id": 8,
-      "text": "La voz eterna de Cerati demostró que la música no detiene los muros, pero sostiene el alma cuando todo parece caer.",
+      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 breathtaking live stadium photography. Gustavo Cerati singing with deep emotion at microphone with eyes closed, stage lights creating a halo behind him, stadium crowd glowing with thousands of tiny lights held up like stars in the dark, immense emotional connection, cinematic live music photography, rich grain."
+      "prompt": "Vertical 9:16 documentary museum scene, 1973. Inside the newly opened Van Gogh Museum in Amsterdam, visitors of different ages quietly standing in awe before vibrant original Van Gogh masterpieces on white gallery walls, soft modern gallery lighting, museum curators placing sheet music and archival documents into a ceremonial commemorative vault case, 35mm documentary aesthetic."
     },
     {
       "id": 9,
-      "text": "Los mapas trazan fronteras políticas, pero cuando la tierra tiembla, descubrimos que bajo el miedo todos compartimos el mismo latido.",
+      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 majestic cinematic landscape photography. A breathtaking golden sunrise rising over Latin American mountain peaks and distant tranquil coastline, soft morning mist floating through valleys, warm ethereal golden light bathing a peaceful village below, symbols of hope and eternal renewal, zero people, zero vinyl or turntables, pure contemplation and sublime quietness, 35mm film aesthetic."
+      "prompt": "Vertical 9:16 breathtaking contemplative landscape at midnight over Auvers-sur-Oise. A vast, majestic deep indigo night sky filled with radiant swirling stars, soft mist floating over quiet rolling hills, distant silhouette of the village church tower illuminated by starlight, sublime serenity and timeless peace, zero people, zero vinyl or turntables, pure poetic reflection, cinematic 35mm aesthetic."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En 1985, Gustavo Cerati tomó su guitarra buscando un compás andino para hablar del dolor y la soledad íntima."
+      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Semanas antes del lanzamiento, la tierra se abrió en México: la capital quedó sepultada bajo toneladas de polvo y escombros."
+      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Al llegar a tocar, la multitud no bailó: miles de voces lloraron juntas, transformando la canción en una plegaria de supervivencia."
+      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Cuatro décadas después, en este 2026, el mar de La Guaira en Venezuela se estremeció bajo un violento doblete sísmico."
+      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Semanas más tarde, las montañas de Colombia temblaron con fuerza, sacudiendo desde el Chocó hasta los valles del Eje Cafetero."
+      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Y en octubre, el istmo de Panamá sintió el coloso de 7.7 en Azuero, poniendo a prueba la entereza de su gente."
+      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En cada calle a oscuras, radios y teléfonos encendieron la misma melodía para acompañar el miedo y abrazar a los vecinos."
+      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "La voz eterna de Cerati demostró que la música no detiene los muros, pero sostiene el alma cuando todo parece caer."
+      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Los mapas trazan fronteras políticas, pero cuando la tierra tiembla, descubrimos que bajo el miedo todos compartimos el mismo latido."
+      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor."
     }
   ],
   "subtitles": [
     {
-      "text": "En 1985, Gustavo Cerati tomó su guitarra buscando un compás andino para hablar del dolor y la soledad íntima.",
+      "text": "En julio de 1890, Vincent van Gogh murió en la miseria creyendo que su vida había sido un fracaso total.",
       "start": 0,
       "end": 10
     },
     {
-      "text": "Semanas antes del lanzamiento, la tierra se abrió en México: la capital quedó sepultada bajo toneladas de polvo y escombros.",
+      "text": "A su lado, su hermano Theo sostuvo su mano entre lágrimas al escuchar su último suspiro: la tristeza durará para siempre.",
       "start": 10,
       "end": 20
     },
     {
-      "text": "Al llegar a tocar, la multitud no bailó: miles de voces lloraron juntas, transformando la canción en una plegaria de supervivencia.",
+      "text": "París lo había repudiado y el mundo entero ignoró los soles de fuego y las noches que pintó con el alma.",
       "start": 20,
       "end": 30
     },
     {
-      "text": "Cuatro décadas después, en este 2026, el mar de La Guaira en Venezuela se estremeció bajo un violento doblete sísmico.",
+      "text": "Ochenta años después, en 1970, un joven Don McLean sobrevivía cantando en escuelas rurales por unos pocos dólares.",
       "start": 30,
       "end": 40
     },
     {
-      "text": "Semanas más tarde, las montañas de Colombia temblaron con fuerza, sacudiendo desde el Chocó hasta los valles del Eje Cafetero.",
+      "text": "Al abrir una biografía con las cartas íntimas entre Vincent y Theo, descubrió que aquel pintor no estaba loco.",
       "start": 40,
       "end": 50
     },
     {
-      "text": "Y en octubre, el istmo de Panamá sintió el coloso de 7.7 en Azuero, poniendo a prueba la entereza de su gente.",
+      "text": "Comprendió el tormento de un hombre sensible que intentó rescatar al mundo con colores que nadie supo mirar.",
       "start": 50,
       "end": 60
     },
     {
-      "text": "En cada calle a oscuras, radios y teléfonos encendieron la misma melodía para acompañar el miedo y abrazar a los vecinos.",
+      "text": "Conmovido hasta las lágrimas, tomó su guitarra acústica y escribió en un sobre usado una plegaria de desagravio.",
       "start": 60,
       "end": 70
     },
     {
-      "text": "La voz eterna de Cerati demostró que la música no detiene los muros, pero sostiene el alma cuando todo parece caer.",
+      "text": "Su canción cruzó los continentes y en Ámsterdam depositaron sus partituras en una cápsula del tiempo junto a los pinceles de Vincent.",
       "start": 70,
       "end": 80
     },
     {
-      "text": "Los mapas trazan fronteras políticas, pero cuando la tierra tiembla, descubrimos que bajo el miedo todos compartimos el mismo latido.",
+      "text": "A veces el reconocimiento llega tarde para salvar una vida, pero la belleza siempre encuentra el camino para redimir el dolor.",
       "start": 80,
       "end": 90
     }
   ],
   "publication": {
-    "description": "En 1985, Gustavo Cerati escribió una metáfora sobre el miedo íntimo. Pero la historia tenía otros planes para su canción.\n\nSemanas antes de lanzar «Cuando pase el temblor», la tierra se abrió en dos en México. Cuando Soda Stereo llegó a tocar entre las ruinas y el luto, ocurrió algo sagrado: miles de personas no bailaron un tema pop; se abrazaron entre lágrimas para cantarlo como una plegaria de vida. La canción dejó de pertenecerle a la banda y se convirtió en el himno de los que buscan a los suyos entre los escombros.\n\nCuarenta años después, en este 2026, tres terremotos de más de 7 grados sacudieron en menos de 100 días a Venezuela, Colombia y Panamá. En noches de réplicas y calles a oscuras, el mismo estribillo volvió a sonar en radios y balcones. La certeza de que el suelo puede quebrarse, pero la hermandad de nuestra gente jamás se derrumba.\n\n¿En qué momento difícil de tu vida te acompañó la voz de Cerati? La crónica completa y el archivo documental están en el enlace de nuestro perfil.\n\n#SodaStereo #GustavoCerati #CuandoPaseElTemblor #RockEnEspanol #AcordesOcultos #Cerati #SolidaridadLatina",
-    "tiktokDescription": "La canción que Gustavo Cerati escribió sobre el miedo y terminó abrazando a un continente entero. 💔🕊️\n\n#SodaStereo #GustavoCerati #CuandoPaseElTemblor #RockEnEspanol #AcordesOcultos"
+    "description": "En 1890, Vincent van Gogh murió en la miseria absoluta creyendo que su vida había sido un fracaso total. Solo vendió un cuadro formal y sus últimas palabras a su hermano Theo fueron desgarradoras: «La tristeza durará para siempre». Nadie quiso escuchar su dolor ni comprender los soles de fuego que pintaba en sus lienzos.\n\nOchenta años después, en 1970, un joven Don McLean sobrevivía cantando en colegios públicos por unos pocos dólares. Mientras hojeaba una biografía prestada con las cartas íntimas entre Vincent y Theo, descubrió la verdad de un hombre incomprendido que no estaba loco, sino devastado por la soledad de entregar tanta belleza a un mundo sordo.\n\nTomó una guitarra acústica y un sobre usado, y en apenas una hora compuso «Vincent (Starry, Starry Night)»: la plegaria que tardó casi un siglo en llegar como la disculpa que la humanidad le debía a su memoria. Hoy, sus partituras descansan en una cápsula del tiempo en el Museo Van Gogh de Ámsterdam, junto a los pinceles del genio.\n\n¿Qué cuadro o canción te ha hecho sentir profundamente comprendido en tus momentos más solitarios? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #DonMcLean #VincentVanGogh #StarryNight #HistoriaDeLaMusica #VanGogh #RockClasico #ArteYMusica",
+    "tiktokDescription": "En 1890 Vincent van Gogh murió en la miseria creyendo que fue un fracaso. 80 años después, Don McLean leyó sus cartas íntimas y le compuso la canción que la humanidad tardó un siglo en dedicarle: Vincent (Starry, Starry Night). 🌻✨\n\n#AcordesOcultos #VincentVanGogh #DonMcLean #StarryNight #HistoriasReales #Musica #DatosCuriosos #AprendeEnTikTok"
   }
 }
