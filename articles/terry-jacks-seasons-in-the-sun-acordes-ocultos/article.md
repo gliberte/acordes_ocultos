@@ -12,7 +12,7 @@ El sencillo despachó catorce millones de copias físicas en cuestión de meses,
 
 Sin embargo, detrás de aquella fachada de armonías luminosas y palmas alegres se ocultaba una de las paradojas más sobrecogedoras y poéticas de la historia del pop: el mundo entero estaba bailando y festejando, palabra por palabra, el testamento desgarrador de un hombre joven al que le quedaban pocas semanas de vida.
 
-![Terry Jacks en 1974](images/scene-01.webp)
+![Jóvenes disfrutando del verano de 1974 y escuchando la radio al aire libre](images/scene-01.webp)
 
 ---
 
@@ -46,6 +46,8 @@ Terry Jacks regresó a Vancouver sintiendo que el proyecto había sido un callej
 
 Ver a su compañero apagarse en una cama de hospital en cuestión de semanas desgarró el alma del músico. En medio de largas noches de vigilia y duelo, Terry recordó aquella melodía que The Beach Boys habían desechado. Pero al releer la letra, comprendió que el sarcasmo teatral de Jacques Brel y la frialdad de la sátira francesa eran un insulto frente al dolor real que estaba viviendo.
 
+![El dolor de la vigilia en el hospital de Vancouver en 1973](images/scene-04.webp)
+
 Sentado a su piano en la madrugada, Jacks tomó un lápiz y tachó cada línea que hablara de rencor o desamor. Decidió transformar la canción en la carta de despedida que su amigo moribundo le dejaría a sus seres queridos antes de partir hacia la nada:
 
 * **El adiós al amigo de la infancia:** La primera estrofa (*«Goodbye to you, my trusted friend...»*) rememoraba las carreras infantiles, los árboles trepados a los nueve años y la gratitud por haber compartido el camino.
@@ -54,7 +56,7 @@ Sentado a su piano en la madrugada, Jacks tomó un lápiz y tachó cada línea q
 
 El estribillo, en lugar de sonar sombrío, fue concebido como un rayo de sol: celebrar que, a pesar de la brevedad de la existencia, habían tenido alegría, diversión y temporadas luminosas bajo el cielo.
 
-![El hospital y la composición íntima](images/scene-04.webp)
+![Terry Jacks reescribiendo la canción al piano de madrugada como una carta de despedida](images/scene-05.webp)
 
 ---
 
@@ -75,6 +77,8 @@ Lo que ocurrió a continuación desafió todas las leyes del mercado. Las radios
 Cincuenta años después de aquel fenómeno irrepetible, *«Seasons in the Sun»* permanece en la memoria colectiva como un enigma poético fascinante. Es la prueba irrefutable de que la música posee la capacidad milagrosa de envolver el dolor más desgarrador en una capa de belleza trascendente.
 
 Quienes la bailaron en el verano de 1974 creían celebrar la juventud eterna; quienes la escuchan hoy con el corazón despierto comprenden que estaban presenciando un acto supremo de piedad humana: el derecho a despedirse de quienes amamos no con amargura ni reproches, sino agradeciendo la fortuna de haber compartido un instante bajo el sol antes de que caiga la tarde.
+
+![El banco solitario bajo el roble dorado al atardecer](images/scene-09.webp)
 
 ---
 

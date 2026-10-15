@@ -4,7 +4,7 @@
 
 ---
 
-![El acorde que unió a un continente](images/scene-01.webp)
+![Gustavo Cerati componiendo con su guitarra acústica en los estudios de Buenos Aires (1985)](images/scene-01.webp)
 
 ## Prólogo: El suelo que cede y la voz que sostiene
 
@@ -20,8 +20,6 @@ Esta es la crónica de una canción que aprendió a caminar entre las ruinas y q
 
 Para mediados de 1985, Soda Stereo ya no era el trío festivo y juvenil de peinados batidos que cantaba sobre dietas y duchas. Tras el impacto de su álbum debut, Gustavo Cerati, Zeta Bosio y Charly Alberti sentían la necesidad de dotar a su sonido de una densidad dramática más profunda. En la sala de ensayo y en los estudios Moebio, bajo la atenta mirada del técnico de grabación Mariano López, Cerati comenzó a experimentar con un compás inusual para el rock urbano: el pulso sincopado del carnavalito andino y el huayno.
 
-![Gustavo Cerati componiendo en 1985](images/scene-02.webp)
-
 Cerati tomó un teclado programable y emuló el timbre etéreo de los sikus y las quenas del altiplano, entrelazándolos con una caja de ritmos seca y guitarras limpias deudoras de The Police y The Cure. La lírica brotó desde la confesión y el aislamiento: *«Yo caminaré entre las piedras, hasta sentir el temblor en mis piernas...»*. Gustavo hablaba de un cráter desierto y de la vergüenza de sentirse vulnerable frente al mundo. Era un autorretrato sobre el pánico a ser herido. La pista fue titulada provisionalmente con el nombre que pasaría a la posteridad: *Cuando pase el temblor*.
 
 Sin embargo, el destino no permitiría que la canción quedara confinada al plano de la psicología individual.
@@ -32,13 +30,15 @@ Sin embargo, el destino no permitiría que la canción quedara confinada al plan
 
 El 19 de septiembre de 1985, a las 7:19 de la mañana, un terremoto de magnitud 8.1 sacudió los cimientos de la Ciudad de México, derribando cientos de edificios y cobrando miles de vidas. Fue la mayor tragedia urbana de la historia moderna del país. Las imágenes de brigadistas anónimos, vecinos removiendo losas con las manos ensangrentadas y el silencio reverencial exigido con el puño en alto conmovieron al planeta entero.
 
-![Las brigadas de rescate y la solidaridad en México](images/scene-03.webp)
+![Las brigadas de rescate y la solidaridad ciudadana en Ciudad de México tras el terremoto de 1985](images/scene-02.webp)
 
 Dos meses más tarde, en noviembre de 1985, salió al mercado el álbum *Nada Personal*. Cuando Soda Stereo realizó su primera incursión en territorio mexicano, el país aún respiraba a cal y duelo. Los ecos de la catástrofe estaban vivos en cada esquina del Distrito Federal.
 
 Al llegar la noche del concierto y sonar los primeros acordes de *Cuando pase el temblor*, ocurrió un fenómeno inexplicable: el público no saltó para bailar un hit radial. Miles de jóvenes cerraron los ojos, se abrazaron entre lágrimas y alzaron los brazos al cielo para corear *«¡Despiértame cuando pase el temblor!»*. 
 
 En ese instante sagrado, el texto fue arrancado de la libreta de Cerati y entregado a la memoria colectiva. Ya no hablaba de un desamor; era la plegaria desesperada de un pueblo que le pedía al destino despertar de la pesadilla y encontrar a sus hermanos con vida.
+
+![Soda Stereo en directo interpretando «Cuando pase el temblor» ante el público mexicano](images/scene-03.webp)
 
 ---
 

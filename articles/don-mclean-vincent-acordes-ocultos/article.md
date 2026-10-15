@@ -23,7 +23,7 @@ Para los habitantes de Arlés, Vincent era un extranjero excéntrico y peligroso
 
 Cuando Vincent falleció en la modesta habitación de la posada Ravoux el 29 de julio de 1890, el golpe fue letal para Theo. Incapaz de superar la pérdida y debilitado por su propia enfermedad, el hermano fiel murió apenas seis meses después, en enero de 1891. Antes de partir, Theo confió a su esposa, Jo van Gogh-Bonger, una misión sagrada: preservar aquellos lienzos y cartas olvidados en un desván, porque estaba seguro de que el tiempo terminaría haciendo justicia.
 
-![Don McLean leyendo las cartas de Van Gogh en 1970](images/scene-03.webp)
+![El rechazo de los salones parisinos en 1890: Críticos y coleccionistas desdeñando los lienzos de Van Gogh](images/scene-03.webp)
 
 ---
 
@@ -50,7 +50,7 @@ En apenas una hora, apoyado contra una pared de madera y con el eco de los acord
 > No quisieron escuchar, no sabían cómo...  
 > Quizás ahora escuchen).*
 
-![La grabación íntima en Nueva York](images/scene-05.webp)
+![Don McLean en la galería de los Berkshires en 1970 leyendo la correspondencia de Van Gogh con su guitarra](images/scene-05.webp)
 
 ---
 
@@ -73,6 +73,8 @@ En 1973 se inauguró oficialmente en Ámsterdam el Museo Van Gogh, reuniendo la 
 La tragedia de Vincent van Gogh nos recuerda la crueldad de un mundo que a menudo llega demasiado tarde para salvar a quienes más belleza le entregan. Vincent no pintaba para impresionar a los salones burgueses ni para acumular fortunas; pintaba porque el color era la única trinchera donde su espíritu podía respirar sin ahogarse en la angustia.
 
 Don McLean entendió que la música tiene el poder sagrado de reparar el pasado. Su balada no pudo devolverle la vida a Vincent, ni ahorrarle a Theo la desolación de su muerte prematura. Pero cada vez que esos acordes acústicos suenan y el cielo estrellado vuelve a iluminarse en la memoria colectiva, la humanidad salda una pequeña parte de su deuda con aquel hombre de barba rojiza que nos enseñó que incluso en la noche más oscura, las estrellas siempre giran llenas de luz.
+
+![La noche estrellada sobre Auvers-sur-Oise en soledad contemplativa](images/scene-09.webp)
 
 ---
 
