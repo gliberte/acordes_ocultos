@@ -534,7 +534,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'el-secreto-agridulce-oculto-detras-de-la-sonrisa-de-daydream-believer': 'the-monkees-daydream-believer-acordes-ocultos',
           'daydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
           'themonkeesdaydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
-          'themonkeesdaydreambelieveracordesocultos': 'the-monkees-daydream-believer-acordes-ocultos'
+          'themonkeesdaydreambelieveracordesocultos': 'the-monkees-daydream-believer-acordes-ocultos',
+          'bemybabyelhimnodeamoradolescentequecostolalibertadasupropiavoz': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'be-my-baby-el-himno-de-amor-adolescente-que-le-costo-la-libertad-a-su-propia-voz': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'bemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'theronettesbemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'theronettesbemybabyacordesocultos': 'the-ronettes-be-my-baby-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
