@@ -880,17 +880,40 @@ const main = async () => {
   const firstAsset = story.assets?.[0]?.src;
   if (firstAsset) {
     const coverName = story.brand === 'secret-chords' ? 'cover_eng.png' : 'cover.png';
-    let potentialCover = join(rootDir, 'public', firstAsset, '..', coverName);
-    if (!existsSync(potentialCover) && story.brand === 'secret-chords') {
-      potentialCover = join(rootDir, 'public', firstAsset, '..', 'cover.png');
+    const assetDir = resolve(rootDir, 'public', firstAsset, '..');
+    mkdirSync(assetDir, { recursive: true });
+    let potentialCover = join(assetDir, coverName);
+    if (!existsSync(potentialCover)) {
+      try {
+        console.log(`🎨 Generando portada (${coverName}) para "${story.title}"...`);
+        execSync(`npx remotion still src/index.ts StoryCover "${potentialCover}" --props="${options.story}"`, {
+          cwd: rootDir,
+          stdio: 'inherit'
+        });
+      } catch (err) {
+        console.warn(`⚠️ No se pudo auto-generar ${coverName}: ${err.message}`);
+      }
     }
     if (existsSync(potentialCover)) {
       coverPath = potentialCover;
+      copyFileSync(potentialCover, join(rootDir, 'out', coverName));
     }
 
-    const potentialTeaser = join(rootDir, 'public', firstAsset, '..', 'story_teaser.png');
+    const potentialTeaser = join(assetDir, 'story_teaser.png');
+    if (!existsSync(potentialTeaser)) {
+      try {
+        console.log(`🎞️ Generando Story Teaser (story_teaser.png) para "${story.title}"...`);
+        execSync(`npx remotion still src/index.ts StoryTeaser "${potentialTeaser}" --props="${options.story}"`, {
+          cwd: rootDir,
+          stdio: 'inherit'
+        });
+      } catch (err) {
+        console.warn(`⚠️ No se pudo auto-generar story_teaser.png: ${err.message}`);
+      }
+    }
     if (existsSync(potentialTeaser)) {
       teaserPath = potentialTeaser;
+      copyFileSync(potentialTeaser, join(rootDir, 'out', 'story_teaser.png'));
     }
   }
 

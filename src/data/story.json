@@ -1,248 +1,248 @@
 {
   "topic": "acordes-ocultos",
-  "title": "Las cuatro palabras de un padre que inmortalizaron a Journey",
-  "artist": "Journey",
-  "slug": "journey-dont-stop-believin-acordes-ocultos",
-  "articleSlug": "journey-dont-stop-believin-acordes-ocultos",
-  "hook": "Estaba sin dinero en Los Ángeles y llamó a su padre llorando para rendirse, sin imaginar que su respuesta se convertiría en el himno más cantado del planeta.",
-  "anecdote": "Antes de unirse a Journey en 1980, el tecladista Jonathan Cain sobrevivía sin dinero en Los Ángeles. Cuando su perro sufrió un accidente y no tuvo con qué pagar al veterinario, llamó llorando a su padre en Chicago preguntándole si debía abandonar la música y volver a casa. Su padre le envió el dinero y le dijo: «No dejes de creer» («Don't stop believin'»), frase que Jonathan anotó en su cuaderno. Años después, cuando Steve Perry escribió sobre los extraños que veía desde la ventana de su hotel en Detroit en una noche de insomnio, Cain abrió aquel cuaderno y entregó las palabras de su padre para sellar un himno eterno.",
+  "title": "El secreto agridulce oculto detrás de la sonrisa de «Daydream Believer»",
+  "artist": "The Monkees",
+  "slug": "the-monkees-daydream-believer-acordes-ocultos",
+  "articleSlug": "the-monkees-daydream-believer-acordes-ocultos",
+  "hook": "En 1967, la melodía más alegre de los años sesenta nació de un músico deprimido que sentía que su carrera había terminado.",
+  "anecdote": "Aunque el mundo entero canta «Daydream Believer» de The Monkees como un himno radiante e inocente, fue escrita en 1967 por John Stewart (de The Kingston Trio) cuando atravesaba una profunda depresión en West Covina, California, convencido de que su carrera había muerto. La letra retrata en realidad el despertar agridulce de un matrimonio joven sin un dólar en el bolsillo cuando termina el cuento de hadas. Tras ser rechazada y obligada a cambiar la palabra «funky» (hundido) por «happy» (feliz), Stewart se la cantó en una fiesta a Chip Douglas, productor de The Monkees, y la voz de Davy Jones la convirtió en un clásico inmortal que salvó el futuro de su autor.",
   "durationSeconds": 90,
   "beats": [
-    "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles.",
-    "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse.",
-    "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral.",
-    "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche.",
-    "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad.",
-    "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre.",
-    "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz.",
-    "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados.",
-    "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
+    "En 1967, la melodía más alegre de los años sesenta nació de un músico que sentía que su carrera había terminado.",
+    "Con la caída del folk tradicional, el cantautor John Stewart se miró al espejo en California sintiéndose olvidado y sin futuro.",
+    "Esa noche tomó su guitarra para retratar el despertar de un matrimonio joven cuando termina la fantasía y llegan las deudas.",
+    "Detrás de su ritmo luminoso escondió a un esposo sin un dólar en el bolsillo que aún sueña con ser su caballero.",
+    "Su propio representante rechazó el tema y lo obligó a cambiar una palabra sobre su tristeza por la palabra «feliz».",
+    "Semanas después, en una fiesta en Hollywood, Stewart le cantó aquella canción rechazada al productor de The Monkees, Chip Douglas.",
+    "En los estudios RCA, el carismático Davy Jones le prestó su sonrisa e inmortalizó hasta una broma espontánea sobre su baja estatura.",
+    "Aquel número uno mundial salvó de la ruina a su autor y demostró que incluso los sueños rotos pueden regalar alegría.",
+    "El amor verdadero no vive de castillos ni riquezas, sino de quien despierta a tu lado cuando termina el cuento de hadas."
   ],
-  "outro": "¿Quién fue esa persona que te dijo «no dejes de creer» cuando estabas a punto de rendirte?",
+  "outro": "¿Sabías que detrás de la alegría de «Daydream Believer» se escondía esta historia real?",
   "palette": {
-    "ink": "#0f172a",
-    "paper": "#f8fafc",
-    "accent": "#0284c7",
-    "glow": "#f59e0b"
+    "ink": "#1e1b4b",
+    "paper": "#fef9c3",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
   },
   "music": {
-    "title": "Don't Stop Believin'",
-    "artist": "Journey",
-    "src": "music/journey-dont-stop-believin.mp3",
-    "file": "music/journey-dont-stop-believin.mp3",
+    "title": "Daydream Believer",
+    "artist": "The Monkees",
+    "src": "music/the-monkees-daydream-believer.mp3",
+    "file": "music/the-monkees-daydream-believer.mp3",
     "startSecond": 0,
     "volume": 0.6,
     "instagram": {
-      "query": "Dont Stop Believin Journey",
-      "expectedTitle": "Don't Stop Believin'",
-      "expectedArtist": "Journey",
+      "query": "Daydream Believer The Monkees",
+      "expectedTitle": "Daydream Believer",
+      "expectedArtist": "The Monkees",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Don't Stop Believin' de Journey en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Daydream Believer de The Monkees en Instagram Reels."
     }
   },
-  "video": "videos/journey-dont-stop-believin-acordes-ocultos",
-  "cover": "videos/journey-dont-stop-believin-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/journey-dont-stop-believin-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 1981 35mm film photograph. In a misty late-night recording studio and stage atmosphere in 1981, American singer Steve Perry of Journey (32 years old, recognizable aquiline profile, signature shoulder-length layered jet-black hair, wearing an iconic early-80s dark stage jacket over a white undershirt) stands before a vintage microphone bathed in warm amber streetlight-like spotlights and deep midnight-blue shadows. Cinematic 1980s rock documentary aesthetic, rich Kodachrome grain, ample negative space at top and bottom for typography, no text or letters.",
+  "video": "videos/the-monkees-daydream-believer-acordes-ocultos",
+  "cover": "videos/the-monkees-daydream-believer-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/the-monkees-daydream-believer-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 1967 Kodachrome 35mm film photograph. In a warm 1967 Hollywood recording studio, young British singer Davy Jones of The Monkees (21 years old, youthful cheerful face, signature 1967 mod medium-length brown hair with bangs, wearing a classic late-1960s Nehru-collar jacket over a patterned shirt) sings with a warm, bittersweet smile before a vintage RCA studio microphone. Golden afternoon light, authentic 1960s film grain, ample negative space at top and bottom for typography, no text or letters.",
   "assets": [
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm documentary color photograph. Inside a cramped, dimly lit apartment near Sunset Boulevard in Los Angeles in the late 1970s. Young musician Jonathan Cain (late 20s, slender build, wavy shoulder-length brown hair, wearing a worn flannel shirt) sits at a small kitchen table cluttered with unpaid bills next to an upright piano, looking exhausted and discouraged. Warm tungsten lamp light, authentic 1970s film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary color photograph. Inside a quiet suburban living room in West Covina, California, in 1967. American folk singer-songwriter John Stewart (27 years old, tall, neat side-parted dark brown hair, wearing a classic 1960s button-down striped Oxford shirt) sits pensively on a sofa beside an open acoustic guitar case, looking out the window at the fading evening light with a melancholic expression. Authentic 1967 Kodachrome grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm candid color photograph. In a modest Los Angeles apartment hallway at night, young musician Jonathan Cain (late 20s, wavy brown hair, worn shirt) holds a vintage 1970s rotary telephone receiver tightly to his ear, leaning his forehead against the wall with tears in his eyes as he speaks to his father in Chicago. At his feet, his small terrier dog rests wrapped in a blanket. Deep human vulnerability, warm dim lighting, 35mm film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid color photograph. Late at night inside a modest 1960s California bathroom illuminated by a single warm vanity bulb. Songwriter John Stewart (27 years old, neat side-parted dark brown hair, unbuttoned collar shirt) stands before the bathroom mirror holding a toothbrush, gazing at his own reflection with quiet exhaustion and self-doubt. Intimate documentary realism, authentic 1967 film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm close-up photograph. High-angle shot over a worn wooden desk illuminated by a warm vintage desk lamp. A young musician's hand holds a ballpoint pen, writing intently on the lined page of a weathered spiral-bound notebook next to a black 1970s rotary telephone and a coffee mug. Intimate documentary detail, warm nostalgic tones, 35mm film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph. At a small wooden desk in his West Covina home at night in 1967, songwriter John Stewart (27 years old, side-parted dark brown hair, striped shirt) cradles a vintage Martin D-18 acoustic guitar while writing lyrics with a pencil on a yellow legal pad under the warm glow of a brass desk lamp. Authentic 1960s film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 authentic 1980 35mm documentary photograph. Inside a dark hotel room high above downtown Detroit at midnight in 1980. Singer Steve Perry (31 years old, recognizable profile, signature layered shoulder-length jet-black hair, wearing a dark sleeveless shirt) stands by the tall hotel window looking down at the misty Detroit boulevard below, where warm golden streetlights illuminate solitary pedestrians walking through the night fog. Moody cinematic contrast, authentic 1980 film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm cinematic color photograph evoking 1960s suburban life at 6:00 AM. In the foreground, a vintage twin-bell alarm clock reads 6:00 on a nightstand beside a small stack of household bills, while in the soft-focus doorway a young working husband wipes sleep from his eyes beside his young wife in a modest sunlit kitchen. Bittersweet domestic realism, warm 1967 Kodachrome tones, 35mm film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph. Misty night street scene in downtown Detroit, 1980. Under the warm amber glow of vintage city streetlights cutting through the night fog, solitary working-class strangers and a young couple with a suitcase walk along the wet pavement toward a distant train station platform. Cinematic nocturnal atmosphere, authentic early-1980s 35mm film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph inside a wood-paneled 1960s music publishing office in California. A music manager in a 1960s suit points sternly to a word on a typed lyric sheet on the desk, while songwriter John Stewart (27 years old, holding his acoustic guitar) crosses out a word with a pen and writes a replacement above it. Authentic 1967 film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 authentic 1981 35mm candid photograph inside a rehearsal warehouse in Oakland, California. Keyboardist Jonathan Cain (31 years old, wavy brown hair) sits at a Yamaha CP-80 electric grand piano, holding open his worn spiral-bound notebook and pointing to a page while singer Steve Perry (32 years old, layered jet-black hair) and guitarist Neal Schon (27 years old, curly dark hair and short beard, holding a Gibson Les Paul guitar) lean in with excitement and emotion. Authentic 1981 rock documentary grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid color photograph at an intimate evening gathering in a Laurel Canyon house in Hollywood, 1967. In a quiet corner by a stone fireplace, songwriter John Stewart (27 years old, striped Oxford shirt) plays his Martin acoustic guitar and sings for record producer Chip Douglas (tall young man in his mid-20s with thin-rimmed glasses, sandy-brown 1967 hair, wearing a corduroy jacket), who listens with an amazed smile. Warm 1967 Kodachrome film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph inside Fantasy Studios control room in Berkeley, California. Steve Perry (32 years old, signature layered jet-black hair, dark jacket over white shirt) gestures passionately beside the analog mixing console as he explains the song's arrangement to keyboardist Jonathan Cain and guitarist Neal Schon. Warm studio lighting, reel-to-reel tape machines in background, authentic 1981 film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid documentary photograph inside RCA Victor Studio A in Hollywood, June 1967. Young British singer Davy Jones of The Monkees (21 years old, petite build, cheerful youthful face, signature 1967 mod brown hair with bangs, wearing studio headphones and a 1967 patterned shirt with vest) laughs and jokes into a vintage condenser microphone while looking toward the control room window. Authentic 1967 Kodachrome grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 authentic 1981 35mm close-up documentary photograph inside the wooden tracking room of Fantasy Studios, Berkeley. Steve Perry (32 years old, unmistakable aquiline features, layered shoulder-length jet-black hair, wearing studio headphones) sings with soaring emotional intensity into a vintage Neumann condenser microphone, one hand raised in conviction as he belts the final chorus. Warm analog studio glow, authentic 1981 35mm film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph inside RCA Victor Studio A in Hollywood. In the foreground, Davy Jones (21 years old, mod brown hair with bangs) sings joyfully into a studio microphone. In the background, bandmate Michael Nesmith (wearing his signature wool knit cap and collared shirt) plays a tack upright piano alongside a studio brass section with trumpets. Warm 1967 studio lighting, 35mm film grain, no text."
     },
     {
-      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic 1981 35mm nocturnal documentary photograph. A passenger train at midnight gliding along gleaming wet steel tracks away from a misty station platform, bathed in the warm golden halo of tall vintage streetlights against a deep indigo night sky. Evocative, hopeful, and timeless cinematic mood, authentic 35mm film grain, no text."
+      "src": "videos/the-monkees-daydream-believer-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic 1967 35mm documentary photograph at sunrise. Warm golden morning sunlight streams through an open kitchen window onto a modest wooden breakfast table where two steaming ceramic mugs of coffee rest side by side. Outside the window, a small bluebird takes flight across a clear morning sky above quiet suburban trees. Deeply nostalgic, tender cinematic atmosphere, 35mm film grain, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles.",
+      "text": "En 1967, la melodía más alegre de los años sesenta nació de un músico que sentía que su carrera había terminado.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm documentary color photograph. Inside a cramped, dimly lit apartment near Sunset Boulevard in Los Angeles in the late 1970s. Young musician Jonathan Cain (late 20s, slender build, wavy shoulder-length brown hair, wearing a worn flannel shirt) sits at a small kitchen table cluttered with unpaid bills next to an upright piano, looking exhausted and discouraged. Warm tungsten lamp light, authentic 1970s film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary color photograph. Inside a quiet suburban living room in West Covina, California, in 1967. American folk singer-songwriter John Stewart (27 years old, tall, neat side-parted dark brown hair, wearing a classic 1960s button-down striped Oxford shirt) sits pensively on a sofa beside an open acoustic guitar case, looking out the window at the fading evening light with a melancholic expression. Authentic 1967 Kodachrome grain, no text."
     },
     {
       "id": 2,
-      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse.",
+      "text": "Con la caída del folk tradicional, el cantautor John Stewart se miró al espejo en California sintiéndose olvidado y sin futuro.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm candid color photograph. In a modest Los Angeles apartment hallway at night, young musician Jonathan Cain (late 20s, wavy brown hair, worn shirt) holds a vintage 1970s rotary telephone receiver tightly to his ear, leaning his forehead against the wall with tears in his eyes as he speaks to his father in Chicago. At his feet, his small terrier dog rests wrapped in a blanket. Deep human vulnerability, warm dim lighting, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid color photograph. Late at night inside a modest 1960s California bathroom illuminated by a single warm vanity bulb. Songwriter John Stewart (27 years old, neat side-parted dark brown hair, unbuttoned collar shirt) stands before the bathroom mirror holding a toothbrush, gazing at his own reflection with quiet exhaustion and self-doubt. Intimate documentary realism, authentic 1967 film grain, no text."
     },
     {
       "id": 3,
-      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral.",
+      "text": "Esa noche tomó su guitarra para retratar el despertar de un matrimonio joven cuando termina la fantasía y llegan las deudas.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 authentic late-1970s 35mm close-up photograph. High-angle shot over a worn wooden desk illuminated by a warm vintage desk lamp. A young musician's hand holds a ballpoint pen, writing intently on the lined page of a weathered spiral-bound notebook next to a black 1970s rotary telephone and a coffee mug. Intimate documentary detail, warm nostalgic tones, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph. At a small wooden desk in his West Covina home at night in 1967, songwriter John Stewart (27 years old, side-parted dark brown hair, striped shirt) cradles a vintage Martin D-18 acoustic guitar while writing lyrics with a pencil on a yellow legal pad under the warm glow of a brass desk lamp. Authentic 1960s film grain, no text."
     },
     {
       "id": 4,
-      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche.",
+      "text": "Detrás de su ritmo luminoso escondió a un esposo sin un dólar en el bolsillo que aún sueña con ser su caballero.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 authentic 1980 35mm documentary photograph. Inside a dark hotel room high above downtown Detroit at midnight in 1980. Singer Steve Perry (31 years old, recognizable profile, signature layered shoulder-length jet-black hair, wearing a dark sleeveless shirt) stands by the tall hotel window looking down at the misty Detroit boulevard below, where warm golden streetlights illuminate solitary pedestrians walking through the night fog. Moody cinematic contrast, authentic 1980 film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm cinematic color photograph evoking 1960s suburban life at 6:00 AM. In the foreground, a vintage twin-bell alarm clock reads 6:00 on a nightstand beside a small stack of household bills, while in the soft-focus doorway a young working husband wipes sleep from his eyes beside his young wife in a modest sunlit kitchen. Bittersweet domestic realism, warm 1967 Kodachrome tones, 35mm film grain, no text."
     },
     {
       "id": 5,
-      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad.",
+      "text": "Su propio representante rechazó el tema y lo obligó a cambiar una palabra sobre su tristeza por la palabra «feliz».",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph. Misty night street scene in downtown Detroit, 1980. Under the warm amber glow of vintage city streetlights cutting through the night fog, solitary working-class strangers and a young couple with a suitcase walk along the wet pavement toward a distant train station platform. Cinematic nocturnal atmosphere, authentic early-1980s 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph inside a wood-paneled 1960s music publishing office in California. A music manager in a 1960s suit points sternly to a word on a typed lyric sheet on the desk, while songwriter John Stewart (27 years old, holding his acoustic guitar) crosses out a word with a pen and writes a replacement above it. Authentic 1967 film grain, no text."
     },
     {
       "id": 6,
-      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre.",
+      "text": "Semanas después, en una fiesta en Hollywood, Stewart le cantó aquella canción rechazada al productor de The Monkees, Chip Douglas.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 authentic 1981 35mm candid photograph inside a rehearsal warehouse in Oakland, California. Keyboardist Jonathan Cain (31 years old, wavy brown hair) sits at a Yamaha CP-80 electric grand piano, holding open his worn spiral-bound notebook and pointing to a page while singer Steve Perry (32 years old, layered jet-black hair) and guitarist Neal Schon (27 years old, curly dark hair and short beard, holding a Gibson Les Paul guitar) lean in with excitement and emotion. Authentic 1981 rock documentary grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid color photograph at an intimate evening gathering in a Laurel Canyon house in Hollywood, 1967. In a quiet corner by a stone fireplace, songwriter John Stewart (27 years old, striped Oxford shirt) plays his Martin acoustic guitar and sings for record producer Chip Douglas (tall young man in his mid-20s with thin-rimmed glasses, sandy-brown 1967 hair, wearing a corduroy jacket), who listens with an amazed smile. Warm 1967 Kodachrome film grain, no text."
     },
     {
       "id": 7,
-      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz.",
+      "text": "En los estudios RCA, el carismático Davy Jones le prestó su sonrisa e inmortalizó hasta una broma espontánea sobre su baja estatura.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph inside Fantasy Studios control room in Berkeley, California. Steve Perry (32 years old, signature layered jet-black hair, dark jacket over white shirt) gestures passionately beside the analog mixing console as he explains the song's arrangement to keyboardist Jonathan Cain and guitarist Neal Schon. Warm studio lighting, reel-to-reel tape machines in background, authentic 1981 film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm candid documentary photograph inside RCA Victor Studio A in Hollywood, June 1967. Young British singer Davy Jones of The Monkees (21 years old, petite build, cheerful youthful face, signature 1967 mod brown hair with bangs, wearing studio headphones and a 1967 patterned shirt with vest) laughs and jokes into a vintage condenser microphone while looking toward the control room window. Authentic 1967 Kodachrome grain, no text."
     },
     {
       "id": 8,
-      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados.",
+      "text": "Aquel número uno mundial salvó de la ruina a su autor y demostró que incluso los sueños rotos pueden regalar alegría.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 authentic 1981 35mm close-up documentary photograph inside the wooden tracking room of Fantasy Studios, Berkeley. Steve Perry (32 years old, unmistakable aquiline features, layered shoulder-length jet-black hair, wearing studio headphones) sings with soaring emotional intensity into a vintage Neumann condenser microphone, one hand raised in conviction as he belts the final chorus. Warm analog studio glow, authentic 1981 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1967 35mm documentary photograph inside RCA Victor Studio A in Hollywood. In the foreground, Davy Jones (21 years old, mod brown hair with bangs) sings joyfully into a studio microphone. In the background, bandmate Michael Nesmith (wearing his signature wool knit cap and collared shirt) plays a tack upright piano alongside a studio brass section with trumpets. Warm 1967 studio lighting, 35mm film grain, no text."
     },
     {
       "id": 9,
-      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer.",
+      "text": "El amor verdadero no vive de castillos ni riquezas, sino de quien despierta a tu lado cuando termina el cuento de hadas.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 poetic 1981 35mm nocturnal documentary photograph. A passenger train at midnight gliding along gleaming wet steel tracks away from a misty station platform, bathed in the warm golden halo of tall vintage streetlights against a deep indigo night sky. Evocative, hopeful, and timeless cinematic mood, authentic 35mm film grain, no text."
+      "prompt": "Vertical 9:16 poetic 1967 35mm documentary photograph at sunrise. Warm golden morning sunlight streams through an open kitchen window onto a modest wooden breakfast table where two steaming ceramic mugs of coffee rest side by side. Outside the window, a small bluebird takes flight across a clear morning sky above quiet suburban trees. Deeply nostalgic, tender cinematic atmosphere, 35mm film grain, no text."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles."
+      "text": "En 1967, la melodía más alegre de los años sesenta nació de un músico que sentía que su carrera había terminado."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse."
+      "text": "Con la caída del folk tradicional, el cantautor John Stewart se miró al espejo en California sintiéndose olvidado y sin futuro."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral."
+      "text": "Esa noche tomó su guitarra para retratar el despertar de un matrimonio joven cuando termina la fantasía y llegan las deudas."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche."
+      "text": "Detrás de su ritmo luminoso escondió a un esposo sin un dólar en el bolsillo que aún sueña con ser su caballero."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad."
+      "text": "Su propio representante rechazó el tema y lo obligó a cambiar una palabra sobre su tristeza por la palabra «feliz»."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre."
+      "text": "Semanas después, en una fiesta en Hollywood, Stewart le cantó aquella canción rechazada al productor de The Monkees, Chip Douglas."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz."
+      "text": "En los estudios RCA, el carismático Davy Jones le prestó su sonrisa e inmortalizó hasta una broma espontánea sobre su baja estatura."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados."
+      "text": "Aquel número uno mundial salvó de la ruina a su autor y demostró que incluso los sueños rotos pueden regalar alegría."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
+      "text": "El amor verdadero no vive de castillos ni riquezas, sino de quien despierta a tu lado cuando termina el cuento de hadas."
     }
   ],
   "subtitles": [
     {
       "start": 0,
       "end": 10,
-      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles."
+      "text": "En 1967, la melodía más alegre de los años sesenta nació de un músico que sentía que su carrera había terminado."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse."
+      "text": "Con la caída del folk tradicional, el cantautor John Stewart se miró al espejo en California sintiéndose olvidado y sin futuro."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral."
+      "text": "Esa noche tomó su guitarra para retratar el despertar de un matrimonio joven cuando termina la fantasía y llegan las deudas."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche."
+      "text": "Detrás de su ritmo luminoso escondió a un esposo sin un dólar en el bolsillo que aún sueña con ser su caballero."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad."
+      "text": "Su propio representante rechazó el tema y lo obligó a cambiar una palabra sobre su tristeza por la palabra «feliz»."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre."
+      "text": "Semanas después, en una fiesta en Hollywood, Stewart le cantó aquella canción rechazada al productor de The Monkees, Chip Douglas."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz."
+      "text": "En los estudios RCA, el carismático Davy Jones le prestó su sonrisa e inmortalizó hasta una broma espontánea sobre su baja estatura."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados."
+      "text": "Aquel número uno mundial salvó de la ruina a su autor y demostró que incluso los sueños rotos pueden regalar alegría."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
+      "text": "El amor verdadero no vive de castillos ni riquezas, sino de quien despierta a tu lado cuando termina el cuento de hadas."
     }
   ],
   "publication": {
-    "description": "Estaba sin dinero en Los Ángeles y llamó a su padre llorando para rendirse, sin imaginar que su respuesta se convertiría en el himno más cantado del planeta.\n\nA finales de los años 70, antes de entrar a Journey, el joven músico Jonathan Cain sobrevivía en un pequeño apartamento de Sunset Boulevard sin dinero ni siquiera para el alquiler. Cuando su perro sufrió un accidente grave y no tuvo cómo pagar la clínica veterinaria, llamó desesperado a su padre en Chicago preguntándole si debía abandonar la música para siempre y volver a casa. Su padre, Leonard Cain, le transfirió el dinero y se despidió con cuatro palabras que Jonathan anotó en su cuaderno de espiral: «No dejes de creer» («Don't stop believin'»).\n\nEn 1980, tras integrarse a Journey, el cantante Steve Perry pasó una noche de insomnio mirando por la ventana de un hotel en Detroit a los trabajadores y extraños que caminaban entre la niebla bajo las farolas en busca de un tren de medianoche. Cuando buscaban un estribillo que diera sentido a esas vidas solitarias, Cain abrió su viejo cuaderno y entregó el consejo de su padre.\n\n¿Quién fue esa persona que te dijo «no dejes de creer» cuando estabas a punto de rendirte? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #Journey #StevePerry #DontStopBelievin #JonathanCain #RockClasico #80sRock #HistoriasReales",
-    "tiktokDescription": "Llamó llorando a su padre para abandonar la música, y las cuatro palabras que él le respondió crearon «Don't Stop Believin'». 🎹🚂✨\n\n#AcordesOcultos #Journey #StevePerry #DontStopBelievin #RockClasico #AprendeEnTikTok"
+    "description": "En 1967, la melodía más alegre de los años sesenta nació de un músico deprimido que sentía que su carrera había terminado.\n\nAunque todo el mundo canta «Daydream Believer» de The Monkees como un himno radiante de juventud, su autor fue John Stewart, integrante de The Kingston Trio, quien la escribió una noche de 1967 en West Covina, California, convencido de que su carrera musical estaba acabada. Mirándose al espejo antes de dormir, decidió escribir sobre lo que ocurre con los sueños de una pareja joven cuando se apaga la luna de miel: el despertador sonando a las seis de la mañana, la cuchilla de afeitar helada y una cuenta bancaria sin un solo dólar.\n\nEn el manuscrito original, Stewart escribió el verso «Ahora ya sabes lo hundido (funky) que puedo estar», pero su representante lo rechazó y lo obligó a cambiar esa palabra por «feliz» (happy). Poco después, en una fiesta en Hollywood, Stewart le cantó el tema a Chip Douglas, productor de The Monkees, y la voz luminosa de Davy Jones lo transformó en un número uno mundial que salvó el futuro de su autor.\n\n¿Conocías el verdadero significado detrás de «Daydream Believer»? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TheMonkees #DavyJones #DaydreamBeliever #JohnStewart #60sMusic #HistoriaDeLaMusica #HistoriasReales",
+    "tiktokDescription": "La canción más alegre de los años 60 fue escrita por un músico deprimido y esconde un secreto matrimonial en su letra. 🎹🎺✨\n\n#AcordesOcultos #TheMonkees #DaydreamBeliever #DavyJones #60sMusic #AprendeEnTikTok"
   }
 }

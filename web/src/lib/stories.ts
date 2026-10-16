@@ -529,7 +529,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'dontstopbelievin': 'journey-dont-stop-believin-acordes-ocultos',
           'dontstopbelieving': 'journey-dont-stop-believin-acordes-ocultos',
           'journeydontstopbelievin': 'journey-dont-stop-believin-acordes-ocultos',
-          'journeydontstopbelievinacordesocultos': 'journey-dont-stop-believin-acordes-ocultos'
+          'journeydontstopbelievinacordesocultos': 'journey-dont-stop-believin-acordes-ocultos',
+          'elsecretoagridulceocultodetrasdelasonrisadedaydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
+          'el-secreto-agridulce-oculto-detras-de-la-sonrisa-de-daydream-believer': 'the-monkees-daydream-believer-acordes-ocultos',
+          'daydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
+          'themonkeesdaydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
+          'themonkeesdaydreambelieveracordesocultos': 'the-monkees-daydream-believer-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
