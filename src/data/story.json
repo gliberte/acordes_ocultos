@@ -1,248 +1,248 @@
 {
   "topic": "acordes-ocultos",
-  "title": "La canción inacabada que hizo llorar a Glen Campbell",
-  "artist": "Glen Campbell",
-  "slug": "glen-campbell-wichita-lineman-acordes-ocultos",
-  "articleSlug": "glen-campbell-wichita-lineman-acordes-ocultos",
-  "hook": "En 1968, un joven vio a un obrero colgado de un poste en mitad del desierto y escribió por accidente el verso de amor más honesto del siglo.",
-  "anecdote": "En el verano de 1968, Jimmy Webb conducía por una carretera solitaria del condado de Washita, en Oklahoma, cuando vio a un reparador de líneas telefónicas en lo alto de un poste hablando por un auricular de prueba en medio de la nada. Inspirado por aquella imagen de soledad, compuso «Wichita Lineman» y envió la maqueta sin terminar a Glen Campbell. Al escuchar el verso «Te necesito más de lo que te deseo, y te deseo para toda la vida», Campbell rompió a llorar en el estudio y llenó la estrofa faltante con un solo de guitarra barítono que pasó a la historia.",
+  "title": "Las cuatro palabras de un padre que inmortalizaron a Journey",
+  "artist": "Journey",
+  "slug": "journey-dont-stop-believin-acordes-ocultos",
+  "articleSlug": "journey-dont-stop-believin-acordes-ocultos",
+  "hook": "Estaba sin dinero en Los Ángeles y llamó a su padre llorando para rendirse, sin imaginar que su respuesta se convertiría en el himno más cantado del planeta.",
+  "anecdote": "Antes de unirse a Journey en 1980, el tecladista Jonathan Cain sobrevivía sin dinero en Los Ángeles. Cuando su perro sufrió un accidente y no tuvo con qué pagar al veterinario, llamó llorando a su padre en Chicago preguntándole si debía abandonar la música y volver a casa. Su padre le envió el dinero y le dijo: «No dejes de creer» («Don't stop believin'»), frase que Jonathan anotó en su cuaderno. Años después, cuando Steve Perry escribió sobre los extraños que veía desde la ventana de su hotel en Detroit en una noche de insomnio, Cain abrió aquel cuaderno y entregó las palabras de su padre para sellar un himno eterno.",
   "durationSeconds": 90,
   "beats": [
-    "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo.",
-    "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico.",
-    "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana.",
-    "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables.",
-    "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa.",
-    "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre.",
-    "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía.",
-    "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita.",
-    "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
+    "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles.",
+    "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse.",
+    "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral.",
+    "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche.",
+    "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad.",
+    "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre.",
+    "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz.",
+    "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados.",
+    "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
   ],
-  "outro": "¿A qué persona de tu vida le dirías hoy «te necesito más de lo que te deseo»?",
+  "outro": "¿Quién fue esa persona que te dijo «no dejes de creer» cuando estabas a punto de rendirte?",
   "palette": {
-    "ink": "#1c1917",
-    "paper": "#fef3c7",
-    "accent": "#d97706",
+    "ink": "#0f172a",
+    "paper": "#f8fafc",
+    "accent": "#0284c7",
     "glow": "#f59e0b"
   },
   "music": {
-    "title": "Wichita Lineman",
-    "artist": "Glen Campbell",
-    "src": "music/glen-campbell-wichita-lineman.mp3",
-    "file": "music/glen-campbell-wichita-lineman.mp3",
+    "title": "Don't Stop Believin'",
+    "artist": "Journey",
+    "src": "music/journey-dont-stop-believin.mp3",
+    "file": "music/journey-dont-stop-believin.mp3",
     "startSecond": 0,
     "volume": 0.6,
     "instagram": {
-      "query": "Wichita Lineman Glen Campbell",
-      "expectedTitle": "Wichita Lineman",
-      "expectedArtist": "Glen Campbell",
+      "query": "Dont Stop Believin Journey",
+      "expectedTitle": "Don't Stop Believin'",
+      "expectedArtist": "Journey",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Wichita Lineman de Glen Campbell en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Don't Stop Believin' de Journey en Instagram Reels."
     }
   },
-  "video": "videos/glen-campbell-wichita-lineman-acordes-ocultos",
-  "cover": "videos/glen-campbell-wichita-lineman-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/glen-campbell-wichita-lineman-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm film photograph. A lone telephone lineman wearing a leather climbing belt and work clothes, suspended near the top of a weathered wooden utility pole along an endless straight highway across the flat golden plains of Oklahoma at sunset. Vast amber and deep blue twilight sky, telegraph wires stretching into infinity, deeply nostalgic cinematic atmosphere, ample negative space at top and bottom for typography, no text or letters.",
+  "video": "videos/journey-dont-stop-believin-acordes-ocultos",
+  "cover": "videos/journey-dont-stop-believin-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/journey-dont-stop-believin-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 1981 35mm film photograph. In a misty late-night recording studio and stage atmosphere in 1981, American singer Steve Perry of Journey (32 years old, recognizable aquiline profile, signature shoulder-length layered jet-black hair, wearing an iconic early-80s dark stage jacket over a white undershirt) stands before a vintage microphone bathed in warm amber streetlight-like spotlights and deep midnight-blue shadows. Cinematic 1980s rock documentary aesthetic, rich Kodachrome grain, ample negative space at top and bottom for typography, no text or letters.",
   "assets": [
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Over-the-shoulder view from inside a vintage late-1960s American car driving down an endless, dead-straight two-lane asphalt highway through the flat sun-baked red-earth prairie of Washita County, Oklahoma. At the wheel is 21-year-old Jimmy Webb (young American man with medium-length parted dark brown hair and a light cotton collared shirt). Through the windshield, a long line of wooden telephone poles disappears into the shimmering heat haze on the horizon. Warm Kodachrome 1968 film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm documentary color photograph. Inside a cramped, dimly lit apartment near Sunset Boulevard in Los Angeles in the late 1970s. Young musician Jonathan Cain (late 20s, slender build, wavy shoulder-length brown hair, wearing a worn flannel shirt) sits at a small kitchen table cluttered with unpaid bills next to an upright piano, looking exhausted and discouraged. Warm tungsten lamp light, authentic 1970s film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph. Low-angle wide shot from the dusty shoulder of a rural Oklahoma road looking up at a tall weathered wooden telephone pole against a vast pale summer sky. High up near the wooden crossarm, a lone telephone lineman in work boots with climbing gaffs, denim work clothes, and a heavy leather safety strap is silhouetted against the immense open prairie. Strong sense of solitude and scale, authentic 1960s film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm candid color photograph. In a modest Los Angeles apartment hallway at night, young musician Jonathan Cain (late 20s, wavy brown hair, worn shirt) holds a vintage 1970s rotary telephone receiver tightly to his ear, leaning his forehead against the wall with tears in his eyes as he speaks to his father in Chicago. At his feet, his small terrier dog rests wrapped in a blanket. Deep human vulnerability, warm dim lighting, 35mm film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Medium close-up high atop a wooden telephone pole in rural Oklahoma. A sun-weathered American lineman in his 40s wearing a work shirt, leather climbing harness, and vintage utility cap holds a rugged 1960s rotary lineman's test handset pressed to his ear, clipped to the copper telephone wires. His eyes are gently closed as he listens intently with quiet longing, while miles of flat golden prairie stretch far below. Warm afternoon light, 35mm film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm close-up photograph. High-angle shot over a worn wooden desk illuminated by a warm vintage desk lamp. A young musician's hand holds a ballpoint pen, writing intently on the lined page of a weathered spiral-bound notebook next to a black 1970s rotary telephone and a coffee mug. Intimate documentary detail, warm nostalgic tones, 35mm film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid color photograph. In a quiet sunlit California room in 1968, 21-year-old songwriter Jimmy Webb (youthful face, clean-shaven, parted medium-length dark brown hair, wearing a light late-60s collared shirt) sits at a vintage wooden upright piano. One hand rests on the ivory keys while the other writes lyrics with a pencil on manuscript paper resting on the music stand. Warm late afternoon sunlight filtering through venetian blinds, authentic 1968 film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 authentic 1980 35mm documentary photograph. Inside a dark hotel room high above downtown Detroit at midnight in 1980. Singer Steve Perry (31 years old, recognizable profile, signature layered shoulder-length jet-black hair, wearing a dark sleeveless shirt) stands by the tall hotel window looking down at the misty Detroit boulevard below, where warm golden streetlights illuminate solitary pedestrians walking through the night fog. Moody cinematic contrast, authentic 1980 film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside Capitol Records Studio A control room in Hollywood. Producer Al De Lory (late 30s, dark hair, wearing a 1960s dress shirt) threads a small quarter-inch reel-to-reel demo tape onto an Ampex studio tape machine, while Glen Campbell (32 years old in 1968, handsome square jaw, neat side-parted thick sandy-blond hair, clean-shaven, wearing a dark turtleneck under a light suede jacket) stands beside the analog mixing console watching attentively. Warm studio lighting, 35mm film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph. Misty night street scene in downtown Detroit, 1980. Under the warm amber glow of vintage city streetlights cutting through the night fog, solitary working-class strangers and a young couple with a suitcase walk along the wet pavement toward a distant train station platform. Cinematic nocturnal atmosphere, authentic early-1980s 35mm film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid close-up photograph inside Capitol Records studio in Hollywood. Glen Campbell (32 years old in 1968, recognizable handsome square-jawed face, bright blue eyes, neat side-parted thick sandy-blond hair, clean-shaven, dark turtleneck) sits in the dim studio wearing vintage 1960s studio headphones. His eyes glisten with unshed tears of deep emotion as he listens to the demo tape, one hand resting thoughtfully near his chin. Intimate documentary realism, warm analog lighting, 35mm film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic 1981 35mm candid photograph inside a rehearsal warehouse in Oakland, California. Keyboardist Jonathan Cain (31 years old, wavy brown hair) sits at a Yamaha CP-80 electric grand piano, holding open his worn spiral-bound notebook and pointing to a page while singer Steve Perry (32 years old, layered jet-black hair) and guitarist Neal Schon (27 years old, curly dark hair and short beard, holding a Gibson Les Paul guitar) lean in with excitement and emotion. Authentic 1981 rock documentary grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside the spacious wooden tracking room of Capitol Records Studio A. In the foreground, Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) plays a vintage sunburst Danelectro six-string baritone bass guitar with deep concentration before a studio condenser microphone. In the soft-focus background, Wrecking Crew session musicians including bassist Carol Kaye and a string section play amidst acoustic baffles. Warm 1968 Kodachrome grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph inside Fantasy Studios control room in Berkeley, California. Steve Perry (32 years old, signature layered jet-black hair, dark jacket over white shirt) gestures passionately beside the analog mixing console as he explains the song's arrangement to keyboardist Jonathan Cain and guitarist Neal Schon. Warm studio lighting, reel-to-reel tape machines in background, authentic 1981 film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid photograph inside Capitol Records control room. Young songwriter Jimmy Webb (21 years old, parted dark brown hair, holding a folded sheet of notebook paper at his side) stands beside Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) in front of the glowing analog mixing console and studio monitors. Both men share a quiet, moved look of mutual respect as they listen to the finished playback. Authentic 1968 film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic 1981 35mm close-up documentary photograph inside the wooden tracking room of Fantasy Studios, Berkeley. Steve Perry (32 years old, unmistakable aquiline features, layered shoulder-length jet-black hair, wearing studio headphones) sings with soaring emotional intensity into a vintage Neumann condenser microphone, one hand raised in conviction as he belts the final chorus. Warm analog studio glow, authentic 1981 35mm film grain, no text."
     },
     {
-      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic 1968 35mm documentary landscape photograph at twilight. A solitary line of weathered wooden telephone poles and copper wires stretching across the vast, flat Oklahoma prairie toward a glowing amber and deep indigo sunset horizon. The wind gently bends the dry prairie grass along the empty two-lane road, while the telegraph wires catch the last golden light of dusk. Deeply contemplative, timeless cinematic atmosphere, 35mm film grain, no text."
+      "src": "videos/journey-dont-stop-believin-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic 1981 35mm nocturnal documentary photograph. A passenger train at midnight gliding along gleaming wet steel tracks away from a misty station platform, bathed in the warm golden halo of tall vintage streetlights against a deep indigo night sky. Evocative, hopeful, and timeless cinematic mood, authentic 35mm film grain, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo.",
+      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Over-the-shoulder view from inside a vintage late-1960s American car driving down an endless, dead-straight two-lane asphalt highway through the flat sun-baked red-earth prairie of Washita County, Oklahoma. At the wheel is 21-year-old Jimmy Webb (young American man with medium-length parted dark brown hair and a light cotton collared shirt). Through the windshield, a long line of wooden telephone poles disappears into the shimmering heat haze on the horizon. Warm Kodachrome 1968 film grain, no text."
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm documentary color photograph. Inside a cramped, dimly lit apartment near Sunset Boulevard in Los Angeles in the late 1970s. Young musician Jonathan Cain (late 20s, slender build, wavy shoulder-length brown hair, wearing a worn flannel shirt) sits at a small kitchen table cluttered with unpaid bills next to an upright piano, looking exhausted and discouraged. Warm tungsten lamp light, authentic 1970s film grain, no text."
     },
     {
       "id": 2,
-      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico.",
+      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph. Low-angle wide shot from the dusty shoulder of a rural Oklahoma road looking up at a tall weathered wooden telephone pole against a vast pale summer sky. High up near the wooden crossarm, a lone telephone lineman in work boots with climbing gaffs, denim work clothes, and a heavy leather safety strap is silhouetted against the immense open prairie. Strong sense of solitude and scale, authentic 1960s film grain, no text."
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm candid color photograph. In a modest Los Angeles apartment hallway at night, young musician Jonathan Cain (late 20s, wavy brown hair, worn shirt) holds a vintage 1970s rotary telephone receiver tightly to his ear, leaning his forehead against the wall with tears in his eyes as he speaks to his father in Chicago. At his feet, his small terrier dog rests wrapped in a blanket. Deep human vulnerability, warm dim lighting, 35mm film grain, no text."
     },
     {
       "id": 3,
-      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana.",
+      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Medium close-up high atop a wooden telephone pole in rural Oklahoma. A sun-weathered American lineman in his 40s wearing a work shirt, leather climbing harness, and vintage utility cap holds a rugged 1960s rotary lineman's test handset pressed to his ear, clipped to the copper telephone wires. His eyes are gently closed as he listens intently with quiet longing, while miles of flat golden prairie stretch far below. Warm afternoon light, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic late-1970s 35mm close-up photograph. High-angle shot over a worn wooden desk illuminated by a warm vintage desk lamp. A young musician's hand holds a ballpoint pen, writing intently on the lined page of a weathered spiral-bound notebook next to a black 1970s rotary telephone and a coffee mug. Intimate documentary detail, warm nostalgic tones, 35mm film grain, no text."
     },
     {
       "id": 4,
-      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables.",
+      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid color photograph. In a quiet sunlit California room in 1968, 21-year-old songwriter Jimmy Webb (youthful face, clean-shaven, parted medium-length dark brown hair, wearing a light late-60s collared shirt) sits at a vintage wooden upright piano. One hand rests on the ivory keys while the other writes lyrics with a pencil on manuscript paper resting on the music stand. Warm late afternoon sunlight filtering through venetian blinds, authentic 1968 film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1980 35mm documentary photograph. Inside a dark hotel room high above downtown Detroit at midnight in 1980. Singer Steve Perry (31 years old, recognizable profile, signature layered shoulder-length jet-black hair, wearing a dark sleeveless shirt) stands by the tall hotel window looking down at the misty Detroit boulevard below, where warm golden streetlights illuminate solitary pedestrians walking through the night fog. Moody cinematic contrast, authentic 1980 film grain, no text."
     },
     {
       "id": 5,
-      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa.",
+      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside Capitol Records Studio A control room in Hollywood. Producer Al De Lory (late 30s, dark hair, wearing a 1960s dress shirt) threads a small quarter-inch reel-to-reel demo tape onto an Ampex studio tape machine, while Glen Campbell (32 years old in 1968, handsome square jaw, neat side-parted thick sandy-blond hair, clean-shaven, wearing a dark turtleneck under a light suede jacket) stands beside the analog mixing console watching attentively. Warm studio lighting, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph. Misty night street scene in downtown Detroit, 1980. Under the warm amber glow of vintage city streetlights cutting through the night fog, solitary working-class strangers and a young couple with a suitcase walk along the wet pavement toward a distant train station platform. Cinematic nocturnal atmosphere, authentic early-1980s 35mm film grain, no text."
     },
     {
       "id": 6,
-      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre.",
+      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid close-up photograph inside Capitol Records studio in Hollywood. Glen Campbell (32 years old in 1968, recognizable handsome square-jawed face, bright blue eyes, neat side-parted thick sandy-blond hair, clean-shaven, dark turtleneck) sits in the dim studio wearing vintage 1960s studio headphones. His eyes glisten with unshed tears of deep emotion as he listens to the demo tape, one hand resting thoughtfully near his chin. Intimate documentary realism, warm analog lighting, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1981 35mm candid photograph inside a rehearsal warehouse in Oakland, California. Keyboardist Jonathan Cain (31 years old, wavy brown hair) sits at a Yamaha CP-80 electric grand piano, holding open his worn spiral-bound notebook and pointing to a page while singer Steve Perry (32 years old, layered jet-black hair) and guitarist Neal Schon (27 years old, curly dark hair and short beard, holding a Gibson Les Paul guitar) lean in with excitement and emotion. Authentic 1981 rock documentary grain, no text."
     },
     {
       "id": 7,
-      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía.",
+      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside the spacious wooden tracking room of Capitol Records Studio A. In the foreground, Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) plays a vintage sunburst Danelectro six-string baritone bass guitar with deep concentration before a studio condenser microphone. In the soft-focus background, Wrecking Crew session musicians including bassist Carol Kaye and a string section play amidst acoustic baffles. Warm 1968 Kodachrome grain, no text."
+      "prompt": "Vertical 9:16 authentic 1981 35mm documentary photograph inside Fantasy Studios control room in Berkeley, California. Steve Perry (32 years old, signature layered jet-black hair, dark jacket over white shirt) gestures passionately beside the analog mixing console as he explains the song's arrangement to keyboardist Jonathan Cain and guitarist Neal Schon. Warm studio lighting, reel-to-reel tape machines in background, authentic 1981 film grain, no text."
     },
     {
       "id": 8,
-      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita.",
+      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 authentic 1968 35mm candid photograph inside Capitol Records control room. Young songwriter Jimmy Webb (21 years old, parted dark brown hair, holding a folded sheet of notebook paper at his side) stands beside Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) in front of the glowing analog mixing console and studio monitors. Both men share a quiet, moved look of mutual respect as they listen to the finished playback. Authentic 1968 film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1981 35mm close-up documentary photograph inside the wooden tracking room of Fantasy Studios, Berkeley. Steve Perry (32 years old, unmistakable aquiline features, layered shoulder-length jet-black hair, wearing studio headphones) sings with soaring emotional intensity into a vintage Neumann condenser microphone, one hand raised in conviction as he belts the final chorus. Warm analog studio glow, authentic 1981 35mm film grain, no text."
     },
     {
       "id": 9,
-      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea.",
+      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 poetic 1968 35mm documentary landscape photograph at twilight. A solitary line of weathered wooden telephone poles and copper wires stretching across the vast, flat Oklahoma prairie toward a glowing amber and deep indigo sunset horizon. The wind gently bends the dry prairie grass along the empty two-lane road, while the telegraph wires catch the last golden light of dusk. Deeply contemplative, timeless cinematic atmosphere, 35mm film grain, no text."
+      "prompt": "Vertical 9:16 poetic 1981 35mm nocturnal documentary photograph. A passenger train at midnight gliding along gleaming wet steel tracks away from a misty station platform, bathed in the warm golden halo of tall vintage streetlights against a deep indigo night sky. Evocative, hopeful, and timeless cinematic mood, authentic 35mm film grain, no text."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo."
+      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico."
+      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana."
+      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables."
+      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa."
+      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre."
+      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía."
+      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita."
+      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
+      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
     }
   ],
   "subtitles": [
     {
       "start": 0,
       "end": 10,
-      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo."
+      "text": "A finales de los setenta, un joven músico llamado Jonathan Cain sobrevivía sin dinero en un rincón solitario de Los Ángeles."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico."
+      "text": "Cuando su perro enfermó y no pudo pagar al veterinario, llamó llorando a su padre para decirle que pensaba rendirse."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana."
+      "text": "Desde Chicago, su padre pagó la deuda y le dio un consejo que Jonathan anotó en su viejo cuaderno de espiral."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables."
+      "text": "En 1980, tras unirse a Journey, el cantante Steve Perry miraba desde un hotel de Detroit a los extraños caminar de noche."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa."
+      "text": "Perry imaginaba a aquellas almas solitarias tomando un tren de medianoche hacia cualquier destino con tal de encontrar una segunda oportunidad."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre."
+      "text": "Cuando buscaban un cierre para esa historia, Cain abrió su viejo cuaderno y les mostró las cuatro palabras de su padre."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía."
+      "text": "En el estudio, Perry exigió guardar ese estribillo para el final: primero había que cruzar toda la noche antes de ver la luz."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita."
+      "text": "Frente al micrófono, Steve Perry cantó en una sola toma aquel grito de fe que levantó a millones de corazones cansados."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
+      "text": "A veces basta la voz de quien nos ama para recordarnos, en nuestra hora más oscura, que nunca debemos dejar de creer."
     }
   ],
   "publication": {
-    "description": "En 1968, un joven vio a un obrero colgado de un poste telefónico en mitad del desierto y escribió por accidente el verso de amor más honesto del siglo.\n\nAquel verano, el compositor de 21 años Jimmy Webb conducía en soledad por una carretera interminable del condado de Washita, en Oklahoma. A través del espejismo del asfalto divisó a un reparador de líneas suspendido en lo alto de un poste de madera, hablando por su teléfono de prueba en medio de kilómetros de llanura vacía. Conmovido por la dignidad de aquel trabajador que buscaba una voz amada entre el zumbido de los cables, Webb compuso los dos primeros versos de «Wichita Lineman» y envió la maqueta aún inacabada a Glen Campbell.\n\nAl escuchar la frase «Te necesito más de lo que te deseo, y te deseo para toda la vida», Glen Campbell rompió a llorar en el estudio de Capitol Records recordando a su padre en los campos de Arkansas. Sin esperar la estrofa que faltaba, tomó una guitarra barítono e improvisó en ese espacio vacío un solo melancólico que imitaba el viento cruzando los alambres.\n\n¿A qué persona de tu vida le dedicarías hoy ese verso inmortal? La historia completa y los documentos de archivo están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #GlenCampbell #WichitaLineman #JimmyWebb #CountryPolitan #HistoriaDeLaMusica #60sMusic #HistoriasReales",
-    "tiktokDescription": "Vio a un obrero colgado de un poste en el desierto y escribió la canción inacabada que hizo llorar a Glen Campbell. ☎️🎸✨\n\n#AcordesOcultos #GlenCampbell #WichitaLineman #JimmyWebb #HistoriaDeLaMusica #AprendeEnTikTok"
+    "description": "Estaba sin dinero en Los Ángeles y llamó a su padre llorando para rendirse, sin imaginar que su respuesta se convertiría en el himno más cantado del planeta.\n\nA finales de los años 70, antes de entrar a Journey, el joven músico Jonathan Cain sobrevivía en un pequeño apartamento de Sunset Boulevard sin dinero ni siquiera para el alquiler. Cuando su perro sufrió un accidente grave y no tuvo cómo pagar la clínica veterinaria, llamó desesperado a su padre en Chicago preguntándole si debía abandonar la música para siempre y volver a casa. Su padre, Leonard Cain, le transfirió el dinero y se despidió con cuatro palabras que Jonathan anotó en su cuaderno de espiral: «No dejes de creer» («Don't stop believin'»).\n\nEn 1980, tras integrarse a Journey, el cantante Steve Perry pasó una noche de insomnio mirando por la ventana de un hotel en Detroit a los trabajadores y extraños que caminaban entre la niebla bajo las farolas en busca de un tren de medianoche. Cuando buscaban un estribillo que diera sentido a esas vidas solitarias, Cain abrió su viejo cuaderno y entregó el consejo de su padre.\n\n¿Quién fue esa persona que te dijo «no dejes de creer» cuando estabas a punto de rendirte? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #Journey #StevePerry #DontStopBelievin #JonathanCain #RockClasico #80sRock #HistoriasReales",
+    "tiktokDescription": "Llamó llorando a su padre para abandonar la música, y las cuatro palabras que él le respondió crearon «Don't Stop Believin'». 🎹🚂✨\n\n#AcordesOcultos #Journey #StevePerry #DontStopBelievin #RockClasico #AprendeEnTikTok"
   }
 }

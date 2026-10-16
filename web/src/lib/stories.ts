@@ -523,7 +523,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'la-cancion-inacabada-que-hizo-llorar-a-glen-campbell': 'glen-campbell-wichita-lineman-acordes-ocultos',
           'wichitalineman': 'glen-campbell-wichita-lineman-acordes-ocultos',
           'glencampbellwichitalineman': 'glen-campbell-wichita-lineman-acordes-ocultos',
-          'glencampbellwichitalinemanacordesocultos': 'glen-campbell-wichita-lineman-acordes-ocultos'
+          'glencampbellwichitalinemanacordesocultos': 'glen-campbell-wichita-lineman-acordes-ocultos',
+          'lascuatropalabrasdeunpadrequeinmortalizaronajourney': 'journey-dont-stop-believin-acordes-ocultos',
+          'las-cuatro-palabras-de-un-padre-que-inmortalizaron-a-journey': 'journey-dont-stop-believin-acordes-ocultos',
+          'dontstopbelievin': 'journey-dont-stop-believin-acordes-ocultos',
+          'dontstopbelieving': 'journey-dont-stop-believin-acordes-ocultos',
+          'journeydontstopbelievin': 'journey-dont-stop-believin-acordes-ocultos',
+          'journeydontstopbelievinacordesocultos': 'journey-dont-stop-believin-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
