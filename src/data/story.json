@@ -1,248 +1,248 @@
 {
-  "topic": "historia-en-los-acordes",
-  "title": "El jardín infinito del nuevo sol",
-  "artist": "Nino Bravo",
-  "slug": "nino-bravo-america-america-historia-en-los-acordes",
-  "articleSlug": "nino-bravo-america-america-historia-en-los-acordes",
-  "hook": "«Cuando Dios hizo la armonía entre el cielo y el mar, creó un mundo del nuevo sol...»",
-  "anecdote": "En 1973, Nino Bravo inmortalizó la alabanza más grandiosa jamás dedicada al continente americano. Una oda a la majestuosidad de sus cordilleras, el verde infinito de sus selvas y la nobleza de sus pueblos, concebida como un canto de gratitud a la tierra donde la libertad es el destino del alma.",
+  "topic": "acordes-ocultos",
+  "title": "La canción inacabada que hizo llorar a Glen Campbell",
+  "artist": "Glen Campbell",
+  "slug": "glen-campbell-wichita-lineman-acordes-ocultos",
+  "articleSlug": "glen-campbell-wichita-lineman-acordes-ocultos",
+  "hook": "En 1968, un joven vio a un obrero colgado de un poste en mitad del desierto y escribió por accidente el verso de amor más honesto del siglo.",
+  "anecdote": "En el verano de 1968, Jimmy Webb conducía por una carretera solitaria del condado de Washita, en Oklahoma, cuando vio a un reparador de líneas telefónicas en lo alto de un poste hablando por un auricular de prueba en medio de la nada. Inspirado por aquella imagen de soledad, compuso «Wichita Lineman» y envió la maqueta sin terminar a Glen Campbell. Al escuchar el verso «Te necesito más de lo que te deseo, y te deseo para toda la vida», Campbell rompió a llorar en el estudio y llenó la estrofa faltante con un solo de guitarra barítono que pasó a la historia.",
   "durationSeconds": 90,
   "beats": [
-    "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo.",
-    "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento.",
-    "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua.",
-    "Manos sabias que acarician la siembra y custodian la dignidad de la raíz.",
-    "Llanuras interminables donde el viento corre sin cadenas ni fronteras.",
-    "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo.",
-    "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos.",
-    "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno.",
-    "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
+    "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo.",
+    "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico.",
+    "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana.",
+    "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables.",
+    "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa.",
+    "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre.",
+    "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía.",
+    "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita.",
+    "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
   ],
-  "outro": "¿Qué rincón de nuestra América hace latir más fuerte tu corazón al escuchar este himno?",
+  "outro": "¿A qué persona de tu vida le dirías hoy «te necesito más de lo que te deseo»?",
   "palette": {
-    "ink": "#18181b",
-    "paper": "#fef2f2",
+    "ink": "#1c1917",
+    "paper": "#fef3c7",
     "accent": "#d97706",
-    "glow": "#fbbf24"
+    "glow": "#f59e0b"
   },
   "music": {
-    "title": "América, América",
-    "artist": "Nino Bravo",
-    "src": "music/nino-bravo-america-america.mp3",
-    "file": "music/nino-bravo-america-america.mp3",
+    "title": "Wichita Lineman",
+    "artist": "Glen Campbell",
+    "src": "music/glen-campbell-wichita-lineman.mp3",
+    "file": "music/glen-campbell-wichita-lineman.mp3",
     "startSecond": 0,
-    "volume": 0.65,
+    "volume": 0.6,
     "instagram": {
-      "query": "America America Nino Bravo",
-      "expectedTitle": "América, América",
-      "expectedArtist": "Nino Bravo",
+      "query": "Wichita Lineman Glen Campbell",
+      "expectedTitle": "Wichita Lineman",
+      "expectedArtist": "Glen Campbell",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de América, América de Nino Bravo en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Wichita Lineman de Glen Campbell en Instagram Reels."
     }
   },
-  "video": "videos/nino-bravo-america-america-historia-en-los-acordes",
-  "cover": "videos/nino-bravo-america-america-historia-en-los-acordes/cover_bg.png",
-  "coverBg": "videos/nino-bravo-america-america-historia-en-los-acordes/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 cinematic landscape photograph, 1970s. A breathtaking aerial panoramic view of the American continent where snow-capped mountain peaks of the Andes meet vast emerald rainforest valleys and glowing golden ocean shores under a warm celestial sunrise. Majestic, awe-inspiring, deep saturated colors, authentic 1970s film grain, ample negative space at top and bottom for typography, no words or text.",
+  "video": "videos/glen-campbell-wichita-lineman-acordes-ocultos",
+  "cover": "videos/glen-campbell-wichita-lineman-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/glen-campbell-wichita-lineman-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm film photograph. A lone telephone lineman wearing a leather climbing belt and work clothes, suspended near the top of a weathered wooden utility pole along an endless straight highway across the flat golden plains of Oklahoma at sunset. Vast amber and deep blue twilight sky, telegraph wires stretching into infinity, deeply nostalgic cinematic atmosphere, ample negative space at top and bottom for typography, no text or letters.",
   "assets": [
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-01.png",
-      "prompt": "Vertical 9:16 majestic color landscape photography, 35mm film grain. Golden morning sunlight breaking over an untouched tropical coastal shoreline in the Americas, crystalline ocean waves lapping softly on pristine golden sand, sea mist rising in the dawn, wild palm trees swaying gently, radiant atmosphere of a new world awakening, natural light, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Over-the-shoulder view from inside a vintage late-1960s American car driving down an endless, dead-straight two-lane asphalt highway through the flat sun-baked red-earth prairie of Washita County, Oklahoma. At the wheel is 21-year-old Jimmy Webb (young American man with medium-length parted dark brown hair and a light cotton collared shirt). Through the windshield, a long line of wooden telephone poles disappears into the shimmering heat haze on the horizon. Warm Kodachrome 1968 film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-02.png",
-      "prompt": "Vertical 9:16 awe-inspiring 35mm documentary nature photograph. The towering snow-covered peaks of the Andes mountain range at twilight, under an immaculate deep indigo sky filled with millions of bright stars. Crystal clear mountain air, rugged glaciers glowing softly under starlight, pure primordial silence, majestic scale, vintage film grain, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph. Low-angle wide shot from the dusty shoulder of a rural Oklahoma road looking up at a tall weathered wooden telephone pole against a vast pale summer sky. High up near the wooden crossarm, a lone telephone lineman in work boots with climbing gaffs, denim work clothes, and a heavy leather safety strap is silhouetted against the immense open prairie. Strong sense of solitude and scale, authentic 1960s film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-03.png",
-      "prompt": "Vertical 9:16 breathtaking aerial cinematic photograph. The winding, serpentine curves of the mighty Amazon River flowing through an endless sea of emerald green rainforest canopy at sunrise. Golden morning mist drifting over the water and treetops, birds soaring in the distance, vibrant primeval nature, rich textured 1970s film aesthetic, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Medium close-up high atop a wooden telephone pole in rural Oklahoma. A sun-weathered American lineman in his 40s wearing a work shirt, leather climbing harness, and vintage utility cap holds a rugged 1960s rotary lineman's test handset pressed to his ear, clipped to the copper telephone wires. His eyes are gently closed as he listens intently with quiet longing, while miles of flat golden prairie stretch far below. Warm afternoon light, 35mm film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-04.png",
-      "prompt": "Vertical 9:16 intimate documentary portrait photograph, 1970s. A proud indigenous Andean farmer and a young woman in traditional colorful woven textiles, gently kneeling in a terraced fertile green mountain field, holding rich dark earth and freshly harvested golden maize. Serene dignified smiles, weathered hands, warm natural sunlight, authentic ethnographic respect, 35mm grain, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid color photograph. In a quiet sunlit California room in 1968, 21-year-old songwriter Jimmy Webb (youthful face, clean-shaven, parted medium-length dark brown hair, wearing a light late-60s collared shirt) sits at a vintage wooden upright piano. One hand rests on the ivory keys while the other writes lyrics with a pencil on manuscript paper resting on the music stand. Warm late afternoon sunlight filtering through venetian blinds, authentic 1968 film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-05.png",
-      "prompt": "Vertical 9:16 dynamic action landscape photograph, 35mm film grain. A herd of spirited wild horses galloping freely across the vast, golden grasslands of the South American Pampas under a dramatic open sky. Wind blowing through their manes, dust kicked up in the late afternoon sun, absolute sense of boundless freedom and untamed wilderness, cinematic framing, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside Capitol Records Studio A control room in Hollywood. Producer Al De Lory (late 30s, dark hair, wearing a 1960s dress shirt) threads a small quarter-inch reel-to-reel demo tape onto an Ampex studio tape machine, while Glen Campbell (32 years old in 1968, handsome square jaw, neat side-parted thick sandy-blond hair, clean-shaven, wearing a dark turtleneck under a light suede jacket) stands beside the analog mixing console watching attentively. Warm studio lighting, 35mm film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-06.png",
-      "prompt": "Vertical 9:16 vibrant cultural documentary photograph, 1970s. A charming colonial stone plaza in Latin America, colorful painted facades with wrought iron balconies overflowing with bougainvillea. Local people of diverse backgrounds greeting each other warmly on cobblestone streets, children running joyfully, lively warm communal spirit, sun-drenched nostalgic 35mm film texture, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid close-up photograph inside Capitol Records studio in Hollywood. Glen Campbell (32 years old in 1968, recognizable handsome square-jawed face, bright blue eyes, neat side-parted thick sandy-blond hair, clean-shaven, dark turtleneck) sits in the dim studio wearing vintage 1960s studio headphones. His eyes glisten with unshed tears of deep emotion as he listens to the demo tape, one hand resting thoughtfully near his chin. Intimate documentary realism, warm analog lighting, 35mm film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-07.png",
-      "prompt": "Vertical 9:16 touching candid documentary photograph. A group of Latin American children sitting together on a grassy riverbank at sunset, smiling with pure joy and wonder as they look toward the horizon. Warm golden backlight catching their dark curls, hopeful bright eyes full of innocence and future, gentle river water reflecting the evening sky, cinematic warmth, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside the spacious wooden tracking room of Capitol Records Studio A. In the foreground, Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) plays a vintage sunburst Danelectro six-string baritone bass guitar with deep concentration before a studio condenser microphone. In the soft-focus background, Wrecking Crew session musicians including bassist Carol Kaye and a string section play amidst acoustic baffles. Warm 1968 Kodachrome grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-08.png",
-      "prompt": "Vertical 9:16 inspiring human gathering photograph, 1970s. A diverse group of young men and women from across the Americas standing together atop a scenic mountain overlook, arms over shoulders, looking out over a vast continent of valleys and oceans. Smiles of unity, brotherhood, and collective hope, bathed in warm sunset glow, authentic vintage documentary realism, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid photograph inside Capitol Records control room. Young songwriter Jimmy Webb (21 years old, parted dark brown hair, holding a folded sheet of notebook paper at his side) stands beside Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) in front of the glowing analog mixing console and studio monitors. Both men share a quiet, moved look of mutual respect as they listen to the finished playback. Authentic 1968 film grain, no text."
     },
     {
-      "src": "videos/nino-bravo-america-america-historia-en-los-acordes/scene-09.png",
-      "prompt": "Vertical 9:16 monumental contemplative landscape photograph, twilight. A transcendent panoramic sunset where the mighty mountains meet the vast Pacific and Atlantic oceans, the sky painted in radiant layers of amber, violet, and gold. Gentle calm waves, infinite distant horizon, poetic stillness, spiritual grandeur, honoring a land of eternal light, no text."
+      "src": "videos/glen-campbell-wichita-lineman-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic 1968 35mm documentary landscape photograph at twilight. A solitary line of weathered wooden telephone poles and copper wires stretching across the vast, flat Oklahoma prairie toward a glowing amber and deep indigo sunset horizon. The wind gently bends the dry prairie grass along the empty two-lane road, while the telegraph wires catch the last golden light of dusk. Deeply contemplative, timeless cinematic atmosphere, 35mm film grain, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo.",
+      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo.",
       "start": 0,
       "end": 10,
-      "prompt": "Vertical 9:16 majestic color landscape photography, 35mm film grain. Golden morning sunlight breaking over an untouched tropical coastal shoreline in the Americas, crystalline ocean waves lapping softly on pristine golden sand, sea mist rising in the dawn, wild palm trees swaying gently, radiant atmosphere of a new world awakening, natural light, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Over-the-shoulder view from inside a vintage late-1960s American car driving down an endless, dead-straight two-lane asphalt highway through the flat sun-baked red-earth prairie of Washita County, Oklahoma. At the wheel is 21-year-old Jimmy Webb (young American man with medium-length parted dark brown hair and a light cotton collared shirt). Through the windshield, a long line of wooden telephone poles disappears into the shimmering heat haze on the horizon. Warm Kodachrome 1968 film grain, no text."
     },
     {
       "id": 2,
-      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento.",
+      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico.",
       "start": 10,
       "end": 20,
-      "prompt": "Vertical 9:16 awe-inspiring 35mm documentary nature photograph. The towering snow-covered peaks of the Andes mountain range at twilight, under an immaculate deep indigo sky filled with millions of bright stars. Crystal clear mountain air, rugged glaciers glowing softly under starlight, pure primordial silence, majestic scale, vintage film grain, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph. Low-angle wide shot from the dusty shoulder of a rural Oklahoma road looking up at a tall weathered wooden telephone pole against a vast pale summer sky. High up near the wooden crossarm, a lone telephone lineman in work boots with climbing gaffs, denim work clothes, and a heavy leather safety strap is silhouetted against the immense open prairie. Strong sense of solitude and scale, authentic 1960s film grain, no text."
     },
     {
       "id": 3,
-      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua.",
+      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana.",
       "start": 20,
       "end": 30,
-      "prompt": "Vertical 9:16 breathtaking aerial cinematic photograph. The winding, serpentine curves of the mighty Amazon River flowing through an endless sea of emerald green rainforest canopy at sunrise. Golden morning mist drifting over the water and treetops, birds soaring in the distance, vibrant primeval nature, rich textured 1970s film aesthetic, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary color photograph. Medium close-up high atop a wooden telephone pole in rural Oklahoma. A sun-weathered American lineman in his 40s wearing a work shirt, leather climbing harness, and vintage utility cap holds a rugged 1960s rotary lineman's test handset pressed to his ear, clipped to the copper telephone wires. His eyes are gently closed as he listens intently with quiet longing, while miles of flat golden prairie stretch far below. Warm afternoon light, 35mm film grain, no text."
     },
     {
       "id": 4,
-      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz.",
+      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables.",
       "start": 30,
       "end": 40,
-      "prompt": "Vertical 9:16 intimate documentary portrait photograph, 1970s. A proud indigenous Andean farmer and a young woman in traditional colorful woven textiles, gently kneeling in a terraced fertile green mountain field, holding rich dark earth and freshly harvested golden maize. Serene dignified smiles, weathered hands, warm natural sunlight, authentic ethnographic respect, 35mm grain, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid color photograph. In a quiet sunlit California room in 1968, 21-year-old songwriter Jimmy Webb (youthful face, clean-shaven, parted medium-length dark brown hair, wearing a light late-60s collared shirt) sits at a vintage wooden upright piano. One hand rests on the ivory keys while the other writes lyrics with a pencil on manuscript paper resting on the music stand. Warm late afternoon sunlight filtering through venetian blinds, authentic 1968 film grain, no text."
     },
     {
       "id": 5,
-      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras.",
+      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa.",
       "start": 40,
       "end": 50,
-      "prompt": "Vertical 9:16 dynamic action landscape photograph, 35mm film grain. A herd of spirited wild horses galloping freely across the vast, golden grasslands of the South American Pampas under a dramatic open sky. Wind blowing through their manes, dust kicked up in the late afternoon sun, absolute sense of boundless freedom and untamed wilderness, cinematic framing, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside Capitol Records Studio A control room in Hollywood. Producer Al De Lory (late 30s, dark hair, wearing a 1960s dress shirt) threads a small quarter-inch reel-to-reel demo tape onto an Ampex studio tape machine, while Glen Campbell (32 years old in 1968, handsome square jaw, neat side-parted thick sandy-blond hair, clean-shaven, wearing a dark turtleneck under a light suede jacket) stands beside the analog mixing console watching attentively. Warm studio lighting, 35mm film grain, no text."
     },
     {
       "id": 6,
-      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo.",
+      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre.",
       "start": 50,
       "end": 60,
-      "prompt": "Vertical 9:16 vibrant cultural documentary photograph, 1970s. A charming colonial stone plaza in Latin America, colorful painted facades with wrought iron balconies overflowing with bougainvillea. Local people of diverse backgrounds greeting each other warmly on cobblestone streets, children running joyfully, lively warm communal spirit, sun-drenched nostalgic 35mm film texture, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid close-up photograph inside Capitol Records studio in Hollywood. Glen Campbell (32 years old in 1968, recognizable handsome square-jawed face, bright blue eyes, neat side-parted thick sandy-blond hair, clean-shaven, dark turtleneck) sits in the dim studio wearing vintage 1960s studio headphones. His eyes glisten with unshed tears of deep emotion as he listens to the demo tape, one hand resting thoughtfully near his chin. Intimate documentary realism, warm analog lighting, 35mm film grain, no text."
     },
     {
       "id": 7,
-      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos.",
+      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía.",
       "start": 60,
       "end": 70,
-      "prompt": "Vertical 9:16 touching candid documentary photograph. A group of Latin American children sitting together on a grassy riverbank at sunset, smiling with pure joy and wonder as they look toward the horizon. Warm golden backlight catching their dark curls, hopeful bright eyes full of innocence and future, gentle river water reflecting the evening sky, cinematic warmth, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm documentary photograph inside the spacious wooden tracking room of Capitol Records Studio A. In the foreground, Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) plays a vintage sunburst Danelectro six-string baritone bass guitar with deep concentration before a studio condenser microphone. In the soft-focus background, Wrecking Crew session musicians including bassist Carol Kaye and a string section play amidst acoustic baffles. Warm 1968 Kodachrome grain, no text."
     },
     {
       "id": 8,
-      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno.",
+      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita.",
       "start": 70,
       "end": 80,
-      "prompt": "Vertical 9:16 inspiring human gathering photograph, 1970s. A diverse group of young men and women from across the Americas standing together atop a scenic mountain overlook, arms over shoulders, looking out over a vast continent of valleys and oceans. Smiles of unity, brotherhood, and collective hope, bathed in warm sunset glow, authentic vintage documentary realism, no text."
+      "prompt": "Vertical 9:16 authentic 1968 35mm candid photograph inside Capitol Records control room. Young songwriter Jimmy Webb (21 years old, parted dark brown hair, holding a folded sheet of notebook paper at his side) stands beside Glen Campbell (32 years old, neat side-parted sandy-blond hair, dark turtleneck) in front of the glowing analog mixing console and studio monitors. Both men share a quiet, moved look of mutual respect as they listen to the finished playback. Authentic 1968 film grain, no text."
     },
     {
       "id": 9,
-      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma.",
+      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea.",
       "start": 80,
       "end": 90,
-      "prompt": "Vertical 9:16 monumental contemplative landscape photograph, twilight. A transcendent panoramic sunset where the mighty mountains meet the vast Pacific and Atlantic oceans, the sky painted in radiant layers of amber, violet, and gold. Gentle calm waves, infinite distant horizon, poetic stillness, spiritual grandeur, honoring a land of eternal light, no text."
+      "prompt": "Vertical 9:16 poetic 1968 35mm documentary landscape photograph at twilight. A solitary line of weathered wooden telephone poles and copper wires stretching across the vast, flat Oklahoma prairie toward a glowing amber and deep indigo sunset horizon. The wind gently bends the dry prairie grass along the empty two-lane road, while the telegraph wires catch the last golden light of dusk. Deeply contemplative, timeless cinematic atmosphere, 35mm film grain, no text."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo."
+      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento."
+      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua."
+      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz."
+      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras."
+      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo."
+      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos."
+      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno."
+      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
+      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
     }
   ],
   "subtitles": [
     {
       "start": 0,
       "end": 10,
-      "text": "Donde el primer fulgor del sol baña las orillas con la promesa de un mundo nuevo."
+      "text": "En el verano de 1968, una carretera infinita bajo el sol de Oklahoma escondía la declaración de amor más honesta del siglo."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Bajo cumbres infinitas donde el aire puro susurra secretos al firmamento."
+      "text": "A lo lejos, el joven compositor Jimmy Webb divisó a un obrero solitario suspendido en lo alto de un poste telefónico."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "En el corazón verde de la tierra, donde los ríos cantan la memoria del agua."
+      "text": "Aquel trabajador hablaba por su auricular de prueba en mitad de la nada, como quien busca refugio en una voz lejana."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Manos sabias que acarician la siembra y custodian la dignidad de la raíz."
+      "text": "Conmovido por esa soledad, Webb escribió en su piano la historia de un hombre que escucha a su amada en los cables."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Llanuras interminables donde el viento corre sin cadenas ni fronteras."
+      "text": "Presionado por el tiempo, envió a Glen Campbell una maqueta inacabada a la que todavía le faltaba la última estrofa."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Pueblos de piedra y colores cálidos donde el mestizaje floreció en abrazo."
+      "text": "Al escuchar el verso «te necesito más de lo que te deseo», Glen Campbell rompió a llorar recordando a su propio padre."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "La esperanza que renace en cada mirada joven que sueña con mañanas luminosos."
+      "text": "Sin esperar el texto faltante, Campbell tomó una guitarra barítono en el estudio para llenar aquel vacío solo con melodía."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Un mosaico de almas y pueblos que laten bajo un mismo sol fraterno."
+      "text": "Cuando Webb llegó al estudio para terminar la letra, comprendió que ese silencio instrumental decía más que cualquier palabra escrita."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay tierras bendecidas por la luz donde la libertad no es un anhelo, sino el destino eterno del alma."
+      "text": "Amar a la distancia es habitar en el silencio de una espera y saber que, pese a todo, alguien sigue en la línea."
     }
   ],
   "publication": {
-    "description": "«Cuando Dios hizo la armonía entre el cielo y el mar, creó un mundo del nuevo sol...»\n\nEn 1973, poco antes de partir de este mundo, Nino Bravo dejó grabada la alabanza más colosal que jamás se haya cantado al continente americano. Una voz monumental que no le cantaba al poder ni a las fronteras, sino al asombro primitivo de una tierra bendecida: desde las nieves perpetuas de los Andes hasta el misterio esmeralda de la Amazonía y el rumor dorado de sus costas.\n\n«América, América» es la celebración de un jardín inmenso donde el río es hablador, el monte se hace selva y los pueblos aprendieron a renacer de cada herida con la frente en alto. Un homenaje lírico a la tierra que acogió a millones de soñadores con el abrazo de la libertad.\n\n¿Qué rincón de nuestra América hace latir más fuerte tu corazón cada vez que escuchas este himno? Te leemos en comentarios.\n\nLa narración completa y los paisajes están en nuestra crónica en el perfil.\n\n#HistoriaEnLosAcordes #NinoBravo #AmericaAmerica #MusicaEspanola #Latinoamerica #GrandesCanciones #BaladasDeOro #OrgulloLatino",
-    "tiktokDescription": "«América, América»: el himno inmortal de Nino Bravo que exalta el alma y la libertad de nuestro continente. 🌄🦅✨\n\n#HistoriaEnLosAcordes #NinoBravo #AmericaAmerica #OrgulloLatino #MusicaParaElAlma #AprendeEnTikTok"
+    "description": "En 1968, un joven vio a un obrero colgado de un poste telefónico en mitad del desierto y escribió por accidente el verso de amor más honesto del siglo.\n\nAquel verano, el compositor de 21 años Jimmy Webb conducía en soledad por una carretera interminable del condado de Washita, en Oklahoma. A través del espejismo del asfalto divisó a un reparador de líneas suspendido en lo alto de un poste de madera, hablando por su teléfono de prueba en medio de kilómetros de llanura vacía. Conmovido por la dignidad de aquel trabajador que buscaba una voz amada entre el zumbido de los cables, Webb compuso los dos primeros versos de «Wichita Lineman» y envió la maqueta aún inacabada a Glen Campbell.\n\nAl escuchar la frase «Te necesito más de lo que te deseo, y te deseo para toda la vida», Glen Campbell rompió a llorar en el estudio de Capitol Records recordando a su padre en los campos de Arkansas. Sin esperar la estrofa que faltaba, tomó una guitarra barítono e improvisó en ese espacio vacío un solo melancólico que imitaba el viento cruzando los alambres.\n\n¿A qué persona de tu vida le dedicarías hoy ese verso inmortal? La historia completa y los documentos de archivo están en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #GlenCampbell #WichitaLineman #JimmyWebb #CountryPolitan #HistoriaDeLaMusica #60sMusic #HistoriasReales",
+    "tiktokDescription": "Vio a un obrero colgado de un poste en el desierto y escribió la canción inacabada que hizo llorar a Glen Campbell. ☎️🎸✨\n\n#AcordesOcultos #GlenCampbell #WichitaLineman #JimmyWebb #HistoriaDeLaMusica #AprendeEnTikTok"
   }
 }

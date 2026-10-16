@@ -595,21 +595,41 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
 
   const row = config.table === 'published_news' ? publishedNewsRow : legacyRow;
 
-  let response = await fetch(`${config.url}/rest/v1/${config.table}`, {
-    method: 'POST',
-    headers: {
-      apikey: config.key,
-      authorization: `Bearer ${config.key}`,
-      'content-type': 'application/json',
-      prefer: 'return=representation,resolution=merge-duplicates'
-    },
-    body: JSON.stringify(row)
-  });
+  let response;
+  let payload = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      response = await fetch(`${config.url}/rest/v1/${config.table}`, {
+        method: 'POST',
+        headers: {
+          apikey: config.key,
+          authorization: `Bearer ${config.key}`,
+          'content-type': 'application/json',
+          prefer: 'return=representation,resolution=merge-duplicates'
+        },
+        body: JSON.stringify(row)
+      });
 
-  let payload = await response.json().catch(() => null);
+      const rawText = await response.text().catch(() => '');
+      try {
+        payload = rawText ? JSON.parse(rawText) : null;
+      } catch {
+        payload = { raw: rawText.slice(0, 300), status: response.status };
+      }
+
+      if (response.ok || (response.status >= 400 && response.status < 500 && response.status !== 429)) {
+        break;
+      }
+      console.warn(`⚠️ Intento ${attempt}/3 a Supabase devolvió HTTP ${response.status}. Reintentando en 3s...`);
+      await new Promise((r) => setTimeout(r, 3000));
+    } catch (fetchErr) {
+      console.warn(`⚠️ Error de red en intento ${attempt}/3 a Supabase: ${fetchErr.message}. Reintentando en 3s...`);
+      await new Promise((r) => setTimeout(r, 3000));
+    }
+  }
 
   // Si falló por clave única duplicada, actualizar mediante PATCH sobre source_url
-  if (!response.ok && payload?.code === '23505' && row.source_url) {
+  if (response && !response.ok && payload?.code === '23505' && row.source_url) {
     console.log('🔄 Registro existente en Supabase. Actualizando con PATCH...');
     const updateUrl = `${config.url}/rest/v1/${config.table}?source_url=eq.${encodeURIComponent(row.source_url)}`;
     response = await fetch(updateUrl, {
@@ -625,8 +645,8 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     payload = await response.json().catch(() => null);
   }
 
-  if (!response.ok) {
-    throw new Error(`Supabase save failed: ${JSON.stringify(payload)}`);
+  if (!response || !response.ok) {
+    throw new Error(`Supabase save failed (HTTP ${response?.status}): ${JSON.stringify(payload)}`);
   }
 
   return {
@@ -949,17 +969,22 @@ const main = async () => {
   }
 
   if (!options.dryRun && !options.skipSupabase) {
-    supabase = await saveToSupabase({
-      story,
-      editorialPackage,
-      files,
-      videoPath: options.video,
-      videoStats,
-      cloudflare,
-      coverPath,
-      teaserPath,
-      heroBannerPath
-    });
+    try {
+      supabase = await saveToSupabase({
+        story,
+        editorialPackage,
+        files,
+        videoPath: options.video,
+        videoStats,
+        cloudflare,
+        coverPath,
+        teaserPath,
+        heroBannerPath
+      });
+    } catch (supaErr) {
+      console.warn(`⚠️ Aviso: No se pudo guardar en Supabase en este momento (${supaErr.message}). Continuando con Telegram, Bóveda y Web...`);
+      supabase = {enabled: false, error: supaErr.message};
+    }
   } else if (!options.dryRun) {
     supabase = {enabled: false, skippedReason: 'Skipped by --skip-supabase.'};
   }

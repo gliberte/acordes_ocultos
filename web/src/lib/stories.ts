@@ -518,7 +518,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'el-jardin-infinito-del-nuevo-sol': 'nino-bravo-america-america-historia-en-los-acordes',
           'ninobravoamericaamerica': 'nino-bravo-america-america-historia-en-los-acordes',
           'ninobravoamericaamericahistoriaenlosacordes': 'nino-bravo-america-america-historia-en-los-acordes',
-          'americaamerica': 'nino-bravo-america-america-historia-en-los-acordes'
+          'americaamerica': 'nino-bravo-america-america-historia-en-los-acordes',
+          'lacancioninacabadaquehizolloraraglencampbell': 'glen-campbell-wichita-lineman-acordes-ocultos',
+          'la-cancion-inacabada-que-hizo-llorar-a-glen-campbell': 'glen-campbell-wichita-lineman-acordes-ocultos',
+          'wichitalineman': 'glen-campbell-wichita-lineman-acordes-ocultos',
+          'glencampbellwichitalineman': 'glen-campbell-wichita-lineman-acordes-ocultos',
+          'glencampbellwichitalinemanacordesocultos': 'glen-campbell-wichita-lineman-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
