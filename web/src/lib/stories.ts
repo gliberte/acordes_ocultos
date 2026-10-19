@@ -556,6 +556,7 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'themonkeesdaydreambeliever': 'the-monkees-daydream-believer-acordes-ocultos',
           'themonkeesdaydreambelieveracordesocultos': 'the-monkees-daydream-believer-acordes-ocultos',
           'bemybabyelhimnodeamoradolescentequecostolalibertadasupropiavoz': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'bemybabyelhimnodeamoradolescentequelecostolalibertadasupropiavoz': 'the-ronettes-be-my-baby-acordes-ocultos',
           'be-my-baby-el-himno-de-amor-adolescente-que-le-costo-la-libertad-a-su-propia-voz': 'the-ronettes-be-my-baby-acordes-ocultos',
           'bemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
           'theronettesbemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
@@ -639,9 +640,62 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   // If Supabase returned nothing or failed, fallback to precompiled catalog dataset, then local files
   if (items.length === 0) {
     if (Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
-      items = storiesCatalogFallback.map(item => ({ ...item })) as StoryItem[];
+      items = storiesCatalogFallback.map(item => {
+        const copy = { ...item } as StoryItem;
+        if (typeof copy.category === 'object' && copy.category !== null) {
+          copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+        }
+        return copy;
+      });
     } else {
       items = loadLocalGeneratedStories();
+    }
+  }
+
+  // Hydrate content, articleSlug, summary and local WebP coverUrl for catalog items
+  const localArticlesForCatalog = loadLocalArticles();
+  for (const item of items) {
+    const rawAny = item as any;
+    if (!item.content && rawAny.articleMarkdown) {
+      item.content = rawAny.articleMarkdown;
+    }
+    if (!item.tiktokVideoUrl && rawAny.videoTiktokUrl) {
+      item.tiktokVideoUrl = rawAny.videoTiktokUrl;
+    }
+    const itemSlugClean = (item.slug || '').replace(/[^a-z0-9]/g, '');
+    const itemSongClean = item.songTitle ? slugify(item.songTitle).replace(/[^a-z0-9]/g, '') : '';
+    const itemArtistClean = item.artist ? slugify(item.artist).replace(/[^a-z0-9]/g, '') : '';
+
+    const matchedKey =
+      (item.articleSlug && localArticlesForCatalog[item.articleSlug] ? item.articleSlug : null) ||
+      (localArticlesForCatalog[item.slug] ? item.slug : null) ||
+      Object.keys(localArticlesForCatalog).find(k => {
+        const kClean = k.replace(/[^a-z0-9]/g, '');
+        if (kClean === itemSlugClean || kClean.includes(itemSlugClean) || itemSlugClean.includes(kClean)) {
+          return true;
+        }
+        if (itemSongClean.length >= 4 && kClean.includes(itemSongClean)) {
+          if (itemArtistClean.length < 3 || kClean.includes(itemArtistClean.slice(0, 5))) {
+            return true;
+          }
+        }
+        return false;
+      });
+
+    if (matchedKey && localArticlesForCatalog[matchedKey]) {
+      item.articleSlug = matchedKey;
+      if (!item.content || item.content.length < 1000) {
+        item.content = localArticlesForCatalog[matchedKey];
+      }
+    }
+    if (!item.summary && item.content) {
+      item.summary = extractCleanSummary(item.content);
+    }
+    if (!item.coverUrl || !item.coverUrl.startsWith('/covers/')) {
+      const altCover = [item.slug, item.articleSlug].find(s => s && availableCovers.has(s));
+      if (altCover) {
+        item.coverUrl = `/covers/${altCover}.webp`;
+      }
     }
   }
 

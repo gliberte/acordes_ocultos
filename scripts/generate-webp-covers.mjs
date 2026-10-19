@@ -64,22 +64,58 @@ if (!cwebpBin) {
 
 console.log('🚀 Iniciando optimización masiva de portadas a WebP (480x854 / 600px)...');
 
-// 1. Fetch Supabase rows
+// 1. Fetch Supabase rows (with local catalog fallback if Supabase is offline or 402)
 console.log('📡 Consultando base de datos Supabase...');
-const res = await fetch(`${supabaseUrl}/rest/v1/published_news?select=*&order=created_at.desc`, {
-  headers: {
-    apikey: supabaseKey,
-    authorization: `Bearer ${supabaseKey}`
+let rows = [];
+try {
+  const res = await fetch(`${supabaseUrl}/rest/v1/published_news?select=*&order=created_at.desc`, {
+    headers: {
+      apikey: supabaseKey,
+      authorization: `Bearer ${supabaseKey}`
+    }
+  });
+  if (res.ok) {
+    rows = await res.json();
+    console.log(`📦 Registros obtenidos de Supabase: ${rows.length}`);
+  } else {
+    console.warn(`⚠️ Supabase devolvió ${res.status} (${res.statusText}). Usando catálogo local stories_catalog.json...`);
   }
-});
-
-if (!res.ok) {
-  console.error(`❌ Error al consultar Supabase: ${res.status} ${res.statusText}`);
-  process.exit(1);
+} catch (err) {
+  console.warn(`⚠️ No se pudo conectar a Supabase (${err.message}). Usando catálogo local stories_catalog.json...`);
 }
 
-const rows = await res.json();
-console.log(`📦 Registros obtenidos: ${rows.length}`);
+if (rows.length === 0) {
+  const catalogPath = path.join(rootDir, 'web', 'src', 'data', 'stories_catalog.json');
+  if (fs.existsSync(catalogPath)) {
+    const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+    rows = catalog.map(item => ({
+      title: item.title,
+      image_url: item.coverUrl?.startsWith('http') ? item.coverUrl : undefined,
+      production_plan: { slug: item.slug, story: { slug: item.articleSlug || item.slug } }
+    }));
+    console.log(`📦 Registros cargados desde stories_catalog.json: ${rows.length}`);
+  }
+}
+
+// Ensure active story in src/data/story.json is also included if out/cover.png exists
+const activeStoryPath = path.join(rootDir, 'src', 'data', 'story.json');
+const outCoverPath = path.join(rootDir, 'out', 'cover.png');
+if (fs.existsSync(activeStoryPath) && fs.existsSync(outCoverPath)) {
+  try {
+    const activeStory = JSON.parse(fs.readFileSync(activeStoryPath, 'utf8'));
+    const activeSlug = activeStory.slug || slugify(activeStory.title);
+    const titleSlug = slugify(activeStory.title);
+    for (const s of new Set([activeSlug, titleSlug].filter(Boolean))) {
+      const destVidCover = path.join(videosDir, activeSlug, 'cover.png');
+      if (fs.existsSync(path.join(videosDir, activeSlug)) && !fs.existsSync(destVidCover)) {
+        fs.copyFileSync(outCoverPath, destVidCover);
+      }
+      if (!rows.some(r => (r.production_plan?.slug || slugify(r.title)) === s)) {
+        rows.unshift({ title: activeStory.title, production_plan: { slug: s } });
+      }
+    }
+  } catch (_) {}
+}
 
 // Map of local video folders for lookup
 const localVideoFolders = fs.existsSync(videosDir) ? fs.readdirSync(videosDir) : [];

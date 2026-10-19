@@ -181,7 +181,9 @@ if (!process.argv.includes('--no-push')) {
       'web/public/images/heroes',
       'web/src/data/available_covers.json',
       'web/src/data/available_heroes.json',
-      'web/src/data/chronicles.json'
+      'web/src/data/chronicles.json',
+      'web/src/data/stories_catalog.json',
+      'web/src/lib/stories.ts'
     ];
     execSync(`git add ${syncPaths.join(' ')}`, { cwd: rootDir, stdio: 'ignore' });
     const diffCheck = execSync('git diff --cached --name-only', { cwd: rootDir, encoding: 'utf8' }).trim();

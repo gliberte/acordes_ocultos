@@ -342,6 +342,7 @@ export async function syncInstagramMetrics() {
           const sc = d?.shortcode || idToShortcode.get(String(d?.id)) || (d?.permalink?.match(/reel\/([A-Za-z0-9_-]+)/)?.[1]);
           if (sc && d?.caption) {
             captionByShortcode.set(sc, normalizeStr(d.caption));
+            console.log(`   📝 Caption [${sc}]: ${d.caption.replace(/\s+/g, ' ').slice(0, 90)}...`);
           }
         }
       } catch (e) {
@@ -354,10 +355,54 @@ export async function syncInstagramMetrics() {
   const topUpdated = [];
   const updatesToRun = [];
 
-  // Actualizar métricas directamente en el catálogo local y Cloudflare R2
+  // Actualizar métricas y auto-vincular nuevos Reels directamente en el catálogo local y Cloudflare R2
   let catalogUpdatedCount = 0;
+  let catalogLinkedCount = 0;
   for (const item of catalog) {
     let igUrl = item.instagramUrl || '';
+
+    // Auto-match unlinked catalog item against unlinked recent Instagram reels by song/artist/title/anecdote in caption
+    if (!igUrl && captionByShortcode.size > 0) {
+      const storyTitle = normalizeStr(item.title || '');
+      const storyTitleCompact = storyTitle.replace(/\s+/g, '');
+      const songField = normalizeStr(item.song || item.songTitle || '');
+      const songCompact = songField.replace(/\s+/g, '');
+      const artistRaw = item.artist || '';
+      const artistField = normalizeStr(artistRaw);
+      const artistCompact = artistField.replace(/\s+/g, '');
+      const artistCore = normalizeStr(artistRaw.replace(/^the\s+/i, '').split(/\s+(?:&|and|feat|ft)\s+/i)[0] || '');
+      const artistCoreCompact = artistCore.replace(/\s+/g, '');
+      const anecdoteText = typeof item.anecdote === 'string' ? item.anecdote : (item.anecdote?.es || '');
+      const anecdotePrefix = normalizeStr(anecdoteText).slice(0, 45);
+      const hookText = typeof item.hook === 'string' ? item.hook : (item.hook?.es || '');
+      const hookPrefix = normalizeStr(hookText).slice(0, 40);
+
+      for (const [sc, capNorm] of captionByShortcode.entries()) {
+        const capCompact = capNorm.replace(/\s+/g, '');
+        const sMatch = (songField && songField.length >= 4 && capNorm.includes(songField)) ||
+                       (songCompact && songCompact.length >= 5 && capCompact.includes(songCompact));
+        const aMatch = (artistField && artistField.length >= 4 && capNorm.includes(artistField)) ||
+                       (artistCore && artistCore.length >= 4 && capNorm.includes(artistCore)) ||
+                       (artistCompact && artistCompact.length >= 5 && capCompact.includes(artistCompact)) ||
+                       (artistCoreCompact && artistCoreCompact.length >= 5 && capCompact.includes(artistCoreCompact));
+        const tMatch = (storyTitle && storyTitle.length >= 8 && capNorm.includes(storyTitle)) ||
+                       (storyTitleCompact && storyTitleCompact.length >= 10 && capCompact.includes(storyTitleCompact));
+        const copyMatch = (anecdotePrefix.length >= 25 && capNorm.includes(anecdotePrefix)) ||
+                          (hookPrefix.length >= 25 && capNorm.includes(hookPrefix));
+        if ((sMatch && aMatch) || (tMatch && (sMatch || aMatch)) || copyMatch) {
+          const postObj = postsByShortcode.get(sc);
+          if (postObj) {
+            igUrl = postObj.permalink;
+            item.instagramUrl = igUrl;
+            captionByShortcode.delete(sc);
+            catalogLinkedCount++;
+            console.log(`🔗 [Catálogo] Auto-vinculando reel ${sc} a "${item.title}": ${igUrl}`);
+            break;
+          }
+        }
+      }
+    }
+
     let matchedPost = null;
     if (igUrl) {
       const match = igUrl.match(/reel\/([A-Za-z0-9_-]+)/);
@@ -368,7 +413,9 @@ export async function syncInstagramMetrics() {
       item.views = matchedPost.views || item.views || 0;
       item.reach = matchedPost.reach || item.reach || 0;
       item.likes = matchedPost.likes || item.likes || 0;
+      item.igLikes = matchedPost.likes || item.igLikes || 0;
       item.isLatest = isLatest;
+      item.isLatestReel = isLatest;
       item.igPublishedAt = matchedPost.timestamp || item.igPublishedAt;
       catalogUpdatedCount++;
       if (item.views > 50000 || isLatest) {
@@ -383,10 +430,25 @@ export async function syncInstagramMetrics() {
     }
   }
 
-  if (catalogUpdatedCount > 0) {
+  if (catalogUpdatedCount > 0 || catalogLinkedCount > 0) {
     fs.writeFileSync(catalogPath, JSON.stringify(catalog, null, 2), 'utf8');
-    console.log(`💾 Actualizadas ${catalogUpdatedCount} métricas en web/src/data/stories_catalog.json.`);
+    console.log(`💾 Actualizadas ${catalogUpdatedCount} métricas (${catalogLinkedCount} nuevos reels vinculados) en web/src/data/stories_catalog.json.`);
     await uploadCatalogToR2(catalog);
+
+    if (!process.argv.includes('--no-push')) {
+      try {
+        const { execSync } = await import('child_process');
+        execSync('git add web/src/data/stories_catalog.json scripts/data/instagram_insights.json', { stdio: 'ignore' });
+        const diff = execSync('git diff --cached --name-only', { encoding: 'utf8' }).trim();
+        if (diff) {
+          execSync('git commit -m "chore(web): sync Instagram Reels links and live metrics in stories_catalog"', { stdio: 'inherit' });
+          execSync('git push origin main', { stdio: 'inherit' });
+          console.log('🚀 Catálogo actualizado con nuevos Reels e insights desplegado en Git/Vercel.');
+        }
+      } catch (gitErr) {
+        console.warn(`⚠️ No se pudo hacer git push automático del catálogo: ${gitErr.message}`);
+      }
+    }
   }
 
   for (const row of dbRows) {

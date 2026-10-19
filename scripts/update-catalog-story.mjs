@@ -4,6 +4,21 @@ import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
 
 const rootDir = process.cwd();
 
+function loadEnvFile(envPath) {
+  if (!fs.existsSync(envPath)) return;
+  const lines = fs.readFileSync(envPath, 'utf8').split(/\r?\n/);
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith('#') || !trimmed.includes('=')) continue;
+    const [key, ...rest] = trimmed.split('=');
+    const val = rest.join('=').trim().replace(/^['"]|['"]$/g, '');
+    if (!process.env[key]) process.env[key] = val;
+  }
+}
+
+loadEnvFile(path.join(rootDir, '.env'));
+loadEnvFile(path.join(rootDir, 'web', '.env'));
+
 // Helper categories
 const CATEGORIES = {
   'acordes-ocultos': { id: 'acordes-ocultos', name: 'Acordes Ocultos' },
@@ -128,44 +143,51 @@ export async function updateCatalogWithStory({
   const teaserUrl = cloudFiles?.story_teaser?.url || null;
   const heroImageUrl = cloudFiles?.hero_banner?.url || null;
 
-  // Unset isLatest on existing stories if this new one is marked latest
+  const existingIdx = catalog.findIndex(item => item.slug === slug || item.id === (story.id || slug));
+  const prev = existingIdx >= 0 ? catalog[existingIdx] : {};
+
   const nowIso = new Date().toISOString();
-  for (const item of catalog) {
-    item.isLatest = false;
-  }
+  const fullArticle = resolvedWebArticle || prev.content || prev.articleMarkdown || null;
+
+  const hookStr = (typeof story.hook === 'string' ? story.hook : story.hook?.es) || (typeof prev.hook === 'string' ? prev.hook : prev.hook?.es) || undefined;
+  const anecdoteStr = (typeof story.anecdote === 'string' ? story.anecdote : story.anecdote?.es) || editorialPackage.copy || (typeof prev.anecdote === 'string' ? prev.anecdote : prev.anecdote?.es) || undefined;
 
   const newEntry = {
-    id: story.id || slug,
+    ...prev,
+    id: prev.id || story.id || slug,
     slug,
     title,
-    songTitle,
-    artist,
-    summary: story.anecdote || editorialPackage.copy?.slice(0, 200) || '',
+    songTitle: songTitle || prev.songTitle || '',
+    artist: artist || prev.artist || '',
+    hook: hookStr,
+    anecdote: anecdoteStr,
+    content: fullArticle || '',
+    summary: anecdoteStr || prev.summary || editorialPackage.copy?.slice(0, 200) || '',
     topic,
     category: category.id || topic,
     categoryLabel: category.name || 'Acordes Ocultos',
-    views: views || 0,
-    reach: reach || 0,
-    likes: likes || 0,
-    coverUrl,
-    videoUrl,
-    videoTiktokUrl,
-    teaserUrl,
-    heroImageUrl,
-    instagramUrl: instagramUrl || null,
-    isLatest: true,
-    publishedAt: nowIso,
-    igPublishedAt: nowIso,
-    articleSlug: matchedArticleSlug || story.articleSlug || null,
-    articleMarkdown: resolvedWebArticle || null,
-    durationSeconds: editorialPackage.durationSeconds || story.durationSeconds || 90,
-    source: 'catalog'
+    views: views || prev.views || 0,
+    reach: reach || prev.reach || 0,
+    likes: likes || prev.likes || 0,
+    coverUrl: coverUrl !== '/assets/substack_header_banner.jpg' ? coverUrl : (prev.coverUrl || coverUrl),
+    videoUrl: videoUrl || prev.videoUrl || null,
+    videoTiktokUrl: videoTiktokUrl || prev.videoTiktokUrl || prev.tiktokVideoUrl || null,
+    tiktokVideoUrl: videoTiktokUrl || prev.tiktokVideoUrl || prev.videoTiktokUrl || null,
+    teaserUrl: teaserUrl || prev.teaserUrl || null,
+    heroImageUrl: heroImageUrl || prev.heroImageUrl || null,
+    instagramUrl: instagramUrl || prev.instagramUrl || null,
+    hashtags: editorialPackage.hashtags || story.hashtags || prev.hashtags || [],
+    isLatest: prev.isLatest ?? false,
+    publishedAt: prev.publishedAt || nowIso,
+    igPublishedAt: prev.igPublishedAt || nowIso,
+    articleSlug: matchedArticleSlug || story.articleSlug || prev.articleSlug || null,
+    articleMarkdown: fullArticle,
+    durationSeconds: editorialPackage.durationSeconds || story.durationSeconds || prev.durationSeconds || 90,
+    source: prev.source || 'catalog'
   };
 
-  // Check if already in catalog by slug
-  const existingIdx = catalog.findIndex(item => item.slug === slug || item.id === newEntry.id);
   if (existingIdx >= 0) {
-    catalog[existingIdx] = { ...catalog[existingIdx], ...newEntry };
+    catalog[existingIdx] = newEntry;
     console.log(`📝 Actualizada historia existente en catálogo: "${title}" (${slug})`);
   } else {
     catalog.unshift(newEntry);

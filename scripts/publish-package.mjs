@@ -1118,13 +1118,21 @@ const main = async () => {
 
   // Sincronización automática de recursos web (portadas WebP, imágenes de artículos y dataset chronicles.json) + Git Push
   if (!options.dryRun) {
-    try {
-      console.log('\n🌐 Sincronizando recursos optimizados para la Web (Portadas WebP, Artículos & Dataset)...');
-      const {execSync} = await import('node:child_process');
-      execSync('node scripts/generate-webp-covers.mjs', { cwd: rootDir, stdio: 'inherit' });
-      execSync('node scripts/optimize-web-images.mjs', { cwd: rootDir, stdio: 'inherit' });
-      execSync('node scripts/compile-chronicles.mjs', { cwd: rootDir, stdio: 'inherit' });
+    console.log('\n🌐 Sincronizando recursos optimizados para la Web (Portadas WebP, Artículos & Dataset)...');
+    const {execSync} = await import('node:child_process');
+    for (const cmd of [
+      'node scripts/generate-webp-covers.mjs',
+      'node scripts/optimize-web-images.mjs',
+      'node scripts/compile-chronicles.mjs'
+    ]) {
+      try {
+        execSync(cmd, { cwd: rootDir, stdio: 'inherit' });
+      } catch (stepErr) {
+        console.warn(`⚠️ Aviso ejecutando "${cmd}": ${stepErr.message}`);
+      }
+    }
 
+    try {
       // Registro persistente en el catálogo web desacoplado y Cloudflare R2
       const { updateCatalogWithStory } = await import('./update-catalog-story.mjs');
       await updateCatalogWithStory({
@@ -1138,7 +1146,11 @@ const main = async () => {
         matchedArticleSlug,
         resolvedWebArticle
       });
+    } catch (catErr) {
+      console.warn(`⚠️ Aviso al actualizar catálogo local/R2: ${catErr.message}`);
+    }
 
+    try {
       // Auto-commit y push de portadas, catálogo y activos web para que jamás queden sin desplegar en producción
       const syncPaths = [
         'web/public/covers',
@@ -1148,7 +1160,8 @@ const main = async () => {
         'web/src/data/available_covers.json',
         'web/src/data/available_heroes.json',
         'web/src/data/chronicles.json',
-        'web/src/data/stories_catalog.json'
+        'web/src/data/stories_catalog.json',
+        'web/src/lib/stories.ts'
       ];
       execSync(`git add ${syncPaths.join(' ')}`, { cwd: rootDir, stdio: 'ignore' });
       const diffCheck = execSync('git diff --cached --name-only', { cwd: rootDir, encoding: 'utf8' }).trim();
@@ -1159,7 +1172,7 @@ const main = async () => {
         console.log('✅ Catálogo, portadas y activos web desplegados en Git/Vercel con éxito.');
       }
     } catch (webErr) {
-      console.warn(`⚠️ Aviso al sincronizar/subir recursos web: ${webErr.message}`);
+      console.warn(`⚠️ Aviso al sincronizar/subir recursos web a Git: ${webErr.message}`);
     }
   }
 
