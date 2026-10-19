@@ -277,7 +277,8 @@ A fin de eliminar la dependencia de cuotas o caídas de bases de datos externas 
    - El script sube el catálogo actualizado a Cloudflare R2 y ejecuta automáticamente `git add` y `git push origin main`, desplegando la producción a Vercel de inmediato.
    - **Supabase como Espejo Opcional**: Supabase actúa únicamente como espejo secundario no bloqueante. Si Supabase devuelve HTTP 402 (cuota excedida) o error de conexión, el proceso emite un aviso informativo pero **jamás interrumpe ni bloquea la publicación, la entrega a Telegram ni el despliegue web**.
 
-2. **Gestión Desacoplada de Suscriptores y Mecenazgo**:
-   - **Suscripción Gratuita**: El endpoint `/api/subscribe` almacena los correos en Cloudflare R2 (`subscribers/subscribers.json`), envía una notificación en tiempo real al canal de Telegram y confirma la suscripción ofreciendo como beneficio la entrega futura del **Libro Recopilatorio (Volumen 01)**.
-   - **Mecenazgo Cultural & Libro Digital**: Quienes apoyan el proyecto con un aporte voluntario único ($3, $5, $10+ USD vía Gumroad `ryhupd`) sostienen la investigación del archivo y aseguran la descarga digital prioritaria del libro en cuanto sea compilado y subido a la plataforma.
+2. **Gestión Desacoplada de Suscriptores, Mecenazgo y Libro Digital**:
+   - **Pilar 1: El Libro Digital (Volumen 01) — $9.99 USD (Producto Comercial)**: Obra editorial completa de 28 crónicas históricas ilustradas con archivo hemerográfico y códigos QR, comercializada a precio cerrado de $9.99 USD en PDF interactivo y EPUB sin DRM. No se regala por correo para preservar el alto valor de la obra.
+   - **Pilar 2: Mecenazgo Cultural Independiente ($3, $5, $10+ USD vía Gumroad `ryhupd`)**: Aporte voluntario libre y no transaccional destinado exclusivamente a cubrir costes de hemerografía, licencias de audio y servidores para mantener el archivo libre de publicidad invasiva. No incluye la obra completa de 28 crónicas.
+   - **Pilar 3: Suscripción Gratuita (La Cofradía / Boletín)**: El endpoint `/api/subscribe` almacena los correos en Cloudflare R2 (`subscribers/subscribers.json`), notifica a Telegram y confirma la suscripción con la entrega semanal de nuevas crónicas y una **muestra exclusiva de 3 crónicas de colección de bienvenida**.
 

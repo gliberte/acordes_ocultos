@@ -6,32 +6,80 @@ interface Props {
 const { source = 'web_story' } = Astro.props;
 ---
 
-<!-- Mecenazgo Cultural / Apoya el Archivo & Libro Digital (Volumen 01) -->
-<div class="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1910] via-[#14110c] to-[#0a0908] border border-amber-500/40 p-6 sm:p-8 shadow-2xl">
+<!-- 1. Producto Editorial: Libro Recopilatorio (Volumen 01) — $9.99 USD -->
+<div class="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a12] via-[#14120e] to-[#0a0908] border border-amber-500/50 p-6 sm:p-8 shadow-2xl shadow-amber-950/30">
   <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
     <div class="space-y-2 max-w-xl">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/30 font-sans">
-        <span>☕ MECENAZGO & LIBRO DIGITAL (VOL. 01)</span>
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans">
+        <span>📚 LIBRO DIGITAL · VOLUMEN 01</span>
+        <span class="text-amber-500">•</span>
+        <span>PRIMERA EDICIÓN</span>
       </div>
       <h3 class="font-serif text-xl sm:text-2xl font-bold text-white leading-snug">
-        ¿Esta historia te acompañó o te devolvió un recuerdo?
+        Acordes Ocultos — Volumen 01: Historias humanas detrás de la música
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed">
-        <strong>Acordes Ocultos</strong> es un archivo documental independiente y libre de publicidad. Con tu aporte voluntario desde $3 USD como mecenas, sostienes la investigación y aseguras tu descarga digital exclusiva de nuestro primer <strong>Libro Recopilatorio (Volumen 01)</strong> en cuanto sea publicado.
+        <strong>28 crónicas documentales completas</strong> con archivo fotográfico restaurado, recreaciones de época y códigos QR para escuchar cada obra en su contexto original. Una edición de coleccionista en <strong>PDF interactivo de alta resolución y EPUB</strong> para leer en Kindle, tablet o teléfono.
       </p>
-      <p class="text-[11px] text-amber-300/80 italic font-sans pt-1">
-        Aporte voluntario y único, sin suscripción obligatoria. Incluye la entrega futura del Libro Digital (Volumen 01).
+      <div class="flex items-center gap-4 pt-1 text-[11px] font-sans">
+        <span class="text-amber-400 font-semibold">28 historias de archivo</span>
+        <span class="text-neutral-600">•</span>
+        <span class="text-neutral-400">PDF + EPUB interactivo</span>
+        <span class="text-neutral-600">•</span>
+        <a href="/libro" class="text-amber-400 hover:text-amber-300 underline font-medium">
+          Ver índice y detalles →
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-3 shrink-0">
+      <div class="flex items-center justify-between lg:justify-end gap-3">
+        <span class="text-xs text-neutral-400 uppercase tracking-wider font-semibold">Precio oficial:</span>
+        <span class="text-2xl font-serif font-black text-amber-400">$9.99 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
+      </div>
+      <a
+        href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=9.99"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="px-6 py-3.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-500/25 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-2"
+      >
+        <span>📖 Adquirir Libro Digital ($9.99)</span>
+        <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+        </svg>
+      </a>
+      <span class="text-[10px] text-neutral-400 text-center lg:text-right font-sans">
+        Descarga inmediata en PDF + EPUB sin DRM tras el pago seguro.
+      </span>
+    </div>
+  </div>
+</div>
+
+<!-- 2. Mecenazgo Cultural Independiente: Donación Voluntaria / Propina -->
+<div class="my-8 relative overflow-hidden rounded-2xl bg-[#12100d] border border-[#2b2720] p-6 sm:p-7">
+  <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+    <div class="space-y-1.5 max-w-xl">
+      <div class="inline-flex items-center gap-2 px-2.5 py-0.5 rounded-full text-[10px] font-bold tracking-widest uppercase bg-[#1f1a14] text-neutral-400 border border-[#332e26] font-sans">
+        <span>☕ MECENAZGO CULTURAL LIBRE</span>
+      </div>
+      <h4 class="font-serif text-lg sm:text-xl font-bold text-neutral-200 leading-snug">
+        ¿Esta historia te acompañó o te devolvió un recuerdo?
+      </h4>
+      <p class="font-sans text-xs text-neutral-400 leading-relaxed">
+        <strong>Acordes Ocultos</strong> es un archivo libre de publicidad invasiva. Si deseas apoyar las horas de hemerografía, licencias de audio y preservación documental, puedes invitarnos un café con un aporte voluntario.
+      </p>
+      <p class="text-[10px] text-neutral-400 italic font-sans">
+        Aporte voluntario no transaccional de mecenazgo. Para adquirir la obra editorial completa de 28 crónicas, utiliza el módulo superior del libro.
       </p>
     </div>
 
-    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-2.5 shrink-0">
-      <!-- Direct Tier Buttons that skip the intermediate screen -->
+    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-2 shrink-0">
       <div class="flex flex-wrap items-center gap-2">
         <a
           href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=3"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-white dark:bg-[#1a1713] text-neutral-900 dark:text-amber-200 border border-amber-500/40 hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
+          class="flex-1 sm:flex-initial px-3.5 py-2 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
         >
           ☕ $3 USD
         </a>
@@ -39,40 +87,36 @@ const { source = 'web_story' } = Astro.props;
           href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=5"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-md shadow-amber-500/20 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-1.5"
+          class="flex-1 sm:flex-initial px-3.5 py-2 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500/30 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-1"
         >
           <span>🎙️ $5 USD</span>
-          <span class="text-[9px] uppercase px-1 rounded bg-black/20 font-black">Sugerido</span>
+          <span class="text-[8px] uppercase px-1 rounded bg-amber-500/30 font-black">Sugerido</span>
         </a>
         <a
           href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=10"
           target="_blank"
           rel="noopener noreferrer"
-          class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-white dark:bg-[#1a1713] text-neutral-900 dark:text-amber-200 border border-amber-500/40 hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
+          class="flex-1 sm:flex-initial px-3.5 py-2 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 hover:-translate-y-0.5 transition-all text-center"
         >
           🏛️ $10 USD
         </a>
       </div>
-
-      <div class="flex items-center justify-between lg:justify-end gap-2 text-[11px] text-neutral-400 font-sans">
+      <div class="flex items-center justify-between lg:justify-end gap-2 text-[10px] text-neutral-400 font-sans">
         <a
           href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-amber-400 hover:text-amber-300 underline"
+          class="text-neutral-400 hover:text-amber-400 underline"
         >
           Elegir otro importe libre →
         </a>
       </div>
-
-      <span class="text-[10px] text-neutral-400 text-center lg:text-right font-sans">
-        Pago seguro con tarjeta y otros métodos disponibles según tu dispositivo en Gumroad.
-      </span>
     </div>
   </div>
 </div>
 
-<div class="my-10 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1c1813] via-[#12100e] to-[#0a0908] border border-amber-500/30 p-6 sm:p-10 shadow-2xl">
+<!-- 3. Boletín Gratuito: La Cofradía de Acordes Ocultos -->
+<div id="boletin" class="my-10 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1c1813] via-[#12100e] to-[#0a0908] border border-amber-500/30 p-6 sm:p-10 shadow-2xl">
   <!-- Subtle vinyl record watermark in background -->
   <div class="absolute -right-16 -bottom-16 w-64 h-64 rounded-full border border-amber-500/10 pointer-events-none opacity-40"></div>
   <div class="absolute -right-8 -bottom-8 w-48 h-48 rounded-full border border-amber-500/15 pointer-events-none opacity-40"></div>
@@ -80,9 +124,9 @@ const { source = 'web_story' } = Astro.props;
 
   <div class="relative z-10 max-w-2xl">
     <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 mb-4 font-sans">
-      <span>✉️ BOLETÍN OFICIAL</span>
+      <span>✉️ BOLETÍN GRATUITO</span>
       <span class="text-amber-500">•</span>
-      <span>DESCARGA FUTURA VOL. 01</span>
+      <span>LA COFRADÍA</span>
     </div>
 
     <h3 class="font-serif text-2xl sm:text-3xl font-black text-white leading-snug mb-3">
@@ -90,7 +134,7 @@ const { source = 'web_story' } = Astro.props;
     </h3>
 
     <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed mb-6">
-      Recibe en tu correo el aviso de nuestras nuevas crónicas documentales y la descarga digital de nuestro <strong>Libro Recopilatorio (Volumen 01)</strong> en cuanto esté disponible. Cero relleno, pura devoción sonora.
+      Recibe en tu correo cada nueva crónica documental extendida y descarga de bienvenida una <strong>muestra exclusiva de 3 crónicas de colección</strong>. Cero relleno, pura devoción sonora.
     </p>
 
     <form id="newsletter-form" class="space-y-3" data-source={source}>
@@ -108,7 +152,7 @@ const { source = 'web_story' } = Astro.props;
           id="newsletter-submit-btn"
           class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl font-sans font-bold text-xs sm:text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-950/50 transition-all cursor-pointer shrink-0 disabled:opacity-50"
         >
-          <span>Unirme y Recibir el Libro</span>
+          <span>Unirme a la Cofradía</span>
           <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -134,7 +178,7 @@ const { source = 'web_story' } = Astro.props;
     <!-- First Layer RGPD / LOPDGDD Information Summary -->
     <div class="mt-4 pt-3 border-t border-[#221f1a] text-[10px] text-neutral-400 leading-relaxed space-y-1 font-sans">
       <p>
-        <strong class="text-neutral-300">Información básica de protección de datos:</strong> Responsable: Redacción de Acordes Ocultos. Finalidad: Envío del boletín cultural, novedades editoriales y entrega del libro recopilatorio. Legitimación: Consentimiento expreso del interesado (Art. 6.1.a RGPD). Destinatarios: Cloudflare y Gumroad (encargados del tratamiento). Derechos: Acceso, rectificación y supresión a través de nuestros canales oficiales o mediante el enlace de baja en cada correo. Consulta todos los detalles en nuestra <a href="/privacidad" target="_blank" class="text-amber-400 underline hover:text-amber-300">Política de Privacidad</a>.
+        <strong class="text-neutral-300">Información básica de protección de datos:</strong> Responsable: Redacción de Acordes Ocultos. Finalidad: Envío del boletín cultural, novedades editoriales y entrega de capítulos de muestra. Legitimación: Consentimiento expreso del interesado (Art. 6.1.a RGPD). Destinatarios: Cloudflare y Gumroad (encargados del tratamiento). Derechos: Acceso, rectificación y supresión a través de nuestros canales oficiales o mediante el enlace de baja en cada correo. Consulta todos los detalles en nuestra <a href="/privacidad" target="_blank" class="text-amber-400 underline hover:text-amber-300">Política de Privacidad</a>.
       </p>
     </div>
   </div>
@@ -188,9 +232,14 @@ const { source = 'web_story' } = Astro.props;
                 <div>
                   <h4 class="font-bold text-white mb-1">¡Bienvenido a la Cofradía de Acordes Ocultos!</h4>
                   <p class="text-xs text-emerald-300 leading-relaxed mb-3">${data.message}</p>
-                  <a href="${data.gumroadUrl || 'https://acordesocultos.gumroad.com/l/ryhupd'}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500 text-black hover:bg-amber-400 transition-colors">
-                    <span>☕ Apoyar también como Mecenas ($3+) →</span>
-                  </a>
+                  <div class="flex flex-wrap items-center gap-2 pt-1">
+                    <a href="/libro" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500 text-black hover:bg-amber-400 transition-colors">
+                      <span>📖 Conocer el Libro Vol. 01 ($9.99) →</span>
+                    </a>
+                    <a href="${data.gumroadUrl || 'https://acordesocultos.gumroad.com/l/ryhupd'}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#1c1914] text-amber-200 border border-amber-500/30 hover:bg-amber-500/10 transition-colors">
+                      <span>☕ Apoyar como Mecenas ($3+)</span>
+                    </a>
+                  </div>
                 </div>
               </div>
             `;
@@ -200,14 +249,14 @@ const { source = 'web_story' } = Astro.props;
             feedback.textContent = data.error || 'Ocurrió un error al registrar tu correo. Intenta de nuevo.';
             feedback.classList.remove('hidden');
             btn.disabled = false;
-            btn.innerHTML = '<span>Unirme y Recibir el Libro</span>';
+            btn.innerHTML = '<span>Unirme a la Cofradía</span>';
           }
         } catch (err: any) {
           feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200';
           feedback.textContent = 'Error de conexión. Por favor intenta de nuevo.';
           feedback.classList.remove('hidden');
           btn.disabled = false;
-          btn.innerHTML = '<span>Unirme y Recibir el Libro</span>';
+          btn.innerHTML = '<span>Unirme a la Cofradía</span>';
         }
       });
     }

@@ -41,33 +41,36 @@ const stories = propStories || await getAllStories();
         <a href="/#historias" class="hover:text-amber-400 transition-colors">Relatos</a>
         <a href="/#categorias" class="hover:text-amber-400 transition-colors">Líneas Editoriales</a>
         <a 
+          href="/libro" 
+          class="flex items-center gap-1.5 text-amber-300 hover:text-amber-200 transition-colors font-semibold"
+        >
+          <span>📘 Libro (Vol. 01)</span>
+        </a>
+        <a 
           href="https://acordesocultos.gumroad.com/l/ryhupd" 
           target="_blank" 
           rel="noopener noreferrer" 
-          class="flex items-center gap-1.5 text-amber-300 hover:text-amber-200 transition-colors font-semibold"
+          class="flex items-center gap-1 text-neutral-400 hover:text-amber-300 transition-colors"
+          title="Aporte voluntario de mecenazgo ($3, $5, $10 USD)"
         >
-          <span>☕ Apoyar & Libro (Vol. 01)</span>
+          <span>☕ Apoyar</span>
         </a>
       </nav>
 
       <!-- Global Search Component -->
       <GlobalSearch stories={stories} />
 
-      <!-- Mobile Support Icon + Subscribe CTA -->
+      <!-- Mobile Book & Subscribe CTAs -->
       <a
-        href="https://acordesocultos.gumroad.com/l/ryhupd"
-        target="_blank"
-        rel="noopener noreferrer"
-        title="Apoyar el Archivo y Reservar Libro Digital"
-        class="lg:hidden inline-flex items-center gap-1 px-3 py-2 rounded-full text-xs font-semibold bg-[#1c1813] border border-amber-500/40 text-amber-300 hover:bg-amber-500/15 transition-colors shrink-0"
+        href="/libro"
+        title="Libro Recopilatorio (Volumen 01) - $9.99 USD"
+        class="lg:hidden inline-flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-semibold bg-[#1c1813] border border-amber-500/40 text-amber-300 hover:bg-amber-500/15 transition-colors shrink-0"
       >
-        <span>☕ Apoyar & Libro</span>
+        <span>📘 Libro</span>
       </a>
 
       <a
-        href="https://acordesocultos.gumroad.com/subscribe"
-        target="_blank"
-        rel="noopener noreferrer"
+        href="/#boletin"
         class="inline-flex items-center gap-2 px-3.5 sm:px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-md shadow-amber-950/40 hover:from-amber-500 hover:to-amber-400 transition-all transform hover:-translate-y-0.5 active:translate-y-0 shrink-0"
       >
         <span class="hidden sm:inline">Suscribirse Gratis</span>

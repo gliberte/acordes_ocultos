@@ -116,9 +116,36 @@ async function run() {
     process.exit(1);
   }
 
-  console.log(`🎉 ¡Enlace de Instagram guardado exitosamente!`);
+  console.log(`🎉 ¡Enlace de Instagram guardado exitosamente en Supabase!`);
   console.log(`   Reel URL: ${reelUrl}`);
   console.log(`   Historia: ${match.title}`);
+
+  // Update local stories_catalog.json and Cloudflare R2
+  const catalogPath = path.resolve(process.cwd(), 'web/src/data/stories_catalog.json');
+  if (fs.existsSync(catalogPath)) {
+    try {
+      const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+      const targetSlug = match.production_plan?.slug || slugOrId;
+      const idx = catalog.findIndex(c => c.id === match.id || c.slug === targetSlug || c.title?.toLowerCase().includes(slugOrId.toLowerCase()));
+      if (idx >= 0) {
+        catalog[idx].instagramUrl = reelUrl;
+        catalog[idx].igPublishedAt = match.production_plan?.ig_published_at || now;
+        catalog[idx].isLatestReel = true;
+        fs.writeFileSync(catalogPath, JSON.stringify(catalog, null, 2), 'utf8');
+        console.log(`💾 Catálogo web/src/data/stories_catalog.json actualizado con el Reel.`);
+
+        try {
+          const { updateCatalogWithStory } = await import('./update-catalog-story.mjs');
+          await updateCatalogWithStory({
+            story: { id: match.id, slug: catalog[idx].slug, title: match.title },
+            instagramUrl: reelUrl
+          });
+        } catch (_) {}
+      }
+    } catch (catErr) {
+      console.warn('Aviso actualizando catálogo local:', catErr.message);
+    }
+  }
 }
 
 run().catch(console.error);

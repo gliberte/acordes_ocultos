@@ -107,6 +107,53 @@ export const POST: APIRoute = async ({ request, cookies }) => {
       );
     }
 
+    // Sync isHidden to Cloudflare R2 so the public site updates immediately
+    try {
+      const { getFromR2, saveToR2 } = await import('../../lib/r2');
+      const r2Catalog = await getFromR2<any[]>('catalog/stories_catalog.json');
+      if (Array.isArray(r2Catalog)) {
+        const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const catIdx = r2Catalog.findIndex((item: any) => {
+          if (storyId && (item.id === storyId || item.id === targetRowId)) return true;
+          const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+          return Boolean(iSlug && cleanSlug && iSlug === cleanSlug);
+        });
+        if (catIdx >= 0) {
+          r2Catalog[catIdx].isHidden = nextHidden;
+          await saveToR2('catalog/stories_catalog.json', r2Catalog);
+          await saveToR2('acordes-ocultos/catalog/stories_catalog.json', r2Catalog);
+        }
+      }
+    } catch (r2Err) {
+      console.warn('[toggle-visibility] Could not sync to R2:', (r2Err as any)?.message);
+    }
+
+    // Also update local file if present on disk
+    try {
+      const fs = await import('node:fs');
+      const path = await import('node:path');
+      const localCatalogPath = path.resolve(process.cwd(), 'src/data/stories_catalog.json');
+      if (fs.existsSync(localCatalogPath)) {
+        const catalog = JSON.parse(fs.readFileSync(localCatalogPath, 'utf8'));
+        const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        const idx = catalog.findIndex((item: any) => {
+          if (storyId && (item.id === storyId || item.id === targetRowId)) return true;
+          const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+          return Boolean(iSlug && cleanSlug && iSlug === cleanSlug);
+        });
+        if (idx >= 0) {
+          catalog[idx].isHidden = nextHidden;
+          fs.writeFileSync(localCatalogPath, JSON.stringify(catalog, null, 2), 'utf8');
+        }
+      }
+    } catch (_) {}
+
+    // Invalidate in-memory cache
+    try {
+      const { clearStoriesCache } = await import('../../lib/stories');
+      clearStoriesCache();
+    } catch (_) {}
+
     return new Response(
       JSON.stringify({
         success: true,

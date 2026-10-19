@@ -16,6 +16,10 @@ const availableHeroes = new Set<string>(availableHeroesList);
 let cachedStories: { data: StoryItem[]; timestamp: number } | null = null;
 const CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes cache
 
+export function clearStoriesCache(): void {
+  cachedStories = null;
+}
+
 export function slugify(text: string): string {
   return (text || '')
     .toLowerCase()
@@ -214,15 +218,33 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
 
   let items: StoryItem[] = [];
 
-  // Prioritize precompiled stories catalog (zero network latency, 100% reliable, decoupled from Supabase)
-  if (!options.includeHidden && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
-    items = storiesCatalogFallback.map(item => {
-      const copy = { ...item } as StoryItem;
-      if (typeof copy.category === 'object' && copy.category !== null) {
-        copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+  // Prioritize live catalog from Cloudflare R2 with immediate fallback to precompiled catalog
+  if (!options.includeHidden) {
+    try {
+      const { getFromR2 } = await import('./r2');
+      const r2Data = await getFromR2<any[]>('catalog/stories_catalog.json');
+      if (Array.isArray(r2Data) && r2Data.length > 0) {
+        items = r2Data.map(item => {
+          const copy = { ...item } as StoryItem;
+          if (typeof copy.category === 'object' && copy.category !== null) {
+            copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+          }
+          return copy;
+        });
       }
-      return copy;
-    });
+    } catch (_) {
+      // Fallback below
+    }
+
+    if (items.length === 0 && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
+      items = storiesCatalogFallback.map(item => {
+        const copy = { ...item } as StoryItem;
+        if (typeof copy.category === 'object' && copy.category !== null) {
+          copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+        }
+        return copy;
+      });
+    }
   } else {
     const localArticles = loadLocalArticles();
     try {

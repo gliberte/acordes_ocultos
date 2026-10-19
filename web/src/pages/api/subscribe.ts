@@ -130,7 +130,7 @@ export const POST: APIRoute = async ({ request }) => {
         `📧 <b>Correo:</b> <code>${cleanEmail}</code>`,
         `📍 <b>País:</b> ${cleanCountry || 'N/A'}`,
         `🏷️ <b>Origen:</b> ${cleanSource}`,
-        `🎁 <b>Incentivo:</b> Libro Recopilatorio (Volumen 01)`,
+        `🎁 <b>Incentivo:</b> Cofradía (Boletín semanal + Muestra de 3 crónicas)`,
         `📅 <b>Fecha:</b> ${nowIso}`
       ].join('\n');
 
@@ -172,9 +172,10 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(
       JSON.stringify({
         success: true,
-        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Recibirás nuestras crónicas y el enlace de descarga exclusiva del Libro Recopilatorio (Volumen 01) en cuanto esté disponible.',
+        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Recibirás cada semana nuestras crónicas extendidas y el enlace de bienvenida con la muestra exclusiva de 3 crónicas de colección.',
+        bookUrl: '/libro',
         gumroadUrl: 'https://acordesocultos.gumroad.com/l/ryhupd',
-        bookTitle: 'Libro Recopilatorio (Volumen 01)'
+        bookTitle: 'Acordes Ocultos — Volumen 01'
       }),
       {
         status: 200,

@@ -1,0 +1,293 @@
+---
+import Layout from '../layouts/Layout.astro';
+import NewsletterBox from '../components/NewsletterBox.astro';
+
+const GUMROAD_BOOK_URL = 'https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=9.99';
+const GUMROAD_TIP_URL = 'https://acordesocultos.gumroad.com/l/ryhupd';
+
+const SECTIONS = [
+  {
+    part: 'Parte I',
+    title: 'Cuando una canción encuentra su camino',
+    description: 'Una voz invitada, una grabación que cambia de rumbo, una melodía que cruza una frontera sin pedir permiso.',
+    chapters: [
+      { num: '01', title: 'The Great Gig in the Sky', artist: 'Pink Floyd', slug: 'pink-floyd-the-great-gig-in-the-sky', highlight: 'El lamento de las 30 libras que cambió la historia del rock' },
+      { num: '02', title: "That's All Right", artist: 'Elvis Presley', slug: 'elvis-presley-thats-all-right-acordes-ocultos', highlight: 'La improvisación en Sun Studio que encendió el rock and roll' },
+      { num: '03', title: 'Eres tú', artist: 'Mocedades', slug: 'mocedades-eres-tu', highlight: 'La armonía en español que conquistó el mundo' },
+      { num: '04', title: 'California Dreamin’', artist: 'The Mamas & The Papas', slug: 'the-mamas-and-the-papas-california-dreamin-acordes-ocultos', highlight: 'El himno solar nacido en una habitación helada de Nueva York' },
+      { num: '05', title: 'Like a Rolling Stone', artist: 'Bob Dylan', slug: 'bob-dylan-like-a-rolling-stone-acordes-ocultos', highlight: 'El órgano accidental de Al Kooper en Columbia Studios' },
+      { num: '06', title: 'Tears in Heaven', artist: 'Eric Clapton', slug: 'eric-clapton-tears-in-heaven-acordes-ocultos', highlight: 'El acorde que salvó a un padre de las cenizas del duelo' },
+      { num: '07', title: 'Penélope', artist: 'Joan Manuel Serrat', slug: 'joan-manuel-serrat-penelope-historia-en-los-acordes', highlight: 'La mujer que esperó toda su vida en el andén de la estación' }
+    ]
+  },
+  {
+    part: 'Parte II',
+    title: 'La voz frente al espejo',
+    description: 'Historias de soledad, despedidas y la fragilidad de quienes dejaron el alma en cada surco antes de marcharse.',
+    chapters: [
+      { num: '08', title: 'Piece of My Heart', artist: 'Janis Joplin', slug: 'janis-joplin-piece-of-my-heart-destellos-de-gloria', highlight: 'De la humillación en Texas a la gloria inmortal de San Francisco' },
+      { num: '09', title: 'Un beso y una flor', artist: 'Nino Bravo', slug: 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria', highlight: 'La voz colosal que se despidió en una curva de asfalto' },
+      { num: '10', title: 'Hoy no me levanto', artist: 'Manolo Galván', slug: 'manolo-galvan-hoy-no-me-levanto-acordes-ocultos', highlight: 'El tema prohibido que desafió la moral de una época' },
+      { num: '11', title: 'Adiós, chico de mi barrio', artist: 'Tormenta', slug: 'tormenta-adios-chico-de-mi-barrio-acordes-ocultos', highlight: 'La nostalgia suburbana de un amor que el tiempo se llevó' },
+      { num: '12', title: 'Un ramito de violetas', artist: 'Cecilia', slug: 'cecilia-un-ramito-de-violetas-historia-en-los-acordes', highlight: 'El amor que llegaba sin firma en la voz de un talento truncado' },
+      { num: '13', title: 'Yesterday Once More', artist: 'The Carpenters', slug: 'the-carpenters-yesterday-once-more-acordes-ocultos', highlight: 'El refugio melancólico de Karen Carpenter frente al abismo' },
+      { num: '14', title: 'Lovin’ You', artist: 'Minnie Riperton', slug: 'minnie-riperton-lovin-you-acordes-ocultos', highlight: 'La canción de cuna más luminosa y la despedida prematura' }
+    ]
+  },
+  {
+    part: 'Parte III',
+    title: 'El pacto que resiste al tiempo',
+    description: 'La forja en el barro, las tensiones de estudio, los sabotajes y los lazos que sobrevivieron a la fama y el caos.',
+    chapters: [
+      { num: '15', title: 'Bohemian Rhapsody', artist: 'Queen', slug: 'queen-bohemian-rhapsody-forjados-en-el-barro', highlight: 'Al borde de la quiebra financiera y la obra magna del rock' },
+      { num: '16', title: 'Kashmir', artist: 'Led Zeppelin', slug: 'led-zeppelin-kashmir-acordes-ocultos', highlight: 'El viaje por el desierto y el pacto de honor tras la muerte de Bonzo' },
+      { num: '17', title: 'The Sound of Silence', artist: 'Simon & Garfunkel', slug: 'simon-and-garfunkel-the-sound-of-silence', highlight: 'El fracaso inicial que un productor transformó en leyenda mundial' },
+      { num: '18', title: 'Gimme Shelter', artist: 'The Rolling Stones', slug: 'the-rolling-stones-gimme-shelter', highlight: 'El grito desgarrador de Merry Clayton en la madrugada de 1969' },
+      { num: '19', title: 'Paranoid', artist: 'Black Sabbath', slug: 'black-sabbath-paranoid-forjados-en-el-barro', highlight: 'El riff de dos acordes compuesto en un recreo de veinte minutos' },
+      { num: '20', title: 'The Chain', artist: 'Fleetwood Mac', slug: 'fleetwood-mac-the-chain', highlight: 'La banda rota que cosió sus desamores en cinta de dos pulgadas' },
+      { num: '21', title: 'Touch Me', artist: 'The Doors', slug: 'the-doors-touch-me', highlight: 'Las cuerdas orquestales que envolvieron el fuego de Jim Morrison' }
+    ]
+  },
+  {
+    part: 'Parte IV',
+    title: 'Lo que la música no olvida',
+    description: 'Catedrales sonoras de la memoria viva: el duelo, el coraje civil, la identidad compartida y el testamento final.',
+    chapters: [
+      { num: '22', title: 'Marinero de luces', artist: 'Isabel Pantoja', slug: 'isabel-pantoja-marinero-de-luces-acordes-ocultos', highlight: 'El luto de un país entero y el regreso conmovido en el Teatro Real' },
+      { num: '23', title: 'Redemption Song', artist: 'Bob Marley', slug: 'bob-marley-redemption-song-destellos-de-gloria', highlight: 'El profeta descalzo con su guitarra acústica frente al diagnóstico terminal' },
+      { num: '24', title: 'Amor eterno', artist: 'Rocío Dúrcal & Juan Gabriel', slug: 'rocio-durcal-amor-eterno-catedrales-de-leyenda', highlight: 'La reina eterna del mariachi y la plegaria inmortal por los ausentes' },
+      { num: '25', title: 'Mi viejo', artist: 'Piero', slug: 'piero-mi-viejo-catedrales-de-leyenda', highlight: 'El poema íntimo que se convirtió en el espejo de tres generaciones' },
+      { num: '26', title: 'Todo cambia', artist: 'Mercedes Sosa', slug: 'mercedes-sosa-todo-cambia-catedrales-de-leyenda', highlight: 'La voz que venció al miedo y a la censura del exilio' },
+      { num: '27', title: 'Ojalá', artist: 'Silvio Rodríguez', slug: 'silvio-rodriguez-ojala-acordes-ocultos', highlight: 'El amor de juventud que atravesó guerras, mitos y continentes' },
+      { num: '28', title: 'Eso que tú me das', artist: 'Jarabe de Palo (Pau Donés)', slug: 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos', highlight: 'La lección de gratitud más pura y luminosa antes del adiós' }
+    ]
+  }
+];
+
+const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
+---
+
+<Layout
+  title="Libro Oficial: Acordes Ocultos — Volumen 01 | 28 Historias Humanas detrás de la Música"
+  description="Edición digital de colección (PDF interactivo + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y códigos QR directos a cada tema. Precio oficial: $9.99 USD."
+  image="/brand/acordes-ocultos-avatar-dark.png"
+>
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 space-y-16">
+
+    <!-- Hero Section -->
+    <header class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-[#1c1813] via-[#12100e] to-[#0a0908] border border-amber-500/40 p-8 sm:p-14 shadow-2xl shadow-amber-950/40">
+      <div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full border border-amber-500/10 pointer-events-none"></div>
+
+      <div class="relative z-10 flex flex-col lg:flex-row items-center gap-10 lg:gap-14">
+        <!-- Visual Book Spine / Badge -->
+        <div class="w-56 sm:w-64 shrink-0 flex flex-col items-center">
+          <div class="relative w-full aspect-[3/4] rounded-2xl overflow-hidden bg-gradient-to-br from-[#241e15] to-[#0d0c0a] border-2 border-amber-500/50 p-6 flex flex-col justify-between shadow-2xl shadow-black/80 transform hover:-translate-y-1 transition-transform duration-300">
+            <div class="space-y-1 text-center">
+              <span class="text-[9px] uppercase tracking-[0.3em] font-sans text-amber-400 font-bold">Edición Digital Oficial</span>
+              <div class="w-8 h-px bg-amber-500/40 mx-auto my-2"></div>
+              <h2 class="font-serif text-2xl font-black text-neutral-100 tracking-wider">ACORDES OCULTOS</h2>
+              <p class="font-sans text-[10px] text-neutral-400 uppercase tracking-widest">Volumen 01</p>
+            </div>
+
+            <div class="my-auto py-4 text-center">
+              <div class="w-16 h-16 rounded-full bg-amber-500/15 border border-amber-500/40 mx-auto flex items-center justify-center text-2xl shadow-inner">
+                🎙️
+              </div>
+            </div>
+
+            <div class="text-center pt-2 border-t border-[#332d24]">
+              <p class="font-serif italic text-xs text-amber-200">«Para quienes reconocen una parte de su vida en una canción.»</p>
+            </div>
+          </div>
+          <span class="text-[11px] text-neutral-400 mt-3 font-sans">PDF Interactivo + EPUB (Sin DRM)</span>
+        </div>
+
+        <!-- Book Pitch & Details -->
+        <div class="space-y-5 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans">
+            <span>📚 PRIMERA EDICIÓN DIGITAL · OCTUBRE 2026</span>
+          </div>
+
+          <h1 class="font-serif text-3xl sm:text-5xl font-black text-neutral-100 leading-tight">
+            Acordes Ocultos <br />
+            <span class="text-amber-400 font-normal italic text-2xl sm:text-3xl">Historias humanas detrás de la música</span>
+          </h1>
+
+          <p class="font-sans text-sm sm:text-base text-neutral-300 leading-relaxed max-w-2xl">
+            <strong>28 crónicas documentales completas</strong> que recorren momentos irrepetibles de la cultura sonora: una cantante que entra a Abbey Road sin saber qué esperan de ella, un lamento grabado de rodillas, una maqueta rescatada de la nieve o una despedida en el andén de una estación.
+          </p>
+
+          <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs font-sans text-neutral-300 max-w-xl mx-auto lg:mx-0">
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> 28 crónicas íntegras
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> PDF interactivo + EPUB
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> Códigos QR a canciones
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> Archivo fotográfico real
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> Fuentes hemerográficas
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> Descarga sin DRM
+            </li>
+          </ul>
+
+          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+            <a
+              href={GUMROAD_BOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/25 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-2"
+            >
+              <span>Adquirir Libro Digital — $9.99 USD</span>
+              <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+            <a
+              href="#indice"
+              class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
+            >
+              Explorar las 28 Obras ↓
+            </a>
+          </div>
+
+          <p class="text-[11px] text-neutral-400 font-sans">
+            Pago seguro internacional en Gumroad con tarjeta de crédito, débito y métodos locales.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Transparencia Editorial: Los 3 Canales del Proyecto -->
+    <section class="rounded-2xl bg-[#12100e] border border-[#2b2720] p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">
+        <span>⚖️ NUESTRA POLÍTICA EDITORIAL Y COMERCIAL CLARA</span>
+      </div>
+      <h2 class="font-serif text-2xl font-bold text-neutral-100">
+        Tres formas distintas y transparentes de participar en Acordes Ocultos
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 font-sans text-xs">
+        <div class="p-5 rounded-xl bg-[#171410] border border-amber-500/40 space-y-2">
+          <span class="text-amber-400 font-bold text-sm">1. El Libro Digital ($9.99 USD)</span>
+          <p class="text-neutral-300 leading-relaxed">
+            Es la obra editorial completa y terminada: las 28 crónicas maquetadas para lectura continua en PDF de arte y EPUB, con aparato bibliográfico completo y enlaces interactivos.
+          </p>
+          <a href={GUMROAD_BOOK_URL} target="_blank" rel="noopener" class="text-amber-400 font-semibold underline block pt-1">
+            Comprar por $9.99 USD →
+          </a>
+        </div>
+        <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
+          <span class="text-neutral-200 font-bold text-sm">2. Mecenazgo Voluntario ($3, $5, $10+)</span>
+          <p class="text-neutral-400 leading-relaxed">
+            Es un aporte solidario libre y no transaccional. Quien ama el canal y desea invitar un café para sostener los servidores y la hemerografía puede donar libremente. No incluye el libro completo.
+          </p>
+          <a href={GUMROAD_TIP_URL} target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-300 underline block pt-1">
+            Hacer un aporte de mecenas →
+          </a>
+        </div>
+        <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
+          <span class="text-neutral-200 font-bold text-sm">3. Boletín Gratuito ($0 USD)</span>
+          <p class="text-neutral-400 leading-relaxed">
+            Suscripción abierta a la Cofradía. Recibes en tu correo cada nueva crónica semanal y una muestra de bienvenida de 3 historias de colección sin coste alguno.
+          </p>
+          <a href="#boletin" class="text-neutral-400 hover:text-amber-300 underline block pt-1">
+            Unirme a la Cofradía gratis →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reader Note / Nota de la Edición -->
+    <section class="max-w-3xl mx-auto text-center space-y-4 py-4">
+      <h3 class="font-serif text-2xl font-bold text-neutral-200">
+        «Hay canciones que vuelven antes que los recuerdos»
+      </h3>
+      <p class="font-sans text-sm text-neutral-400 leading-relaxed italic">
+        «Bastan unas notas para que aparezcan una casa, una carretera o la voz de alguien que hace tiempo no vemos. A veces ni siquiera recordamos cuándo aprendimos la letra, pero todavía sabemos dónde respirar para cantarla. Este libro se acerca a quienes hicieron esas canciones.»
+      </p>
+      <span class="block text-xs uppercase tracking-widest text-amber-500 font-bold font-sans">
+        — De la presentación oficial del Volumen 01
+      </span>
+    </section>
+
+    <!-- Complete Table of Contents / Índice de las 28 Crónicas -->
+    <section id="indice" class="space-y-10 pt-6">
+      <div class="text-center space-y-2">
+        <span class="text-xs uppercase tracking-[0.25em] text-amber-400 font-bold font-sans">ÍNDICE DE OBRAS</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-neutral-100">
+          Las 28 Crónicas del Volumen 01
+        </h2>
+        <p class="text-xs sm:text-sm text-neutral-400 font-sans max-w-xl mx-auto">
+          Cuatro partes temáticas organizadas para una lectura reposada, con acceso a las grabaciones históricas y archivo hemerográfico.
+        </p>
+      </div>
+
+      <div class="space-y-8">
+        {SECTIONS.map(sec => (
+          <div class="rounded-2xl bg-[#12100e] border border-[#26221b] p-6 sm:p-8 space-y-5">
+            <div class="border-b border-[#242019] pb-4">
+              <span class="text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">{sec.part}</span>
+              <h3 class="font-serif text-2xl font-bold text-neutral-100 mt-1">{sec.title}</h3>
+              <p class="text-xs text-neutral-400 font-sans mt-1 leading-relaxed">{sec.description}</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 pt-2">
+              {sec.chapters.map(chap => (
+                <div class="p-4 rounded-xl bg-[#161310] border border-[#2b261e] hover:border-amber-500/40 transition-colors flex items-start gap-3.5">
+                  <span class="font-mono text-xs font-bold text-amber-500 shrink-0 pt-0.5">{chap.num}</span>
+                  <div class="min-w-0 space-y-1">
+                    <h4 class="font-serif text-sm font-bold text-neutral-100 truncate">
+                      {chap.title}
+                    </h4>
+                    <span class="text-[11px] uppercase tracking-wider text-neutral-400 block font-sans">
+                      {chap.artist}
+                    </span>
+                    <p class="text-[11px] text-neutral-400 leading-snug font-sans">
+                      {chap.highlight}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Buy Box Callout -->
+    <section class="rounded-3xl bg-gradient-to-r from-amber-500/15 via-[#1a1611] to-amber-500/10 border border-amber-500/40 p-8 sm:p-12 text-center space-y-5 shadow-2xl">
+      <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
+        Lleva las 28 historias de Acordes Ocultos a tu biblioteca
+      </h3>
+      <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
+        Edición digital sin publicidad, sin DRM y lista para leer en Kindle, tablet, iPad o teléfono. Descarga instantánea tras la compra.
+      </p>
+      <div class="pt-2">
+        <a
+          href={GUMROAD_BOOK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/30 transition-all transform hover:-translate-y-0.5"
+        >
+          <span>📖 Comprar Edición Digital ($9.99 USD)</span>
+          <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Newsletter Component at the bottom for free sample -->
+    <section class="pt-6">
+      <NewsletterBox source="libro_landing" />
+    </section>
+
+  </main>
+</Layout>
