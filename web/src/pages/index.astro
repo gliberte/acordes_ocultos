@@ -8,11 +8,19 @@ import { getAllStories } from '../lib/stories';
 import { CATEGORIES } from '../lib/categories';
 
 const allStories = await getAllStories();
-const featuredStory = allStories[0] || null;
-const latestReelStory = allStories.find(s => s.isLatestReel && s.id !== featuredStory?.id)
+
+// El Hero está reservado para la publicación con mayor número de visualizaciones en Instagram
+const featuredStory = [...allStories]
+  .filter(s => Boolean(s.instagramUrl) && typeof s.views === 'number' && s.views > 0)
+  .sort((a, b) => (b.views || 0) - (a.views || 0))[0] || allStories[0] || null;
+
+// El Spotlight destaca el reel más reciente estrenado en Instagram
+const latestReelStory = allStories.find(s => s.isLatestReel)
   || allStories.find(s => Boolean(s.instagramUrl) && s.id !== featuredStory?.id)
-  || allStories.find(s => Boolean(s.instagramUrl))
+  || allStories[0]
   || null;
+
+// La barra de tendencias muestra los siguientes 3 reels con mayores visualizaciones
 const trendingStories = [...allStories]
   .filter(s => s.id !== featuredStory?.id && typeof s.views === 'number' && s.views > 0)
   .sort((a, b) => (b.views || 0) - (a.views || 0))
@@ -84,14 +92,10 @@ const websiteSchema = {
               <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-500"></span>
             </span>
             <span class="text-[11px] font-bold tracking-[0.2em] uppercase text-amber-400 font-sans flex items-center gap-2">
-              <span>✨ Última Publicación Destacada</span>
-              {featuredStory.views && featuredStory.views > 10000 ? (
+              <span>👑 Reel Más Visto de Instagram</span>
+              {featuredStory.views && (
                 <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-[10px] font-black tracking-normal font-mono">
                   🔥 {featuredStory.views >= 1_000_000 ? `${(featuredStory.views / 1_000_000).toFixed(2)}M` : featuredStory.views.toLocaleString()} Reproducciones
-                </span>
-              ) : (
-                <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-amber-500/20 text-amber-300 border border-amber-500/40 text-[10px] font-black tracking-normal font-mono">
-                  NUEVO RELATO
                 </span>
               )}
             </span>
