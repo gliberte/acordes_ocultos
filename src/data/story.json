@@ -1,174 +1,174 @@
 {
   "brand": "acordes-ocultos",
-  "slug": "the-ronettes-be-my-baby-acordes-ocultos",
-  "articleSlug": "the-ronettes-be-my-baby-acordes-ocultos",
-  "title": "«Be My Baby»: El himno de amor adolescente que le costó la libertad a su propia voz",
-  "artist": "The Ronettes",
+  "slug": "tommy-james-crimson-and-clover-acordes-ocultos",
+  "articleSlug": "tommy-james-crimson-and-clover-acordes-ocultos",
+  "title": "El secreto detrás de «Crimson and Clover»: Dos palabras al despertar, la mafia y una cinta robada",
+  "artist": "Tommy James & The Shondells",
   "topic": "acordes-ocultos",
-  "hook": "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real.",
-  "anecdote": "Grabada en julio de 1963 en los estudios Gold Star de Los Ángeles bajo la producción de Phil Spector y compuesta por él junto a Jeff Barry y Ellie Greenwich, «Be My Baby» convirtió a Veronica 'Ronnie' Bennett, de 19 años, en un ícono mundial. Sin embargo, la obsesión de Spector por su voz lo llevó a apartar del estudio a sus compañeras y, tras su matrimonio en 1968, a encerrarla durante años en su mansión de Alhambra ocultándole los zapatos para que no pudiera salir, hasta que Ronnie logró escapar descalza con ayuda de su madre el 10 de junio de 1972.",
+  "hook": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
+  "anecdote": "A finales de 1968, el joven músico Tommy James, de 21 años, vivía atrapado bajo el control de Morris Levy en Roulette Records, sello vinculado a la familia mafiosa Genovese en Nueva York. Buscando reinventarse, unió al despertar su color favorito ('Crimson', carmesí) y su flor preferida ('Clover', trébol), y grabó una mezcla preliminar inacabada en los estudios Allegro Sound. En un viaje a Chicago, le mostró en privado ese borrador a la emisora WLS bajo promesa de no emitirlo, pero la estación copió la cinta en secreto y la lanzó al aire, provocando tal furor que el borrador sin terminar vendió más de 5,5 millones de copias.",
   "durationSeconds": 90,
   "beats": [
-    "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real.",
-    "Veronica Bennett tenía apenas diecinueve años cuando viajó desde el Harlem hispano junto a su hermana y su prima buscando triunfar.",
-    "El productor Phil Spector quedó tan obsesionado con su voz que buscó excusas para dejar fuera de la grabación a sus compañeras.",
-    "Entre decenas de músicos y una adolescente desconocida llamada Cher en los coros, Ronnie repitió cada suspiro durante semanas hasta rozar la perfección.",
-    "Cuando «Be My Baby» sonó en la radio, impactó tanto a Brian Wilson que debió detener su auto en la carretera para escucharla.",
-    "Pero tras casarse con Spector en 1968, aquel sueño juvenil se transformó en una mansión cerrada con alambre de púas y perros.",
-    "Temiendo perderla, su esposo le prohibió volver a cantar y escondió todos sus zapatos bajo llave para impedir que saliera a la calle.",
-    "En junio de 1972, con ayuda de su madre, Ronnie escapó descalza por una ventana dejando atrás su fortuna para salvar su vida.",
-    "Ningún muro ni ningún cerrojo pudieron apagar jamás la voz de quien nació para cantarle a la libertad y al amor."
+    "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
+    "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
+    "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
+    "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
+    "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
+    "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
+    "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
+    "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
+    "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad."
   ],
-  "outro": "¿Conocías la historia de supervivencia de Ronnie Spector detrás de «Be My Baby»?",
+  "outro": "¿Conocías la historia real detrás del borrador robado de «Crimson and Clover»?",
   "palette": {
-    "background": "#120c0e",
-    "paper": "#f7efe8",
-    "ink": "#1c1316",
-    "accent": "#d97757",
-    "muted": "#a88f88",
+    "background": "#14090c",
+    "paper": "#f9f1ec",
+    "ink": "#1f0e13",
+    "accent": "#be123c",
+    "muted": "#9f8489",
     "glow": "#f59e0b"
   },
   "music": {
-    "title": "Be My Baby",
-    "artist": "The Ronettes",
-    "year": 1963,
-    "src": "music/the-ronettes-be-my-baby.mp3",
-    "file": "music/the-ronettes-be-my-baby.mp3",
-    "source": "music/the-ronettes-be-my-baby.mp3",
+    "title": "Crimson and Clover",
+    "artist": "Tommy James & The Shondells",
+    "year": 1968,
+    "src": "music/tommy-james-crimson-and-clover.mp3",
+    "file": "music/tommy-james-crimson-and-clover.mp3",
+    "source": "music/tommy-james-crimson-and-clover.mp3",
     "startSecond": 0,
     "startSeconds": 0,
     "volume": 0.45,
     "fadeInSeconds": 1.5,
     "fadeOutSeconds": 3.5,
     "instagram": {
-      "query": "Be My Baby The Ronettes",
+      "query": "Crimson and Clover Tommy James",
       "status": "manual_check_required",
-      "expectedTitle": "Be My Baby",
-      "expectedArtist": "The Ronettes",
-      "notes": "Seleccionar audio oficial de Be My Baby de The Ronettes en Instagram Reels."
+      "expectedTitle": "Crimson and Clover",
+      "expectedArtist": "Tommy James & The Shondells",
+      "notes": "Seleccionar audio oficial de Crimson and Clover de Tommy James & The Shondells en Instagram Reels."
     }
   },
-  "video": "videos/the-ronettes-be-my-baby-acordes-ocultos",
-  "cover": "videos/the-ronettes-be-my-baby-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/the-ronettes-be-my-baby-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm film photograph. Inside Gold Star Studios in Los Angeles, July 1963, 19-year-old Ronnie Bennett (Ronnie Spector, young biracial woman from Spanish Harlem with warm light-brown skin, high cheekbones, expressive dark eyes with winged cat-eye eyeliner, signature towering 1963 jet-black beehive hairdo, wearing a fitted sleeveless 1960s dress) sings with tender emotion before a vintage RCA 77-DX ribbon microphone. Warm golden studio light, authentic 1960s film grain, ample negative space at top and bottom for typography, no text or letters.",
+  "video": "videos/tommy-james-crimson-and-clover-acordes-ocultos",
+  "cover": "videos/tommy-james-crimson-and-clover-acordes-ocultos/cover_bg.png",
+  "coverBg": "videos/tommy-james-crimson-and-clover-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm film photograph. Inside Allegro Sound Studios in New York, late 1968: 21-year-old American singer Tommy James (youthful handsome face, clean-shaven, warm brown eyes, signature 1968 shoulder-length wavy dark-brown hair with bangs, wearing a dark crimson velvet jacket over a black turtleneck) sings with dreamy intensity into a vintage studio condenser microphone while holding a cherry-red Gibson hollow-body electric guitar. Warm amber and deep crimson studio lighting, authentic 1968 film grain, ample negative space at top and bottom for typography, no text or letters.",
   "assets": [
     {
       "id": "scene-01",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-01.png",
-      "alt": "Ronnie Bennett de 19 años frente al micrófono en Gold Star Studios en julio de 1963 mientras Phil Spector la observa desde la cabina",
-      "prompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm film photograph. Medium shot inside dimly lit Gold Star Studio A in Hollywood, July 1963: 19-year-old Ronnie Bennett (young biracial woman with warm light-brown skin, high cheekbones, dark eyes with winged cat-eye eyeliner, towering 1963 jet-black beehive hairdo, fitted sleeveless dress) stands alone before a vintage RCA ribbon microphone under a single warm spotlight, while in the shadowy control booth behind the glass window, 23-year-old producer Phil Spector in dark sunglasses watches her intently. Authentic 1963 documentary realism, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-01.png",
+      "alt": "Tommy James despertando en su apartamento de Manhattan en 1968 y anotando dos palabras en una libreta",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm photograph. Intimate early-morning scene inside a 1968 Manhattan apartment bedroom: 21-year-old singer Tommy James (youthful handsome face, clean-shaven, signature 1968 shoulder-length wavy dark-brown hair with bangs, wearing a simple white undershirt) sits on the edge of his unmade bed as golden morning sunlight filters through venetian blinds, writing two words with a pen on a small bedside notepad right upon waking up. Authentic 1968 documentary realism, no text."
     },
     {
       "id": "scene-02",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-02.png",
-      "alt": "Las tres integrantes de The Ronettes caminando por el Harlem hispano de Nueva York en 1963",
-      "prompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm street photograph. Candid street-level shot in Spanish Harlem, New York, 1963: 19-year-old Ronnie Bennett walks down a brownstone brick sidewalk alongside her sister Estelle Bennett and cousin Nedra Talley; all three young women have towering 1963 black beehive hairstyles, winged eyeliner, and matching tailored 1960s skirts, laughing spontaneously together in natural afternoon sunlight. Authentic 1960s documentary photography, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-02.png",
+      "alt": "Tommy James frente al ejecutivo Morris Levy en las oficinas de Roulette Records en Nueva York en 1968",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm documentary photograph. Inside a dim wood-paneled executive office at Roulette Records on Broadway, New York, 1968: imposing label boss Morris Levy (heavyset man in his early 40s in a dark pinstripe suit holding a thick cigar behind a mahogany desk) leans forward sternly while 21-year-old Tommy James (shoulder-length wavy dark-brown hair with bangs, dark turtleneck) sits across the desk looking tense and trapped. Cinematic 1960s film grain, no text."
     },
     {
       "id": "scene-03",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-03.png",
-      "alt": "Phil Spector ensayando a solas con Ronnie Bennett en el estudio mientras Estelle y Nedra quedan fuera",
-      "prompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm photograph. Over-the-shoulder documentary angle inside Gold Star Studio A, July 1963: 23-year-old producer Phil Spector (short stature, slight build, pale narrow face, dark-tinted sunglasses indoors, dark three-piece suit) leans over an upright studio piano instructing 19-year-old Ronnie Bennett (towering black beehive hair, winged eyeliner) one-on-one, while through the small studio door window in the background her two groupmates wait outside in the hallway. Cinematic 1960s grain, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-03.png",
+      "alt": "Tommy James componiendo con su guitarra junto a la ventana en Nueva York en 1968",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm candid photograph. By a rain-streaked apartment window in Manhattan in late 1968, 21-year-old Tommy James (same exact youthful face, shoulder-length wavy dark-brown hair with bangs, wearing a dark crimson corduroy shirt) cradles a cherry-red hollow-body guitar while looking thoughtfully at a lyric notebook beside a small clover leaf on the wooden table. Warm nostalgic 1968 tones, no text."
     },
     {
       "id": "scene-04",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-04.png",
-      "alt": "Sesión de grabación de Be My Baby en Gold Star Studios con Hal Blaine en la batería y una joven Cher de 17 años en los coros",
-      "prompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm photograph. Dynamic wide angle inside cramped Gold Star Studio A in July 1963 during the recording of Be My Baby: session drummer Hal Blaine strikes the snare drum in the mid-ground while in the row of backing vocalists a 17-year-old Cherilyn Sarkisian (young Cher, tall slim teenager with long straight jet-black hair with bangs and high cheekbones) claps her hands and sings into a shared studio microphone behind Ronnie Bennett. Warm analog studio lighting, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-04.png",
+      "alt": "Tommy James grabando en Allegro Sound Studios conectando el micrófono a un amplificador Ampeg",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm studio photograph. Full three-quarter standing shot inside Allegro Sound Studios in New York late at night in 1968: 21-year-old Tommy James (standing in dark trousers and black turtleneck, shoulder-length wavy dark-brown hair with bangs) sings with his eyes closed into a vintage studio microphone on a tall chrome stand, while beside him on a wooden studio chair sits a vintage blue-checkered Ampeg guitar amplifier connected by a microphone cable, with drummer Peter Lucia seated at the drums in the background. Natural anatomy and proportions, authentic 1968 analog studio atmosphere, no text."
     },
     {
       "id": "scene-05",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-05.png",
-      "alt": "Brian Wilson deteniendo su automóvil en la costa de California en agosto de 1963 al escuchar Be My Baby en la radio",
-      "prompt": "Vertical 9:16 vintage 1963 Kodachrome 35mm photograph. Inside a parked 1963 American sedan pulled over on the gravel shoulder of the Pacific Coast Highway in California at sunset: 21-year-old Brian Wilson (young fair-skinned man with side-parted light-brown hair, wearing a classic early-1960s striped short-sleeve shirt) sits behind the steering wheel with eyes wide with emotion, looking down at the glowing chrome AM car radio. Golden coastal light, authentic 1960s film grain, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-05.png",
+      "alt": "Tommy James mostrando su cinta de carrete inacabada en las oficinas de la radio WLS de Chicago en diciembre de 1968",
+      "prompt": "Vertical 9:16 vintage December 1968 Kodachrome 35mm documentary photograph. Inside the broadcast office of radio station WLS in Chicago, December 1968: 21-year-old Tommy James (shoulder-length wavy dark-brown hair with bangs, wearing a dark winter coat over a crimson sweater) points earnestly to a 7-inch reel-to-reel tape box on the desk while speaking to a 1960s radio program director in a suit and tie, asking him to keep the unfinished rough mix secret. Authentic 1968 film grain, no text."
     },
     {
       "id": "scene-06",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-06.png",
-      "alt": "Ronnie Spector mirando a través de una ventana con rejas en la mansión de Alhambra en 1969",
-      "prompt": "Vertical 9:16 vintage 1969 Kodak Tri-X and Kodachrome film photograph. Inside a dark wood-paneled hallway of the Spanish-style mansion in Alhambra, California, 1969: 25-year-old Ronnie Spector (same exact facial bone structure, warm light-brown skin, high cheekbones, expressive dark eyes, long dark hair resting on her shoulders) stands alone looking out through a tall arched window with wrought-iron grille toward high locked estate gates outside. Somber chiaroscuro lighting, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-06.png",
+      "alt": "Grabadora de carrete oculta copiando en secreto la cinta de Crimson and Clover en la radio de Chicago",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm close-up documentary shot. Low angle inside a 1968 Chicago radio station control room: in the foreground beneath the wooden broadcast console, a radio director's hand surreptitiously presses the red record switch on a second reel-to-reel tape machine spinning magnetic tape, while in the soft-focus background behind the glass window 21-year-old Tommy James listens unaware. High narrative tension, 35mm film grain, no text."
     },
     {
       "id": "scene-07",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-07.png",
-      "alt": "Ronnie Spector descalza en su habitación de Alhambra frente al armario vacío sin zapatos",
-      "prompt": "Vertical 9:16 vintage 1971 35mm film photograph. Intimate low-angle medium shot inside a dimly lit bedroom of the Alhambra mansion in 1971: 27-year-old Ronnie Spector (same facial features, high cheekbones, dark eyes, long dark hair) sits barefoot on the edge of a velvet bed looking down at an open closet floor completely emptied of shoes, symbolizing her confinement. Deep shadows, poignant documentary realism, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-07.png",
+      "alt": "Central telefónica de la emisora WLS de Chicago iluminada por miles de llamadas de oyentes en diciembre de 1968",
+      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm documentary photograph. Inside the telephone switchboard room of WLS radio in Chicago, December 1968: a young 1960s switchboard operator wearing a headset plugs cords rapidly as dozens of warm amber indicator bulbs flash simultaneously across the vertical telephone board, while through the interior window the red studio 'ON AIR' lamp glows brightly. Authentic 1968 photojournalism, no text."
     },
     {
       "id": "scene-08",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-08.png",
-      "alt": "Ronnie Spector escapando descalza de la mansión de Alhambra junto a su madre el 10 de junio de 1972",
-      "prompt": "Vertical 9:16 vintage 1972 35mm documentary photograph. Dramatic twilight scene on June 10, 1972 outside the Alhambra mansion: 28-year-old Ronnie Spector (same exact face, long dark hair, wearing a simple blouse and trousers) runs barefoot across the stone driveway holding the hand of her mother Beatrice toward a waiting car by the open iron gate, leaving the dark mansion behind in the background. Urgent cinematic motion, authentic 70s film grain, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-08.png",
+      "alt": "Tommy James sosteniendo las cajas de discos recién impresas de Crimson and Clover en Nueva York",
+      "prompt": "Vertical 9:16 vintage early-1969 Kodachrome 35mm photograph. Inside a record shipping room in New York in January 1969: 21-year-old Tommy James (same exact face, shoulder-length wavy dark-brown hair with bangs, wearing a dark velvet jacket) stands surrounded by tall cardboard shipping boxes of records, looking with a bittersweet, astonished smile at a freshly printed record sleeve in his hands. Warm 1960s documentary lighting, no text."
     },
     {
       "id": "scene-09",
       "kind": "image",
-      "src": "videos/the-ronettes-be-my-baby-acordes-ocultos/scene-09.png",
-      "alt": "Ronnie Spector cantando libre en un escenario iluminado a finales de los años setenta",
-      "prompt": "Vertical 9:16 vintage late-1970s 35mm concert photograph. Intimate medium close-up on a warm theater stage: Ronnie Spector (same preserved facial features, high cheekbones, winged eyeliner, flowing dark hair, radiant liberated expression) sings with her eyes closed into a stage microphone bathed in golden amber spotlight, reclaiming her voice and freedom. Poetic, emotional atmosphere, no turntables, no vinyl records, no text."
+      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-09.png",
+      "alt": "Tommy James contemplando el atardecer desde una terraza de Nueva York con su guitarra en 1969",
+      "prompt": "Vertical 9:16 vintage 1969 Kodachrome 35mm cinematic portrait. At twilight on a quiet brick rooftop in Manhattan overlooking the glowing city skyline at dusk: 21-year-old Tommy James (same preserved facial features, shoulder-length wavy dark-brown hair with bangs, dark crimson velvet jacket) stands in peaceful contemplation holding his cherry-red guitar by his side as the evening breeze moves his hair. Deeply poetic atmosphere, no turntables, no vinyl records, no text."
     }
   ],
   "scenes": [
     {
       "id": 1,
-      "text": "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real.",
+      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
       "start": 0,
       "end": 10
     },
     {
       "id": 2,
-      "text": "Veronica Bennett tenía apenas diecinueve años cuando viajó desde el Harlem hispano junto a su hermana y su prima buscando triunfar.",
+      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
       "start": 10,
       "end": 20
     },
     {
       "id": 3,
-      "text": "El productor Phil Spector quedó tan obsesionado con su voz que buscó excusas para dejar fuera de la grabación a sus compañeras.",
+      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
       "start": 20,
       "end": 30
     },
     {
       "id": 4,
-      "text": "Entre decenas de músicos y una adolescente desconocida llamada Cher en los coros, Ronnie repitió cada suspiro durante semanas hasta rozar la perfección.",
+      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
       "start": 30,
       "end": 40
     },
     {
       "id": 5,
-      "text": "Cuando «Be My Baby» sonó en la radio, impactó tanto a Brian Wilson que debió detener su auto en la carretera para escucharla.",
+      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
       "start": 40,
       "end": 50
     },
     {
       "id": 6,
-      "text": "Pero tras casarse con Spector en 1968, aquel sueño juvenil se transformó en una mansión cerrada con alambre de púas y perros.",
+      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
       "start": 50,
       "end": 60
     },
     {
       "id": 7,
-      "text": "Temiendo perderla, su esposo le prohibió volver a cantar y escondió todos sus zapatos bajo llave para impedir que saliera a la calle.",
+      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
       "start": 60,
       "end": 70
     },
     {
       "id": 8,
-      "text": "En junio de 1972, con ayuda de su madre, Ronnie escapó descalza por una ventana dejando atrás su fortuna para salvar su vida.",
+      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
       "start": 70,
       "end": 80
     },
     {
       "id": 9,
-      "text": "Ningún muro ni ningún cerrojo pudieron apagar jamás la voz de quien nació para cantarle a la libertad y al amor.",
+      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad.",
       "start": 80,
       "end": 90
     }
@@ -179,7 +179,7 @@
       "assetId": "scene-01",
       "start": 0,
       "end": 10,
-      "text": "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real.",
+      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
       "motion": "zoom-in"
     },
     {
@@ -187,7 +187,7 @@
       "assetId": "scene-02",
       "start": 10,
       "end": 20,
-      "text": "Veronica Bennett tenía apenas diecinueve años cuando viajó desde el Harlem hispano junto a su hermana y su prima buscando triunfar.",
+      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
       "motion": "pan-right"
     },
     {
@@ -195,7 +195,7 @@
       "assetId": "scene-03",
       "start": 20,
       "end": 30,
-      "text": "El productor Phil Spector quedó tan obsesionado con su voz que buscó excusas para dejar fuera de la grabación a sus compañeras.",
+      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
       "motion": "zoom-out"
     },
     {
@@ -203,7 +203,7 @@
       "assetId": "scene-04",
       "start": 30,
       "end": 40,
-      "text": "Entre decenas de músicos y una adolescente desconocida llamada Cher en los coros, Ronnie repitió cada suspiro durante semanas hasta rozar la perfección.",
+      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
       "motion": "pan-left"
     },
     {
@@ -211,7 +211,7 @@
       "assetId": "scene-05",
       "start": 40,
       "end": 50,
-      "text": "Cuando «Be My Baby» sonó en la radio, impactó tanto a Brian Wilson que debió detener su auto en la carretera para escucharla.",
+      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
       "motion": "zoom-in"
     },
     {
@@ -219,7 +219,7 @@
       "assetId": "scene-06",
       "start": 50,
       "end": 60,
-      "text": "Pero tras casarse con Spector en 1968, aquel sueño juvenil se transformó en una mansión cerrada con alambre de púas y perros.",
+      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
       "motion": "zoom-out"
     },
     {
@@ -227,7 +227,7 @@
       "assetId": "scene-07",
       "start": 60,
       "end": 70,
-      "text": "Temiendo perderla, su esposo le prohibió volver a cantar y escondió todos sus zapatos bajo llave para impedir que saliera a la calle.",
+      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
       "motion": "pan-right"
     },
     {
@@ -235,7 +235,7 @@
       "assetId": "scene-08",
       "start": 70,
       "end": 80,
-      "text": "En junio de 1972, con ayuda de su madre, Ronnie escapó descalza por una ventana dejando atrás su fortuna para salvar su vida.",
+      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
       "motion": "zoom-in"
     },
     {
@@ -243,7 +243,7 @@
       "assetId": "scene-09",
       "start": 80,
       "end": 90,
-      "text": "Ningún muro ni ningún cerrojo pudieron apagar jamás la voz de quien nació para cantarle a la libertad y al amor.",
+      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad.",
       "motion": "zoom-out"
     }
   ],
@@ -251,51 +251,51 @@
     {
       "start": 0,
       "end": 10,
-      "text": "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real."
+      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Veronica Bennett tenía apenas diecinueve años cuando viajó desde el Harlem hispano junto a su hermana y su prima buscando triunfar."
+      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "El productor Phil Spector quedó tan obsesionado con su voz que buscó excusas para dejar fuera de la grabación a sus compañeras."
+      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Entre decenas de músicos y una adolescente desconocida llamada Cher en los coros, Ronnie repitió cada suspiro durante semanas hasta rozar la perfección."
+      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Cuando «Be My Baby» sonó en la radio, impactó tanto a Brian Wilson que debió detener su auto en la carretera para escucharla."
+      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Pero tras casarse con Spector en 1968, aquel sueño juvenil se transformó en una mansión cerrada con alambre de púas y perros."
+      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Temiendo perderla, su esposo le prohibió volver a cantar y escondió todos sus zapatos bajo llave para impedir que saliera a la calle."
+      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "En junio de 1972, con ayuda de su madre, Ronnie escapó descalza por una ventana dejando atrás su fortuna para salvar su vida."
+      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Ningún muro ni ningún cerrojo pudieron apagar jamás la voz de quien nació para cantarle a la libertad y al amor."
+      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad."
     }
   ],
   "publication": {
-    "description": "En julio de 1963, la canción de amor más luminosa de su década nació como el principio de un cautiverio real.\n\nCuando Veronica «Ronnie» Bennett grabó «Be My Baby» en los estudios Gold Star de Los Ángeles, tenía apenas diecinueve años. El productor Phil Spector, obsesionado con su voz y su persona, buscó excusas para dejar fuera de la pista principal a su hermana Estelle y a su prima Nedra, reteniendo a Ronnie durante semanas frente al micrófono junto a una orquesta de estudio y una adolescente desconocida de diecisiete años llamada Cherilyn Sarkisian —la futura Cher—, quien debutó aquel día haciendo coros y tocando las palmas.\n\nLo que el mundo escuchó como el himno supremo del amor juvenil terminó convirtiéndose en una jaula de oro. Tras casarse con Spector en 1968, Ronnie vivió encerrada en una mansión de Alhambra rodeada de alambre de púas y perros guardianes, donde él le prohibió cantar y escondió todos sus zapatos para que no pudiera salir, hasta que el 10 de junio de 1972 logró escapar descalza con ayuda de su madre para recuperar su vida y su voz.\n\n¿Qué sientes al escuchar hoy el famoso inicio de batería de «Be My Baby»? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TheRonettes #RonnieSpector #BeMyBaby #60sMusic #HistoriaDeLaMusica #HistoriasReales",
-    "tiktokDescription": "La canción de amor más dulce de los años 60 escondía la historia de cautiverio y huida de su propia cantante. 🥁🎤✨\n\n#AcordesOcultos #TheRonettes #RonnieSpector #BeMyBaby #60sMusic #AprendeEnTikTok"
+    "description": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.\n\nA sus veintiún años, Tommy James vivía atrapado en Roulette Records, la disquera neoyorquina dirigida por Morris Levy, socio directo de la familia mafiosa Genovese. Sus discos vendían millones, pero Tommy no podía reclamar sus regalías sin poner en riesgo su vida. Buscando reinventarse y salvar su carrera, una mañana en Manhattan despertó con dos palabras unidas en la mente antes de escribir un solo acorde: su color favorito («Crimson», carmesí) y su flor preferida («Clover», trébol).\n\nTras grabar en Nueva York un borrador preliminar —haciendo vibrar su voz a través del trémolo de un amplificador de guitarra—, cometió la imprudencia de mostrarle la cinta inacabada a los directivos de la emisora WLS en Chicago bajo promesa de que jamás la transmitieran. El director de la radio la copió a escondidas y la puso al aire al día siguiente: los teléfonos colapsaron y aquel borrador sin terminar vendió más de 5,5 millones de copias.\n\n¿Qué recuerdos te trae escuchar «Crimson and Clover»? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TommyJames #CrimsonAndClover #60sRock #HistoriaDeLaMusica #RockClasico #HistoriasReales",
+    "tiktokDescription": "Atrapado por la mafia de Nueva York, despertó con dos palabras en su mente y una radio robó su borrador sin terminar. 🎸🍀✨\n\n#AcordesOcultos #TommyJames #CrimsonAndClover #60sMusic #HistoriaDelRock #AprendeEnTikTok"
   }
 }

@@ -539,7 +539,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'be-my-baby-el-himno-de-amor-adolescente-que-le-costo-la-libertad-a-su-propia-voz': 'the-ronettes-be-my-baby-acordes-ocultos',
           'bemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
           'theronettesbemybaby': 'the-ronettes-be-my-baby-acordes-ocultos',
-          'theronettesbemybabyacordesocultos': 'the-ronettes-be-my-baby-acordes-ocultos'
+          'theronettesbemybabyacordesocultos': 'the-ronettes-be-my-baby-acordes-ocultos',
+          'elsecretodetrasdecrimsonandcloverdospalabrasaldespertarlamafiayunacintarobada': 'tommy-james-crimson-and-clover-acordes-ocultos',
+          'el-secreto-detras-de-crimson-and-clover-dos-palabras-al-despertar-la-mafia-y-una-cinta-robada': 'tommy-james-crimson-and-clover-acordes-ocultos',
+          'crimsonandclover': 'tommy-james-crimson-and-clover-acordes-ocultos',
+          'tommyjamescrimsonandclover': 'tommy-james-crimson-and-clover-acordes-ocultos',
+          'tommyjamescrimsonandcloveracordesocultos': 'tommy-james-crimson-and-clover-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');

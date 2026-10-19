@@ -47,9 +47,13 @@ console.log('🔄 ========================================================\n');
 console.log('🖼️  [1/5] Optimizando portadas y fotografías a WebP para la web (conservando originales PNG)...');
 try {
   execSync('node scripts/generate-webp-covers.mjs', { cwd: rootDir, stdio: 'inherit' });
+} catch (err) {
+  console.error('⚠️ Error en optimización de portadas WebP:', err.message);
+}
+try {
   execSync('node scripts/optimize-web-images.mjs', { cwd: rootDir, stdio: 'inherit' });
 } catch (err) {
-  console.error('⚠️ Error en optimización WebP:', err.message);
+  console.error('⚠️ Error en optimización de imágenes WebP:', err.message);
 }
 
 // 2. Compilar dataset web/src/data/chronicles.json
