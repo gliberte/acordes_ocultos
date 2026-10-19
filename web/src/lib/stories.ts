@@ -645,9 +645,10 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     }
   }
 
-  // Filter out hidden stories unless explicitly requested (e.g. from admin panel)
+  // Filter out hidden stories unless explicitly requested (e.g. from admin panel).
+  // Public catalog strictly requires an associated Instagram Reel (zero spoilers, only officially released content)
   if (!options.includeHidden) {
-    items = items.filter(item => !item.isHidden);
+    items = items.filter(item => !item.isHidden && Boolean(item.instagramUrl));
   }
 
   // Sort chronologically:
