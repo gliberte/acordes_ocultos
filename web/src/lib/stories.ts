@@ -216,7 +216,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
 
   // Prioritize precompiled stories catalog (zero network latency, 100% reliable, decoupled from Supabase)
   if (!options.includeHidden && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
-    items = storiesCatalogFallback.map(item => ({ ...item })) as StoryItem[];
+    items = storiesCatalogFallback.map(item => {
+      const copy = { ...item } as StoryItem;
+      if (typeof copy.category === 'object' && copy.category !== null) {
+        copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+      }
+      return copy;
+    });
   } else {
     const localArticles = loadLocalArticles();
     try {

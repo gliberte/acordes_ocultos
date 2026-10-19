@@ -22,7 +22,7 @@ export const CATEGORIES: Record<string, CategoryInfo> = {
   'catedrales-de-leyenda': {
     id: 'catedrales-de-leyenda',
     name: 'Catedrales de Leyenda',
-    description: 'Monumentos incombustibles y titanes que reinventaron la música a lo largo de décadas.',
+    description: 'Trayectorias extensas, reinvenciones y legado duradero de artistas que marcaron décadas, tanto vivos como fallecidos.',
     badgeClass: 'bg-indigo-500/20 text-indigo-300 border-indigo-500/30'
   },
   'forjados-en-el-barro': {
@@ -33,8 +33,17 @@ export const CATEGORIES: Record<string, CategoryInfo> = {
   }
 };
 
-export function getCategoryInfo(topicOrCategory?: string): CategoryInfo {
+export function getCategoryInfo(topicOrCategory?: any): CategoryInfo {
   if (!topicOrCategory) return CATEGORIES['acordes-ocultos'];
+  if (typeof topicOrCategory === 'object' && topicOrCategory !== null) {
+    const candidate = topicOrCategory.id || topicOrCategory.topic || topicOrCategory.name;
+    if (candidate && typeof candidate === 'string') {
+      return getCategoryInfo(candidate);
+    }
+    return CATEGORIES['acordes-ocultos'];
+  }
+  if (typeof topicOrCategory !== 'string') return CATEGORIES['acordes-ocultos'];
+
   const key = topicOrCategory.toLowerCase().trim();
   if (CATEGORIES[key]) return CATEGORIES[key];
 
