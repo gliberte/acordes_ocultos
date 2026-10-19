@@ -20,7 +20,7 @@ function formatViewsCount(views?: number): string {
   return views.toLocaleString();
 }
 
-Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=60, stale-while-revalidate=86400');
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, s-maxage=300, stale-while-revalidate=86400');
 
 const websiteSchema = {
   '@context': 'https://schema.org',

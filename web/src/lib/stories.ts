@@ -5,11 +5,16 @@ import { extractCleanSummary } from './markdown';
 import chroniclesMap from '../data/chronicles.json';
 import availableCoversList from '../data/available_covers.json';
 import availableHeroesList from '../data/available_heroes.json';
+import storiesCatalogFallback from '../data/stories_catalog.json';
 import fs from 'node:fs';
 import path from 'node:path';
 
 const availableCovers = new Set<string>(availableCoversList);
 const availableHeroes = new Set<string>(availableHeroesList);
+
+// In-memory cache for serverless runtimes to avoid redundant network egress
+let cachedStories: { data: StoryItem[]; timestamp: number } | null = null;
+const CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes cache
 
 export function slugify(text: string): string {
   return (text || '')
@@ -202,18 +207,23 @@ function loadLocalGeneratedStories(): StoryItem[] {
  * By default filters out hidden stories unless includeHidden is true.
  */
 export async function getAllStories(options: { includeHidden?: boolean } = {}): Promise<StoryItem[]> {
+  // Return cached result if available and fresh (bypasses Supabase network calls)
+  if (!options.includeHidden && cachedStories && (Date.now() - cachedStories.timestamp < CACHE_TTL_MS)) {
+    return cachedStories.data;
+  }
+
   const localArticles = loadLocalArticles();
   let items: StoryItem[] = [];
 
   try {
     const { data, error } = await supabase
       .from('published_news')
-      .select('*')
+      .select('id, title, status, image_url, video_url, created_at, production_plan')
       .order('created_at', { ascending: false });
 
     if (!error && Array.isArray(data) && data.length > 0) {
-      // Filter stories that have a title and some media or content
-      const filtered = data.filter(r => r.title && (r.image_url || r.video_url || r.web_article));
+      // Filter stories that have a title and some media or production plan
+      const filtered = data.filter(r => r.title && (r.image_url || r.video_url || r.production_plan));
       
       // Deduplicate by slug, giving precedence to rows with instagramUrl and public status
       const itemsBySlug = new Map<string, { item: StoryItem; row: any }>();
@@ -606,9 +616,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     console.warn('Supabase fetch failed, using local dataset fallback:', err);
   }
 
-  // If Supabase returned nothing or failed, fallback to local stories
+  // If Supabase returned nothing or failed, fallback to precompiled catalog dataset, then local files
   if (items.length === 0) {
-    items = loadLocalGeneratedStories();
+    if (Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
+      items = storiesCatalogFallback.map(item => ({ ...item })) as StoryItem[];
+    } else {
+      items = loadLocalGeneratedStories();
+    }
   }
 
   // Filter out hidden stories unless explicitly requested (e.g. from admin panel)
@@ -649,6 +663,14 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   // Set isLatestReel = true ONLY for the dynamically detected newest story
   for (const item of items) {
     item.isLatestReel = Boolean(newestStory && item.id === newestStory.id);
+  }
+
+  // Cache in-memory for serverless instances (prevents redundant network queries)
+  if (!options.includeHidden && items.length > 0) {
+    cachedStories = {
+      data: items,
+      timestamp: Date.now()
+    };
   }
 
   return items;
