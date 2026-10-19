@@ -46,6 +46,7 @@ export const StoryGenerationSchema = z.object({
 
 export const StorySchema = z.object({
   brand: z.string().optional(),
+  logoSize: z.number().min(120).max(360).optional(),
   title: z.string(),
   artist: z.string(),
   durationSeconds: z.number().default(60),
@@ -77,6 +78,15 @@ export const StorySchema = z.object({
         checkedAt: z.string().optional(),
         notes: z.string().optional()
       })
+      .optional(),
+    tracks: z
+      .array(
+        z.object({
+          start: z.number(),
+          end: z.number(),
+          title: z.string()
+        })
+      )
       .optional()
   }),
   assets: z.array(StoryAssetSchema).min(4),

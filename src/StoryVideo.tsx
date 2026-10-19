@@ -136,7 +136,7 @@ const visualOpacity = (
   return Math.min(inOpacity, outOpacity);
 };
 
-const ChannelLogo: React.FC<{brand?: string}> = ({brand}) => {
+const ChannelLogo: React.FC<{brand?: string; size?: number}> = ({brand, size = 216}) => {
   const frame = useCurrentFrame();
 
   // Movimiento pendular 3D sutil y elegante
@@ -161,8 +161,8 @@ const ChannelLogo: React.FC<{brand?: string}> = ({brand}) => {
         position: 'absolute',
         top: 28,
         left: '50%',
-        width: 216,
-        height: 216,
+        width: size,
+        height: size,
         transform: `translateX(-50%) translateY(${floatY}px)`,
         perspective: 1000,
         pointerEvents: 'none',
@@ -238,6 +238,12 @@ const ChannelLogo: React.FC<{brand?: string}> = ({brand}) => {
 
 const MusicBadge: React.FC<{story: StoryData}> = ({story}) => {
   const frame = useCurrentFrame();
+  const {fps} = useVideoConfig();
+  const currentSec = frame / fps;
+  const activeTrack = story.music.tracks?.find(
+    (t) => currentSec >= t.start && currentSec < t.end
+  );
+  const displayTitle = activeTrack ? activeTrack.title : story.music.title;
   const pulse = interpolate(Math.sin(frame / 6), [-1, 1], [0.68, 1]);
 
   return (
@@ -270,7 +276,7 @@ const MusicBadge: React.FC<{story: StoryData}> = ({story}) => {
             boxShadow: `0 0 24px ${story.palette.glow}`
           }}
         />
-        {fitText(story.music.title, 28)}
+        {fitText(displayTitle, 32)}
       </div>
     </div>
   );
@@ -409,6 +415,8 @@ const Subtitle: React.FC<{
       ? 'Destellos de Gloria'
       : topic === 'catedrales-de-leyenda'
       ? 'Catedrales de Leyenda'
+      : topic === 'forjados-en-el-barro'
+      ? 'Forjados en el Barro'
       : 'Acordes Ocultos';
 
   return (
@@ -603,7 +611,7 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
         );
       })}
 
-      <ChannelLogo brand={story.brand} />
+      <ChannelLogo brand={story.brand} size={story.logoSize} />
       <MusicBadge story={story} />
 
       {segments.map((segment, index) => {

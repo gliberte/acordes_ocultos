@@ -1,301 +1,229 @@
 {
-  "brand": "acordes-ocultos",
-  "slug": "tommy-james-crimson-and-clover-acordes-ocultos",
-  "articleSlug": "tommy-james-crimson-and-clover-acordes-ocultos",
-  "title": "El secreto detrás de «Crimson and Clover»: Dos palabras al despertar, la mafia y una cinta robada",
-  "artist": "Tommy James & The Shondells",
-  "topic": "acordes-ocultos",
-  "hook": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
-  "anecdote": "A finales de 1968, el joven músico Tommy James, de 21 años, vivía atrapado bajo el control de Morris Levy en Roulette Records, sello vinculado a la familia mafiosa Genovese en Nueva York. Buscando reinventarse, unió al despertar su color favorito ('Crimson', carmesí) y su flor preferida ('Clover', trébol), y grabó una mezcla preliminar inacabada en los estudios Allegro Sound. En un viaje a Chicago, le mostró en privado ese borrador a la emisora WLS bajo promesa de no emitirlo, pero la estación copió la cinta en secreto y la lanzó al aire, provocando tal furor que el borrador sin terminar vendió más de 5,5 millones de copias.",
+  "title": "Manuel Alejandro: La fractura a los 16 años que frustró al concertista y dio vida al gran autor de la balada en español",
+  "artist": "Manuel Alejandro",
+  "slug": "manuel-alejandro-catedrales-de-leyenda",
+  "articleSlug": "manuel-alejandro-catedrales-de-leyenda",
   "durationSeconds": 90,
+  "topic": "catedrales-de-leyenda",
+  "anecdote": "Nacido en Jerez de la Frontera y formado por su padre, el compositor y director Germán Álvarez-Beigbeder, Manuel Alejandro vio truncado a los 16 años su futuro como concertista clásico tras una fractura en el codo derecho y cinco cirugías. Aquella herida lo volcó a la composición: junto a Purificación Casas Romero —su esposa y coautora bajo el seudónimo «Ana Magdalena»— escribió para Raphael, Jeanette, Rocío Jurado, Julio Iglesias, José José y Luis Miguel las páginas esenciales de la balada en español.",
+  "hook": "Formado en Jerez por su padre, el compositor Germán Álvarez-Beigbeder, el joven Manuel creció frente al piano soñando con ser concertista clásico.",
   "beats": [
-    "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
-    "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
-    "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
-    "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
-    "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
-    "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
-    "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
-    "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
-    "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad."
+    "A los dieciséis años, una fractura en el codo derecho y cinco cirugías truncaron ese destino: perdió al concertista, pero nació el compositor.",
+    "Tras tocar en bares de Madrid, conoció a un Raphael adolescente y le entregó «Yo soy aquél», un tema pensado originalmente para Lucho Gatica.",
+    "En una España sin divorcio, se mudó a Portugal con Purificación Casas, quien bajo el seudónimo «Ana Magdalena» firmó junto a él decenas de clásicos.",
+    "En 1971 compuso «Soy rebelde», el himno generacional que Jeanette rechazó grabar al principio hasta que escuchó su propia voz en el estudio.",
+    "Junto a Ana Magdalena escribió «Como yo te amo» y «Señora» para Rocío Jurado, y «Manuela» para Julio Iglesias, transformando la balada en español.",
+    "En 1983 escribió y produjo en Madrid el álbum «Secretos» para José José, logrando con «Lo dudo» el mayor éxito comercial del intérprete mexicano.",
+    "Su pluma cruzó décadas y generaciones enteras: en 2008 compuso y produjo «Cómplices» para Luis Miguel, manteniendo intacta la elegancia de su oficio.",
+    "Aunque en 2021 partió su amada Purificación, a sus noventa años demostró que cuando el amor es verdadero, sigue encontrando palabras en la música."
   ],
-  "outro": "¿Conocías la historia real detrás del borrador robado de «Crimson and Clover»?",
+  "outro": "¿Cuál de todas las canciones compuestas por Manuel Alejandro ha marcado más tu vida? Te leo en los comentarios.",
   "palette": {
-    "background": "#14090c",
-    "paper": "#f9f1ec",
-    "ink": "#1f0e13",
-    "accent": "#be123c",
-    "muted": "#9f8489",
+    "ink": "#0c0a09",
+    "paper": "#faf6f0",
+    "accent": "#d97706",
     "glow": "#f59e0b"
   },
   "music": {
-    "title": "Crimson and Clover",
-    "artist": "Tommy James & The Shondells",
-    "year": 1968,
-    "src": "music/tommy-james-crimson-and-clover.mp3",
-    "file": "music/tommy-james-crimson-and-clover.mp3",
-    "source": "music/tommy-james-crimson-and-clover.mp3",
+    "title": "Como yo te amo",
+    "artist": "Manuel Alejandro",
+    "src": "music/manuel-alejandro-catedrales-de-leyenda-90s.mp3",
     "startSecond": 0,
-    "startSeconds": 0,
-    "volume": 0.45,
-    "fadeInSeconds": 1.5,
-    "fadeOutSeconds": 3.5,
+    "volume": 0.68,
     "instagram": {
-      "query": "Crimson and Clover Tommy James",
+      "query": "Manuel Alejandro Como yo te amo",
+      "expectedTitle": "Como yo te amo",
+      "expectedArtist": "Manuel Alejandro",
       "status": "manual_check_required",
-      "expectedTitle": "Crimson and Clover",
-      "expectedArtist": "Tommy James & The Shondells",
-      "notes": "Seleccionar audio oficial de Crimson and Clover de Tommy James & The Shondells en Instagram Reels."
-    }
+      "notes": "Audio maestro compuesto por un mosaico sincronizado de 5 obras de Manuel Alejandro (Yo soy aquél, Soy rebelde, Como yo te amo, Lo dudo y Procuro olvidarte)."
+    },
+    "tracks": [
+      {
+        "start": 0,
+        "end": 30,
+        "title": "Yo soy aquél · Raphael"
+      },
+      {
+        "start": 30,
+        "end": 50,
+        "title": "Soy rebelde · Jeanette"
+      },
+      {
+        "start": 50,
+        "end": 65,
+        "title": "Como yo te amo · Rocío Jurado"
+      },
+      {
+        "start": 65,
+        "end": 80,
+        "title": "Lo dudo · José José"
+      },
+      {
+        "start": 80,
+        "end": 90,
+        "title": "Procuro olvidarte · H. Zúñiga"
+      }
+    ]
   },
-  "video": "videos/tommy-james-crimson-and-clover-acordes-ocultos",
-  "cover": "videos/tommy-james-crimson-and-clover-acordes-ocultos/cover_bg.png",
-  "coverBg": "videos/tommy-james-crimson-and-clover-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm film photograph. Inside Allegro Sound Studios in New York, late 1968: 21-year-old American singer Tommy James (youthful handsome face, clean-shaven, warm brown eyes, signature 1968 shoulder-length wavy dark-brown hair with bangs, wearing a dark crimson velvet jacket over a black turtleneck) sings with dreamy intensity into a vintage studio condenser microphone while holding a cherry-red Gibson hollow-body electric guitar. Warm amber and deep crimson studio lighting, authentic 1968 film grain, ample negative space at top and bottom for typography, no text or letters.",
+  "coverBg": "videos/manuel-alejandro-catedrales-de-leyenda/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic archival 1980s documentary portrait of legendary Spanish composer Manuel Alejandro (Manuel Álvarez-Beigbeder, handsome Andalusian man in his late 40s with expressive dark brown eyes, warm Mediterranean complexion, silver-streaked dark wavy hair, and a refined white-and-pepper beard, wearing an open-collar white linen shirt and dark blazer) seated at a polished black Steinway grand piano in his Madrid studio, handwritten musical scores illuminated by a warm brass lamp, rich 35mm Kodak film grain, generous negative space at center and bottom for typography, no text.",
   "assets": [
     {
-      "id": "scene-01",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-01.png",
-      "alt": "Tommy James despertando en su apartamento de Manhattan en 1968 y anotando dos palabras en una libreta",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm photograph. Intimate early-morning scene inside a 1968 Manhattan apartment bedroom: 21-year-old singer Tommy James (youthful handsome face, clean-shaven, signature 1968 shoulder-length wavy dark-brown hair with bangs, wearing a simple white undershirt) sits on the edge of his unmade bed as golden morning sunlight filters through venetian blinds, writing two words with a pen on a small bedside notepad right upon waking up. Authentic 1968 documentary realism, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1946 archival documentary photograph in Jerez de la Frontera, Spain: A 13-year-old Spanish boy, young Manuel Álvarez-Beigbeder, practicing classical music at an upright wooden piano while his father, composer and conductor Germán Álvarez-Beigbeder (distinguished older Spanish gentleman in a classic 1940s three-piece suit with gray hair and glasses), stands over his shoulder correcting a symphony score with a pencil. Warm Andalusian afternoon light through tall shutters, authentic 1940s sepia-toned 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-02",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-02.png",
-      "alt": "Tommy James frente al ejecutivo Morris Levy en las oficinas de Roulette Records en Nueva York en 1968",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm documentary photograph. Inside a dim wood-paneled executive office at Roulette Records on Broadway, New York, 1968: imposing label boss Morris Levy (heavyset man in his early 40s in a dark pinstripe suit holding a thick cigar behind a mahogany desk) leans forward sternly while 21-year-old Tommy James (shoulder-length wavy dark-brown hair with bangs, dark turtleneck) sits across the desk looking tense and trapped. Cinematic 1960s film grain, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-02.png",
+      "prompt": "Vertical 9:16 poignant 1950 candid documentary photograph in Spain: A 16-year-old Spanish youth (young Manuel Alejandro with dark wavy hair and expressive dark eyes) sitting alone in front of an open upright piano in a shadowy parlor, his right arm and right elbow immobilized in a heavy white plaster cast and cloth sling after surgery, while his left hand rests gently on a blank sheet of music paper with a fountain pen beside it. Emotional chiaroscuro window light, authentic 1950 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-03",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-03.png",
-      "alt": "Tommy James componiendo con su guitarra junto a la ventana en Nueva York en 1968",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm candid photograph. By a rain-streaked apartment window in Manhattan in late 1968, 21-year-old Tommy James (same exact youthful face, shoulder-length wavy dark-brown hair with bangs, wearing a dark crimson corduroy shirt) cradles a cherry-red hollow-body guitar while looking thoughtfully at a lyric notebook beside a small clover leaf on the wooden table. Warm nostalgic 1968 tones, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-03.png",
+      "prompt": "Vertical 9:16 authentic 1966 Madrid rehearsal photograph: 33-year-old composer Manuel Alejandro (clean-shaven in 1960s style, dark combed-back hair, slim dark suit, slight stiffness in his right elbow as he plays an upright piano) showing the sheet music of 'Yo soy aquél' to a 22-year-old Raphael (distinctive dark side-swept hair, black turtleneck, leaning in passionately with one hand raised in theatrical expression). Warm tungsten studio light, vintage 1966 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-04",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-04.png",
-      "alt": "Tommy James grabando en Allegro Sound Studios conectando el micrófono a un amplificador Ampeg",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm studio photograph. Full three-quarter standing shot inside Allegro Sound Studios in New York late at night in 1968: 21-year-old Tommy James (standing in dark trousers and black turtleneck, shoulder-length wavy dark-brown hair with bangs) sings with his eyes closed into a vintage studio microphone on a tall chrome stand, while beside him on a wooden studio chair sits a vintage blue-checkered Ampeg guitar amplifier connected by a microphone cable, with drummer Peter Lucia seated at the drums in the background. Natural anatomy and proportions, authentic 1968 analog studio atmosphere, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-04.png",
+      "prompt": "Vertical 9:16 intimate early 1970s candid photograph in a sunlit room in Portugal: Composer Manuel Alejandro in his late 30s and his wife Purificación Casas Romero ('Ana Magdalena', an elegant Spanish woman in her late 20s with warm dark eyes and classic early-70s shoulder-length chestnut hair) sitting across from each other at a wooden table by a balcony overlooking Lisbon rooftops, both in morning robes drinking coffee and writing song lyrics together on notebook pages. Authentic 1970s 35mm Kodachrome grain, quiet lower third, no text."
     },
     {
-      "id": "scene-05",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-05.png",
-      "alt": "Tommy James mostrando su cinta de carrete inacabada en las oficinas de la radio WLS de Chicago en diciembre de 1968",
-      "prompt": "Vertical 9:16 vintage December 1968 Kodachrome 35mm documentary photograph. Inside the broadcast office of radio station WLS in Chicago, December 1968: 21-year-old Tommy James (shoulder-length wavy dark-brown hair with bangs, wearing a dark winter coat over a crimson sweater) points earnestly to a 7-inch reel-to-reel tape box on the desk while speaking to a 1960s radio program director in a suit and tie, asking him to keep the unfinished rough mix secret. Authentic 1968 film grain, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1971 Hispavox recording studio photograph in Madrid: 20-year-old singer Jeanette (petite young woman with long straight blonde hair with bangs, big expressive eyes, wearing a 1971 bohemian blouse) listening with quiet surprise and emotion through vintage studio headphones in the control room, while composer Manuel Alejandro stands slightly behind the analog mixing console watching her reaction. Warm 1971 analog studio lighting, 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-06",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-06.png",
-      "alt": "Grabadora de carrete oculta copiando en secreto la cinta de Crimson and Clover en la radio de Chicago",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm close-up documentary shot. Low angle inside a 1968 Chicago radio station control room: in the foreground beneath the wooden broadcast console, a radio director's hand surreptitiously presses the red record switch on a second reel-to-reel tape machine spinning magnetic tape, while in the soft-focus background behind the glass window 21-year-old Tommy James listens unaware. High narrative tension, 35mm film grain, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-06.png",
+      "prompt": "Vertical 9:16 candid 1979 living room rehearsal photograph in Madrid: Iconic Spanish singer Rocío Jurado (striking Andalusian woman in her mid-30s with voluminous dark wavy hair, expressive dark eyes, wearing an elegant late-70s silk blouse, singing with her hand over her heart) standing beside the grand piano where Manuel Alejandro (now in his late 40s with his signature neatly trimmed salt-and-pepper beard and dark hair) accompanies her while Purificación 'Ana Magdalena' holds the lyric sheets in the background. Warm domestic lamp light, 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-07",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-07.png",
-      "alt": "Central telefónica de la emisora WLS de Chicago iluminada por miles de llamadas de oyentes en diciembre de 1968",
-      "prompt": "Vertical 9:16 vintage 1968 Kodachrome 35mm documentary photograph. Inside the telephone switchboard room of WLS radio in Chicago, December 1968: a young 1960s switchboard operator wearing a headset plugs cords rapidly as dozens of warm amber indicator bulbs flash simultaneously across the vertical telephone board, while through the interior window the red studio 'ON AIR' lamp glows brightly. Authentic 1968 photojournalism, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1983 Madrid recording studio photograph during the making of the album 'Secretos': Mexican singer José José (35-year-old man with neatly styled dark hair, expressive melancholic eyes, wearing a classic 1983 navy blazer and open shirt, singing with deep emotion in front of a condenser microphone) while composer and producer Manuel Alejandro (50 years old, salt-and-pepper beard, glasses, white shirt) directs him from the piano behind the studio glass. Authentic 1983 35mm film grain, quiet lower third, no text."
     },
     {
-      "id": "scene-08",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-08.png",
-      "alt": "Tommy James sosteniendo las cajas de discos recién impresas de Crimson and Clover en Nueva York",
-      "prompt": "Vertical 9:16 vintage early-1969 Kodachrome 35mm photograph. Inside a record shipping room in New York in January 1969: 21-year-old Tommy James (same exact face, shoulder-length wavy dark-brown hair with bangs, wearing a dark velvet jacket) stands surrounded by tall cardboard shipping boxes of records, looking with a bittersweet, astonished smile at a freshly printed record sleeve in his hands. Warm 1960s documentary lighting, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-08.png",
+      "prompt": "Vertical 9:16 candid 2008 recording studio photograph: Veteran Spanish composer Manuel Alejandro in his mid-70s (white hair and full neatly trimmed white beard, warm wise gaze, wearing a dark blazer) sharing a sheet of music at a grand piano with Mexican singer Luis Miguel (38 years old, tanned complexion, impeccably groomed dark hair, black dress shirt, smiling with deep respect). Warm modern studio tungsten light, 35mm documentary aesthetic, quiet lower third, no text."
     },
     {
-      "id": "scene-09",
-      "kind": "image",
-      "src": "videos/tommy-james-crimson-and-clover-acordes-ocultos/scene-09.png",
-      "alt": "Tommy James contemplando el atardecer desde una terraza de Nueva York con su guitarra en 1969",
-      "prompt": "Vertical 9:16 vintage 1969 Kodachrome 35mm cinematic portrait. At twilight on a quiet brick rooftop in Manhattan overlooking the glowing city skyline at dusk: 21-year-old Tommy James (same preserved facial features, shoulder-length wavy dark-brown hair with bangs, dark crimson velvet jacket) stands in peaceful contemplation holding his cherry-red guitar by his side as the evening breeze moves his hair. Deeply poetic atmosphere, no turntables, no vinyl records, no text."
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-09.png",
+      "prompt": "Vertical 9:16 deeply moving 2022 documentary photograph at the Teatro Real in Madrid: 90-year-old Manuel Alejandro (distinguished elderly Spanish maestro with white hair, white beard, and black tuxedo) seated alone at a gleaming concert grand piano on the vast stage under a single warm golden spotlight, looking gently at the empty chair beside the piano bench as his hands rest on the ivory keys. Strictly no record players, strictly no turntables, strictly no vinyl records, 35mm film grain, quiet lower third, no text."
     }
   ],
-  "scenes": [
+  "visuals": [
     {
-      "id": 1,
-      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
       "start": 0,
-      "end": 10
+      "end": 10,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-01.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 2,
-      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
       "start": 10,
-      "end": 20
+      "end": 20,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-02.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 3,
-      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
       "start": 20,
-      "end": 30
+      "end": 30,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-03.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 4,
-      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
       "start": 30,
-      "end": 40
+      "end": 40,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-04.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 5,
-      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
       "start": 40,
-      "end": 50
+      "end": 50,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-05.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 6,
-      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
       "start": 50,
-      "end": 60
+      "end": 60,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-06.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 7,
-      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
       "start": 60,
-      "end": 70
+      "end": 70,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-07.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 8,
-      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
       "start": 70,
-      "end": 80
+      "end": 80,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-08.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "id": 9,
-      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad.",
       "start": 80,
-      "end": 90
+      "end": 90,
+      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-09.png",
+      "type": "image",
+      "role": "scene"
     }
   ],
   "segments": [
     {
-      "id": "seg-01",
-      "assetId": "scene-01",
       "start": 0,
       "end": 10,
-      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.",
-      "motion": "zoom-in"
-    },
-    {
-      "id": "seg-02",
-      "assetId": "scene-02",
-      "start": 10,
-      "end": 20,
-      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese.",
-      "motion": "pan-right"
-    },
-    {
-      "id": "seg-03",
-      "assetId": "scene-03",
-      "start": 20,
-      "end": 30,
-      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol.",
-      "motion": "zoom-out"
-    },
-    {
-      "id": "seg-04",
-      "assetId": "scene-04",
-      "start": 30,
-      "end": 40,
-      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra.",
-      "motion": "pan-left"
-    },
-    {
-      "id": "seg-05",
-      "assetId": "scene-05",
-      "start": 40,
-      "end": 50,
-      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto.",
-      "motion": "zoom-in"
-    },
-    {
-      "id": "seg-06",
-      "assetId": "scene-06",
-      "start": 50,
-      "end": 60,
-      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente.",
-      "motion": "zoom-out"
-    },
-    {
-      "id": "seg-07",
-      "assetId": "scene-07",
-      "start": 60,
-      "end": 70,
-      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño.",
-      "motion": "pan-right"
-    },
-    {
-      "id": "seg-08",
-      "assetId": "scene-08",
-      "start": 70,
-      "end": 80,
-      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias.",
-      "motion": "zoom-in"
-    },
-    {
-      "id": "seg-09",
-      "assetId": "scene-09",
-      "start": 80,
-      "end": 90,
-      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad.",
-      "motion": "zoom-out"
-    }
-  ],
-  "subtitles": [
-    {
-      "start": 0,
-      "end": 10,
-      "text": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar."
+      "text": "Formado en Jerez por su padre, el compositor Germán Álvarez-Beigbeder, el joven Manuel creció frente al piano soñando con ser concertista clásico.",
+      "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "A sus veintiún años, Tommy James vivía atrapado en Roulette Records, una disquera neoyorquina controlada por socios de la mafia Genovese."
+      "text": "A los dieciséis años, una fractura en el codo derecho y cinco cirugías truncaron ese destino: perdió al concertista, pero nació el compositor.",
+      "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Asfixiado por las deudas y las presiones, unió en su mente su color favorito, carmesí, y su flor preferida, el trébol."
+      "text": "Tras tocar en bares de Madrid, conoció a un Raphael adolescente y le entregó «Yo soy aquél», un tema pensado originalmente para Lucho Gatica.",
+      "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Durante cinco horas en Nueva York, grabó un borrador íntimo haciendo vibrar su voz a través de un amplificador de guitarra."
+      "text": "En una España sin divorcio, se mudó a Portugal con Purificación Casas, quien bajo el seudónimo «Ana Magdalena» firmó junto a él decenas de clásicos.",
+      "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "De paso por Chicago, cometió la imprudencia de mostrar aquella cinta sin terminar en una emisora bajo promesa de mantenerla en secreto."
+      "text": "En 1971 compuso «Soy rebelde», el himno generacional que Jeanette rechazó grabar al principio hasta que escuchó su propia voz en el estudio.",
+      "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Sin que él lo notara, el director de la radio grabó una copia a escondidas y la transmitió al día siguiente."
+      "text": "Junto a Ana Magdalena escribió «Como yo te amo» y «Señora» para Rocío Jurado, y «Manuela» para Julio Iglesias, transformando la balada en español.",
+      "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Los teléfonos de la emisora colapsaron de inmediato con miles de oyentes preguntando por aquella misteriosa melodía que parecía un sueño."
+      "text": "En 1983 escribió y produjo en Madrid el álbum «Secretos» para José José, logrando con «Lo dudo» el mayor éxito comercial del intérprete mexicano.",
+      "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Su disquera prohibió volver al estudio a terminarla y aquel borrador inacabado vendió más de cinco millones y medio de copias."
+      "text": "Su pluma cruzó décadas y generaciones enteras: en 2008 compuso y produjo «Cómplices» para Luis Miguel, manteniendo intacta la elegancia de su oficio.",
+      "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "A veces la belleza más pura no espera a estar terminada para abrirse paso en medio de la oscuridad."
+      "text": "Aunque en 2021 partió su amada Purificación, a sus noventa años demostró que cuando el amor es verdadero, sigue encontrando palabras en la música.",
+      "assetIndex": 8
     }
-  ],
-  "publication": {
-    "description": "A finales de 1968, una de las canciones más hipnóticas de la década nació de dos palabras soñadas justo al despertar.\n\nA sus veintiún años, Tommy James vivía atrapado en Roulette Records, la disquera neoyorquina dirigida por Morris Levy, socio directo de la familia mafiosa Genovese. Sus discos vendían millones, pero Tommy no podía reclamar sus regalías sin poner en riesgo su vida. Buscando reinventarse y salvar su carrera, una mañana en Manhattan despertó con dos palabras unidas en la mente antes de escribir un solo acorde: su color favorito («Crimson», carmesí) y su flor preferida («Clover», trébol).\n\nTras grabar en Nueva York un borrador preliminar —haciendo vibrar su voz a través del trémolo de un amplificador de guitarra—, cometió la imprudencia de mostrarle la cinta inacabada a los directivos de la emisora WLS en Chicago bajo promesa de que jamás la transmitieran. El director de la radio la copió a escondidas y la puso al aire al día siguiente: los teléfonos colapsaron y aquel borrador sin terminar vendió más de 5,5 millones de copias.\n\n¿Qué recuerdos te trae escuchar «Crimson and Clover»? La historia completa está en nuestra crónica extendida en el perfil.\n\n#AcordesOcultos #TommyJames #CrimsonAndClover #60sRock #HistoriaDeLaMusica #RockClasico #HistoriasReales",
-    "tiktokDescription": "Atrapado por la mafia de Nueva York, despertó con dos palabras en su mente y una radio robó su borrador sin terminar. 🎸🍀✨\n\n#AcordesOcultos #TommyJames #CrimsonAndClover #60sMusic #HistoriaDelRock #AprendeEnTikTok"
-  }
+  ]
 }

@@ -554,7 +554,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'el-secreto-detras-de-crimson-and-clover-dos-palabras-al-despertar-la-mafia-y-una-cinta-robada': 'tommy-james-crimson-and-clover-acordes-ocultos',
           'crimsonandclover': 'tommy-james-crimson-and-clover-acordes-ocultos',
           'tommyjamescrimsonandclover': 'tommy-james-crimson-and-clover-acordes-ocultos',
-          'tommyjamescrimsonandcloveracordesocultos': 'tommy-james-crimson-and-clover-acordes-ocultos'
+          'tommyjamescrimsonandcloveracordesocultos': 'tommy-james-crimson-and-clover-acordes-ocultos',
+          'manuelalejandrolafracturaalos16anosquefrustroalconcertistaydiovidaalgranautordelabaladaenespanol': 'manuel-alejandro-catedrales-de-leyenda',
+          'manuel-alejandro-la-fractura-a-los-16-anos-que-frustro-al-concertista-y-dio-vida-al-gran-autor-de-la-balada-en-espanol': 'manuel-alejandro-catedrales-de-leyenda',
+          'manuelalejandro': 'manuel-alejandro-catedrales-de-leyenda',
+          'manuelalejandrocatedralesdeleyenda': 'manuel-alejandro-catedrales-de-leyenda'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
