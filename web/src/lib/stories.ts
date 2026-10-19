@@ -562,7 +562,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'manuelalejandrolafracturaalos16anosquefrustroalconcertistaydiovidaalgranautordelabaladaenespanol': 'manuel-alejandro-catedrales-de-leyenda',
           'manuel-alejandro-la-fractura-a-los-16-anos-que-frustro-al-concertista-y-dio-vida-al-gran-autor-de-la-balada-en-espanol': 'manuel-alejandro-catedrales-de-leyenda',
           'manuelalejandro': 'manuel-alejandro-catedrales-de-leyenda',
-          'manuelalejandrocatedralesdeleyenda': 'manuel-alejandro-catedrales-de-leyenda'
+          'manuelalejandrocatedralesdeleyenda': 'manuel-alejandro-catedrales-de-leyenda',
+          'deperderasumadrealos5anosaprovocarelmayorboicotmundialdelosanos80': 'madonna-like-a-prayer-acordes-ocultos',
+          'de-perder-a-su-madre-a-los-5-anos-a-provocar-el-mayor-boicot-mundial-de-los-anos-80': 'madonna-like-a-prayer-acordes-ocultos',
+          'likeaprayer': 'madonna-like-a-prayer-acordes-ocultos',
+          'madonnalikeaprayer': 'madonna-like-a-prayer-acordes-ocultos',
+          'madonnalikeaprayeracordesocultos': 'madonna-like-a-prayer-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
@@ -635,23 +640,22 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   }
 
   // Filter out hidden stories unless explicitly requested (e.g. from admin panel)
-  // Public catalog only displays stories that are already published on Instagram (zero spoilers, zero copyright risk)
   if (!options.includeHidden) {
-    items = items.filter(item => !item.isHidden && Boolean(item.instagramUrl));
+    items = items.filter(item => !item.isHidden);
   }
 
-  // Sort hierarchically:
-  // 1. Stories with highest views first (descending).
-  // 2. Stories with equal or without views sort by newest publication date (descending).
+  // Sort chronologically:
+  // Stories with the newest publication date (igPublishedAt or publishedAt) appear first.
+  // Ties broken by highest views count.
   items.sort((a, b) => {
-    const viewsA = typeof a.views === 'number' ? a.views : -1;
-    const viewsB = typeof b.views === 'number' ? b.views : -1;
-    if (viewsB !== viewsA) {
-      return viewsB - viewsA;
+    const timeA = new Date(a.igPublishedAt || a.publishedAt || 0).getTime() || 0;
+    const timeB = new Date(b.igPublishedAt || b.publishedAt || 0).getTime() || 0;
+    if (timeB !== timeA) {
+      return timeB - timeA;
     }
-    const dateA = new Date(a.igPublishedAt || a.publishedAt).getTime();
-    const dateB = new Date(b.igPublishedAt || b.publishedAt).getTime();
-    return dateB - dateA;
+    const viewsA = typeof a.views === 'number' ? a.views : 0;
+    const viewsB = typeof b.views === 'number' ? b.views : 0;
+    return viewsB - viewsA;
   });
 
   // Dynamically determine the latest Instagram Reel:
