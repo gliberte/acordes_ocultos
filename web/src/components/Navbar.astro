@@ -40,12 +40,7 @@ const stories = propStories || await getAllStories();
       <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-neutral-300">
         <a href="/#historias" class="hover:text-amber-400 transition-colors">Relatos</a>
         <a href="/#categorias" class="hover:text-amber-400 transition-colors">Líneas Editoriales</a>
-        <a 
-          href="/libro" 
-          class="flex items-center gap-1.5 text-amber-300 hover:text-amber-200 transition-colors font-semibold"
-        >
-          <span>📘 Libro (Vol. 01)</span>
-        </a>
+        <!-- Libro: temporalmente desactivado de cabecera hasta el lanzamiento de mañana -->
         <a 
           href="https://acordesocultos.gumroad.com/l/ryhupd" 
           target="_blank" 
@@ -59,15 +54,6 @@ const stories = propStories || await getAllStories();
 
       <!-- Global Search Component -->
       <GlobalSearch stories={stories} />
-
-      <!-- Mobile Book & Subscribe CTAs -->
-      <a
-        href="/libro"
-        title="Libro Recopilatorio (Volumen 01) - $9.99 USD"
-        class="lg:hidden inline-flex items-center gap-1 px-2.5 py-1.5 rounded-full text-xs font-semibold bg-[#1c1813] border border-amber-500/40 text-amber-300 hover:bg-amber-500/15 transition-colors shrink-0"
-      >
-        <span>📘 Libro</span>
-      </a>
 
       <a
         href="/#boletin"
