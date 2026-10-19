@@ -45,24 +45,44 @@ Este documento establece las directrices editoriales y el formato ganador para t
 
 ## 🎨 Coherencia Visual, Rigor Histórico e Identidad Fiel (INNEGOCIABLE)
 * **Principio Rector Innegociable**: La **consistencia fisonómica**, el **rigor histórico** y la **coherencia interna** son preceptos absolutos e intransigentes de la cuenta. **Es preferible detener por completo una producción o esperar el restablecimiento de herramientas antes que utilizar imágenes con personajes genéricos, rostros desconectados o figuras que no se parezcan al artista real.**
+* **Coherencia Absoluta de Personajes y Envejecimiento entre Escenas (INNEGOCIABLE)**:
+  - **Preservación Fisonómica y de Rasgos**: Debe mantenerse estricta coherencia en los personajes entre escenas. Los rasgos faciales, estructura de ojos y mandíbula, peinados, complexión y elementos fisonómicos distintivos deben preservarse rigurosamente cuando se trata de la misma persona entre escenas de la secuencia.
+  - **Coherencia en el Paso del Tiempo (Envejecimiento Verosímil)**: De igual forma, cuando la narrativa representa el paso del tiempo, las décadas o las estaciones, los rasgos de envejecimiento deben ser estrictamente coherentes con las primeras escenas de juventud (misma base fisonómica y mirada madurando orgánicamente con canas o arrugas), sin mutar al protagonista en un personaje genérico o irreconocible.
 * **Uso de Fotografía Histórica y Documental Real (Internet / Dominio Público)**: Si una producción lo amerita, está plenamente permitido y recomendado utilizar fotografías reales tomadas a los artistas que se encuentren disponibles públicamente en internet. Estas fotos son una alternativa legítima e incluso un complemento de altísimo valor testimonial para enriquecer el mini documental, en la medida en que hayan sido tomadas en el contexto directo de la historia y su desenvolvimiento (como el caso emblemático del video con el tema *"Shine On You Crazy Diamond"* con la aparición real de Syd Barrett en Abbey Road en 1975).
 * **Consistencia Fisonómica Estricta**: Si el mismo personaje aparece en múltiples escenas (ej. en diferentes edades, momentos o locaciones), las imágenes generadas por IA deben guardar exactamente la **misma fisonomía facial, etnia, estructura ósea, peinado y coherencia de vestuario/edad** a lo largo de toda la historia. Está prohibido tajantemente utilizar representaciones genéricas de banco de imágenes o figuras intercambiables que confundan al espectador.
 * **Rigor Histórico y Étnico Absoluto**: La raza, la etnia, el género y los rasgos físicos característicos de los artistas o figuras históricas representadas deben respetarse de forma fidedigna. Jamás se debe alterar el género de un personaje histórico ni diluir su identidad real por simplificaciones de prompt.
 * **Coherencia Interna de Escena**: Los elementos de atrezo, instrumentos, consolas, vestimentas y locaciones deben guardar rigurosa coherencia cronológica y documental con los hechos narrados (ej. micrófonos de época, consolas analógicas, ropa setentera/noventera).
 * **Protocolo de Detención Obligatoria**: Si una herramienta de generación visual no puede reproducir el parecido fidedigno del artista debido a filtros o limitaciones técnicas (generando desconocidos o personajes genéricos), **la producción se detiene de inmediato** hasta emplear la herramienta, las fotografías documentales de época o las imágenes de anclaje/referencia (`ImagePaths`) que garanticen la fidelidad exacta.
 
+## 📷 Naturalidad Documental, Variedad Visual y Emoción Musical
+
+Directriz del usuario del 5 de octubre de 2026, aplicable a contenidos futuros.
+
+* **Instantes vividos:** Las escenas deben emular fotografías auténticas de los protagonistas durante los hechos narrados. Componer desde la acción, la relación entre personas y el contexto histórico; evitar sesiones de fotos improbables y poses ajenas al acontecimiento.
+* **Evitar el retrato grupal repetitivo:** No disponer por defecto a todos los integrantes mirando a cámara, alineados, escalonados o superpuestos como una mano de póker. Un retrato posado solo tiene sentido si el hecho narrado o una fotografía documental pertinente lo justifican; no debe convertirse en un patrón de la secuencia.
+* **Variedad con propósito:** Cambiar encuadres, distancias, puntos de vista, número de protagonistas y acciones según lo que ocurre en cada escena. Mantener el parecido facial sin obligar a todos los personajes a mostrar el rostro ni a mirar al espectador. La variedad debe nacer de la historia, no de una plantilla de composiciones.
+* **Sensación de documental real:** Priorizar gestos espontáneos, interacciones y entornos verosímiles de época. Las recreaciones deben conservar su identificación como tales y no presentarse como fotografías de archivo o pruebas del acontecimiento. La naturalidad visual nunca autoriza inventar hechos, llanto, diálogos o estados psicológicos no documentados.
+* **Música como motor emocional:** Escuchar el fragmento seleccionado antes de cerrar la secuencia y planificar cómo sus frases, cambios de intensidad y momentos culminantes sostienen la tensión, el dramatismo y la emotividad de las imágenes y los subtítulos, respetando los formatos del canal. Buscar nostalgia, reconocimiento y conmoción desde la experiencia humana real y la canción.
+* **Revisión antes de generar y renderizar:** Revisar las nueve escenas como conjunto para detectar poses, encuadres y soluciones visuales repetidos. Después evaluar el montaje con la música, no solo cada imagen aislada: cada escena debe avanzar la historia y aportar un matiz emocional propio.
+
 ## ✍️ Tono y Sentimiento Editorial
 * **Tono Humano y Poético**: Evitar narrativas secas, netamente periodísticas, frías u objetivas. El guion, los subtítulos y los copys deben estar impregnados de sensibilidad artística, humanidad, alma y sentimiento lírico, conectando emocionalmente con la audiencia. Debe combinar de manera orgánica la información objetiva de la anécdota con la poesía, la metáfora y la belleza íntima de la historia, usando símiles y figuras retóricas sin diluir el rigor de los hechos históricos.
 * **Calibración de Subtítulos vs. Copy**:
   - **Subtítulos en Pantalla (Video)**: Deben ser breves pero sin abandonar el estilo poético, reforzando la naturaleza emotiva, dramática o humorística de cada escena. No deben abreviarse tanto que parezcan una simple descripción o enumeración fría de hechos, ni explayarse tanto que no den tiempo al espectador a leerlos cómodamente en el tiempo que dure la escena en pantalla (pauta de referencia calibrada: **~18 a 24 palabras** para escenas de 10s en Reels, **~12 a 16 palabras** para escenas de ~6.6s en TikTok). El propósito es llegar al corazón de las personas con una historia bien narrada junto a su acompañamiento visual y el impacto sonoro de la música de fondo.
+  - **Claridad Humana y Accesibilidad (Cero Vocabulario Rebuscado ni Clichés Grandilocuentes - INNEGOCIABLE)**:
+    - Sin abandonar jamás la línea poética ni la belleza lírica, el lenguaje debe ser humano, natural, cálido y de ágil lectura.
+    - **Prohibición de Muletillas Grandilocuentes y Superlativos Forzados**: Evitar el abuso reiterativo de palabras comodín o melodramáticas (*«abismo»*, *«réquiem»*, *«alma»*, *«eternidad»*, *«pureza»*, *«pacto de sangre»*). No romantizar el sufrimiento ajeno ni atribuir intenciones psicológicas ficticias a los protagonistas (ej. evitar «prefirió consumirse antes que mentir»; preferir la sobriedad humana: «su voz sigue acompañando a quienes encuentran en sus canciones algo de su propia historia»).
+    - La emoción debe nacer de la verdad de los hechos y la memoria compartida, no de adjetivos desmedidos.
   - **Copy de Publicación (Texto del Post / Reels)**:
-    - **Límite Estricto y Prevención de Truncamiento**: Instagram establece un límite máximo de 2.200 caracteres, pero los textos excesivamente largos se cortan abruptamente o perjudican la retención en la interfaz móvil de Reels. **El copy total (incluyendo texto, llamada a la acción y hashtags) NUNCA debe superar los 1.500 caracteres** (rango óptimo recomendado: **~900 a 1.300 caracteres**).
-    - **Gancho Inicial Visible**: Las primeras 1 a 2 líneas (~100 a 125 caracteres) son lo único visible antes del botón *«... más»*. Deben plantear intriga, emoción o paradoja de inmediato sin spoilers.
+    - **Límite Estricto y Prevención de Truncamiento**: Rango óptimo recomendado: **~900 a 1.300 caracteres** (máximo absoluto 1.500 caracteres).
+    - **Gancho Inicial Visible y Riguroso**: Las primeras 1 a 2 líneas (~100 a 125 caracteres) plantean intriga basada estrictamente en hechos documentados, sin exageraciones físicas o escenas no atestiguadas documentalmente.
     - **Estructura Ganadora en 4 Bloques Concisos**:
       1. *Gancho de apertura* (1-2 líneas).
-      2. *Microhistoria esencial* (2 párrafos breves, emotivos y poéticos: el conflicto o encrucijada, y el milagro/giro histórico).
-      3. *Cierre lírico y llamado a la comunidad (CTA)*: Una reflexión humana profunda seguida de una pregunta que invite a comentar.
-      4. *Hashtags*: Entre 5 y 8 etiquetas bien seleccionadas (ej. `#Artista #Cancion #AcordesOcultos #HistoriaDelRock`).
+      2. *Microhistoria esencial* (2 párrafos breves, emotivos y sobrios: el conflicto real y el giro histórico).
+      3. *Cierre lírico y CTA dual (Conversación o Lectura)*:
+         - **Opción A (Conversación / Memoria personal)**: Pregunta directa a la memoria viva del oyente (ej. *«¿Quién te puso esta canción por primera vez?»*, *«¿En qué momento de tu vida te acompañó este tema?»*).
+         - **Opción B (Conversión a lectura / Crónica)**: Invitación clara y elegante a profundizar (ej. *«La historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil»*).
+      4. *Hashtags*: Entre 5 y 8 etiquetas bien seleccionadas.
 * **Intriga del Gancho sin Spoilers**: La frase inicial (segundo cero) debe despertar la curiosidad y plantear una pregunta o tensión latente, pero evitando revelar todo el desenlace y los giros principales de la microhistoria en la primera línea. Debe sugerir y cautivar, no resumir todo el contenido de inmediato.
 
 ## 🖼️ Títulos, Portadas y Empaquetado de Post
@@ -71,10 +91,14 @@ Este documento establece las directrices editoriales y el formato ganador para t
   - En la portada NO se redacta un título especial sugerente. Simplemente se coloca el **título de la canción** en el centro de la imagen y como subtítulo el **nombre del artista o banda**, usando tipografías retro de estilo cuidado y alta legibilidad.
   - La composición debe ser en formato vertical **9:16**, cuidando que los textos y elementos clave queden perfectamente centrados para verse impecables en el recorte cuadrado (**1:1**) de la cuadrícula de Instagram.
   - **No generar portadas en inglés**: Ya NO se genera `cover_eng.png`, única portada estándar `cover.png`.
-* **Prohibición Total de Tornamesas/Vinilos y Obligatoriedad de la Metáfora Visual de Cierre (Escena 9)**:
-  - **La Lección de «Marinero de Luces» (2.5M de reproducciones)**: En nuestra obra cumbre, el cierre no recurrió a un cliché de tocadiscos, vinilos o agujas; culminó con la imagen cinematográfica de un **velero solitario adentrándose en el mar brumoso al atardecer**, una metáfora visual desgarradora sobre la partida de Paquirri, el luto y la eternidad.
+* **Flexibilidad en el Cierre Reflexivo (Escena 9) y Prohibición Total de Tornamesas/Vinilos**:
   - **Prohibición Estricta de Clichés**: Queda terminantemente prohibido utilizar imágenes de tocadiscos, vinilos girando o agujas de reproducción en la escena final (escena 9) o en cualquier punto del video como recurso fácil de cierre.
-  - **El Mandato de la Metáfora Visual Reflexiva**: La escena 9 debe ser siempre una **imagen simbólica, poética y conceptualmente ligada al corazón de la canción** que invite al espectador al silencio, a la catarsis y a la reflexión profunda (ej. un banco solitario en un parque otoñal bajo la luz dorada con niños jugando a lo lejos para *As Tears Go By*, un velero en el horizonte para *Marinero de Luces*, una ventana solitaria con lluvia, etc.).
+  - **Opciones de Cierre Reflexivo (A Criterio Editorial)**: La escena 9 debe invitar al espectador al silencio, la catarsis y la reflexión profunda sobre el destino humano de la historia. Puede resolverse mediante dos vías igualmente válidas:
+    1. *Metáfora visual poética*: Una imagen simbólica ligada al corazón conceptual de la canción (ej. el velero en el horizonte en *Marinero de Luces*, un banco solitario en un parque otoñal para *As Tears Go By*).
+    2. *Cierre humano contextual con personajes*: Un plano cinematográfico íntimo, verosímil y adecuado al contexto de la historia con los propios protagonistas (ej. un instante de soledad contemplativa tras el éxito, la mirada serena en la vejez, el caminar alejándose entre la niebla o la complicidad silenciosa entre ellos).
+  - **🚫 Prohibición de Describir Literalmente la Escena 9 en los Subtítulos (INNEGOCIABLE)**:
+    - **La imagen ya habla por sí sola**: El espectador ya está contemplando la escena en pantalla. Queda estrictamente prohibido caer en el vicio redundante de describir textualmente lo que se ve para enganchar la reflexión (ej. PROHIBIDO: *«Una batería vacía en penumbra nos recuerda que...»*, *«Un velero en el mar nos demuestra que...»*, *«Verla caminar sola nos enseña que...»*).
+    - **Remate Reflexivo Directo y Profundo**: El subtítulo de la escena 9 debe entrar **directamente a la reflexión filosófica, humana o poética sobre la historia**, sin muletillas descriptivas de la imagen (ej. PERMITIDO: *«Hay lealtades que ningún cheque en blanco puede comprar y silencios que valen más que toda la gloria del mundo»*). La imagen evoca en silencio mientras el texto golpea directo al corazón.
 * **Inclusión en el Paquete**: La portada (`cover.png`) y el avance de Historias (`story_teaser.png`) se procesan automáticamente al publicar; se suben a Cloudflare R2, se guardan en la base de datos de Supabase y se envían directamente como documentos en el paquete final de Telegram.
 * **Avance para Historias de Instagram (`story_teaser.png`)**:
   - En cada producción se compila una imagen vertical **9:16** (`1080 x 1920`) con una composición editorial en cuadrícula 2x2 de los 4 momentos visuales cumbre del video.
@@ -88,6 +112,11 @@ Para la publicación semanal de crónicas extendidas de valor ampliado (~1.000 a
 * **Estructura Interna Obligatoria**:
   - `article.md`: Texto completo de la crónica estructurada en prólogo, actos narrativos, citas textuales, epílogo y llamado a la comunidad.
   - `images/`: Carpeta que contiene las fotografías históricas reales de archivo, recortes documentales de prensa y fotogramas clave de la producción, enlazados de forma relativa dentro del markdown (`images/<archivo>`).
+* **Enlace y Publicación Web Innegociable**:
+  - **Sincronización Total con el Sitio Web**: Cada nueva producción debe enlazar su crónica extendida para que esté disponible de inmediato en el sitio web (`/historias/[slug]`).
+  - **Identificador y Aliases**: El JSON de la historia debe incluir los campos `"slug"` y `"articleSlug"` apuntando a la carpeta de la crónica en `articles/<slug-del-tema>/`. Asimismo, el mapa `CHRONICLE_ALIASES` en `web/src/lib/stories.ts` debe registrar el alias del slug de publicación hacia la crónica correspondiente.
+  - **Almacenamiento en Supabase**: El script `publish-package.mjs` debe verificar y subir el contenido íntegro de la crónica en el campo `web_article` de la tabla `published_news` (evitando almacenar únicamente el copy de redes).
+  - **Compilación y Bóveda**: Ejecutar siempre `npm run chronicle:sync` para compilar el dataset en `web/src/data/chronicles.json`, optimizar las imágenes en `web/public/articles/<slug>/images/*.webp`, generar `lectura_movil.html` y sincronizar la Bóveda Maestra en Google Drive.
 
 ---
 
@@ -114,10 +143,13 @@ Dado que algunas letras contienen narrativas más extensas que otras, los videos
 * Los personajes de la historia (aunque sean ficticios) deben mantener **consistencia fisonómica** entre escenas y partes.
 * El título de portada debe evocar la historia narrativa de la letra, no el nombre de la canción (ej. *"El hombre que buscó la lluvia"* en lugar de *"Smokey Mountain Rain"*).
 
-### ✍️ Tono Narrativo Específico
-* Usar la tercera persona o una voz poética omnisciente que "observa" la historia desde afuera.
-* Los subtítulos deben sonar como prosa literaria breve, no como descripción periodística de la escena.
-* Cada segmento de subtítulo debe tener su propio peso emocional, como un verso de un poema.
+### ✍️ Tono Narrativo Específico y Calibración de Subtítulos (Lineamiento Innegociable)
+* **Textos Breves y de Ágil Lectura**: Deben ser más breves de lo usual en *Acordes Ocultos* (~10 a 14 palabras en Reels de 10s, ~8 a 11 palabras en TikTok de ~6.6s). Dar espacio para que la vista contemple la escena y el oído sienta la música.
+* **Mayor Resonancia Poética sin Rebuscamientos**: El texto debe poseer profundidad lírica, metáfora, símil y contraste armónico con la escena, **sin describir la imagen de manera objetiva ni literal** (evitar «Vemos a dos jóvenes caminando»). 
+* **Sencillez y Claridad Humana**: Evitar palabras barrocas, rebuscadas o lenguaje ampuloso. Expresar el sentimiento con palabras transparentes, hondas y de comprensión inmediata.
+* **Equilibrio Perfecto**: La palabra escrita, la composición visual y el fragmento musical deben fundirse en una sola experiencia sensorial armónica.
+* Usar la tercera persona o una voz poética omnisciente que "observa" y acompaña el latido íntimo de la historia.
+* Cada frase debe tener su propio peso emocional, como el verso limpio y certero de un poema.
 
 ### 🏷️ Identificación en el Sistema
 * El campo `topic` en el JSON debe ser: `"historia-en-los-acordes"`.
@@ -157,9 +189,20 @@ Esta categoría celebra a los **monumentos vivos y leyendas longevas**: artistas
 
 ---
 
+## ⚔️ Quinta Categoría de Videos: "Forjados en el Barro"
+
+Esta categoría está consagrada a las **grandes bandas y agrupaciones colectivas que nacieron en la miseria, el hambre, los rechazos sistemáticos o la quiebra absoluta, y que escalaron contra todo pronóstico hasta la gloria universal** (ej. Queen, AC/DC, The Beatles, Aerosmith, Black Sabbath, Fleetwood Mac).
+* **Directriz Editorial Central**: La narrativa debe explorar la **tensión de la hermandad frente a la adversidad extrema**: el frío de los cuartos compartidos, la falta de comida, los contratos leoninos, la bancarrota o las humillaciones iniciales, y el punto de no retorno donde una sola creación o decisión heroica cambió sus destinos para siempre.
+* **Estructura en 9 Escenas**: Los 9 momentos clave deben mostrar el contraste entre el fango original (las privaciones, los trabajos precarios, la desesperación) y la ascensión a la eternidad cultural, culminando en la escena 9 con una **metáfora visual reflexiva y poética** (sin tocadiscos ni vinilos).
+* **Línea Artística y Emocional**: Máxima primacía de la emoción humana, la vulnerabilidad y la resiliencia colectiva. Cero frialdad enciclopédica o técnica.
+* **Campo `topic` en JSON**: `"forjados-en-el-barro"`.
+* **Hashtags**: Incluir `#ForjadosEnElBarro`, `#HistoriaDelRock` y `#AcordesOcultos`.
+
+---
+
 ## ⚡ Nueva Línea de Producción Dual: Instagram Reels (90s) & TikTok Cut (60s)
 
-A partir de ahora, **todas las variantes y categorías** (*Acordes Ocultos*, *Historia en los Acordes*, *Destellos de Gloria* y *Catedrales de Leyenda*) cuentan con una arquitectura de publicación dual:
+A partir de ahora, **todas las variantes y categorías** (*Acordes Ocultos*, *Historia en los Acordes*, *Destellos de Gloria*, *Catedrales de Leyenda* y *Forjados en el Barro*) cuentan con una arquitectura de publicación dual:
 
 ### 1. 🎬 Versión Estándar: Instagram Reels & Feed (90 Segundos)
 * **Duración**: `90 segundos exactos` (`2700 frames` a 30fps).
@@ -188,18 +231,53 @@ A partir de ahora, **todas las variantes y categorías** (*Acordes Ocultos*, *Hi
 
 ---
 
-## 🖼️ Protocolo de Jerarquía para Generación de Imágenes
+## 🖼️ Protocolo de Jerarquía para Generación de Imágenes (TRANSICIÓN AUTOMÁTICA OBLIGATORIA)
 
-Para todas las producciones del proyecto (*Acordes Ocultos*, *Historia en los Acordes*, *Destellos de Gloria* y *Catedrales de Leyenda*), la generación visual debe seguir estrictamente este orden jerárquico:
+Para todas las producciones del proyecto (*Acordes Ocultos*, *Historia en los Acordes*, *Destellos de Gloria*, *Catedrales de Leyenda* y *Forjados en el Barro*), la generación visual sigue estrictamente este orden jerárquico:
 
 1. **Primera Opción (Sandbox Interno)**:
    - Se intentará generar las imágenes utilizando las herramientas internas del sandbox (`generate_image` tool / Imagen sandbox).
-   - Ventaja: Directo, rápido e integrado en el entorno de desarrollo.
+   - Ventaja: Directo, rápido e integrado en el entorno de desarrollo, con soporte de anclaje fisonómico (`ImagePaths`).
 
-2. **Segunda Opción / Contingencia (Google Flow)**:
-   - Si la cuota del sandbox está agotada o se agota a mitad del proceso de generación, se procede de inmediato al flujo automatizado con **Google Flow**:
-     ```bash
-     npm run assets:flow
-     ```
-   - Ventaja: Costo $0 adicional con la suscripción PRO activa de Google Gemini, formato nativo vertical 9:16 y descarga directa a `public/videos/<slug>/`.
+2. **Segunda Opción / Contingencia Automática (Google Flow - OBLIGATORIO Y SIN PAUSAS INNECESARIAS)**:
+   - **PROHIBIDO PAUSAR LA PRODUCCIÓN POR AGOTAMIENTO DE CUOTA DEL SANDBOX**: Si la cuota del sandbox está agotada o se agota a mitad del proceso de generación, el agente **DEBE pasar de inmediato y automáticamente a Google Flow (`npm run assets:flow`) para generar las imágenes restantes**, sin detenerse a consultar al usuario si desea esperar o pausar.
+   - La producción solo se detendrá a consultar al usuario si Google Flow presenta un rechazo explícito por filtros de moderación/seguridad de contenido o si la sesión de Google Flow requiere inicio manual (`npm run flow:login`). De lo contrario, la ejecución de `npm run assets:flow` es inmediata y transparente.
+   - Ventaja: Generación nativa en 9:16 de alta resolución con descarga directa en `public/videos/<slug>/`.
+
+---
+
+## 🚨 Inviolabilidad Argumental y Protocolo de Parada Obligatoria por Filtros de IA (INNEGOCIABLE)
+
+1. **Inviolabilidad Absoluta del Argumento, Personajes y Escenas**:
+   - **Ninguna escena, personaje, edad cronológica, hecho histórico ni núcleo dramático del guion aprobado se modificará, atenuará o eliminará para complacer los filtros de seguridad de una herramienta de IA externa (Google Flow u otras)**.
+   - **Prohibición Total de Decisiones Unilaterales de Producción**: Queda estrictamente prohibido que el agente tome decisiones unilaterales que alteren el guion —como reemplazar niños por adultos, suprimir coprotagonistas, o cambiar locaciones y acciones clave— solo para lograr que un prompt sea aceptado por una herramienta de IA.
+
+2. **Protocolo de Parada Obligatoria y Consulta Inmediata al Usuario**:
+   - Si una herramienta de generación (Google Flow, sandbox u otra) rechaza un prompt por políticas de contenido (ej. presencia de niños o menores, conflictos bélicos, armas, fuego, heridas, dictaduras o tragedias reales) o por limitaciones de cuota técnica:
+     - **LA PRODUCCIÓN SE DETIENE DE FORMA OBLIGATORIA E INMEDIATA**.
+     - El agente **NO** debe intentar reformular el guion por su cuenta ni alterar los personajes a espaldas del usuario.
+     - El agente debe informar de inmediato al usuario con total transparencia: qué escena y prompt fueron bloqueados, qué política o error se disparó, y someter a su consideración las opciones viables antes de tocar un solo fotograma.
+
+3. **Vías de Contingencia Aprobadas**:
+   - **Opción A (Fotografía Histórica Real y Documental de Archivo)**: Es la alternativa prioritaria. Si la IA no puede generar una escena histórica sensible o a un personaje de época (por censura de filtros o limitaciones fisonómicas), se recurre a fotografías históricas reales de dominio público o archivos de prensa, las cuales aportan un valor testimonial incalculable.
+   - **Opción B (Imágenes de Anclaje / Composición)**: Uso de fotogramas ya validados o imágenes compuestas con aprobación previa del usuario.
+   - **Opción C (Espera de Cuota del Sandbox)**: Esperar el restablecimiento de cuota de la herramienta nativa que sí permite generar la escena con rigor histórico.
+   - **Opción D (Ajuste Consensuado con el Usuario)**: Cualquier variación del prompt o ángulo visual debe ser propuesta, discutida y aprobada explícitamente por el usuario antes de su ejecución.
+
+---
+
+## 🌐 Arquitectura Desacoplada y Publicación Web (Git + Cloudflare R2 + Catálogo Local como Fuente Maestra)
+
+A fin de eliminar la dependencia de cuotas o caídas de bases de datos externas (como Supabase), rige de manera obligatoria la siguiente arquitectura para todas las producciones actuales y futuras:
+
+1. **Fuente Maestra de la Web (`stories_catalog.json` + Cloudflare R2)**:
+   - El archivo `web/src/data/stories_catalog.json` y el respaldo en Cloudflare R2 (`catalog/stories_catalog.json`) son la **fuente de verdad primaria, autónoma e inmutable** del catálogo público.
+   - Toda nueva producción publicada mediante `scripts/publish-package.mjs` se registra automáticamente en `web/src/data/stories_catalog.json` mediante `scripts/update-catalog-story.mjs`.
+   - Se actualiza la marca `isLatest: true` para el estreno más reciente y se vincula la crónica extendida y las portadas WebP.
+   - El script sube el catálogo actualizado a Cloudflare R2 y ejecuta automáticamente `git add` y `git push origin main`, desplegando la producción a Vercel de inmediato.
+   - **Supabase como Espejo Opcional**: Supabase actúa únicamente como espejo secundario no bloqueante. Si Supabase devuelve HTTP 402 (cuota excedida) o error de conexión, el proceso emite un aviso informativo pero **jamás interrumpe ni bloquea la publicación, la entrega a Telegram ni el despliegue web**.
+
+2. **Gestión Desacoplada de Suscriptores y Mecenazgo**:
+   - **Suscripción Gratuita**: El endpoint `/api/subscribe` almacena los correos en Cloudflare R2 (`subscribers/subscribers.json`), envía una notificación en tiempo real al canal de Telegram y confirma la suscripción ofreciendo como beneficio la entrega futura del **Libro Recopilatorio (Volumen 01)**.
+   - **Mecenazgo Cultural & Libro Digital**: Quienes apoyan el proyecto con un aporte voluntario único ($3, $5, $10+ USD vía Gumroad `ryhupd`) sostienen la investigación del archivo y aseguran la descarga digital prioritaria del libro en cuanto sea compilado y subido a la plataforma.
 

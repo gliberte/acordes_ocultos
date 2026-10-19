@@ -1125,7 +1125,21 @@ const main = async () => {
       execSync('node scripts/optimize-web-images.mjs', { cwd: rootDir, stdio: 'inherit' });
       execSync('node scripts/compile-chronicles.mjs', { cwd: rootDir, stdio: 'inherit' });
 
-      // Auto-commit y push de portadas y activos web para que jamás queden sin desplegar en producción
+      // Registro persistente en el catálogo web desacoplado y Cloudflare R2
+      const { updateCatalogWithStory } = await import('./update-catalog-story.mjs');
+      await updateCatalogWithStory({
+        story,
+        editorialPackage,
+        cloudflare,
+        files,
+        coverPath,
+        teaserPath,
+        heroBannerPath,
+        matchedArticleSlug,
+        resolvedWebArticle
+      });
+
+      // Auto-commit y push de portadas, catálogo y activos web para que jamás queden sin desplegar en producción
       const syncPaths = [
         'web/public/covers',
         'public/covers',
@@ -1133,15 +1147,16 @@ const main = async () => {
         'web/public/images/heroes',
         'web/src/data/available_covers.json',
         'web/src/data/available_heroes.json',
-        'web/src/data/chronicles.json'
+        'web/src/data/chronicles.json',
+        'web/src/data/stories_catalog.json'
       ];
       execSync(`git add ${syncPaths.join(' ')}`, { cwd: rootDir, stdio: 'ignore' });
       const diffCheck = execSync('git diff --cached --name-only', { cwd: rootDir, encoding: 'utf8' }).trim();
       if (diffCheck) {
-        console.log('🚀 Subiendo automáticamente portadas WebP y activos sincronizados a Git (origin/main)...');
-        execSync(`git commit -m "chore(web): auto-sync WebP covers and chronicle assets [${slugFor(story.title)}]"`, { cwd: rootDir, stdio: 'inherit' });
+        console.log('🚀 Subiendo automáticamente catálogo, portadas WebP y activos sincronizados a Git (origin/main)...');
+        execSync(`git commit -m "chore(web): auto-sync WebP covers, catalog and chronicle assets [${slugFor(story.title)}]"`, { cwd: rootDir, stdio: 'inherit' });
         execSync('git push origin main', { cwd: rootDir, stdio: 'inherit' });
-        console.log('✅ Portadas y activos web desplegados en Git/Vercel con éxito.');
+        console.log('✅ Catálogo, portadas y activos web desplegados en Git/Vercel con éxito.');
       }
     } catch (webErr) {
       console.warn(`⚠️ Aviso al sincronizar/subir recursos web: ${webErr.message}`);

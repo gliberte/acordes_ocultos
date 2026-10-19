@@ -1,8 +1,25 @@
 import type { APIRoute } from 'astro';
 import { supabase } from '../../lib/supabase';
+import { saveToR2, getFromR2 } from '../../lib/r2';
 import { allowPublicAction, getClientKey, sameOrigin } from '../../lib/admin-session';
+import initialSubscribers from '../../data/subscribers.json';
 
 export const prerender = false;
+
+interface SubscriberRecord {
+  id?: string;
+  email: string;
+  source: string;
+  country?: string | null;
+  privacy_policy_consent: boolean;
+  minors_declaration: string;
+  consent_version: string;
+  purpose: string;
+  consent_timestamp: string;
+  status: string;
+  created_at?: string;
+  updated_at: string;
+}
 
 export const POST: APIRoute = async ({ request }) => {
   if (!sameOrigin(request)) {
@@ -77,36 +94,87 @@ export const POST: APIRoute = async ({ request }) => {
     const rawCountry = request.headers.get('x-vercel-ip-country') || request.headers.get('cf-ipcountry') || '';
     const cleanCountry = rawCountry.replace(/[^A-Z]/gi, '').toUpperCase().slice(0, 2) || null;
 
-    const { error: upsertError } = await supabase
-      .from('subscribers')
-      .upsert(
-        {
-          email: cleanEmail,
-          source: cleanSource,
-           ...(cleanCountry ? { country: cleanCountry } : {}),
-          privacy_policy_consent: true,
-          minors_declaration: 'over_14_years',
-          consent_version: cleanVersion,
-          purpose: cleanPurpose,
-          consent_timestamp: nowIso,
-          status: 'active',
-          updated_at: nowIso
-        },
-        { onConflict: 'email' }
-      );
+    const newSubscriber: SubscriberRecord = {
+      email: cleanEmail,
+      source: cleanSource,
+      country: cleanCountry,
+      privacy_policy_consent: true,
+      minors_declaration: 'over_14_years',
+      consent_version: cleanVersion,
+      purpose: cleanPurpose,
+      consent_timestamp: nowIso,
+      status: 'active',
+      updated_at: nowIso
+    };
 
-    if (upsertError) {
-      return new Response(JSON.stringify({ error: 'No se pudo guardar tu suscripción. Intenta nuevamente.' }), {
-        status: 500,
-        headers: { 'Content-Type': 'application/json' }
+    // 1. Guardar de forma persistente en Cloudflare R2 (subscribers/subscribers.json)
+    try {
+      const existing = (await getFromR2<SubscriberRecord[]>('subscribers/subscribers.json')) || (initialSubscribers as SubscriberRecord[]);
+      const updatedList = existing.filter((s) => s.email !== cleanEmail);
+      updatedList.push({
+        ...newSubscriber,
+        created_at: existing.find((s) => s.email === cleanEmail)?.created_at || nowIso
       });
+      await saveToR2('subscribers/subscribers.json', updatedList);
+    } catch (r2Err: any) {
+      console.warn('[Subscribe] Error guardando en R2:', r2Err.message);
+    }
+
+    // 2. Notificación en tiempo real al canal de Telegram de la redacción
+    const telegramToken = process.env.TELEGRAM_BOT_TOKEN;
+    const telegramChatId = process.env.TELEGRAM_CHAT_ID;
+    if (telegramToken && telegramChatId) {
+      const tgText = [
+        '📬 <b>¡Nuevo suscriptor en Acordes Ocultos!</b>',
+        '',
+        `📧 <b>Correo:</b> <code>${cleanEmail}</code>`,
+        `📍 <b>País:</b> ${cleanCountry || 'N/A'}`,
+        `🏷️ <b>Origen:</b> ${cleanSource}`,
+        `🎁 <b>Incentivo:</b> Libro Recopilatorio (Volumen 01)`,
+        `📅 <b>Fecha:</b> ${nowIso}`
+      ].join('\n');
+
+      fetch(`https://api.telegram.org/bot${telegramToken}/sendMessage`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          chat_id: telegramChatId,
+          text: tgText,
+          parse_mode: 'HTML'
+        })
+      }).catch((tgErr) => console.warn('[Subscribe] Error notificando a Telegram:', tgErr.message));
+    }
+
+    // 3. Espejo opcional hacia Supabase (no bloqueante, no fatal)
+    try {
+      await supabase
+        .from('subscribers')
+        .upsert(
+          {
+            email: cleanEmail,
+            source: cleanSource,
+            ...(cleanCountry ? { country: cleanCountry } : {}),
+            privacy_policy_consent: true,
+            minors_declaration: 'over_14_years',
+            consent_version: cleanVersion,
+            purpose: cleanPurpose,
+            consent_timestamp: nowIso,
+            status: 'active',
+            updated_at: nowIso
+          },
+          { onConflict: 'email' }
+        );
+    } catch (supaErr: any) {
+      // Supabase caído o cuota superada: no interrumpe el éxito de la suscripción
+      console.warn('[Subscribe] Aviso: Falló espejo en Supabase (no crítico):', supaErr.message);
     }
 
     return new Response(
       JSON.stringify({
         success: true,
-        message: 'Tu correo ha quedado registrado en el boletín oficial de Acordes Ocultos.',
-        substackUrl: `https://acordesocultos.gumroad.com/subscribe`
+        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Recibirás nuestras crónicas y el enlace de descarga exclusiva del Libro Recopilatorio (Volumen 01) en cuanto esté disponible.',
+        gumroadUrl: 'https://acordesocultos.gumroad.com/l/ryhupd',
+        bookTitle: 'Libro Recopilatorio (Volumen 01)'
       }),
       {
         status: 200,

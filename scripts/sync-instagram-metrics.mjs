@@ -1,5 +1,37 @@
 import fs from 'fs';
 import path from 'path';
+import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+
+async function uploadCatalogToR2(catalog) {
+  const accountId = process.env.CLOUDFLARE_R2_ACCOUNT_ID;
+  const accessKeyId = process.env.CLOUDFLARE_R2_ACCESS_KEY_ID;
+  const secretAccessKey = process.env.CLOUDFLARE_R2_SECRET_ACCESS_KEY;
+  const bucket = process.env.CLOUDFLARE_R2_BUCKET || 'nexo-gaming-news-videos';
+
+  if (!accountId || !accessKeyId || !secretAccessKey) return false;
+
+  try {
+    const client = new S3Client({
+      region: 'auto',
+      endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
+      credentials: { accessKeyId, secretAccessKey }
+    });
+
+    const body = JSON.stringify(catalog);
+    await client.send(
+      new PutObjectCommand({
+        Bucket: bucket,
+        Key: 'catalog/stories_catalog.json',
+        Body: body,
+        ContentType: 'application/json'
+      })
+    );
+    return true;
+  } catch (e) {
+    console.warn(`[R2] No se pudo subir el catálogo a R2: ${e.message}`);
+    return false;
+  }
+}
 
 // Parse .env if needed
 function loadEnv() {
@@ -252,16 +284,36 @@ export async function syncInstagramMetrics() {
     if (p.shortcode) postsByShortcode.set(p.shortcode, p);
   }
 
-  // Fetch all Supabase stories
-  const res = await fetch(`${SUPABASE_URL}/rest/v1/published_news?select=id,title,production_plan&order=created_at.desc`, { headers });
-  if (!res.ok) {
-    const errText = await res.text();
-    throw new Error(`Error en Supabase: ${res.status} - ${errText}`);
+  // 1. Fetch stories from local catalog as primary source of truth
+  const catalogPath = path.resolve(process.cwd(), 'web/src/data/stories_catalog.json');
+  let catalog = [];
+  if (fs.existsSync(catalogPath)) {
+    try {
+      catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+    } catch (_) {}
   }
-  const dbRows = await res.json();
+  console.log(`📖 Cargadas ${catalog.length} historias del catálogo local.`);
 
-  // Check which recent posts (top 30) are not yet linked in Supabase
+  // 2. Fetch Supabase stories (optional mirror)
+  let dbRows = [];
+  try {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/published_news?select=id,title,production_plan&order=created_at.desc`, { headers });
+    if (res.ok) {
+      dbRows = await res.json();
+    } else {
+      console.warn(`⚠️ Supabase devolvió HTTP ${res.status}. Se actualizará directamente el catálogo local y Cloudflare R2.`);
+    }
+  } catch (err) {
+    console.warn(`⚠️ Error conectando con Supabase: ${err.message}. Se actualizará directamente el catálogo local y Cloudflare R2.`);
+  }
+
+  // Check which recent posts (top 30) are not yet linked
   const linkedShortcodes = new Set();
+  for (const item of catalog) {
+    const igUrl = item.instagramUrl || '';
+    const m = igUrl.match(/reel\/([A-Za-z0-9_-]+)/);
+    if (m) linkedShortcodes.add(m[1]);
+  }
   for (const row of dbRows) {
     const pp = row.production_plan || {};
     const igUrl = pp.instagram_reel_url || pp.instagram_url || '';
@@ -301,6 +353,41 @@ export async function syncInstagramMetrics() {
   let updatedCount = 0;
   const topUpdated = [];
   const updatesToRun = [];
+
+  // Actualizar métricas directamente en el catálogo local y Cloudflare R2
+  let catalogUpdatedCount = 0;
+  for (const item of catalog) {
+    let igUrl = item.instagramUrl || '';
+    let matchedPost = null;
+    if (igUrl) {
+      const match = igUrl.match(/reel\/([A-Za-z0-9_-]+)/);
+      if (match) matchedPost = postsByShortcode.get(match[1]);
+    }
+    if (matchedPost) {
+      const isLatest = matchedPost.shortcode === latestShortcode;
+      item.views = matchedPost.views || item.views || 0;
+      item.reach = matchedPost.reach || item.reach || 0;
+      item.likes = matchedPost.likes || item.likes || 0;
+      item.isLatest = isLatest;
+      item.igPublishedAt = matchedPost.timestamp || item.igPublishedAt;
+      catalogUpdatedCount++;
+      if (item.views > 50000 || isLatest) {
+        topUpdated.push({
+          title: item.title,
+          views: item.views,
+          reach: item.reach,
+          isLatest,
+          shortcode: matchedPost.shortcode
+        });
+      }
+    }
+  }
+
+  if (catalogUpdatedCount > 0) {
+    fs.writeFileSync(catalogPath, JSON.stringify(catalog, null, 2), 'utf8');
+    console.log(`💾 Actualizadas ${catalogUpdatedCount} métricas en web/src/data/stories_catalog.json.`);
+    await uploadCatalogToR2(catalog);
+  }
 
   for (const row of dbRows) {
     if (row.title === '__system_subscribers__') continue;

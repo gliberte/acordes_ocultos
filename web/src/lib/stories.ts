@@ -207,19 +207,23 @@ function loadLocalGeneratedStories(): StoryItem[] {
  * By default filters out hidden stories unless includeHidden is true.
  */
 export async function getAllStories(options: { includeHidden?: boolean } = {}): Promise<StoryItem[]> {
-  // Return cached result if available and fresh (bypasses Supabase network calls)
+  // Return cached result if available and fresh (bypasses redundant computation)
   if (!options.includeHidden && cachedStories && (Date.now() - cachedStories.timestamp < CACHE_TTL_MS)) {
     return cachedStories.data;
   }
 
-  const localArticles = loadLocalArticles();
   let items: StoryItem[] = [];
 
-  try {
-    const { data, error } = await supabase
-      .from('published_news')
-      .select('id, title, status, image_url, video_url, created_at, production_plan')
-      .order('created_at', { ascending: false });
+  // Prioritize precompiled stories catalog (zero network latency, 100% reliable, decoupled from Supabase)
+  if (!options.includeHidden && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
+    items = storiesCatalogFallback.map(item => ({ ...item })) as StoryItem[];
+  } else {
+    const localArticles = loadLocalArticles();
+    try {
+      const { data, error } = await supabase
+        .from('published_news')
+        .select('id, title, status, image_url, video_url, created_at, production_plan')
+        .order('created_at', { ascending: false });
 
     if (!error && Array.isArray(data) && data.length > 0) {
       // Filter stories that have a title and some media or production plan
@@ -618,6 +622,7 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     }
   } catch (err) {
     console.warn('Supabase fetch failed, using local dataset fallback:', err);
+  }
   }
 
   // If Supabase returned nothing or failed, fallback to precompiled catalog dataset, then local files
