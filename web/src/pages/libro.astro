@@ -105,7 +105,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         <!-- Book Pitch & Details -->
         <div class="space-y-5 text-center lg:text-left">
           <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans">
-            <span>📚 PRIMERA EDICIÓN DIGITAL · OCTUBRE 2026</span>
+            <span>📚 PRIMERA EDICIÓN DIGITAL · PREVENTA DE LANZAMIENTO</span>
           </div>
 
           <h1 class="font-serif text-3xl sm:text-5xl font-black text-neutral-100 leading-tight">
@@ -134,7 +134,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span class="text-amber-400 font-bold">✓</span> Fuentes hemerográficas
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Descarga sin DRM
+              <span class="text-amber-400 font-bold">✓</span> Formato libre de DRM
             </li>
           </ul>
 
@@ -145,7 +145,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               rel="noopener noreferrer"
               class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/25 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-2"
             >
-              <span>Adquirir Libro Digital — $9.99 USD</span>
+              <span>📖 Reservar Edición Digital — $9.99 USD</span>
               <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
@@ -158,9 +158,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             </a>
           </div>
 
-          <p class="text-[11px] text-neutral-400 font-sans">
-            Pago seguro internacional en Gumroad con tarjeta de crédito, débito y métodos locales.
-          </p>
+          <div class="space-y-1 text-[11px] text-neutral-400 font-sans">
+            <p class="text-amber-300/90 font-medium">
+              🚀 <strong>Preventa Oficial:</strong> Archivos en fase final de subida. Al reservar hoy por $9.99 USD, recibirás el PDF interactivo de alta resolución y el EPUB directamente en tu correo en cuanto concluya la carga en Gumroad.
+            </p>
+            <p>
+              Pago seguro internacional en Gumroad con tarjeta de crédito, débito y métodos locales.
+            </p>
+          </div>
         </div>
       </div>
     </header>
@@ -177,10 +182,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         <div class="p-5 rounded-xl bg-[#171410] border border-amber-500/40 space-y-2">
           <span class="text-amber-400 font-bold text-sm">1. El Libro Digital ($9.99 USD)</span>
           <p class="text-neutral-300 leading-relaxed">
-            Es la obra editorial completa y terminada: las 28 crónicas maquetadas para lectura continua en PDF de arte y EPUB, con aparato bibliográfico completo y enlaces interactivos.
+            Es la obra editorial completa: 28 crónicas maquetadas para lectura continua en PDF de arte y EPUB, con aparato bibliográfico completo y enlaces interactivos. Disponible en preventa oficial con entrega directa por correo al concluir la subida de archivos.
           </p>
           <a href={GUMROAD_BOOK_URL} target="_blank" rel="noopener" class="text-amber-400 font-semibold underline block pt-1">
-            Comprar por $9.99 USD →
+            Reservar por $9.99 USD →
           </a>
         </div>
         <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
@@ -263,11 +268,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
     <!-- Buy Box Callout -->
     <section class="rounded-3xl bg-gradient-to-r from-amber-500/15 via-[#1a1611] to-amber-500/10 border border-amber-500/40 p-8 sm:p-12 text-center space-y-5 shadow-2xl">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans mx-auto">
+        <span>🚀 PREVENTA OFICIAL DE LANZAMIENTO</span>
+      </div>
       <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
         Lleva las 28 historias de Acordes Ocultos a tu biblioteca
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-        Edición digital sin publicidad, sin DRM y lista para leer en Kindle, tablet, iPad o teléfono. Descarga instantánea tras la compra.
+        Edición digital sin publicidad, sin DRM y lista para leer en Kindle, tablet, iPad o teléfono. Reserva tu ejemplar en preventa oficial por $9.99 USD: los archivos definitivos (PDF interactivo + EPUB) se enviarán a tu correo en cuanto concluya la subida en la plataforma.
       </p>
       <div class="pt-2">
         <a
@@ -276,7 +284,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           rel="noopener noreferrer"
           class="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-xl shadow-amber-500/30 transition-all transform hover:-translate-y-0.5"
         >
-          <span>📖 Comprar Edición Digital ($9.99 USD)</span>
+          <span>📖 Reservar Edición Digital ($9.99 USD)</span>
           <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
             <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
