@@ -37,20 +37,16 @@ const { source = 'web_story' } = Astro.props;
         <span class="text-xs text-neutral-400 uppercase tracking-wider font-semibold">Precio oficial:</span>
         <span class="text-2xl font-serif font-black text-amber-400">$9.99 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
       </div>
-      <a
-        href="https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=9.99"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="px-6 py-3.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-500/25 hover:-translate-y-0.5 transition-all text-center flex items-center justify-center gap-2"
+      <div
+        class="px-5 py-3 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-[#1f1b15] text-amber-300/80 border border-amber-500/30 text-center flex items-center justify-center gap-2 cursor-not-allowed select-none"
       >
-        <span>📖 Reservar Libro Digital ($9.99 USD)</span>
-        <svg class="w-4 h-4 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-        </svg>
-      </a>
-      <span class="text-[10px] text-neutral-400 text-center lg:text-right font-sans">
-        Preventa oficial: entrega digital en PDF + EPUB a tu correo al completarse la subida.
-      </span>
+        <span>⏳ Venta Habilitada Mañana</span>
+      </div>
+      <div class="flex items-center justify-between lg:justify-end gap-2 text-[10px] text-neutral-400 font-sans">
+        <span>Lanzamiento oficial en pocas horas</span>
+        <span>•</span>
+        <a href="/libro" class="text-amber-400 hover:text-amber-300 underline font-medium">Ver las 28 obras →</a>
+      </div>
     </div>
   </div>
 </div>
