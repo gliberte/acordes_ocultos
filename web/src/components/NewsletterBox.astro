@@ -46,16 +46,19 @@ const { source = 'web_story' } = Astro.props;
 
     <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-3 shrink-0">
       <div class="flex items-center justify-between lg:justify-end gap-3">
-        <span class="text-xs text-neutral-400 uppercase tracking-wider font-semibold">Precio oficial:</span>
-        <span class="text-2xl font-serif font-black text-amber-400">$9.99 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
+        <span class="text-xs text-neutral-400 uppercase tracking-wider font-semibold">Lanzamiento:</span>
+        <div class="flex items-baseline gap-2">
+          <span class="text-xs line-through text-neutral-500 font-sans">$9.99</span>
+          <span class="text-2xl font-serif font-black text-amber-400">$7.99 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
+        </div>
       </div>
       <a
-        href="https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1"
+        href="https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1/LANZAMIENTO"
         target="_blank"
         rel="noopener noreferrer"
         class="px-5 py-3 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg shadow-amber-950/50"
       >
-        <span>📖 Adquirir Libro (PDF + EPUB) →</span>
+        <span>📖 Adquirir Libro ($7.99 USD) →</span>
       </a>
       <div class="flex items-center justify-between lg:justify-end gap-2 text-[10px] text-neutral-400 font-sans">
         <span>Descarga inmediata sin DRM</span>
