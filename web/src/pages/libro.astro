@@ -7,11 +7,11 @@ const GUMROAD_TIP_URL = 'https://acordesocultos.gumroad.com/l/ryhupd';
 
 const PREVIEWS = [
   {
-    image: '/book/preview/apertura-capitulo-qr.webp',
-    title: 'Aperturas con Códigos QR Integrados',
-    tag: 'Banda Sonora Interactiva',
-    subtitle: 'Escucha la canción en el instante exacto en que nació',
-    description: 'Cada una de las 28 crónicas se abre con un código QR escaneable e interactivo. Con solo apuntar la cámara de tu móvil o hacer clic en el PDF, comenzarás a escuchar la obra original mientras descubres las circunstancias íntimas en que fue grabada.'
+    image: '/book/preview/apertura-capitulo-interactivo.webp',
+    title: 'Aperturas Editoriales y Enlaces Directos',
+    tag: 'Banda Sonora Integrada',
+    subtitle: 'Acceso directo al mini-documental de cada obra',
+    description: 'Cada una de las 28 crónicas se abre con enlaces directos e interactivos en el PDF y EPUB. Con un solo clic o toque, podrás reproducir el mini-documental y la grabación original mientras descubres las circunstancias íntimas en que fue grabada.'
   },
   {
     image: '/book/preview/fotografia-archivo-abbey-road.webp',
@@ -118,7 +118,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
 <Layout
   title="Libro Oficial: Acordes Ocultos — Volumen 01 | 28 Historias Humanas detrás de la Música"
-  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y códigos QR directos a cada tema."
+  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y enlaces directos a cada tema."
   image="/book/portada-volumen-01.jpg"
 >
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 space-y-16">
@@ -174,7 +174,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span class="text-amber-400 font-bold">✓</span> PDF interactivo + EPUB
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Códigos QR a canciones
+              <span class="text-amber-400 font-bold">✓</span> Enlaces multimedia interactivos
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
               <span class="text-amber-400 font-bold">✓</span> Fotos de archivo reales
@@ -252,7 +252,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           </div>
           <h3 class="font-serif text-lg font-bold text-white">Banda Sonora Sincronizada</h3>
           <p class="text-xs text-neutral-400 leading-relaxed">
-            La experiencia de lectura está diseñada para el oído: mediante códigos QR interactivos, puedes escuchar cada obra en su versión exacta mientras descubres el secreto de sus compases.
+            La experiencia de lectura está diseñada para el oído: mediante enlaces multimedia interactivos, puedes acceder directamente a la historia en video y audio de cada obra mientras descubres el secreto de sus compases.
           </p>
         </div>
       </div>
@@ -355,8 +355,8 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
           <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Audio Interactivo</span>
-          <p class="text-white font-bold text-base font-serif">28 Códigos QR</p>
-          <span class="text-neutral-400 text-[11px] block">Enlaces a grabaciones</span>
+          <p class="text-white font-bold text-base font-serif">28 Enlaces Directos</p>
+          <span class="text-neutral-400 text-[11px] block">Acceso a mini-documentales</span>
         </div>
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
