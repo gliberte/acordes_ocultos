@@ -9,26 +9,38 @@ const { source = 'web_story' } = Astro.props;
 <!-- 1. Producto Editorial: Libro Recopilatorio (Volumen 01) — $9.99 USD -->
 <div class="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a12] via-[#14120e] to-[#0a0908] border border-amber-500/50 p-6 sm:p-8 shadow-2xl shadow-amber-950/30">
   <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
-    <div class="space-y-2 max-w-xl">
-      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans">
-        <span>📚 LIBRO DIGITAL · VOLUMEN 01</span>
-        <span class="text-amber-500">•</span>
-        <span>PRIMERA EDICIÓN</span>
-      </div>
-      <h3 class="font-serif text-xl sm:text-2xl font-bold text-white leading-snug">
-        Acordes Ocultos — Volumen 01: Historias humanas detrás de la música
-      </h3>
-      <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed">
-        <strong>28 crónicas documentales completas</strong> con archivo fotográfico restaurado, recreaciones de época y códigos QR para escuchar cada obra en su contexto original. Una edición de coleccionista en <strong>PDF interactivo de alta resolución y EPUB</strong> para leer en Kindle, tablet o teléfono.
-      </p>
-      <div class="flex items-center gap-4 pt-1 text-[11px] font-sans">
-        <span class="text-amber-400 font-semibold">28 historias de archivo</span>
-        <span class="text-neutral-600">•</span>
-        <span class="text-neutral-400">PDF + EPUB interactivo</span>
-        <span class="text-neutral-600">•</span>
-        <a href="/libro" class="text-amber-400 hover:text-amber-300 underline font-medium">
-          Ver índice y detalles →
-        </a>
+    <div class="flex items-start gap-4 sm:gap-5 max-w-xl">
+      <a href="/libro" class="hidden sm:block shrink-0 w-20 rounded-xl overflow-hidden border border-amber-500/40 shadow-xl group hover:border-amber-400 transition-colors">
+        <img
+          src="/book/portada-volumen-01.webp"
+          alt="Portada Libro Acordes Ocultos Volumen 01"
+          width="160"
+          height="240"
+          class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-300 shadow-inner"
+          loading="lazy"
+        />
+      </a>
+      <div class="space-y-2">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/20 text-amber-300 border border-amber-500/40 font-sans">
+          <span>📚 LIBRO DIGITAL · VOLUMEN 01</span>
+          <span class="text-amber-500">•</span>
+          <span>PRIMERA EDICIÓN</span>
+        </div>
+        <h3 class="font-serif text-xl sm:text-2xl font-bold text-white leading-snug">
+          Acordes Ocultos — Volumen 01: Historias humanas detrás de la música
+        </h3>
+        <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed">
+          <strong>28 crónicas documentales completas</strong> con archivo fotográfico restaurado, recreaciones de época y códigos QR para escuchar cada obra en su contexto original. Una edición de coleccionista en <strong>PDF interactivo de alta resolución y EPUB</strong> para leer en Kindle, tablet o teléfono.
+        </p>
+        <div class="flex items-center gap-4 pt-1 text-[11px] font-sans">
+          <span class="text-amber-400 font-semibold">28 historias de archivo</span>
+          <span class="text-neutral-600">•</span>
+          <span class="text-neutral-400">PDF + EPUB interactivo</span>
+          <span class="text-neutral-600">•</span>
+          <a href="/libro" class="text-amber-400 hover:text-amber-300 underline font-medium">
+            Ver índice y detalles →
+          </a>
+        </div>
       </div>
     </div>
 
