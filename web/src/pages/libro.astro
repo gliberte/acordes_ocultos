@@ -5,15 +5,61 @@ import NewsletterBox from '../components/NewsletterBox.astro';
 const GUMROAD_BOOK_URL = 'https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=9.99';
 const GUMROAD_TIP_URL = 'https://acordesocultos.gumroad.com/l/ryhupd';
 
+const PREVIEWS = [
+  {
+    image: '/book/preview/apertura-capitulo-qr.webp',
+    title: 'Aperturas con Códigos QR Integrados',
+    tag: 'Banda Sonora Interactiva',
+    subtitle: 'Escucha la canción en el instante exacto en que nació',
+    description: 'Cada una de las 28 crónicas se abre con un código QR escaneable e interactivo. Con solo apuntar la cámara de tu móvil o hacer clic en el PDF, comenzarás a escuchar la obra original mientras descubres las circunstancias íntimas en que fue grabada.'
+  },
+  {
+    image: '/book/preview/fotografia-archivo-abbey-road.webp',
+    title: 'Fotografía de Archivo Restaurada',
+    tag: 'Testimonio Visual',
+    subtitle: 'Tomas reales de estudio y documentos de época',
+    description: 'Tomas históricas de las sesiones en Abbey Road, Sun Studio, Western Recorders y Criteria Studios. Imágenes y consolas analógicas restauradas en alta definición que te sitúan en el centro mismo de la grabación.'
+  },
+  {
+    image: '/book/preview/diseno-editorial-california.webp',
+    title: 'Maquetación para Lectura Inmersiva',
+    tag: 'Diseño Editorial',
+    subtitle: 'Tipografía descansada y proporciones clásicas',
+    description: 'Una experiencia visual limpia y reposada. Tipografía serif calibrada para lecturas continuadas sin fatiga visual, márgenes proporcionados y letras capitulares que convierten cada página en un homenaje al libro de arte.'
+  },
+  {
+    image: '/book/preview/documentacion-hemerografica.webp',
+    title: 'Rigor Documental y Hemeroteca Real',
+    tag: 'Cero Falsedades',
+    subtitle: 'Apego estricto a las fuentes comprobadas',
+    description: 'Cada fecha, contrato discográfico, disputa legal o testimonio íntimo ha sido contrastado contra archivos de prensa de la época, memorias oficiales y notas de sesión. La emoción nace de la verdad de los hechos, no de mitos inventados.'
+  },
+  {
+    image: '/book/preview/narrativa-y-contexto-historico.webp',
+    title: 'Narrativa en Actos Dramáticos',
+    tag: 'Pulso Literario',
+    subtitle: 'Estructura cinematográfica y tensión poética',
+    description: 'Las crónicas no son fichas biográficas frías: se construyen con prólogo de inmersión, actos con tensión progresiva y un cierre reflexivo que indaga en la fragilidad humana, el miedo y la catarsis artística.'
+  },
+  {
+    image: '/book/preview/indice-general.webp',
+    title: '241 Páginas de Navegación Fluida',
+    tag: 'Edición Completa',
+    subtitle: 'Índice interactivo para saltar entre obras con un toque',
+    description: 'Tanto en la versión PDF como en la edición EPUB, la tabla de contenidos cuenta con hipervínculos directos para que puedas saltar de inmediato al artista, época o canción que desees explorar en cada momento.'
+  }
+];
+
 const SECTIONS = [
   {
     part: 'Parte I',
     title: 'Cuando una canción encuentra su camino',
-    description: 'Una voz invitada, una grabación que cambia de rumbo, una melodía que cruza una frontera sin pedir permiso.',
+    theme: 'La chispa del azar y las audacias de estudio',
+    description: 'Una voz invitada que cobra 30 libras, una grabación que cambia de rumbo a las tres de la mañana o una melodía que cruza una frontera sin pedir permiso.',
     chapters: [
-      { num: '01', title: 'The Great Gig in the Sky', artist: 'Pink Floyd', slug: 'pink-floyd-the-great-gig-in-the-sky', highlight: 'El lamento de las 30 libras que cambió la historia del rock' },
+      { num: '01', title: 'The Great Gig in the Sky', artist: 'Pink Floyd', slug: 'pink-floyd-the-great-gig-in-the-sky', highlight: 'El lamento de las 30 libras que cambió la historia del rock en Abbey Road' },
       { num: '02', title: "That's All Right", artist: 'Elvis Presley', slug: 'elvis-presley-thats-all-right-acordes-ocultos', highlight: 'La improvisación en Sun Studio que encendió el rock and roll' },
-      { num: '03', title: 'Eres tú', artist: 'Mocedades', slug: 'mocedades-eres-tu', highlight: 'La armonía en español que conquistó el mundo' },
+      { num: '03', title: 'Eres tú', artist: 'Mocedades', slug: 'mocedades-eres-tu', highlight: 'La armonía en español que conquistó el Festival de Eurovisión y el mundo' },
       { num: '04', title: 'California Dreamin’', artist: 'The Mamas & The Papas', slug: 'the-mamas-and-the-papas-california-dreamin-acordes-ocultos', highlight: 'El himno solar nacido en una habitación helada de Nueva York' },
       { num: '05', title: 'Like a Rolling Stone', artist: 'Bob Dylan', slug: 'bob-dylan-like-a-rolling-stone-acordes-ocultos', highlight: 'El órgano accidental de Al Kooper en Columbia Studios' },
       { num: '06', title: 'Tears in Heaven', artist: 'Eric Clapton', slug: 'eric-clapton-tears-in-heaven-acordes-ocultos', highlight: 'El acorde que salvó a un padre de las cenizas del duelo' },
@@ -23,10 +69,11 @@ const SECTIONS = [
   {
     part: 'Parte II',
     title: 'La voz frente al espejo',
-    description: 'Historias de soledad, despedidas y la fragilidad de quienes dejaron el alma en cada surco antes de marcharse.',
+    theme: 'La soledad y la fragilidad del artista',
+    description: 'Historias de aislamiento, despedidas prematuras y la verdad de quienes dejaron el alma en cada surco antes de marcharse.',
     chapters: [
       { num: '08', title: 'Piece of My Heart', artist: 'Janis Joplin', slug: 'janis-joplin-piece-of-my-heart-destellos-de-gloria', highlight: 'De la humillación en Texas a la gloria inmortal de San Francisco' },
-      { num: '09', title: 'Un beso y una flor', artist: 'Nino Bravo', slug: 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria', highlight: 'La voz colosal que se despidió en una curva de asfalto' },
+      { num: '09', title: 'Un beso y una flor', artist: 'Nino Bravo', slug: 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria', highlight: 'La voz colosal que se despidió en una curva de asfalto en 1973' },
       { num: '10', title: 'Hoy no me levanto', artist: 'Manolo Galván', slug: 'manolo-galvan-hoy-no-me-levanto-acordes-ocultos', highlight: 'El tema prohibido que desafió la moral de una época' },
       { num: '11', title: 'Adiós, chico de mi barrio', artist: 'Tormenta', slug: 'tormenta-adios-chico-de-mi-barrio-acordes-ocultos', highlight: 'La nostalgia suburbana de un amor que el tiempo se llevó' },
       { num: '12', title: 'Un ramito de violetas', artist: 'Cecilia', slug: 'cecilia-un-ramito-de-violetas-historia-en-los-acordes', highlight: 'El amor que llegaba sin firma en la voz de un talento truncado' },
@@ -37,7 +84,8 @@ const SECTIONS = [
   {
     part: 'Parte III',
     title: 'El pacto que resiste al tiempo',
-    description: 'La forja en el barro, las tensiones de estudio, los sabotajes y los lazos que sobrevivieron a la fama y el caos.',
+    theme: 'La forja en el barro y la lealtad sonora',
+    description: 'La supervivencia económica, las tensiones de estudio, los sabotajes y los lazos que resistieron a la fama desmedida.',
     chapters: [
       { num: '15', title: 'Bohemian Rhapsody', artist: 'Queen', slug: 'queen-bohemian-rhapsody-forjados-en-el-barro', highlight: 'Al borde de la quiebra financiera y la obra magna del rock' },
       { num: '16', title: 'Kashmir', artist: 'Led Zeppelin', slug: 'led-zeppelin-kashmir-acordes-ocultos', highlight: 'El viaje por el desierto y el pacto de honor tras la muerte de Bonzo' },
@@ -51,7 +99,8 @@ const SECTIONS = [
   {
     part: 'Parte IV',
     title: 'Lo que la música no olvida',
-    description: 'Catedrales sonoras de la memoria viva: el duelo, el coraje civil, la identidad compartida y el testamento final.',
+    theme: 'Catedrales de la memoria y testamentos vitales',
+    description: 'El duelo colectivo, el coraje civil, la identidad compartida y las últimas palabras dejadas en una grabación antes del adiós.',
     chapters: [
       { num: '22', title: 'Marinero de luces', artist: 'Isabel Pantoja', slug: 'isabel-pantoja-marinero-de-luces-acordes-ocultos', highlight: 'El luto de un país entero y el regreso conmovido en el Teatro Real' },
       { num: '23', title: 'Redemption Song', artist: 'Bob Marley', slug: 'bob-marley-redemption-song-destellos-de-gloria', highlight: 'El profeta descalzo con su guitarra acústica frente al diagnóstico terminal' },
@@ -69,7 +118,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
 <Layout
   title="Libro Oficial: Acordes Ocultos — Volumen 01 | 28 Historias Humanas detrás de la Música"
-  description="Edición digital de colección (PDF interactivo + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y códigos QR directos a cada tema. Precio oficial: $9.99 USD."
+  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y códigos QR directos a cada tema."
   image="/book/portada-volumen-01.jpg"
 >
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 space-y-16">
@@ -95,7 +144,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-white/10 pointer-events-none"></div>
           </div>
           <span class="text-[11px] text-neutral-400 mt-3 font-sans tracking-wide">
-            Portada oficial · Volumen 01 (PDF + EPUB)
+            Portada oficial · Volumen 01 (241 págs.)
           </span>
         </div>
 
@@ -111,12 +160,15 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           </h1>
 
           <p class="font-sans text-sm sm:text-base text-neutral-300 leading-relaxed max-w-2xl">
-            <strong>28 crónicas documentales completas</strong> que recorren momentos irrepetibles de la cultura sonora: una cantante que entra a Abbey Road sin saber qué esperan de ella, un lamento grabado de rodillas, una maqueta rescatada de la nieve o una despedida en el andén de una estación.
+            <strong>241 páginas de rescate documental</strong> que recorren momentos irrepetibles de la cultura sonora: una cantante que entra a Abbey Road sin saber qué esperan de ella, un lamento grabado de rodillas, una maqueta rescatada de la nieve o una despedida en el andén de una estación.
           </p>
 
           <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs font-sans text-neutral-300 max-w-xl mx-auto lg:mx-0">
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
               <span class="text-amber-400 font-bold">✓</span> 28 crónicas íntegras
+            </li>
+            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
+              <span class="text-amber-400 font-bold">✓</span> 241 páginas maquetadas
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
               <span class="text-amber-400 font-bold">✓</span> PDF interactivo + EPUB
@@ -125,13 +177,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span class="text-amber-400 font-bold">✓</span> Códigos QR a canciones
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Archivo fotográfico real
+              <span class="text-amber-400 font-bold">✓</span> Fotos de archivo reales
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Fuentes hemerográficas
-            </li>
-            <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Formato libre de DRM
+              <span class="text-amber-400 font-bold">✓</span> 100% Libre de DRM
             </li>
           </ul>
 
@@ -142,10 +191,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span>⏳ Venta Habilitada Mañana — $9.99 USD</span>
             </div>
             <a
-              href="#indice"
+              href="#muestrario"
               class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
             >
-              Explorar las 28 Obras ↓
+              Ver Páginas del Interior ↓
             </a>
           </div>
 
@@ -154,12 +203,172 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               ⏳ <strong>Lanzamiento Oficial: Mañana.</strong> La edición digital y los enlaces de compra se activarán formalmente a primera hora una vez completada la carga de los archivos finales en la plataforma.
             </p>
             <p>
-              Puedes explorar el índice detallado a continuación o suscribirte al boletín para recibir una muestra gratuita de 3 historias.
+              Explora las muestras de páginas reales a continuación o descarga gratis 3 crónicas de muestra en el boletín.
             </p>
           </div>
         </div>
       </div>
     </header>
+
+    <!-- ¿Qué es este libro? Descripción profunda de contenido -->
+    <section class="space-y-8">
+      <div class="text-center max-w-3xl mx-auto space-y-3">
+        <span class="text-xs uppercase tracking-[0.25em] text-amber-400 font-bold font-sans">CONCEPTO EDITORIAL</span>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-neutral-100">
+          La historia que la música no suele contar en los libros convencionales
+        </h2>
+        <p class="text-sm sm:text-base text-neutral-300 font-sans leading-relaxed">
+          No encontrarás aquí una fría relación de fechas ni modelos de consolas. Este primer volumen reúne 28 microhistorias de alta tensión donde la música se presenta como testamento emocional, refugio espiritual y documento vivo del destino de las personas.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 font-sans">
+        <div class="p-6 rounded-2xl bg-[#14120f] border border-[#2b2721] space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
+            ❤️
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white">Primacía de la Emoción Humana</h3>
+          <p class="text-xs text-neutral-400 leading-relaxed">
+            Cada capítulo se enfoca en el drama íntimo de los creadores: la voz rota grabando entre lágrimas, el músico al borde de la quiebra que lo apuesta todo en una última toma o la despedida en la carretera.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#14120f] border border-[#2b2721] space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
+            📜
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white">Rigor y Verdad Comprobada</h3>
+          <p class="text-xs text-neutral-400 leading-relaxed">
+            Cero mitos de pasillo ni anécdotas ficticias. Todas las historias se apoyan en hemerotecas de época, testimonios directos de los ingenieros de sonido y resoluciones documentales verificadas.
+          </p>
+        </div>
+
+        <div class="p-6 rounded-2xl bg-[#14120f] border border-[#2b2721] space-y-3">
+          <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
+            🎧
+          </div>
+          <h3 class="font-serif text-lg font-bold text-white">Banda Sonora Sincronizada</h3>
+          <p class="text-xs text-neutral-400 leading-relaxed">
+            La experiencia de lectura está diseñada para el oído: mediante códigos QR interactivos, puedes escuchar cada obra en su versión exacta mientras descubres el secreto de sus compases.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Muestrario Visual de Páginas Reales / Screenshots -->
+    <section id="muestrario" class="space-y-10 pt-4">
+      <div class="text-center space-y-3 max-w-3xl mx-auto">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 font-sans">
+          <span>📖 MUESTRARIO VISUAL DEL INTERIOR</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-neutral-100">
+          Lo que recibirás al abrir el libro
+        </h2>
+        <p class="text-xs sm:text-sm text-neutral-400 font-sans leading-relaxed">
+          Páginas reales capturadas directamente de la maqueta final del libro digital (241 páginas en PDF interactivo y EPUB).
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {PREVIEWS.map(item => (
+          <div class="group rounded-2xl bg-[#13110e] border border-[#2b261e] hover:border-amber-500/50 transition-all duration-300 overflow-hidden flex flex-col shadow-xl">
+            <!-- Page Snapshot -->
+            <div class="relative aspect-[3/4] bg-[#0c0a08] overflow-hidden border-b border-[#242019] flex items-center justify-center p-3">
+              <img
+                src={item.image}
+                alt={item.title}
+                width="900"
+                height="1350"
+                class="w-full h-full object-contain rounded-lg shadow-2xl group-hover:scale-[1.03] transition-transform duration-500"
+                loading="lazy"
+                decoding="async"
+              />
+              <span class="absolute top-4 left-4 text-[10px] uppercase font-bold tracking-wider px-2.5 py-1 rounded-md bg-black/85 text-amber-300 border border-amber-500/30 backdrop-blur font-sans">
+                {item.tag}
+              </span>
+            </div>
+
+            <!-- Page Feature Description -->
+            <div class="p-5 flex-1 flex flex-col justify-between space-y-3 font-sans">
+              <div class="space-y-1.5">
+                <h3 class="font-serif text-base font-bold text-white group-hover:text-amber-300 transition-colors">
+                  {item.title}
+                </h3>
+                <p class="text-[11px] font-semibold text-amber-400/90 tracking-wide uppercase">
+                  {item.subtitle}
+                </p>
+                <p class="text-xs text-neutral-400 leading-relaxed">
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <!-- Ficha Técnica de la Edición Digital -->
+    <section class="rounded-3xl bg-gradient-to-br from-[#171410] via-[#110f0d] to-[#0a0908] border border-amber-500/30 p-8 sm:p-12 space-y-8 shadow-2xl">
+      <div class="text-center max-w-2xl mx-auto space-y-2">
+        <span class="text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">FICHA TÉCNICA OFICIAL</span>
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
+          Todo lo incluido en tu ejemplar
+        </h3>
+        <p class="text-xs sm:text-sm text-neutral-400 font-sans">
+          Una edición pensada para conservarse de por vida en tu biblioteca personal, sin dependencias de plataformas cerradas ni DRM.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 font-sans text-xs">
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Extensión</span>
+          <p class="text-white font-bold text-base font-serif">241 Páginas</p>
+          <span class="text-neutral-400 text-[11px] block">Maquetación de arte</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Obras Documentadas</span>
+          <p class="text-white font-bold text-base font-serif">28 Crónicas</p>
+          <span class="text-neutral-400 text-[11px] block">Texto íntegro sin recortes</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Formatos Entregados</span>
+          <p class="text-amber-400 font-bold text-base font-serif">PDF + EPUB</p>
+          <span class="text-neutral-400 text-[11px] block">Descarga simultánea</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Derechos Digitales</span>
+          <p class="text-emerald-400 font-bold text-base font-serif">100% Sin DRM</p>
+          <span class="text-neutral-400 text-[11px] block">Tuyo para siempre</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Archivo Visual</span>
+          <p class="text-white font-bold text-base font-serif">&gt; 80 Fotografías</p>
+          <span class="text-neutral-400 text-[11px] block">Restauradas de época</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Audio Interactivo</span>
+          <p class="text-white font-bold text-base font-serif">28 Códigos QR</p>
+          <span class="text-neutral-400 text-[11px] block">Enlaces a grabaciones</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Idioma</span>
+          <p class="text-white font-bold text-base font-serif">Español</p>
+          <span class="text-neutral-400 text-[11px] block">Edición original</span>
+        </div>
+
+        <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Compatibilidad</span>
+          <p class="text-amber-400 font-bold text-base font-serif">Universal</p>
+          <span class="text-neutral-400 text-[11px] block">Kindle, iPad, Tablet, PC</span>
+        </div>
+      </div>
+    </section>
 
     <!-- Transparencia Editorial: Los 3 Canales del Proyecto -->
     <section class="rounded-2xl bg-[#12100e] border border-[#2b2720] p-6 sm:p-8 space-y-4">
@@ -173,7 +382,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         <div class="p-5 rounded-xl bg-[#171410] border border-amber-500/40 space-y-2">
           <span class="text-amber-400 font-bold text-sm">1. El Libro Digital ($9.99 USD)</span>
           <p class="text-neutral-300 leading-relaxed">
-            Es la obra editorial completa: 28 crónicas maquetadas para lectura continua en PDF de arte y EPUB, con aparato bibliográfico completo y enlaces interactivos.
+            Es la obra editorial completa: 28 crónicas maquetadas para lectura continua en PDF de arte (241 págs.) y EPUB, con aparato bibliográfico completo y enlaces interactivos.
           </p>
           <div class="pt-1">
             <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-300/80 bg-amber-500/10 border border-amber-500/30 px-3 py-1 rounded-lg">
@@ -231,7 +440,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         {SECTIONS.map(sec => (
           <div class="rounded-2xl bg-[#12100e] border border-[#26221b] p-6 sm:p-8 space-y-5">
             <div class="border-b border-[#242019] pb-4">
-              <span class="text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">{sec.part}</span>
+              <div class="flex flex-wrap items-center justify-between gap-2">
+                <span class="text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">{sec.part}</span>
+                <span class="text-[11px] text-neutral-400 font-sans italic">{sec.theme}</span>
+              </div>
               <h3 class="font-serif text-2xl font-bold text-neutral-100 mt-1">{sec.title}</h3>
               <p class="text-xs text-neutral-400 font-sans mt-1 leading-relaxed">{sec.description}</p>
             </div>
@@ -268,7 +480,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         Lleva las 28 historias de Acordes Ocultos a tu biblioteca
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-        Edición digital sin publicidad, sin DRM y lista para leer en Kindle, tablet, iPad o teléfono. Los botones de compra y descarga se activarán formalmente a partir de mañana ($9.99 USD).
+        Edición digital sin publicidad, 100% libre de DRM y lista para leer en Kindle, tablet, iPad o teléfono. Los botones de compra y descarga se activarán formalmente a partir de mañana ($9.99 USD).
       </p>
       <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
         <div
