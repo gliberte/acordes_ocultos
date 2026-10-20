@@ -437,7 +437,73 @@ const supabaseConfig = () => {
   };
 };
 
-const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoStats, cloudflare, coverPath, teaserPath, heroBannerPath}) => {
+const resolveArticleForStory = ({ story, editorialPackage }) => {
+  const storySlug = slugFor(story.title);
+  let resolvedWebArticle = editorialPackage.copy;
+  const articlesBase = join(rootDir, 'articles');
+  let matchedArticleSlug = null;
+  if (existsSync(articlesBase)) {
+    const assetFolder = story.assets?.[0]?.src ? dirname(story.assets[0].src).replace(/^videos\//, '').replace(/^.*\//, '') : null;
+    const musicFolder = story.music?.src ? dirname(story.music.src).replace(/^music\//, '').replace(/^.*\//, '') : null;
+    const artistClean = slugFor(story.artist || '').replace(/-/g, '');
+    const songClean = slugFor(story.music?.title || '').replace(/-/g, '');
+
+    const candidateDirs = [
+      story.articleSlug,
+      story.slug,
+      assetFolder,
+      musicFolder,
+      storySlug,
+      normalizeTag(story.artist || '').toLowerCase()
+    ].filter(Boolean);
+
+    for (const c of candidateDirs) {
+      const p = join(articlesBase, c, 'article.md');
+      if (existsSync(p)) {
+        resolvedWebArticle = readFileSync(p, 'utf8');
+        matchedArticleSlug = c;
+        break;
+      }
+    }
+
+    if (resolvedWebArticle === editorialPackage.copy) {
+      try {
+        const entries = readdirSync(articlesBase, { withFileTypes: true });
+        for (const e of entries) {
+          if (e.isDirectory() && e.name !== 'assets') {
+            const eClean = e.name.toLowerCase().replace(/[^a-z0-9]/g, '');
+            if (artistClean && songClean && eClean.includes(artistClean) && eClean.includes(songClean)) {
+              const p = join(articlesBase, e.name, 'article.md');
+              if (existsSync(p)) {
+                resolvedWebArticle = readFileSync(p, 'utf8');
+                matchedArticleSlug = e.name;
+                break;
+              }
+            }
+            if (e.name.includes(storySlug) || storySlug.includes(e.name)) {
+              const p = join(articlesBase, e.name, 'article.md');
+              if (existsSync(p)) {
+                resolvedWebArticle = readFileSync(p, 'utf8');
+                matchedArticleSlug = e.name;
+                break;
+              }
+            }
+          }
+        }
+      } catch (_) {}
+    }
+  }
+
+  if (matchedArticleSlug) {
+    console.log(`📰 [Web] Crónica extendida enlazada con éxito desde articles/${matchedArticleSlug}/ (${resolvedWebArticle.length} caracteres).`);
+  } else {
+    console.warn('⚠️ [Web] No se encontró crónica extendida en articles/. Se usará el copy como respaldo.');
+  }
+
+  return { matchedArticleSlug, resolvedWebArticle };
+};
+
+const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoStats, cloudflare, coverPath, teaserPath, heroBannerPath, matchedArticleSlug, resolvedWebArticle}) => {
   const config = supabaseConfig();
 
   if (!config) {
@@ -490,69 +556,6 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
     video_size_bytes: videoStats.size,
     published_at: new Date().toISOString()
   };
-
-  const storySlug = slugFor(story.title);
-  let resolvedWebArticle = editorialPackage.copy;
-  const articlesBase = join(rootDir, 'articles');
-  let matchedArticleSlug = null;
-  if (existsSync(articlesBase)) {
-    const assetFolder = story.assets?.[0]?.src ? dirname(story.assets[0].src).replace(/^videos\//, '').replace(/^.*\//, '') : null;
-    const musicFolder = story.music?.src ? dirname(story.music.src).replace(/^music\//, '').replace(/^.*\//, '') : null;
-    const artistClean = slugFor(story.artist || '').replace(/-/g, '');
-    const songClean = slugFor(story.music?.title || '').replace(/-/g, '');
-
-    const candidateDirs = [
-      story.articleSlug,
-      story.slug,
-      assetFolder,
-      musicFolder,
-      storySlug,
-      normalizeTag(story.artist || '').toLowerCase()
-    ].filter(Boolean);
-
-    for (const c of candidateDirs) {
-      const p = join(articlesBase, c, 'article.md');
-      if (existsSync(p)) {
-        resolvedWebArticle = readFileSync(p, 'utf8');
-        matchedArticleSlug = c;
-        break;
-      }
-    }
-
-    if (resolvedWebArticle === editorialPackage.copy) {
-      try {
-        const entries = readdirSync(articlesBase, { withFileTypes: true });
-        for (const e of entries) {
-          if (e.isDirectory() && e.name !== 'assets') {
-            const eClean = e.name.toLowerCase().replace(/[^a-z0-9]/g, '');
-            // Check matching both artist and song in directory name
-            if (artistClean && songClean && eClean.includes(artistClean) && eClean.includes(songClean)) {
-              const p = join(articlesBase, e.name, 'article.md');
-              if (existsSync(p)) {
-                resolvedWebArticle = readFileSync(p, 'utf8');
-                matchedArticleSlug = e.name;
-                break;
-              }
-            }
-            if (e.name.includes(storySlug) || storySlug.includes(e.name)) {
-              const p = join(articlesBase, e.name, 'article.md');
-              if (existsSync(p)) {
-                resolvedWebArticle = readFileSync(p, 'utf8');
-                matchedArticleSlug = e.name;
-                break;
-              }
-            }
-          }
-        }
-      } catch (_) {}
-    }
-  }
-
-  if (matchedArticleSlug) {
-    console.log(`📰 [Web] Crónica extendida enlazada con éxito desde articles/${matchedArticleSlug}/ (${resolvedWebArticle.length} caracteres).`);
-  } else {
-    console.warn('⚠️ [Web] No se encontró crónica extendida en articles/. Se usará el copy como respaldo.');
-  }
 
   const resolvedSourceUrl = videoUrl || `${videoPath}#${story.slug || slugFor(story.title)}`;
   const publishedNewsRow = {
@@ -646,6 +649,15 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
   }
 
   if (!response || !response.ok) {
+    if (response?.status === 402 || payload?.message?.includes('violation') || payload?.message?.includes('quota') || payload?.code === 'exceed_egress_quota') {
+      console.warn(`⚠️ [Supabase] Cuota de egress excedida (HTTP 402). La publicación continuará en Cloudflare R2, catálogo web y Telegram sin interrumpirse.`);
+      return {
+        enabled: false,
+        skippedReason: 'Supabase quota exceeded (HTTP 402)',
+        table: config.table,
+        row: null
+      };
+    }
     throw new Error(`Supabase save failed (HTTP ${response?.status}): ${JSON.stringify(payload)}`);
   }
 
@@ -865,6 +877,7 @@ const main = async () => {
   const videoStats = statSync(options.video);
 
   const editorialPackage = buildEditorialPackage(story);
+  const { matchedArticleSlug, resolvedWebArticle } = resolveArticleForStory({ story, editorialPackage });
   const files = writeProductionFiles(story, {
     ...editorialPackage,
     video: {
@@ -1002,7 +1015,9 @@ const main = async () => {
         cloudflare,
         coverPath,
         teaserPath,
-        heroBannerPath
+        heroBannerPath,
+        matchedArticleSlug,
+        resolvedWebArticle
       });
     } catch (supaErr) {
       console.warn(`⚠️ Aviso: No se pudo guardar en Supabase en este momento (${supaErr.message}). Continuando con Telegram, Bóveda y Web...`);

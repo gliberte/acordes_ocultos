@@ -5,6 +5,8 @@ import { getAllStories } from '../lib/stories';
 
 if (!Astro.locals.isAdmin) return Astro.redirect('/admin/login');
 
+Astro.response.headers.set('Cache-Control', 'private, no-cache, no-store, must-revalidate');
+
 const stories = await getAllStories({ includeHidden: true });
 
 const adminStories = stories.map(s => ({

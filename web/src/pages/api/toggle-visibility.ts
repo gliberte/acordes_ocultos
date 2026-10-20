@@ -1,5 +1,10 @@
 import type { APIRoute } from 'astro';
 import { adminConfig, PRIVATE_HEADERS, sameOrigin, SESSION_COOKIE, validSession } from '../../lib/admin-session';
+import { clearStoriesCache } from '../../lib/stories';
+import { getFromR2, saveToR2 } from '../../lib/r2';
+import storiesCatalogFallback from '../../data/stories_catalog.json';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export const prerender = false;
 
@@ -32,133 +37,124 @@ export const POST: APIRoute = async ({ request, cookies }) => {
   try {
     const body = await request.json();
     const { storyId, slug, isHidden } = body || {};
-
-    const headers = {
-      apikey: SUPABASE_KEY,
-      authorization: `Bearer ${SUPABASE_KEY}`,
-      'content-type': 'application/json'
-    };
-
-    let targetRowId: string | null = null;
-    let currentPlan: any = {};
-
-    const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(storyId || '');
-
-    if (isUuid) {
-      const getRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${storyId}&select=id,production_plan`, { headers });
-      if (getRes.ok) {
-        const rows = await getRes.json();
-        if (Array.isArray(rows) && rows.length > 0) {
-          targetRowId = rows[0].id;
-          currentPlan = rows[0].production_plan || {};
-        }
-      }
-    }
-
-    if (!targetRowId && slug) {
-      const searchRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?select=id,title,production_plan&order=created_at.desc&limit=300`, { headers });
-      if (searchRes.ok) {
-        const rows = await searchRes.json();
-        if (Array.isArray(rows)) {
-          const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
-          const match = rows.find((r: any) => {
-            const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-            return Boolean(rSlug && cleanSlug && rSlug === cleanSlug);
-          });
-          if (match) {
-            targetRowId = match.id;
-            currentPlan = match.production_plan || {};
-          }
-        }
-      }
-    }
-
-    if (!targetRowId) {
-      return new Response(
-        JSON.stringify({
-          success: false,
-          error: `No se encontró la publicación en Supabase`
-        }),
-        { status: 404, headers: { 'Content-Type': 'application/json' } }
-      );
-    }
-
     const nextHidden = Boolean(isHidden);
-    const updatedPlan = {
-      ...currentPlan,
-      hidden: nextHidden,
-      is_hidden: nextHidden
-    };
 
-    const patchRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${targetRowId}`, {
-      method: 'PATCH',
-      headers: { ...headers, prefer: 'return=representation' },
-      body: JSON.stringify({
-        status: nextHidden ? 'hidden' : 'published',
-        production_plan: updatedPlan
-      })
+    // 1. Fetch and update R2 catalog (primary live catalog)
+    let catalog: any[] = [];
+    try {
+      const r2Data = await getFromR2<any[]>('catalog/stories_catalog.json');
+      if (Array.isArray(r2Data) && r2Data.length > 0) {
+        catalog = r2Data;
+      }
+    } catch (_) {}
+
+    if (catalog.length === 0 && Array.isArray(storiesCatalogFallback)) {
+      catalog = JSON.parse(JSON.stringify(storiesCatalogFallback));
+    }
+
+    const cleanSlug = (slug || storyId || '').toLowerCase().replace(/^historia-/, '').replace(/[^a-z0-9]/g, '');
+
+    const catIdx = catalog.findIndex((item: any) => {
+      if (storyId && (item.id === storyId || item.slug === storyId)) return true;
+      const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+      return Boolean(iSlug && cleanSlug && (iSlug === cleanSlug || iSlug.includes(cleanSlug)));
     });
 
-    if (!patchRes.ok) {
-      const errText = await patchRes.text().catch(() => '');
-      return new Response(
-        JSON.stringify({ success: false, error: `Error en Supabase: HTTP ${patchRes.status} ${errText}` }),
-        { status: 500, headers: { 'Content-Type': 'application/json' } }
-      );
+    if (catIdx >= 0) {
+      catalog[catIdx].isHidden = nextHidden;
+      catalog[catIdx].status = nextHidden ? 'hidden' : 'published';
     }
 
-    // Sync isHidden to Cloudflare R2 so the public site updates immediately
+    let r2Saved = false;
     try {
-      const { getFromR2, saveToR2 } = await import('../../lib/r2');
-      const r2Catalog = await getFromR2<any[]>('catalog/stories_catalog.json');
-      if (Array.isArray(r2Catalog)) {
-        const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
-        const catIdx = r2Catalog.findIndex((item: any) => {
-          if (storyId && (item.id === storyId || item.id === targetRowId)) return true;
-          const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-          return Boolean(iSlug && cleanSlug && iSlug === cleanSlug);
-        });
-        if (catIdx >= 0) {
-          r2Catalog[catIdx].isHidden = nextHidden;
-          await saveToR2('catalog/stories_catalog.json', r2Catalog);
-          await saveToR2('acordes-ocultos/catalog/stories_catalog.json', r2Catalog);
-        }
-      }
+      const ok1 = await saveToR2('catalog/stories_catalog.json', catalog);
+      const ok2 = await saveToR2('acordes-ocultos/catalog/stories_catalog.json', catalog);
+      r2Saved = ok1 || ok2;
     } catch (r2Err) {
-      console.warn('[toggle-visibility] Could not sync to R2:', (r2Err as any)?.message);
+      console.warn('[toggle-visibility] Error saving to R2:', r2Err);
     }
 
-    // Also update local file if present on disk
+    // 2. Also update local file if present on disk
     try {
-      const fs = await import('node:fs');
-      const path = await import('node:path');
-      const localCatalogPath = path.resolve(process.cwd(), 'src/data/stories_catalog.json');
-      if (fs.existsSync(localCatalogPath)) {
-        const catalog = JSON.parse(fs.readFileSync(localCatalogPath, 'utf8'));
-        const cleanSlug = (slug || '').replace(/^historia-/, '').toLowerCase().replace(/[^a-z0-9]/g, '');
-        const idx = catalog.findIndex((item: any) => {
-          if (storyId && (item.id === storyId || item.id === targetRowId)) return true;
-          const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-          return Boolean(iSlug && cleanSlug && iSlug === cleanSlug);
-        });
-        if (idx >= 0) {
-          catalog[idx].isHidden = nextHidden;
-          fs.writeFileSync(localCatalogPath, JSON.stringify(catalog, null, 2), 'utf8');
+      const possiblePaths = [
+        path.resolve(process.cwd(), 'src/data/stories_catalog.json'),
+        path.resolve(process.cwd(), 'web/src/data/stories_catalog.json')
+      ];
+      for (const p of possiblePaths) {
+        if (fs.existsSync(p)) {
+          fs.writeFileSync(p, JSON.stringify(catalog, null, 2), 'utf8');
         }
       }
     } catch (_) {}
 
-    // Invalidate in-memory cache
-    try {
-      const { clearStoriesCache } = await import('../../lib/stories');
-      clearStoriesCache();
-    } catch (_) {}
+    // 3. Best-effort sync to Supabase (graceful fallback if egress quota is restricted)
+    let targetRowId: string | null = null;
+    if (SUPABASE_KEY && SUPABASE_URL) {
+      try {
+        const headers = {
+          apikey: SUPABASE_KEY,
+          authorization: `Bearer ${SUPABASE_KEY}`,
+          'content-type': 'application/json'
+        };
+
+        const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(storyId || '');
+        if (isUuid) {
+          const getRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${storyId}&select=id,production_plan`, { headers });
+          if (getRes.ok) {
+            const rows = await getRes.json();
+            if (Array.isArray(rows) && rows.length > 0) {
+              targetRowId = rows[0].id;
+              const currentPlan = rows[0].production_plan || {};
+              await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${targetRowId}`, {
+                method: 'PATCH',
+                headers: { ...headers, prefer: 'return=representation' },
+                body: JSON.stringify({
+                  status: nextHidden ? 'hidden' : 'published',
+                  production_plan: { ...currentPlan, hidden: nextHidden, is_hidden: nextHidden }
+                })
+              });
+            }
+          }
+        }
+
+        if (!targetRowId && cleanSlug) {
+          const searchRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?select=id,title,production_plan&order=created_at.desc&limit=100`, { headers });
+          if (searchRes.ok) {
+            const rows = await searchRes.json();
+            if (Array.isArray(rows)) {
+              const match = rows.find((r: any) => {
+                const rSlug = (r.production_plan?.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+                return Boolean(rSlug && cleanSlug && rSlug === cleanSlug);
+              });
+              if (match) {
+                targetRowId = match.id;
+                const currentPlan = match.production_plan || {};
+                await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${targetRowId}`, {
+                  method: 'PATCH',
+                  headers: { ...headers, prefer: 'return=representation' },
+                  body: JSON.stringify({
+                    status: nextHidden ? 'hidden' : 'published',
+                    production_plan: { ...currentPlan, hidden: nextHidden, is_hidden: nextHidden }
+                  })
+                });
+              }
+            }
+          }
+        }
+      } catch (sbErr: any) {
+        console.warn('[toggle-visibility] Supabase sync skipped:', sbErr?.message);
+      }
+    }
+
+    // 4. Invalidate in-memory cache
+    clearStoriesCache();
 
     return new Response(
       JSON.stringify({
         success: true,
-        targetRowId,
-        isHidden: nextHidden
+        targetRowId: targetRowId || storyId,
+        isHidden: nextHidden,
+        r2Synced: r2Saved
       }),
       { status: 200, headers: { 'Content-Type': 'application/json' } }
     );
