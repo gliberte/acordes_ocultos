@@ -58,16 +58,27 @@ const buildGenerationList = (story) => {
   });
 
   // 2. Scenes 01 - 09
-  (story.assets || []).forEach((asset, idx) => {
+  const scenesList = story.scenes && story.scenes.length > 0 ? story.scenes : (story.assets || []);
+  scenesList.forEach((scene, idx) => {
     const sceneNum = String(idx + 1).padStart(2, '0');
-    const targetRelPath = asset.src || `videos/story/scene-${sceneNum}.png`;
+    let targetRelPath = `videos/story/scene-${sceneNum}.png`;
+    let prompt = '';
+
+    if (typeof scene === 'object' && scene !== null) {
+      targetRelPath = scene.src || targetRelPath;
+      prompt = scene.prompt || '';
+    } else if (typeof scene === 'string') {
+      targetRelPath = scene;
+      prompt = story.scenes?.[idx]?.prompt || '';
+    }
+
     list.push({
       id: `scene-${sceneNum}`,
       type: 'scene',
       name: `scene-${sceneNum}.png`,
       targetRelPath,
       targetFullPath: join(publicDir, targetRelPath),
-      prompt: asset.prompt
+      prompt
     });
   });
 
@@ -223,9 +234,20 @@ async function generateFlowImages() {
     // Ensure parent directory exists
     mkdirSync(dirname(item.targetFullPath), { recursive: true });
 
+    // Dismiss any modal/dialog overlays (like changelog or updates) if present
+    try {
+      const modalClose = page.locator('button').filter({ hasText: /(entendido|cerrar|close|got it|dismiss)/i }).first();
+      if (await modalClose.isVisible({ timeout: 1500 })) {
+        await modalClose.click();
+        await page.waitForTimeout(500);
+      }
+    } catch (_) {}
+    await page.keyboard.press('Escape');
+    await page.waitForTimeout(300);
+
     // Focus editor and fill prompt cleanly
     const editor = page.locator('.ProseMirror').first();
-    await editor.click();
+    await editor.click({ force: true });
     await page.keyboard.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
     await page.keyboard.press('Backspace');
     await page.keyboard.type(item.prompt, { delay: 5 });
@@ -255,14 +277,25 @@ async function generateFlowImages() {
 
       if (status.errorText) {
         console.warn(`⚠️ Alerta en Google Flow: ${status.errorText}`);
-        if (status.errorText.toLowerCase().includes('alta demanda') || status.errorText.toLowerCase().includes('más tarde') || status.errorText.toLowerCase().includes('high demand')) {
-          console.log(`⏳ Flow con alta demanda momentánea. Esperando 12 segundos para reintentar...`);
-          await page.waitForTimeout(12000);
+        if (
+          status.errorText.toLowerCase().includes('alta demanda') ||
+          status.errorText.toLowerCase().includes('más tarde') ||
+          status.errorText.toLowerCase().includes('high demand') ||
+          status.errorText.toLowerCase().includes('actividad inusual')
+        ) {
+          console.log(`⏳ Flow con aviso/demanda momentánea (${status.errorText.slice(0, 60)}...). Limpiando alerta y esperando 15 segundos...`);
+          await page.evaluate(() => {
+            document.querySelectorAll('.mat-mdc-snack-bar-container, [role="alert"]').forEach(el => el.remove());
+          });
+          await page.waitForTimeout(15000);
           await generateBtn.click().catch(() => {});
           continue;
         }
         if (status.errorText.toLowerCase().includes('política') || status.errorText.toLowerCase().includes('policy')) {
           console.error(`❌ La instrucción para ${item.name} fue rechazada por políticas de Google Flow.`);
+          await page.evaluate(() => {
+            document.querySelectorAll('.mat-mdc-snack-bar-container, [role="alert"]').forEach(el => el.remove());
+          });
           break;
         }
       }
@@ -276,7 +309,7 @@ async function generateFlowImages() {
         const directDownloadUrl = `${baseSrc}=d`;
 
         try {
-          const downloadRes = await browserContext.request.get(directDownloadUrl);
+          const downloadRes = await browserContext.request.get(directDownloadUrl, { timeout: 60000 });
           if (downloadRes.ok()) {
             const buffer = await downloadRes.body();
             writeFileSync(item.targetFullPath, buffer);
@@ -285,7 +318,7 @@ async function generateFlowImages() {
             break;
           } else {
             console.log(`⚠️ Descarga directa devolvió ${downloadRes.status()}, intentando URL original...`);
-            const fallbackRes = await browserContext.request.get(status.newImg);
+            const fallbackRes = await browserContext.request.get(status.newImg, { timeout: 60000 });
             if (fallbackRes.ok()) {
               const buffer = await fallbackRes.body();
               writeFileSync(item.targetFullPath, buffer);
@@ -304,8 +337,8 @@ async function generateFlowImages() {
       console.warn(`⚠️  Tiempo de espera excedido o fallo para ${item.name}.`);
     }
 
-    // Short pause between generations
-    await page.waitForTimeout(2500);
+    // Pause between generations to avoid rate limits
+    await page.waitForTimeout(6000);
   }
 
   console.log('\n=====================================================');

@@ -1,10 +1,13 @@
 import {z} from 'zod';
 
-export const StoryAssetSchema = z.object({
-  src: z.string(),
-  prompt: z.string().optional(),
-  credit: z.string().optional()
-});
+export const StoryAssetSchema = z.union([
+  z.object({
+    src: z.string(),
+    prompt: z.string().optional(),
+    credit: z.string().optional()
+  }),
+  z.string().transform(src => ({ src }))
+]);
 
 export const StoryClipSchema = z.object({
   src: z.string().optional(),

@@ -147,7 +147,10 @@ const archiveSingleStory = (storyPath, vaultBaseDir, { force = false, dryRun = f
   const story = JSON.parse(readFileSync(storyPath, 'utf8'));
   const artistSlug = slugify(story.artist || 'artista');
   const titleSlug = slugify(story.music?.title || story.title || 'tema');
-  const episodeFolder = `${artistSlug}-${titleSlug}`;
+  const topicSuffix = story.topic && story.topic !== 'acordes-ocultos' && !titleSlug.includes(slugify(story.topic))
+    ? `-${slugify(story.topic)}`
+    : '';
+  const episodeFolder = `${artistSlug}-${titleSlug}${topicSuffix}`;
   const targetDir = join(vaultBaseDir, '01_Episodios_Completados', episodeFolder);
 
   console.log(`\n=====================================================`);
@@ -182,7 +185,8 @@ const archiveSingleStory = (storyPath, vaultBaseDir, { force = false, dryRun = f
   }
 
   // 2. Localizar carpeta de assets públicos
-  const firstAsset = story.assets?.[0]?.src;
+  const rawFirstAsset = story.assets?.[0];
+  const firstAsset = typeof rawFirstAsset === 'string' ? rawFirstAsset : rawFirstAsset?.src;
   let assetDir = null;
   if (firstAsset) {
     assetDir = resolve(rootDir, 'public', firstAsset, '..');
@@ -285,8 +289,8 @@ const archiveSingleStory = (storyPath, vaultBaseDir, { force = false, dryRun = f
     join(rootDir, 'out/production-package', `${artistSlug}-${titleSlug}-copys.md`),
     join(rootDir, 'out/production-package', `${packageSlug}-copys.md`),
     join(rootDir, 'out/production-package/copys.md'),
-    join(assetDir, 'copys.md')
-  ];
+    assetDir ? join(assetDir, 'copys.md') : null
+  ].filter(Boolean);
 
   for (const copySrc of copyCandidates) {
     if (existsSync(copySrc)) {
