@@ -1,5 +1,6 @@
 ---
 import GlobalSearch from './GlobalSearch.astro';
+import BookLaunchBar from './BookLaunchBar.astro';
 import { getAllStories } from '../lib/stories';
 import type { StoryItem } from '../lib/types';
 
@@ -9,9 +10,11 @@ interface Props {
 
 const { stories: propStories } = Astro.props;
 const stories = propStories || await getAllStories();
+const isNotAdmin = !Astro.url.pathname.startsWith('/admin');
 ---
 
 <header class="sticky top-0 z-50 backdrop-blur-md bg-[#0a0908]/90 border-b border-[#262420]">
+  {isNotAdmin && <BookLaunchBar />}
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
     <!-- Logo & Brand -->
     <a href="/" class="flex items-center gap-3 group shrink-0">

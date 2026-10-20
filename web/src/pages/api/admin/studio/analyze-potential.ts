@@ -53,7 +53,7 @@ Genera una respuesta en formato JSON estricto con la siguiente estructura:
 {
   "score": 9.2, // Número decimal del 1.0 al 10.0
   "verdict": "Excelente Potencial Editorial / Regular / Descartar",
-  "categoryRecommendation": "${category}", // o sugerir si encaja mejor en 'destellos-de-gloria', 'catedrales-de-leyenda' o 'historia-en-los-acordes'
+  "categoryRecommendation": "${category}", // o sugerir si encaja mejor en 'acordes-ocultos', 'destellos-de-gloria', 'catedrales-de-leyenda', 'historia-en-los-acordes' o 'forjados-en-el-barro'
   "oneLineHook": "Frase de intriga para el segundo cero...",
   "humanConflict": "Explicación breve del drama humano real íntimo...",
   "viralComponents": [

@@ -128,14 +128,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
       <div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full border border-amber-500/10 pointer-events-none"></div>
 
       <div class="relative z-10 flex flex-col lg:flex-row items-center gap-10 lg:gap-14">
-        <!-- Visual Book Cover -->
-        <div class="w-64 sm:w-72 shrink-0 flex flex-col items-center">
-          <div class="relative w-full rounded-2xl overflow-hidden border-2 border-amber-500/50 shadow-2xl shadow-black/90 transform hover:-translate-y-1.5 transition-all duration-300 group">
+        <!-- Visual Book Cover: Physical 3D Mockup -->
+        <div class="w-72 sm:w-80 shrink-0 flex flex-col items-center">
+          <div class="relative w-full rounded-2xl overflow-hidden border-2 border-amber-500/50 shadow-2xl shadow-black/90 transform hover:-translate-y-1.5 transition-all duration-300 group bg-black/40 p-2">
             <img
-              src="/book/portada-volumen-01.webp"
-              alt="Portada Oficial: Acordes Ocultos — Volumen 01"
-              width="682"
-              height="1024"
+              src="/book/libro-fisico-3d-hd.webp"
+              alt="Edición Oficial: Acordes Ocultos — Volumen 01 en perspectiva física 3D con lomo y 241 páginas"
+              width="1060"
+              height="820"
               class="w-full h-auto object-cover rounded-xl group-hover:scale-[1.02] transition-transform duration-500 shadow-inner"
               loading="eager"
               decoding="async"
@@ -144,7 +144,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             <div class="absolute inset-0 rounded-xl ring-1 ring-inset ring-white/10 pointer-events-none"></div>
           </div>
           <span class="text-[11px] text-neutral-400 mt-3 font-sans tracking-wide">
-            Portada oficial · Volumen 01 (241 págs.)
+            Edición Oficial · Volumen 01 (241 págs.)
           </span>
         </div>
 

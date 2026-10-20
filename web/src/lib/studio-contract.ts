@@ -1,4 +1,4 @@
-export const STUDIO_CATEGORIES = ['acordes-ocultos', 'historia-en-los-acordes', 'destellos-de-gloria', 'catedrales-de-leyenda'] as const;
+export const STUDIO_CATEGORIES = ['acordes-ocultos', 'historia-en-los-acordes', 'destellos-de-gloria', 'catedrales-de-leyenda', 'forjados-en-el-barro'] as const;
 export interface GeneratedScene { scene: number; subtitle: string; prompt?: string; imageAlt?: string; imageUrl?: string; }
 export interface GeneratedStoryData {
   title: string; song: string; artist: string; slug: string; topic: string; audioMode: string;

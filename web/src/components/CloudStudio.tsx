@@ -477,7 +477,8 @@ export default function CloudStudio() {
                   <option value="acordes-ocultos">Acordes Ocultos (Anécdota, misterio y conflicto humano)</option>
                   <option value="historia-en-los-acordes">Historia en los Acordes (La narrativa dentro de la letra)</option>
                   <option value="destellos-de-gloria">Destellos de Gloria (9 hitos de estrellas fugaces)</option>
-                  <option value="catedrales-de-leyenda">Catedrales de Leyenda (9 hitos de monumentos vivos)</option>
+                  <option value="catedrales-de-leyenda">Catedrales de Leyenda (9 hitos de trayectorias extensas y legado duradero)</option>
+                  <option value="forjados-en-el-barro">Forjados en el Barro (Bandas que superaron la pobreza, el rechazo y la adversidad)</option>
                 </select>
               </div>
 
