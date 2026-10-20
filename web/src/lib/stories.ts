@@ -218,26 +218,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
 
   let items: StoryItem[] = [];
 
-  // Prioritize live catalog from Cloudflare R2 with immediate fallback to precompiled catalog
-  if (!options.includeHidden) {
-    try {
-      const { getFromR2 } = await import('./r2');
-      const r2Data = await getFromR2<any[]>('catalog/stories_catalog.json');
-      if (Array.isArray(r2Data) && r2Data.length > 0) {
-        items = r2Data.map(item => {
-          const copy = { ...item } as StoryItem;
-          if (typeof copy.category === 'object' && copy.category !== null) {
-            copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
-          }
-          return copy;
-        });
-      }
-    } catch (_) {
-      // Fallback below
-    }
-
-    if (items.length === 0 && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
-      items = storiesCatalogFallback.map(item => {
+  // Always prioritize live catalog from Cloudflare R2 with immediate fallback to precompiled catalog
+  try {
+    const { getFromR2 } = await import('./r2');
+    const r2Data = await getFromR2<any[]>('catalog/stories_catalog.json');
+    if (Array.isArray(r2Data) && r2Data.length > 0) {
+      items = r2Data.map(item => {
         const copy = { ...item } as StoryItem;
         if (typeof copy.category === 'object' && copy.category !== null) {
           copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
@@ -245,7 +231,22 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
         return copy;
       });
     }
-  } else {
+  } catch (_) {
+    // Fallback below
+  }
+
+  if (items.length === 0 && Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
+    items = storiesCatalogFallback.map(item => {
+      const copy = { ...item } as StoryItem;
+      if (typeof copy.category === 'object' && copy.category !== null) {
+        copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
+      }
+      return copy;
+    });
+  }
+
+  // If includeHidden is requested (e.g. from admin panel), optionally merge any unpublished rows from Supabase
+  if (options.includeHidden) {
     const localArticles = loadLocalArticles();
     try {
       const { data, error } = await supabase
@@ -655,27 +656,27 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           }
         }
 
-        items.push(item);
+        const existingIdx = items.findIndex(it => it.id === item.id || it.slug === item.slug);
+        if (existingIdx >= 0) {
+          if (item.instagramUrl && !items[existingIdx].instagramUrl) {
+            items[existingIdx].instagramUrl = item.instagramUrl;
+          }
+          if (item.content && (!items[existingIdx].content || items[existingIdx].content.length < 500)) {
+            items[existingIdx].content = item.content;
+          }
+        } else {
+          items.unshift(item);
+        }
       }
     }
   } catch (err) {
-    console.warn('Supabase fetch failed, using local dataset fallback:', err);
+    console.warn('Supabase fetch failed/restricted, relying on R2 catalog:', err);
   }
   }
 
-  // If Supabase returned nothing or failed, fallback to precompiled catalog dataset, then local files
+  // If both R2 and fallback failed, use local generated stories
   if (items.length === 0) {
-    if (Array.isArray(storiesCatalogFallback) && storiesCatalogFallback.length > 0) {
-      items = storiesCatalogFallback.map(item => {
-        const copy = { ...item } as StoryItem;
-        if (typeof copy.category === 'object' && copy.category !== null) {
-          copy.category = (copy.category as any).id || (copy.category as any).topic || 'acordes-ocultos';
-        }
-        return copy;
-      });
-    } else {
-      items = loadLocalGeneratedStories();
-    }
+    items = loadLocalGeneratedStories();
   }
 
   // Hydrate content, articleSlug, summary and local WebP coverUrl for catalog items
