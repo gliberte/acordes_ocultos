@@ -463,14 +463,23 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
     <!-- Alternativa Gratuita: Muestra de 3 Historias -->
     <section id="boletin" class="pt-6 space-y-4">
-      <div class="text-center max-w-xl mx-auto">
+      <div class="text-center max-w-xl mx-auto space-y-2">
         <span class="text-[11px] uppercase tracking-widest text-amber-400 font-bold font-sans">ALTERNATIVA SIN COSTE</span>
         <h4 class="font-serif text-2xl font-bold text-neutral-200 mt-1">
           ¿Prefieres explorar antes de comprar?
         </h4>
-        <p class="text-xs text-neutral-400 font-sans mt-1">
-          Suscríbete gratis a nuestro boletín y recibe en tu correo una muestra de regalo con 3 crónicas completas del libro.
+        <p class="text-xs text-neutral-400 font-sans">
+          Descarga de inmediato la muestra de cortesía con 3 crónicas completas en PDF maquetado, o suscríbete gratis a la Cofradía para recibir crónicas semanales.
         </p>
+        <div class="pt-1">
+          <a
+            href="/book/Acordes_Ocultos_Volumen_I_Muestra.pdf"
+            download="Acordes_Ocultos_Volumen_I_Muestra.pdf"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold uppercase tracking-wider bg-amber-500/15 text-amber-300 border border-amber-500/40 hover:bg-amber-500/25 transition-all shadow-md"
+          >
+            <span>⬇️ Descargar Muestra Gratuita Directa (PDF · 3 Crónicas · 7 MB)</span>
+          </a>
+        </div>
       </div>
 
       <NewsletterBox source="libro_landing" />

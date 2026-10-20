@@ -172,7 +172,10 @@ export const POST: APIRoute = async ({ request }) => {
     return new Response(
       JSON.stringify({
         success: true,
-        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Recibirás cada semana nuestras crónicas extendidas y el enlace de bienvenida con la muestra exclusiva de 3 crónicas de colección.',
+        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Ya puedes descargar de inmediato tu muestra exclusiva con 3 crónicas completas del libro:',
+        downloadUrl: '/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
+        downloadCdnUrl: 'https://pub-66bcff63b213457b8f7b3c02bb87d06c.r2.dev/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
+        downloadLabel: 'Descargar Muestra Gratuita (PDF · 3 Historias)',
         bookUrl: '/libro',
         gumroadUrl: 'https://acordesocultos.gumroad.com/l/ryhupd',
         bookTitle: 'Acordes Ocultos — Volumen 01'

@@ -240,17 +240,33 @@ const { source = 'web_story' } = Astro.props;
           if (res.ok && data.success) {
             form.classList.add('hidden');
             feedback.className = 'mt-4 p-5 rounded-xl text-sm font-sans bg-emerald-950/80 border border-emerald-500/50 text-emerald-200';
+            const downloadUrl = data.downloadUrl || '/book/Acordes_Ocultos_Volumen_I_Muestra.pdf';
             feedback.innerHTML = `
               <div class="flex items-start gap-3">
                 <span class="text-2xl">🎉</span>
-                <div>
-                  <h4 class="font-bold text-white mb-1">¡Bienvenido a la Cofradía de Acordes Ocultos!</h4>
-                  <p class="text-xs text-emerald-300 leading-relaxed mb-3">${data.message}</p>
-                  <div class="flex flex-wrap items-center gap-2 pt-1">
-                    <a href="/libro" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500 text-black hover:bg-amber-400 transition-colors">
-                      <span>📖 Conocer el Libro Vol. 01 ($9.99) →</span>
+                <div class="space-y-3 w-full">
+                  <div>
+                    <h4 class="font-bold text-white mb-1">¡Bienvenido a la Cofradía de Acordes Ocultos!</h4>
+                    <p class="text-xs text-emerald-300 leading-relaxed">${data.message}</p>
+                  </div>
+                  <div class="p-3 rounded-lg bg-black/40 border border-amber-500/30 flex flex-col sm:flex-row items-center justify-between gap-3">
+                    <div class="text-left">
+                      <div class="text-xs font-bold text-amber-300">📄 Muestra Oficial · Volumen 01</div>
+                      <div class="text-[11px] text-neutral-400">PDF Editorial · 3 crónicas completas (7 MB)</div>
+                    </div>
+                    <a
+                      href="${downloadUrl}"
+                      download="Acordes_Ocultos_Volumen_I_Muestra.pdf"
+                      class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-lg text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-400 to-amber-500 text-black hover:from-amber-300 hover:to-amber-400 transition-all shadow-md shadow-amber-950/40"
+                    >
+                      <span>⬇️ Descargar Muestra Gratuita (PDF)</span>
                     </a>
-                    <a href="${data.gumroadUrl || 'https://acordesocultos.gumroad.com/l/ryhupd'}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#1c1914] text-amber-200 border border-amber-500/30 hover:bg-amber-500/10 transition-colors">
+                  </div>
+                  <div class="flex flex-wrap items-center gap-2 pt-1">
+                    <a href="/libro" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition-colors">
+                      <span>📖 Conocer el Libro Completo ($7.99 USD) →</span>
+                    </a>
+                    <a href="${data.gumroadUrl || 'https://acordesocultos.gumroad.com/l/ryhupd'}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#1c1914] text-neutral-300 border border-neutral-700 hover:bg-neutral-800 transition-colors">
                       <span>☕ Apoyar como Mecenas ($3+)</span>
                     </a>
                   </div>
