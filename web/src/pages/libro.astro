@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
 
-const GUMROAD_BOOK_URL = 'https://acordesocultos.gumroad.com/l/ryhupd?wanted=true&price=9.99';
+const GUMROAD_BOOK_URL = 'https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1';
 const GUMROAD_TIP_URL = 'https://acordesocultos.gumroad.com/l/ryhupd';
 
 const PREVIEWS = [
@@ -55,60 +55,60 @@ const SECTIONS = [
     part: 'Parte I',
     title: 'Cuando una canción encuentra su camino',
     theme: 'La chispa del azar y las audacias de estudio',
-    description: 'Una voz invitada que cobra 30 libras, una grabación que cambia de rumbo a las tres de la mañana o una melodía que cruza una frontera sin pedir permiso.',
+    description: 'Una voz invitada, una grabación que cambia de rumbo, una melodía que cruza una frontera. A veces una canción empieza a crecer antes de que nadie sepa hasta dónde llegará.',
     chapters: [
-      { num: '01', title: 'The Great Gig in the Sky', artist: 'Pink Floyd', slug: 'pink-floyd-the-great-gig-in-the-sky', highlight: 'El lamento de las 30 libras que cambió la historia del rock en Abbey Road' },
-      { num: '02', title: "That's All Right", artist: 'Elvis Presley', slug: 'elvis-presley-thats-all-right-acordes-ocultos', highlight: 'La improvisación en Sun Studio que encendió el rock and roll' },
-      { num: '03', title: 'Eres tú', artist: 'Mocedades', slug: 'mocedades-eres-tu', highlight: 'La armonía en español que conquistó el Festival de Eurovisión y el mundo' },
-      { num: '04', title: 'California Dreamin’', artist: 'The Mamas & The Papas', slug: 'the-mamas-and-the-papas-california-dreamin-acordes-ocultos', highlight: 'El himno solar nacido en una habitación helada de Nueva York' },
+      { num: '01', title: 'The Great Gig in the Sky', artist: 'Pink Floyd', slug: 'pink-floyd-the-great-gig-in-the-sky', highlight: 'El lamento de las treinta libras que cambió la historia del rock en Abbey Road' },
+      { num: '02', title: "That's All Right", artist: 'Elvis Presley', slug: 'elvis-presley-thats-all-right-acordes-ocultos', highlight: 'La improvisación espontánea en Sun Studio que encendió una nueva era' },
+      { num: '03', title: 'Eres tú', artist: 'Mocedades', slug: 'mocedades-eres-tu', highlight: 'Una canción en español al otro lado del mundo' },
+      { num: '04', title: 'California Dreamin’', artist: 'The Mamas & The Papas', slug: 'the-mamas-and-the-papas-california-dreamin-acordes-ocultos', highlight: 'California evocada desde el invierno de Nueva York' },
       { num: '05', title: 'Like a Rolling Stone', artist: 'Bob Dylan', slug: 'bob-dylan-like-a-rolling-stone-acordes-ocultos', highlight: 'El órgano accidental de Al Kooper en Columbia Studios' },
-      { num: '06', title: 'Tears in Heaven', artist: 'Eric Clapton', slug: 'eric-clapton-tears-in-heaven-acordes-ocultos', highlight: 'El acorde que salvó a un padre de las cenizas del duelo' },
-      { num: '07', title: 'Penélope', artist: 'Joan Manuel Serrat', slug: 'joan-manuel-serrat-penelope-historia-en-los-acordes', highlight: 'La mujer que esperó toda su vida en el andén de la estación' }
+      { num: '06', title: 'My Heart Will Go On', artist: 'Céline Dion', slug: 'celine-dion-my-heart-will-go-on', highlight: 'La voz que quedó en la primera maqueta y conquistó el cine' },
+      { num: '07', title: 'Bohemian Rhapsody', artist: 'Queen', slug: 'queen-bohemian-rhapsody-forjados-en-el-barro', highlight: 'La apuesta que cambió la vida de Queen al borde de la quiebra' }
     ]
   },
   {
     part: 'Parte II',
-    title: 'La voz frente al espejo',
-    theme: 'La soledad y la fragilidad del artista',
-    description: 'Historias de aislamiento, despedidas prematuras y la verdad de quienes dejaron el alma en cada surco antes de marcharse.',
+    title: 'Lo que cantamos a quienes queremos',
+    theme: 'La intimidad de la casa, los hijos y las despedidas',
+    description: 'Hay canciones que se parecen a una conversación pendiente. En ellas caben un hijo que quiere marcharse, el recuerdo de un barrio, una promesa y la falta que nos hace alguien.',
     chapters: [
-      { num: '08', title: 'Piece of My Heart', artist: 'Janis Joplin', slug: 'janis-joplin-piece-of-my-heart-destellos-de-gloria', highlight: 'De la humillación en Texas a la gloria inmortal de San Francisco' },
-      { num: '09', title: 'Un beso y una flor', artist: 'Nino Bravo', slug: 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria', highlight: 'La voz colosal que se despidió en una curva de asfalto en 1973' },
-      { num: '10', title: 'Hoy no me levanto', artist: 'Manolo Galván', slug: 'manolo-galvan-hoy-no-me-levanto-acordes-ocultos', highlight: 'El tema prohibido que desafió la moral de una época' },
-      { num: '11', title: 'Adiós, chico de mi barrio', artist: 'Tormenta', slug: 'tormenta-adios-chico-de-mi-barrio-acordes-ocultos', highlight: 'La nostalgia suburbana de un amor que el tiempo se llevó' },
-      { num: '12', title: 'Un ramito de violetas', artist: 'Cecilia', slug: 'cecilia-un-ramito-de-violetas-historia-en-los-acordes', highlight: 'El amor que llegaba sin firma en la voz de un talento truncado' },
-      { num: '13', title: 'Yesterday Once More', artist: 'The Carpenters', slug: 'the-carpenters-yesterday-once-more-acordes-ocultos', highlight: 'El refugio melancólico de Karen Carpenter frente al abismo' },
-      { num: '14', title: 'Lovin’ You', artist: 'Minnie Riperton', slug: 'minnie-riperton-lovin-you-acordes-ocultos', highlight: 'La canción de cuna más luminosa y la despedida prematura' }
+      { num: '08', title: 'Father and Son', artist: 'Cat Stevens', slug: 'cat-stevens-father-and-son', highlight: 'El hijo que necesitaba marcharse y el diálogo entre generaciones' },
+      { num: '09', title: 'Adiós, chico de mi barrio', artist: 'Tormenta', slug: 'tormenta-adios-chico-de-mi-barrio-acordes-ocultos', highlight: 'La despedida adolescente y la memoria viva del barrio' },
+      { num: '10', title: 'Lovin’ You', artist: 'Minnie Riperton', slug: 'minnie-riperton-lovin-you-acordes-ocultos', highlight: 'La canción de cuna luminosa que lleva el nombre de Maya' },
+      { num: '11', title: 'Te quise, te quiero y te querré', artist: 'Manolo Galván', slug: 'manolo-galvan-te-quise-te-quiero-y-te-querre-acordes-ocultos', highlight: 'El amor que cruzó el océano y encontró una nueva patria' },
+      { num: '12', title: 'Time in a Bottle', artist: 'Jim Croce', slug: 'jim-croce-time-in-a-bottle-acordes-ocultos', highlight: 'El tiempo que Jim quería guardar para su hijo antes del adiós' },
+      { num: '13', title: 'Against the Wind', artist: 'Bob Seger', slug: 'bob-seger-against-the-wind', highlight: 'Los años, la juventud y el oficio de correr con el viento en contra' },
+      { num: '14', title: 'Amor Eterno', artist: 'Rocío Dúrcal & Juan Gabriel', slug: 'rocio-durcal-amor-eterno-catedrales-de-leyenda', highlight: 'La voz de Rocío y la plegaria compartida por quienes ya no están' }
     ]
   },
   {
     part: 'Parte III',
-    title: 'El pacto que resiste al tiempo',
-    theme: 'La forja en el barro y la lealtad sonora',
-    description: 'La supervivencia económica, las tensiones de estudio, los sabotajes y los lazos que resistieron a la fama desmedida.',
+    title: 'Voces frente al silencio',
+    theme: 'Cuando cantar es también hacerse escuchar',
+    description: 'La música también escucha lo que ocurre en la calle. Estas crónicas reúnen voces que se acercaron al miedo, a la injusticia y a la guerra, y encontraron distintas maneras de responder.',
     chapters: [
-      { num: '15', title: 'Bohemian Rhapsody', artist: 'Queen', slug: 'queen-bohemian-rhapsody-forjados-en-el-barro', highlight: 'Al borde de la quiebra financiera y la obra magna del rock' },
-      { num: '16', title: 'Kashmir', artist: 'Led Zeppelin', slug: 'led-zeppelin-kashmir-acordes-ocultos', highlight: 'El viaje por el desierto y el pacto de honor tras la muerte de Bonzo' },
-      { num: '17', title: 'The Sound of Silence', artist: 'Simon & Garfunkel', slug: 'simon-and-garfunkel-the-sound-of-silence', highlight: 'El fracaso inicial que un productor transformó en leyenda mundial' },
-      { num: '18', title: 'Gimme Shelter', artist: 'The Rolling Stones', slug: 'the-rolling-stones-gimme-shelter', highlight: 'El grito desgarrador de Merry Clayton en la madrugada de 1969' },
-      { num: '19', title: 'Paranoid', artist: 'Black Sabbath', slug: 'black-sabbath-paranoid-forjados-en-el-barro', highlight: 'El riff de dos acordes compuesto en un recreo de veinte minutos' },
-      { num: '20', title: 'The Chain', artist: 'Fleetwood Mac', slug: 'fleetwood-mac-the-chain', highlight: 'La banda rota que cosió sus desamores en cinta de dos pulgadas' },
-      { num: '21', title: 'Touch Me', artist: 'The Doors', slug: 'the-doors-touch-me', highlight: 'Las cuerdas orquestales que envolvieron el fuego de Jim Morrison' }
+      { num: '15', title: 'The Sound of Silence', artist: 'Simon & Garfunkel', slug: 'simon-and-garfunkel-the-sound-of-silence', highlight: 'El rescate eléctrico de una canción que había nacido en penumbra' },
+      { num: '16', title: 'Another Brick in the Wall (Part 2)', artist: 'Pink Floyd', slug: 'pink-floyd-another-brick-in-the-wall-part-2', highlight: 'Las voces escolares que salieron del aula y recorrieron el mundo' },
+      { num: '17', title: 'Gimme Shelter', artist: 'The Rolling Stones', slug: 'the-rolling-stones-gimme-shelter', highlight: 'El grito desgarrador de Merry Clayton en la madrugada de 1969' },
+      { num: '18', title: 'Todo cambia', artist: 'Mercedes Sosa', slug: 'mercedes-sosa-todo-cambia-catedrales-de-leyenda', highlight: 'Una voz a la que volver tras el silencio y la distancia del exilio' },
+      { num: '19', title: 'Zombie', artist: 'The Cranberries', slug: 'the-cranberries-zombie-acordes-ocultos', highlight: 'El clamor de Dolores O’Riordan en memoria de las víctimas de Warrington' },
+      { num: '20', title: 'From a Distance', artist: 'Bette Midler & Julie Gold', slug: 'bette-midler-from-a-distance', highlight: 'La canción íntima de Julie Gold que encontró la voz de Bette Midler' },
+      { num: '21', title: 'Redemption Song', artist: 'Bob Marley', slug: 'bob-marley-redemption-song-destellos-de-gloria', highlight: 'Marley a solas con una guitarra acústica y su testamento de libertad' }
     ]
   },
   {
     part: 'Parte IV',
-    title: 'Lo que la música no olvida',
-    theme: 'Catedrales de la memoria y testamentos vitales',
-    description: 'El duelo colectivo, el coraje civil, la identidad compartida y las últimas palabras dejadas en una grabación antes del adiós.',
+    title: 'Seguir adelante',
+    theme: 'El regreso al escenario, la resistencia y la gratitud',
+    description: 'Después del escenario quedan el cansancio, las despedidas y las ganas de volver a empezar. Al final, entre lo que perdemos y lo que todavía podemos cuidar, una canción nos invita a dar las gracias.',
     chapters: [
-      { num: '22', title: 'Marinero de luces', artist: 'Isabel Pantoja', slug: 'isabel-pantoja-marinero-de-luces-acordes-ocultos', highlight: 'El luto de un país entero y el regreso conmovido en el Teatro Real' },
-      { num: '23', title: 'Redemption Song', artist: 'Bob Marley', slug: 'bob-marley-redemption-song-destellos-de-gloria', highlight: 'El profeta descalzo con su guitarra acústica frente al diagnóstico terminal' },
-      { num: '24', title: 'Amor eterno', artist: 'Rocío Dúrcal & Juan Gabriel', slug: 'rocio-durcal-amor-eterno-catedrales-de-leyenda', highlight: 'La reina eterna del mariachi y la plegaria inmortal por los ausentes' },
-      { num: '25', title: 'Mi viejo', artist: 'Piero', slug: 'piero-mi-viejo-catedrales-de-leyenda', highlight: 'El poema íntimo que se convirtió en el espejo de tres generaciones' },
-      { num: '26', title: 'Todo cambia', artist: 'Mercedes Sosa', slug: 'mercedes-sosa-todo-cambia-catedrales-de-leyenda', highlight: 'La voz que venció al miedo y a la censura del exilio' },
-      { num: '27', title: 'Ojalá', artist: 'Silvio Rodríguez', slug: 'silvio-rodriguez-ojala-acordes-ocultos', highlight: 'El amor de juventud que atravesó guerras, mitos y continentes' },
-      { num: '28', title: 'Eso que tú me das', artist: 'Jarabe de Palo (Pau Donés)', slug: 'jarabe-de-palo-eso-que-tu-me-das-acordes-ocultos', highlight: 'La lección de gratitud más pura y luminosa antes del adiós' }
+      { num: '22', title: 'Piece of My Heart', artist: 'Janis Joplin', slug: 'janis-joplin-piece-of-my-heart-destellos-de-gloria', highlight: 'Una voz indomable que desbordaba el escenario en cada entrega' },
+      { num: '23', title: 'Baker Street', artist: 'Gerry Rafferty', slug: 'gerry-rafferty-baker-street-acordes-ocultos', highlight: 'El solo de saxo que nació entre litigios y esperas en Londres' },
+      { num: '24', title: 'Un beso y una flor', artist: 'Nino Bravo', slug: 'nino-bravo-un-beso-y-una-flor-destellos-de-gloria', highlight: 'El equipaje luminoso de una voz inmortal antes de la carretera' },
+      { num: '25', title: 'It’s a Long Way to the Top', artist: 'AC/DC', slug: 'acdc-its-a-long-way-to-the-top-acordes-ocultos', highlight: 'La gaita de Bon Scott que encontró su lugar en la historia del rock' },
+      { num: '26', title: 'Marinero de Luces', artist: 'Isabel Pantoja & José Luis Perales', slug: 'isabel-pantoja-marinero-de-luces-acordes-ocultos', highlight: 'Volver a cantar desde el luto ante un país conmovido' },
+      { num: '27', title: 'The Boxer', artist: 'Simon & Garfunkel', slug: 'simon-and-garfunkel-the-boxer', highlight: 'El pulso obstinado de quien cae en el cuadrilátero y sigue en pie' },
+      { num: '28', title: 'Vive', artist: 'José María Napoleón', slug: 'jose-maria-napoleon-vive', highlight: 'La canción que aprendió a dar las gracias por el camino recorrido' }
     ]
   }
 ];
@@ -151,7 +151,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         <!-- Book Pitch & Details -->
         <div class="space-y-5 text-center lg:text-left">
           <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 font-sans">
-            <span>⏳ LANZAMIENTO OFICIAL · MAÑANA</span>
+            <span>📚 PRIMERA EDICIÓN DIGITAL · DISPONIBLE AHORA</span>
           </div>
 
           <h1 class="font-serif text-3xl sm:text-5xl font-black text-neutral-100 leading-tight">
@@ -185,11 +185,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           </ul>
 
           <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-            <div
-              class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#221c15] text-amber-300/80 border border-amber-500/40 text-center flex items-center justify-center gap-2 cursor-not-allowed select-none shadow-lg"
+            <a
+              href={GUMROAD_BOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-950/50"
             >
-              <span>⏳ Venta Habilitada Mañana — $9.99 USD</span>
-            </div>
+              <span>📖 Adquirir Libro (PDF + EPUB) — $9.99 USD →</span>
+            </a>
             <a
               href="#muestrario"
               class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
@@ -200,10 +203,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
           <div class="space-y-1 text-[11px] text-neutral-400 font-sans">
             <p class="text-amber-300/90 font-medium">
-              ⏳ <strong>Lanzamiento Oficial: Mañana.</strong> La edición digital y los enlaces de compra se activarán formalmente a primera hora una vez completada la carga de los archivos finales en la plataforma.
+              ✨ <strong>Descarga inmediata tras la compra:</strong> Recibes al instante tanto el PDF Editorial de alta resolución (241 págs.) como el archivo EPUB 3 oficial para Kindle, Apple Books, Kobo y móviles.
             </p>
             <p>
-              Explora las muestras de páginas reales a continuación o descarga gratis 3 crónicas de muestra en el boletín.
+              Pago seguro procesado por Gumroad. También puedes explorar las muestras del interior a continuación.
             </p>
           </div>
         </div>
@@ -385,9 +388,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             Es la obra editorial completa: 28 crónicas maquetadas para lectura continua en PDF de arte (241 págs.) y EPUB, con aparato bibliográfico completo y enlaces interactivos.
           </p>
           <div class="pt-1">
-            <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-300/80 bg-amber-500/10 border border-amber-500/30 px-3 py-1 rounded-lg">
-              ⏳ Disponible a partir de mañana
-            </span>
+            <a
+              href={GUMROAD_BOOK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 hover:text-amber-200 underline"
+            >
+              Adquirir ejemplar digital ($9.99 USD) →
+            </a>
           </div>
         </div>
         <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
@@ -474,20 +482,23 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
     <!-- Buy Box Callout -->
     <section class="rounded-3xl bg-gradient-to-r from-amber-500/15 via-[#1a1611] to-amber-500/10 border border-amber-500/40 p-8 sm:p-12 text-center space-y-5 shadow-2xl">
       <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 font-sans mx-auto">
-        <span>⏳ LANZAMIENTO OFICIAL · MAÑANA</span>
+        <span>📚 EDICIÓN COLECCIONISTA · DESCARGA INMEDIATA</span>
       </div>
       <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
         Lleva las 28 historias de Acordes Ocultos a tu biblioteca
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-        Edición digital sin publicidad, 100% libre de DRM y lista para leer en Kindle, tablet, iPad o teléfono. Los botones de compra y descarga se activarán formalmente a partir de mañana ($9.99 USD).
+        Edición digital sin publicidad, 100% libre de DRM y lista para leer en Kindle, tablet, iPad, Mac, PC o teléfono. Incluye ambos archivos (PDF Editorial de 241 páginas + EPUB 3) por $9.99 USD.
       </p>
       <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
-        <div
-          class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#221c15] text-amber-300/80 border border-amber-500/40 text-center cursor-not-allowed select-none shadow-lg inline-flex items-center justify-center gap-2"
+        <a
+          href={GUMROAD_BOOK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center shadow-xl shadow-amber-950/50 inline-flex items-center justify-center gap-2"
         >
-          <span>⏳ Ventas abiertas a partir de mañana ($9.99 USD)</span>
-        </div>
+          <span>📖 Comprar Ahora en Gumroad ($9.99 USD) →</span>
+        </a>
         <a
           href="#boletin"
           class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
