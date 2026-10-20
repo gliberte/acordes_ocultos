@@ -9,16 +9,16 @@ const PREVIEWS = [
   {
     image: '/book/preview/apertura-capitulo-interactivo.webp',
     title: 'Aperturas Editoriales con Enlaces a Instagram',
-    tag: 'Banda Sonora Integrada',
+    tag: 'Enlaces a los Videos',
     subtitle: 'Acceso directo al Reel de Instagram de cada obra',
-    description: 'Cada una de las 28 crónicas cuenta con enlaces directos al Reel de Instagram oficial (@acordesocultos72). Con un solo clic o toque en el PDF y EPUB, accederás al mini-documental y la música original mientras descubres las circunstancias íntimas en que fue grabada.'
+    description: 'Cada una de las 28 crónicas incluye un enlace directo al Reel de Instagram oficial (@acordesocultos72). Con un toque o clic en el PDF y EPUB, puedes acceder al video y escuchar la canción mientras descubres las circunstancias de su grabación (requiere conexión a internet).'
   },
   {
     image: '/book/preview/fotografia-archivo-abbey-road.webp',
-    title: 'Fotografía de Archivo Restaurada',
-    tag: 'Testimonio Visual',
-    subtitle: 'Tomas reales de estudio y documentos de época',
-    description: 'Tomas históricas de las sesiones en Abbey Road, Sun Studio, Western Recorders y Criteria Studios. Imágenes y consolas analógicas restauradas en alta definición que te sitúan en el centro mismo de la grabación.'
+    title: 'Archivo Histórico y Recreaciones Documentales',
+    tag: 'Testimonio Visual Dual',
+    subtitle: 'Fotos restauradas de época y recreaciones de estudio',
+    description: 'El libro combina fotografías históricas reales de archivo rescatadas de sesiones en Abbey Road, Sun Studio o Western Recorders con recreaciones visuales rigurosas de época para ilustrar los pasajes íntimos narrados, identificando con honestidad cada material.'
   },
   {
     image: '/book/preview/diseno-editorial-california.webp',
@@ -118,7 +118,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
 <Layout
   title="Libro Oficial: Acordes Ocultos — Volumen 01 | 28 Historias Humanas detrás de la Música"
-  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo restauradas y enlaces directos al Reel de Instagram de cada obra."
+  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo y enlaces directos a los videos de cada historia."
   image="/book/portada-volumen-01.jpg"
 >
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 space-y-16">
@@ -142,8 +142,11 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               fetchpriority="high"
             />
           </div>
-          <span class="text-[11px] text-neutral-400 mt-3 font-sans tracking-wide">
+          <span class="text-[11px] text-neutral-400 mt-3 font-sans tracking-wide text-center">
             Edición Oficial · Volumen 01 (241 págs.)
+          </span>
+          <span class="inline-block mt-1 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase bg-amber-500/10 border border-amber-500/30 text-amber-300 font-sans">
+            📱 Edición digital · No incluye ejemplar físico
           </span>
         </div>
 
@@ -159,7 +162,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           </h1>
 
           <p class="font-sans text-sm sm:text-base text-neutral-300 leading-relaxed max-w-2xl">
-            <strong>241 páginas de rescate documental</strong> que recorren momentos irrepetibles de la cultura sonora: una cantante que entra a Abbey Road sin saber qué esperan de ella, un lamento grabado de rodillas, una maqueta rescatada de la nieve o una despedida en el andén de una estación.
+            Una selección curada de <strong>28 historias organizada en cuatro partes</strong>, con maquetación editorial reposada, fuentes, notas documentales completas y formatos (PDF interactivo de 241 páginas y EPUB) preparados para <strong>leer sin conexión a internet y sin distracciones</strong>.
           </p>
 
           <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs font-sans text-neutral-300 max-w-xl mx-auto lg:mx-0">
@@ -173,10 +176,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span class="text-amber-400 font-bold">✓</span> PDF interactivo + EPUB
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Enlaces directos a Reels de Instagram
+              <span class="text-amber-400 font-bold">✓</span> Enlaces a videos de Instagram
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> Fotos de archivo reales
+              <span class="text-amber-400 font-bold">✓</span> Archivo y recreaciones
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
               <span class="text-amber-400 font-bold">✓</span> 100% Libre de DRM
@@ -200,12 +203,12 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             </a>
           </div>
 
-          <div class="space-y-1 text-[11px] text-neutral-400 font-sans">
-            <p class="text-amber-300/90 font-medium">
-              ✨ <strong>Descarga inmediata tras la compra:</strong> Recibes al instante tanto el PDF Editorial de alta resolución (241 págs.) como el archivo EPUB 3 oficial para Kindle, Apple Books, Kobo y móviles.
+          <div class="space-y-1.5 text-[11px] text-neutral-400 font-sans">
+            <p class="text-amber-300 font-semibold flex items-center gap-1.5 justify-center lg:justify-start">
+              <span>📱</span> Edición digital de descarga inmediata. No incluye ejemplar físico.
             </p>
             <p>
-              Pago seguro procesado por Gumroad. También puedes explorar las muestras del interior a continuación.
+              Recibes al instante el PDF Editorial de 241 páginas y el archivo EPUB 3 para Kindle, Apple Books, Kobo, tablet o móvil. Pagos procesados con seguridad vía Gumroad.
             </p>
           </div>
         </div>
@@ -247,11 +250,11 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
         <div class="p-6 rounded-2xl bg-[#14120f] border border-[#2b2721] space-y-3">
           <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
-            🎧
+            🎬
           </div>
-          <h3 class="font-serif text-lg font-bold text-white">Banda Sonora Sincronizada</h3>
+          <h3 class="font-serif text-lg font-bold text-white">Enlaces a los Videos de Cada Historia</h3>
           <p class="text-xs text-neutral-400 leading-relaxed">
-            La experiencia de lectura está diseñada para el oído: mediante enlaces directos al Reel de Instagram de cada obra (@acordesocultos72), puedes reproducir el mini-documental oficial con su música original mientras descubres el secreto de sus compases.
+            Cada capítulo integra un enlace directo al Reel oficial de Instagram (@acordesocultos72) para acceder al video documental y escuchar la canción. <em>(Enlaces externos a Instagram; el libro no incrusta archivos locales de audio ni garantiza la permanencia técnica de enlaces de terceros).</em>
           </p>
         </div>
       </div>
@@ -348,8 +351,8 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
           <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Archivo Visual</span>
-          <p class="text-white font-bold text-base font-serif">&gt; 80 Fotografías</p>
-          <span class="text-neutral-400 text-[11px] block">Restauradas de época</span>
+          <p class="text-white font-bold text-base font-serif">&gt; 200 Imágenes</p>
+          <span class="text-neutral-400 text-[11px] block">Archivo histórico y recreaciones</span>
         </div>
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
@@ -368,55 +371,6 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Compatibilidad</span>
           <p class="text-amber-400 font-bold text-base font-serif">Universal</p>
           <span class="text-neutral-400 text-[11px] block">Kindle, iPad, Tablet, PC</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Transparencia Editorial: Los 3 Canales del Proyecto -->
-    <section class="rounded-2xl bg-[#12100e] border border-[#2b2720] p-6 sm:p-8 space-y-4">
-      <div class="flex items-center gap-2 text-xs uppercase tracking-widest text-amber-400 font-bold font-sans">
-        <span>⚖️ NUESTRA POLÍTICA EDITORIAL Y COMERCIAL CLARA</span>
-      </div>
-      <h2 class="font-serif text-2xl font-bold text-neutral-100">
-        Tres formas distintas y transparentes de participar en Acordes Ocultos
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-5 pt-2 font-sans text-xs">
-        <div class="p-5 rounded-xl bg-[#171410] border border-amber-500/40 space-y-2">
-          <div class="flex items-center justify-between">
-            <span class="text-amber-400 font-bold text-sm">1. El Libro Digital</span>
-            <span class="text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/40 px-2 py-0.5 rounded-full font-sans">Oferta $7.99</span>
-          </div>
-          <p class="text-neutral-300 leading-relaxed">
-            Es la obra editorial completa: 28 crónicas maquetadas para lectura continua en PDF de arte (241 págs.) y EPUB, con aparato bibliográfico completo y enlaces directos al Reel de Instagram de cada obra. <strong>Precio especial de $7.99 USD hasta el 31 de octubre</strong> (precio regular $9.99 USD).
-          </p>
-          <div class="pt-1">
-            <a
-              href={GUMROAD_BOOK_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="inline-flex items-center gap-1.5 text-xs font-bold text-amber-300 hover:text-amber-200 underline"
-            >
-              Adquirir por $7.99 USD (Oferta de Lanzamiento) →
-            </a>
-          </div>
-        </div>
-        <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
-          <span class="text-neutral-200 font-bold text-sm">2. Mecenazgo Voluntario ($3, $5, $10+)</span>
-          <p class="text-neutral-400 leading-relaxed">
-            Es un aporte solidario libre y no transaccional. Quien ama el canal y desea invitar un café para sostener los servidores y la hemerografía puede donar libremente. No incluye el libro completo.
-          </p>
-          <a href={GUMROAD_TIP_URL} target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-300 underline block pt-1">
-            Hacer un aporte de mecenas →
-          </a>
-        </div>
-        <div class="p-5 rounded-xl bg-[#171410] border border-[#2b2720] space-y-2">
-          <span class="text-neutral-200 font-bold text-sm">3. Boletín Gratuito ($0 USD)</span>
-          <p class="text-neutral-400 leading-relaxed">
-            Suscripción abierta a la Cofradía. Recibes en tu correo cada nueva crónica semanal y una muestra de bienvenida de 3 historias de colección sin coste alguno.
-          </p>
-          <a href="#boletin" class="text-neutral-400 hover:text-amber-300 underline block pt-1">
-            Unirme a la Cofradía gratis →
-          </a>
         </div>
       </div>
     </section>
@@ -481,7 +435,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
       </div>
     </section>
 
-    <!-- Buy Box Callout -->
+    <!-- Único Bloque Final de Compra -->
     <section class="rounded-3xl bg-gradient-to-r from-amber-500/15 via-[#1a1611] to-amber-500/10 border border-amber-500/40 p-8 sm:p-12 text-center space-y-5 shadow-2xl">
       <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 font-sans mx-auto">
         <span>🔥 PRECIO ESPECIAL DE LANZAMIENTO · HASTA EL 31 DE OCTUBRE</span>
@@ -490,7 +444,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         Lleva las 28 historias de Acordes Ocultos a tu biblioteca
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-        Edición digital sin publicidad, 100% libre de DRM y lista para leer en Kindle, tablet, iPad, Mac, PC o teléfono. Incluye ambos archivos (PDF Editorial de 241 páginas + EPUB 3) por <span class="text-amber-400 font-bold">$7.99 USD</span> <span class="line-through text-neutral-500 text-xs">($9.99 USD)</span> hasta final de mes.
+        Una selección de 28 historias organizada en cuatro partes, con diseño editorial, fuentes, notas y formatos para leer sin conexión (PDF de 241 págs. + EPUB). Por solo <span class="text-amber-400 font-bold">$7.99 USD</span> <span class="line-through text-neutral-500 text-xs">($9.99 USD)</span> aplicando el descuento automático de lanzamiento.
       </p>
       <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
         <a
@@ -501,18 +455,32 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         >
           <span>📖 Comprar Ahora en Gumroad — $7.99 USD <span class="line-through text-black/60 font-normal text-xs ml-1">$9.99</span> →</span>
         </a>
-        <a
-          href="#boletin"
-          class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
-        >
-          Descargar Muestra Gratuita (3 historias) ↓
-        </a>
       </div>
+      <p class="text-[11px] text-neutral-400 font-sans">
+        📱 <strong>Edición 100% digital. No incluye ejemplar físico.</strong> Descarga inmediata tras la compra. 100% libre de DRM para Kindle, Apple Books, tablet o móvil.
+      </p>
     </section>
 
-    <!-- Newsletter Component at the bottom for free sample -->
-    <section class="pt-6">
+    <!-- Alternativa Gratuita: Muestra de 3 Historias -->
+    <section id="boletin" class="pt-6 space-y-4">
+      <div class="text-center max-w-xl mx-auto">
+        <span class="text-[11px] uppercase tracking-widest text-amber-400 font-bold font-sans">ALTERNATIVA SIN COSTE</span>
+        <h4 class="font-serif text-2xl font-bold text-neutral-200 mt-1">
+          ¿Prefieres explorar antes de comprar?
+        </h4>
+        <p class="text-xs text-neutral-400 font-sans mt-1">
+          Suscríbete gratis a nuestro boletín y recibe en tu correo una muestra de regalo con 3 crónicas completas del libro.
+        </p>
+      </div>
+
       <NewsletterBox source="libro_landing" />
+    </section>
+
+    <!-- Mecenazgo voluntario discreto al pie -->
+    <section class="text-center pt-2 pb-6">
+      <p class="text-xs text-neutral-400 font-sans">
+        ¿Deseas apoyar el archivo independiente sin adquirir el libro? Conoce las opciones de <a href={GUMROAD_TIP_URL} target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:text-amber-300 underline font-medium">mecenazgo voluntario ($3, $5, $10+)</a>. <em>(El aporte es voluntario y no incluye el libro).</em>
+      </p>
     </section>
 
   </main>
