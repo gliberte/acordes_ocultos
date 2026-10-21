@@ -1,229 +1,315 @@
 {
-  "title": "Manuel Alejandro: La fractura a los 16 años que frustró al concertista y dio vida al gran autor de la balada en español",
-  "artist": "Manuel Alejandro",
-  "slug": "manuel-alejandro-catedrales-de-leyenda",
-  "articleSlug": "manuel-alejandro-catedrales-de-leyenda",
+  "brand": "acordes-ocultos",
+  "slug": "the-beatles-strawberry-fields-forever-acordes-ocultos",
+  "articleSlug": "the-beatles-strawberry-fields-forever-acordes-ocultos",
+  "title": "El orfanato prohibido donde John Lennon aprendió a no tener miedo",
+  "artist": "The Beatles",
+  "topic": "acordes-ocultos",
+  "hook": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
+  "anecdote": "De niño, John Lennon saltaba los muros de Strawberry Field, un orfanato para niñas contiguo a su casa en Liverpool, buscando refugio para su propia soledad. Años después, exhausto tras abandonar las giras con The Beatles, compuso en Almería una confesión desgarradora sobre su infancia herida, que en Abbey Road revolucionó la historia de la música.",
   "durationSeconds": 90,
-  "topic": "catedrales-de-leyenda",
-  "anecdote": "Nacido en Jerez de la Frontera y formado por su padre, el compositor y director Germán Álvarez-Beigbeder, Manuel Alejandro vio truncado a los 16 años su futuro como concertista clásico tras una fractura en el codo derecho y cinco cirugías. Aquella herida lo volcó a la composición: junto a Purificación Casas Romero —su esposa y coautora bajo el seudónimo «Ana Magdalena»— escribió para Raphael, Jeanette, Rocío Jurado, Julio Iglesias, José José y Luis Miguel las páginas esenciales de la balada en español.",
-  "hook": "Formado en Jerez por su padre, el compositor Germán Álvarez-Beigbeder, el joven Manuel creció frente al piano soñando con ser concertista clásico.",
-  "beats": [
-    "A los dieciséis años, una fractura en el codo derecho y cinco cirugías truncaron ese destino: perdió al concertista, pero nació el compositor.",
-    "Tras tocar en bares de Madrid, conoció a un Raphael adolescente y le entregó «Yo soy aquél», un tema pensado originalmente para Lucho Gatica.",
-    "En una España sin divorcio, se mudó a Portugal con Purificación Casas, quien bajo el seudónimo «Ana Magdalena» firmó junto a él decenas de clásicos.",
-    "En 1971 compuso «Soy rebelde», el himno generacional que Jeanette rechazó grabar al principio hasta que escuchó su propia voz en el estudio.",
-    "Junto a Ana Magdalena escribió «Como yo te amo» y «Señora» para Rocío Jurado, y «Manuela» para Julio Iglesias, transformando la balada en español.",
-    "En 1983 escribió y produjo en Madrid el álbum «Secretos» para José José, logrando con «Lo dudo» el mayor éxito comercial del intérprete mexicano.",
-    "Su pluma cruzó décadas y generaciones enteras: en 2008 compuso y produjo «Cómplices» para Luis Miguel, manteniendo intacta la elegancia de su oficio.",
-    "Aunque en 2021 partió su amada Purificación, a sus noventa años demostró que cuando el amor es verdadero, sigue encontrando palabras en la música."
-  ],
-  "outro": "¿Cuál de todas las canciones compuestas por Manuel Alejandro ha marcado más tu vida? Te leo en los comentarios.",
   "palette": {
-    "ink": "#0c0a09",
-    "paper": "#faf6f0",
-    "accent": "#d97706",
-    "glow": "#f59e0b"
+    "ink": "#0b0c10",
+    "paper": "#f8f4eb",
+    "accent": "#d4af37",
+    "glow": "#e6c666"
   },
   "music": {
-    "title": "Como yo te amo",
-    "artist": "Manuel Alejandro",
-    "src": "music/manuel-alejandro-catedrales-de-leyenda-90s.mp3",
+    "title": "Strawberry Fields Forever",
+    "artist": "The Beatles",
+    "year": 1967,
+    "src": "music/the-beatles-strawberry-fields-forever.mp3",
+    "file": "music/the-beatles-strawberry-fields-forever.mp3",
+    "source": "music/the-beatles-strawberry-fields-forever.mp3",
     "startSecond": 0,
-    "volume": 0.68,
+    "volume": 0.55,
+    "fadeInSeconds": 0.5,
+    "fadeOutSeconds": 3,
     "instagram": {
-      "query": "Manuel Alejandro Como yo te amo",
-      "expectedTitle": "Como yo te amo",
-      "expectedArtist": "Manuel Alejandro",
+      "query": "Strawberry Fields Forever The Beatles",
       "status": "manual_check_required",
-      "notes": "Audio maestro compuesto por un mosaico sincronizado de 5 obras de Manuel Alejandro (Yo soy aquél, Soy rebelde, Como yo te amo, Lo dudo y Procuro olvidarte)."
-    },
-    "tracks": [
-      {
-        "start": 0,
-        "end": 30,
-        "title": "Yo soy aquél · Raphael"
-      },
-      {
-        "start": 30,
-        "end": 50,
-        "title": "Soy rebelde · Jeanette"
-      },
-      {
-        "start": 50,
-        "end": 65,
-        "title": "Como yo te amo · Rocío Jurado"
-      },
-      {
-        "start": 65,
-        "end": 80,
-        "title": "Lo dudo · José José"
-      },
-      {
-        "start": 80,
-        "end": 90,
-        "title": "Procuro olvidarte · H. Zúñiga"
-      }
-    ]
+      "expectedTitle": "Strawberry Fields Forever",
+      "expectedArtist": "The Beatles",
+      "notes": "Seleccionar audio oficial de Strawberry Fields Forever interpretada por The Beatles en Instagram Reels."
+    }
   },
-  "coverBg": "videos/manuel-alejandro-catedrales-de-leyenda/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 authentic archival late-1970s documentary portrait of legendary Spanish composer Manuel Alejandro: A completely clean-shaven Spanish man in his mid-40s (strictly no beard, strictly no mustache), wearing his signature large dark-framed rounded-rectangular 1970s eyeglasses, thick straight dark-brown hair parted on the left side and covering his ears, prominent rounded nose, full lips, warm olive complexion, and a dark button-down shirt, seated at a polished black grand piano in his Madrid studio with handwritten musical scores under a warm brass lamp, rich 35mm Kodak film grain, generous negative space at center and bottom for typography, no text.",
+  "coverBg": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic archival late 1966 photograph of 26-year-old John Lennon (slender build, distinctive aquiline nose, neatly trimmed late-1966 hair with subtle sideburns, wearing iconic circular metal-rimmed round spectacles, dark woolen coat over a knitted sweater), looking thoughtfully into the distance with a wistful melancholic gaze in front of the ornate red Victorian iron gates of Strawberry Field under a soft misty morning light in Liverpool, rich 35mm Kodak film grain, moody cinematic atmosphere, generous negative space top and center for typography, strictly no text.",
+  "scenes": [
+    {
+      "id": 1,
+      "name": "scene-01",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
+      "startFrame": 0,
+      "endFrame": 300,
+      "text": {
+        "es": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas."
+      },
+      "prompt": "Vertical 9:16 authentic 1940s-1950s documentary photograph: The imposing Victorian gothic brick manor of the Salvation Army Strawberry Field children home in Woolton, Liverpool, surrounded by dense leafy overgrown gardens under a grey overcast English afternoon sky, vintage sandstone pillars and ornate iron fence, authentic 35mm archival grainy texture, quiet lower third, no text."
+    },
+    {
+      "id": 2,
+      "name": "scene-02",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
+      "startFrame": 300,
+      "endFrame": 600,
+      "text": {
+        "es": "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas."
+      },
+      "prompt": "Vertical 9:16 intimate 1949 archival portrait: An 8-year-old boy matching young John Lennon childhood features (tousled dark hair, delicate features, thoughtful penetrating melancholic brown eyes, wearing a vintage 1940s English wool schoolboy blazer and short trousers) sitting alone by an open bedroom window at Mendips cottage, gazing quietly toward the distant treetops of Strawberry Field, soft morning light, authentic 35mm grain, quiet lower third, no text."
+    },
+    {
+      "id": 3,
+      "name": "scene-03",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
+      "startFrame": 600,
+      "endFrame": 900,
+      "text": {
+        "es": "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!»."
+      },
+      "prompt": "Vertical 9:16 candid 1950s documentary action shot: A young 10-year-old boy (young John Lennon likeness) nimbly climbing over a weathered red brick garden wall draped in ivy, surrounded by lush summer tree branches, caught in a spontaneous moment of youthful adventure and gentle defiance, 35mm vintage black and white film grain, quiet lower third, no text."
+    },
+    {
+      "id": 4,
+      "name": "scene-04",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
+      "startFrame": 900,
+      "endFrame": 1200,
+      "text": {
+        "es": "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz."
+      },
+      "prompt": "Vertical 9:16 poetic 1950s documentary scene: Young John Lennon sitting peacefully against the trunk of a giant ancient oak tree inside the secluded wooded grounds of Strawberry Field, sunlight filtering through green leaves creating soft dapples on the grass, resting with hands behind his head in quiet contemplation, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
+    },
+    {
+      "id": 5,
+      "name": "scene-05",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
+      "startFrame": 1200,
+      "endFrame": 1500,
+      "text": {
+        "es": "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas."
+      },
+      "prompt": "Vertical 9:16 authentic historical October 1966 documentary photograph in Santa Isabel, Almería, Spain: 26-year-old John Lennon matching his exact historic appearance (military short haircut for the film How I Won The War, circular wire-rimmed spectacles, slender face, wearing a simple open-collar white linen shirt and dark trousers) sitting on a sunlit whitewashed Mediterranean patio, gently fingerpicking a Gibson J-160E acoustic guitar, warm desert sunlight, 35mm Kodak grain, quiet lower third, no text."
+    },
+    {
+      "id": 6,
+      "name": "scene-06",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
+      "startFrame": 1500,
+      "endFrame": 1800,
+      "text": {
+        "es": "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo."
+      },
+      "prompt": "Vertical 9:16 intimate 1966 candid studio moment: John Lennon in Almería villa room, wearing round wire glasses and a casual cardigan, intently scribbling handwritten lyrics and chord notations onto a yellow legal pad next to a small vintage Philips portable reel-to-reel tape recorder on a rustic wooden table, cigarette smoke softly rising, intense artistic vulnerability, authentic 1966 35mm film grain, quiet lower third, no text."
+    },
+    {
+      "id": 7,
+      "name": "scene-07",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
+      "startFrame": 1800,
+      "endFrame": 2100,
+      "text": {
+        "es": "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora."
+      },
+      "prompt": "Vertical 9:16 authentic November 1966 studio photograph inside EMI Studios Abbey Road Studio Two: 24-year-old Paul McCartney (young, slender, clean-shaven, swept dark hair, casual collared shirt) sitting at the cream-colored Mellotron Mark II keyboard playing the iconic opening flute notes, with John Lennon (round spectacles, dark polo neck) leaning attentively over the wooden instrument cabinet listening with wonder, warm analog tungsten studio lamps, 35mm Tri-X grain, quiet lower third, no text."
+    },
+    {
+      "id": 8,
+      "name": "scene-08",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
+      "startFrame": 2100,
+      "endFrame": 2400,
+      "text": {
+        "es": "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock."
+      },
+      "prompt": "Vertical 9:16 dramatic historical control room scene in Abbey Road Studios in December 1966: Producer George Martin (tall, distinguished gentleman in a crisp suit and tie) and young sound engineer Geoff Emerick at the vintage EMI REDD.51 tube mixing console, using razor blades and editing tape to splice two magnetic master tapes together under warm desk lamps, while John Lennon in circular glasses watches intensely from the background shadows, authentic 35mm grain, quiet lower third, no text."
+    },
+    {
+      "id": 9,
+      "name": "scene-09",
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
+      "startFrame": 2400,
+      "endFrame": 2700,
+      "text": {
+        "es": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
+      },
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: The iconic ornate Victorian wrought-iron gates of Strawberry Field painted in weathered deep crimson red, set between historic weathered sandstone pillars in Liverpool, soft morning mist swirling through tall autumn trees, golden morning sunlight breaking through the canopy casting long warm rays, fallen russet leaves on the cobblestones, strictly no turntables, strictly no vinyl records, strictly no record players, profound nostalgic peace, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+    }
+  ],
+  "publication": {
+    "tags": [
+      "#TheBeatles",
+      "#JohnLennon",
+      "#StrawberryFieldsForever",
+      "#AbbeyRoad",
+      "#PaulMcCartney",
+      "#HistoriaMusical",
+      "#AcordesOcultos"
+    ],
+    "copy": "«No pueden colgarme por esto». Cuando John Lennon era apenas un niño solitario en Liverpool, solía saltar a escondidas los altos muros de Strawberry Field, un severo orfanato victoriano para niñas huérfanas ubicado justo detrás del jardín de su tía Mimi. Cada vez que su tía le gritaba aterrada que lo iban a encerrar o colgar si lo descubrían, John sonreía desafiante. Para un niño abandonado por su padre marino y entregado por su madre a sus tíos, aquel jardín prohibido no era una amenaza: era el único rincón del mundo donde el dolor de existir parecía desaparecer.\n\nVeinte años después, en el otoño de 1966, The Beatles decidieron retirarse de las giras exhaustos de la histeria colectiva. Refugiado en una finca solitaria en Almería mientras rodaba una película, John se sentó bajo el sol con su guitarra acústica para enfrentarse a sus fantasmas más profundos. Allí nació «Strawberry Fields Forever», una confesión desgarradora sobre la soledad infantil, la inseguridad y el vértigo de no encajar jamás en la realidad de los adultos.\n\nEn los estudios de Abbey Road, Paul McCartney abrió la pieza tocando las míticas flautas del Mellotron y George Martin ejecutó una obra de alquimia analógica uniendo dos tomas en tonos y velocidades incompatibles, sellando para siempre la transición entre la inocencia y la madurez de la música popular.\n\n¿Qué recuerdos o emociones despiertan en ti las primeras notas de este clásico de The Beatles? Te leemos en los comentarios. 👇\n\nLa historia completa y las fotografías de época están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.",
+    "tiktokDescription": "«No pueden colgarme por esto». El sombrío orfanato donde John Lennon se refugiaba de niño para escapar de su propia soledad dio vida a la canción que cambió la historia del rock. 🍓🕊️\n\n¿Conocías la historia detrás de Strawberry Fields Forever? 👇\n\n#TheBeatles #JohnLennon #StrawberryFieldsForever #HistoriaMusical #AcordesOcultos",
+    "description": "«No pueden colgarme por esto». Cuando John Lennon era apenas un niño solitario en Liverpool, solía saltar a escondidas los altos muros de Strawberry Field, un severo orfanato victoriano para niñas huérfanas ubicado justo detrás del jardín de su tía Mimi. Cada vez que su tía le gritaba aterrada que lo iban a encerrar o colgar si lo descubrían, John sonreía desafiante. Para un niño abandonado por su padre marino y entregado por su madre a sus tíos, aquel jardín prohibido no era una amenaza: era el único rincón del mundo donde el dolor de existir parecía desaparecer.\n\nVeinte años después, en el otoño de 1966, The Beatles decidieron retirarse de las giras exhaustos de la histeria colectiva. Refugiado en una finca solitaria en Almería mientras rodaba una película, John se sentó bajo el sol con su guitarra acústica para enfrentarse a sus fantasmas más profundos. Allí nació «Strawberry Fields Forever», una confesión desgarradora sobre la soledad infantil, la inseguridad y el vértigo de no encajar jamás en la realidad de los adultos.\n\nEn los estudios de Abbey Road, Paul McCartney abrió la pieza tocando las míticas flautas del Mellotron y George Martin ejecutó una obra de alquimia analógica uniendo dos tomas en tonos y velocidades incompatibles, sellando para siempre la transición entre la inocencia y la madurez de la música popular.\n\n¿Qué recuerdos o emociones despiertan en ti las primeras notas de este clásico de The Beatles? Te leemos en los comentarios. 👇\n\nLa historia completa y las fotografías de época están en nuestra crónica extendida. Encuentras el enlace directo en el perfil."
+  },
   "assets": [
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1946 archival documentary photograph in Jerez de la Frontera, Spain: A 13-year-old Spanish boy, young Manuel Álvarez-Beigbeder, practicing classical music at an upright wooden piano while his father, composer and conductor Germán Álvarez-Beigbeder (distinguished older Spanish gentleman in a classic 1940s three-piece suit with gray hair and glasses), stands over his shoulder correcting a symphony score with a pencil. Warm Andalusian afternoon light through tall shutters, authentic 1940s sepia-toned 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1940s-1950s documentary photograph: The imposing Victorian gothic brick manor of the Salvation Army Strawberry Field children home in Woolton, Liverpool, surrounded by dense leafy overgrown gardens under a grey overcast English afternoon sky, vintage sandstone pillars and ornate iron fence, authentic 35mm archival grainy texture, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-02.png",
-      "prompt": "Vertical 9:16 poignant 1950 candid documentary photograph in Spain: A 16-year-old Spanish youth (young Manuel Alejandro with dark wavy hair and expressive dark eyes) sitting alone in front of an open upright piano in a shadowy parlor, his right arm and right elbow immobilized in a heavy white plaster cast and cloth sling after surgery, while his left hand rests gently on a blank sheet of music paper with a fountain pen beside it. Emotional chiaroscuro window light, authentic 1950 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate 1949 archival portrait: An 8-year-old boy matching young John Lennon childhood features (tousled dark hair, delicate features, thoughtful penetrating melancholic brown eyes, wearing a vintage 1940s English wool schoolboy blazer and short trousers) sitting alone by an open bedroom window at Mendips cottage, gazing quietly toward the distant treetops of Strawberry Field, soft morning light, authentic 35mm grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-03.png",
-      "prompt": "Vertical 9:16 authentic 1966 Madrid rehearsal photograph: 33-year-old composer Manuel Alejandro (completely clean-shaven face with no beard and no mustache, wearing dark-framed eyeglasses, thick dark-brown hair parted on the side covering his ears, prominent rounded nose, dressed in a dark shirt and jacket, seated at an upright piano) showing the sheet music of 'Yo soy aquél' to a 22-year-old Raphael (distinctive dark side-swept hair, black turtleneck, leaning in passionately). Warm tungsten studio light, vintage 1966 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 candid 1950s documentary action shot: A young 10-year-old boy (young John Lennon likeness) nimbly climbing over a weathered red brick garden wall draped in ivy, surrounded by lush summer tree branches, caught in a spontaneous moment of youthful adventure and gentle defiance, 35mm vintage black and white film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-04.png",
-      "prompt": "Vertical 9:16 intimate early 1970s candid photograph in a sunlit room in Portugal: Composer Manuel Alejandro in his late 30s (completely clean-shaven with no beard, wearing his signature large dark-framed 1970s eyeglasses, thick straight dark-brown hair parted on the side covering his ears, prominent rounded nose) and his wife Purificación Casas Romero ('Ana Magdalena', an elegant Spanish woman in her late 20s with warm dark eyes and shoulder-length chestnut hair) sitting across from each other at a wooden table by a balcony overlooking Lisbon rooftops, drinking coffee and writing song lyrics together on notebook pages. Authentic 1970s 35mm Kodachrome grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 poetic 1950s documentary scene: Young John Lennon sitting peacefully against the trunk of a giant ancient oak tree inside the secluded wooded grounds of Strawberry Field, sunlight filtering through green leaves creating soft dapples on the grass, resting with hands behind his head in quiet contemplation, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1971 Hispavox recording studio photograph in Madrid: 20-year-old singer Jeanette (petite young woman with long straight dark-brown/black hair parted in the middle with curtain bangs framing her oval face, large expressive dark eyes, full lips, wearing a small pearl teardrop pendant necklace and a dark long-sleeve sweater with an embroidered peacock on the chest) listening with quiet surprise through vintage studio headphones in the control room, while composer Manuel Alejandro (completely clean-shaven face with strictly no beard, wearing large dark-framed 1970s eyeglasses, thick side-parted dark brown hair covering his ears, prominent rounded nose, dark button-down shirt) stands behind the analog mixing console watching her reaction. Warm 1971 analog studio lighting, 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic historical October 1966 documentary photograph in Santa Isabel, Almería, Spain: 26-year-old John Lennon matching his exact historic appearance (military short haircut for the film How I Won The War, circular wire-rimmed spectacles, slender face, wearing a simple open-collar white linen shirt and dark trousers) sitting on a sunlit whitewashed Mediterranean patio, gently fingerpicking a Gibson J-160E acoustic guitar, warm desert sunlight, 35mm Kodak grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-06.png",
-      "prompt": "Vertical 9:16 candid 1979 living room rehearsal photograph in Madrid: Iconic Spanish singer Rocío Jurado (striking Andalusian woman in her mid-30s with voluminous dark wavy hair, expressive dark eyes, wearing an elegant late-70s silk blouse, singing with her hand over her heart) standing beside the grand piano where Manuel Alejandro (completely clean-shaven face with strictly no beard, wearing his signature large dark-framed eyeglasses, thick side-parted dark brown hair covering his ears, prominent rounded nose, dark button-down shirt) accompanies her while Purificación 'Ana Magdalena' holds the lyric sheets in the background. Warm domestic lamp light, 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 intimate 1966 candid studio moment: John Lennon in Almería villa room, wearing round wire glasses and a casual cardigan, intently scribbling handwritten lyrics and chord notations onto a yellow legal pad next to a small vintage Philips portable reel-to-reel tape recorder on a rustic wooden table, cigarette smoke softly rising, intense artistic vulnerability, authentic 1966 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 1983 Madrid recording studio photograph during the making of the album 'Secretos': Mexican singer José José (35-year-old man with neatly styled dark hair, expressive melancholic eyes, wearing a classic 1983 navy blazer and open shirt, singing with deep emotion in front of a condenser microphone) while composer and producer Manuel Alejandro (50 years old, completely clean-shaven with strictly no beard, wearing large eyeglasses, thick side-parted dark brown hair with subtle silver temples, prominent rounded nose) directs him from the piano behind the studio glass. Authentic 1983 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic November 1966 studio photograph inside EMI Studios Abbey Road Studio Two: 24-year-old Paul McCartney (young, slender, clean-shaven, swept dark hair, casual collared shirt) sitting at the cream-colored Mellotron Mark II keyboard playing the iconic opening flute notes, with John Lennon (round spectacles, dark polo neck) leaning attentively over the wooden instrument cabinet listening with wonder, warm analog tungsten studio lamps, 35mm Tri-X grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-08.png",
-      "prompt": "Vertical 9:16 candid 2008 recording studio photograph: Veteran Spanish composer Manuel Alejandro in his mid-70s (completely clean-shaven face with strictly no beard and no mustache, full head of silver-white hair parted on the side covering the top of his ears, thin metallic-framed eyeglasses, prominent rounded nose, warm smile, wearing a dark suit jacket and white shirt) sharing a sheet of music at a grand piano with Mexican singer Luis Miguel (38 years old, tanned complexion, impeccably groomed dark hair, black dress shirt, smiling with deep respect). Warm modern studio tungsten light, 35mm documentary aesthetic, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 dramatic historical control room scene in Abbey Road Studios in December 1966: Producer George Martin (tall, distinguished gentleman in a crisp suit and tie) and young sound engineer Geoff Emerick at the vintage EMI REDD.51 tube mixing console, using razor blades and editing tape to splice two magnetic master tapes together under warm desk lamps, while John Lennon in circular glasses watches intensely from the background shadows, authentic 35mm grain, quiet lower third, no text."
     },
     {
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-09.png",
-      "prompt": "Vertical 9:16 deeply moving 2022 documentary photograph at the Teatro Real in Madrid: 90-year-old Manuel Alejandro (distinguished elderly Spanish maestro, completely clean-shaven face with strictly no beard and no mustache, full head of swept-back silver-white hair, thin wire-rimmed eyeglasses, prominent rounded nose, wearing a dark suit with white shirt and silver-gray tie) seated alone at a gleaming concert grand piano on the vast stage under a single warm golden spotlight, looking gently at the empty chair beside the piano bench as his hands rest on the ivory keys. Strictly no record players, strictly no turntables, strictly no vinyl records, 35mm film grain, quiet lower third, no text."
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: The iconic ornate Victorian wrought-iron gates of Strawberry Field painted in weathered deep crimson red, set between historic weathered sandstone pillars in Liverpool, soft morning mist swirling through tall autumn trees, golden morning sunlight breaking through the canopy casting long warm rays, fallen russet leaves on the cobblestones, strictly no turntables, strictly no vinyl records, strictly no record players, profound nostalgic peace, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
     }
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-01.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
+      "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-02.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
+      "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-03.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
+      "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-04.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
+      "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-05.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
+      "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-06.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
+      "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-07.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
+      "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-08.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
+      "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/manuel-alejandro-catedrales-de-leyenda/scene-09.png",
-      "type": "image",
-      "role": "scene"
+      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
+      "type": "image"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "Formado en Jerez por su padre, el compositor Germán Álvarez-Beigbeder, el joven Manuel creció frente al piano soñando con ser concertista clásico.",
+      "text": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "A los dieciséis años, una fractura en el codo derecho y cinco cirugías truncaron ese destino: perdió al concertista, pero nació el compositor.",
+      "text": "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Tras tocar en bares de Madrid, conoció a un Raphael adolescente y le entregó «Yo soy aquél», un tema pensado originalmente para Lucho Gatica.",
+      "text": "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!».",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "En una España sin divorcio, se mudó a Portugal con Purificación Casas, quien bajo el seudónimo «Ana Magdalena» firmó junto a él decenas de clásicos.",
+      "text": "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "En 1971 compuso «Soy rebelde», el himno generacional que Jeanette rechazó grabar al principio hasta que escuchó su propia voz en el estudio.",
+      "text": "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Junto a Ana Magdalena escribió «Como yo te amo» y «Señora» para Rocío Jurado, y «Manuela» para Julio Iglesias, transformando la balada en español.",
+      "text": "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En 1983 escribió y produjo en Madrid el álbum «Secretos» para José José, logrando con «Lo dudo» el mayor éxito comercial del intérprete mexicano.",
+      "text": "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Su pluma cruzó décadas y generaciones enteras: en 2008 compuso y produjo «Cómplices» para Luis Miguel, manteniendo intacta la elegancia de su oficio.",
+      "text": "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Aunque en 2021 partió su amada Purificación, a sus noventa años demostró que cuando el amor es verdadero, sigue encontrando palabras en la música.",
+      "text": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal.",
       "assetIndex": 8
     }
-  ]
+  ],
+  "beats": [
+    "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
+    "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas.",
+    "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!».",
+    "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz.",
+    "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas.",
+    "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo.",
+    "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora.",
+    "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock.",
+    "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
+  ],
+  "outro": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
 }
