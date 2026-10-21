@@ -1,12 +1,12 @@
 {
   "brand": "acordes-ocultos",
-  "slug": "the-beatles-strawberry-fields-forever-acordes-ocultos",
-  "articleSlug": "the-beatles-strawberry-fields-forever-acordes-ocultos",
-  "title": "El orfanato prohibido donde John Lennon aprendió a no tener miedo",
-  "artist": "The Beatles",
+  "slug": "ozzy-osbourne-mama-im-coming-home-acordes-ocultos",
+  "articleSlug": "ozzy-osbourne-mama-im-coming-home-acordes-ocultos",
+  "title": "La carta de súplica con la que Ozzy Osbourne le pidió perdón a la mujer que casi destruye",
+  "artist": "Ozzy Osbourne",
   "topic": "acordes-ocultos",
-  "hook": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
-  "anecdote": "De niño, John Lennon saltaba los muros de Strawberry Field, un orfanato para niñas contiguo a su casa en Liverpool, buscando refugio para su propia soledad. Años después, exhausto tras abandonar las giras con The Beatles, compuso en Almería una confesión desgarradora sobre su infancia herida, que en Abbey Road revolucionó la historia de la música.",
+  "hook": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
+  "anecdote": "Tras un aterrador brote psicótico que casi termina en tragedia con Sharon, Ozzy Osbourne se internó seis meses en rehabilitación. Ya sobrio, recurrió a su amigo Lemmy Kilmister de Motörhead para que escribiera una plegaria de redención a la única mujer que lo mantuvo con vida: 'Mama, I'm Coming Home'.",
   "durationSeconds": 90,
   "palette": {
     "ink": "#0b0c10",
@@ -15,232 +15,232 @@
     "glow": "#e6c666"
   },
   "music": {
-    "title": "Strawberry Fields Forever",
-    "artist": "The Beatles",
-    "year": 1967,
-    "src": "music/the-beatles-strawberry-fields-forever.mp3",
-    "file": "music/the-beatles-strawberry-fields-forever.mp3",
-    "source": "music/the-beatles-strawberry-fields-forever.mp3",
+    "title": "Mama, I'm Coming Home",
+    "artist": "Ozzy Osbourne",
+    "year": 1991,
+    "src": "music/ozzy-osbourne-mama-im-coming-home.mp3",
+    "file": "music/ozzy-osbourne-mama-im-coming-home.mp3",
+    "source": "music/ozzy-osbourne-mama-im-coming-home.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "fadeInSeconds": 0.5,
     "fadeOutSeconds": 3,
     "instagram": {
-      "query": "Strawberry Fields Forever The Beatles",
+      "query": "Mama I'm Coming Home Ozzy Osbourne",
       "status": "manual_check_required",
-      "expectedTitle": "Strawberry Fields Forever",
-      "expectedArtist": "The Beatles",
-      "notes": "Seleccionar audio oficial de Strawberry Fields Forever interpretada por The Beatles en Instagram Reels."
+      "expectedTitle": "Mama, I'm Coming Home",
+      "expectedArtist": "Ozzy Osbourne",
+      "notes": "Seleccionar audio oficial de Mama, I'm Coming Home interpretada por Ozzy Osbourne en Instagram Reels."
     }
   },
-  "coverBg": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 authentic archival late 1966 photograph of 26-year-old John Lennon (slender build, distinctive aquiline nose, neatly trimmed late-1966 hair with subtle sideburns, wearing iconic circular metal-rimmed round spectacles, dark woolen coat over a knitted sweater), looking thoughtfully into the distance with a wistful melancholic gaze in front of the ornate red Victorian iron gates of Strawberry Field under a soft misty morning light in Liverpool, rich 35mm Kodak film grain, moody cinematic atmosphere, generous negative space top and center for typography, strictly no text.",
+  "coverBg": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 authentic archival 1991 documentary portrait of 42-year-old rock singer Ozzy Osbourne (slender build, distinctive aquiline nose, shoulder-length straight dark brown hair, wearing circular wire-rimmed dark sunglasses, a vintage black velvet jacket over a dark shirt, with delicate silver crosses on his neck), looking pensively towards the distance with solemn emotional vulnerability in a dim backstage dressing room under warm amber lamps, rich 35mm film grain, moody cinematic atmosphere, generous negative space top and center for typography, strictly no text.",
   "scenes": [
     {
       "id": 1,
       "name": "scene-01",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
       "startFrame": 0,
       "endFrame": 300,
       "text": {
-        "es": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas."
+        "es": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa."
       },
-      "prompt": "Vertical 9:16 authentic 1940s-1950s documentary photograph: The imposing Victorian gothic brick manor of the Salvation Army Strawberry Field children home in Woolton, Liverpool, surrounded by dense leafy overgrown gardens under a grey overcast English afternoon sky, vintage sandstone pillars and ornate iron fence, authentic 35mm archival grainy texture, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic 1989 British police station archival photograph: A gloomy police holding cell in Amersham England, bare grey stone walls, heavy iron barred door, dim overhead fluorescent light casting long dramatic shadows, a disoriented man matching Ozzy Osbourne likeness sitting with head buried in trembling hands on a wooden cot, 35mm documentary grain, quiet lower third, no text."
     },
     {
       "id": 2,
       "name": "scene-02",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
       "startFrame": 300,
       "endFrame": 600,
       "text": {
-        "es": "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas."
+        "es": "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'."
       },
-      "prompt": "Vertical 9:16 intimate 1949 archival portrait: An 8-year-old boy matching young John Lennon childhood features (tousled dark hair, delicate features, thoughtful penetrating melancholic brown eyes, wearing a vintage 1940s English wool schoolboy blazer and short trousers) sitting alone by an open bedroom window at Mendips cottage, gazing quietly toward the distant treetops of Strawberry Field, soft morning light, authentic 35mm grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 candid 1982 archival photograph: Young Sharon Osbourne (petite British woman with stylish 1980s voluminous auburn-tinted hair, sharp determined gaze, wearing an elegant dark blazer) tenderly supporting a fatigued Ozzy Osbourne in a hotel lobby, capturing her protective, caring and managerial presence, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
     },
     {
       "id": 3,
       "name": "scene-03",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
       "startFrame": 600,
       "endFrame": 900,
       "text": {
-        "es": "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!»."
+        "es": "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo."
       },
-      "prompt": "Vertical 9:16 candid 1950s documentary action shot: A young 10-year-old boy (young John Lennon likeness) nimbly climbing over a weathered red brick garden wall draped in ivy, surrounded by lush summer tree branches, caught in a spontaneous moment of youthful adventure and gentle defiance, 35mm vintage black and white film grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 dramatic 1989 nighttime interior documentary atmosphere: An opulent English countryside manor living room in Buckinghamshire at night, heavy velvet curtains, scattered overturned glasses on an antique rug, dark moody shadows, atmospheric cinematic tension representing the tragic domestic blackout before the sirens arrived, 35mm film grain, quiet lower third, no text."
     },
     {
       "id": 4,
       "name": "scene-04",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
       "startFrame": 900,
       "endFrame": 1200,
       "text": {
-        "es": "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz."
+        "es": "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo."
       },
-      "prompt": "Vertical 9:16 poetic 1950s documentary scene: Young John Lennon sitting peacefully against the trunk of a giant ancient oak tree inside the secluded wooded grounds of Strawberry Field, sunlight filtering through green leaves creating soft dapples on the grass, resting with hands behind his head in quiet contemplation, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 emotional 1989 archival moment: Sharon Osbourne sitting in a quiet solicitor office room, dignified and firm expression with tearful yet resolute eyes, holding paperwork, as Ozzy Osbourne in dark clothes kneels in profound remorse and grief beside her, soft overcast window light, 35mm film grain, quiet lower third, no text."
     },
     {
       "id": 5,
       "name": "scene-05",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
       "startFrame": 1200,
       "endFrame": 1500,
       "text": {
-        "es": "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas."
+        "es": "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta."
       },
-      "prompt": "Vertical 9:16 authentic historical October 1966 documentary photograph in Santa Isabel, Almería, Spain: 26-year-old John Lennon matching his exact historic appearance (military short haircut for the film How I Won The War, circular wire-rimmed spectacles, slender face, wearing a simple open-collar white linen shirt and dark trousers) sitting on a sunlit whitewashed Mediterranean patio, gently fingerpicking a Gibson J-160E acoustic guitar, warm desert sunlight, 35mm Kodak grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic 1991 documentary studio photograph: 42-year-old Ozzy Osbourne looking clean, refreshed and sober (long clean dark hair, wearing round wire-rimmed glasses, simple dark long-sleeve tee) standing in front of a studio acoustic divider at A&M Studios in Los Angeles, looking determined with handwritten notebooks in hand, warm studio lights, 35mm Tri-X grain, quiet lower third, no text."
     },
     {
       "id": 6,
       "name": "scene-06",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
       "startFrame": 1500,
       "endFrame": 1800,
       "text": {
-        "es": "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo."
+        "es": "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento."
       },
-      "prompt": "Vertical 9:16 intimate 1966 candid studio moment: John Lennon in Almería villa room, wearing round wire glasses and a casual cardigan, intently scribbling handwritten lyrics and chord notations onto a yellow legal pad next to a small vintage Philips portable reel-to-reel tape recorder on a rustic wooden table, cigarette smoke softly rising, intense artistic vulnerability, authentic 1966 35mm film grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 candid 1991 recording studio moment: Young guitarist Zakk Wylde (24 years old, athletic build, long blond wavy hair, denim vest) sitting on a stool fingerpicking an acoustic 12-string guitar, while Ozzy Osbourne in round spectacles sits thoughtfully on a studio couch listening intensely with closed eyes, warm tungsten studio lamps, 35mm grain, quiet lower third, no text."
     },
     {
       "id": 7,
       "name": "scene-07",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
       "startFrame": 1800,
       "endFrame": 2100,
       "text": {
-        "es": "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora."
+        "es": "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora."
       },
-      "prompt": "Vertical 9:16 authentic November 1966 studio photograph inside EMI Studios Abbey Road Studio Two: 24-year-old Paul McCartney (young, slender, clean-shaven, swept dark hair, casual collared shirt) sitting at the cream-colored Mellotron Mark II keyboard playing the iconic opening flute notes, with John Lennon (round spectacles, dark polo neck) leaning attentively over the wooden instrument cabinet listening with wonder, warm analog tungsten studio lamps, 35mm Tri-X grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic 1991 documentary scene in Los Angeles: Legendary rock icon Lemmy Kilmister of Motörhead (imposing rugged look, iconic mutton chops and mustache, black cowboy hat with cavalry insignia, black shirt) typing intently on a vintage portable manual typewriter at a wooden desk with a notebook and cigarette, authentic 35mm archival film grain, quiet lower third, no text."
     },
     {
       "id": 8,
       "name": "scene-08",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
       "startFrame": 2100,
       "endFrame": 2400,
       "text": {
-        "es": "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock."
+        "es": "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto."
       },
-      "prompt": "Vertical 9:16 dramatic historical control room scene in Abbey Road Studios in December 1966: Producer George Martin (tall, distinguished gentleman in a crisp suit and tie) and young sound engineer Geoff Emerick at the vintage EMI REDD.51 tube mixing console, using razor blades and editing tape to splice two magnetic master tapes together under warm desk lamps, while John Lennon in circular glasses watches intensely from the background shadows, authentic 35mm grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 intense vocal recording session: Ozzy Osbourne singing with profound raw emotion and closed eyes directly into a high-end vintage Neumann U87 condenser microphone in the recording booth, headphones on, hands clutching the microphone stand, emotional tears glistening on his cheeks, warm golden studio backlighting, 35mm Kodak grain, quiet lower third, no text."
     },
     {
       "id": 9,
       "name": "scene-09",
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
       "startFrame": 2400,
       "endFrame": 2700,
       "text": {
-        "es": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
+        "es": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
       },
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: The iconic ornate Victorian wrought-iron gates of Strawberry Field painted in weathered deep crimson red, set between historic weathered sandstone pillars in Liverpool, soft morning mist swirling through tall autumn trees, golden morning sunlight breaking through the canopy casting long warm rays, fallen russet leaves on the cobblestones, strictly no turntables, strictly no vinyl records, strictly no record players, profound nostalgic peace, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: Sharon Osbourne and Ozzy Osbourne embracing tenderly in quiet silhouette backstage in 1992, warm amber stage lights glowing softly from the wings in the background, a moment of profound forgiveness, healing and mutual devotion, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
     }
   ],
   "publication": {
     "tags": [
-      "#TheBeatles",
-      "#JohnLennon",
-      "#StrawberryFieldsForever",
-      "#AbbeyRoad",
-      "#PaulMcCartney",
+      "#OzzyOsbourne",
+      "#MamaImComingHome",
+      "#SharonOsbourne",
+      "#LemmyKilmister",
+      "#NoMoreTears",
       "#HistoriaMusical",
       "#AcordesOcultos"
     ],
-    "copy": "«No pueden colgarme por esto». Cuando John Lennon era apenas un niño solitario en Liverpool, solía saltar a escondidas los altos muros de Strawberry Field, un severo orfanato victoriano para niñas huérfanas ubicado justo detrás del jardín de su tía Mimi. Cada vez que su tía le gritaba aterrada que lo iban a encerrar o colgar si lo descubrían, John sonreía desafiante. Para un niño abandonado por su padre marino y entregado por su madre a sus tíos, aquel jardín prohibido no era una amenaza: era el único rincón del mundo donde el dolor de existir parecía desaparecer.\n\nVeinte años después, en el otoño de 1966, The Beatles decidieron retirarse de las giras exhaustos de la histeria colectiva. Refugiado en una finca solitaria en Almería mientras rodaba una película, John se sentó bajo el sol con su guitarra acústica para enfrentarse a sus fantasmas más profundos. Allí nació «Strawberry Fields Forever», una confesión desgarradora sobre la soledad infantil, la inseguridad y el vértigo de no encajar jamás en la realidad de los adultos.\n\nEn los estudios de Abbey Road, Paul McCartney abrió la pieza tocando las míticas flautas del Mellotron y George Martin ejecutó una obra de alquimia analógica uniendo dos tomas en tonos y velocidades incompatibles, sellando para siempre la transición entre la inocencia y la madurez de la música popular.\n\n¿Qué recuerdos o emociones despiertan en ti las primeras notas de este clásico de The Beatles? Te leemos en los comentarios. 👇\n\nLa historia completa y las fotografías de época están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.",
-    "tiktokDescription": "«No pueden colgarme por esto». El sombrío orfanato donde John Lennon se refugiaba de niño para escapar de su propia soledad dio vida a la canción que cambió la historia del rock. 🍓🕊️\n\n¿Conocías la historia detrás de Strawberry Fields Forever? 👇\n\n#TheBeatles #JohnLennon #StrawberryFieldsForever #HistoriaMusical #AcordesOcultos",
-    "description": "«No pueden colgarme por esto». Cuando John Lennon era apenas un niño solitario en Liverpool, solía saltar a escondidas los altos muros de Strawberry Field, un severo orfanato victoriano para niñas huérfanas ubicado justo detrás del jardín de su tía Mimi. Cada vez que su tía le gritaba aterrada que lo iban a encerrar o colgar si lo descubrían, John sonreía desafiante. Para un niño abandonado por su padre marino y entregado por su madre a sus tíos, aquel jardín prohibido no era una amenaza: era el único rincón del mundo donde el dolor de existir parecía desaparecer.\n\nVeinte años después, en el otoño de 1966, The Beatles decidieron retirarse de las giras exhaustos de la histeria colectiva. Refugiado en una finca solitaria en Almería mientras rodaba una película, John se sentó bajo el sol con su guitarra acústica para enfrentarse a sus fantasmas más profundos. Allí nació «Strawberry Fields Forever», una confesión desgarradora sobre la soledad infantil, la inseguridad y el vértigo de no encajar jamás en la realidad de los adultos.\n\nEn los estudios de Abbey Road, Paul McCartney abrió la pieza tocando las míticas flautas del Mellotron y George Martin ejecutó una obra de alquimia analógica uniendo dos tomas en tonos y velocidades incompatibles, sellando para siempre la transición entre la inocencia y la madurez de la música popular.\n\n¿Qué recuerdos o emociones despiertan en ti las primeras notas de este clásico de The Beatles? Te leemos en los comentarios. 👇\n\nLa historia completa y las fotografías de época están en nuestra crónica extendida. Encuentras el enlace directo en el perfil."
+    "copy": "«¿Por qué estoy aquí?». En agosto de 1989, Ozzy Osbourne despertó en el suelo helado de una celda en la prisión de Amersham, Inglaterra. No recordaba nada de las últimas doce horas. Cuando el oficial de guardia le informó que estaba detenido por intento de homicidio contra su esposa Sharon, el Príncipe de las Tinieblas se derrumbó a llorar de rodillas como un niño desamparado.\n\nSharon no era una esposa cualquiera: era la mujer que en 1979 lo recogió borracho e inconsciente de una habitación de hotel en Los Ángeles tras ser despedido de Black Sabbath. Era su mánager, su escudo y su salvavidas, a quien él llamaba cariñosamente en la intimidad «Mama». Tras el terror de aquella noche, Sharon decidió no presentar cargos con una sola condición innegociable: seis meses de internamiento y sobriedad absoluta.\n\nYa recuperado en 1991, Ozzy quiso componer una plegaria de perdón. Con los arpegios de Zakk Wylde y la pluma maestra de su compadre Lemmy Kilmister de Motörhead en una máquina de escribir, nació «Mama, I'm Coming Home»: el testamento de un hombre destrozado que jura haber enterrado al monstruo para volver a casa.\n\n¿Qué sientes cada vez que escuchas a Ozzy cantar esta balada inmortal? Te leemos en los comentarios. 👇\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.",
+    "tiktokDescription": "«¿Por qué estoy aquí?». Ozzy despertó en prisión acusado de intentar matar a su esposa... y compuso la balada más hermosa del rock para suplicar su perdón. 🕊️🖤\n\n¿Conocías la historia detrás de 'Mama, I'm Coming Home'? 👇\n\n#OzzyOsbourne #SharonOsbourne #LemmyKilmister #HistoriaMusical #AcordesOcultos",
+    "description": "«¿Por qué estoy aquí?». En agosto de 1989, Ozzy Osbourne despertó en el suelo helado de una celda en la prisión de Amersham, Inglaterra. No recordaba nada de las últimas doce horas. Cuando el oficial de guardia le informó que estaba detenido por intento de homicidio contra su esposa Sharon, el Príncipe de las Tinieblas se derrumbó a llorar de rodillas como un niño desamparado.\n\nSharon no era una esposa cualquiera: era la mujer que en 1979 lo recogió borracho e inconsciente de una habitación de hotel en Los Ángeles tras ser despedido de Black Sabbath. Era su mánager, su escudo y su salvavidas, a quien él llamaba cariñosamente en la intimidad «Mama». Tras el terror de aquella noche, Sharon decidió no presentar cargos con una sola condición innegociable: seis meses de internamiento y sobriedad absoluta.\n\nYa recuperado en 1991, Ozzy quiso componer una plegaria de perdón. Con los arpegios de Zakk Wylde y la pluma maestra de su compadre Lemmy Kilmister de Motörhead en una máquina de escribir, nació «Mama, I'm Coming Home»: el testamento de un hombre destrozado que jura haber enterrado al monstruo para volver a casa.\n\n¿Qué sientes cada vez que escuchas a Ozzy cantar esta balada inmortal? Te leemos en los comentarios. 👇\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil."
   },
   "assets": [
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1940s-1950s documentary photograph: The imposing Victorian gothic brick manor of the Salvation Army Strawberry Field children home in Woolton, Liverpool, surrounded by dense leafy overgrown gardens under a grey overcast English afternoon sky, vintage sandstone pillars and ornate iron fence, authentic 35mm archival grainy texture, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1989 British police station archival photograph: A gloomy police holding cell in Amersham England, bare grey stone walls, heavy iron barred door, dim overhead fluorescent light casting long dramatic shadows, a disoriented man matching Ozzy Osbourne likeness sitting with head buried in trembling hands on a wooden cot, 35mm documentary grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 intimate 1949 archival portrait: An 8-year-old boy matching young John Lennon childhood features (tousled dark hair, delicate features, thoughtful penetrating melancholic brown eyes, wearing a vintage 1940s English wool schoolboy blazer and short trousers) sitting alone by an open bedroom window at Mendips cottage, gazing quietly toward the distant treetops of Strawberry Field, soft morning light, authentic 35mm grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 candid 1982 archival photograph: Young Sharon Osbourne (petite British woman with stylish 1980s voluminous auburn-tinted hair, sharp determined gaze, wearing an elegant dark blazer) tenderly supporting a fatigued Ozzy Osbourne in a hotel lobby, capturing her protective, caring and managerial presence, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 candid 1950s documentary action shot: A young 10-year-old boy (young John Lennon likeness) nimbly climbing over a weathered red brick garden wall draped in ivy, surrounded by lush summer tree branches, caught in a spontaneous moment of youthful adventure and gentle defiance, 35mm vintage black and white film grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 dramatic 1989 nighttime interior documentary atmosphere: An opulent English countryside manor living room in Buckinghamshire at night, heavy velvet curtains, scattered overturned glasses on an antique rug, dark moody shadows, atmospheric cinematic tension representing the tragic domestic blackout before the sirens arrived, 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 poetic 1950s documentary scene: Young John Lennon sitting peacefully against the trunk of a giant ancient oak tree inside the secluded wooded grounds of Strawberry Field, sunlight filtering through green leaves creating soft dapples on the grass, resting with hands behind his head in quiet contemplation, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 emotional 1989 archival moment: Sharon Osbourne sitting in a quiet solicitor office room, dignified and firm expression with tearful yet resolute eyes, holding paperwork, as Ozzy Osbourne in dark clothes kneels in profound remorse and grief beside her, soft overcast window light, 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic historical October 1966 documentary photograph in Santa Isabel, Almería, Spain: 26-year-old John Lennon matching his exact historic appearance (military short haircut for the film How I Won The War, circular wire-rimmed spectacles, slender face, wearing a simple open-collar white linen shirt and dark trousers) sitting on a sunlit whitewashed Mediterranean patio, gently fingerpicking a Gibson J-160E acoustic guitar, warm desert sunlight, 35mm Kodak grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1991 documentary studio photograph: 42-year-old Ozzy Osbourne looking clean, refreshed and sober (long clean dark hair, wearing round wire-rimmed glasses, simple dark long-sleeve tee) standing in front of a studio acoustic divider at A&M Studios in Los Angeles, looking determined with handwritten notebooks in hand, warm studio lights, 35mm Tri-X grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 intimate 1966 candid studio moment: John Lennon in Almería villa room, wearing round wire glasses and a casual cardigan, intently scribbling handwritten lyrics and chord notations onto a yellow legal pad next to a small vintage Philips portable reel-to-reel tape recorder on a rustic wooden table, cigarette smoke softly rising, intense artistic vulnerability, authentic 1966 35mm film grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 candid 1991 recording studio moment: Young guitarist Zakk Wylde (24 years old, athletic build, long blond wavy hair, denim vest) sitting on a stool fingerpicking an acoustic 12-string guitar, while Ozzy Osbourne in round spectacles sits thoughtfully on a studio couch listening intensely with closed eyes, warm tungsten studio lamps, 35mm grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic November 1966 studio photograph inside EMI Studios Abbey Road Studio Two: 24-year-old Paul McCartney (young, slender, clean-shaven, swept dark hair, casual collared shirt) sitting at the cream-colored Mellotron Mark II keyboard playing the iconic opening flute notes, with John Lennon (round spectacles, dark polo neck) leaning attentively over the wooden instrument cabinet listening with wonder, warm analog tungsten studio lamps, 35mm Tri-X grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1991 documentary scene in Los Angeles: Legendary rock icon Lemmy Kilmister of Motörhead (imposing rugged look, iconic mutton chops and mustache, black cowboy hat with cavalry insignia, black shirt) typing intently on a vintage portable manual typewriter at a wooden desk with a notebook and cigarette, authentic 35mm archival film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 dramatic historical control room scene in Abbey Road Studios in December 1966: Producer George Martin (tall, distinguished gentleman in a crisp suit and tie) and young sound engineer Geoff Emerick at the vintage EMI REDD.51 tube mixing console, using razor blades and editing tape to splice two magnetic master tapes together under warm desk lamps, while John Lennon in circular glasses watches intensely from the background shadows, authentic 35mm grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 intense vocal recording session: Ozzy Osbourne singing with profound raw emotion and closed eyes directly into a high-end vintage Neumann U87 condenser microphone in the recording booth, headphones on, hands clutching the microphone stand, emotional tears glistening on his cheeks, warm golden studio backlighting, 35mm Kodak grain, quiet lower third, no text."
     },
     {
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: The iconic ornate Victorian wrought-iron gates of Strawberry Field painted in weathered deep crimson red, set between historic weathered sandstone pillars in Liverpool, soft morning mist swirling through tall autumn trees, golden morning sunlight breaking through the canopy casting long warm rays, fallen russet leaves on the cobblestones, strictly no turntables, strictly no vinyl records, strictly no record players, profound nostalgic peace, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: Sharon Osbourne and Ozzy Osbourne embracing tenderly in quiet silhouette backstage in 1992, warm amber stage lights glowing softly from the wings in the background, a moment of profound forgiveness, healing and mutual devotion, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
     }
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-01.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-02.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-03.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-04.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-05.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-06.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-07.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-08.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/the-beatles-strawberry-fields-forever-acordes-ocultos/scene-09.png",
+      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
       "type": "image"
     }
   ],
@@ -248,68 +248,68 @@
     {
       "start": 0,
       "end": 10,
-      "text": "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
+      "text": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas.",
+      "text": "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!».",
+      "text": "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz.",
+      "text": "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas.",
+      "text": "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo.",
+      "text": "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora.",
+      "text": "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock.",
+      "text": "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal.",
+      "text": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver.",
       "assetIndex": 8
     }
   ],
   "beats": [
-    "A espaldas de la casa donde creció John Lennon en Liverpool se levantaba un sombrío orfanato victoriano para niñas abandonadas.",
-    "Abandonado por su padre marino y entregado por su madre a su tía Mimi, John se sentía tan huérfano como aquellas niñas.",
-    "Cada verano, John saltaba los muros para refugiarse en sus jardines. Tía Mimi le advertía: «¡Te colgarán si te atrapan!».",
-    "Lennon le respondía con una sonrisa desafiante: «No pueden colgarme por esto». Aquel bosque prohibido era su único templo de paz.",
-    "Otoño de 1966. En el desierto de Almería, exhausto de la histeria beatle, John tomó su guitarra acústica para curar sus viejas heridas.",
-    "Nació 'Strawberry Fields Forever': una confesión íntima y vulnerable sobre el dolor infantil de no encajar en este mundo.",
-    "En Abbey Road, Paul McCartney abrió la canción con los acordes fantasmagóricos del Mellotron, inaugurando una nueva era sonora.",
-    "John exigió a George Martin unir dos tomas en tonos y velocidades distintas: un milagro analógico que partió la historia del rock.",
-    "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
+    "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
+    "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'.",
+    "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo.",
+    "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo.",
+    "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta.",
+    "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento.",
+    "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora.",
+    "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto.",
+    "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
   ],
-  "outro": "Hay lugares de la infancia que nunca mueren, y melodías que transforman la soledad más oscura en una obra de arte inmortal."
+  "outro": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
 }
