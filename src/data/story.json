@@ -1,126 +1,95 @@
 {
-  "id": "silvio-rodriguez-el-elegido-acordes-ocultos",
-  "title": "El «animal de galaxia» que no pudieron quebrar",
-  "artist": "Silvio Rodríguez",
+  "id": "wilson-phillips-hold-on-acordes-ocultos",
   "brand": "acordes-ocultos",
-  "topic": "acordes-ocultos",
-  "slug": "silvio-rodriguez-el-elegido-acordes-ocultos",
-  "articleSlug": "silvio-rodriguez-el-elegido-acordes-ocultos",
-  "durationSeconds": 90,
+  "title": "El mantra de sobriedad que salvó a las hijas del rock",
+  "artist": "Wilson Phillips",
+  "songTitle": "Hold On",
+  "topic": "curiosidad musical",
+  "slug": "wilson-phillips-hold-on-acordes-ocultos",
+  "articleSlug": "wilson-phillips-hold-on-acordes-ocultos",
   "fps": 30,
-  "width": 1080,
-  "height": 1920,
-  "anecdote": "Durante décadas creyeron que Canción del elegido hablaba del Che o de Fidel, pero Silvio Rodríguez la escribió en 1969 tras escuchar las confesiones íntimas de Haydée Santamaría sobre su hermano Abel, torturado y asesinado en el Moncada con veinticinco años.",
-  "hook": "Durante décadas creyeron que esta canción hablaba de un comandante legendario... pero su destinatario real fue un joven de veinticinco años cuya dignidad jamás pudieron quebrar.",
-  "outro": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos.",
+  "durationInFrames": 2700,
+  "music": {
+    "title": "Hold On",
+    "artist": "Wilson Phillips",
+    "file": "music/wilson-phillips-hold-on.mp3"
+  },
+  "cover": {
+    "badge": "Acordes Ocultos",
+    "title": "Hold On",
+    "artist": "Wilson Phillips"
+  },
   "palette": {
-    "ink": "#0a0a0a",
-    "paper": "#f5f0eb",
-    "accent": "#d97706",
+    "ink": "#0f172a",
+    "paper": "#f8fafc",
+    "accent": "#f59e0b",
     "glow": "#fbbf24"
   },
-  "music": {
-    "title": "Canción del elegido",
-    "artist": "Silvio Rodríguez",
-    "src": "music/silvio-rodriguez-el-elegido.mp3",
-    "startSecond": 0,
-    "volume": 0.55,
-    "instagram": {
-      "query": "Silvio Rodríguez Canción del elegido",
-      "status": "manual_check_required"
-    }
-  },
-  "assets": [
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 deeply atmospheric 1969 cinematic prologue scene: A poetic silhouette of a young visionary in Havana against a deep indigo twilight sky with faint swirling stellar constellations, quiet poetic lighting, rich 35mm film grain, quiet lower third, no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 authentic historical 1953 documentary photograph in Santiago de Cuba: 25-year-old Cuban revolutionary leader Abel Santamaría (fair skin, light-brown combed hair, distinctive square-framed prescription eyeglasses, clean white button-down civilian shirt) taking cover in the corridor of Hospital Saturnino Lora, courageous focused expression, vintage 1953 35mm Tri-X grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 dramatic 1953 archival documentary scene in a dim military detention cell: Abel Santamaría (matching the exact facial features, blond hair and square glasses from Scene 02, disheveled white shirt) surrounded by Batista military police in khaki uniforms, standing with silent unyielding dignity and unbroken moral strength in the shadows, 35mm high contrast film grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 poignant historical 1953 documentary scene: 30-year-old Cuban revolutionary Haydée Santamaría (striking dark wavy hair, deep expressive dark eyes, solemn heartbroken but defiant expression, simple 1950s prison infirmary dress) sitting in a bare concrete room, weeping tears of fierce dignity, cinematic chiaroscuro, 35mm archival grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 candid 1968 cultural documentary scene in Havana: 45-year-old Haydée Santamaría (distinguished cultural leader with dark hair streaked with silver, wearing an elegant simple dark cardigan) standing in the sunlit modernist lobby of Casa de las Américas greeting young trovadores with acoustic guitars, warm Caribbean daylight, 35mm Kodachrome grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 intimate 1969 Havana interior photograph: In a warm wood-paneled office at night illuminated by a single brass desk lamp, Haydée Santamaría (46 years old) sits across a wooden table from 22-year-old Silvio Rodríguez (matching Reference Photo A: clean-shaven, distinctive high rounded forehead, soft melancholic eyes, dark chambray shirt), holding a cup of Cuban coffee and looking at vintage black-and-white letters and photos of Abel, rich 35mm film grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 1969 creative moment: 22-year-old Silvio Rodríguez (matching Reference Photo A: high rounded forehead, expressive eyes, rolled-up sleeve blue shirt) sitting on the edge of a simple wooden bed in a modest Havana room at 3 AM, classical acoustic guitar resting on his thigh, writing lyrics with a ballpoint pen in an open lined notebook, warm tungsten lamplight, 35mm Tri-X grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 dramatic 1969 recording studio photograph: 22-year-old Silvio Rodríguez (matching Reference Photo A: high forehead, clean-shaven, concentrated poetic intensity) singing passionately into a vintage Neumann U47 condenser microphone in the Havana studio, fast blur of fingers arpeggiating on the guitar fretboard, warm golden backlight, 35mm archival grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 deeply poetic closing documentary scene: A high colonial Havana wooden shutter window open to the vast sea horizon of the Malecón at sunrise, gentle sea breeze lifting linen curtains, a beautiful classical acoustic guitar resting upright on an antique wooden rocking chair in the soft golden morning light, strictly no vinyl records, strictly no turntables, strictly no record players, evocative fine art 35mm film grain, quiet lower third, strictly no text."
-    }
+  "outro": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más.",
+  "beats": [
+    "1989: El linaje del rock",
+    "La sombra de Brian Wilson",
+    "El caos en Laurel Canyon",
+    "Chynna al borde del colapso",
+    "El principio de un día a la vez",
+    "El automóvil de madrugada",
+    "Hold on for one more day",
+    "La alquimia de tres voces",
+    "El refugio universal"
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-09.png",
       "type": "image"
     }
   ],
@@ -128,164 +97,199 @@
     {
       "start": 0,
       "end": 10,
-      "text": "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba."
+      "speaker": "Acordes Ocultos",
+      "text": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora."
+      "speaker": "Acordes Ocultos",
+      "text": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros."
+      "speaker": "Acordes Ocultos",
+      "text": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable."
+      "speaker": "Acordes Ocultos",
+      "text": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial."
+      "speaker": "Acordes Ocultos",
+      "text": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano."
+      "speaker": "Acordes Ocultos",
+      "text": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto."
+      "speaker": "Acordes Ocultos",
+      "text": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida."
+      "speaker": "Acordes Ocultos",
+      "text": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
+      "speaker": "Acordes Ocultos",
+      "text": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más."
     }
   ],
   "scenes": [
     {
-      "id": 1,
-      "name": "scene-01",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
-      "startFrame": 0,
-      "endFrame": 300,
-      "text": {
-        "es": "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba."
-      }
+      "id": "scene-01",
+      "title": "Las hijas de dos dinastías rotas",
+      "start": 0,
+      "end": 10,
+      "description": "Carnie y Wendy Wilson junto a Chynna Phillips en un estudio de Los Ángeles en 1989, jóvenes veinteañeras con miradas reflexivas ante partituras y micrófonos vintage.",
+      "focus": "El peso invisible del linaje musical",
+      "visualPrompt": "Vertical 9:16 authentic archival 1989 documentary photograph: Chynna Phillips (21, slender, blonde hair, green eyes), Carnie Wilson (21, curvier, voluminous wavy brown hair) and Wendy Wilson (20, long dark hair) sitting closely together around a piano with lyric notebooks in a warm Los Angeles rehearsal studio, 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción.",
+      "voiceover": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción."
     },
     {
-      "id": 2,
-      "name": "scene-02",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
-      "startFrame": 300,
-      "endFrame": 600,
-      "text": {
-        "es": "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora."
-      }
+      "id": "scene-02",
+      "title": "La sombra de Brian Wilson",
+      "start": 10,
+      "end": 20,
+      "description": "Un piano de cola en una residencia de Bel Air a finales de los 70, con sombras alargadas y la silueta solitaria de Brian Wilson al fondo.",
+      "focus": "El aislamiento y la psicosis de Brian Wilson",
+      "visualPrompt": "Vertical 9:16 evocative 1970s documentary scene: In a dimly lit Bel Air living room, a solitary concert grand piano sits in partial shadow while a troubled, bearded Brian Wilson sits slumped in an armchair in the background looking distant, authentic 1970s 35mm warm Kodachrome grain, quiet lower third, strictly no text.",
+      "subtitle": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis.",
+      "voiceover": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis."
     },
     {
-      "id": 3,
-      "name": "scene-03",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
-      "startFrame": 600,
-      "endFrame": 900,
-      "text": {
-        "es": "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros."
-      }
+      "id": "scene-03",
+      "title": "El caos en Laurel Canyon",
+      "start": 20,
+      "end": 30,
+      "description": "Una sala bohemia en Laurel Canyon en los 70, vinilos de The Mamas & the Papas, ceniceros y la atmósfera densa de una fiesta.",
+      "focus": "El desenfreno y las adicciones de John y Michelle Phillips",
+      "visualPrompt": "Vertical 9:16 archival 1970s documentary scene: A bohemian living room in Laurel Canyon after a wild party, early morning light filtering through wooden blinds onto scattered vintage vinyl sleeves and empty glasses, atmospheric 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas.",
+      "voiceover": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas."
     },
     {
-      "id": 4,
-      "name": "scene-04",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
-      "startFrame": 900,
-      "endFrame": 1200,
-      "text": {
-        "es": "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable."
-      }
+      "id": "scene-04",
+      "title": "Chynna al borde del colapso",
+      "start": 30,
+      "end": 40,
+      "description": "Chynna Phillips a los 21 años, sentada en el borde de una cama en una habitación en penumbra de Los Ángeles, con las manos sobre el rostro.",
+      "focus": "La crisis de sustancias y los ataques de pánico a los 21 años",
+      "visualPrompt": "Vertical 9:16 poignant 1988 documentary scene: 21-year-old Chynna Phillips (slender build, delicate features, shoulder-length blonde hair, wearing an oversized knit sweater) sitting on the edge of a bed in a shadowy Los Angeles bedroom, hands resting gently on her lap in deep emotional exhaustion, warm lamplight, 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes.",
+      "voiceover": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes."
     },
     {
-      "id": 5,
-      "name": "scene-05",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
-      "startFrame": 1200,
-      "endFrame": 1500,
-      "text": {
-        "es": "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial."
-      }
+      "id": "scene-05",
+      "title": "El principio de un día a la vez",
+      "start": 40,
+      "end": 50,
+      "description": "Una humilde sala comunitaria con sillas plegables de metal en círculo y tazas de café, luz cálida de tarde entrando por la ventana.",
+      "focus": "Las reuniones de Alcohólicos Anónimos y el aprendizaje de los doce pasos",
+      "visualPrompt": "Vertical 9:16 intimate 1989 documentary photograph: A circle of metal folding chairs in a humble church basement meeting hall, warm afternoon sun streaming through tall windows, paper coffee cups on a small table, a supportive and dignified recovery atmosphere, 35mm Tri-X grain, quiet lower third, strictly no text.",
+      "subtitle": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez.",
+      "voiceover": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez."
     },
     {
-      "id": 6,
-      "name": "scene-06",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
-      "startFrame": 1500,
-      "endFrame": 1800,
-      "text": {
-        "es": "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano."
-      }
+      "id": "scene-06",
+      "title": "El automóvil de madrugada",
+      "start": 50,
+      "end": 60,
+      "description": "Chynna Phillips dentro de su coche estacionado de noche en una calle residencial arbolada de Los Ángeles, con auriculares y una libreta.",
+      "focus": "La escucha de la maqueta de Glen Ballard en el auto",
+      "visualPrompt": "Vertical 9:16 cinematic 1989 night scene: 21-year-old Chynna Phillips sitting behind the steering wheel of a vintage parked sedan on a quiet Beverly Hills street at 2 AM, cassette deck softly illuminated on the dashboard, she is wearing vintage headphones and holding an open spiral notepad, soft amber streetlight, 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard.",
+      "voiceover": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard."
     },
     {
-      "id": 7,
-      "name": "scene-07",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
-      "startFrame": 1800,
-      "endFrame": 2100,
-      "text": {
-        "es": "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto."
-      }
+      "id": "scene-07",
+      "title": "Hold on for one more day",
+      "start": 60,
+      "end": 70,
+      "description": "Primer plano cinematográfico de la libreta sobre el volante, con las frases escritas a mano bajo la luz de la farola: «No one can change your life except for you / Hold on for one more day».",
+      "focus": "El nacimiento de la letra como juramento de supervivencia",
+      "visualPrompt": "Vertical 9:16 intimate macro shot inside a car at night: An open spiral notebook resting against the steering wheel, handwritten verses in ballpoint pen illuminated by streetlamp light through the windshield: 'No one can change your life except for you / Hold on for one more day', authentic 1989 35mm grain, quiet lower third, strictly no text overlaid.",
+      "subtitle": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más.",
+      "voiceover": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más."
     },
     {
-      "id": 8,
-      "name": "scene-08",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
-      "startFrame": 2100,
-      "endFrame": 2400,
-      "text": {
-        "es": "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida."
-      }
+      "id": "scene-08",
+      "title": "La alquimia de tres voces",
+      "start": 70,
+      "end": 80,
+      "description": "Carnie, Wendy y Chynna cantando juntas muy cerca frente a un micrófono Neumann en el estudio con Glen Ballard en la consola analógica al fondo.",
+      "focus": "La grabación de las armonías y la transformación del dolor en luz",
+      "visualPrompt": "Vertical 9:16 authentic 1989 recording studio documentary photograph: Chynna Phillips, Carnie Wilson, and Wendy Wilson standing closely together singing in perfect harmony into a vintage Neumann condenser microphone with headphones on, genuine joy and emotion in their faces, analog mixing board in the warm background, 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación.",
+      "voiceover": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación."
     },
     {
-      "id": 9,
-      "name": "scene-09",
-      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
-      "startFrame": 2400,
-      "endFrame": 2700,
-      "text": {
-        "es": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
-      }
+      "id": "scene-09",
+      "title": "El refugio universal",
+      "start": 80,
+      "end": 90,
+      "description": "Un ventanal abierto de un ático en California al atardecer, luz dorada bañando un atril de madera con partituras y una guitarra acústica descansando junto al marco.",
+      "focus": "El eco humano permanente de la canción",
+      "visualPrompt": "Vertical 9:16 poetic fine-art documentary photograph: A tall open attic window overlooking California coastal hills at sunset, golden hour light spilling across a rustic wooden floor where an acoustic guitar rests on an armchair beside an open music stand, warm breeze stirring sheer curtains, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más.",
+      "voiceover": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más."
     }
   ],
-  "beats": [
-    "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba.",
-    "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora.",
-    "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros.",
-    "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable.",
-    "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial.",
-    "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano.",
-    "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto.",
-    "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida.",
-    "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
-  ],
-  "publication": {
-    "tags": [
-      "#SilvioRodriguez",
-      "#CancionDelElegido",
-      "#ElElegido",
-      "#AbelSantamaria",
-      "#NuevaTrova",
-      "#HistoriaMusical",
-      "#AcordesOcultos"
-    ],
-    "copy": "«¿Un ser de otro mundo o un hombre que lo dio todo?». Durante décadas, millones de oyentes cantaron «Canción del elegido» creyendo que hablaba del Che Guevara o de Fidel Castro. Sin embargo, Silvio Rodríguez nunca le cantó a un comandante victorioso: le cantó a Abel Santamaría, el joven de veinticinco años, rubio y de espejuelos cuadrados, que en julio de 1953 fue capturado y asesinado tras el asalto al Moncada.\n\nA finales de los años sesenta, cuando la censura oficial arrinconaba a los primeros trovadores, Haydée Santamaría —hermana de Abel y fundadora de Casa de las Américas— les abrió las puertas y su propio corazón. En largas noches de confidencias en La Habana, Haydée le relató a un Silvio de veintidós años quién era verdaderamente su hermano: un soñador noble y generoso que parecía venido de otra dimensión. Conmovido hasta las lágrimas, Silvio compuso en 1969 un monumento poético donde eludió cualquier consigna política para inmortalizarlo como un «animal de galaxia», dejando grabada a fuego una de las sentencias más hondas de la lengua española: «Lo más terrible se aprende enseguida y lo hermoso nos cuesta la vida».\n\n¿Qué verso de «Canción del elegido» te estremece cada vez que lo escuchas? Te leemos en los comentarios. 👇\n\nLa crónica completa y los documentos de archivo están en nuestra publicación extendida. Encuentras el enlace en el perfil.",
-    "tiktokDescription": "«¿Un ser de otro mundo o un hombre que lo dio todo?». La conmovedora historia real detrás de 'Canción del elegido' de Silvio Rodríguez. 🎸🕊️\n\n¿Conocías el sacrificio de Abel Santamaría? 👇\n\n#SilvioRodriguez #CancionDelElegido #NuevaTrova #AcordesOcultos #HistoriaMusical",
-    "description": "«¿Un ser de otro mundo o un hombre que lo dio todo?». Durante décadas, millones de oyentes cantaron «Canción del elegido» creyendo que hablaba del Che Guevara o de Fidel Castro. Sin embargo, Silvio Rodríguez nunca le cantó a un comandante victorioso: le cantó a Abel Santamaría, el joven de veinticinco años, rubio y de espejuelos cuadrados, que en julio de 1953 fue capturado y asesinado tras el asalto al Moncada.\n\nA finales de los años sesenta, cuando la censura oficial arrinconaba a los primeros trovadores, Haydée Santamaría —hermana de Abel y fundadora de Casa de las Américas— les abrió las puertas y su propio corazón. En largas noches de confidencias en La Habana, Haydée le relató a un Silvio de veintidós años quién era verdaderamente su hermano: un soñador noble y generoso que parecía venido de otra dimensión. Conmovido hasta las lágrimas, Silvio compuso en 1969 un monumento poético donde eludió cualquier consigna política para inmortalizarlo como un «animal de galaxia», dejando grabada a fuego una de las sentencias más hondas de la lengua española: «Lo más terrible se aprende enseguida y lo hermoso nos cuesta la vida».\n\n¿Qué verso de «Canción del elegido» te estremece cada vez que lo escuchas? Te leemos en los comentarios. 👇\n\nLa crónica completa y los documentos de archivo están en nuestra publicación extendida. Encuentras el enlace en el perfil."
-  }
+  "copy": "En 1990, una armonía vocal luminosa conquistó el mundo con un mensaje de esperanza. Pero detrás de «Hold On» no había una fórmula de laboratorio pop: era el grito desesperado de una joven de 21 años intentando salvar su propia vida.\n\nChynna Phillips y las hermanas Carnie y Wendy Wilson cargaban con el peso de ser las hijas de la aristocracia del rock: The Mamas & the Papas y The Beach Boys. Sin embargo, detrás de la gloria de sus padres se ocultaba una infancia marcada por la psicosis, el desapego y adicciones devastadoras. A finales de los ochenta, Chynna sentía que el mismo abismo comenzaba a devorarla a ella.\n\nAterrada de repetir el destino de su familia, comenzó a asistir a reuniones de Alcohólicos Anónimos, donde aprendió el principio de vivir «un día a la vez». Sola en su automóvil a las dos de la madrugada, escuchando una maqueta en casete de Glen Ballard y luchando contra la abstinencia, garabateó en su libreta su propia plegaria: «Nadie cambiará tu vida excepto tú; solo aguanta un día más». Cuando las tres unieron sus voces en el estudio, convirtieron la herida heredada en un himno de supervivencia universal.\n\n¿En qué momento difícil de tu vida esta canción fue tu propio salvavidas? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #WilsonPhillips #HoldOn #TheBeachBoys #TheMamasAndThePapas #HistoriasDeLaMusica #PopDeLos90 #Sobriedad",
+  "anecdote": "A comienzos de 1990, una armonía vocal luminosa conquistó el mundo con un mensaje de esperanza. Pero detrás de «Hold On» no había una fórmula de laboratorio pop: era el grito desesperado de Chynna Phillips, de veintiún años, luchando en su automóvil de madrugada con un mantra de Alcohólicos Anónimos para salvar su propia vida de la adicción.",
+  "hook": "Durante décadas creyeron que este clásico de los noventa era una simple balada optimista... pero nació a las dos de la madrugada en un automóvil, como una plegaria de sobriedad para no morir de sobredosis.",
+  "durationSeconds": 90,
+  "assets": [
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic archival 1989 documentary photograph: Chynna Phillips (21, slender, blonde hair, green eyes), Carnie Wilson (21, curvier, voluminous wavy brown hair) and Wendy Wilson (20, long dark hair) sitting closely together around a piano with lyric notebooks in a warm Los Angeles rehearsal studio, 35mm film grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 evocative 1970s documentary scene: In a dimly lit Bel Air living room, a solitary concert grand piano sits in partial shadow while a troubled, bearded Brian Wilson sits slumped in an armchair in the background looking distant, authentic 1970s 35mm warm Kodachrome grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 archival 1970s documentary scene: A bohemian living room in Laurel Canyon after a wild party, early morning light filtering through wooden blinds onto scattered vintage vinyl sleeves and empty glasses, atmospheric 35mm grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 poignant 1988 documentary scene: 21-year-old Chynna Phillips (slender build, delicate features, shoulder-length blonde hair, wearing an oversized knit sweater) sitting on the edge of a bed in a shadowy Los Angeles bedroom, hands resting gently on her lap in deep emotional exhaustion, warm lamplight, 35mm grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 intimate 1989 documentary photograph: A circle of metal folding chairs in a humble church basement meeting hall, warm afternoon sun streaming through tall windows, paper coffee cups on a small table, a supportive and dignified recovery atmosphere, 35mm Tri-X grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 cinematic 1989 night scene: 21-year-old Chynna Phillips sitting behind the steering wheel of a vintage parked sedan on a quiet Beverly Hills street at 2 AM, cassette deck softly illuminated on the dashboard, she is wearing vintage headphones and holding an open spiral notepad, soft amber streetlight, 35mm film grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 intimate macro shot inside a car at night: An open spiral notebook resting against the steering wheel, handwritten verses in ballpoint pen illuminated by streetlamp light through the windshield: 'No one can change your life except for you / Hold on for one more day', authentic 1989 35mm grain, quiet lower third, strictly no text overlaid."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 authentic 1989 recording studio documentary photograph: Chynna Phillips, Carnie Wilson, and Wendy Wilson standing closely together singing in perfect harmony into a vintage Neumann condenser microphone with headphones on, genuine joy and emotion in their faces, analog mixing board in the warm background, 35mm film grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: A tall open attic window overlooking California coastal hills at sunset, golden hour light spilling across a rustic wooden floor where an acoustic guitar rests on an armchair beside an open music stand, warm breeze stirring sheer curtains, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text."
+    }
+  ]
 }
