@@ -1,13 +1,18 @@
 {
-  "brand": "acordes-ocultos",
-  "slug": "silvio-rodriguez-catedrales-de-leyenda",
-  "articleSlug": "silvio-rodriguez-catedrales-de-leyenda",
-  "title": "La cantera inagotable de Silvio Rodríguez",
+  "id": "silvio-rodriguez-el-elegido-acordes-ocultos",
+  "title": "El «animal de galaxia» que no pudieron quebrar",
   "artist": "Silvio Rodríguez",
-  "topic": "catedrales-de-leyenda",
-  "hook": "Con solo una guitarra de madera desafió la censura, las guerras y el tiempo. Nueve instantes que forjaron a una leyenda viva.",
-  "anecdote": "La trayectoria monumental de Silvio Rodríguez a lo largo de más de cinco décadas: desde su adolescencia alfabetizadora en la Ciénaga de Zapata y la travesía de 125 días en el pesquero Playa Girón, pasando por el Grupo de Experimentación Sonora del ICAIC y los frentes de guerra en Angola, hasta sus históricas presentaciones en estadios y su gira gratuita por los barrios de La Habana.",
+  "brand": "acordes-ocultos",
+  "topic": "acordes-ocultos",
+  "slug": "silvio-rodriguez-el-elegido-acordes-ocultos",
+  "articleSlug": "silvio-rodriguez-el-elegido-acordes-ocultos",
   "durationSeconds": 90,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "anecdote": "Durante décadas creyeron que Canción del elegido hablaba del Che o de Fidel, pero Silvio Rodríguez la escribió en 1969 tras escuchar las confesiones íntimas de Haydée Santamaría sobre su hermano Abel, torturado y asesinado en el Moncada con veinticinco años.",
+  "hook": "Durante décadas creyeron que esta canción hablaba de un comandante legendario... pero su destinatario real fue un joven de veinticinco años cuya dignidad jamás pudieron quebrar.",
+  "outro": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos.",
   "palette": {
     "ink": "#0a0a0a",
     "paper": "#f5f0eb",
@@ -15,232 +20,107 @@
     "glow": "#fbbf24"
   },
   "music": {
-    "title": "La Maza",
+    "title": "Canción del elegido",
     "artist": "Silvio Rodríguez",
-    "year": 1982,
-    "src": "music/silvio-rodriguez-la-maza.mp3",
-    "file": "music/silvio-rodriguez-la-maza.mp3",
-    "source": "music/silvio-rodriguez-la-maza.mp3",
+    "src": "music/silvio-rodriguez-el-elegido.mp3",
     "startSecond": 0,
-    "volume": 0.65,
-    "fadeInSeconds": 0.5,
-    "fadeOutSeconds": 3,
+    "volume": 0.55,
     "instagram": {
-      "query": "Silvio Rodríguez La Maza",
-      "status": "manual_check_required",
-      "expectedTitle": "La Maza",
-      "expectedArtist": "Silvio Rodríguez",
-      "notes": "Seleccionar la pista oficial de La Maza de Silvio Rodríguez en Instagram Reels."
+      "query": "Silvio Rodríguez Canción del elegido",
+      "status": "manual_check_required"
     }
-  },
-  "coverBg": "videos/silvio-rodriguez-catedrales-de-leyenda/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 deeply atmospheric archival documentary portrait of Cuban troubadour Silvio Rodríguez performing in a legendary concert hall, warm golden spotlight illuminating him, acoustic guitar in hand, poetic and dignified expression, rich 35mm film grain, generous negative space at top and bottom for typography, strictly no text.",
-  "scenes": [
-    {
-      "id": 1,
-      "name": "scene-01",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
-      "startFrame": 0,
-      "endFrame": 300,
-      "text": {
-        "es": "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra."
-      },
-      "prompt": "Vertical 9:16 authentic 1961 historical documentary scene: A 14-year-old Silvio Rodríguez as a literacy brigadier in the rural Cuban countryside of Ciénaga de Zapata, wearing a simple field shirt and holding a primer notebook, teaching local campesinos by evening light, raw 35mm grain, quiet lower third, no text."
-    },
-    {
-      "id": 2,
-      "name": "scene-02",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
-      "startFrame": 300,
-      "endFrame": 600,
-      "text": {
-        "es": "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades."
-      },
-      "prompt": "Vertical 9:16 candid 1968 television studio scene in Havana: 21-year-old Silvio Rodríguez sitting on a stool with acoustic guitar in front of vintage broadcast cameras, tense discussion with cultural bureaucrats in dark shirts in the control room, 35mm archival aesthetic, quiet lower third, no text."
-    },
-    {
-      "id": 3,
-      "name": "scene-03",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
-      "startFrame": 600,
-      "endFrame": 900,
-      "text": {
-        "es": "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones."
-      },
-      "prompt": "Vertical 9:16 dramatic 1969 maritime documentary scene: Young Silvio Rodríguez on the weathered iron deck of the fishing motor ship Playa Girón in the middle of the Atlantic ocean, guitar in lap, notebook in hand, sea spray and vast grey oceanic horizon, 35mm film grain, quiet lower third, no text."
-    },
-    {
-      "id": 4,
-      "name": "scene-04",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
-      "startFrame": 900,
-      "endFrame": 1200,
-      "text": {
-        "es": "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer."
-      },
-      "prompt": "Vertical 9:16 historic 1969 musical workshop in Havana: Composer Leo Brouwer conducting an intense rehearsal with Silvio Rodríguez, Pablo Milanés and young musicians in the ICAIC studio, acoustic guitars, magnetic tape recorders, creative avant-garde energy, 35mm Tri-X grain, quiet lower third, no text."
-    },
-    {
-      "id": 5,
-      "name": "scene-05",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
-      "startFrame": 1200,
-      "endFrame": 1500,
-      "text": {
-        "es": "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España."
-      },
-      "prompt": "Vertical 9:16 authentic 1975 recording studio moment: Silvio Rodríguez at Sonocentro EGREM studios in Havana, singing into a vintage Neumann condenser microphone with his acoustic guitar, vinyl pressing masters on the mixing desk, poetic concentration, 35mm film grain, quiet lower third, no text."
-    },
-    {
-      "id": 6,
-      "name": "scene-06",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
-      "startFrame": 1500,
-      "endFrame": 1800,
-      "text": {
-        "es": "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños."
-      },
-      "prompt": "Vertical 9:16 authentic historical 1976 documentary scene in Angola: Silvio Rodríguez in olive-drab fatigue uniform with an acoustic guitar slung over his shoulder, walking through a dusty military encampment singing to gathered young soldiers, warm African sunlight, 35mm Kodachrome grain, quiet lower third, no text."
-    },
-    {
-      "id": 7,
-      "name": "scene-07",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
-      "startFrame": 1800,
-      "endFrame": 2100,
-      "text": {
-        "es": "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional."
-      },
-      "prompt": "Vertical 9:16 monumental 1984 concert scene: Silvio Rodríguez on a vast stage under warm golden spotlights performing before an emotional sea of thousands of young hands and banners in a packed stadium like Obras Sanitarias in Buenos Aires, smoky concert atmosphere, 35mm grain, quiet lower third, no text."
-    },
-    {
-      "id": 8,
-      "name": "scene-08",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
-      "startFrame": 2100,
-      "endFrame": 2400,
-      "text": {
-        "es": "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos."
-      },
-      "prompt": "Vertical 9:16 intimate 2010s community documentary scene: Silvio Rodríguez performing outdoors on a simple wooden community platform in a humble Havana neighborhood street, surrounded by working-class families, elders and children sitting in folding chairs, warm afternoon Caribbean light, 35mm film grain, quiet lower third, no text."
-    },
-    {
-      "id": 9,
-      "name": "scene-09",
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
-      "startFrame": 2400,
-      "endFrame": 2700,
-      "text": {
-        "es": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
-      },
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: An artisan classical acoustic guitar resting upright on an empty wooden chair on a deserted theater stage after the concert, illuminated by a single warm golden spotlight from above, peaceful atmospheric dusk, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
-    }
-  ],
-  "publication": {
-    "tags": [
-      "#SilvioRodriguez",
-      "#LaMaza",
-      "#CatedralesDeLeyenda",
-      "#NuevaTrova",
-      "#TrovaCubana",
-      "#HistoriaMusical",
-      "#AcordesOcultos"
-    ],
-    "copy": "«¿Qué cosa fuera la maza sin cantera?». A lo largo de más de cinco décadas de trayectoria, Silvio Rodríguez ha construido uno de los monumentos poéticos más hondos e influyentes de la lengua española. Armado únicamente con una guitarra y una palabra afilada, su cancionero ha cruzado mares, épocas y generaciones sin perder un ápice de su dignidad original.\n\nDesde sus catorce años enseñando a leer a familias campesinas en la Ciénaga de Zapata, pasando por la suspensión de su programa televisivo en 1968 y su legendaria travesía de 125 días a bordo del pesquero Playa Girón —donde escribió 62 canciones—, hasta su papel fundacional en el Grupo de Experimentación Sonora del ICAIC en 1969 junto a Leo Brouwer y Pablo Milanés. Ni la censura que mutiló su disco «Días y flores» en la España franquista, ni los frentes de guerra que recorrió en Angola en 1976 pudieron doblegar su voz, que en los años ochenta desbordó estadios como el mítico Obras en Buenos Aires y que desde 2010 bajó a las barriadas más humildes de La Habana para ofrecer decenas de conciertos comunitarios y gratuitos.\n\n¿Cuál de las canciones de Silvio Rodríguez ha marcado un momento decisivo en tu vida? Te leemos en los comentarios. 👇\n\nLa crónica completa con los documentos y fechas históricas contrastadas está en nuestro archivo web. Encuentras el enlace directo en el perfil.",
-    "tiktokDescription": "«¿Qué cosa fuera la maza sin cantera?». 9 momentos históricos que forjaron la leyenda viva de Silvio Rodríguez. 🎸🇨🇺\n\n¿Cuál de sus canciones te marcó para siempre? 👇\n\n#SilvioRodriguez #LaMaza #CatedralesDeLeyenda #NuevaTrova #AcordesOcultos",
-    "description": "«¿Qué cosa fuera la maza sin cantera?». A lo largo de más de cinco décadas de trayectoria, Silvio Rodríguez ha construido uno de los monumentos poéticos más hondos e influyentes de la lengua española. Armado únicamente con una guitarra y una palabra afilada, su cancionero ha cruzado mares, épocas y generaciones sin perder un ápice de su dignidad original.\n\nDesde sus catorce años enseñando a leer a familias campesinas en la Ciénaga de Zapata, pasando por la suspensión de su programa televisivo en 1968 y su legendaria travesía de 125 días a bordo del pesquero Playa Girón —donde escribió 62 canciones—, hasta su papel fundacional en el Grupo de Experimentación Sonora del ICAIC en 1969 junto a Leo Brouwer y Pablo Milanés. Ni la censura que mutiló su disco «Días y flores» en la España franquista, ni los frentes de guerra que recorrió en Angola en 1976 pudieron doblegar su voz, que en los años ochenta desbordó estadios como el mítico Obras en Buenos Aires y que desde 2010 bajó a las barriadas más humildes de La Habana para ofrecer decenas de conciertos comunitarios y gratuitos.\n\n¿Cuál de las canciones de Silvio Rodríguez ha marcado un momento decisivo en tu vida? Te leemos en los comentarios. 👇\n\nLa crónica completa con los documentos y fechas históricas contrastadas está en nuestro archivo web. Encuentras el enlace directo en el perfil."
   },
   "assets": [
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1961 historical documentary scene: A 14-year-old Silvio Rodríguez as a literacy brigadier in the rural Cuban countryside of Ciénaga de Zapata, wearing a simple field shirt and holding a primer notebook, teaching local campesinos by evening light, raw 35mm grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 deeply atmospheric 1969 cinematic prologue scene: A poetic silhouette of a young visionary in Havana against a deep indigo twilight sky with faint swirling stellar constellations, quiet poetic lighting, rich 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
-      "prompt": "Vertical 9:16 candid 1968 television studio scene in Havana: 21-year-old Silvio Rodríguez sitting on a stool with acoustic guitar in front of vintage broadcast cameras, tense discussion with cultural bureaucrats in dark shirts in the control room, 35mm archival aesthetic, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic historical 1953 documentary photograph in Santiago de Cuba: 25-year-old Cuban revolutionary leader Abel Santamaría (fair skin, light-brown combed hair, distinctive square-framed prescription eyeglasses, clean white button-down civilian shirt) taking cover in the corridor of Hospital Saturnino Lora, courageous focused expression, vintage 1953 35mm Tri-X grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
-      "prompt": "Vertical 9:16 dramatic 1969 maritime documentary scene: Young Silvio Rodríguez on the weathered iron deck of the fishing motor ship Playa Girón in the middle of the Atlantic ocean, guitar in lap, notebook in hand, sea spray and vast grey oceanic horizon, 35mm film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 dramatic 1953 archival documentary scene in a dim military detention cell: Abel Santamaría (matching the exact facial features, blond hair and square glasses from Scene 02, disheveled white shirt) surrounded by Batista military police in khaki uniforms, standing with silent unyielding dignity and unbroken moral strength in the shadows, 35mm high contrast film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
-      "prompt": "Vertical 9:16 historic 1969 musical workshop in Havana: Composer Leo Brouwer conducting an intense rehearsal with Silvio Rodríguez, Pablo Milanés and young musicians in the ICAIC studio, acoustic guitars, magnetic tape recorders, creative avant-garde energy, 35mm Tri-X grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 poignant historical 1953 documentary scene: 30-year-old Cuban revolutionary Haydée Santamaría (striking dark wavy hair, deep expressive dark eyes, solemn heartbroken but defiant expression, simple 1950s prison infirmary dress) sitting in a bare concrete room, weeping tears of fierce dignity, cinematic chiaroscuro, 35mm archival grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1975 recording studio moment: Silvio Rodríguez at Sonocentro EGREM studios in Havana, singing into a vintage Neumann condenser microphone with his acoustic guitar, vinyl pressing masters on the mixing desk, poetic concentration, 35mm film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 candid 1968 cultural documentary scene in Havana: 45-year-old Haydée Santamaría (distinguished cultural leader with dark hair streaked with silver, wearing an elegant simple dark cardigan) standing in the sunlit modernist lobby of Casa de las Américas greeting young trovadores with acoustic guitars, warm Caribbean daylight, 35mm Kodachrome grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
-      "prompt": "Vertical 9:16 authentic historical 1976 documentary scene in Angola: Silvio Rodríguez in olive-drab fatigue uniform with an acoustic guitar slung over his shoulder, walking through a dusty military encampment singing to gathered young soldiers, warm African sunlight, 35mm Kodachrome grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 intimate 1969 Havana interior photograph: In a warm wood-paneled office at night illuminated by a single brass desk lamp, Haydée Santamaría (46 years old) sits across a wooden table from 22-year-old Silvio Rodríguez (matching Reference Photo A: clean-shaven, distinctive high rounded forehead, soft melancholic eyes, dark chambray shirt), holding a cup of Cuban coffee and looking at vintage black-and-white letters and photos of Abel, rich 35mm film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
-      "prompt": "Vertical 9:16 monumental 1984 concert scene: Silvio Rodríguez on a vast stage under warm golden spotlights performing before an emotional sea of thousands of young hands and banners in a packed stadium like Obras Sanitarias in Buenos Aires, smoky concert atmosphere, 35mm grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 authentic 1969 creative moment: 22-year-old Silvio Rodríguez (matching Reference Photo A: high rounded forehead, expressive eyes, rolled-up sleeve blue shirt) sitting on the edge of a simple wooden bed in a modest Havana room at 3 AM, classical acoustic guitar resting on his thigh, writing lyrics with a ballpoint pen in an open lined notebook, warm tungsten lamplight, 35mm Tri-X grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
-      "prompt": "Vertical 9:16 intimate 2010s community documentary scene: Silvio Rodríguez performing outdoors on a simple wooden community platform in a humble Havana neighborhood street, surrounded by working-class families, elders and children sitting in folding chairs, warm afternoon Caribbean light, 35mm film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 dramatic 1969 recording studio photograph: 22-year-old Silvio Rodríguez (matching Reference Photo A: high forehead, clean-shaven, concentrated poetic intensity) singing passionately into a vintage Neumann U47 condenser microphone in the Havana studio, fast blur of fingers arpeggiating on the guitar fretboard, warm golden backlight, 35mm archival grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: An artisan classical acoustic guitar resting upright on an empty wooden chair on a deserted theater stage after the concert, illuminated by a single warm golden spotlight from above, peaceful atmospheric dusk, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 deeply poetic closing documentary scene: A high colonial Havana wooden shutter window open to the vast sea horizon of the Malecón at sunrise, gentle sea breeze lifting linen curtains, a beautiful classical acoustic guitar resting upright on an antique wooden rocking chair in the soft golden morning light, strictly no vinyl records, strictly no turntables, strictly no record players, evocative fine art 35mm film grain, quiet lower third, strictly no text."
     }
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
       "type": "image"
     }
   ],
@@ -248,68 +128,164 @@
     {
       "start": 0,
       "end": 10,
-      "text": "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra.",
-      "assetIndex": 0
+      "text": "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba."
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades.",
-      "assetIndex": 1
+      "text": "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora."
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones.",
-      "assetIndex": 2
+      "text": "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros."
     },
     {
       "start": 30,
       "end": 40,
-      "text": "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer.",
-      "assetIndex": 3
+      "text": "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable."
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España.",
-      "assetIndex": 4
+      "text": "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial."
     },
     {
       "start": 50,
       "end": 60,
-      "text": "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños.",
-      "assetIndex": 5
+      "text": "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano."
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional.",
-      "assetIndex": 6
+      "text": "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto."
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos.",
-      "assetIndex": 7
+      "text": "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida."
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos.",
-      "assetIndex": 8
+      "text": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
+    }
+  ],
+  "scenes": [
+    {
+      "id": 1,
+      "name": "scene-01",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-01.png",
+      "startFrame": 0,
+      "endFrame": 300,
+      "text": {
+        "es": "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba."
+      }
+    },
+    {
+      "id": 2,
+      "name": "scene-02",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-02.png",
+      "startFrame": 300,
+      "endFrame": 600,
+      "text": {
+        "es": "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora."
+      }
+    },
+    {
+      "id": 3,
+      "name": "scene-03",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-03.png",
+      "startFrame": 600,
+      "endFrame": 900,
+      "text": {
+        "es": "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros."
+      }
+    },
+    {
+      "id": 4,
+      "name": "scene-04",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-04.png",
+      "startFrame": 900,
+      "endFrame": 1200,
+      "text": {
+        "es": "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable."
+      }
+    },
+    {
+      "id": 5,
+      "name": "scene-05",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-05.png",
+      "startFrame": 1200,
+      "endFrame": 1500,
+      "text": {
+        "es": "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial."
+      }
+    },
+    {
+      "id": 6,
+      "name": "scene-06",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-06.png",
+      "startFrame": 1500,
+      "endFrame": 1800,
+      "text": {
+        "es": "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano."
+      }
+    },
+    {
+      "id": 7,
+      "name": "scene-07",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-07.png",
+      "startFrame": 1800,
+      "endFrame": 2100,
+      "text": {
+        "es": "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto."
+      }
+    },
+    {
+      "id": 8,
+      "name": "scene-08",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-08.png",
+      "startFrame": 2100,
+      "endFrame": 2400,
+      "text": {
+        "es": "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida."
+      }
+    },
+    {
+      "id": 9,
+      "name": "scene-09",
+      "src": "videos/silvio-rodriguez-el-elegido-acordes-ocultos/scene-09.png",
+      "startFrame": 2400,
+      "endFrame": 2700,
+      "text": {
+        "es": "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
+      }
     }
   ],
   "beats": [
-    "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra.",
-    "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades.",
-    "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones.",
-    "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer.",
-    "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España.",
-    "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños.",
-    "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional.",
-    "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos.",
-    "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
+    "Durante décadas creyeron que era un canto al Che o a Fidel, pero escondía la tragedia más desgarradora de Cuba.",
+    "En julio de 1953, un joven de veinticinco años, rubio y de espejuelos cuadrados, lideró la toma del Hospital Saturnino Lora.",
+    "Capturado tras el combate, soportó las torturas más atroces de la dictadura sin pronunciar jamás una sola palabra que delatara a sus compañeros.",
+    "A su hermana Haydée intentaron quebrarla con la mayor crueldad, pero su dignidad moral se convirtió en una leyenda imborrable.",
+    "Años después, como fundadora de Casa de las Américas, Haydée abrió los brazos a los jóvenes trovadores perseguidos por la censura oficial.",
+    "En madrugadas de humo y café, Haydée le reveló a un Silvio de veintidós años la sensibilidad íntima y el alma de su hermano.",
+    "Conmovido, Silvio escribió la historia de un 'animal de galaxia', vistiendo el sacrificio con metáforas cósmicas que eludían todo panfleto.",
+    "A guitarra limpia y sin nombrar a Abel, grabó un himno donde sentenció que lo más hermoso siempre nos cuesta la vida.",
+    "Hay entregas tan puras que el odio jamás podrá marchitar, porque viven encendidas en la memoria de los pueblos."
   ],
-  "outro": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
+  "publication": {
+    "tags": [
+      "#SilvioRodriguez",
+      "#CancionDelElegido",
+      "#ElElegido",
+      "#AbelSantamaria",
+      "#NuevaTrova",
+      "#HistoriaMusical",
+      "#AcordesOcultos"
+    ],
+    "copy": "«¿Un ser de otro mundo o un hombre que lo dio todo?». Durante décadas, millones de oyentes cantaron «Canción del elegido» creyendo que hablaba del Che Guevara o de Fidel Castro. Sin embargo, Silvio Rodríguez nunca le cantó a un comandante victorioso: le cantó a Abel Santamaría, el joven de veinticinco años, rubio y de espejuelos cuadrados, que en julio de 1953 fue capturado y asesinado tras el asalto al Moncada.\n\nA finales de los años sesenta, cuando la censura oficial arrinconaba a los primeros trovadores, Haydée Santamaría —hermana de Abel y fundadora de Casa de las Américas— les abrió las puertas y su propio corazón. En largas noches de confidencias en La Habana, Haydée le relató a un Silvio de veintidós años quién era verdaderamente su hermano: un soñador noble y generoso que parecía venido de otra dimensión. Conmovido hasta las lágrimas, Silvio compuso en 1969 un monumento poético donde eludió cualquier consigna política para inmortalizarlo como un «animal de galaxia», dejando grabada a fuego una de las sentencias más hondas de la lengua española: «Lo más terrible se aprende enseguida y lo hermoso nos cuesta la vida».\n\n¿Qué verso de «Canción del elegido» te estremece cada vez que lo escuchas? Te leemos en los comentarios. 👇\n\nLa crónica completa y los documentos de archivo están en nuestra publicación extendida. Encuentras el enlace en el perfil.",
+    "tiktokDescription": "«¿Un ser de otro mundo o un hombre que lo dio todo?». La conmovedora historia real detrás de 'Canción del elegido' de Silvio Rodríguez. 🎸🕊️\n\n¿Conocías el sacrificio de Abel Santamaría? 👇\n\n#SilvioRodriguez #CancionDelElegido #NuevaTrova #AcordesOcultos #HistoriaMusical",
+    "description": "«¿Un ser de otro mundo o un hombre que lo dio todo?». Durante décadas, millones de oyentes cantaron «Canción del elegido» creyendo que hablaba del Che Guevara o de Fidel Castro. Sin embargo, Silvio Rodríguez nunca le cantó a un comandante victorioso: le cantó a Abel Santamaría, el joven de veinticinco años, rubio y de espejuelos cuadrados, que en julio de 1953 fue capturado y asesinado tras el asalto al Moncada.\n\nA finales de los años sesenta, cuando la censura oficial arrinconaba a los primeros trovadores, Haydée Santamaría —hermana de Abel y fundadora de Casa de las Américas— les abrió las puertas y su propio corazón. En largas noches de confidencias en La Habana, Haydée le relató a un Silvio de veintidós años quién era verdaderamente su hermano: un soñador noble y generoso que parecía venido de otra dimensión. Conmovido hasta las lágrimas, Silvio compuso en 1969 un monumento poético donde eludió cualquier consigna política para inmortalizarlo como un «animal de galaxia», dejando grabada a fuego una de las sentencias más hondas de la lengua española: «Lo más terrible se aprende enseguida y lo hermoso nos cuesta la vida».\n\n¿Qué verso de «Canción del elegido» te estremece cada vez que lo escuchas? Te leemos en los comentarios. 👇\n\nLa crónica completa y los documentos de archivo están en nuestra publicación extendida. Encuentras el enlace en el perfil."
+  }
 }
