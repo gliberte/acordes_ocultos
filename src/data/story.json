@@ -1,246 +1,246 @@
 {
   "brand": "acordes-ocultos",
-  "slug": "ozzy-osbourne-mama-im-coming-home-acordes-ocultos",
-  "articleSlug": "ozzy-osbourne-mama-im-coming-home-acordes-ocultos",
-  "title": "La carta de súplica con la que Ozzy Osbourne le pidió perdón a la mujer que casi destruye",
-  "artist": "Ozzy Osbourne",
-  "topic": "acordes-ocultos",
-  "hook": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
-  "anecdote": "Tras un aterrador brote psicótico que casi termina en tragedia con Sharon, Ozzy Osbourne se internó seis meses en rehabilitación. Ya sobrio, recurrió a su amigo Lemmy Kilmister de Motörhead para que escribiera una plegaria de redención a la única mujer que lo mantuvo con vida: 'Mama, I'm Coming Home'.",
+  "slug": "silvio-rodriguez-catedrales-de-leyenda",
+  "articleSlug": "silvio-rodriguez-catedrales-de-leyenda",
+  "title": "La cantera inagotable de Silvio Rodríguez",
+  "artist": "Silvio Rodríguez",
+  "topic": "catedrales-de-leyenda",
+  "hook": "Con solo una guitarra de madera desafió la censura, las guerras y el tiempo. Nueve instantes que forjaron a una leyenda viva.",
+  "anecdote": "La trayectoria monumental de Silvio Rodríguez a lo largo de más de cinco décadas: desde su adolescencia alfabetizadora en la Ciénaga de Zapata y la travesía de 125 días en el pesquero Playa Girón, pasando por el Grupo de Experimentación Sonora del ICAIC y los frentes de guerra en Angola, hasta sus históricas presentaciones en estadios y su gira gratuita por los barrios de La Habana.",
   "durationSeconds": 90,
   "palette": {
-    "ink": "#0b0c10",
-    "paper": "#f8f4eb",
-    "accent": "#d4af37",
-    "glow": "#e6c666"
+    "ink": "#0a0a0a",
+    "paper": "#f5f0eb",
+    "accent": "#d97706",
+    "glow": "#fbbf24"
   },
   "music": {
-    "title": "Mama, I'm Coming Home",
-    "artist": "Ozzy Osbourne",
-    "year": 1991,
-    "src": "music/ozzy-osbourne-mama-im-coming-home.mp3",
-    "file": "music/ozzy-osbourne-mama-im-coming-home.mp3",
-    "source": "music/ozzy-osbourne-mama-im-coming-home.mp3",
+    "title": "La Maza",
+    "artist": "Silvio Rodríguez",
+    "year": 1982,
+    "src": "music/silvio-rodriguez-la-maza.mp3",
+    "file": "music/silvio-rodriguez-la-maza.mp3",
+    "source": "music/silvio-rodriguez-la-maza.mp3",
     "startSecond": 0,
-    "volume": 0.55,
+    "volume": 0.65,
     "fadeInSeconds": 0.5,
     "fadeOutSeconds": 3,
     "instagram": {
-      "query": "Mama I'm Coming Home Ozzy Osbourne",
+      "query": "Silvio Rodríguez La Maza",
       "status": "manual_check_required",
-      "expectedTitle": "Mama, I'm Coming Home",
-      "expectedArtist": "Ozzy Osbourne",
-      "notes": "Seleccionar audio oficial de Mama, I'm Coming Home interpretada por Ozzy Osbourne en Instagram Reels."
+      "expectedTitle": "La Maza",
+      "expectedArtist": "Silvio Rodríguez",
+      "notes": "Seleccionar la pista oficial de La Maza de Silvio Rodríguez en Instagram Reels."
     }
   },
-  "coverBg": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 authentic archival 1991 documentary portrait of 42-year-old rock singer Ozzy Osbourne (slender build, distinctive aquiline nose, shoulder-length straight dark brown hair, wearing circular wire-rimmed dark sunglasses, a vintage black velvet jacket over a dark shirt, with delicate silver crosses on his neck), looking pensively towards the distance with solemn emotional vulnerability in a dim backstage dressing room under warm amber lamps, rich 35mm film grain, moody cinematic atmosphere, generous negative space top and center for typography, strictly no text.",
+  "coverBg": "videos/silvio-rodriguez-catedrales-de-leyenda/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 deeply atmospheric archival documentary portrait of Cuban troubadour Silvio Rodríguez performing in a legendary concert hall, warm golden spotlight illuminating him, acoustic guitar in hand, poetic and dignified expression, rich 35mm film grain, generous negative space at top and bottom for typography, strictly no text.",
   "scenes": [
     {
       "id": 1,
       "name": "scene-01",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
       "startFrame": 0,
       "endFrame": 300,
       "text": {
-        "es": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa."
+        "es": "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra."
       },
-      "prompt": "Vertical 9:16 authentic 1989 British police station archival photograph: A gloomy police holding cell in Amersham England, bare grey stone walls, heavy iron barred door, dim overhead fluorescent light casting long dramatic shadows, a disoriented man matching Ozzy Osbourne likeness sitting with head buried in trembling hands on a wooden cot, 35mm documentary grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic 1961 historical documentary scene: A 14-year-old Silvio Rodríguez as a literacy brigadier in the rural Cuban countryside of Ciénaga de Zapata, wearing a simple field shirt and holding a primer notebook, teaching local campesinos by evening light, raw 35mm grain, quiet lower third, no text."
     },
     {
       "id": 2,
       "name": "scene-02",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
       "startFrame": 300,
       "endFrame": 600,
       "text": {
-        "es": "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'."
+        "es": "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades."
       },
-      "prompt": "Vertical 9:16 candid 1982 archival photograph: Young Sharon Osbourne (petite British woman with stylish 1980s voluminous auburn-tinted hair, sharp determined gaze, wearing an elegant dark blazer) tenderly supporting a fatigued Ozzy Osbourne in a hotel lobby, capturing her protective, caring and managerial presence, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 candid 1968 television studio scene in Havana: 21-year-old Silvio Rodríguez sitting on a stool with acoustic guitar in front of vintage broadcast cameras, tense discussion with cultural bureaucrats in dark shirts in the control room, 35mm archival aesthetic, quiet lower third, no text."
     },
     {
       "id": 3,
       "name": "scene-03",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
       "startFrame": 600,
       "endFrame": 900,
       "text": {
-        "es": "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo."
+        "es": "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones."
       },
-      "prompt": "Vertical 9:16 dramatic 1989 nighttime interior documentary atmosphere: An opulent English countryside manor living room in Buckinghamshire at night, heavy velvet curtains, scattered overturned glasses on an antique rug, dark moody shadows, atmospheric cinematic tension representing the tragic domestic blackout before the sirens arrived, 35mm film grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 dramatic 1969 maritime documentary scene: Young Silvio Rodríguez on the weathered iron deck of the fishing motor ship Playa Girón in the middle of the Atlantic ocean, guitar in lap, notebook in hand, sea spray and vast grey oceanic horizon, 35mm film grain, quiet lower third, no text."
     },
     {
       "id": 4,
       "name": "scene-04",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
       "startFrame": 900,
       "endFrame": 1200,
       "text": {
-        "es": "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo."
+        "es": "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer."
       },
-      "prompt": "Vertical 9:16 emotional 1989 archival moment: Sharon Osbourne sitting in a quiet solicitor office room, dignified and firm expression with tearful yet resolute eyes, holding paperwork, as Ozzy Osbourne in dark clothes kneels in profound remorse and grief beside her, soft overcast window light, 35mm film grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 historic 1969 musical workshop in Havana: Composer Leo Brouwer conducting an intense rehearsal with Silvio Rodríguez, Pablo Milanés and young musicians in the ICAIC studio, acoustic guitars, magnetic tape recorders, creative avant-garde energy, 35mm Tri-X grain, quiet lower third, no text."
     },
     {
       "id": 5,
       "name": "scene-05",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
       "startFrame": 1200,
       "endFrame": 1500,
       "text": {
-        "es": "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta."
+        "es": "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España."
       },
-      "prompt": "Vertical 9:16 authentic 1991 documentary studio photograph: 42-year-old Ozzy Osbourne looking clean, refreshed and sober (long clean dark hair, wearing round wire-rimmed glasses, simple dark long-sleeve tee) standing in front of a studio acoustic divider at A&M Studios in Los Angeles, looking determined with handwritten notebooks in hand, warm studio lights, 35mm Tri-X grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic 1975 recording studio moment: Silvio Rodríguez at Sonocentro EGREM studios in Havana, singing into a vintage Neumann condenser microphone with his acoustic guitar, vinyl pressing masters on the mixing desk, poetic concentration, 35mm film grain, quiet lower third, no text."
     },
     {
       "id": 6,
       "name": "scene-06",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
       "startFrame": 1500,
       "endFrame": 1800,
       "text": {
-        "es": "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento."
+        "es": "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños."
       },
-      "prompt": "Vertical 9:16 candid 1991 recording studio moment: Young guitarist Zakk Wylde (24 years old, athletic build, long blond wavy hair, denim vest) sitting on a stool fingerpicking an acoustic 12-string guitar, while Ozzy Osbourne in round spectacles sits thoughtfully on a studio couch listening intensely with closed eyes, warm tungsten studio lamps, 35mm grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 authentic historical 1976 documentary scene in Angola: Silvio Rodríguez in olive-drab fatigue uniform with an acoustic guitar slung over his shoulder, walking through a dusty military encampment singing to gathered young soldiers, warm African sunlight, 35mm Kodachrome grain, quiet lower third, no text."
     },
     {
       "id": 7,
       "name": "scene-07",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
       "startFrame": 1800,
       "endFrame": 2100,
       "text": {
-        "es": "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora."
+        "es": "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional."
       },
-      "prompt": "Vertical 9:16 authentic 1991 documentary scene in Los Angeles: Legendary rock icon Lemmy Kilmister of Motörhead (imposing rugged look, iconic mutton chops and mustache, black cowboy hat with cavalry insignia, black shirt) typing intently on a vintage portable manual typewriter at a wooden desk with a notebook and cigarette, authentic 35mm archival film grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 monumental 1984 concert scene: Silvio Rodríguez on a vast stage under warm golden spotlights performing before an emotional sea of thousands of young hands and banners in a packed stadium like Obras Sanitarias in Buenos Aires, smoky concert atmosphere, 35mm grain, quiet lower third, no text."
     },
     {
       "id": 8,
       "name": "scene-08",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
       "startFrame": 2100,
       "endFrame": 2400,
       "text": {
-        "es": "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto."
+        "es": "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos."
       },
-      "prompt": "Vertical 9:16 intense vocal recording session: Ozzy Osbourne singing with profound raw emotion and closed eyes directly into a high-end vintage Neumann U87 condenser microphone in the recording booth, headphones on, hands clutching the microphone stand, emotional tears glistening on his cheeks, warm golden studio backlighting, 35mm Kodak grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 intimate 2010s community documentary scene: Silvio Rodríguez performing outdoors on a simple wooden community platform in a humble Havana neighborhood street, surrounded by working-class families, elders and children sitting in folding chairs, warm afternoon Caribbean light, 35mm film grain, quiet lower third, no text."
     },
     {
       "id": 9,
       "name": "scene-09",
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
       "startFrame": 2400,
       "endFrame": 2700,
       "text": {
-        "es": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
+        "es": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
       },
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: Sharon Osbourne and Ozzy Osbourne embracing tenderly in quiet silhouette backstage in 1992, warm amber stage lights glowing softly from the wings in the background, a moment of profound forgiveness, healing and mutual devotion, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: An artisan classical acoustic guitar resting upright on an empty wooden chair on a deserted theater stage after the concert, illuminated by a single warm golden spotlight from above, peaceful atmospheric dusk, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
     }
   ],
   "publication": {
     "tags": [
-      "#OzzyOsbourne",
-      "#MamaImComingHome",
-      "#SharonOsbourne",
-      "#LemmyKilmister",
-      "#NoMoreTears",
+      "#SilvioRodriguez",
+      "#LaMaza",
+      "#CatedralesDeLeyenda",
+      "#NuevaTrova",
+      "#TrovaCubana",
       "#HistoriaMusical",
       "#AcordesOcultos"
     ],
-    "copy": "«¿Por qué estoy aquí?». En agosto de 1989, Ozzy Osbourne despertó en el suelo helado de una celda en la prisión de Amersham, Inglaterra. No recordaba nada de las últimas doce horas. Cuando el oficial de guardia le informó que estaba detenido por intento de homicidio contra su esposa Sharon, el Príncipe de las Tinieblas se derrumbó a llorar de rodillas como un niño desamparado.\n\nSharon no era una esposa cualquiera: era la mujer que en 1979 lo recogió borracho e inconsciente de una habitación de hotel en Los Ángeles tras ser despedido de Black Sabbath. Era su mánager, su escudo y su salvavidas, a quien él llamaba cariñosamente en la intimidad «Mama». Tras el terror de aquella noche, Sharon decidió no presentar cargos con una sola condición innegociable: seis meses de internamiento y sobriedad absoluta.\n\nYa recuperado en 1991, Ozzy quiso componer una plegaria de perdón. Con los arpegios de Zakk Wylde y la pluma maestra de su compadre Lemmy Kilmister de Motörhead en una máquina de escribir, nació «Mama, I'm Coming Home»: el testamento de un hombre destrozado que jura haber enterrado al monstruo para volver a casa.\n\n¿Qué sientes cada vez que escuchas a Ozzy cantar esta balada inmortal? Te leemos en los comentarios. 👇\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.",
-    "tiktokDescription": "«¿Por qué estoy aquí?». Ozzy despertó en prisión acusado de intentar matar a su esposa... y compuso la balada más hermosa del rock para suplicar su perdón. 🕊️🖤\n\n¿Conocías la historia detrás de 'Mama, I'm Coming Home'? 👇\n\n#OzzyOsbourne #SharonOsbourne #LemmyKilmister #HistoriaMusical #AcordesOcultos",
-    "description": "«¿Por qué estoy aquí?». En agosto de 1989, Ozzy Osbourne despertó en el suelo helado de una celda en la prisión de Amersham, Inglaterra. No recordaba nada de las últimas doce horas. Cuando el oficial de guardia le informó que estaba detenido por intento de homicidio contra su esposa Sharon, el Príncipe de las Tinieblas se derrumbó a llorar de rodillas como un niño desamparado.\n\nSharon no era una esposa cualquiera: era la mujer que en 1979 lo recogió borracho e inconsciente de una habitación de hotel en Los Ángeles tras ser despedido de Black Sabbath. Era su mánager, su escudo y su salvavidas, a quien él llamaba cariñosamente en la intimidad «Mama». Tras el terror de aquella noche, Sharon decidió no presentar cargos con una sola condición innegociable: seis meses de internamiento y sobriedad absoluta.\n\nYa recuperado en 1991, Ozzy quiso componer una plegaria de perdón. Con los arpegios de Zakk Wylde y la pluma maestra de su compadre Lemmy Kilmister de Motörhead en una máquina de escribir, nació «Mama, I'm Coming Home»: el testamento de un hombre destrozado que jura haber enterrado al monstruo para volver a casa.\n\n¿Qué sientes cada vez que escuchas a Ozzy cantar esta balada inmortal? Te leemos en los comentarios. 👇\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil."
+    "copy": "«¿Qué cosa fuera la maza sin cantera?». A lo largo de más de cinco décadas de trayectoria, Silvio Rodríguez ha construido uno de los monumentos poéticos más hondos e influyentes de la lengua española. Armado únicamente con una guitarra y una palabra afilada, su cancionero ha cruzado mares, épocas y generaciones sin perder un ápice de su dignidad original.\n\nDesde sus catorce años enseñando a leer a familias campesinas en la Ciénaga de Zapata, pasando por la suspensión de su programa televisivo en 1968 y su legendaria travesía de 125 días a bordo del pesquero Playa Girón —donde escribió 62 canciones—, hasta su papel fundacional en el Grupo de Experimentación Sonora del ICAIC en 1969 junto a Leo Brouwer y Pablo Milanés. Ni la censura que mutiló su disco «Días y flores» en la España franquista, ni los frentes de guerra que recorrió en Angola en 1976 pudieron doblegar su voz, que en los años ochenta desbordó estadios como el mítico Obras en Buenos Aires y que desde 2010 bajó a las barriadas más humildes de La Habana para ofrecer decenas de conciertos comunitarios y gratuitos.\n\n¿Cuál de las canciones de Silvio Rodríguez ha marcado un momento decisivo en tu vida? Te leemos en los comentarios. 👇\n\nLa crónica completa con los documentos y fechas históricas contrastadas está en nuestro archivo web. Encuentras el enlace directo en el perfil.",
+    "tiktokDescription": "«¿Qué cosa fuera la maza sin cantera?». 9 momentos históricos que forjaron la leyenda viva de Silvio Rodríguez. 🎸🇨🇺\n\n¿Cuál de sus canciones te marcó para siempre? 👇\n\n#SilvioRodriguez #LaMaza #CatedralesDeLeyenda #NuevaTrova #AcordesOcultos",
+    "description": "«¿Qué cosa fuera la maza sin cantera?». A lo largo de más de cinco décadas de trayectoria, Silvio Rodríguez ha construido uno de los monumentos poéticos más hondos e influyentes de la lengua española. Armado únicamente con una guitarra y una palabra afilada, su cancionero ha cruzado mares, épocas y generaciones sin perder un ápice de su dignidad original.\n\nDesde sus catorce años enseñando a leer a familias campesinas en la Ciénaga de Zapata, pasando por la suspensión de su programa televisivo en 1968 y su legendaria travesía de 125 días a bordo del pesquero Playa Girón —donde escribió 62 canciones—, hasta su papel fundacional en el Grupo de Experimentación Sonora del ICAIC en 1969 junto a Leo Brouwer y Pablo Milanés. Ni la censura que mutiló su disco «Días y flores» en la España franquista, ni los frentes de guerra que recorrió en Angola en 1976 pudieron doblegar su voz, que en los años ochenta desbordó estadios como el mítico Obras en Buenos Aires y que desde 2010 bajó a las barriadas más humildes de La Habana para ofrecer decenas de conciertos comunitarios y gratuitos.\n\n¿Cuál de las canciones de Silvio Rodríguez ha marcado un momento decisivo en tu vida? Te leemos en los comentarios. 👇\n\nLa crónica completa con los documentos y fechas históricas contrastadas está en nuestro archivo web. Encuentras el enlace directo en el perfil."
   },
   "assets": [
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1989 British police station archival photograph: A gloomy police holding cell in Amersham England, bare grey stone walls, heavy iron barred door, dim overhead fluorescent light casting long dramatic shadows, a disoriented man matching Ozzy Osbourne likeness sitting with head buried in trembling hands on a wooden cot, 35mm documentary grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1961 historical documentary scene: A 14-year-old Silvio Rodríguez as a literacy brigadier in the rural Cuban countryside of Ciénaga de Zapata, wearing a simple field shirt and holding a primer notebook, teaching local campesinos by evening light, raw 35mm grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 candid 1982 archival photograph: Young Sharon Osbourne (petite British woman with stylish 1980s voluminous auburn-tinted hair, sharp determined gaze, wearing an elegant dark blazer) tenderly supporting a fatigued Ozzy Osbourne in a hotel lobby, capturing her protective, caring and managerial presence, authentic 35mm warm Kodachrome grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
+      "prompt": "Vertical 9:16 candid 1968 television studio scene in Havana: 21-year-old Silvio Rodríguez sitting on a stool with acoustic guitar in front of vintage broadcast cameras, tense discussion with cultural bureaucrats in dark shirts in the control room, 35mm archival aesthetic, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 dramatic 1989 nighttime interior documentary atmosphere: An opulent English countryside manor living room in Buckinghamshire at night, heavy velvet curtains, scattered overturned glasses on an antique rug, dark moody shadows, atmospheric cinematic tension representing the tragic domestic blackout before the sirens arrived, 35mm film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
+      "prompt": "Vertical 9:16 dramatic 1969 maritime documentary scene: Young Silvio Rodríguez on the weathered iron deck of the fishing motor ship Playa Girón in the middle of the Atlantic ocean, guitar in lap, notebook in hand, sea spray and vast grey oceanic horizon, 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 emotional 1989 archival moment: Sharon Osbourne sitting in a quiet solicitor office room, dignified and firm expression with tearful yet resolute eyes, holding paperwork, as Ozzy Osbourne in dark clothes kneels in profound remorse and grief beside her, soft overcast window light, 35mm film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
+      "prompt": "Vertical 9:16 historic 1969 musical workshop in Havana: Composer Leo Brouwer conducting an intense rehearsal with Silvio Rodríguez, Pablo Milanés and young musicians in the ICAIC studio, acoustic guitars, magnetic tape recorders, creative avant-garde energy, 35mm Tri-X grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1991 documentary studio photograph: 42-year-old Ozzy Osbourne looking clean, refreshed and sober (long clean dark hair, wearing round wire-rimmed glasses, simple dark long-sleeve tee) standing in front of a studio acoustic divider at A&M Studios in Los Angeles, looking determined with handwritten notebooks in hand, warm studio lights, 35mm Tri-X grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1975 recording studio moment: Silvio Rodríguez at Sonocentro EGREM studios in Havana, singing into a vintage Neumann condenser microphone with his acoustic guitar, vinyl pressing masters on the mixing desk, poetic concentration, 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 candid 1991 recording studio moment: Young guitarist Zakk Wylde (24 years old, athletic build, long blond wavy hair, denim vest) sitting on a stool fingerpicking an acoustic 12-string guitar, while Ozzy Osbourne in round spectacles sits thoughtfully on a studio couch listening intensely with closed eyes, warm tungsten studio lamps, 35mm grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
+      "prompt": "Vertical 9:16 authentic historical 1976 documentary scene in Angola: Silvio Rodríguez in olive-drab fatigue uniform with an acoustic guitar slung over his shoulder, walking through a dusty military encampment singing to gathered young soldiers, warm African sunlight, 35mm Kodachrome grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 authentic 1991 documentary scene in Los Angeles: Legendary rock icon Lemmy Kilmister of Motörhead (imposing rugged look, iconic mutton chops and mustache, black cowboy hat with cavalry insignia, black shirt) typing intently on a vintage portable manual typewriter at a wooden desk with a notebook and cigarette, authentic 35mm archival film grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
+      "prompt": "Vertical 9:16 monumental 1984 concert scene: Silvio Rodríguez on a vast stage under warm golden spotlights performing before an emotional sea of thousands of young hands and banners in a packed stadium like Obras Sanitarias in Buenos Aires, smoky concert atmosphere, 35mm grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 intense vocal recording session: Ozzy Osbourne singing with profound raw emotion and closed eyes directly into a high-end vintage Neumann U87 condenser microphone in the recording booth, headphones on, hands clutching the microphone stand, emotional tears glistening on his cheeks, warm golden studio backlighting, 35mm Kodak grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
+      "prompt": "Vertical 9:16 intimate 2010s community documentary scene: Silvio Rodríguez performing outdoors on a simple wooden community platform in a humble Havana neighborhood street, surrounded by working-class families, elders and children sitting in folding chairs, warm afternoon Caribbean light, 35mm film grain, quiet lower third, no text."
     },
     {
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 deeply poetic closing documentary image: Sharon Osbourne and Ozzy Osbourne embracing tenderly in quiet silhouette backstage in 1992, warm amber stage lights glowing softly from the wings in the background, a moment of profound forgiveness, healing and mutual devotion, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
+      "prompt": "Vertical 9:16 deeply poetic closing documentary image: An artisan classical acoustic guitar resting upright on an empty wooden chair on a deserted theater stage after the concert, illuminated by a single warm golden spotlight from above, peaceful atmospheric dusk, strictly no turntables, strictly no vinyl records, strictly no record players, timeless documentary aesthetic, 35mm grain, quiet lower third, no text."
     }
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-01.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-02.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-03.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-04.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-05.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-06.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-07.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-08.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/ozzy-osbourne-mama-im-coming-home-acordes-ocultos/scene-09.png",
+      "src": "videos/silvio-rodriguez-catedrales-de-leyenda/scene-09.png",
       "type": "image"
     }
   ],
@@ -248,68 +248,68 @@
     {
       "start": 0,
       "end": 10,
-      "text": "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
+      "text": "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'.",
+      "text": "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo.",
+      "text": "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo.",
+      "text": "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta.",
+      "text": "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento.",
+      "text": "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora.",
+      "text": "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto.",
+      "text": "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver.",
+      "text": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos.",
       "assetIndex": 8
     }
   ],
   "beats": [
-    "En agosto de 1989, Ozzy Osbourne despertó en una celda de prisión acusado de intentar quitarle la vida a su propia esposa.",
-    "Sharon no era solo su mánager: era la mujer que lo rescató del abismo en 1979 y a quien Ozzy llamaba 'Mama'.",
-    "Aquella noche, en un delirio inducido por el alcohol y los narcóticos, el Príncipe de las Tinieblas perdió la razón por completo.",
-    "Al enterarse de lo ocurrido, Ozzy rompió a llorar de rodillas. Sharon no presentó cargos, pero le impuso un ultimátum definitivo.",
-    "Tras seis meses de rehabilitación y sobriedad absoluta, Ozzy regresó al estudio decidido a dedicarle su obra más íntima y honesta.",
-    "Zakk Wylde compuso una conmovedora melodía acústica, pero Ozzy no encontraba las palabras para plasmar su culpa y arrepentimiento.",
-    "Fue entonces cuando llamó a Lemmy Kilmister de Motörhead, quien escribió en pocas horas la letra de una súplica desgarradora.",
-    "'Aquí estoy, pero ya no soy el mismo'. Ozzy desnudó su alma frente al micrófono prometiendo que el monstruo había muerto.",
-    "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
+    "Con catorce años enseñó a leer a una familia campesina en la Ciénaga de Zapata, descubriendo el poder de la palabra.",
+    "Suspenden su programa de televisión tras un choque con funcionarios que cuestionaban sus opiniones estéticas y sus amistades.",
+    "Entre septiembre de 1969 y enero de 1970 navegó 125 días en el pesquero Playa Girón, componiendo sesenta y dos canciones.",
+    "En 1969 se incorpora al Grupo de Experimentación Sonora del ICAIC, un laboratorio musical de vanguardia dirigido por Leo Brouwer.",
+    "Publica Días y flores, una obra cumbre de la trova cuyo contenido sufriría la mutilación de la censura en España.",
+    "En 1976 viaja a Angola y recorre los frentes de guerra cantando para soldados cubanos y angoleños.",
+    "En los años ochenta llena estadios históricos como Obras en Buenos Aires, consolidando un fervor popular intergeneracional.",
+    "Desde 2010 impulsó su histórica gira por los barrios humildes de La Habana, ofreciendo decenas de conciertos comunitarios gratuitos.",
+    "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
   ],
-  "outro": "Hay amores tan firmes que rescatan a un hombre del precipicio para recordarle que siempre hay un hogar al que volver."
+  "outro": "Hay voces que no buscan la gloria de los pedestales, sino convertirse en un refugio íntimo para la memoria de los pueblos."
 }
