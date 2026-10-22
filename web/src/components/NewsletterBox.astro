@@ -1,12 +1,19 @@
 ---
 interface Props {
   source?: string;
+  hideBookBanner?: boolean;
+  hideMecenazgoBanner?: boolean;
 }
 
-const { source = 'web_story' } = Astro.props;
+const {
+  source = 'web_story',
+  hideBookBanner = false,
+  hideMecenazgoBanner = false
+} = Astro.props;
 ---
 
 <!-- 1. Producto Editorial: Libro Recopilatorio (Volumen 01) — $9.99 USD -->
+{!hideBookBanner && (
 <div class="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1f1a12] via-[#14120e] to-[#0a0908] border border-amber-500/50 p-6 sm:p-8 shadow-2xl shadow-amber-950/30">
   <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
     <div class="flex items-start gap-4 sm:gap-5 max-w-xl">
@@ -68,8 +75,10 @@ const { source = 'web_story' } = Astro.props;
     </div>
   </div>
 </div>
+)}
 
 <!-- 2. Mecenazgo Cultural Independiente: Donación Voluntaria / Propina -->
+{!hideMecenazgoBanner && (
 <div class="my-8 relative overflow-hidden rounded-2xl bg-[#12100d] border border-[#2b2720] p-6 sm:p-7">
   <div class="relative z-10 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
     <div class="space-y-1.5 max-w-xl">
@@ -128,6 +137,7 @@ const { source = 'web_story' } = Astro.props;
     </div>
   </div>
 </div>
+)}
 
 <!-- 3. Boletín Gratuito: La Cofradía de Acordes Ocultos -->
 <div id="boletin" class="my-10 relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1c1813] via-[#12100e] to-[#0a0908] border border-amber-500/30 p-6 sm:p-10 shadow-2xl">
@@ -148,7 +158,7 @@ const { source = 'web_story' } = Astro.props;
     </h3>
 
     <p class="font-sans text-xs sm:text-sm text-neutral-300 leading-relaxed mb-6">
-      Recibe en tu correo cada nueva crónica documental extendida y descarga de bienvenida una <strong>muestra exclusiva de 3 crónicas de colección</strong>. Cero relleno, pura devoción sonora.
+      Recibe en tu correo cada nueva crónica documental extendida y descarga de bienvenida una <strong>muestra exclusiva de 3 crónicas de colección</strong>. Lectura reposada, memoria musical y rigor documental.
     </p>
 
     <form id="newsletter-form" class="space-y-3" data-source={source}>

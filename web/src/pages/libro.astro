@@ -29,10 +29,10 @@ const PREVIEWS = [
   },
   {
     image: '/book/preview/documentacion-hemerografica.webp',
-    title: 'Rigor Documental y Hemeroteca Real',
-    tag: 'Cero Falsedades',
-    subtitle: 'Apego estricto a las fuentes comprobadas',
-    description: 'Cada fecha, contrato discográfico, disputa legal o testimonio íntimo ha sido contrastado contra archivos de prensa de la época, memorias oficiales y notas de sesión. La emoción nace de la verdad de los hechos, no de mitos inventados.'
+    title: 'Investigación y Fuentes de Archivo',
+    tag: 'Método Documental',
+    subtitle: 'Prensa histórica, testimonios de estudio y bibliografía',
+    description: 'Las crónicas se construyen a partir de archivos hemerográficos de época, testimonios directos de músicos e ingenieros y bibliografía contrastada. Cada capítulo detalla sus fuentes documentales y mantenemos un canal abierto para revisar y corregir cualquier dato.'
   },
   {
     image: '/book/preview/narrativa-y-contexto-historico.webp',
@@ -186,20 +186,35 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
             </li>
           </ul>
 
-          <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+          <!-- Conexión explícita entre archivo web gratuito y edición del libro -->
+          <div class="p-4 rounded-xl bg-[#14120f] border border-amber-500/30 text-xs sm:text-sm text-neutral-300 leading-relaxed font-sans">
+            <p>
+              <strong class="text-amber-300 font-semibold">¿Por qué comprarlo si leo gratis la web?</strong><br />
+              El archivo web permanece gratuito. Este volumen reúne 28 de sus crónicas en una edición organizada en cuatro partes, ilustrada y preparada para conservar y leer sin conexión. Tu compra también ayuda a sostener nuevas investigaciones.
+            </p>
+          </div>
+
+          <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3">
             <a
               href={GUMROAD_BOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-950/50"
+              class="w-full sm:w-auto px-7 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-950/50"
             >
-              <span>📖 Adquirir Libro (PDF + EPUB) — $7.99 USD <span class="line-through text-black/60 font-normal text-xs ml-1">$9.99</span> →</span>
+              <span>📖 Adquirir Libro ($7.99 USD) <span class="line-through text-black/60 font-normal text-xs ml-1">$9.99</span> →</span>
+            </a>
+            <a
+              href="/book/Acordes_Ocultos_Volumen_I_Muestra.pdf"
+              download="Acordes_Ocultos_Volumen_I_Muestra.pdf"
+              class="w-full sm:w-auto px-5 py-4 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-amber-500/15 text-amber-300 border border-amber-500/40 hover:bg-amber-500/25 transition-all text-center flex items-center justify-center gap-2"
+            >
+              <span>⬇️ Descargar Muestra (PDF · 3 Crónicas)</span>
             </a>
             <a
               href="#muestrario"
-              class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-semibold text-xs uppercase tracking-wider bg-[#181512] text-amber-200 border border-[#363026] hover:border-amber-400 transition-colors text-center"
+              class="w-full sm:w-auto px-4 py-4 rounded-xl font-sans font-semibold text-xs text-neutral-400 hover:text-amber-200 transition-colors text-center"
             >
-              Ver Páginas del Interior ↓
+              Ver diseño interior ↓
             </a>
           </div>
 
@@ -242,9 +257,9 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           <div class="w-10 h-10 rounded-xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 font-bold text-lg">
             📜
           </div>
-          <h3 class="font-serif text-lg font-bold text-white">Rigor y Verdad Comprobada</h3>
+          <h3 class="font-serif text-lg font-bold text-white">Investigación Documental y Fuentes</h3>
           <p class="text-xs text-neutral-400 leading-relaxed">
-            Cero mitos de pasillo ni anécdotas ficticias. Todas las historias se apoyan en hemerotecas de época, testimonios directos de los ingenieros de sonido y resoluciones documentales verificadas.
+            Prioridad al testimonio directo, registros de estudio y archivos de prensa frente al mito o la rumorología. Cada historia detalla sus fuentes documentales para que el lector pueda contrastar los hechos.
           </p>
         </div>
 
@@ -482,7 +497,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         </div>
       </div>
 
-      <NewsletterBox source="libro_landing" />
+      <NewsletterBox source="libro_landing" hideBookBanner={true} hideMecenazgoBanner={true} />
     </section>
 
     <!-- Mecenazgo voluntario discreto al pie -->
