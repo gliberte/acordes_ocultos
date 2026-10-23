@@ -38,7 +38,16 @@ const legacySegments = (story: StoryData) => {
     return story.segments;
   }
 
-  const lines = [story.hook, ...story.beats.slice(0, 4), story.outro];
+  if (story.scenes?.length) {
+    return story.scenes.map((s, index) => ({
+      start: s.start,
+      end: s.end,
+      text: s.text,
+      assetIndex: s.assetIndex ?? index
+    }));
+  }
+
+  const lines = [story.hook, ...story.beats, story.outro];
   const segmentDuration = story.durationSeconds / lines.length;
   return lines.map((text, index) => ({
     start: index * segmentDuration,
@@ -94,6 +103,16 @@ const timelineVisuals = (story: StoryData) => {
       },
       ...afterVisuals
     ];
+  }
+
+  if (story.scenes?.length && story.scenes.every((s) => s.asset)) {
+    return story.scenes.map((s) => ({
+      start: s.start,
+      end: s.end,
+      src: s.asset!,
+      type: 'image' as const,
+      role: 'scene' as const
+    }));
   }
 
   return legacySegments(story).map((segment, index) => ({
@@ -596,6 +615,14 @@ export const StoryVideoTest: React.FC<StoryData> = (props) => {
   const frame = useCurrentFrame();
   const segments = legacySegments(story);
   const visuals = timelineVisuals(story);
+
+  // Cláusula de Control de Calidad Innegociable: mínimo 9 escenas completas
+  if (visuals.length < 9) {
+    throw new Error(
+      `[StoryVideoTest - Control de Calidad Innegociable] El video tiene únicamente ${visuals.length} escenas visuales. ` +
+      `Todo video producido para Acordes Ocultos debe constar obligatoriamente de exactamente 9 escenas completas.`
+    );
+  }
 
   // Atenuación gradual del volumen en los últimos 2 segundos (60 frames)
   const musicVolume = interpolate(

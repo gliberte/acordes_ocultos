@@ -233,6 +233,10 @@ Antes de realizar el render final y empaquetar la producción, verifica que se c
    * Registrar el alias en `CHRONICLE_ALIASES` en `web/src/lib/stories.ts`.
    * Verificar que `publish-package.mjs` suba el texto íntegro de la crónica en el campo `web_article` de Supabase (no solo el copy).
    * Ejecutar siempre `npm run chronicle:sync` para compilar el dataset web (`web/src/data/chronicles.json`), generar imágenes WebP y sincronizar con la Bóveda Maestra.
+5. **Cláusula Innegociable de 9 Escenas Visuales (Control de Calidad Obligatorio)**:
+   * Todo video producido para la cuenta debe constar rigurosa y obligatoriamente de **exactamente 9 escenas completas**, tanto en `scenes` y `segments` como en `assets` (9 imágenes de escena + 1 imagen de fondo para portada).
+   * Queda terminantemente prohibido renderizar o publicar cualquier video con menos de las 9 escenas establecidas (e.g. 6 o 7 escenas por omisión o fallbacks heredados).
+   * Tanto el componente de renderizado de Remotion (`StoryVideo.tsx`) como el script de publicación (`publish-package.mjs`) cuentan con validaciones duras que abortan automáticamente el proceso si el conteo de escenas visuales es menor a 9.
 
 ---
 

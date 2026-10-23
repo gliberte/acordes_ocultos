@@ -145,5 +145,61 @@
   "publication": {
     "title": "Los tres hijos de obreros que desafiaron a un dictador con guitarras de juguete",
     "description": "En 1986, bajo una de las dictaduras más implacables del cono sur, tres adolescentes de un barrio obrero grabaron un tema con instrumentos casi de juguete. La televisión los ignoró, pero las calles lo convirtieron en un himno eterno.\n\nJorge González, Claudio Narea y Miguel Tapia crecieron en San Miguel, Santiago de Chile, entre toques de queda y fábricas en quiebra. No tenían dinero para comprar instrumentos reales: tocaban sobre cajas de cartón y ataban con nudos las cuerdas rotas de una guitarra prestada. Al ver que sus compañeros de liceo técnico salían al desempleo masivo tras años de esfuerzo, Jorge compuso en un humilde teclado Casio una elegía a la juventud excluida: «El baile de los que sobran».\n\nEl régimen militar prohibió sus conciertos y presionó a las emisoras para silenciarlos. Sin embargo, grabadas de mano en mano en casetes piratas, sus canciones atravesaron cordilleras y llenaron estadios en Chile, Perú y Colombia, dándole voz a quienes nunca habían sido escuchados.\n\n¿Qué sentiste la primera vez que escuchaste este himno de Los Prisioneros? Te leemos en los comentarios.\n\n#LosPrisioneros #ElBaileDeLosQueSobran #JorgeGonzalez #RockLatino #ForjadosEnElBarro #RockEnEspanol #Chile #HistoriaDelRock"
-  }
+  },
+  "segments": [
+    {
+      "start": 0,
+      "end": 10,
+      "text": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
+      "assetIndex": 0
+    },
+    {
+      "start": 10,
+      "end": 20,
+      "text": "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
+      "assetIndex": 1
+    },
+    {
+      "start": 20,
+      "end": 30,
+      "text": "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
+      "assetIndex": 2
+    },
+    {
+      "start": 30,
+      "end": 40,
+      "text": "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
+      "assetIndex": 3
+    },
+    {
+      "start": 40,
+      "end": 50,
+      "text": "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
+      "assetIndex": 4
+    },
+    {
+      "start": 50,
+      "end": 60,
+      "text": "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
+      "assetIndex": 5
+    },
+    {
+      "start": 60,
+      "end": 70,
+      "text": "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
+      "assetIndex": 6
+    },
+    {
+      "start": 70,
+      "end": 80,
+      "text": "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina.",
+      "assetIndex": 7
+    },
+    {
+      "start": 80,
+      "end": 90,
+      "text": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
+      "assetIndex": 8
+    }
+  ]
 }

@@ -43,6 +43,11 @@ Este documento establece las directrices editoriales y el formato ganador para t
   - Si un detalle histórico no puede ser verificado o documentado de manera concluyente, **se descarta de inmediato** o se presenta de forma honesta como una hipótesis o mito de la época, sin hacerlo pasar por hecho certero.
 * **Bloque de Fuentes Obligatorio en Crónicas de Substack**: Cada artículo extendido debe culminar con la sección `### 📚 Fuentes y Archivo Documental`, detallando de manera explícita la bibliografía, discografía, archivos hemerográficos y resoluciones judiciales o institucionales consultadas.
 
+## 🎬 Cláusula Innegociable de 9 Escenas Visuales (Control de Calidad Técnico)
+* **Requisito Técnico Inviolable**: Todo video producido para la cuenta debe estructurarse, renderizarse y publicarse obligatoriamente con **exactamente 9 escenas completas**, tanto en el bloque narrativo (`scenes` y `segments`) como en los activos visuales (`assets`, compuestos por 9 imágenes de escena + 1 imagen de fondo para portada).
+* **Prohibición Total de Videos Truncados**: Queda terminantemente prohibido renderizar o dar por bueno cualquier video que contenga menos de las 9 escenas establecidas (e.g. 6 o 7 escenas por omisión de segmentos o fallbacks descalibrados).
+* **Aserciones Automáticas del Sistema**: Los componentes de renderizado (`StoryVideo.tsx`) y los scripts de empaquetado (`publish-package.mjs`) cuentan con validaciones duras programadas para arrojar una excepción y abortar la compilación si el conteo de escenas es inferior a 9.
+
 ## 🎨 Coherencia Visual, Rigor Histórico e Identidad Fiel (INNEGOCIABLE)
 * **Principio Rector Innegociable**: La **consistencia fisonómica**, el **rigor histórico** y la **coherencia interna** son preceptos absolutos e intransigentes de la cuenta. **Es preferible detener por completo una producción o esperar el restablecimiento de herramientas antes que utilizar imágenes con personajes genéricos, rostros desconectados o figuras que no se parezcan al artista real.**
 * **Coherencia Absoluta de Personajes y Envejecimiento entre Escenas (INNEGOCIABLE)**:

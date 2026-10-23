@@ -25,6 +25,15 @@ export const StorySegmentSchema = z.object({
   assetIndex: z.number().optional()
 });
 
+export const StorySceneSchema = z.object({
+  index: z.number().optional(),
+  start: z.number(),
+  end: z.number(),
+  text: z.string(),
+  asset: z.string().optional(),
+  assetIndex: z.number().optional()
+});
+
 export const StoryVisualSchema = z.object({
   start: z.number(),
   end: z.number(),
@@ -94,6 +103,7 @@ export const StorySchema = z.object({
       .optional()
   }),
   assets: z.array(StoryAssetSchema).min(4),
+  scenes: z.array(StorySceneSchema).optional(),
   coverBg: z.string().optional(),
   clip: StoryClipSchema.optional(),
   segments: z.array(StorySegmentSchema).optional(),

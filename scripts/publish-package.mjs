@@ -876,6 +876,16 @@ const main = async () => {
   const story = JSON.parse(readFileSync(options.story, 'utf8'));
   const videoStats = statSync(options.video);
 
+  // Cláusula de Control de Calidad Innegociable: verificación estricta de 9 escenas
+  const sceneCount = story.segments?.length || story.scenes?.length || (story.visuals?.length ?? 0);
+  if (sceneCount < 9) {
+    throw new Error(
+      `\n🚨 [Control de Calidad Fallido]: El video tiene únicamente ${sceneCount} escenas definidas. ` +
+      `Es un requisito innegociable de Acordes Ocultos contar con exactamente 9 escenas completas.\n`
+    );
+  }
+  console.log(`🎬 Control de Calidad Escenas: ${sceneCount} escenas verificadas (requisito de 9 escenas cumplido).`);
+
   // Verificación proactiva de presencia y nivel de audio en el master de video
   try {
     const probeOutput = execSync(`ffmpeg -i "${options.video}" -af "volumedetect" -f null - 2>&1`, { encoding: 'utf8' });
