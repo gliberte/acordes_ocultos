@@ -37,6 +37,14 @@ if (!fs.existsSync(articlesDir)) {
   process.exit(1);
 }
 
+// Réplica de seguridad a carpetas de alias de producción legadas
+const ALIAS_SLUGS = {
+  'camilo-sesto-jesucristo-superstar-acordes-ocultos': ['eldesafiodejesucristosuperstar'],
+  'gustavo-cerati-corazon-delator-catedrales-de-leyenda': ['elarquitectodelsonidoeterno'],
+  'marilyn-monroe-candle-in-the-wind': ['elmitoylasombrademarilyn'],
+  'rocio-durcal-amor-eterno-catedrales-de-leyenda': ['lareinaeternadelmariachi']
+};
+
 const articleEntries = fs.readdirSync(articlesDir, { withFileTypes: true });
 
 for (const entry of articleEntries) {
@@ -49,65 +57,86 @@ for (const entry of articleEntries) {
   const files = fs.readdirSync(imgDir);
   for (const file of files) {
     const ext = path.extname(file).toLowerCase();
-    if (ext !== '.png' && ext !== '.jpg' && ext !== '.jpeg') continue;
+    if (ext !== '.png' && ext !== '.jpg' && ext !== '.jpeg' && ext !== '.webp') continue;
 
     const baseName = path.basename(file, ext);
-    const srcPng = path.join(imgDir, file);
+    const srcFile = path.join(imgDir, file);
     const targetWebp = path.join(imgDir, `${baseName}.webp`);
 
-    const pngStat = fs.statSync(srcPng);
-    originalBytes += pngStat.size;
+    if (ext === '.webp') {
+      // Si ya existe un original .png/.jpg/.jpeg en la misma carpeta, ese original se encarga de la conversión y sincronización
+      const hasRasterSource = files.some(f => {
+        const e = path.extname(f).toLowerCase();
+        return (e === '.png' || e === '.jpg' || e === '.jpeg') && path.basename(f, e) === baseName;
+      });
+      if (hasRasterSource) continue;
 
-    let needsConvert = true;
-    if (fs.existsSync(targetWebp)) {
-      const webpStat = fs.statSync(targetWebp);
-      if (webpStat.mtimeMs >= pngStat.mtimeMs && webpStat.size > 0) {
-        needsConvert = false;
-        webpBytes += webpStat.size;
-        totalSkipped++;
-      }
-    }
+      // Imagen nativa WebP: contabilizar peso
+      const webpStat = fs.statSync(srcFile);
+      originalBytes += webpStat.size;
+      webpBytes += webpStat.size;
+      totalSkipped++;
+    } else {
+      // Archivo PNG / JPG: convertir a WebP si no existe o si el origen es más reciente
+      const stat = fs.statSync(srcFile);
+      originalBytes += stat.size;
 
-    if (needsConvert) {
-      try {
-        // Calidad 82: excelente retención de textura y grano de película con compresión ~90%
-        execSync(`"${cwebpBin}" -q 82 "${srcPng}" -o "${targetWebp}"`, { stdio: 'ignore' });
+      let needsConvert = true;
+      if (fs.existsSync(targetWebp)) {
         const webpStat = fs.statSync(targetWebp);
-        webpBytes += webpStat.size;
-        totalConverted++;
-      } catch (err) {
-        console.error(`⚠️ Error convirtiendo ${srcPng}:`, err.message);
-        continue;
+        if (webpStat.mtimeMs >= stat.mtimeMs && webpStat.size > 0) {
+          needsConvert = false;
+          webpBytes += webpStat.size;
+          totalSkipped++;
+        }
+      }
+
+      if (needsConvert) {
+        try {
+          // Calidad 82: excelente retención de textura y grano de película con compresión ~90%
+          execSync(`"${cwebpBin}" -q 82 "${srcFile}" -o "${targetWebp}"`, { stdio: 'ignore' });
+          const webpStat = fs.statSync(targetWebp);
+          webpBytes += webpStat.size;
+          totalConverted++;
+        } catch (err) {
+          console.error(`⚠️ Error convirtiendo ${srcFile}:`, err.message);
+          continue;
+        }
       }
     }
+
+    if (!fs.existsSync(targetWebp)) continue;
 
     // Réplica a web/public/articles/<slug>/images (creando el directorio automáticamente si es un nuevo slug)
     const pubDestDir = path.join(webPublicArticlesDir, slug, 'images');
     if (!fs.existsSync(pubDestDir)) {
       fs.mkdirSync(pubDestDir, { recursive: true });
     }
-    fs.copyFileSync(targetWebp, path.join(pubDestDir, `${baseName}.webp`));
+    const pubDestFile = path.join(pubDestDir, `${baseName}.webp`);
+    if (!fs.existsSync(pubDestFile) || fs.statSync(pubDestFile).mtimeMs < fs.statSync(targetWebp).mtimeMs) {
+      fs.copyFileSync(targetWebp, pubDestFile);
+    }
 
     // Réplica opcional a web/articles/<slug>/images si la carpeta existiera
     const webDestDir = path.join(webArticlesDir, slug, 'images');
     if (fs.existsSync(webDestDir)) {
-      fs.copyFileSync(targetWebp, path.join(webDestDir, `${baseName}.webp`));
+      const webDestFile = path.join(webDestDir, `${baseName}.webp`);
+      if (!fs.existsSync(webDestFile) || fs.statSync(webDestFile).mtimeMs < fs.statSync(targetWebp).mtimeMs) {
+        fs.copyFileSync(targetWebp, webDestFile);
+      }
     }
 
     // Réplica de seguridad a carpetas de alias de producción
-    const ALIAS_SLUGS = {
-      'camilo-sesto-jesucristo-superstar-acordes-ocultos': ['eldesafiodejesucristosuperstar'],
-      'gustavo-cerati-corazon-delator-catedrales-de-leyenda': ['elarquitectodelsonidoeterno'],
-      'marilyn-monroe-candle-in-the-wind': ['elmitoylasombrademarilyn'],
-      'rocio-durcal-amor-eterno-catedrales-de-leyenda': ['lareinaeternadelmariachi']
-    };
     if (ALIAS_SLUGS[slug]) {
       for (const aliasSlug of ALIAS_SLUGS[slug]) {
         const aliasDestDir = path.join(webPublicArticlesDir, aliasSlug, 'images');
         if (!fs.existsSync(aliasDestDir)) {
           fs.mkdirSync(aliasDestDir, { recursive: true });
         }
-        fs.copyFileSync(targetWebp, path.join(aliasDestDir, `${baseName}.webp`));
+        const aliasDestFile = path.join(aliasDestDir, `${baseName}.webp`);
+        if (!fs.existsSync(aliasDestFile) || fs.statSync(aliasDestFile).mtimeMs < fs.statSync(targetWebp).mtimeMs) {
+          fs.copyFileSync(targetWebp, aliasDestFile);
+        }
       }
     }
   }
