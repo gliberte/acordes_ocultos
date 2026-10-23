@@ -1,23 +1,24 @@
 {
-  "id": "wilson-phillips-hold-on-acordes-ocultos",
+  "id": "europe-the-final-countdown-acordes-ocultos",
   "brand": "acordes-ocultos",
-  "title": "El mantra de sobriedad que salvó a las hijas del rock",
-  "artist": "Wilson Phillips",
-  "songTitle": "Hold On",
+  "title": "El riff que conquistó el mundo y destruyó una amistad",
+  "artist": "Europe",
+  "songTitle": "The Final Countdown",
   "topic": "curiosidad musical",
-  "slug": "wilson-phillips-hold-on-acordes-ocultos",
-  "articleSlug": "wilson-phillips-hold-on-acordes-ocultos",
+  "slug": "europe-the-final-countdown-acordes-ocultos",
+  "articleSlug": "europe-the-final-countdown-acordes-ocultos",
   "fps": 30,
+  "durationSeconds": 90,
   "durationInFrames": 2700,
   "music": {
-    "title": "Hold On",
-    "artist": "Wilson Phillips",
-    "file": "music/wilson-phillips-hold-on.mp3"
+    "title": "The Final Countdown",
+    "artist": "Europe",
+    "file": "music/europe-the-final-countdown.mp3"
   },
   "cover": {
     "badge": "Acordes Ocultos",
-    "title": "Hold On",
-    "artist": "Wilson Phillips"
+    "title": "The Final Countdown",
+    "artist": "Europe"
   },
   "palette": {
     "ink": "#0f172a",
@@ -25,71 +26,73 @@
     "accent": "#f59e0b",
     "glow": "#fbbf24"
   },
-  "outro": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más.",
+  "anecdote": "A comienzos de 1986, Joey Tempest compuso en un teclado prestado la fanfarria más famosa del rock ochentero. Pero su guitarrista y amigo de la infancia, John Norum, la detestaba por considerarla pop comercial; cuando la canción trepó al número uno en veinticinco países y los obligaron a hacer playback en televisión, Norum renunció a la banda en plena cumbre de la gloria.",
+  "hook": "Durante décadas creyeron que este himno mundial era una celebración triunfal... pero su creador original lo odiaba tanto que abandonó la banda en la cima del éxito.",
+  "outro": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio.",
   "beats": [
-    "1989: El linaje del rock",
-    "La sombra de Brian Wilson",
-    "El caos en Laurel Canyon",
-    "Chynna al borde del colapso",
-    "El principio de un día a la vez",
-    "El automóvil de madrugada",
-    "Hold on for one more day",
-    "La alquimia de tres voces",
-    "El refugio universal"
+    "1986: La fanfarria global",
+    "El garaje de Upplands Väsby",
+    "El teclado prestado a medianoche",
+    "La furia de John Norum",
+    "La tregua en Zúrich",
+    "El solo de guitarra legendario",
+    "El número uno en 25 países",
+    "La humillación del playback",
+    "El precio de la gloria"
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-01.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-02.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-03.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-04.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-05.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-06.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-07.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-08.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-09.png",
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-09.png",
       "type": "image"
     }
   ],
@@ -98,198 +101,195 @@
       "start": 0,
       "end": 10,
       "speaker": "Acordes Ocultos",
-      "text": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción."
+      "text": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral."
     },
     {
       "start": 10,
       "end": 20,
       "speaker": "Acordes Ocultos",
-      "text": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis."
+      "text": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes."
     },
     {
       "start": 20,
       "end": 30,
       "speaker": "Acordes Ocultos",
-      "text": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas."
+      "text": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto."
     },
     {
       "start": 30,
       "end": 40,
       "speaker": "Acordes Ocultos",
-      "text": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes."
+      "text": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda."
     },
     {
       "start": 40,
       "end": 50,
       "speaker": "Acordes Ocultos",
-      "text": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez."
+      "text": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio."
     },
     {
       "start": 50,
       "end": 60,
       "speaker": "Acordes Ocultos",
-      "text": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard."
+      "text": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico."
     },
     {
       "start": 60,
       "end": 70,
       "speaker": "Acordes Ocultos",
-      "text": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más."
+      "text": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global."
     },
     {
       "start": 70,
       "end": 80,
       "speaker": "Acordes Ocultos",
-      "text": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación."
+      "text": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira."
     },
     {
       "start": 80,
       "end": 90,
       "speaker": "Acordes Ocultos",
-      "text": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más."
+      "text": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio."
     }
   ],
   "scenes": [
     {
       "id": "scene-01",
-      "title": "Las hijas de dos dinastías rotas",
+      "title": "La fanfarria global",
       "start": 0,
       "end": 10,
-      "description": "Carnie y Wendy Wilson junto a Chynna Phillips en un estudio de Los Ángeles en 1989, jóvenes veinteañeras con miradas reflexivas ante partituras y micrófonos vintage.",
-      "focus": "El peso invisible del linaje musical",
-      "visualPrompt": "Vertical 9:16 authentic archival 1989 documentary photograph: Chynna Phillips (21, slender, blonde hair, green eyes), Carnie Wilson (21, curvier, voluminous wavy brown hair) and Wendy Wilson (20, long dark hair) sitting closely together around a piano with lyric notebooks in a warm Los Angeles rehearsal studio, 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción.",
-      "voiceover": "Detrás de las armonías vocales más perfectas de los noventa se escondía el peso invisible de dos familias marcadas por la autodestrucción."
+      "description": "Un abarrotado estadio en 1986 bañado por focos dorados y niebla, miles de brazos en alto mientras el telón de fondo de Europe se ilumina al inicio de su concierto.",
+      "focus": "El impacto universal de la fanfarria de sintetizador",
+      "visualPrompt": "Vertical 9:16 monumental 1986 stadium concert opening: A massive roaring audience of thousands with hands raised under warm golden spotlights and stage mist, silhouette of a rock band taking the stage against a towering stage backdrop in Stockholm, authentic 1986 35mm concert grain, quiet lower third, strictly no text.",
+      "subtitle": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral.",
+      "voiceover": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral."
     },
     {
       "id": "scene-02",
-      "title": "La sombra de Brian Wilson",
+      "title": "El garaje de Upplands Väsby",
       "start": 10,
       "end": 20,
-      "description": "Un piano de cola en una residencia de Bel Air a finales de los 70, con sombras alargadas y la silueta solitaria de Brian Wilson al fondo.",
-      "focus": "El aislamiento y la psicosis de Brian Wilson",
-      "visualPrompt": "Vertical 9:16 evocative 1970s documentary scene: In a dimly lit Bel Air living room, a solitary concert grand piano sits in partial shadow while a troubled, bearded Brian Wilson sits slumped in an armchair in the background looking distant, authentic 1970s 35mm warm Kodachrome grain, quiet lower third, strictly no text.",
-      "subtitle": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis.",
-      "voiceover": "Carnie y Wendy Wilson crecieron con la ausencia dolorosa de su padre Brian, el genio de los Beach Boys atrapado en la psicosis."
+      "description": "Un frío garaje suburbano en Estocolmo a principios de los ochenta, dos adolescentes ensayando con amplificadores Marshall.",
+      "focus": "La hermandad adolescente y el amor por el hard rock puro",
+      "visualPrompt": "Vertical 9:16 authentic 1980 archival documentary scene: In a chilly suburban Swedish garage in Upplands Väsby, 17-year-old Joey Tempest and 16-year-old guitarist John Norum (matching reference features: shaggy hair, leather jackets) passionately rehearsing beside a battered Marshall amplifier stack, raw vintage 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes.",
+      "voiceover": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes."
     },
     {
       "id": "scene-03",
-      "title": "El caos en Laurel Canyon",
+      "title": "El teclado prestado a medianoche",
       "start": 20,
       "end": 30,
-      "description": "Una sala bohemia en Laurel Canyon en los 70, vinilos de The Mamas & the Papas, ceniceros y la atmósfera densa de una fiesta.",
-      "focus": "El desenfreno y las adicciones de John y Michelle Phillips",
-      "visualPrompt": "Vertical 9:16 archival 1970s documentary scene: A bohemian living room in Laurel Canyon after a wild party, early morning light filtering through wooden blinds onto scattered vintage vinyl sleeves and empty glasses, atmospheric 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas.",
-      "voiceover": "Chynna conoció desde niña el desapego y las adicciones despiadadas que devastaron a sus padres, los líderes de The Mamas and the Papas."
+      "description": "Joey Tempest sentado tarde en la noche en su modesto dormitorio en Suecia, tocando concentrado un sintetizador Korg Polysix vintage.",
+      "focus": "La solitaria creación de la famosa melodía",
+      "visualPrompt": "Vertical 9:16 intimate 1981 bedroom scene: 18-year-old Joey Tempest (slender, wavy blonde hair) sitting at a small wooden desk at night illuminated by a single warm desk lamp, experimenting on a vintage Korg Polysix analog synthesizer keyboard with headphones on, cassette recorder nearby, authentic 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto.",
+      "voiceover": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto."
     },
     {
       "id": "scene-04",
-      "title": "Chynna al borde del colapso",
+      "title": "La furia de John Norum",
       "start": 30,
       "end": 40,
-      "description": "Chynna Phillips a los 21 años, sentada en el borde de una cama en una habitación en penumbra de Los Ángeles, con las manos sobre el rostro.",
-      "focus": "La crisis de sustancias y los ataques de pánico a los 21 años",
-      "visualPrompt": "Vertical 9:16 poignant 1988 documentary scene: 21-year-old Chynna Phillips (slender build, delicate features, shoulder-length blonde hair, wearing an oversized knit sweater) sitting on the edge of a bed in a shadowy Los Angeles bedroom, hands resting gently on her lap in deep emotional exhaustion, warm lamplight, 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes.",
-      "voiceover": "Al cumplir veintiún años, Chynna sintió que caía en el mismo abismo familiar entre el consumo descontrolado y ataques de pánico recurrentes."
+      "description": "Tensa discusión en el local de ensayo: el guitarrista John Norum con los brazos cruzados y gesto de enojo mirando a Joey Tempest.",
+      "focus": "El choque estético entre las guitarras duras y el teclado pop",
+      "visualPrompt": "Vertical 9:16 dramatic 1985 rehearsal room confrontation: Young guitarist John Norum (21, blonde hair, black leather jacket, arms crossed in stubborn defiance and disgust) arguing tensely with singer Joey Tempest (holding a cassette tape beside a keyboard), intense emotional division between rock purism and pop ambition, 35mm Kodachrome grain, quiet lower third, strictly no text.",
+      "subtitle": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda.",
+      "voiceover": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda."
     },
     {
       "id": "scene-05",
-      "title": "El principio de un día a la vez",
+      "title": "La tregua en Zúrich",
       "start": 40,
       "end": 50,
-      "description": "Una humilde sala comunitaria con sillas plegables de metal en círculo y tazas de café, luz cálida de tarde entrando por la ventana.",
-      "focus": "Las reuniones de Alcohólicos Anónimos y el aprendizaje de los doce pasos",
-      "visualPrompt": "Vertical 9:16 intimate 1989 documentary photograph: A circle of metal folding chairs in a humble church basement meeting hall, warm afternoon sun streaming through tall windows, paper coffee cups on a small table, a supportive and dignified recovery atmosphere, 35mm Tri-X grain, quiet lower third, strictly no text.",
-      "subtitle": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez.",
-      "voiceover": "Buscando salir de esa espiral antes de tocar fondo, asistió a reuniones de sobriedad donde aprendió a resistir un solo día a la vez."
+      "description": "Control room de Powerplay Studios en Zúrich con el productor Kevin Elson ante la mesa de mezclas analógica.",
+      "focus": "El compromiso de grabarla solo como tema de apertura en vivo",
+      "visualPrompt": "Vertical 9:16 authentic 1985 recording studio scene at Powerplay Studios in Zurich: American producer Kevin Elson at a massive analog mixing console with glowing VU meters, while Europe band members stand behind in the dim control room listening with serious concentration, 35mm warm studio grain, quiet lower third, strictly no text.",
+      "subtitle": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio.",
+      "voiceover": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio."
     },
     {
       "id": "scene-06",
-      "title": "El automóvil de madrugada",
+      "title": "El solo de guitarra legendario",
       "start": 50,
       "end": 60,
-      "description": "Chynna Phillips dentro de su coche estacionado de noche en una calle residencial arbolada de Los Ángeles, con auriculares y una libreta.",
-      "focus": "La escucha de la maqueta de Glen Ballard en el auto",
-      "visualPrompt": "Vertical 9:16 cinematic 1989 night scene: 21-year-old Chynna Phillips sitting behind the steering wheel of a vintage parked sedan on a quiet Beverly Hills street at 2 AM, cassette deck softly illuminated on the dashboard, she is wearing vintage headphones and holding an open spiral notepad, soft amber streetlight, 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard.",
-      "voiceover": "Sola en su auto a medianoche, escuchó en un casete la maqueta instrumental que le había entregado el productor Glen Ballard."
+      "description": "John Norum en la penumbra de la sala de grabación de Zúrich, tocando su guitarra eléctrica con los ojos cerrados y virtuosismo.",
+      "focus": "La grabación del solo de guitarra en una sola toma",
+      "visualPrompt": "Vertical 9:16 intense studio recording photograph: Guitarist John Norum (matching reference: slender build, long blonde hair, white Fender Stratocaster guitar) playing a blazing, passionate guitar solo with closed eyes in the studio booth under a single dramatic spotlight, fast fingers on the fretboard, authentic 35mm Tri-X grain, quiet lower third, strictly no text.",
+      "subtitle": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico.",
+      "voiceover": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico."
     },
     {
       "id": "scene-07",
-      "title": "Hold on for one more day",
+      "title": "El número uno en 25 países",
       "start": 60,
       "end": 70,
-      "description": "Primer plano cinematográfico de la libreta sobre el volante, con las frases escritas a mano bajo la luz de la farola: «No one can change your life except for you / Hold on for one more day».",
-      "focus": "El nacimiento de la letra como juramento de supervivencia",
-      "visualPrompt": "Vertical 9:16 intimate macro shot inside a car at night: An open spiral notebook resting against the steering wheel, handwritten verses in ballpoint pen illuminated by streetlamp light through the windshield: 'No one can change your life except for you / Hold on for one more day', authentic 1989 35mm grain, quiet lower third, strictly no text overlaid.",
-      "subtitle": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más.",
-      "voiceover": "Para no recaer esa noche, escribió su propia plegaria: nadie cambiará tu vida excepto tú; solo aguanta y resiste un día más."
+      "description": "Portadas de revistas juveniles de 1986, discos de oro y multitudes histéricas de adolescentes agitando banderas.",
+      "focus": "La consagración comercial masiva y la pérdida de control",
+      "visualPrompt": "Vertical 9:16 archival 1986 pop mania collage scene: Gold records glistening on a velvet wall alongside stacks of 1986 teen music magazines featuring Europe on the cover, flashing camera bulbs and the chaotic rush of global pop superstardom, vibrant retro 35mm aesthetic, quiet lower third, strictly no text.",
+      "subtitle": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global.",
+      "voiceover": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global."
     },
     {
       "id": "scene-08",
-      "title": "La alquimia de tres voces",
+      "title": "La humillación del playback",
       "start": 70,
       "end": 80,
-      "description": "Carnie, Wendy y Chynna cantando juntas muy cerca frente a un micrófono Neumann en el estudio con Glen Ballard en la consola analógica al fondo.",
-      "focus": "La grabación de las armonías y la transformación del dolor en luz",
-      "visualPrompt": "Vertical 9:16 authentic 1989 recording studio documentary photograph: Chynna Phillips, Carnie Wilson, and Wendy Wilson standing closely together singing in perfect harmony into a vintage Neumann condenser microphone with headphones on, genuine joy and emotion in their faces, analog mixing board in the warm background, 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación.",
-      "voiceover": "Cuando unieron sus tres voces en el estudio, las hijas del rock transformaron el dolor heredado en un milagro colectivo de salvación."
+      "description": "John Norum en un plató de televisión con luces de neón ochenteras, mirando su guitarra con desilusión mientras las cámaras graban.",
+      "focus": "La farsa comercial televisiva y la decisión de abandonar la banda",
+      "visualPrompt": "Vertical 9:16 poignant 1986 television studio scene: Guitarist John Norum standing under bright synthetic pastel studio lights on a cheesy European TV music show, holding his unplugged electric guitar with a look of profound disillusionment and alienation while broadcast cameras film, 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira.",
+      "voiceover": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira."
     },
     {
       "id": "scene-09",
-      "title": "El refugio universal",
+      "title": "El precio de la gloria",
       "start": 80,
       "end": 90,
-      "description": "Un ventanal abierto de un ático en California al atardecer, luz dorada bañando un atril de madera con partituras y una guitarra acústica descansando junto al marco.",
-      "focus": "El eco humano permanente de la canción",
-      "visualPrompt": "Vertical 9:16 poetic fine-art documentary photograph: A tall open attic window overlooking California coastal hills at sunset, golden hour light spilling across a rustic wooden floor where an acoustic guitar rests on an armchair beside an open music stand, warm breeze stirring sheer curtains, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más.",
-      "voiceover": "Hay canciones que nacen para triunfar en la radio, y otras que nacen para recordarnos que siempre vale la pena resistir un día más."
+      "description": "Un escenario de concierto vacío a medianoche tras el show, cables y un amplificador Marshall solitario con una púa sobre la rejilla.",
+      "focus": "La reflexión sobre la integridad artística frente a la fama",
+      "visualPrompt": "Vertical 9:16 poetic fine-art documentary scene: An empty dark arena stage at midnight after the crowd has gone, a single vintage Marshall amplifier stack standing alone under a faint blue work light, a solitary guitar pick resting on its black grill cloth, silent peaceful atmosphere, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio.",
+      "voiceover": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio."
     }
   ],
-  "copy": "En 1990, una armonía vocal luminosa conquistó el mundo con un mensaje de esperanza. Pero detrás de «Hold On» no había una fórmula de laboratorio pop: era el grito desesperado de una joven de 21 años intentando salvar su propia vida.\n\nChynna Phillips y las hermanas Carnie y Wendy Wilson cargaban con el peso de ser las hijas de la aristocracia del rock: The Mamas & the Papas y The Beach Boys. Sin embargo, detrás de la gloria de sus padres se ocultaba una infancia marcada por la psicosis, el desapego y adicciones devastadoras. A finales de los ochenta, Chynna sentía que el mismo abismo comenzaba a devorarla a ella.\n\nAterrada de repetir el destino de su familia, comenzó a asistir a reuniones de Alcohólicos Anónimos, donde aprendió el principio de vivir «un día a la vez». Sola en su automóvil a las dos de la madrugada, escuchando una maqueta en casete de Glen Ballard y luchando contra la abstinencia, garabateó en su libreta su propia plegaria: «Nadie cambiará tu vida excepto tú; solo aguanta un día más». Cuando las tres unieron sus voces en el estudio, convirtieron la herida heredada en un himno de supervivencia universal.\n\n¿En qué momento difícil de tu vida esta canción fue tu propio salvavidas? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #WilsonPhillips #HoldOn #TheBeachBoys #TheMamasAndThePapas #HistoriasDeLaMusica #PopDeLos90 #Sobriedad",
-  "anecdote": "A comienzos de 1990, una armonía vocal luminosa conquistó el mundo con un mensaje de esperanza. Pero detrás de «Hold On» no había una fórmula de laboratorio pop: era el grito desesperado de Chynna Phillips, de veintiún años, luchando en su automóvil de madrugada con un mantra de Alcohólicos Anónimos para salvar su propia vida de la adicción.",
-  "hook": "Durante décadas creyeron que este clásico de los noventa era una simple balada optimista... pero nació a las dos de la madrugada en un automóvil, como una plegaria de sobriedad para no morir de sobredosis.",
-  "durationSeconds": 90,
   "assets": [
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic archival 1989 documentary photograph: Chynna Phillips (21, slender, blonde hair, green eyes), Carnie Wilson (21, curvier, voluminous wavy brown hair) and Wendy Wilson (20, long dark hair) sitting closely together around a piano with lyric notebooks in a warm Los Angeles rehearsal studio, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 monumental 1986 stadium concert opening: A massive roaring audience of thousands with hands raised under warm golden spotlights and stage mist, silhouette of a rock band taking the stage against a towering stage backdrop in Stockholm, authentic 1986 35mm concert grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 evocative 1970s documentary scene: In a dimly lit Bel Air living room, a solitary concert grand piano sits in partial shadow while a troubled, bearded Brian Wilson sits slumped in an armchair in the background looking distant, authentic 1970s 35mm warm Kodachrome grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic 1980 archival documentary scene: In a chilly suburban Swedish garage in Upplands Väsby, 17-year-old Joey Tempest and 16-year-old guitarist John Norum (matching reference features: shaggy hair, leather jackets) passionately rehearsing beside a battered Marshall amplifier stack, raw vintage 35mm grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 archival 1970s documentary scene: A bohemian living room in Laurel Canyon after a wild party, early morning light filtering through wooden blinds onto scattered vintage vinyl sleeves and empty glasses, atmospheric 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 intimate 1981 bedroom scene: 18-year-old Joey Tempest (slender, wavy blonde hair) sitting at a small wooden desk at night illuminated by a single warm desk lamp, experimenting on a vintage Korg Polysix analog synthesizer keyboard with headphones on, cassette recorder nearby, authentic 35mm grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 poignant 1988 documentary scene: 21-year-old Chynna Phillips (slender build, delicate features, shoulder-length blonde hair, wearing an oversized knit sweater) sitting on the edge of a bed in a shadowy Los Angeles bedroom, hands resting gently on her lap in deep emotional exhaustion, warm lamplight, 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 dramatic 1985 rehearsal room confrontation: Young guitarist John Norum (21, blonde hair, black leather jacket, arms crossed in stubborn defiance and disgust) arguing tensely with singer Joey Tempest (holding a cassette tape beside a keyboard), intense emotional division between rock purism and pop ambition, 35mm Kodachrome grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 intimate 1989 documentary photograph: A circle of metal folding chairs in a humble church basement meeting hall, warm afternoon sun streaming through tall windows, paper coffee cups on a small table, a supportive and dignified recovery atmosphere, 35mm Tri-X grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1985 recording studio scene at Powerplay Studios in Zurich: American producer Kevin Elson at a massive analog mixing console with glowing VU meters, while Europe band members stand behind in the dim control room listening with serious concentration, 35mm warm studio grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 cinematic 1989 night scene: 21-year-old Chynna Phillips sitting behind the steering wheel of a vintage parked sedan on a quiet Beverly Hills street at 2 AM, cassette deck softly illuminated on the dashboard, she is wearing vintage headphones and holding an open spiral notepad, soft amber streetlight, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 intense studio recording photograph: Guitarist John Norum (matching reference: slender build, long blonde hair, white Fender Stratocaster guitar) playing a blazing, passionate guitar solo with closed eyes in the studio booth under a single dramatic spotlight, fast fingers on the fretboard, authentic 35mm Tri-X grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 intimate macro shot inside a car at night: An open spiral notebook resting against the steering wheel, handwritten verses in ballpoint pen illuminated by streetlamp light through the windshield: 'No one can change your life except for you / Hold on for one more day', authentic 1989 35mm grain, quiet lower third, strictly no text overlaid."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 archival 1986 pop mania collage scene: Gold records glistening on a velvet wall alongside stacks of 1986 teen music magazines featuring Europe on the cover, flashing camera bulbs and the chaotic rush of global pop superstardom, vibrant retro 35mm aesthetic, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 authentic 1989 recording studio documentary photograph: Chynna Phillips, Carnie Wilson, and Wendy Wilson standing closely together singing in perfect harmony into a vintage Neumann condenser microphone with headphones on, genuine joy and emotion in their faces, analog mixing board in the warm background, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 poignant 1986 television studio scene: Guitarist John Norum standing under bright synthetic pastel studio lights on a cheesy European TV music show, holding his unplugged electric guitar with a look of profound disillusionment and alienation while broadcast cameras film, 35mm film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/wilson-phillips-hold-on-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: A tall open attic window overlooking California coastal hills at sunset, golden hour light spilling across a rustic wooden floor where an acoustic guitar rests on an armchair beside an open music stand, warm breeze stirring sheer curtains, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic fine-art documentary scene: An empty dark arena stage at midnight after the crowd has gone, a single vintage Marshall amplifier stack standing alone under a faint blue work light, a solitary guitar pick resting on its black grill cloth, silent peaceful atmosphere, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text."
     }
-  ]
+  ],
+  "copy": "En 1986, una fanfarria de sintetizador se convirtió en el himno más coreado del planeta. Pero detrás de «The Final Countdown» no había una celebración triunfal: había una guerra interna que destruyó a dos amigos de la infancia en la cima del mundo.\n\nJoey Tempest y John Norum fundaron Europe en los suburbios de Estocolmo con un juramento sagrado: defender el rock duro y el rugido de los amplificadores Marshall. Cuando Joey compuso aquella melodía en un teclado prestado y propuso grabarla, Norum se negó con desprecio: «Es pop de plástico con trompetas de juguete; somos una banda de rock». Para evitar la ruptura, pactaron incluirla solo como introducción en vivo.\n\nNadie imaginaba que la discográfica la convertiría en sencillo ni que treparía al número uno en 25 países. Pero la fama masiva desató la pesadilla del guitarrista: entrevistas en revistas para adolescentes y programas de televisión donde los obligaban a fingir playback. Sintiendo que habían vendido el alma de la banda por la gloria comercial, John Norum empacó sus guitarras y renunció en plena gira mundial.\n\n¿Habrías abandonado la banda número uno del planeta para mantenerte fiel a tus principios? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #Europe #TheFinalCountdown #JoeyTempest #JohnNorum #HardRock #HistoriasDelRock #RockDeLos80"
 }
