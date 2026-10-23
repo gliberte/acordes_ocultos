@@ -4,6 +4,7 @@ import StoryCard from '../components/StoryCard.astro';
 import SubstackBanner from '../components/SubstackBanner.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
 import BrandBanner from '../components/BrandBanner.astro';
+import PromoStoriesCarousel from '../components/PromoStoriesCarousel.astro';
 import { getAllStories } from '../lib/stories';
 import { CATEGORIES } from '../lib/categories';
 
@@ -419,6 +420,9 @@ const websiteSchema = {
     </section>
   )}
 
+
+  <!-- Promo Stories Carousel: Carteleras y Avances Verticales 9:16 -->
+  <PromoStoriesCarousel stories={allStories} />
 
   <!-- Editorial Categories Bar -->
   <section id="categorias" class="py-12 px-4 sm:px-6 lg:px-8 border-b border-[#201e1a] bg-[#0c0b09]">

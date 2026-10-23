@@ -5,6 +5,7 @@ import { extractCleanSummary } from './markdown';
 import chroniclesMap from '../data/chronicles.json';
 import availableCoversList from '../data/available_covers.json';
 import availableHeroesList from '../data/available_heroes.json';
+import availablePromosMap from '../data/available_promos.json';
 import storiesCatalogFallback from '../data/stories_catalog.json';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -750,6 +751,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       if (altCover) {
         item.coverUrl = `/covers/${altCover}.webp`;
       }
+    }
+    const promoPoster =
+      (item.articleSlug && (availablePromosMap as Record<string, string>)[item.articleSlug]) ||
+      (item.slug && (availablePromosMap as Record<string, string>)[item.slug]) ||
+      undefined;
+    if (promoPoster) {
+      item.promoPosterUrl = promoPoster;
     }
   }
 

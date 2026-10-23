@@ -211,16 +211,32 @@ const articleSchema = {
           songTitle={story.songTitle}
         />
 
-        <!-- Teaser Card (if available) -->
-        {story.teaserUrl && (
-          <div class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] p-3 text-center select-none">
-            <span class="block text-[10px] uppercase tracking-widest text-neutral-400 mb-2">
-              Fotogramas Clave de la Producción
-            </span>
-            <div class="relative">
-              <div class="absolute inset-0 z-10" data-image-shield="true" aria-hidden="true"></div>
-              <img src={story.teaserUrl} alt="Story Teaser" draggable="false" class="rounded-lg w-full object-cover select-none pointer-events-none" />
+        <!-- Cartel Oficial de la Historia / Póster Promocional -->
+        {(story.promoPosterUrl || story.teaserUrl) && (
+          <div class="rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] p-4 text-center shadow-2xl group transition-all hover:border-amber-500/40">
+            <div class="flex items-center justify-between gap-2 mb-3 px-1">
+              <span class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-black text-amber-400 font-sans">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                <span>Póster Oficial para Historias</span>
+              </span>
+              <span class="text-[9px] font-mono text-neutral-400 uppercase tracking-wider bg-[#1c1a16] px-2 py-0.5 rounded border border-[#2e2a24]">
+                9:16 Vertical
+              </span>
             </div>
+            <div class="relative rounded-xl overflow-hidden bg-black/60 shadow-inner">
+              <div class="absolute inset-0 z-10 pointer-events-none" data-image-shield="true" aria-hidden="true"></div>
+              <img
+                src={story.promoPosterUrl || story.teaserUrl}
+                alt={`Póster oficial de ${story.title}`}
+                draggable="false"
+                loading="lazy"
+                decoding="async"
+                class="w-full h-auto object-cover rounded-xl select-none group-hover:scale-[1.02] transition-transform duration-500"
+              />
+            </div>
+            <p class="text-[11px] text-neutral-400 font-sans italic mt-3 px-1">
+              Diseño conmemorativo y cartel promocional emitido en nuestras historias oficiales.
+            </p>
           </div>
         )}
 

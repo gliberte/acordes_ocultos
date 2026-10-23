@@ -82,6 +82,9 @@ A esa cumbre se sumó la participación volcánica de **Phil Lynott**, el carism
 
 ![La vitrina con la portada del trípode marciano en 1978](images/scene-08.png)
 
+![Póster Oficial para Historias: Jeff Wayne - The Eve of the War](images/story_promo.webp)
+*Cartel oficial de la crónica: La industria creyó que estaba loco. El mundo terminó rindiéndose.*
+
 ## Epílogo: El triunfo contra todos los pronósticos
 
 El 9 de junio de 1978, la obra fue presentada oficialmente bajo la cúpula del Planetario de Londres. Los ejecutivos de CBS, que durante dos años habían temido una catástrofe contable, presenciaron atónitos cómo el público y la crítica quedaban hechizados por la ilustración de portada de Michael Trim y Geoff Taylor: un gigantesco trípode marciano emergiendo de las aguas sobre un cielo cobrizo, disparando su haz de muerte contra el acorazado *Thunder Child*.

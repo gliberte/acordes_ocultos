@@ -72,6 +72,9 @@ Debido a que el gobierno de EE. UU. le denegó la visa a tiempo por sus antecede
 Pero en la intimidad de los camerinos, lejos de los reflectores, la alegría duró apenas unos segundos. Mirando a su mejor amiga con una tristeza insondable, Amy susurró la frase que retrató su tragedia:  
 *«Esto es tan aburrido sin drogas»*.
 
+![Póster Oficial para Historias: Amy Winehouse - Back to Black](images/story_promo.webp)
+*Cartel oficial de la crónica: Ganó cinco Grammy en una noche, pero nadie pudo salvar su corazón.*
+
 ---
 
 ## Acto IV: La Cacería de los Tabloides y la Dignidad de Belgrado

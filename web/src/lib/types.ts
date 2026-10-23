@@ -27,6 +27,7 @@ export interface StoryItem {
   coverUrl: string;
   heroImageUrl?: string;
   teaserUrl?: string;
+  promoPosterUrl?: string;
   videoUrl?: string;
   tiktokVideoUrl?: string;
   audioUrl?: string;
