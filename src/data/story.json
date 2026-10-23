@@ -1,24 +1,24 @@
 {
-  "id": "europe-the-final-countdown-acordes-ocultos",
+  "id": "heroes-del-silencio-maldito-duende-acordes-ocultos",
   "brand": "acordes-ocultos",
-  "title": "El riff que conquistó el mundo y destruyó una amistad",
-  "artist": "Europe",
-  "songTitle": "The Final Countdown",
+  "title": "El poema de un niño de 14 años que se convirtió en leyenda",
+  "artist": "Héroes del Silencio",
+  "songTitle": "Maldito Duende",
   "topic": "curiosidad musical",
-  "slug": "europe-the-final-countdown-acordes-ocultos",
-  "articleSlug": "europe-the-final-countdown-acordes-ocultos",
+  "slug": "heroes-del-silencio-maldito-duende-acordes-ocultos",
+  "articleSlug": "heroes-del-silencio-maldito-duende-acordes-ocultos",
   "fps": 30,
   "durationSeconds": 90,
   "durationInFrames": 2700,
   "music": {
-    "title": "The Final Countdown",
-    "artist": "Europe",
-    "file": "music/europe-the-final-countdown.mp3"
+    "title": "Maldito Duende",
+    "artist": "Héroes del Silencio",
+    "file": "music/heroes-del-silencio-maldito-duende.mp3"
   },
   "cover": {
     "badge": "Acordes Ocultos",
-    "title": "The Final Countdown",
-    "artist": "Europe"
+    "title": "Maldito Duende",
+    "artist": "Héroes del Silencio"
   },
   "palette": {
     "ink": "#0f172a",
@@ -26,73 +26,73 @@
     "accent": "#f59e0b",
     "glow": "#fbbf24"
   },
-  "anecdote": "A comienzos de 1986, Joey Tempest compuso en un teclado prestado la fanfarria más famosa del rock ochentero. Pero su guitarrista y amigo de la infancia, John Norum, la detestaba por considerarla pop comercial; cuando la canción trepó al número uno en veinticinco países y los obligaron a hacer playback en televisión, Norum renunció a la banda en plena cumbre de la gloria.",
-  "hook": "Durante décadas creyeron que este himno mundial era una celebración triunfal... pero su creador original lo odiaba tanto que abandonó la banda en la cima del éxito.",
-  "outro": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio.",
+  "anecdote": "A comienzos de los ochenta, en una fría habitación de Zaragoza, un introvertido Enrique Bunbury de apenas catorce años escribió un poema para escapar de la soledad. Casi una década después, rescató aquellos versos junto al productor Phil Manzanera y los transformó en uno de los himnos más desgarradores e inmortales del rock en español.",
+  "hook": "Durante décadas creyeron que este himno oscuro nació de los excesos de la fama... pero fue escrito en una libreta escolar por un niño de catorce años que intentaba no ahogarse en la soledad.",
+  "outro": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna.",
   "beats": [
-    "1986: La fanfarria global",
-    "El garaje de Upplands Väsby",
-    "El teclado prestado a medianoche",
-    "La furia de John Norum",
-    "La tregua en Zúrich",
-    "El solo de guitarra legendario",
-    "El número uno en 25 países",
-    "La humillación del playback",
-    "El precio de la gloria"
+    "1991: El arpegio inmortal",
+    "El dormitorio en Zaragoza",
+    "El misterio del duende",
+    "La trampa del pop ochentero",
+    "El encuentro con Phil Manzanera",
+    "La alquimia en los estudios Kirios",
+    "El trance chamánico en directo",
+    "La consagración contra la crítica",
+    "El pacto con el tiempo"
   ],
   "visuals": [
     {
       "start": 0,
       "end": 10,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-01.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-01.png",
       "type": "image"
     },
     {
       "start": 10,
       "end": 20,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-02.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-02.png",
       "type": "image"
     },
     {
       "start": 20,
       "end": 30,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-03.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-03.png",
       "type": "image"
     },
     {
       "start": 30,
       "end": 40,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-04.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-04.png",
       "type": "image"
     },
     {
       "start": 40,
       "end": 50,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-05.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-05.png",
       "type": "image"
     },
     {
       "start": 50,
       "end": 60,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-06.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-06.png",
       "type": "image"
     },
     {
       "start": 60,
       "end": 70,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-07.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-07.png",
       "type": "image"
     },
     {
       "start": 70,
       "end": 80,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-08.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-08.png",
       "type": "image"
     },
     {
       "start": 80,
       "end": 90,
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-09.png",
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-09.png",
       "type": "image"
     }
   ],
@@ -101,195 +101,195 @@
       "start": 0,
       "end": 10,
       "speaker": "Acordes Ocultos",
-      "text": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral."
+      "text": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente."
     },
     {
       "start": 10,
       "end": 20,
       "speaker": "Acordes Ocultos",
-      "text": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes."
+      "text": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar."
     },
     {
       "start": 20,
       "end": 30,
       "speaker": "Acordes Ocultos",
-      "text": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto."
+      "text": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer."
     },
     {
       "start": 30,
       "end": 40,
       "speaker": "Acordes Ocultos",
-      "text": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda."
+      "text": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras."
     },
     {
       "start": 40,
       "end": 50,
       "speaker": "Acordes Ocultos",
-      "text": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio."
+      "text": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor."
     },
     {
       "start": 50,
       "end": 60,
       "speaker": "Acordes Ocultos",
-      "text": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico."
+      "text": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury."
     },
     {
       "start": 60,
       "end": 70,
       "speaker": "Acordes Ocultos",
-      "text": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global."
+      "text": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso."
     },
     {
       "start": 70,
       "end": 80,
       "speaker": "Acordes Ocultos",
-      "text": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira."
+      "text": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina."
     },
     {
       "start": 80,
       "end": 90,
       "speaker": "Acordes Ocultos",
-      "text": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio."
+      "text": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna."
     }
   ],
   "scenes": [
     {
       "id": "scene-01",
-      "title": "La fanfarria global",
+      "title": "El arpegio inmortal",
       "start": 0,
       "end": 10,
-      "description": "Un abarrotado estadio en 1986 bañado por focos dorados y niebla, miles de brazos en alto mientras el telón de fondo de Europe se ilumina al inicio de su concierto.",
-      "focus": "El impacto universal de la fanfarria de sintetizador",
-      "visualPrompt": "Vertical 9:16 monumental 1986 stadium concert opening: A massive roaring audience of thousands with hands raised under warm golden spotlights and stage mist, silhouette of a rock band taking the stage against a towering stage backdrop in Stockholm, authentic 1986 35mm concert grain, quiet lower third, strictly no text.",
-      "subtitle": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral.",
-      "voiceover": "Su fanfarria de sintetizador se convirtió en el himno más reconocible del planeta, pero nació de un rechazo visceral."
+      "description": "Un abarrotado concierto en 1991 bajo una marea de luces rojas y niebla, Enrique Bunbury con camisa negra desabrochada y melena rizada cantando con intensidad teatral ante miles de brazos en alto.",
+      "focus": "El impacto y mística de Maldito Duende en directo",
+      "visualPrompt": "Vertical 9:16 atmospheric 1991 rock concert photograph: Frontman Enrique Bunbury (23, slender build, shoulder-length curly dark hair, unbuttoned black silk shirt, cheekbones, expressive eyes) singing passionately into a microphone under deep crimson and amber stage lights, silhouetted hands of thousands in the audience, authentic 35mm concert film grain, quiet lower third, strictly no text.",
+      "subtitle": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente.",
+      "voiceover": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente."
     },
     {
       "id": "scene-02",
-      "title": "El garaje de Upplands Väsby",
+      "title": "El dormitorio en Zaragoza",
       "start": 10,
       "end": 20,
-      "description": "Un frío garaje suburbano en Estocolmo a principios de los ochenta, dos adolescentes ensayando con amplificadores Marshall.",
-      "focus": "La hermandad adolescente y el amor por el hard rock puro",
-      "visualPrompt": "Vertical 9:16 authentic 1980 archival documentary scene: In a chilly suburban Swedish garage in Upplands Väsby, 17-year-old Joey Tempest and 16-year-old guitarist John Norum (matching reference features: shaggy hair, leather jackets) passionately rehearsing beside a battered Marshall amplifier stack, raw vintage 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes.",
-      "voiceover": "Joey Tempest y John Norum fundaron la banda como adolescentes en Suecia, jurando lealtad eterna al rock duro de guitarras rugientes."
+      "description": "Un joven de 14 años en un modesto dormitorio de Zaragoza a principios de los ochenta, sentado en el suelo escribiendo a mano en un cuaderno bajo una lámpara flexo.",
+      "focus": "La soledad adolescente y los primeros versos",
+      "visualPrompt": "Vertical 9:16 intimate 1981 bedroom scene in Zaragoza Spain: A 14-year-old adolescent Enrique (slender, dark curly hair, wearing a dark sweater) sitting on the wooden floor leaning against his bed at night, intently writing poetry with a pen in an open school notebook, warm light from a vintage desk lamp casting long shadows, authentic 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar.",
+      "voiceover": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar."
     },
     {
       "id": "scene-03",
-      "title": "El teclado prestado a medianoche",
+      "title": "El misterio del duende",
       "start": 20,
       "end": 30,
-      "description": "Joey Tempest sentado tarde en la noche en su modesto dormitorio en Suecia, tocando concentrado un sintetizador Korg Polysix vintage.",
-      "focus": "La solitaria creación de la famosa melodía",
-      "visualPrompt": "Vertical 9:16 intimate 1981 bedroom scene: 18-year-old Joey Tempest (slender, wavy blonde hair) sitting at a small wooden desk at night illuminated by a single warm desk lamp, experimenting on a vintage Korg Polysix analog synthesizer keyboard with headphones on, cassette recorder nearby, authentic 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto.",
-      "voiceover": "En su dormitorio, Joey compuso una melodía en un sintetizador prestado, guardando esa secuencia durante años como un secreto."
+      "description": "Una calle solitaria y empedrada del casco antiguo de Zaragoza a medianoche, farolas proyectando sombras largas y una atmósfera bohemia y enigmática.",
+      "focus": "La inspiración simbolista y la noche",
+      "visualPrompt": "Vertical 9:16 poetic nocturnal atmospheric photograph: A cobblestone alley in the historic old quarter of Zaragoza at 2 AM, glistening wet stones, vintage wrought-iron streetlamps casting amber halos in the light fog, a distant solitary silhouette in a dark long coat walking into the shadows, evocative 35mm Tri-X grain, quiet lower third, strictly no text.",
+      "subtitle": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer.",
+      "voiceover": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer."
     },
     {
       "id": "scene-04",
-      "title": "La furia de John Norum",
+      "title": "La trampa del pop ochentero",
       "start": 30,
       "end": 40,
-      "description": "Tensa discusión en el local de ensayo: el guitarrista John Norum con los brazos cruzados y gesto de enojo mirando a Joey Tempest.",
-      "focus": "El choque estético entre las guitarras duras y el teclado pop",
-      "visualPrompt": "Vertical 9:16 dramatic 1985 rehearsal room confrontation: Young guitarist John Norum (21, blonde hair, black leather jacket, arms crossed in stubborn defiance and disgust) arguing tensely with singer Joey Tempest (holding a cassette tape beside a keyboard), intense emotional division between rock purism and pop ambition, 35mm Kodachrome grain, quiet lower third, strictly no text.",
-      "subtitle": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda.",
-      "voiceover": "Cuando Joey propuso incluirla en el disco, Norum enfureció: sentía que aquel teclado comercial traicionaba el alma de la banda."
+      "description": "La banda en un estudio de grabación de Madrid en 1988, mirando con frustración una mesa de mezclas repleta de efectos electrónicos ochenteros.",
+      "focus": "El rechazo a la domesticación comercial de su sonido",
+      "visualPrompt": "Vertical 9:16 candid 1988 recording studio photograph in Madrid: Young rock band Héroes del Silencio in black leather jackets standing in a dimly lit studio control room, looking unhappy and rebellious as sound engineers tweak electronic rack synthesizers, capturing the tension between commercial pop pressure and raw rock integrity, 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras.",
+      "voiceover": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras."
     },
     {
       "id": "scene-05",
-      "title": "La tregua en Zúrich",
+      "title": "El encuentro con Phil Manzanera",
       "start": 40,
       "end": 50,
-      "description": "Control room de Powerplay Studios en Zúrich con el productor Kevin Elson ante la mesa de mezclas analógica.",
-      "focus": "El compromiso de grabarla solo como tema de apertura en vivo",
-      "visualPrompt": "Vertical 9:16 authentic 1985 recording studio scene at Powerplay Studios in Zurich: American producer Kevin Elson at a massive analog mixing console with glowing VU meters, while Europe band members stand behind in the dim control room listening with serious concentration, 35mm warm studio grain, quiet lower third, strictly no text.",
-      "subtitle": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio.",
-      "voiceover": "Para no fracturar al grupo, acordaron grabarla solo como apertura de sus conciertos, creyendo que jamás sonaría en la radio."
+      "description": "En el backstage de un festival en Calatayud en 1989, Enrique Bunbury y Juan Valdivia entregando una cinta de casete al productor Phil Manzanera.",
+      "focus": "El audaz acercamiento a Phil Manzanera",
+      "visualPrompt": "Vertical 9:16 authentic 1989 backstage documentary scene: Enrique Bunbury and guitarist Juan Valdivia (in scruffy leather jackets) speaking with deep respect to British producer Phil Manzanera (distinguished musician with tinted glasses and dark tailored blazer) backstage at a summer Spanish festival, handing him an audio cassette tape, warm tungsten light, 35mm Kodachrome grain, quiet lower third, strictly no text.",
+      "subtitle": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor.",
+      "voiceover": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor."
     },
     {
       "id": "scene-06",
-      "title": "El solo de guitarra legendario",
+      "title": "La alquimia en los estudios Kirios",
       "start": 50,
       "end": 60,
-      "description": "John Norum en la penumbra de la sala de grabación de Zúrich, tocando su guitarra eléctrica con los ojos cerrados y virtuosismo.",
-      "focus": "La grabación del solo de guitarra en una sola toma",
-      "visualPrompt": "Vertical 9:16 intense studio recording photograph: Guitarist John Norum (matching reference: slender build, long blonde hair, white Fender Stratocaster guitar) playing a blazing, passionate guitar solo with closed eyes in the studio booth under a single dramatic spotlight, fast fingers on the fretboard, authentic 35mm Tri-X grain, quiet lower third, strictly no text.",
-      "subtitle": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico.",
-      "voiceover": "En una sola toma magistral, Norum grabó un solo desgarrador intentando salvar el espíritu rockero dentro de aquel muro electrónico."
+      "description": "Juan Valdivia tocando concentrado su guitarra eléctrica en la penumbra de los estudios Kirios, mientras Phil Manzanera asiente detrás del cristal.",
+      "focus": "El nacimiento del arpegio definitivo y la producción limpia",
+      "visualPrompt": "Vertical 9:16 authentic 1990 recording studio moment at Estudios Kirios in Madrid: Guitarist Juan Valdivia (slender, dark shoulder-length hair) seated in the tracking room fingerpicking his electric guitar with intense focus under a warm lamp, producer Phil Manzanera watching approvingly behind the glass control window, rich analog 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury.",
+      "voiceover": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury."
     },
     {
       "id": "scene-07",
-      "title": "El número uno en 25 países",
+      "title": "El trance chamánico en directo",
       "start": 60,
       "end": 70,
-      "description": "Portadas de revistas juveniles de 1986, discos de oro y multitudes histéricas de adolescentes agitando banderas.",
-      "focus": "La consagración comercial masiva y la pérdida de control",
-      "visualPrompt": "Vertical 9:16 archival 1986 pop mania collage scene: Gold records glistening on a velvet wall alongside stacks of 1986 teen music magazines featuring Europe on the cover, flashing camera bulbs and the chaotic rush of global pop superstardom, vibrant retro 35mm aesthetic, quiet lower third, strictly no text.",
-      "subtitle": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global.",
-      "voiceover": "Contra todo pronóstico, la discográfica la lanzó como sencillo: fue número uno en veinticinco países y desató la locura global."
+      "description": "Primer plano cinematográfico en blanco y negro de Enrique Bunbury en pleno directo, ojos cerrados y expresión arrebatada, aferrado al micrófono.",
+      "focus": "La posesión artística y el ritual escénico",
+      "visualPrompt": "Vertical 9:16 high-contrast black-and-white 35mm Tri-X concert photograph: Intense close-up of Enrique Bunbury singing live in 1991, head thrown back in ecstatic performance trance, sweat glistening on his face, wild curly hair, gripping the chrome microphone stand with both hands under a sharp white spotlight, quiet lower third, strictly no text.",
+      "subtitle": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso.",
+      "voiceover": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso."
     },
     {
       "id": "scene-08",
-      "title": "La humillación del playback",
+      "title": "La consagración contra la crítica",
       "start": 70,
       "end": 80,
-      "description": "John Norum en un plató de televisión con luces de neón ochenteras, mirando su guitarra con desilusión mientras las cámaras graban.",
-      "focus": "La farsa comercial televisiva y la decisión de abandonar la banda",
-      "visualPrompt": "Vertical 9:16 poignant 1986 television studio scene: Guitarist John Norum standing under bright synthetic pastel studio lights on a cheesy European TV music show, holding his unplugged electric guitar with a look of profound disillusionment and alienation while broadcast cameras film, 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira.",
-      "voiceover": "Obligado a fingir que tocaba en programas de televisión, Norum no soportó la farsa comercial y abandonó la banda en plena gira."
+      "description": "Un mar de miles de personas iluminadas por bengalas y focos en un festival al aire libre, coreando al unísono el estribillo con pasión desbordada.",
+      "focus": "La victoria del público frente al esnobismo periodístico",
+      "visualPrompt": "Vertical 9:16 epic 1991 outdoor festival crowd: A vast sea of passionate rock fans singing with open mouths and raised fists under warm golden arena lights and red flares, smoke hanging in the night sky, capturing the immense spiritual connection of an entire generation, authentic 35mm film grain, quiet lower third, strictly no text.",
+      "subtitle": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina.",
+      "voiceover": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina."
     },
     {
       "id": "scene-09",
-      "title": "El precio de la gloria",
+      "title": "El pacto con el tiempo",
       "start": 80,
       "end": 90,
-      "description": "Un escenario de concierto vacío a medianoche tras el show, cables y un amplificador Marshall solitario con una púa sobre la rejilla.",
-      "focus": "La reflexión sobre la integridad artística frente a la fama",
-      "visualPrompt": "Vertical 9:16 poetic fine-art documentary scene: An empty dark arena stage at midnight after the crowd has gone, a single vintage Marshall amplifier stack standing alone under a faint blue work light, a solitary guitar pick resting on its black grill cloth, silent peaceful atmosphere, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio.",
-      "voiceover": "Hay canciones que compran la gloria del mundo entero, y silencios que nos recuerdan que la lealtad a uno mismo no tiene precio."
+      "description": "Una sala vacía de un club de rock al amanecer, una guitarra solitaria sobre su soporte junto al escenario en penumbra, mientras entra luz natural.",
+      "focus": "La inmortalidad de la honestidad adolescente",
+      "visualPrompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty rustic rock hall at dawn after a legendary show, morning golden sunlight slanting through high dusty industrial windows onto a dark wooden stage, where a single electric guitar rests upright on a stand beside a coiled black cable in profound silence, strictly no turntables, strictly no vinyl records, evocative 35mm grain, quiet lower third, strictly no text.",
+      "subtitle": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna.",
+      "voiceover": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna."
     }
   ],
   "assets": [
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 monumental 1986 stadium concert opening: A massive roaring audience of thousands with hands raised under warm golden spotlights and stage mist, silhouette of a rock band taking the stage against a towering stage backdrop in Stockholm, authentic 1986 35mm concert grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 atmospheric 1991 rock concert photograph: Frontman Enrique Bunbury (23, slender build, shoulder-length curly dark hair, unbuttoned black silk shirt, cheekbones, expressive eyes) singing passionately into a microphone under deep crimson and amber stage lights, silhouetted hands of thousands in the audience, authentic 35mm concert film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 authentic 1980 archival documentary scene: In a chilly suburban Swedish garage in Upplands Väsby, 17-year-old Joey Tempest and 16-year-old guitarist John Norum (matching reference features: shaggy hair, leather jackets) passionately rehearsing beside a battered Marshall amplifier stack, raw vintage 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate 1981 bedroom scene in Zaragoza Spain: A 14-year-old adolescent Enrique (slender, dark curly hair, wearing a dark sweater) sitting on the wooden floor leaning against his bed at night, intently writing poetry with a pen in an open school notebook, warm light from a vintage desk lamp casting long shadows, authentic 35mm grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 intimate 1981 bedroom scene: 18-year-old Joey Tempest (slender, wavy blonde hair) sitting at a small wooden desk at night illuminated by a single warm desk lamp, experimenting on a vintage Korg Polysix analog synthesizer keyboard with headphones on, cassette recorder nearby, authentic 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 poetic nocturnal atmospheric photograph: A cobblestone alley in the historic old quarter of Zaragoza at 2 AM, glistening wet stones, vintage wrought-iron streetlamps casting amber halos in the light fog, a distant solitary silhouette in a dark long coat walking into the shadows, evocative 35mm Tri-X grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 dramatic 1985 rehearsal room confrontation: Young guitarist John Norum (21, blonde hair, black leather jacket, arms crossed in stubborn defiance and disgust) arguing tensely with singer Joey Tempest (holding a cassette tape beside a keyboard), intense emotional division between rock purism and pop ambition, 35mm Kodachrome grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 candid 1988 recording studio photograph in Madrid: Young rock band Héroes del Silencio in black leather jackets standing in a dimly lit studio control room, looking unhappy and rebellious as sound engineers tweak electronic rack synthesizers, capturing the tension between commercial pop pressure and raw rock integrity, 35mm film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1985 recording studio scene at Powerplay Studios in Zurich: American producer Kevin Elson at a massive analog mixing console with glowing VU meters, while Europe band members stand behind in the dim control room listening with serious concentration, 35mm warm studio grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1989 backstage documentary scene: Enrique Bunbury and guitarist Juan Valdivia (in scruffy leather jackets) speaking with deep respect to British producer Phil Manzanera (distinguished musician with tinted glasses and dark tailored blazer) backstage at a summer Spanish festival, handing him an audio cassette tape, warm tungsten light, 35mm Kodachrome grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 intense studio recording photograph: Guitarist John Norum (matching reference: slender build, long blonde hair, white Fender Stratocaster guitar) playing a blazing, passionate guitar solo with closed eyes in the studio booth under a single dramatic spotlight, fast fingers on the fretboard, authentic 35mm Tri-X grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 authentic 1990 recording studio moment at Estudios Kirios in Madrid: Guitarist Juan Valdivia (slender, dark shoulder-length hair) seated in the tracking room fingerpicking his electric guitar with intense focus under a warm lamp, producer Phil Manzanera watching approvingly behind the glass control window, rich analog 35mm grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 archival 1986 pop mania collage scene: Gold records glistening on a velvet wall alongside stacks of 1986 teen music magazines featuring Europe on the cover, flashing camera bulbs and the chaotic rush of global pop superstardom, vibrant retro 35mm aesthetic, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 high-contrast black-and-white 35mm Tri-X concert photograph: Intense close-up of Enrique Bunbury singing live in 1991, head thrown back in ecstatic performance trance, sweat glistening on his face, wild curly hair, gripping the chrome microphone stand with both hands under a sharp white spotlight, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 poignant 1986 television studio scene: Guitarist John Norum standing under bright synthetic pastel studio lights on a cheesy European TV music show, holding his unplugged electric guitar with a look of profound disillusionment and alienation while broadcast cameras film, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 epic 1991 outdoor festival crowd: A vast sea of passionate rock fans singing with open mouths and raised fists under warm golden arena lights and red flares, smoke hanging in the night sky, capturing the immense spiritual connection of an entire generation, authentic 35mm film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/europe-the-final-countdown-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic fine-art documentary scene: An empty dark arena stage at midnight after the crowd has gone, a single vintage Marshall amplifier stack standing alone under a faint blue work light, a solitary guitar pick resting on its black grill cloth, silent peaceful atmosphere, strictly no turntables, strictly no vinyl records, evocative 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty rustic rock hall at dawn after a legendary show, morning golden sunlight slanting through high dusty industrial windows onto a dark wooden stage, where a single electric guitar rests upright on a stand beside a coiled black cable in profound silence, strictly no turntables, strictly no vinyl records, evocative 35mm grain, quiet lower third, strictly no text."
     }
   ],
-  "copy": "En 1986, una fanfarria de sintetizador se convirtió en el himno más coreado del planeta. Pero detrás de «The Final Countdown» no había una celebración triunfal: había una guerra interna que destruyó a dos amigos de la infancia en la cima del mundo.\n\nJoey Tempest y John Norum fundaron Europe en los suburbios de Estocolmo con un juramento sagrado: defender el rock duro y el rugido de los amplificadores Marshall. Cuando Joey compuso aquella melodía en un teclado prestado y propuso grabarla, Norum se negó con desprecio: «Es pop de plástico con trompetas de juguete; somos una banda de rock». Para evitar la ruptura, pactaron incluirla solo como introducción en vivo.\n\nNadie imaginaba que la discográfica la convertiría en sencillo ni que treparía al número uno en 25 países. Pero la fama masiva desató la pesadilla del guitarrista: entrevistas en revistas para adolescentes y programas de televisión donde los obligaban a fingir playback. Sintiendo que habían vendido el alma de la banda por la gloria comercial, John Norum empacó sus guitarras y renunció en plena gira mundial.\n\n¿Habrías abandonado la banda número uno del planeta para mantenerte fiel a tus principios? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #Europe #TheFinalCountdown #JoeyTempest #JohnNorum #HardRock #HistoriasDelRock #RockDeLos80"
+  "copy": "En 1990, un arpegio hipnótico y una voz teatral inauguraron una nueva era para el rock en español. Pero detrás de «Maldito Duende» no había una fórmula de éxito comercial: era el diario secreto de un chico de 14 años que intentaba no ahogarse en la soledad.\n\nA comienzos de los ochenta, en una fría habitación de Zaragoza, un introvertido Enrique Ortiz de Landázuri (Bunbury) garabateaba versos sobre la magia nocturna y las trampas de la madrugada. Años después, tras un debut donde la discográfica intentó imponerles sintetizadores y arreglos pop, Héroes del Silencio estuvo al borde del abismo. Desesperados por rescatar su rabia orgánica, abordaron a Phil Manzanera (Roxy Music) en los camerinos de un festival para que fuera su productor.\n\nManzanera despojó a la banda de cualquier artificio: aisló el arpegio cristalino de Juan Valdivia y capturó la voz descarnada de Bunbury en su estado más visceral. Aunque la crítica elitista de Madrid los tachó de «pretenciosos», la canción trepó al número uno y desató una devoción masiva que cruzó el Atlántico y conquistó estadios en toda Europa y América.\n\nPara ti, ¿el «duende» representaba el misterio de la inspiración poética o el abismo de los excesos nocturnos? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #HeroesDelSilencio #MalditoDuende #EnriqueBunbury #JuanValdivia #SenderosDeTraicion #RockEnEspanol #HistoriasDelRock"
 }
