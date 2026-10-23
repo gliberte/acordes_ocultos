@@ -88,6 +88,21 @@ async function run() {
         } catch (r2Err) {
           console.warn('Aviso sincronizando R2:', r2Err.message);
         }
+
+        // Auto-commit and push to Git to permanently persist on Vercel
+        try {
+          const { execSync } = await import('node:child_process');
+          execSync('git add web/src/data/stories_catalog.json', { cwd: process.cwd(), stdio: 'ignore' });
+          const diffCheck = execSync('git diff --cached --name-only', { cwd: process.cwd(), encoding: 'utf8' }).trim();
+          if (diffCheck) {
+            console.log(`🚀 Desplegando enlace de Instagram permanentemente a Git (origin/main)...`);
+            execSync(`git commit -m "chore(web): update Instagram Reel link for [${targetSlug}]"`, { cwd: process.cwd(), stdio: 'inherit' });
+            execSync('git push origin main', { cwd: process.cwd(), stdio: 'inherit' });
+            console.log(`✅ Reel desplegado permanentemente en producción.`);
+          }
+        } catch (gitErr) {
+          console.warn('Aviso sincronizando Git:', gitErr.message);
+        }
       }
     } catch (catErr) {
       console.warn('Aviso leyendo catálogo local:', catErr.message);

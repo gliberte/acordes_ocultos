@@ -4,6 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "build": "npm run build --prefix web",
+    "render:instagram": "remotion render src/index.ts InstagramTwoImages out/instagram-storytime.mp4 --props=src/data/instagram-storytime.json --codec=h264 --pixel-format=yuv420p",
     "dev": "remotion studio src/index.ts",
     "render": "remotion render src/index.ts StoryVideo out/story.mp4 --props=src/data/story.json",
     "render:still": "remotion still src/index.ts StoryCover out/cover.png --props=src/data/story.json",
@@ -32,9 +34,12 @@
     "chronicle:html": "node scripts/generate-chronicle-html.mjs",
     "chronicle:compile": "node scripts/compile-chronicles.mjs",
     "chronicle:sync": "node scripts/sync-chronicles.mjs",
+    "book:pdf": "node scripts/build-volume-01-complete.mjs",
+    "book:build": "node scripts/build-volume-01-complete.mjs",
     "covers:optimize": "node scripts/generate-webp-covers.mjs",
     "images:optimize": "node scripts/optimize-web-images.mjs && node scripts/generate-webp-covers.mjs",
     "set:reel": "node scripts/set-instagram-reel.mjs",
+    "sync:reels": "node scripts/sync-instagram-reels.mjs",
     "sync:metrics": "node scripts/sync-instagram-metrics.mjs",
     "check": "tsc --noEmit"
   },
@@ -53,6 +58,7 @@
     "@types/react": "^18.3.0",
     "@types/react-dom": "^18.3.0",
     "playwright": "^1.63.0",
+    "three": "^0.186.1",
     "typescript": "^5.8.0"
   }
 }

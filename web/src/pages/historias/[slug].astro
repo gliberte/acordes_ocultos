@@ -13,8 +13,8 @@ import { formatChronicleMarkdown } from '../../lib/markdown';
 
 const { slug } = Astro.params;
 const isPreview = Astro.url.searchParams.get('preview') === 'true' && Astro.locals.isAdmin;
-const allStories = await getAllStories({ includeHidden: isPreview });
-const story = allStories.find(s => s.slug === slug || s.articleSlug === slug);
+const allStories = await getAllStories({ includeHidden: true });
+const story = allStories.find(s => (s.slug === slug || s.articleSlug === slug) && (!s.isHidden || isPreview));
 
 if (!story) {
   return Astro.redirect('/404');

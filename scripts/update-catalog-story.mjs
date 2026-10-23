@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { S3Client, PutObjectCommand, GetObjectCommand } from '@aws-sdk/client-s3';
 
 const rootDir = process.cwd();
 
@@ -78,6 +78,38 @@ async function uploadToR2(key, body, contentType = 'application/json') {
 }
 
 /**
+ * Downloads data from Cloudflare R2 to merge latest live updates
+ */
+async function downloadFromR2(key) {
+  const accountId = process.env.CLOUDFLARE_R2_ACCOUNT_ID;
+  const accessKeyId = process.env.CLOUDFLARE_R2_ACCESS_KEY_ID;
+  const secretAccessKey = process.env.CLOUDFLARE_R2_SECRET_ACCESS_KEY;
+  const bucket = process.env.CLOUDFLARE_R2_BUCKET || 'nexo-gaming-news-videos';
+
+  if (!accountId || !accessKeyId || !secretAccessKey) return null;
+
+  try {
+    const client = new S3Client({
+      region: 'auto',
+      endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
+      credentials: { accessKeyId, secretAccessKey }
+    });
+
+    const res = await client.send(
+      new GetObjectCommand({
+        Bucket: bucket,
+        Key: key
+      })
+    );
+    if (!res.Body) return null;
+    const text = await res.Body.transformToString();
+    return JSON.parse(text);
+  } catch (_) {
+    return null;
+  }
+}
+
+/**
  * Updates web/src/data/stories_catalog.json with a new or edited story,
  * and syncs the catalog to Cloudflare R2.
  */
@@ -108,6 +140,33 @@ export async function updateCatalogWithStory({
   } catch (e) {
     console.error(`Error leyendo catálogo: ${e.message}`);
     return null;
+  }
+
+  // Sincronizar y preservar campos en vivo desde Cloudflare R2 (instagramUrl, views, reach, likes, etc.)
+  try {
+    const r2Catalog = await downloadFromR2('catalog/stories_catalog.json');
+    if (Array.isArray(r2Catalog)) {
+      let r2Merged = 0;
+      for (const r2Item of r2Catalog) {
+        const localMatch = catalog.find(c => c.id === r2Item.id || c.slug === r2Item.slug || (c.articleSlug && c.articleSlug === r2Item.articleSlug));
+        if (localMatch) {
+          if (r2Item.instagramUrl && !localMatch.instagramUrl) {
+            localMatch.instagramUrl = r2Item.instagramUrl;
+            r2Merged++;
+          }
+          if (r2Item.igPublishedAt && !localMatch.igPublishedAt) localMatch.igPublishedAt = r2Item.igPublishedAt;
+          if (r2Item.views && (!localMatch.views || r2Item.views > localMatch.views)) localMatch.views = r2Item.views;
+          if (r2Item.reach && (!localMatch.reach || r2Item.reach > localMatch.reach)) localMatch.reach = r2Item.reach;
+          if (r2Item.likes && (!localMatch.likes || r2Item.likes > localMatch.likes)) localMatch.likes = r2Item.likes;
+          if (typeof r2Item.isLatestReel === 'boolean' && r2Item.isLatestReel) localMatch.isLatestReel = r2Item.isLatestReel;
+        }
+      }
+      if (r2Merged > 0) {
+        console.log(`🔗 Preservados y combinados ${r2Merged} enlaces/métricas de Instagram desde Cloudflare R2.`);
+      }
+    }
+  } catch (mergeErr) {
+    console.warn(`Aviso combinando catálogo R2: ${mergeErr.message}`);
   }
 
   const rawTitle = editorialPackage.title || story.title || 'Sin título';
