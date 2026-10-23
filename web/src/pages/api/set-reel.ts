@@ -76,6 +76,9 @@ export const POST: APIRoute = async ({ request, cookies }) => {
       catalog[matchIdx].instagramUrl = cleanReelUrl || null;
       catalog[matchIdx].igPublishedAt = cleanReelUrl ? (catalog[matchIdx].igPublishedAt || now) : null;
       catalog[matchIdx].isLatestReel = Boolean(cleanReelUrl);
+      if (cleanReelUrl) {
+        catalog[matchIdx].isHidden = false;
+      }
     } else {
       // If not in current R2 catalog, try to find in fallback or create new entry
       const fallbackItem = (storiesCatalogFallback as any[]).find((f: any) => {
@@ -101,6 +104,9 @@ export const POST: APIRoute = async ({ request, cookies }) => {
       newEntry.instagramUrl = cleanReelUrl || null;
       newEntry.igPublishedAt = cleanReelUrl ? now : null;
       newEntry.isLatestReel = Boolean(cleanReelUrl);
+      if (cleanReelUrl) {
+        newEntry.isHidden = false;
+      }
 
       catalog.unshift(newEntry);
       matchIdx = 0;

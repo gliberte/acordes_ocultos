@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { execSync } from 'node:child_process';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import { S3Client, PutObjectCommand, GetObjectCommand } from '@aws-sdk/client-s3';
 
 const rootDir = process.cwd();
 
@@ -22,6 +22,35 @@ loadEnvFile(path.join(rootDir, '.env'));
 loadEnvFile(path.join(rootDir, 'web', '.env'));
 
 const COMPOSIO_API_KEY = process.env.COMPOSIO_API_KEY || 'ck_5v-DzhM9d_7hffsVXe9x';
+
+async function downloadCatalogFromR2() {
+  const accountId = process.env.CLOUDFLARE_R2_ACCOUNT_ID;
+  const accessKeyId = process.env.CLOUDFLARE_R2_ACCESS_KEY_ID;
+  const secretAccessKey = process.env.CLOUDFLARE_R2_SECRET_ACCESS_KEY;
+  const bucket = process.env.CLOUDFLARE_R2_BUCKET || 'nexo-gaming-news-videos';
+
+  if (!accountId || !accessKeyId || !secretAccessKey) return null;
+
+  try {
+    const client = new S3Client({
+      region: 'auto',
+      endpoint: `https://${accountId}.r2.cloudflarestorage.com`,
+      credentials: { accessKeyId, secretAccessKey }
+    });
+
+    const res = await client.send(
+      new GetObjectCommand({
+        Bucket: bucket,
+        Key: 'catalog/stories_catalog.json'
+      })
+    );
+    if (!res.Body) return null;
+    const text = await res.Body.transformToString();
+    return JSON.parse(text);
+  } catch (_) {
+    return null;
+  }
+}
 
 async function uploadCatalogToR2(catalog) {
   const accountId = process.env.CLOUDFLARE_R2_ACCOUNT_ID;
@@ -114,7 +143,39 @@ async function main() {
     process.exit(1);
   }
 
-  const catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+  let catalog = JSON.parse(fs.readFileSync(catalogPath, 'utf8'));
+
+  // 1. Descargar y fusionar el catálogo en vivo desde Cloudflare R2 (preservando ediciones desde Web Admin)
+  try {
+    const r2Catalog = await downloadCatalogFromR2();
+    if (Array.isArray(r2Catalog)) {
+      let r2Merged = 0;
+      for (const r2Item of r2Catalog) {
+        const localMatch = catalog.find(c => c.id === r2Item.id || c.slug === r2Item.slug || (c.articleSlug && c.articleSlug === r2Item.articleSlug));
+        if (localMatch) {
+          if (r2Item.instagramUrl && r2Item.instagramUrl !== localMatch.instagramUrl) {
+            localMatch.instagramUrl = r2Item.instagramUrl;
+            r2Merged++;
+          }
+          if (r2Item.igPublishedAt) localMatch.igPublishedAt = r2Item.igPublishedAt;
+          if (typeof r2Item.isLatestReel === 'boolean') localMatch.isLatestReel = r2Item.isLatestReel;
+          if (typeof r2Item.isHidden === 'boolean') localMatch.isHidden = r2Item.isHidden;
+          if (r2Item.views && (!localMatch.views || r2Item.views > localMatch.views)) localMatch.views = r2Item.views;
+          if (r2Item.reach && (!localMatch.reach || r2Item.reach > localMatch.reach)) localMatch.reach = r2Item.reach;
+          if (r2Item.likes && (!localMatch.likes || r2Item.likes > localMatch.likes)) localMatch.likes = r2Item.likes;
+        } else if (r2Item.slug) {
+          catalog.push(r2Item);
+          r2Merged++;
+        }
+      }
+      if (r2Merged > 0) {
+        console.log(`🔗 Fusionadas ${r2Merged} actualizaciones en vivo desde Cloudflare R2 (Web Admin).`);
+      }
+    }
+  } catch (err) {
+    console.warn('Aviso fusionando R2:', err.message);
+  }
+
   const igItems = await fetchLiveInstagramReels();
 
   if (igItems.length === 0) {

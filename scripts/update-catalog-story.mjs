@@ -150,15 +150,21 @@ export async function updateCatalogWithStory({
       for (const r2Item of r2Catalog) {
         const localMatch = catalog.find(c => c.id === r2Item.id || c.slug === r2Item.slug || (c.articleSlug && c.articleSlug === r2Item.articleSlug));
         if (localMatch) {
-          if (r2Item.instagramUrl && !localMatch.instagramUrl) {
+          // Si en R2 hay un enlace de Instagram y difiere del local, R2 (Web Admin) tiene la máxima prioridad
+          if (r2Item.instagramUrl && r2Item.instagramUrl !== localMatch.instagramUrl) {
             localMatch.instagramUrl = r2Item.instagramUrl;
             r2Merged++;
           }
-          if (r2Item.igPublishedAt && !localMatch.igPublishedAt) localMatch.igPublishedAt = r2Item.igPublishedAt;
+          if (r2Item.igPublishedAt) localMatch.igPublishedAt = r2Item.igPublishedAt;
+          if (typeof r2Item.isLatestReel === 'boolean') localMatch.isLatestReel = r2Item.isLatestReel;
+          if (typeof r2Item.isHidden === 'boolean') localMatch.isHidden = r2Item.isHidden;
           if (r2Item.views && (!localMatch.views || r2Item.views > localMatch.views)) localMatch.views = r2Item.views;
           if (r2Item.reach && (!localMatch.reach || r2Item.reach > localMatch.reach)) localMatch.reach = r2Item.reach;
           if (r2Item.likes && (!localMatch.likes || r2Item.likes > localMatch.likes)) localMatch.likes = r2Item.likes;
-          if (typeof r2Item.isLatestReel === 'boolean' && r2Item.isLatestReel) localMatch.isLatestReel = r2Item.isLatestReel;
+        } else if (r2Item.slug) {
+          // Si se creó una historia en el admin o en R2 que no está en el JSON local, conservarla
+          catalog.push(r2Item);
+          r2Merged++;
         }
       }
       if (r2Merged > 0) {

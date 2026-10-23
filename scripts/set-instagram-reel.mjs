@@ -68,6 +68,7 @@ async function run() {
         catalog[idx].instagramUrl = reelUrl;
         catalog[idx].igPublishedAt = catalog[idx].igPublishedAt || now;
         catalog[idx].isLatestReel = true;
+        catalog[idx].isHidden = false;
 
         // Clear isLatestReel on others
         for (let i = 0; i < catalog.length; i++) {
