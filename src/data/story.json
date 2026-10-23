@@ -1,298 +1,149 @@
 {
-  "id": "heroes-del-silencio-maldito-duende-acordes-ocultos",
+  "title": "Los tres hijos de obreros que desafiaron a un dictador con guitarras de juguete",
+  "artist": "Los Prisioneros",
+  "topic": "forjados-en-el-barro",
   "brand": "acordes-ocultos",
-  "title": "El poema de un niño de 14 años que se convirtió en leyenda",
-  "artist": "Héroes del Silencio",
-  "songTitle": "Maldito Duende",
-  "topic": "curiosidad musical",
-  "slug": "heroes-del-silencio-maldito-duende-acordes-ocultos",
-  "articleSlug": "heroes-del-silencio-maldito-duende-acordes-ocultos",
-  "fps": 30,
   "durationSeconds": 90,
-  "durationInFrames": 2700,
-  "music": {
-    "title": "Maldito Duende",
-    "artist": "Héroes del Silencio",
-    "file": "music/heroes-del-silencio-maldito-duende.mp3",
-    "src": "music/heroes-del-silencio-maldito-duende.mp3",
-    "startSecond": 0,
-    "volume": 0.55
-  },
-  "cover": {
-    "badge": "Acordes Ocultos",
-    "title": "Maldito Duende",
-    "artist": "Héroes del Silencio"
-  },
-  "palette": {
-    "ink": "#0f172a",
-    "paper": "#f8fafc",
-    "accent": "#f59e0b",
-    "glow": "#fbbf24"
-  },
-  "anecdote": "A comienzos de los ochenta, en una fría habitación de Zaragoza, un introvertido Enrique Bunbury de apenas catorce años escribió un poema para escapar de la soledad. Casi una década después, rescató aquellos versos junto al productor Phil Manzanera y los transformó en uno de los himnos más desgarradores e inmortales del rock en español.",
-  "hook": "Durante décadas creyeron que este himno oscuro nació de los excesos de la fama... pero fue escrito en una libreta escolar por un niño de catorce años que intentaba no ahogarse en la soledad.",
-  "outro": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna.",
+  "slug": "los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro",
+  "articleSlug": "los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro",
+  "anecdote": "La épica historia de Los Prisioneros: tres jóvenes de la empobrecida comuna obrera de San Miguel que armaron una banda con cajas de cartón e instrumentos prestados bajo la dictadura de Augusto Pinochet, desafiaron la censura de Estado y compusieron «El baile de los que sobran», el himno más universal de la rebeldía juvenil sudamericana.",
+  "hook": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
   "beats": [
-    "1991: El arpegio inmortal",
-    "El dormitorio en Zaragoza",
-    "El misterio del duende",
-    "La trampa del pop ochentero",
-    "El encuentro con Phil Manzanera",
-    "La alquimia en los estudios Kirios",
-    "El trance chamánico en directo",
-    "La consagración contra la crítica",
-    "El pacto con el tiempo"
+    "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
+    "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
+    "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
+    "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
+    "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
+    "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
+    "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina."
   ],
-  "visuals": [
-    {
-      "start": 0,
-      "end": 10,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-01.png",
-      "type": "image"
-    },
-    {
-      "start": 10,
-      "end": 20,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-02.png",
-      "type": "image"
-    },
-    {
-      "start": 20,
-      "end": 30,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-03.png",
-      "type": "image"
-    },
-    {
-      "start": 30,
-      "end": 40,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-04.png",
-      "type": "image"
-    },
-    {
-      "start": 40,
-      "end": 50,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-05.png",
-      "type": "image"
-    },
-    {
-      "start": 50,
-      "end": 60,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-06.png",
-      "type": "image"
-    },
-    {
-      "start": 60,
-      "end": 70,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-07.png",
-      "type": "image"
-    },
-    {
-      "start": 70,
-      "end": 80,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-08.png",
-      "type": "image"
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-09.png",
-      "type": "image"
+  "outro": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#c5c6c7",
+    "accent": "#e63946",
+    "glow": "#f1faee"
+  },
+  "music": {
+    "title": "El baile de los que sobran",
+    "artist": "Los Prisioneros",
+    "src": "music/los-prisioneros-el-baile-de-los-que-sobran.mp3",
+    "file": "music/los-prisioneros-el-baile-de-los-que-sobran.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Los Prisioneros El baile de los que sobran",
+      "expectedTitle": "El baile de los que sobran",
+      "expectedArtist": "Los Prisioneros",
+      "status": "manual_check_required",
+      "notes": "Seleccionar audio oficial de El baile de los que sobran de Los Prisioneros en Instagram Reels."
     }
-  ],
-  "segments": [
-    {
-      "start": 0,
-      "end": 10,
-      "speaker": "Acordes Ocultos",
-      "text": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente."
-    },
-    {
-      "start": 10,
-      "end": 20,
-      "speaker": "Acordes Ocultos",
-      "text": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar."
-    },
-    {
-      "start": 20,
-      "end": 30,
-      "speaker": "Acordes Ocultos",
-      "text": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer."
-    },
-    {
-      "start": 30,
-      "end": 40,
-      "speaker": "Acordes Ocultos",
-      "text": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras."
-    },
-    {
-      "start": 40,
-      "end": 50,
-      "speaker": "Acordes Ocultos",
-      "text": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor."
-    },
-    {
-      "start": 50,
-      "end": 60,
-      "speaker": "Acordes Ocultos",
-      "text": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury."
-    },
-    {
-      "start": 60,
-      "end": 70,
-      "speaker": "Acordes Ocultos",
-      "text": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso."
-    },
-    {
-      "start": 70,
-      "end": 80,
-      "speaker": "Acordes Ocultos",
-      "text": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina."
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "speaker": "Acordes Ocultos",
-      "text": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna."
-    }
-  ],
+  },
   "scenes": [
     {
-      "id": "scene-01",
-      "title": "El arpegio inmortal",
+      "index": 1,
       "start": 0,
       "end": 10,
-      "description": "Un abarrotado concierto en 1991 bajo una marea de luces rojas y niebla, Enrique Bunbury con camisa negra desabrochada y melena rizada cantando con intensidad teatral ante miles de brazos en alto.",
-      "focus": "El impacto y mística de Maldito Duende en directo",
-      "visualPrompt": "Vertical 9:16 atmospheric 1991 rock concert photograph: Frontman Enrique Bunbury (23, slender build, shoulder-length curly dark hair, unbuttoned black silk shirt, cheekbones, expressive eyes) singing passionately into a microphone under deep crimson and amber stage lights, silhouetted hands of thousands in the audience, authentic 35mm concert film grain, quiet lower third, strictly no text.",
-      "subtitle": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente.",
-      "voiceover": "Su arpegio de guitarra es uno de los más coreados del rock en español, pero nació de la soledad de un adolescente."
+      "text": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-01.png"
     },
     {
-      "id": "scene-02",
-      "title": "El dormitorio en Zaragoza",
+      "index": 2,
       "start": 10,
       "end": 20,
-      "description": "Un joven de 14 años en un modesto dormitorio de Zaragoza a principios de los ochenta, sentado en el suelo escribiendo a mano en un cuaderno bajo una lámpara flexo.",
-      "focus": "La soledad adolescente y los primeros versos",
-      "visualPrompt": "Vertical 9:16 intimate 1981 bedroom scene in Zaragoza Spain: A 14-year-old adolescent Enrique (slender, dark curly hair, wearing a dark sweater) sitting on the wooden floor leaning against his bed at night, intently writing poetry with a pen in an open school notebook, warm light from a vintage desk lamp casting long shadows, authentic 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar.",
-      "voiceover": "A los catorce años, un tímido Enrique Ortiz escribía versos en su libreta para escapar de la gris rutina escolar."
+      "text": "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-02.png"
     },
     {
-      "id": "scene-03",
-      "title": "El misterio del duende",
+      "index": 3,
       "start": 20,
       "end": 30,
-      "description": "Una calle solitaria y empedrada del casco antiguo de Zaragoza a medianoche, farolas proyectando sombras largas y una atmósfera bohemia y enigmática.",
-      "focus": "La inspiración simbolista y la noche",
-      "visualPrompt": "Vertical 9:16 poetic nocturnal atmospheric photograph: A cobblestone alley in the historic old quarter of Zaragoza at 2 AM, glistening wet stones, vintage wrought-iron streetlamps casting amber halos in the light fog, a distant solitary silhouette in a dark long coat walking into the shadows, evocative 35mm Tri-X grain, quiet lower third, strictly no text.",
-      "subtitle": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer.",
-      "voiceover": "Inspirado en la poesía maldita y la noche, concibió a ese «duende» que promete invulnerabilidad pero deja un vacío al amanecer."
+      "text": "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-03.png"
     },
     {
-      "id": "scene-04",
-      "title": "La trampa del pop ochentero",
+      "index": 4,
       "start": 30,
       "end": 40,
-      "description": "La banda en un estudio de grabación de Madrid en 1988, mirando con frustración una mesa de mezclas repleta de efectos electrónicos ochenteros.",
-      "focus": "El rechazo a la domesticación comercial de su sonido",
-      "visualPrompt": "Vertical 9:16 candid 1988 recording studio photograph in Madrid: Young rock band Héroes del Silencio in black leather jackets standing in a dimly lit studio control room, looking unhappy and rebellious as sound engineers tweak electronic rack synthesizers, capturing the tension between commercial pop pressure and raw rock integrity, 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras.",
-      "voiceover": "Tras su primer disco, la discográfica intentó imponerles sintetizadores y baterías electrónicas, sofocando la rabia pura de sus guitarras."
+      "text": "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-04.png"
     },
     {
-      "id": "scene-05",
-      "title": "El encuentro con Phil Manzanera",
+      "index": 5,
       "start": 40,
       "end": 50,
-      "description": "En el backstage de un festival en Calatayud en 1989, Enrique Bunbury y Juan Valdivia entregando una cinta de casete al productor Phil Manzanera.",
-      "focus": "El audaz acercamiento a Phil Manzanera",
-      "visualPrompt": "Vertical 9:16 authentic 1989 backstage documentary scene: Enrique Bunbury and guitarist Juan Valdivia (in scruffy leather jackets) speaking with deep respect to British producer Phil Manzanera (distinguished musician with tinted glasses and dark tailored blazer) backstage at a summer Spanish festival, handing him an audio cassette tape, warm tungsten light, 35mm Kodachrome grain, quiet lower third, strictly no text.",
-      "subtitle": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor.",
-      "voiceover": "Desesperados por salvar su identidad, abordaron en un festival al mítico guitarrista de Roxy Music para pedirle que fuera su productor."
+      "text": "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-05.png"
     },
     {
-      "id": "scene-06",
-      "title": "La alquimia en los estudios Kirios",
+      "index": 6,
       "start": 50,
       "end": 60,
-      "description": "Juan Valdivia tocando concentrado su guitarra eléctrica en la penumbra de los estudios Kirios, mientras Phil Manzanera asiente detrás del cristal.",
-      "focus": "El nacimiento del arpegio definitivo y la producción limpia",
-      "visualPrompt": "Vertical 9:16 authentic 1990 recording studio moment at Estudios Kirios in Madrid: Guitarist Juan Valdivia (slender, dark shoulder-length hair) seated in the tracking room fingerpicking his electric guitar with intense focus under a warm lamp, producer Phil Manzanera watching approvingly behind the glass control window, rich analog 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury.",
-      "voiceover": "Manzanera desnudó la canción de artificios, aislando el arpegio cristalino de Juan Valdivia y la voz descarnada de Bunbury."
+      "text": "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-06.png"
     },
     {
-      "id": "scene-07",
-      "title": "El trance chamánico en directo",
+      "index": 7,
       "start": 60,
       "end": 70,
-      "description": "Primer plano cinematográfico en blanco y negro de Enrique Bunbury en pleno directo, ojos cerrados y expresión arrebatada, aferrado al micrófono.",
-      "focus": "La posesión artística y el ritual escénico",
-      "visualPrompt": "Vertical 9:16 high-contrast black-and-white 35mm Tri-X concert photograph: Intense close-up of Enrique Bunbury singing live in 1991, head thrown back in ecstatic performance trance, sweat glistening on his face, wild curly hair, gripping the chrome microphone stand with both hands under a sharp white spotlight, quiet lower third, strictly no text.",
-      "subtitle": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso.",
-      "voiceover": "Sobre las tablas, Bunbury se convertía en el propio duende, atrapando a estadios enteros en un trance hipnótico casi religioso."
+      "text": "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-07.png"
     },
     {
-      "id": "scene-08",
-      "title": "La consagración contra la crítica",
+      "index": 8,
       "start": 70,
       "end": 80,
-      "description": "Un mar de miles de personas iluminadas por bengalas y focos en un festival al aire libre, coreando al unísono el estribillo con pasión desbordada.",
-      "focus": "La victoria del público frente al esnobismo periodístico",
-      "visualPrompt": "Vertical 9:16 epic 1991 outdoor festival crowd: A vast sea of passionate rock fans singing with open mouths and raised fists under warm golden arena lights and red flares, smoke hanging in the night sky, capturing the immense spiritual connection of an entire generation, authentic 35mm film grain, quiet lower third, strictly no text.",
-      "subtitle": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina.",
-      "voiceover": "Mientras la prensa intelectual los despreciaba, el tema fue número uno indiscutible y conquistó España, Europa y toda América Latina."
+      "text": "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-08.png"
     },
     {
-      "id": "scene-09",
-      "title": "El pacto con el tiempo",
+      "index": 9,
       "start": 80,
       "end": 90,
-      "description": "Una sala vacía de un club de rock al amanecer, una guitarra solitaria sobre su soporte junto al escenario en penumbra, mientras entra luz natural.",
-      "focus": "La inmortalidad de la honestidad adolescente",
-      "visualPrompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty rustic rock hall at dawn after a legendary show, morning golden sunlight slanting through high dusty industrial windows onto a dark wooden stage, where a single electric guitar rests upright on a stand beside a coiled black cable in profound silence, strictly no turntables, strictly no vinyl records, evocative 35mm grain, quiet lower third, strictly no text.",
-      "subtitle": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna.",
-      "voiceover": "Hay canciones que nacen para entretener, y otras que nos recuerdan que las heridas de la adolescencia pueden alumbrar una leyenda eterna."
+      "text": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
+      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-09.png"
     }
   ],
   "assets": [
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 atmospheric 1991 rock concert photograph: Frontman Enrique Bunbury (23, slender build, shoulder-length curly dark hair, unbuttoned black silk shirt, cheekbones, expressive eyes) singing passionately into a microphone under deep crimson and amber stage lights, silhouetted hands of thousands in the audience, authentic 35mm concert film grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-01.png",
+      "prompt": "Vertical 9:16 authentic 1986 Santiago de Chile documentary scene: Close-up of an old vintage portable Casio CZ-101 synthesizer resting on a modest wooden table next to an acoustic guitar with worn lacquer, warm golden afternoon light coming through a dusty window in a working-class house, quiet lower third, rich 35mm grain, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 intimate 1981 bedroom scene in Zaragoza Spain: A 14-year-old adolescent Enrique (slender, dark curly hair, wearing a dark sweater) sitting on the wooden floor leaning against his bed at night, intently writing poetry with a pen in an open school notebook, warm light from a vintage desk lamp casting long shadows, authentic 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-02.png",
+      "prompt": "Vertical 9:16 candid 1979 documentary photograph in San Miguel, Santiago: Three Chilean teenage schoolboys (Jorge González age 15 with dark short hair and intense gaze, Claudio Narea, Miguel Tapia) in grey public high school uniform jackets walking along the dusty sidewalk of Gran Avenida near old brick factories, 35mm Tri-X film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 poetic nocturnal atmospheric photograph: A cobblestone alley in the historic old quarter of Zaragoza at 2 AM, glistening wet stones, vintage wrought-iron streetlamps casting amber halos in the light fog, a distant solitary silhouette in a dark long coat walking into the shadows, evocative 35mm Tri-X grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-03.png",
+      "prompt": "Vertical 9:16 intimate 1980 garage rehearsal scene: Three Chilean teenage boys making music with extreme improvised gear in a modest shed; drummer Miguel Tapia tapping on cardboard boxes and an old metal pot, guitarist Claudio Narea fingerpicking an acoustic guitar with knotted nylon strings, Jorge singing with raw passion, warm tungsten bulb, 35mm Kodachrome grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 candid 1988 recording studio photograph in Madrid: Young rock band Héroes del Silencio in black leather jackets standing in a dimly lit studio control room, looking unhappy and rebellious as sound engineers tweak electronic rack synthesizers, capturing the tension between commercial pop pressure and raw rock integrity, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-04.png",
+      "prompt": "Vertical 9:16 atmospheric nocturnal street photograph in Santiago 1983: Empty wet asphalt avenue under strict military curfew, cold blue streetlamps, distant silhouettes of a military jeep patrol with headlights cutting through urban mist, heavy shadow and suspense, quiet lower third, authentic 35mm grain, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1989 backstage documentary scene: Enrique Bunbury and guitarist Juan Valdivia (in scruffy leather jackets) speaking with deep respect to British producer Phil Manzanera (distinguished musician with tinted glasses and dark tailored blazer) backstage at a summer Spanish festival, handing him an audio cassette tape, warm tungsten light, 35mm Kodachrome grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1983 portrait of Chilean rock trio Los Prisioneros: Jorge González (18, lean, dark straight hair, leather biker jacket), Claudio Narea and Miguel Tapia leaning against a cracked urban concrete wall spray-painted with fading political slogans, defiant and serious expressions, high-contrast 35mm black and white photography, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 authentic 1990 recording studio moment at Estudios Kirios in Madrid: Guitarist Juan Valdivia (slender, dark shoulder-length hair) seated in the tracking room fingerpicking his electric guitar with intense focus under a warm lamp, producer Phil Manzanera watching approvingly behind the glass control window, rich analog 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-06.png",
+      "prompt": "Vertical 9:16 poignant 1985 documentary photograph: A group of young Chilean working-class graduates in cheap suits sitting on a stone curb at a dusty street corner, staring into the distance with melancholic and frustrated expressions, kicking loose stones, late autumn overcast sky, evocative 35mm documentary realism, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 high-contrast black-and-white 35mm Tri-X concert photograph: Intense close-up of Enrique Bunbury singing live in 1991, head thrown back in ecstatic performance trance, sweat glistening on his face, wild curly hair, gripping the chrome microphone stand with both hands under a sharp white spotlight, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-07.png",
+      "prompt": "Vertical 9:16 intimate 1986 home recording session: Frontman Jorge González (21, dark hair, simple t-shirt) seated on a bed in a small cluttered bedroom in San Miguel, leaning over a 4-track cassette recorder and pressing keys on a compact synthesizer while a mixed-breed dog sleeps curled on a rug nearby, warm lamp light, 35mm analog grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 epic 1991 outdoor festival crowd: A vast sea of passionate rock fans singing with open mouths and raised fists under warm golden arena lights and red flares, smoke hanging in the night sky, capturing the immense spiritual connection of an entire generation, authentic 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-08.png",
+      "prompt": "Vertical 9:16 epic 1986 concert documentary: Los Prisioneros performing live on a crowded gymnasium stage, Jorge González singing passionately into the microphone with clenched fist, thousands of passionate young Latin American fans in cheap jackets raising their arms and singing along under warm stage spotlights and haze, electric communal energy, authentic 35mm film grain, quiet lower third, strictly no text."
     },
     {
-      "src": "videos/heroes-del-silencio-maldito-duende-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty rustic rock hall at dawn after a legendary show, morning golden sunlight slanting through high dusty industrial windows onto a dark wooden stage, where a single electric guitar rests upright on a stand beside a coiled black cable in profound silence, strictly no turntables, strictly no vinyl records, evocative 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-09.png",
+      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty public school courtyard at dusk in autumn, yellow fallen leaves scattered across cracked concrete basketball court, rusted soccer goalposts, tall wrought-iron gates open to the quiet street under a soft violet and amber twilight sky, strictly no turntables, strictly no vinyl records, profound quietness, quiet lower third, strictly no text."
     }
   ],
-  "copy": "En 1990, un arpegio hipnótico y una voz teatral inauguraron una nueva era para el rock en español. Pero detrás de «Maldito Duende» no había una fórmula de éxito comercial: era el diario secreto de un chico de 14 años que intentaba no ahogarse en la soledad.\n\nA comienzos de los ochenta, en una fría habitación de Zaragoza, un introvertido Enrique Ortiz de Landázuri (Bunbury) garabateaba versos sobre la magia nocturna y las trampas de la madrugada. Años después, tras un debut donde la discográfica intentó imponerles sintetizadores y arreglos pop, Héroes del Silencio estuvo al borde del abismo. Desesperados por rescatar su rabia orgánica, abordaron a Phil Manzanera (Roxy Music) en los camerinos de un festival para que fuera su productor.\n\nManzanera despojó a la banda de cualquier artificio: aisló el arpegio cristalino de Juan Valdivia y capturó la voz descarnada de Bunbury en su estado más visceral. Aunque la crítica elitista de Madrid los tachó de «pretenciosos», la canción trepó al número uno y desató una devoción masiva que cruzó el Atlántico y conquistó estadios en toda Europa y América.\n\nPara ti, ¿el «duende» representaba el misterio de la inspiración poética o el abismo de los excesos nocturnos? Te leemos en los comentarios.\n\nLa historia completa y los documentos de archivo están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#AcordesOcultos #HeroesDelSilencio #MalditoDuende #EnriqueBunbury #JuanValdivia #SenderosDeTraicion #RockEnEspanol #HistoriasDelRock"
+  "publication": {
+    "title": "Los tres hijos de obreros que desafiaron a un dictador con guitarras de juguete",
+    "description": "En 1986, bajo una de las dictaduras más implacables del cono sur, tres adolescentes de un barrio obrero grabaron un tema con instrumentos casi de juguete. La televisión los ignoró, pero las calles lo convirtieron en un himno eterno.\n\nJorge González, Claudio Narea y Miguel Tapia crecieron en San Miguel, Santiago de Chile, entre toques de queda y fábricas en quiebra. No tenían dinero para comprar instrumentos reales: tocaban sobre cajas de cartón y ataban con nudos las cuerdas rotas de una guitarra prestada. Al ver que sus compañeros de liceo técnico salían al desempleo masivo tras años de esfuerzo, Jorge compuso en un humilde teclado Casio una elegía a la juventud excluida: «El baile de los que sobran».\n\nEl régimen militar prohibió sus conciertos y presionó a las emisoras para silenciarlos. Sin embargo, grabadas de mano en mano en casetes piratas, sus canciones atravesaron cordilleras y llenaron estadios en Chile, Perú y Colombia, dándole voz a quienes nunca habían sido escuchados.\n\n¿Qué sentiste la primera vez que escuchaste este himno de Los Prisioneros? Te leemos en los comentarios.\n\n#LosPrisioneros #ElBaileDeLosQueSobran #JorgeGonzalez #RockLatino #ForjadosEnElBarro #RockEnEspanol #Chile #HistoriaDelRock"
+  }
 }
