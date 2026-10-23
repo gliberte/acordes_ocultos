@@ -24,8 +24,8 @@ Esta guía contiene las plantillas redactadas para gestionar propuestas de patro
 > Cuéntame qué campaña, producto o hito tienen en mente y con gusto les preparo una propuesta a medida.
 >
 > Un cordial saludo,  
-> **Luis Solano**  
-> Director Editorial — Acordes Ocultos  
+> **Dirección Editorial**  
+> Acordes Ocultos  
 > [www.acordesocultos.com](https://www.acordesocultos.com)
 
 ---
@@ -53,7 +53,7 @@ Esta guía contiene las plantillas redactadas para gestionar propuestas de patro
 > ¿Tienen disponibilidad de 10 minutos esta semana para explorar una colaboración piloto?
 >
 > Cordialmente,  
-> **Luis Solano**  
+> **Equipo Editorial**  
 > Acordes Ocultos
 
 ---
@@ -80,5 +80,5 @@ Esta guía contiene las plantillas redactadas para gestionar propuestas de patro
 > Quedo a su disposición para coordinar una propuesta adaptada a sus próximos lanzamientos.
 >
 > Atentamente,  
-> **Luis Solano**  
+> **Equipo Editorial**  
 > Acordes Ocultos

@@ -1,6 +1,6 @@
 # La apuesta suicida de la invasión marciana: Cómo Jeff Wayne desafió al punk y a la quiebra para crear una obra eterna
 
-### Por Luis Solano | Acordes Ocultos
+### Acordes Ocultos
 
 ---
 

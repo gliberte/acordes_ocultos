@@ -1,6 +1,6 @@
 # Manuel Alejandro: La fractura a los 16 años que frustró al concertista y dio vida al gran autor de la balada en español
 
-*Crónica #161 de Acordes Ocultos · Categoría: Catedrales de Leyenda · Por Luis Solano*
+*Crónica #161 de Acordes Ocultos · Categoría: Catedrales de Leyenda · Redacción de Acordes Ocultos*
 
 ![Manuel Alejandro frente al piano de cola en su estudio de Madrid](images/cover_bg.png)
 
