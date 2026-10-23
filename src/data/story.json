@@ -13,7 +13,10 @@
   "music": {
     "title": "Maldito Duende",
     "artist": "Héroes del Silencio",
-    "file": "music/heroes-del-silencio-maldito-duende.mp3"
+    "file": "music/heroes-del-silencio-maldito-duende.mp3",
+    "src": "music/heroes-del-silencio-maldito-duende.mp3",
+    "startSecond": 0,
+    "volume": 0.55
   },
   "cover": {
     "badge": "Acordes Ocultos",

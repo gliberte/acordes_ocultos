@@ -548,12 +548,14 @@ export const StoryVideo: React.FC<StoryData> = (props) => {
     }
   );
 
+  const musicSource = story.music.src || story.music.file;
+
   return (
     <AbsoluteFill style={{background: story.palette.ink}}>
-      {story.music.src ? (
+      {musicSource ? (
         <Audio
-          src={assetSrc(story.music.src)}
-          startFrom={Math.round(story.music.startSecond * fps)}
+          src={assetSrc(musicSource)}
+          startFrom={Math.round((story.music.startSecond ?? 0) * fps)}
           volume={musicVolume}
         />
       ) : null}

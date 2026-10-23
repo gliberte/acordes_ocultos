@@ -876,6 +876,26 @@ const main = async () => {
   const story = JSON.parse(readFileSync(options.story, 'utf8'));
   const videoStats = statSync(options.video);
 
+  // Verificación proactiva de presencia y nivel de audio en el master de video
+  try {
+    const probeOutput = execSync(`ffmpeg -i "${options.video}" -af "volumedetect" -f null - 2>&1`, { encoding: 'utf8' });
+    const maxVolumeMatch = probeOutput.match(/max_volume:\s*(-?[\d.]+)\s*dB/);
+    if (maxVolumeMatch) {
+      const maxVol = parseFloat(maxVolumeMatch[1]);
+      if (maxVol <= -80) {
+        console.warn(`\n🚨 ========================================================`);
+        console.warn(`🚨 ALERTA CRÍTICA: El video "${options.video}" NO TIENE AUDIO o es silencio (${maxVol} dB).`);
+        console.warn(`🚨 Verifica que story.json tenga definido "src" o "file" en "music" y que el archivo de audio exista.`);
+        console.warn(`🚨 Objeto music actual: ${JSON.stringify(story.music)}`);
+        console.warn(`🚨 ========================================================\n`);
+      } else {
+        console.log(`🔊 Verificación de audio OK: max_volume = ${maxVol} dB en "${basename(options.video)}"`);
+      }
+    }
+  } catch (audioCheckErr) {
+    // Si ffmpeg falla en la inspección, continuar sin bloquear
+  }
+
   const editorialPackage = buildEditorialPackage(story);
   const { matchedArticleSlug, resolvedWebArticle } = resolveArticleForStory({ story, editorialPackage });
   const files = writeProductionFiles(story, {

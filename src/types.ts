@@ -68,6 +68,7 @@ export const StorySchema = z.object({
     title: z.string(),
     artist: z.string(),
     src: z.string().optional(),
+    file: z.string().optional(),
     startSecond: z.number().default(0),
     volume: z.number().min(0).max(1).default(0.55),
     instagram: z
