@@ -1,42 +1,42 @@
 {
-  "title": "Los tres hijos de obreros que desafiaron a un dictador con guitarras de juguete",
-  "artist": "Los Prisioneros",
-  "topic": "forjados-en-el-barro",
+  "title": "El disco de oro donde sus propios músicos tenían prohibido tocar",
+  "artist": "The Grass Roots",
+  "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro",
-  "articleSlug": "los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro",
-  "anecdote": "La épica historia de Los Prisioneros: tres jóvenes de la empobrecida comuna obrera de San Miguel que armaron una banda con cajas de cartón e instrumentos prestados bajo la dictadura de Augusto Pinochet, desafiaron la censura de Estado y compusieron «El baile de los que sobran», el himno más universal de la rebeldía juvenil sudamericana.",
-  "hook": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
+  "slug": "the-grass-roots-midnight-confessions-acordes-ocultos",
+  "articleSlug": "the-grass-roots-midnight-confessions-acordes-ocultos",
+  "anecdote": "La insólita historia detrás de «Midnight Confessions» (1968) de The Grass Roots: el mayor éxito de la banda (#5 Billboard y disco de oro) donde la discográfica prohibió a los músicos tocar sus propios instrumentos, sustituyéndolos en secreto por The Wrecking Crew, desatando la frustración del guitarrista Creed Bratton antes de su salto a la fama en The Office.",
+  "hook": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
   "beats": [
-    "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
-    "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
-    "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
-    "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
-    "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
-    "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
-    "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina."
+    "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
+    "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
+    "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
+    "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
+    "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
+    "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
+    "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office."
   ],
-  "outro": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
+  "outro": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
   "palette": {
-    "ink": "#0b0c10",
-    "paper": "#c5c6c7",
-    "accent": "#e63946",
-    "glow": "#f1faee"
+    "ink": "#0a0a0f",
+    "paper": "#d8d5cb",
+    "accent": "#d4af37",
+    "glow": "#f3e8c8"
   },
   "music": {
-    "title": "El baile de los que sobran",
-    "artist": "Los Prisioneros",
-    "src": "music/los-prisioneros-el-baile-de-los-que-sobran.mp3",
-    "file": "music/los-prisioneros-el-baile-de-los-que-sobran.mp3",
+    "title": "Midnight Confessions",
+    "artist": "The Grass Roots",
+    "src": "music/the-grass-roots-midnight-confessions.mp3",
+    "file": "music/the-grass-roots-midnight-confessions.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "instagram": {
-      "query": "Los Prisioneros El baile de los que sobran",
-      "expectedTitle": "El baile de los que sobran",
-      "expectedArtist": "Los Prisioneros",
+      "query": "The Grass Roots Midnight Confessions",
+      "expectedTitle": "Midnight Confessions",
+      "expectedArtist": "The Grass Roots",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de El baile de los que sobran de Los Prisioneros en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Midnight Confessions de The Grass Roots en Instagram Reels."
     }
   },
   "scenes": [
@@ -44,162 +44,162 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-01.png"
+      "text": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-02.png"
+      "text": "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-03.png"
+      "text": "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-04.png"
+      "text": "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-05.png"
+      "text": "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-06.png"
+      "text": "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-07.png"
+      "text": "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-08.png"
+      "text": "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
-      "asset": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-09.png"
+      "text": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
+      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-09.png"
     }
   ],
-  "assets": [
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-01.png",
-      "prompt": "Vertical 9:16 authentic 1986 Santiago de Chile documentary scene: Close-up of an old vintage portable Casio CZ-101 synthesizer resting on a modest wooden table next to an acoustic guitar with worn lacquer, warm golden afternoon light coming through a dusty window in a working-class house, quiet lower third, rich 35mm grain, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-02.png",
-      "prompt": "Vertical 9:16 candid 1979 documentary photograph in San Miguel, Santiago: Three Chilean teenage schoolboys (Jorge González age 15 with dark short hair and intense gaze, Claudio Narea, Miguel Tapia) in grey public high school uniform jackets walking along the dusty sidewalk of Gran Avenida near old brick factories, 35mm Tri-X film grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-03.png",
-      "prompt": "Vertical 9:16 intimate 1980 garage rehearsal scene: Three Chilean teenage boys making music with extreme improvised gear in a modest shed; drummer Miguel Tapia tapping on cardboard boxes and an old metal pot, guitarist Claudio Narea fingerpicking an acoustic guitar with knotted nylon strings, Jorge singing with raw passion, warm tungsten bulb, 35mm Kodachrome grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-04.png",
-      "prompt": "Vertical 9:16 atmospheric nocturnal street photograph in Santiago 1983: Empty wet asphalt avenue under strict military curfew, cold blue streetlamps, distant silhouettes of a military jeep patrol with headlights cutting through urban mist, heavy shadow and suspense, quiet lower third, authentic 35mm grain, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1983 portrait of Chilean rock trio Los Prisioneros: Jorge González (18, lean, dark straight hair, leather biker jacket), Claudio Narea and Miguel Tapia leaning against a cracked urban concrete wall spray-painted with fading political slogans, defiant and serious expressions, high-contrast 35mm black and white photography, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-06.png",
-      "prompt": "Vertical 9:16 poignant 1985 documentary photograph: A group of young Chilean working-class graduates in cheap suits sitting on a stone curb at a dusty street corner, staring into the distance with melancholic and frustrated expressions, kicking loose stones, late autumn overcast sky, evocative 35mm documentary realism, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-07.png",
-      "prompt": "Vertical 9:16 intimate 1986 home recording session: Frontman Jorge González (21, dark hair, simple t-shirt) seated on a bed in a small cluttered bedroom in San Miguel, leaning over a 4-track cassette recorder and pressing keys on a compact synthesizer while a mixed-breed dog sleeps curled on a rug nearby, warm lamp light, 35mm analog grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-08.png",
-      "prompt": "Vertical 9:16 epic 1986 concert documentary: Los Prisioneros performing live on a crowded gymnasium stage, Jorge González singing passionately into the microphone with clenched fist, thousands of passionate young Latin American fans in cheap jackets raising their arms and singing along under warm stage spotlights and haze, electric communal energy, authentic 35mm film grain, quiet lower third, strictly no text."
-    },
-    {
-      "src": "videos/los-prisioneros-el-baile-de-los-que-sobran-forjados-en-el-barro/scene-09.png",
-      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty public school courtyard at dusk in autumn, yellow fallen leaves scattered across cracked concrete basketball court, rusted soccer goalposts, tall wrought-iron gates open to the quiet street under a soft violet and amber twilight sky, strictly no turntables, strictly no vinyl records, profound quietness, quiet lower third, strictly no text."
-    }
-  ],
-  "publication": {
-    "title": "Los tres hijos de obreros que desafiaron a un dictador con guitarras de juguete",
-    "description": "En 1986, bajo una de las dictaduras más implacables del cono sur, tres adolescentes de un barrio obrero grabaron un tema con instrumentos casi de juguete. La televisión los ignoró, pero las calles lo convirtieron en un himno eterno.\n\nJorge González, Claudio Narea y Miguel Tapia crecieron en San Miguel, Santiago de Chile, entre toques de queda y fábricas en quiebra. No tenían dinero para comprar instrumentos reales: tocaban sobre cajas de cartón y ataban con nudos las cuerdas rotas de una guitarra prestada. Al ver que sus compañeros de liceo técnico salían al desempleo masivo tras años de esfuerzo, Jorge compuso en un humilde teclado Casio una elegía a la juventud excluida: «El baile de los que sobran».\n\nEl régimen militar prohibió sus conciertos y presionó a las emisoras para silenciarlos. Sin embargo, grabadas de mano en mano en casetes piratas, sus canciones atravesaron cordilleras y llenaron estadios en Chile, Perú y Colombia, dándole voz a quienes nunca habían sido escuchados.\n\n¿Qué sentiste la primera vez que escuchaste este himno de Los Prisioneros? Te leemos en los comentarios.\n\n#LosPrisioneros #ElBaileDeLosQueSobran #JorgeGonzalez #RockLatino #ForjadosEnElBarro #RockEnEspanol #Chile #HistoriaDelRock"
-  },
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "El ladrido sampleado de un perro callejero y una caja de ritmos barata abrieron la canción más peligrosa y cantada de Sudamérica.",
+      "text": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En 1979, entre la polvareda de la comuna obrera de San Miguel, tres hijos de familias trabajadoras se conocieron en un liceo público.",
+      "text": "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Sin dinero para instrumentos reales, golpeaban cajas de cartón y remendaban con nudos las cuerdas rotas de una guitarra prestada.",
+      "text": "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Bajo el toque de queda de la dictadura militar, ensayaban a oscuras en un galpón mientras las patrullas vigilaban las esquinas en silencio.",
+      "text": "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Se bautizaron como «Los Prisioneros» porque se sentían presos de su clase social, de la pobreza y de un país amordazado por el miedo.",
+      "text": "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Jorge vio a sus compañeros de liceo salir al mundo con un diploma inútil, estafados por promesas y condenados a patear piedras sin destino.",
+      "text": "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En un cuarto húmedo, con un teclado Casio de juguete, González compuso un himno desafiando la frialdad de la televisión complaciente.",
+      "text": "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Aunque el régimen vetó sus recitales y presionó a las emisoras, miles de casetes clandestinos encendieron la rebeldía de toda América Latina.",
+      "text": "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay canciones que no nacen para agradar al poder, sino para devolverle la dignidad a los olvidados y demostrar que su voz nunca morirá.",
+      "text": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
       "assetIndex": 8
     }
-  ]
+  ],
+  "assets": [
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 candid 1968 recording studio still: Close-up of hands playing a sunburst 1960s Fender Precision bass with tortoise pickguard next to a polished brass trumpet on a stand, warm amber tungsten studio lighting, 35mm analog Kodachrome grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 authentic 1968 portrait: The four young members of American rock group The Grass Roots (frontman Rob Grill, guitarist Creed Bratton with brown parted hair and sideburns, Warren Entner, Rick Coonce) in mod 1960s clothing standing together in Los Angeles, looking slightly awkward and unfulfilled, 35mm film grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 1966 Hollywood music industry office: A sharp record executive behind a heavy wooden desk smoking a cigarette, surrounded by gold records on wood-paneled walls, reviewing contracts with young long-haired musicians, capturing corporate control over rock music, authentic 35mm grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 intimate 1968 portrait: A young Creed Bratton (age 25, slender build, intense eyes, stylish late 60s collar shirt) sitting on an amplifier with his electric guitar unplugged in a dimly lit backstage room, looking frustrated and contemplative, warm vintage 35mm film aesthetic, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 authentic 1968 tracking session at United Western Recorders in Hollywood: The legendary session collective The Wrecking Crew (drummer Hal Blaine, bassist Carol Kaye, organist) playing intently around microphones while producer Steve Barri listens behind the mixing console, 35mm documentary photography, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 television studio set in 1968: The Grass Roots performing on a brightly lit TV variety stage with colorful pop art backdrop and screaming teenage girls in the front row, band members miming along to playback with bright stage lights, vintage color broadcast aesthetic, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 dramatic 1969 concert photography at Fillmore West: Chaotic psychedelic stage with liquid light projections swirling in red and purple behind a wild-eyed young Creed Bratton on the edge of the stage, guitar set aside in mid-performance frenzy, high drama and counterculture intensity, 35mm Tri-X grain, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 cinematic 2000s office documentary portrait: An older Creed Bratton in a modest corporate office setting (reminiscent of Dunder Mifflin), wearing a beige collared shirt and subtle eccentric smile, holding a vintage acoustic guitar next to his desk, warm fluorescent office lighting, sharp 35mm portraiture, quiet lower third, strictly no text."
+    },
+    {
+      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty 1960s Hollywood recording studio control room at night, moonlight slanting through high acoustic glass onto an old analog mixing console, headphones resting on a stool beside a single muted microphone, strictly no turntables, strictly no vinyl records, profound stillness, quiet lower third, strictly no text."
+    }
+  ],
+  "publication": {
+    "title": "El disco de oro donde sus propios músicos tenían prohibido tocar",
+    "description": "En el verano de 1968, un arrollador corte de soul-pop trepó hasta el número cinco del Billboard y vendió más de un millón de copias en todo el mundo: «Midnight Confessions». En televisión, cuatro jóvenes apuestos con peinados a la moda bailaban y tocaban ante los gritos ensordecedores de las adolescentes. Pero en los estudios de Los Ángeles, la realidad era otra.\n\nThe Grass Roots había nacido en las oficinas de Dunhill Records como una banda ficticia para grabar maquetas. Cuando las canciones pegaron en la radio, los productores contrataron a cuatro muchachos de bares californianos para ponerles cara y salir de gira. Entre ellos estaba un joven y talentoso guitarrista llamado Creed Bratton. Creed soñaba con grabar sus propios temas, pero al llegar a la sesión de su mayor éxito, el productor Steve Barri los dejó fuera: contrató a The Wrecking Crew, la élite de músicos veteranos de sesión, para grabar cada nota.\n\nA la banda solo se le permitió poner la voz. La humillación de salir a tocar en playback guitarras desconectadas carcomió a Creed Bratton hasta que en abril de 1969, en pleno concierto en el mítico Fillmore West, sufrió un colapso en el escenario y fue expulsado. Décadas después, aquel músico que la industria intentó callar encontró una revancha insólita: convertirse en un ícono de la cultura pop mundial interpretándose a sí mismo en la serie The Office.\n\n¿Sabías que el guitarrista de este clásico de los sesenta era el mismísimo Creed de The Office? Te leemos en los comentarios.\n\n#TheGrassRoots #MidnightConfessions #CreedBratton #TheOffice #TheWreckingCrew #RockClasico #AcordesOcultos #HistoriaDelRock"
+  }
 }
