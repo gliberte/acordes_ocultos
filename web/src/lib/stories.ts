@@ -425,7 +425,15 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'gladysknightmidnighttraintogeorgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
   'gladysknightmidnighttraintogeorgiaacordesocultos': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
   'midnight-train-to-georgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
-  'midnighttraintogeorgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos'
+  'midnighttraintogeorgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'tuvolavozmasperfectadeuncontinenteperosumayorbatallafuesobrevivirasupropiafragilidad': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'tuvo-la-voz-mas-perfecta-de-un-continente-pero-su-mayor-batalla-fue-sobrevivir-a-su-propia-fragilidad': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'jose-jose-lo-pasado-pasado-catedrales-de-leyenda': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'josejoselopasadopasadocatedralesdeleyenda': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'jose-jose-lo-pasado-pasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'josejoselopasadopasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'lo-pasado-pasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'lopasadopasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda'
 };
 
 

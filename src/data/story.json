@@ -1,189 +1,199 @@
 {
-  "title": "Una llamada a una actriz desconocida creó la canción que salvó el honor de una banda marginada",
-  "artist": "Gladys Knight & The Pips",
-  "topic": "acordes-ocultos",
+  "title": "Tuvo la voz más perfecta de un continente, pero su mayor batalla fue sobrevivir a su propia fragilidad",
+  "artist": "José José",
+  "topic": "catedrales-de-leyenda",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "gladys-knight-midnight-train-to-georgia-acordes-ocultos",
-  "articleSlug": "gladys-knight-midnight-train-to-georgia-acordes-ocultos",
-  "anecdote": "La insólita génesis detrás de «Midnight Train to Georgia» (1973): el clásico supremo del soul no nació en el sur de Estados Unidos, sino en una llamada telefónica casual entre el compositor Jim Weatherly y una jovencísima Farrah Fawcett que viajaba en un avión de medianoche a Houston. Cuando Cissy Houston (madre de Whitney) cambió el avión por un tren y Gladys Knight transformó la obra en su revancha tras ser marginada por Motown, la pieza se convirtió en uno de los números uno más conmovedores de la historia.",
-  "hook": "En 1973, una balada soul paralizó al mundo, pero su origen se ocultaba en una llamada casual a una futura estrella de Hollywood.",
+  "slug": "jose-jose-lo-pasado-pasado-catedrales-de-leyenda",
+  "articleSlug": "jose-jose-lo-pasado-pasado-catedrales-de-leyenda",
+  "anecdote": "La monumental trayectoria de José Rómulo Sosa Ortiz, «El Príncipe de la Canción»: desde sus humildes serenatas juveniles en Clavería y el terremoto del Festival OTI de 1970 con «El Triste», hasta su pacto de hermandad con Juan Gabriel en «Lo Pasado, Pasado», el récord histórico de 11 millones de copias con «Secretos» y su dolorosa pero conmovedora batalla por cantar incluso cuando su salud colapsó. Una catedral viva que definió la memoria sentimental de Hispanoamérica.",
+  "hook": "Tuvo la voz más perfecta de América Latina, pero su mayor batalla fue sobrevivir a su propia fragilidad.",
   "beats": [
-    "Millones corearon el viaje en tren a Georgia sin sospechar que el tema original hablaba de un avión a Texas.",
-    "El compositor Jim Weatherly llamó a su amigo Lee Majors y fue atendido por su novia: una desconocida Farrah Fawcett.",
-    "Farrah le contó que empacaba para tomar el vuelo nocturno a Houston, inspirando la letra en cuarenta y cinco minutos.",
-    "Cissy Houston, madre de Whitney, grabó la primera versión soul corrigiendo el transporte: su gente sureña viajaba en tren.",
-    "Gladys Knight y The Pips llevaban años siendo relegados en Motown detrás de Diana Ross y The Supremes.",
-    "Tras romper con el sello, Gladys escuchó la historia del sueño roto en Los Ángeles y la convirtió en su revancha artística.",
-    "El sencillo conquistó el número uno de Billboard y el premio Grammy, inmortalizando el poder de la lealtad y las raíces."
+    "En el barrio de Clavería, un joven humilde cantaba serenatas nocturnas desafiando la sombra de su padre.",
+    "En 1970 asombró a México con «El Triste» en el OTI: el jurado lo relegó, pero el pueblo lo coronó rey.",
+    "Durante los años setenta, su fraseo prodigioso lo consagró como «El Príncipe de la Canción».",
+    "En 1978, Juan Gabriel le entregó «Lo Pasado, Pasado», sellando un himno imperecedero de redención.",
+    "En 1983 alcanzó la cumbre con «Secretos», el álbum más vendido en la historia de la música mexicana.",
+    "En los años noventa tocó el fondo del dolor y los excesos, hasta ser rescatado por sus amigos más leales.",
+    "Renació con hidalguía, pero graves dolencias y el reflujo castigaron su prodigiosa garganta.",
+    "En 2019, México despidió a su ídolo con honores en Bellas Artes entre un coro multitudinario de llanto y flores.",
+    "Su cuerpo descansa en paz, pero su voz vive eternamente en el corazón y la memoria de un continente."
   ],
-  "outro": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
+  "outro": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
   "palette": {
-    "ink": "#0d0b09",
-    "paper": "#f7f3ea",
-    "accent": "#c5832b",
-    "glow": "#fdeccd"
+    "ink": "#0a0908",
+    "paper": "#fbf8f1",
+    "accent": "#c59b27",
+    "glow": "#fde68a"
   },
   "music": {
-    "title": "Midnight Train to Georgia",
-    "artist": "Gladys Knight & The Pips",
-    "src": "music/gladys-knight-midnight-train-to-georgia.mp3",
-    "file": "music/gladys-knight-midnight-train-to-georgia.mp3",
-    "volume": 0.9,
-    "startSecond": 0
+    "title": "Lo Pasado, Pasado",
+    "artist": "José José",
+    "src": "music/jose-jose-lo-pasado-pasado.mp3",
+    "file": "music/jose-jose-lo-pasado-pasado.mp3",
+    "volume": 0.85,
+    "startSecond": 0,
+    "instagram": {
+      "query": "Lo Pasado Pasado Jose Jose",
+      "expectedTitle": "Lo Pasado, Pasado",
+      "expectedArtist": "José José",
+      "status": "manual_check_required",
+      "notes": "Seleccionar la pista oficial de Lo Pasado, Pasado (1978) de José José en Instagram Reels."
+    }
   },
+  "coverBg": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/cover_bg.png",
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En 1973, una balada soul conmovió al planeta. Millones cantaron su viaje en tren, ignorando la llamada casual que lo inició todo.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-01.png"
+      "text": "En el barrio obrero de Clavería, un muchacho humilde cantaba serenatas nocturnas, desafiando en silencio la estricta prohibición de su padre.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "En 1970, el compositor Jim Weatherly llamó a su amigo Lee Majors. Al teléfono respondió su novia: una desconocida joven llamada Farrah Fawcett.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-02.png"
+      "text": "En 1970 paralizó al país en el Festival OTI con «El Triste». Aunque el jurado lo relegó, el público lo coronó rey absoluto.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Farrah le comentó que empacaba sus maletas para tomar el avión nocturno a Houston. Esa frase bastó para escribir la canción en minutos.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-03.png"
+      "text": "Durante los años setenta, su fraseo impecable y su capacidad pulmonar sin límites lo consagraron como «El Príncipe de la Canción» en toda América.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "La maqueta llegó a Cissy Houston, madre de Whitney, quien sentenció con orgullo: «Mi gente viaja en tren y volvemos siempre a Georgia».",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-04.png"
+      "text": "En 1978, su amigo entrañable Juan Gabriel le regaló «Lo Pasado, Pasado», convirtiendo su propia lucha contra el dolor en un himno de redención.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Mientras tanto, Gladys Knight y The Pips sufrían el desdén en Motown, donde Berry Gordy siempre priorizó la carrera de Diana Ross.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-05.png"
+      "text": "En 1983 conquistó el mundo con «Secretos», el disco más vendido de México con once millones de copias y llenos épicos en Nueva York.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "En 1973 rompieron con el sello. Gladys escuchó la historia del hombre derrotado por Los Ángeles y decidió convertirla en su estandarte personal.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-06.png"
+      "text": "En los noventa, el dolor y las adicciones lo llevaron al fondo, durmiendo en un taxi abandonado hasta que sus amigos acudieron a rescatarlo.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "En el estudio, The Pips crearon sus célebres respuestas vocales imitando el silbido del tren y los giros sincronizados que maravillaron al mundo.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-07.png"
+      "text": "Renació sobrio y enamorado, pero las enfermedades y el reflujo dañaron su garganta. Aun sin voz, continuó subiendo al escenario por amor a su gente.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "La grabación alcanzó el número uno en las listas mundiales y conquistó el Grammy, consagrando la revancha más dulce del soul clásico.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-08.png"
+      "text": "En 2019, México despidió a su ídolo con honores en Bellas Artes, mientras miles de personas entonaban sus baladas entre lágrimas en las calles.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
-      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-09.png"
+      "text": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
+      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-09.png"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En 1973, una balada soul conmovió al planeta. Millones cantaron su viaje en tren, ignorando la llamada casual que lo inició todo.",
+      "text": "En el barrio obrero de Clavería, un muchacho humilde cantaba serenatas nocturnas, desafiando en silencio la estricta prohibición de su padre.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En 1970, el compositor Jim Weatherly llamó a su amigo Lee Majors. Al teléfono respondió su novia: una desconocida joven llamada Farrah Fawcett.",
+      "text": "En 1970 paralizó al país en el Festival OTI con «El Triste». Aunque el jurado lo relegó, el público lo coronó rey absoluto.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Farrah le comentó que empacaba sus maletas para tomar el avión nocturno a Houston. Esa frase bastó para escribir la canción en minutos.",
+      "text": "Durante los años setenta, su fraseo impecable y su capacidad pulmonar sin límites lo consagraron como «El Príncipe de la Canción» en toda América.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "La maqueta llegó a Cissy Houston, madre de Whitney, quien sentenció con orgullo: «Mi gente viaja en tren y volvemos siempre a Georgia».",
+      "text": "En 1978, su amigo entrañable Juan Gabriel le regaló «Lo Pasado, Pasado», convirtiendo su propia lucha contra el dolor en un himno de redención.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Mientras tanto, Gladys Knight y The Pips sufrían el desdén en Motown, donde Berry Gordy siempre priorizó la carrera de Diana Ross.",
+      "text": "En 1983 conquistó el mundo con «Secretos», el disco más vendido de México con once millones de copias y llenos épicos en Nueva York.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "En 1973 rompieron con el sello. Gladys escuchó la historia del hombre derrotado por Los Ángeles y decidió convertirla en su estandarte personal.",
+      "text": "En los noventa, el dolor y las adicciones lo llevaron al fondo, durmiendo en un taxi abandonado hasta que sus amigos acudieron a rescatarlo.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "En el estudio, The Pips crearon sus célebres respuestas vocales imitando el silbido del tren y los giros sincronizados que maravillaron al mundo.",
+      "text": "Renació sobrio y enamorado, pero las enfermedades y el reflujo dañaron su garganta. Aun sin voz, continuó subiendo al escenario por amor a su gente.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "La grabación alcanzó el número uno en las listas mundiales y conquistó el Grammy, consagrando la revancha más dulce del soul clásico.",
+      "text": "En 2019, México despidió a su ídolo con honores en Bellas Artes, mientras miles de personas entonaban sus baladas entre lágrimas en las calles.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
+      "text": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-01.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-01.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-02.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-02.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-03.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-03.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-04.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-04.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-05.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-05.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-06.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-06.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-07.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-07.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-08.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-08.png"
     },
     {
-      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-09.png"
+      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-09.png"
     }
   ],
   "publication": {
-    "title": "Una llamada a una actriz desconocida creó la canción que salvó el honor de una banda marginada",
-    "description": "En 1973, Gladys Knight & The Pips paralizaron al mundo con «Midnight Train to Georgia». Pero detrás de aquel estribillo majestuoso se escondía una carambola insólita de la historia de la música.\n\nTodo comenzó en 1970 cuando el compositor Jim Weatherly llamó a su amigo el actor Lee Majors. El actor no estaba y atendió su novia: una desconocida aspirante a modelo de 23 años llamada Farrah Fawcett. Farrah le dijo que hacía las maletas para tomar el «avión de medianoche a Houston». Weatherly colgó y en 45 minutos escribió una balada sobre un soñador que fracasaba en Los Ángeles y regresaba derrotado a su tierra natal.\n\nDos años después, la maqueta llegó a manos de Cissy Houston (madre de Whitney), quien corrigió el tema con orgullo: «Mi gente no viaja en avión sino en tren, y volvemos a Georgia». Pero la obra maestra definitiva llegó en 1973, cuando Gladys Knight & The Pips —tras años de desaires y marginación en Motown a la sombra de Diana Ross— rompieron sus contratos y grabaron la canción. Con los coros responsoriales imitando el silbido del tren, el tema trepó al número uno global y ganó el Grammy, demostrando que ninguna maquinaria discográfica puede apagar a quien canta desde la verdad.\n\n¿Conocías la historia de esta joya eterna del soul?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#GladysKnight #ThePips #MidnightTrainToGeorgia #FarrahFawcett #SoulMusic #Motown #AcordesOcultos #HistoriaDeLaMusica"
+    "title": "Tuvo la voz más perfecta de un continente, pero su mayor batalla fue sobrevivir a su propia fragilidad",
+    "description": "Tuvo la voz más perfecta de América Latina, pero su mayor batalla fue sobrevivir a su propia fragilidad. Esta es la odisea de José José, El Príncipe de la Canción.\n\nDe ganarse el sustento cantando en serenatas nocturnas por Azcapotzalco a conmocionar al continente en aquel mítico Festival OTI de 1970. Aquella noche, Marco Antonio Muñiz y el público arrojaron claveles al escenario mientras el jurado le negaba el primer lugar. No importó: México ya lo había coronado monarca eterno de la balada.\n\nAños después, su hermano del alma Juan Gabriel le entregó en una noche bohemia «Lo Pasado, Pasado», el himno que selló su renacimiento. Llegaría el récord histórico de 'Secretos' con más de 11 millones de copias vendidas, las noches triunfales en el Madison Square Garden y, más tarde, el abismo de las adicciones, la pérdida de su garganta y el dolor físico. Pero incluso cuando la voz se quebró, el amor incondicional del público jamás lo abandonó.\n\n¿Qué canción de José José ha marcado el momento más inolvidable de tu vida? Te leemos en los comentarios.\n\nLa crónica histórica completa y los documentos de archivo están en el enlace de nuestro perfil.\n\n#JoseJose #ElPrincipeDeLaCancion #LoPasadoPasado #ElTriste #CatedralesDeLeyenda #HistoriaDeLaMusica #BaladasDelRecuerdo #AcordesOcultos"
   }
 }
