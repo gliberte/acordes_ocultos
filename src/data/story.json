@@ -1,23 +1,23 @@
 {
-  "title": "El disco de oro donde sus propios músicos tenían prohibido tocar",
-  "artist": "The Grass Roots",
+  "title": "La llamada a Brasil que inspiró el himno de las madres en una bolsa de pan",
+  "artist": "Denisse de Kalafe",
   "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "the-grass-roots-midnight-confessions-acordes-ocultos",
-  "articleSlug": "the-grass-roots-midnight-confessions-acordes-ocultos",
-  "anecdote": "La insólita historia detrás de «Midnight Confessions» (1968) de The Grass Roots: el mayor éxito de la banda (#5 Billboard y disco de oro) donde la discográfica prohibió a los músicos tocar sus propios instrumentos, sustituyéndolos en secreto por The Wrecking Crew, desatando la frustración del guitarrista Creed Bratton antes de su salto a la fama en The Office.",
-  "hook": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
+  "slug": "denisse-de-kalafe-senora-senora-acordes-ocultos",
+  "articleSlug": "denisse-de-kalafe-senora-senora-acordes-ocultos",
+  "anecdote": "La verdadera historia detrás de «Señora, señora» (1981): cómo una llamada telefónica a Brasil llena de nostalgia hacia su madre, doña Linda de Kalafe, llevó a la cantautora a componer su clásico al piano sobre una bolsa de papel de pan, cediendo parte de los derechos por dos mil pesos para pagar la renta, y su actual propósito de donar esos beneficios a la lucha contra el cáncer de mama.",
+  "hook": "Cada diez de mayo, los acordes de «Señora, señora» resuenan en millones de hogares, pero su origen guarda una conmovedora historia íntima.",
   "beats": [
-    "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
-    "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
-    "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
-    "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
-    "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
-    "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
-    "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office."
+    "En 1980, Denisse de Kalafe vivía en México lejos de su familia, sobrellevando la soledad del artista migrante.",
+    "Tras conversar por teléfono con su madre en Brasil, doña Linda de Kalafe, una inmensa nostalgia la impulsó hacia el piano.",
+    "Al no encontrar partituras a mano, tomó una humilde bolsa de papel de pan y un lápiz para capturar la melodía.",
+    "La compositora relató que las estrofas parecían sopladas al oído, dictadas por una gratitud filial incontenible.",
+    "Apremiada por cubrir el alquiler de su hogar, cedió una parte de los derechos a una editora por unos dos mil pesos.",
+    "El tema vio la luz en 1981 dentro del álbum «Amar es...», arraigándose para siempre en el corazón de varias generaciones.",
+    "Años más tarde, radicada en Holbox, Denisse impulsó la recuperación de esos derechos para respaldar fundaciones de cáncer de mama."
   ],
-  "outro": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
+  "outro": "Las cartas de amor más profundas nacen de la gratitud silenciosa y no precisan pergaminos cuando brotan desde el corazón de un hijo.",
   "palette": {
     "ink": "#0a0a0f",
     "paper": "#d8d5cb",
@@ -25,181 +25,177 @@
     "glow": "#f3e8c8"
   },
   "music": {
-    "title": "Midnight Confessions",
-    "artist": "The Grass Roots",
-    "src": "music/the-grass-roots-midnight-confessions.mp3",
-    "file": "music/the-grass-roots-midnight-confessions.mp3",
+    "title": "Señora, señora",
+    "artist": "Denisse de Kalafe",
+    "src": "music/denisse-de-kalafe-senora-senora.mp3",
+    "file": "music/denisse-de-kalafe-senora-senora.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "instagram": {
-      "query": "The Grass Roots Midnight Confessions",
-      "expectedTitle": "Midnight Confessions",
-      "expectedArtist": "The Grass Roots",
+      "query": "Denisse de Kalafe Senora Senora",
+      "expectedTitle": "Señora, Señora",
+      "expectedArtist": "Denisse de Kalafe",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Midnight Confessions de The Grass Roots en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Señora, Señora de Denisse de Kalafe en Instagram Reels."
     }
+  },
+  "cover": {
+    "background": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/cover_bg.png",
+    "title": "SEÑORA, SEÑORA",
+    "artist": "DENISSE DE KALAFE"
   },
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-01.png"
+      "text": "Cada diez de mayo, millones de hogares reconocen desde el primer acorde el himno más entrañable del amor materno.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-02.png"
+      "text": "Sin embargo, en mil novecientos ochenta, Denisse de Kalafe era una joven cantautora brasileña sumida en la distancia en México.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-03.png"
+      "text": "Tras una larga llamada con su madre, doña Linda de Kalafe, una inmensa nostalgia la empujó directamente hacia el piano.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-04.png"
+      "text": "Al no hallar partituras cerca, tomó una bolsa de papel de pan y un lápiz para atrapar los primeros versos.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-05.png"
+      "text": "Denisse relató que las frases parecían sopladas al oído, un dictado espontáneo donde volcó el agradecimiento más puro a su madre.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-06.png"
+      "text": "Apretada por el alquiler de su departamento, la artista cedió parte de los derechos a una editora por dos mil pesos.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-07.png"
+      "text": "Incluida en mil novecientos ochenta y uno, la balada trascendió generaciones hasta convertirse en un clásico imprescindible de nuestras vidas.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-08.png"
+      "text": "Con los años radicada en Holbox, Denisse emprendió la misión de recuperar esos derechos para destinarlos a combatir el cáncer de mama.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
-      "asset": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-09.png"
+      "text": "Las cartas de amor más profundas nacen de la gratitud silenciosa y no precisan pergaminos cuando brotan desde el corazón de un hijo.",
+      "asset": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-09.png"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En 1968, una línea de bajo arrolladora y metales electrizantes convirtieron a «Midnight Confessions» en un éxito mundial de un millón de copias.",
+      "text": "Cada diez de mayo, millones de hogares reconocen desde el primer acorde el himno más entrañable del amor materno.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Pero detrás de las sonrisas en la portada había un engaño: los jóvenes integrantes de la banda no tocaron una sola nota.",
+      "text": "Sin embargo, en mil novecientos ochenta, Denisse de Kalafe era una joven cantautora brasileña sumida en la distancia en México.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "The Grass Roots nació como un proyecto fantasma de ejecutivos que contrataron a cuatro músicos de bar solo para fingir en público.",
+      "text": "Tras una larga llamada con su madre, doña Linda de Kalafe, una inmensa nostalgia la empujó directamente hacia el piano.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Entre ellos destacaba el guitarrista Creed Bratton, un bohemio apasionado que soñaba con grabar rock auténtico y demostrar su talento en estudio.",
+      "text": "Al no hallar partituras cerca, tomó una bolsa de papel de pan y un lápiz para atrapar los primeros versos.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Sin embargo, el productor los desterró al pasillo y contrató en secreto a The Wrecking Crew, la legendaria élite de músicos de alquiler.",
+      "text": "Denisse relató que las frases parecían sopladas al oído, un dictado espontáneo donde volcó el agradecimiento más puro a su madre.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Solo dejaron a Rob Grill cantar la voz principal, obligando a la banda a simular con instrumentos desconectados en televisión.",
+      "text": "Apretada por el alquiler de su departamento, la artista cedió parte de los derechos a una editora por dos mil pesos.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "La humillación carcomió a Creed Bratton hasta que en 1969, en pleno recital en el Fillmore West, colapsó en escena y fue despedido.",
+      "text": "Incluida en mil novecientos ochenta y uno, la balada trascendió generaciones hasta convertirse en un clásico imprescindible de nuestras vidas.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Décadas después, aquel guitarrista humillado por la industria resurgió en la televisión interpretando una versión delirante de sí mismo en The Office.",
+      "text": "Con los años radicada en Holbox, Denisse emprendió la misión de recuperar esos derechos para destinarlos a combatir el cáncer de mama.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "La industria puede alquilar manos maestras para fabricar un disco de oro, pero la dignidad de un artista jamás se conforma con fingir.",
+      "text": "Las cartas de amor más profundas nacen de la gratitud silenciosa y no precisan pergaminos cuando brotan desde el corazón de un hijo.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 candid 1968 recording studio still: Close-up of hands playing a sunburst 1960s Fender Precision bass with tortoise pickguard next to a polished brass trumpet on a stand, warm amber tungsten studio lighting, 35mm analog Kodachrome grain, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-01.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 authentic 1968 portrait: The four young members of American rock group The Grass Roots (frontman Rob Grill, guitarist Creed Bratton with brown parted hair and sideburns, Warren Entner, Rick Coonce) in mod 1960s clothing standing together in Los Angeles, looking slightly awkward and unfulfilled, 35mm film grain, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-02.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 1966 Hollywood music industry office: A sharp record executive behind a heavy wooden desk smoking a cigarette, surrounded by gold records on wood-paneled walls, reviewing contracts with young long-haired musicians, capturing corporate control over rock music, authentic 35mm grain, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-03.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 intimate 1968 portrait: A young Creed Bratton (age 25, slender build, intense eyes, stylish late 60s collar shirt) sitting on an amplifier with his electric guitar unplugged in a dimly lit backstage room, looking frustrated and contemplative, warm vintage 35mm film aesthetic, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-04.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 authentic 1968 tracking session at United Western Recorders in Hollywood: The legendary session collective The Wrecking Crew (drummer Hal Blaine, bassist Carol Kaye, organist) playing intently around microphones while producer Steve Barri listens behind the mixing console, 35mm documentary photography, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-05.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 television studio set in 1968: The Grass Roots performing on a brightly lit TV variety stage with colorful pop art backdrop and screaming teenage girls in the front row, band members miming along to playback with bright stage lights, vintage color broadcast aesthetic, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-06.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 dramatic 1969 concert photography at Fillmore West: Chaotic psychedelic stage with liquid light projections swirling in red and purple behind a wild-eyed young Creed Bratton on the edge of the stage, guitar set aside in mid-performance frenzy, high drama and counterculture intensity, 35mm Tri-X grain, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-07.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 cinematic 2000s office documentary portrait: An older Creed Bratton in a modest corporate office setting (reminiscent of Dunder Mifflin), wearing a beige collared shirt and subtle eccentric smile, holding a vintage acoustic guitar next to his desk, warm fluorescent office lighting, sharp 35mm portraiture, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-08.png"
     },
     {
-      "src": "videos/the-grass-roots-midnight-confessions-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 poetic fine-art documentary photograph: An empty 1960s Hollywood recording studio control room at night, moonlight slanting through high acoustic glass onto an old analog mixing console, headphones resting on a stool beside a single muted microphone, strictly no turntables, strictly no vinyl records, profound stillness, quiet lower third, strictly no text."
+      "src": "videos/denisse-de-kalafe-senora-senora-acordes-ocultos/scene-09.png"
     }
   ],
   "publication": {
-    "title": "El disco de oro donde sus propios músicos tenían prohibido tocar",
-    "description": "En el verano de 1968, un arrollador corte de soul-pop trepó hasta el número cinco del Billboard y vendió más de un millón de copias en todo el mundo: «Midnight Confessions». En televisión, cuatro jóvenes apuestos con peinados a la moda bailaban y tocaban ante los gritos ensordecedores de las adolescentes. Pero en los estudios de Los Ángeles, la realidad era otra.\n\nThe Grass Roots había nacido en las oficinas de Dunhill Records como una banda ficticia para grabar maquetas. Cuando las canciones pegaron en la radio, los productores contrataron a cuatro muchachos de bares californianos para ponerles cara y salir de gira. Entre ellos estaba un joven y talentoso guitarrista llamado Creed Bratton. Creed soñaba con grabar sus propios temas, pero al llegar a la sesión de su mayor éxito, el productor Steve Barri los dejó fuera: contrató a The Wrecking Crew, la élite de músicos veteranos de sesión, para grabar cada nota.\n\nA la banda solo se le permitió poner la voz. La humillación de salir a tocar en playback guitarras desconectadas carcomió a Creed Bratton hasta que en abril de 1969, en pleno concierto en el mítico Fillmore West, sufrió un colapso en el escenario y fue expulsado. Décadas después, aquel músico que la industria intentó callar encontró una revancha insólita: convertirse en un ícono de la cultura pop mundial interpretándose a sí mismo en la serie The Office.\n\n¿Sabías que el guitarrista de este clásico de los sesenta era el mismísimo Creed de The Office? Te leemos en los comentarios.\n\n#TheGrassRoots #MidnightConfessions #CreedBratton #TheOffice #TheWreckingCrew #RockClasico #AcordesOcultos #HistoriaDelRock"
+    "title": "La llamada a Brasil que inspiró el himno de las madres en una bolsa de pan",
+    "description": "El himno que cada diez de mayo conmueve a millones de familias nació en una humilde bolsa de papel de pan.\n\nEn 1980, en la Ciudad de México, una joven cantautora brasileña llamada Denisse de Kalafe colgó el auricular tras una llamada con su madre, doña Linda de Kalafe, quien se encontraba a miles de kilómetros en Brasil. La punzada de la distancia fue tan honda que corrió directamente al piano. Sin partituras cerca, tomó una bolsa de papel de pan y un lápiz para atrapar los versos que, según confesó, sentía susurrados al oído como un dictado providencial.\n\nApremiada por pagar el alquiler de su departamento, cedió una parte de los derechos a una editora musical por unos dos mil pesos. La canción vio la luz en 1981 dentro de su álbum «Amar es...» y no tardó en convertirse en una de las obras más entrañables y universales dedicadas a las madres en el mundo hispano.\n\nDécadas después, desde su hogar en la isla de Holbox, Denisse emprendió la causa de recuperar la titularidad plena de su obra con una misión transparente: destinar esos recursos a fundaciones en la lucha contra el cáncer de mama.\n\n¿En qué momento de tu vida te abrazaron los acordes de «Señora, señora»?\n\nLa crónica documental completa y los archivos históricos están en el enlace del perfil.\n\n#DenisseDeKalafe #SeñoraSeñora #AcordesOcultos #DiaDeLasMadres #MusicaConHistoria #BaladasDelRecuerdo #CancionesInolvidables"
   }
 }
