@@ -64,9 +64,12 @@ export const GET: APIRoute = async ({ url }) => {
       }
     });
   } catch (err: any) {
-    return new Response(JSON.stringify({ comments: [], error: 'Error al consultar comentarios' }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' }
+    return new Response(JSON.stringify({ success: true, comments: [], offline: true }), {
+      status: 200,
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-store, no-cache, must-revalidate, max-age=0'
+      }
     });
   }
 };

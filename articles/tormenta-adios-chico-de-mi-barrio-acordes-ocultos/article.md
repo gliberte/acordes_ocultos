@@ -40,6 +40,9 @@ El director artístico del sello, Mario Pizzurno, acostumbrado a lidiar con arti
 
 Pizzurno detectó de inmediato la contradicción fascinante entre su calma aparente y el torbellino sentimental que desataban sus letras. «Detrás de esa cara de ángel hay una fuerza desatada», comentó. Fue él quien decidió bautizarla con un nombre artístico que marcaría una era: **Tormenta**.
 
+![Retrato promocional de Tormenta en RCA Víctor, circa 1971](images/tormenta_promo_1971.webp)
+*Buenos Aires, circa 1971: Retrato promocional oficial de Liliana Esther Maturano en los albores de su carrera con RCA Víctor, combinando la frescura juvenil y la fuerza escénica de su alter ego «Tormenta». (Foto: Archivo RCA Víctor).*
+
 Tras el éxito inicial de su primer sencillo, *«Cebando mate»*, Tormenta presentó la balada que guardaba en su cuaderno desde hacía meses: *«Adiós, chico de mi barrio»*. Para darle forma definitiva en el estudio, el compositor Horacio Quintana (bajo el seudónimo Mario Rafael Valles) colaboró en el pulido métrico, mientras que los arreglos orquestales recayeron en una de las mentes más brillantes de la música argentina: el maestro Horacio Malvicino.
 
 ![El pasillo de RCA Víctor](images/scene-05.png)
