@@ -1,201 +1,189 @@
 {
-  "title": "Tocaban para 50 personas en un bar mientras su canción más íntima conquistaba el planeta",
-  "artist": "Natalie Imbruglia",
+  "title": "De la celda y el repudio social a componer el mayor himno de dignidad del pop latino",
+  "artist": "Gloria Trevi",
   "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "natalie-imbruglia-torn-acordes-ocultos",
-  "articleSlug": "natalie-imbruglia-torn-acordes-ocultos",
-  "anecdote": "La insólita historia detrás de «Torn» (1997): el superéxito de cuatro millones de copias que catapultó a Natalie Imbruglia fue compuesto en 1991 por Anne Preven y Scott Cutler de la banda grunge Ednaswap. La obra pasó por una versión en danés y un lanzamiento alternativo ignorado antes de que la industria la convirtiera en pop dorado, obligando a sus creadores a ver su dolor más íntimo triunfar en MTV mientras ellos tocaban en antros vacíos.",
-  "hook": "En 1997, una joven australiana con sudadera holgada conquistó al planeta con «Torn», pero el mundo entero cayó en un espejismo.",
+  "slug": "gloria-trevi-todos-me-miran-acordes-ocultos",
+  "articleSlug": "gloria-trevi-todos-me-miran-acordes-ocultos",
+  "anecdote": "La verdadera historia detrás de «Todos me miran» (2006): el mayor himno de resurrección del pop latino no nació en una fiesta, sino en el llanto de un joven amigo gay expulsado y repudiado por su padre. Gloria Trevi, recién absuelta tras pasar casi cinco años en prisión y enfrentando el escarnio público, reconoció en aquel dolor su propio reflejo, componiendo en un avión la obra que redimiría a dos almas y se convertiría en el escudo de toda una comunidad.",
+  "hook": "En 2006, una pista disco arrolladora sacudió a todo el continente, pero el mundo entero creyó que se trataba de una fiesta.",
   "beats": [
-    "Millones de oyentes creyeron que Natalie Imbruglia relataba un desamor personal nacido de sus propias entrañas.",
-    "En realidad, la letra había sido escrita en 1991 por Anne Preven, inspirada en pacientes jóvenes de un hospital psiquiátrico.",
-    "Antes de que Natalie la conociera, la canción se editó en danés en 1993 y en una versión grunge oscura con la banda Ednaswap en 1995.",
-    "Aquel rock pesado y desgarrador pasó totalmente desapercibido para las grandes emisoras de radio.",
-    "En 1997, el productor Phil Thornalley retiró la distorsión, vistió los acordes de luminosidad acústica y se la confió a Natalie.",
-    "El sencillo vendió cuatro millones de copias y dominó las listas mundiales durante meses interminables.",
-    "Mientras tanto, los integrantes de Ednaswap viajaban en una furgoneta rota para tocar en bares vacíos ante 50 personas."
+    "Millones de personas bailaron creyendo que «Todos me miran» era una simple celebración de vanidad o discoteca.",
+    "En realidad, Gloria Trevi acababa de salir absuelta de prisión tras casi cinco años, enfrentando el linchamiento moral de la prensa.",
+    "La inspiración nació cuando un amigo cercano le confesó que su padre lo había golpeado y expulsado de casa por su orientación sexual.",
+    "Aquel joven le contó que su única salvación para no morir de pena era vestirse de reina y bailar los fines de semana en un club.",
+    "Gloria reconoció en el dolor de su amigo su propia herida de rechazo y escribió los versos de un tirón durante un vuelo de avión.",
+    "El productor Armando Ávila vistió la letra con sintetizadores fulgurantes y guiños al espíritu combativo de Gloria Gaynor.",
+    "La canción se convirtió en el número uno absoluto y en el estandarte eterno de dignidad y resiliencia para la comunidad LGBTQ+."
   ],
-  "outro": "El arte verdadero no siempre pertenece a quien lo concibe, sino a quien logra convertir una herida íntima en consuelo universal.",
+  "outro": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto no es solo rebeldía: es la victoria definitiva de la dignidad humana.",
   "palette": {
-    "ink": "#0a0a0f",
-    "paper": "#d8d5cb",
-    "accent": "#d4af37",
-    "glow": "#f3e8c8"
+    "ink": "#0a0512",
+    "paper": "#f5edf8",
+    "accent": "#d9147a",
+    "glow": "#fcd8ef"
   },
   "music": {
-    "title": "Torn",
-    "artist": "Natalie Imbruglia",
-    "src": "music/natalie-imbruglia-torn.mp3",
-    "file": "music/natalie-imbruglia-torn.mp3",
-    "startSecond": 0,
-    "volume": 0.55,
-    "instagram": {
-      "query": "Natalie Imbruglia Torn",
-      "expectedTitle": "Torn",
-      "expectedArtist": "Natalie Imbruglia",
-      "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Torn de Natalie Imbruglia en Instagram Reels."
-    }
-  },
-  "cover": {
-    "background": "videos/natalie-imbruglia-torn-acordes-ocultos/cover_bg.png",
-    "title": "TORN",
-    "artist": "NATALIE IMBRUGLIA"
+    "title": "Todos me miran",
+    "artist": "Gloria Trevi",
+    "src": "music/gloria-trevi-todos-me-miran.mp3",
+    "file": "music/gloria-trevi-todos-me-miran.mp3",
+    "volume": 0.9,
+    "startSecond": 0
   },
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En mil novecientos noventa y siete, una joven australiana con sudadera holgada y mirada herida conquistó al planeta con «Torn».",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-01.png"
+      "text": "En 2006, un ritmo arrollador sacudió a millones de personas. Muchos creyeron que celebraba vanidad, pero ocultaba un rescate desgarrador.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "El sencillo vendió cuatro millones de copias, haciendo creer al mundo que Natalie Imbruglia cantaba su propia tragedia sentimental.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-02.png"
+      "text": "Tras casi cinco años de encierro, Gloria Trevi fue absuelta. Sin embargo, la prensa y la sociedad la daban por acabada.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Pero la desgarradora letra nació en mil novecientos noventa y uno, inspirada en pacientes adolescentes de un hospital psiquiátrico en Londres.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-03.png"
+      "text": "En ese momento de soledad, un joven amigo se quebró ante ella: su padre ultraconservador lo había golpeado y expulsado de casa.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Su autora, Anne Preven, vio cómo la canción salía primero en danés antes de grabarla con su propia banda, Ednaswap.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-04.png"
+      "text": "El muchacho le confesó que su único refugio era escapar de noche a una discoteca, vestirse de reina y bailar para sobrevivir.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Aquel tema original era un rock alternativo denso y furioso que pasó casi inadvertido en las tiendas de discos estadounidenses.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-05.png"
+      "text": "Gloria sintió en carne propia el desamparo de su amigo. En un avión, tomó lápiz y papel para transformar esa herida compartida.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Dos años después, un productor suavizó las guitarras, vistió la melodía de pop acústico y se la entregó a Natalie.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-06.png"
+      "text": "Junto al productor Armando Ávila, vistieron los versos con sintetizadores fulgurantes e impregnaron la melodía del espíritu combativo de Gloria Gaynor.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Mientras la canción arrasaba en MTV, los verdaderos autores viajaban en furgoneta para tocar en bares vacíos ante cincuenta personas.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-07.png"
+      "text": "El estreno paralizó emisoras en México, Estados Unidos y España. La canción que nació en la exclusión dominó las listas globales.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Anne Preven admitió la extraña paradoja: cobraba millonarias regalías mientras el mundo entero celebraba su dolor como gloria ajena.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-08.png"
+      "text": "Aquella plegaria se transformó en el estandarte eterno de la comunidad LGBTQ+, demostrando que el orgullo desarma cualquier intento de humillación.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "El arte verdadero no siempre pertenece a quien lo concibe, sino a quien logra convertir una herida íntima en consuelo universal.",
-      "asset": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-09.png"
+      "text": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto es la victoria definitiva de la dignidad humana.",
+      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-09.png"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En mil novecientos noventa y siete, una joven australiana con sudadera holgada y mirada herida conquistó al planeta con «Torn».",
+      "text": "En 2006, un ritmo arrollador sacudió a millones de personas. Muchos creyeron que celebraba vanidad, pero ocultaba un rescate desgarrador.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "El sencillo vendió cuatro millones de copias, haciendo creer al mundo que Natalie Imbruglia cantaba su propia tragedia sentimental.",
+      "text": "Tras casi cinco años de encierro, Gloria Trevi fue absuelta. Sin embargo, la prensa y la sociedad la daban por acabada.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Pero la desgarradora letra nació en mil novecientos noventa y uno, inspirada en pacientes adolescentes de un hospital psiquiátrico en Londres.",
+      "text": "En ese momento de soledad, un joven amigo se quebró ante ella: su padre ultraconservador lo había golpeado y expulsado de casa.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Su autora, Anne Preven, vio cómo la canción salía primero en danés antes de grabarla con su propia banda, Ednaswap.",
+      "text": "El muchacho le confesó que su único refugio era escapar de noche a una discoteca, vestirse de reina y bailar para sobrevivir.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Aquel tema original era un rock alternativo denso y furioso que pasó casi inadvertido en las tiendas de discos estadounidenses.",
+      "text": "Gloria sintió en carne propia el desamparo de su amigo. En un avión, tomó lápiz y papel para transformar esa herida compartida.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Dos años después, un productor suavizó las guitarras, vistió la melodía de pop acústico y se la entregó a Natalie.",
+      "text": "Junto al productor Armando Ávila, vistieron los versos con sintetizadores fulgurantes e impregnaron la melodía del espíritu combativo de Gloria Gaynor.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Mientras la canción arrasaba en MTV, los verdaderos autores viajaban en furgoneta para tocar en bares vacíos ante cincuenta personas.",
+      "text": "El estreno paralizó emisoras en México, Estados Unidos y España. La canción que nació en la exclusión dominó las listas globales.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Anne Preven admitió la extraña paradoja: cobraba millonarias regalías mientras el mundo entero celebraba su dolor como gloria ajena.",
+      "text": "Aquella plegaria se transformó en el estandarte eterno de la comunidad LGBTQ+, demostrando que el orgullo desarma cualquier intento de humillación.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "El arte verdadero no siempre pertenece a quien lo concibe, sino a quien logra convertir una herida íntima en consuelo universal.",
+      "text": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto es la victoria definitiva de la dignidad humana.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-01.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-01.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-02.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-02.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-03.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-03.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-04.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-04.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-05.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-05.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-06.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-06.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-07.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-07.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-08.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-08.png"
     },
     {
-      "src": "videos/natalie-imbruglia-torn-acordes-ocultos/scene-09.png"
+      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-09.png"
     }
   ],
   "publication": {
-    "title": "Tocaban para 50 personas en un bar mientras su canción más íntima conquistaba el planeta",
-    "description": "En 1997, una desconocida exactriz australiana llamada Natalie Imbruglia paralizó las emisoras de todo el planeta con «Torn». El video de la sudadera holgada y las paredes móviles en MTV convirtió a la canción en un fenómeno de cuatro millones de copias vendidas. El público dio por sentado que Natalie cantaba su propio dolor. Pero la realidad era infinitamente más compleja.\n\nLa canción había sido escrita en 1991 por Anne Preven y Scott Cutler en un modesto estudio londinense. Su letra —«I'm all out of faith, this is how I feel...»— nació inspirada en las vivencias de Anne junto a su padre, un psiquiatra dedicado a adolescentes en crisis severas. Antes de que Natalie la grabara, la obra ya había tenido tres vidas: se lanzó en danés en 1993, fue grabada en clave grunge pesado por la banda de sus autores (Ednaswap) en 1995 y reeditada en Noruega en 1996, pasando desapercibida.\n\nFue el productor Phil Thornalley quien le retiró la pesada distorsión grunge, le añadió guitarras acústicas luminosas y se la confió a Natalie. La paradoja fue demoledora: mientras el tema sonaba en cada rincón del mundo, Ednaswap recorría Estados Unidos en una furgoneta rota tocando en bares semivacíos ante 50 personas. Anne Preven admitió la agridulce lección: salvarse financieramente gracias a las regalías de una canción que el mundo jamás le reconocería como propia.\n\n¿Sabías que este clásico noventero era en realidad un tema de grunge incomprendido?\n\nLa crónica documental completa y los archivos históricos están en el enlace del perfil.\n\n#NatalieImbruglia #Torn #Ednaswap #AnnePreven #Pop90s #RockDeLos90 #AcordesOcultos #HistoriaDeLaMusica"
+    "title": "De la celda y el repudio social a componer el mayor himno de dignidad del pop latino",
+    "description": "En 2006, las pistas de baile de todo el mundo hispanohablante estallaron con «Todos me miran». El público asumió que era una fiesta desbordada de vanidad y discoteca. Pero detrás de su ritmo implacable se escondía una historia de supervivencia desgarradora.\n\nTras ser absuelta y liberada en septiembre de 2004 después de casi cinco años de prisión, Gloria Trevi enfrentaba un juicio social feroz. La industria la daba por sepultada. En medio de ese aislamiento, un joven amigo cercano se derrumbó ante ella: su padre ultraconservador lo había golpeado y arrojado a la calle tras confesar su orientación sexual. Aquel muchacho le confesó que su único refugio para no quitarse la vida era vestirse de reina y bailar los fines de semana en un club, sintiéndose bello y poderoso por unas horas.\n\nGloria reconoció en el llanto de su amigo su propio calvario de linchamiento público. En un avión rumbo a México, escribió los versos de un tirón. En el estudio, el productor Armando Ávila vistió la letra con sintetizadores combativos. La canción no solo resucitó la carrera de Gloria Trevi, sino que se convirtió en el escudo sagrado de la comunidad LGBTQ+ y de cualquiera que haya tenido que reconstruirse desde las cenizas.\n\n¿En qué momento de tu vida esta canción te devolvió la fuerza para seguir adelante?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#GloriaTrevi #TodosMeMiran #PopLatino #MusicaLatina #OrgulloLGBT #Resiliencia #AcordesOcultos #HistoriaDeLaMusica"
   }
 }
