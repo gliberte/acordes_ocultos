@@ -74,10 +74,13 @@ export const POST: APIRoute = async ({ request, cookies }) => {
     if (matchIdx >= 0) {
       matchedStory = catalog[matchIdx];
       catalog[matchIdx].instagramUrl = cleanReelUrl || null;
-      catalog[matchIdx].igPublishedAt = cleanReelUrl ? (catalog[matchIdx].igPublishedAt || now) : null;
-      catalog[matchIdx].isLatestReel = Boolean(cleanReelUrl);
+      catalog[matchIdx].igPublishedAt = cleanReelUrl ? now : null;
       if (cleanReelUrl) {
+        catalog[matchIdx].publishedAt = now;
+        catalog[matchIdx].isLatestReel = true;
         catalog[matchIdx].isHidden = false;
+      } else {
+        catalog[matchIdx].isLatestReel = false;
       }
     } else {
       // If not in current R2 catalog, try to find in fallback or create new entry

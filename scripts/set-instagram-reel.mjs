@@ -66,7 +66,8 @@ async function run() {
         targetSlug = catalog[idx].slug;
 
         catalog[idx].instagramUrl = reelUrl;
-        catalog[idx].igPublishedAt = catalog[idx].igPublishedAt || now;
+        catalog[idx].igPublishedAt = now;
+        catalog[idx].publishedAt = now;
         catalog[idx].isLatestReel = true;
         catalog[idx].isHidden = false;
 

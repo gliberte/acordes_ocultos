@@ -409,7 +409,15 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'natalie-imbruglia-torn': 'natalie-imbruglia-torn-acordes-ocultos',
   'natalieimbrugliatorn': 'natalie-imbruglia-torn-acordes-ocultos',
   'natalieimbrugliatornacordesocultos': 'natalie-imbruglia-torn-acordes-ocultos',
-  'torn': 'natalie-imbruglia-torn-acordes-ocultos'
+  'torn': 'natalie-imbruglia-torn-acordes-ocultos',
+  'delaceldayelrepudiosocialacomponerelmayorhimnodedignidaddelpoplatino': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'de-la-celda-y-el-repudio-social-a-componer-el-mayor-himno-de-dignidad-del-pop-latino': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'gloria-trevi-todos-me-miran-acordes-ocultos': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'gloria-trevi-todos-me-miran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'gloriatrevitodosmemiran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'gloriatrevitodosmemiranacordesocultos': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'todos-me-miran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'todosmemiran': 'gloria-trevi-todos-me-miran-acordes-ocultos'
 };
 
 

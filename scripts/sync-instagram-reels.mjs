@@ -125,7 +125,8 @@ async function fetchLiveInstagramReels() {
       const resText = payload.result?.content?.[0]?.text;
       if (resText) {
         const parsed = JSON.parse(resText);
-        return parsed.data?.results?.[0]?.response?.data?.data || [];
+        const resObj = parsed.data?.results?.[0]?.response;
+        return resObj?.data?.data || resObj?.data_preview?.data || [];
       }
     }
   }
@@ -157,8 +158,6 @@ async function main() {
             localMatch.instagramUrl = r2Item.instagramUrl;
             r2Merged++;
           }
-          if (r2Item.igPublishedAt) localMatch.igPublishedAt = r2Item.igPublishedAt;
-          if (typeof r2Item.isLatestReel === 'boolean') localMatch.isLatestReel = r2Item.isLatestReel;
           if (typeof r2Item.isHidden === 'boolean') localMatch.isHidden = r2Item.isHidden;
           if (r2Item.views && (!localMatch.views || r2Item.views > localMatch.views)) localMatch.views = r2Item.views;
           if (r2Item.reach && (!localMatch.reach || r2Item.reach > localMatch.reach)) localMatch.reach = r2Item.reach;
@@ -194,39 +193,53 @@ async function main() {
     const isNewest = i === 0;
 
     const match = catalog.find(item => {
+      // 1. Direct shortcode / URL match (highest confidence)
+      if (item.instagramUrl) {
+        if (item.instagramUrl === ig.permalink || (ig.shortcode && item.instagramUrl.includes(ig.shortcode))) {
+          return true;
+        }
+      }
+
       const titleLower = (item.title || '').toLowerCase();
       const songLower = (item.songTitle || '').toLowerCase();
       const artistLower = (item.artist || '').toLowerCase();
 
       if (songLower && songLower.length >= 4 && captionLower.includes(songLower)) return true;
-      if (artistLower && artistLower.length >= 4 && captionLower.includes(artistLower)) {
-        // Also check at least one significant word from title or slug
-        const words = (item.title || '').toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length >= 5);
-        if (words.some(w => captionLower.includes(w))) return true;
+      if (artistLower && artistLower.length >= 4) {
+        const artistParts = artistLower.split(/&|,|\/| y /).map(p => p.trim()).filter(p => p.length >= 4);
+        if (captionLower.includes(artistLower) || artistParts.some(p => captionLower.includes(p))) {
+          const words = (item.title || '').toLowerCase().split(/[^a-z0-9]+/).filter(w => w.length >= 5);
+          if (words.length === 0 || words.some(w => captionLower.includes(w))) return true;
+        }
       }
       return false;
     });
 
     if (match) {
-      const changed = match.instagramUrl !== ig.permalink || match.isLatestReel !== isNewest;
+      const changed = match.instagramUrl !== ig.permalink ||
+                      match.igPublishedAt !== ig.timestamp ||
+                      match.publishedAt !== ig.timestamp ||
+                      match.isLatestReel !== isNewest ||
+                      match.isHidden;
       if (changed) {
         match.instagramUrl = ig.permalink;
         match.igPublishedAt = ig.timestamp;
+        match.publishedAt = ig.timestamp;
         match.isLatestReel = isNewest;
         match.isHidden = false;
         matchedCount++;
-        console.log(`✅ [VINCULADO] "${match.title}" (${match.artist})`);
+        console.log(`✅ [VINCULADO/ACTUALIZADO] "${match.title}" (${match.artist})`);
         console.log(`   URL: ${ig.permalink} | Fecha: ${ig.timestamp}${isNewest ? ' [⚡ ÚLTIMO REEL]' : ''}`);
       }
     }
   }
 
   // Ensure only the single newest reel has isLatestReel = true
-  let foundLatest = false;
   for (const item of catalog) {
-    if (item.isLatestReel) {
-      if (!foundLatest) foundLatest = true;
-      else item.isLatestReel = false;
+    if (newestItem && (item.instagramUrl === newestItem.permalink || (newestItem.shortcode && item.instagramUrl?.includes(newestItem.shortcode)))) {
+      item.isLatestReel = true;
+    } else {
+      item.isLatestReel = false;
     }
   }
 
