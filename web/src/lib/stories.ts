@@ -401,7 +401,15 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'senorasenora': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
   'denissedekalafesenorasenora': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
   'denissedekalafesenorasenoraacordesocultos': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
-  'denissedekalafe': 'denisse-de-kalafe-senora-senora-acordes-ocultos'
+  'denissedekalafe': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+  'tocabanpara50personasneunbarmientras': 'natalie-imbruglia-torn-acordes-ocultos',
+  'tocabanpara50personas': 'natalie-imbruglia-torn-acordes-ocultos',
+  'tocabanpara50personasquegenerounhimno': 'natalie-imbruglia-torn-acordes-ocultos',
+  'tocaban-para-50-personas-en-un-bar-mientras-su-cancion-mas-intima-conquistaba-el-planeta': 'natalie-imbruglia-torn-acordes-ocultos',
+  'natalie-imbruglia-torn': 'natalie-imbruglia-torn-acordes-ocultos',
+  'natalieimbrugliatorn': 'natalie-imbruglia-torn-acordes-ocultos',
+  'natalieimbrugliatornacordesocultos': 'natalie-imbruglia-torn-acordes-ocultos',
+  'torn': 'natalie-imbruglia-torn-acordes-ocultos'
 };
 
 
