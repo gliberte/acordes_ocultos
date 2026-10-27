@@ -1,0 +1,150 @@
+{
+  "brand": "secret-chords",
+  "title": "The Thirty-Pound Improvisation That Changed Rock Forever",
+  "artist": "Pink Floyd",
+  "durationSeconds": 60,
+  "topic": "musical curiosity",
+  "anecdote": "On a cold Sunday evening in January 1973, 25-year-old session singer Clare Torry almost skipped Abbey Road to attend a Chuck Berry concert. Instead, she took the £30 union fee to try improvising over Richard Wright's solemn piano progression for The Dark Side of the Moon. The band gave her only one instruction: «Think about death and don't sing words». Closing her eyes, Clare channeled pure grief, ecstasy, and mortal terror across three takes. Embarrassed by her wails, she left the studio apologizing. Months later, browsing a record store, she spotted the album cover, checked the credits, and wept as she heard her voice immortalized as rock's greatest secular requiem.",
+  "hook": "She was paid a £30 Sunday rate, thought she had ruined the session and left apologizing... unaware she had recorded the most haunting vocal in rock history.",
+  "beats": [
+    "In 1973, 25-year-old Clare Torry walked into Abbey Road on a quiet Sunday with one instruction: sing about death without words.",
+    "Facing the intimidating silence of Pink Floyd in the control room, she stepped into the vocal booth terrified of failing.",
+    "Closing her eyes, she treated her voice as an instrument, unleashing a wild lament fusing agony with celestial beauty.",
+    "When the tape stopped, the band sat stunned. Convinced she had ruined the track, Clare collected her union fee and left apologizing.",
+    "Months later, browsing a record store, she spotted The Dark Side of the Moon and discovered her raw take had become an immortal requiem."
+  ],
+  "outro": "A wordless lament on the mystery of mortality that still sends shivers down our spine. What emotion washes over you when her voice breaks through?",
+  "palette": {
+    "ink": "#0c0c0e",
+    "paper": "#fbfaf7",
+    "accent": "#bf803b",
+    "glow": "#b88a44"
+  },
+  "music": {
+    "title": "The Great Gig in the Sky",
+    "artist": "Pink Floyd",
+    "src": "music/greatgig.mp3",
+    "startSecond": 0,
+    "volume": 0.50,
+    "instagram": {
+      "query": "The Great Gig in the Sky Pink Floyd",
+      "expectedTitle": "The Great Gig in the Sky",
+      "expectedArtist": "Pink Floyd",
+      "status": "manual_check_required",
+      "notes": "Select official track inside Instagram Reels when publishing."
+    }
+  },
+  "coverBg": "videos/greatgig/cover.png",
+  "coverPrompt": "A vinyl record of The Dark Side of the Moon spinning on a record player, with the iconic prism rainbow light reflecting on the glossy vinyl surface, moody 70s studio lighting, 9:16 aspect ratio",
+  "assets": [
+    {
+      "src": "videos/greatgig/scene-01.png",
+      "prompt": "A vinyl record of The Dark Side of the Moon spinning on a record player, with the iconic prism rainbow light reflecting on the glossy vinyl surface, moody 70s studio lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-02.png",
+      "prompt": "A young 25-year-old blonde British female singer (representing Clare Torry) looking nervous, entering a dim, quiet Abbey Road studio on a Sunday night, vintage 1973 gear, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-03.png",
+      "prompt": "The four members of Pink Floyd in 1973 sitting in absolute silence on a leather sofa in the control room, staring intensely, vintage studio mixers, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-04.png",
+      "prompt": "Clare Torry in the vocal booth with retro headphones, eyes closed, singing passionately with intense emotion, mouth wide open, vintage microphone, warm dramatic lighting, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-05.png",
+      "prompt": "Roger Waters and David Gilmour looking down at the floor in the studio control room, deeply moved and silent, vintage recording console, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-06.png",
+      "prompt": "A young blonde woman in 70s clothing looking shocked while holding a fresh copy of The Dark Side of the Moon vinyl inside a retro 1970s London record shop, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/greatgig/scene-07.png",
+      "prompt": "A close-up of the young woman listening to the turntable at home, tears of emotion in her eyes, smiling in absolute disbelief, warm home lighting, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/greatgig/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/greatgig/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/greatgig/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/greatgig/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/greatgig/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/greatgig/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/greatgig/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "How could one of rock's greatest vocal performances be born from a nervous improvisation paid only thirty pounds?"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "In 1973, 25-year-old Clare Torry walked into Abbey Road on a quiet Sunday with one rule: sing about death without words."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Facing the intimidating silence of Pink Floyd in the control room, she stepped into the vocal booth terrified of failing."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Closing her eyes, she treated her voice as an instrument, unleashing a wild lament fusing agony with celestial beauty."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "When the tape stopped, the band sat stunned. Convinced she had ruined the track, Clare collected her fee and left apologizing."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Months later, browsing a record store, she spotted The Dark Side of the Moon and was shocked to see her name credited."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Listening at home in tears, she realized her raw take had become an immortal requiem. Does this song give you chills too?"
+    }
+  ]
+}

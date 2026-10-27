@@ -1,0 +1,115 @@
+{
+  "brand": "secret-chords",
+  "title": "The Forbidden Anthem That Shook a Regime",
+  "artist": "Pink Floyd",
+  "durationSeconds": 60,
+  "topic": "musical curiosity",
+  "anecdote": "In late 1979, rebel music teacher Alun Renshaw defied strict school rules to smuggle 23 working-class children from Islington Green School into Britannia Row Studios. Producer Bob Ezrin layered their defiant voices singing «We don't need no education» over David Gilmour's disco-funk groove and legendary 1955 Goldtop guitar solo. Months later, in 1980, thousands of black students in South Africa marched through the dust of Soweto and Cape Town, chanting the song against racist Apartheid education. Terrified of a student uprising, the South African government declared the track a national security threat and banned it completely. Censorship couldn't silence the truth: it became a worldwide rallying cry for human freedom.",
+  "hook": "In 1979, 23 London schoolchildren sneaked into a recording studio during lunch break... creating the anthem that would make an Apartheid regime tremble.",
+  "beats": [
+    "Rebel music teacher Alun Renshaw sneaked 23 working-class schoolchildren into Britannia Row Studios during lunch break.",
+    "Their defiant voices shouting «We don't need no education» turned Roger Waters' childhood trauma into an unstoppable rallying cry.",
+    "Months later, in 1980, thousands of black students across South Africa marched against racist Apartheid education singing Pink Floyd.",
+    "From Soweto to Cape Town, the schoolyard refrain became an unarmed weapon of resistance against police batons.",
+    "Terrified of a youth uprising, the Apartheid regime declared the song a national security threat and banned it nationwide."
+  ],
+  "outro": "A rebellious school choir that proved no wall or dictatorship can silence the longing for freedom. What memory comes to mind when you hear Gilmour's solo?",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f4f1ea",
+    "accent": "#dc2626",
+    "glow": "#f59e0b"
+  },
+  "music": {
+    "title": "Another Brick in the Wall (Part 2)",
+    "artist": "Pink Floyd",
+    "src": "music/pink-floyd-another-brick-in-the-wall.mp3",
+    "startSecond": 42,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Another Brick in the Wall Pink Floyd",
+      "expectedTitle": "Another Brick in the Wall, Pt. 2",
+      "expectedArtist": "Pink Floyd",
+      "status": "manual_check_required",
+      "notes": "Select official track inside Instagram Reels when publishing."
+    }
+  },
+  "coverBg": "videos/pink-floyd-another-brick-in-the-wall/cover_eng.png",
+  "coverPrompt": "Authentic 1979 London recording studio photograph at Britannia Row Studios. Producer Bob Ezrin and sound engineers recording a group of 23 diverse British school children from Islington Green School gathered around studio microphones singing with enthusiasm, analog tape machines in background, warm 1970s studio lighting, 35mm film grain, vertical 9:16 aspect ratio",
+  "assets": [
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-01.png",
+      "prompt": "Authentic 1979 London recording studio photograph at Britannia Row Studios. Producer Bob Ezrin and sound engineers recording a group of 23 diverse British school children from Islington Green School gathered around studio microphones singing with enthusiasm, analog tape machines in background, warm 1970s studio lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-02.png",
+      "prompt": "Cinematic 1979 studio photograph of Roger Waters with long dark hair and David Gilmour playing his black Fender Stratocaster guitar inside the studio mixing room, smoke in the air, warm vintage atmosphere, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-03.png",
+      "prompt": "Historical 1980 documentary photograph of South African students during the Apartheid era school boycotts in Cape Town, large crowd of young black students marching peacefully with determined expressions through dusty streets, 35mm photojournalism film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-04.png",
+      "prompt": "Dramatic 1980 photograph of South African student protesters holding handmade protest signs with 'WE DONT NEED NO EDUCATION' written in bold letters, facing military police vehicles in the background, high contrast, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-05.png",
+      "prompt": "Macro still life of a 1980 official South African government censorship decree document with red 'BANNED / VERBODE' rubber stamp over a Pink Floyd 'The Wall' vinyl record sleeve, dark moody lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-06.png",
+      "prompt": "Epic 1980 live concert photograph of Pink Floyd performing 'The Wall' on an enormous stage with the colossal white brick wall partially constructed, giant sinister schoolmaster puppet looming in stage spotlights, 35mm film grain, vertical 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/pink-floyd-another-brick-in-the-wall/scene-07.png",
+      "prompt": "Cinematic close-up of the original 1979 'The Wall' vinyl record with the iconic white brick wall cover design and Gerald Scarfe typography spinning on a vintage turntable under warm amber lighting, 35mm film grain, vertical 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    { "start": 0,  "end": 9,  "src": "videos/pink-floyd-another-brick-in-the-wall/scene-01.png", "type": "image" },
+    { "start": 9,  "end": 18, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-02.png", "type": "image" },
+    { "start": 18, "end": 27, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-03.png", "type": "image" },
+    { "start": 27, "end": 36, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-04.png", "type": "image" },
+    { "start": 36, "end": 45, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-05.png", "type": "image" },
+    { "start": 45, "end": 54, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-06.png", "type": "image" },
+    { "start": 54, "end": 60, "src": "videos/pink-floyd-another-brick-in-the-wall/scene-07.png", "type": "image" }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "In 1979, 23 London schoolchildren sneaked into a studio during lunch break... creating an anthem that shook the world."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "Their raw choir shouting «We don't need no education» transformed Roger Waters' childhood scars into a universal battle cry."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Months later, thousands of black students in South Africa marched against racist Apartheid education chanting this song."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "From Soweto to Cape Town, Pink Floyd's lyrics echoed through dusty streets as an unarmed weapon of human dignity."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "Terrified by the student uprising, the racist Apartheid regime declared the track a national security threat and banned it."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Censorship couldn't stop the fire: the track became the band's only worldwide number one and an eternal symbol of freedom."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "A timeless anthem proving no wall or dictatorship can silence the truth. What memory comes to mind when you hear it?"
+    }
+  ]
+}

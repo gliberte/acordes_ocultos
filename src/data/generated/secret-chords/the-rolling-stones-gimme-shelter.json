@@ -1,0 +1,150 @@
+{
+  "brand": "secret-chords",
+  "title": "The Midnight Scream That Shattered the Studio",
+  "artist": "The Rolling Stones",
+  "durationSeconds": 60,
+  "topic": "musical curiosity",
+  "anecdote": "In November 1969, as the utopian dreams of the sixties drowned in Vietnam and violence, Keith Richards and Mick Jagger were finalizing Let It Bleed at Sunset Sound in Los Angeles. Realizing the apocalyptic refrain needed a female prophecy, producer Jimmy Miller called 20-year-old gospel singer Merry Clayton in the middle of the night. Arriving in pajamas, heavily pregnant, she stepped up to the microphone and poured her entire soul into screaming «Rape, murder, it's just a shot away». At the 3:02 mark, her voice cracked under unbearable emotional pressure, prompting an audible «Whoo!» from Jagger. Shortly after returning home from that harrowing session, she suffered a heartbreaking miscarriage. That scream remains the definitive, tragic epitaph of the 1960s.",
+  "hook": "Pregnant and in curlers, Merry Clayton was awakened at 2 AM to record a vocal so intense that her voice cracked... and left an irreversible tragedy behind.",
+  "beats": [
+    "In November 1969, The Rolling Stones urgently needed a female voice to complete the apocalyptic refrain of «Gimme Shelter».",
+    "Producer Jimmy Miller called 20-year-old Merry Clayton in the dead of night. Heavily pregnant, she arrived in hair curlers.",
+    "Stepping up to the microphone, she unleashed an improvised vocal storm, screaming about rape and murder as a terrifying prophecy.",
+    "On the third take, her voice cracked under immense pressure, causing Mick Jagger to let out an astonished whoop in the control room.",
+    "Tragically, upon returning home, the violent physical strain caused her to suffer a heartbreaking miscarriage."
+  ],
+  "outro": "A midnight scream that captured the terror of a crumbling world. Can you feel the chill every time her voice cracks in that studio booth?",
+  "palette": {
+    "ink": "#0b0c10",
+    "paper": "#f5f5f7",
+    "accent": "#c92a2a",
+    "glow": "#e67e22"
+  },
+  "music": {
+    "title": "Gimme Shelter",
+    "artist": "The Rolling Stones",
+    "src": "music/rolling-stones-shelter.mp3",
+    "startSecond": 0,
+    "volume": 0.55,
+    "instagram": {
+      "query": "Gimme Shelter The Rolling Stones",
+      "expectedTitle": "Gimme Shelter",
+      "expectedArtist": "The Rolling Stones",
+      "status": "manual_check_required",
+      "notes": "Select official track inside Instagram Reels when publishing."
+    }
+  },
+  "coverBg": "videos/rolling-stones-shelter/scene-01.png",
+  "coverPrompt": "Merry Clayton in a recording studio in 1969, wearing silk pajamas and hair curlers, singing passionately into a vintage microphone under dim studio lights, 9:16 aspect ratio",
+  "assets": [
+    {
+      "src": "videos/rolling-stones-shelter/scene-01.png",
+      "prompt": "Merry Clayton in a recording studio in 1969, wearing silk pajamas and hair curlers, singing passionately into a vintage microphone under dim studio lights, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-02.png",
+      "prompt": "Mick Jagger and Keith Richards standing in the control room of Sunset Sound Studios, looking through the glass window, intense 1969 look, cigarettes smoking, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-03.png",
+      "prompt": "A classic 1960s telephone ringing on a bedside table in a dimly lit bedroom, retro wallpaper, warm lamp light, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-04.png",
+      "prompt": "Close up of Merry Clayton's face, mouth open singing powerfully, closed eyes, expression of absolute emotion, vintage film grain, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-05.png",
+      "prompt": "Vintage VU meters on an analog mixing console peaking in the red zone, warm studio backing lights, dark background, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-06.png",
+      "prompt": "A single red rose lying on the wet pavement under streetlights at night, soft rain falling, moody cinematic colors, 9:16 aspect ratio"
+    },
+    {
+      "src": "videos/rolling-stones-shelter/scene-07.png",
+      "prompt": "A vintage copy of Let It Bleed vinyl album spinning on a retro turntable under warm golden lamp light, 9:16 aspect ratio"
+    }
+  ],
+  "visuals": [
+    {
+      "start": 0,
+      "end": 9,
+      "src": "videos/rolling-stones-shelter/scene-01.png",
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "src": "videos/rolling-stones-shelter/scene-02.png",
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "src": "videos/rolling-stones-shelter/scene-03.png",
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "src": "videos/rolling-stones-shelter/scene-04.png",
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "src": "videos/rolling-stones-shelter/scene-05.png",
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "src": "videos/rolling-stones-shelter/scene-06.png",
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "src": "videos/rolling-stones-shelter/scene-07.png",
+      "type": "image"
+    }
+  ],
+  "segments": [
+    {
+      "start": 0,
+      "end": 9,
+      "text": "The most harrowing vocal scream in rock history was recorded in pajamas at 2 AM... and concealed an irreversible tragedy."
+    },
+    {
+      "start": 9,
+      "end": 18,
+      "text": "In November 1969, The Rolling Stones urgently needed a female voice to complete the apocalyptic refrain of «Gimme Shelter»."
+    },
+    {
+      "start": 18,
+      "end": 27,
+      "text": "Producer Jimmy Miller called 20-year-old Merry Clayton in the dead of night. Heavily pregnant, she arrived in hair curlers."
+    },
+    {
+      "start": 27,
+      "end": 36,
+      "text": "Stepping up to the microphone, she unleashed an improvised vocal storm, screaming about rape and murder as a terrifying prophecy."
+    },
+    {
+      "start": 36,
+      "end": 45,
+      "text": "On the third take, her voice cracked under immense pressure at the word 'Murder', causing Mick Jagger to let out an astonished whoop."
+    },
+    {
+      "start": 45,
+      "end": 54,
+      "text": "Tragically, upon returning home, the violent physical strain caused her to suffer a heartbreaking miscarriage."
+    },
+    {
+      "start": 54,
+      "end": 60,
+      "text": "Her cry remains immortalized as one of the rawest moments in human music. Can you feel the chill every time her voice breaks?"
+    }
+  ]
+}
