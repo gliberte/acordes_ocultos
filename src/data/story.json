@@ -1,34 +1,34 @@
 {
-  "title": "De la celda y el repudio social a componer el mayor himno de dignidad del pop latino",
-  "artist": "Gloria Trevi",
+  "title": "Una llamada a una actriz desconocida creó la canción que salvó el honor de una banda marginada",
+  "artist": "Gladys Knight & The Pips",
   "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "gloria-trevi-todos-me-miran-acordes-ocultos",
-  "articleSlug": "gloria-trevi-todos-me-miran-acordes-ocultos",
-  "anecdote": "La verdadera historia detrás de «Todos me miran» (2006): el mayor himno de resurrección del pop latino no nació en una fiesta, sino en el llanto de un joven amigo gay expulsado y repudiado por su padre. Gloria Trevi, recién absuelta tras pasar casi cinco años en prisión y enfrentando el escarnio público, reconoció en aquel dolor su propio reflejo, componiendo en un avión la obra que redimiría a dos almas y se convertiría en el escudo de toda una comunidad.",
-  "hook": "En 2006, una pista disco arrolladora sacudió a todo el continente, pero el mundo entero creyó que se trataba de una fiesta.",
+  "slug": "gladys-knight-midnight-train-to-georgia-acordes-ocultos",
+  "articleSlug": "gladys-knight-midnight-train-to-georgia-acordes-ocultos",
+  "anecdote": "La insólita génesis detrás de «Midnight Train to Georgia» (1973): el clásico supremo del soul no nació en el sur de Estados Unidos, sino en una llamada telefónica casual entre el compositor Jim Weatherly y una jovencísima Farrah Fawcett que viajaba en un avión de medianoche a Houston. Cuando Cissy Houston (madre de Whitney) cambió el avión por un tren y Gladys Knight transformó la obra en su revancha tras ser marginada por Motown, la pieza se convirtió en uno de los números uno más conmovedores de la historia.",
+  "hook": "En 1973, una balada soul paralizó al mundo, pero su origen se ocultaba en una llamada casual a una futura estrella de Hollywood.",
   "beats": [
-    "Millones de personas bailaron creyendo que «Todos me miran» era una simple celebración de vanidad o discoteca.",
-    "En realidad, Gloria Trevi acababa de salir absuelta de prisión tras casi cinco años, enfrentando el linchamiento moral de la prensa.",
-    "La inspiración nació cuando un amigo cercano le confesó que su padre lo había golpeado y expulsado de casa por su orientación sexual.",
-    "Aquel joven le contó que su única salvación para no morir de pena era vestirse de reina y bailar los fines de semana en un club.",
-    "Gloria reconoció en el dolor de su amigo su propia herida de rechazo y escribió los versos de un tirón durante un vuelo de avión.",
-    "El productor Armando Ávila vistió la letra con sintetizadores fulgurantes y guiños al espíritu combativo de Gloria Gaynor.",
-    "La canción se convirtió en el número uno absoluto y en el estandarte eterno de dignidad y resiliencia para la comunidad LGBTQ+."
+    "Millones corearon el viaje en tren a Georgia sin sospechar que el tema original hablaba de un avión a Texas.",
+    "El compositor Jim Weatherly llamó a su amigo Lee Majors y fue atendido por su novia: una desconocida Farrah Fawcett.",
+    "Farrah le contó que empacaba para tomar el vuelo nocturno a Houston, inspirando la letra en cuarenta y cinco minutos.",
+    "Cissy Houston, madre de Whitney, grabó la primera versión soul corrigiendo el transporte: su gente sureña viajaba en tren.",
+    "Gladys Knight y The Pips llevaban años siendo relegados en Motown detrás de Diana Ross y The Supremes.",
+    "Tras romper con el sello, Gladys escuchó la historia del sueño roto en Los Ángeles y la convirtió en su revancha artística.",
+    "El sencillo conquistó el número uno de Billboard y el premio Grammy, inmortalizando el poder de la lealtad y las raíces."
   ],
-  "outro": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto no es solo rebeldía: es la victoria definitiva de la dignidad humana.",
+  "outro": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
   "palette": {
-    "ink": "#0a0512",
-    "paper": "#f5edf8",
-    "accent": "#d9147a",
-    "glow": "#fcd8ef"
+    "ink": "#0d0b09",
+    "paper": "#f7f3ea",
+    "accent": "#c5832b",
+    "glow": "#fdeccd"
   },
   "music": {
-    "title": "Todos me miran",
-    "artist": "Gloria Trevi",
-    "src": "music/gloria-trevi-todos-me-miran.mp3",
-    "file": "music/gloria-trevi-todos-me-miran.mp3",
+    "title": "Midnight Train to Georgia",
+    "artist": "Gladys Knight & The Pips",
+    "src": "music/gladys-knight-midnight-train-to-georgia.mp3",
+    "file": "music/gladys-knight-midnight-train-to-georgia.mp3",
     "volume": 0.9,
     "startSecond": 0
   },
@@ -37,153 +37,153 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En 2006, un ritmo arrollador sacudió a millones de personas. Muchos creyeron que celebraba vanidad, pero ocultaba un rescate desgarrador.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-01.png"
+      "text": "En 1973, una balada soul conmovió al planeta. Millones cantaron su viaje en tren, ignorando la llamada casual que lo inició todo.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "Tras casi cinco años de encierro, Gloria Trevi fue absuelta. Sin embargo, la prensa y la sociedad la daban por acabada.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-02.png"
+      "text": "En 1970, el compositor Jim Weatherly llamó a su amigo Lee Majors. Al teléfono respondió su novia: una desconocida joven llamada Farrah Fawcett.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "En ese momento de soledad, un joven amigo se quebró ante ella: su padre ultraconservador lo había golpeado y expulsado de casa.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-03.png"
+      "text": "Farrah le comentó que empacaba sus maletas para tomar el avión nocturno a Houston. Esa frase bastó para escribir la canción en minutos.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "El muchacho le confesó que su único refugio era escapar de noche a una discoteca, vestirse de reina y bailar para sobrevivir.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-04.png"
+      "text": "La maqueta llegó a Cissy Houston, madre de Whitney, quien sentenció con orgullo: «Mi gente viaja en tren y volvemos siempre a Georgia».",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Gloria sintió en carne propia el desamparo de su amigo. En un avión, tomó lápiz y papel para transformar esa herida compartida.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-05.png"
+      "text": "Mientras tanto, Gladys Knight y The Pips sufrían el desdén en Motown, donde Berry Gordy siempre priorizó la carrera de Diana Ross.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Junto al productor Armando Ávila, vistieron los versos con sintetizadores fulgurantes e impregnaron la melodía del espíritu combativo de Gloria Gaynor.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-06.png"
+      "text": "En 1973 rompieron con el sello. Gladys escuchó la historia del hombre derrotado por Los Ángeles y decidió convertirla en su estandarte personal.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "El estreno paralizó emisoras en México, Estados Unidos y España. La canción que nació en la exclusión dominó las listas globales.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-07.png"
+      "text": "En el estudio, The Pips crearon sus célebres respuestas vocales imitando el silbido del tren y los giros sincronizados que maravillaron al mundo.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Aquella plegaria se transformó en el estandarte eterno de la comunidad LGBTQ+, demostrando que el orgullo desarma cualquier intento de humillación.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-08.png"
+      "text": "La grabación alcanzó el número uno en las listas mundiales y conquistó el Grammy, consagrando la revancha más dulce del soul clásico.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto es la victoria definitiva de la dignidad humana.",
-      "asset": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-09.png"
+      "text": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
+      "asset": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-09.png"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En 2006, un ritmo arrollador sacudió a millones de personas. Muchos creyeron que celebraba vanidad, pero ocultaba un rescate desgarrador.",
+      "text": "En 1973, una balada soul conmovió al planeta. Millones cantaron su viaje en tren, ignorando la llamada casual que lo inició todo.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "Tras casi cinco años de encierro, Gloria Trevi fue absuelta. Sin embargo, la prensa y la sociedad la daban por acabada.",
+      "text": "En 1970, el compositor Jim Weatherly llamó a su amigo Lee Majors. Al teléfono respondió su novia: una desconocida joven llamada Farrah Fawcett.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "En ese momento de soledad, un joven amigo se quebró ante ella: su padre ultraconservador lo había golpeado y expulsado de casa.",
+      "text": "Farrah le comentó que empacaba sus maletas para tomar el avión nocturno a Houston. Esa frase bastó para escribir la canción en minutos.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "El muchacho le confesó que su único refugio era escapar de noche a una discoteca, vestirse de reina y bailar para sobrevivir.",
+      "text": "La maqueta llegó a Cissy Houston, madre de Whitney, quien sentenció con orgullo: «Mi gente viaja en tren y volvemos siempre a Georgia».",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "Gloria sintió en carne propia el desamparo de su amigo. En un avión, tomó lápiz y papel para transformar esa herida compartida.",
+      "text": "Mientras tanto, Gladys Knight y The Pips sufrían el desdén en Motown, donde Berry Gordy siempre priorizó la carrera de Diana Ross.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Junto al productor Armando Ávila, vistieron los versos con sintetizadores fulgurantes e impregnaron la melodía del espíritu combativo de Gloria Gaynor.",
+      "text": "En 1973 rompieron con el sello. Gladys escuchó la historia del hombre derrotado por Los Ángeles y decidió convertirla en su estandarte personal.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "El estreno paralizó emisoras en México, Estados Unidos y España. La canción que nació en la exclusión dominó las listas globales.",
+      "text": "En el estudio, The Pips crearon sus célebres respuestas vocales imitando el silbido del tren y los giros sincronizados que maravillaron al mundo.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Aquella plegaria se transformó en el estandarte eterno de la comunidad LGBTQ+, demostrando que el orgullo desarma cualquier intento de humillación.",
+      "text": "La grabación alcanzó el número uno en las listas mundiales y conquistó el Grammy, consagrando la revancha más dulce del soul clásico.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Cuando el mundo te empuja a la sombra, levantarse con la frente en alto es la victoria definitiva de la dignidad humana.",
+      "text": "Hay derrotas que valen más que todas las luces del estrellato, porque el verdadero triunfo nunca estuvo en la fama, sino en volver con quien amas.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-01.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-01.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-02.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-02.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-03.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-03.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-04.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-04.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-05.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-05.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-06.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-06.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-07.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-07.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-08.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-08.png"
     },
     {
-      "src": "videos/gloria-trevi-todos-me-miran-acordes-ocultos/scene-09.png"
+      "src": "videos/gladys-knight-midnight-train-to-georgia-acordes-ocultos/scene-09.png"
     }
   ],
   "publication": {
-    "title": "De la celda y el repudio social a componer el mayor himno de dignidad del pop latino",
-    "description": "En 2006, las pistas de baile de todo el mundo hispanohablante estallaron con «Todos me miran». El público asumió que era una fiesta desbordada de vanidad y discoteca. Pero detrás de su ritmo implacable se escondía una historia de supervivencia desgarradora.\n\nTras ser absuelta y liberada en septiembre de 2004 después de casi cinco años de prisión, Gloria Trevi enfrentaba un juicio social feroz. La industria la daba por sepultada. En medio de ese aislamiento, un joven amigo cercano se derrumbó ante ella: su padre ultraconservador lo había golpeado y arrojado a la calle tras confesar su orientación sexual. Aquel muchacho le confesó que su único refugio para no quitarse la vida era vestirse de reina y bailar los fines de semana en un club, sintiéndose bello y poderoso por unas horas.\n\nGloria reconoció en el llanto de su amigo su propio calvario de linchamiento público. En un avión rumbo a México, escribió los versos de un tirón. En el estudio, el productor Armando Ávila vistió la letra con sintetizadores combativos. La canción no solo resucitó la carrera de Gloria Trevi, sino que se convirtió en el escudo sagrado de la comunidad LGBTQ+ y de cualquiera que haya tenido que reconstruirse desde las cenizas.\n\n¿En qué momento de tu vida esta canción te devolvió la fuerza para seguir adelante?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#GloriaTrevi #TodosMeMiran #PopLatino #MusicaLatina #OrgulloLGBT #Resiliencia #AcordesOcultos #HistoriaDeLaMusica"
+    "title": "Una llamada a una actriz desconocida creó la canción que salvó el honor de una banda marginada",
+    "description": "En 1973, Gladys Knight & The Pips paralizaron al mundo con «Midnight Train to Georgia». Pero detrás de aquel estribillo majestuoso se escondía una carambola insólita de la historia de la música.\n\nTodo comenzó en 1970 cuando el compositor Jim Weatherly llamó a su amigo el actor Lee Majors. El actor no estaba y atendió su novia: una desconocida aspirante a modelo de 23 años llamada Farrah Fawcett. Farrah le dijo que hacía las maletas para tomar el «avión de medianoche a Houston». Weatherly colgó y en 45 minutos escribió una balada sobre un soñador que fracasaba en Los Ángeles y regresaba derrotado a su tierra natal.\n\nDos años después, la maqueta llegó a manos de Cissy Houston (madre de Whitney), quien corrigió el tema con orgullo: «Mi gente no viaja en avión sino en tren, y volvemos a Georgia». Pero la obra maestra definitiva llegó en 1973, cuando Gladys Knight & The Pips —tras años de desaires y marginación en Motown a la sombra de Diana Ross— rompieron sus contratos y grabaron la canción. Con los coros responsoriales imitando el silbido del tren, el tema trepó al número uno global y ganó el Grammy, demostrando que ninguna maquinaria discográfica puede apagar a quien canta desde la verdad.\n\n¿Conocías la historia de esta joya eterna del soul?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#GladysKnight #ThePips #MidnightTrainToGeorgia #FarrahFawcett #SoulMusic #Motown #AcordesOcultos #HistoriaDeLaMusica"
   }
 }
