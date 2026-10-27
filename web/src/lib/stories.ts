@@ -417,7 +417,15 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'gloriatrevitodosmemiran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
   'gloriatrevitodosmemiranacordesocultos': 'gloria-trevi-todos-me-miran-acordes-ocultos',
   'todos-me-miran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
-  'todosmemiran': 'gloria-trevi-todos-me-miran-acordes-ocultos'
+  'todosmemiran': 'gloria-trevi-todos-me-miran-acordes-ocultos',
+  'unallamadaaunaactrizdesconocidacreolacancionquesalvoelhonordeunabandamarginada': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'una-llamada-a-una-actriz-desconocida-creo-la-cancion-que-salvo-el-honor-de-una-banda-marginada': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'gladys-knight-midnight-train-to-georgia-acordes-ocultos': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'gladys-knight-midnight-train-to-georgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'gladysknightmidnighttraintogeorgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'gladysknightmidnighttraintogeorgiaacordesocultos': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'midnight-train-to-georgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos',
+  'midnighttraintogeorgia': 'gladys-knight-midnight-train-to-georgia-acordes-ocultos'
 };
 
 
