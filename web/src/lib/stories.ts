@@ -640,7 +640,13 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           'de-perder-a-su-madre-a-los-5-anos-a-provocar-el-mayor-boicot-mundial-de-los-anos-80': 'madonna-like-a-prayer-acordes-ocultos',
           'likeaprayer': 'madonna-like-a-prayer-acordes-ocultos',
           'madonnalikeaprayer': 'madonna-like-a-prayer-acordes-ocultos',
-          'madonnalikeaprayeracordesocultos': 'madonna-like-a-prayer-acordes-ocultos'
+          'madonnalikeaprayeracordesocultos': 'madonna-like-a-prayer-acordes-ocultos',
+          'lallamadaabrasilqueinspiroelhimnodelasmadresenunabolsadepan': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+          'la-llamada-a-brasil-que-inspiro-el-himno-de-las-madres-en-una-bolsa-de-pan': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+          'senorasenora': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+          'denissedekalafesenorasenora': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+          'denissedekalafesenorasenoraacordesocultos': 'denisse-de-kalafe-senora-senora-acordes-ocultos',
+          'denissedekalafe': 'denisse-de-kalafe-senora-senora-acordes-ocultos'
         };
 
         const itemSlugClean = item.slug.replace(/[^a-z0-9]/g, '');
