@@ -10,11 +10,14 @@ const { stories } = Astro.props;
 // Filter only stories that have a valid promotional poster / story teaser
 const promoStories = (stories || [])
   .filter(s => Boolean(s.promoPosterUrl))
-  // Pin custom promotional posters (like Amy Winehouse and Jeff Wayne) first, then others
+  // Pin custom promotional posters (high-impact editorial story posters) first, sorted chronologically
   .sort((a, b) => {
     const isCustomA = a.promoPosterUrl?.includes('story_promo') ? 1 : 0;
     const isCustomB = b.promoPosterUrl?.includes('story_promo') ? 1 : 0;
     if (isCustomA !== isCustomB) return isCustomB - isCustomA;
+    const timeA = new Date(a.igPublishedAt || a.publishedAt || 0).getTime() || 0;
+    const timeB = new Date(b.igPublishedAt || b.publishedAt || 0).getTime() || 0;
+    if (timeB !== timeA) return timeB - timeA;
     return (b.views || 0) - (a.views || 0);
   });
 
