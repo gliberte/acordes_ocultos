@@ -32,6 +32,8 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'la-despedida-de-un-astronauta-que-la-television-no-se-atrevio-a-emitir': 'david-bowie-space-oddity-acordes-ocultos',
+  'ladespedidadeunastronautaquelatelevisionnoseatrevioaemitir': 'david-bowie-space-oddity-acordes-ocultos',
   'el-amor-que-llegaba-sin-firma': 'cecilia-un-ramito-de-violetas-historia-en-los-acordes',
   'elamorquellegabasinfirma': 'cecilia-un-ramito-de-violetas-historia-en-los-acordes',
   'elsecretodelascensorlavenganzadesimongarfunkel': 'simon-and-garfunkel-the-boxer',
@@ -816,7 +818,11 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   // Filter out hidden stories unless explicitly requested (e.g. from admin panel).
   // Public catalog strictly requires an associated Instagram Reel (zero spoilers, only officially released content)
   if (!options.includeHidden) {
-    items = items.filter(item => !item.isHidden && Boolean(item.instagramUrl));
+    items = items.filter(item => {
+      if (item.isHidden) return false;
+      const url = typeof item.instagramUrl === 'string' ? item.instagramUrl.trim() : '';
+      return url.length > 0 && (url.includes('instagram.com/reel/') || url.includes('instagram.com/p/'));
+    });
   }
 
   // Sort chronologically:

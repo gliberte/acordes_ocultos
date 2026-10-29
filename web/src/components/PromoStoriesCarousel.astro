@@ -7,9 +7,13 @@ interface Props {
 
 const { stories } = Astro.props;
 
-// Filter only stories that have a valid promotional poster / story teaser
+// Filter only stories that have a valid promotional poster / story teaser AND an official Instagram Reel
 const promoStories = (stories || [])
-  .filter(s => Boolean(s.promoPosterUrl))
+  .filter(s => {
+    if (!s.promoPosterUrl || s.isHidden) return false;
+    const url = typeof s.instagramUrl === 'string' ? s.instagramUrl.trim() : '';
+    return url.length > 0 && (url.includes('instagram.com/reel/') || url.includes('instagram.com/p/'));
+  })
   // Pin custom promotional posters (high-impact editorial story posters) first, sorted chronologically
   .sort((a, b) => {
     const isCustomA = a.promoPosterUrl?.includes('story_promo') ? 1 : 0;
