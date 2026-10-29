@@ -32,6 +32,8 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'escribio-la-cancion-mas-hermosa-sobre-vivir-cuando-ya-habia-decidido-marcharse': 'violeta-parra-gracias-a-la-vida-acordes-ocultos',
+  'escribiolacancionmashermosasobrevivircuandoyahabiadecididomarcharse': 'violeta-parra-gracias-a-la-vida-acordes-ocultos',
   'la-despedida-de-un-astronauta-que-la-television-no-se-atrevio-a-emitir': 'david-bowie-space-oddity-acordes-ocultos',
   'ladespedidadeunastronautaquelatelevisionnoseatrevioaemitir': 'david-bowie-space-oddity-acordes-ocultos',
   'el-amor-que-llegaba-sin-firma': 'cecilia-un-ramito-de-violetas-historia-en-los-acordes',
