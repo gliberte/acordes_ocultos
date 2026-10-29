@@ -1,199 +1,199 @@
 {
-  "title": "Tuvo la voz más perfecta de un continente, pero su mayor batalla fue sobrevivir a su propia fragilidad",
-  "artist": "José José",
-  "topic": "catedrales-de-leyenda",
+  "title": "La despedida de un astronauta que la televisión no se atrevió a emitir",
+  "artist": "David Bowie",
+  "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "jose-jose-lo-pasado-pasado-catedrales-de-leyenda",
-  "articleSlug": "jose-jose-lo-pasado-pasado-catedrales-de-leyenda",
-  "anecdote": "La monumental trayectoria de José Rómulo Sosa Ortiz, «El Príncipe de la Canción»: desde sus humildes serenatas juveniles en Clavería y el terremoto del Festival OTI de 1970 con «El Triste», hasta su pacto de hermandad con Juan Gabriel en «Lo Pasado, Pasado», el récord histórico de 11 millones de copias con «Secretos» y su dolorosa pero conmovedora batalla por cantar incluso cuando su salud colapsó. Una catedral viva que definió la memoria sentimental de Hispanoamérica.",
-  "hook": "Tuvo la voz más perfecta de América Latina, pero su mayor batalla fue sobrevivir a su propia fragilidad.",
+  "slug": "david-bowie-space-oddity-acordes-ocultos",
+  "articleSlug": "david-bowie-space-oddity-acordes-ocultos",
+  "anecdote": "En julio de 1969, durante el alunizaje del Apolo 11, la BBC utilizó «Space Oddity» como música de fondo de la retransmisión oficial. Pero al desentrañar la letra y percatarse de que el astronauta Major Tom quedaba a la deriva para morir en el espacio, la cadena británica prohibió y congeló de inmediato la emisión del tema por miedo a que profetizara una tragedia en vivo. David Bowie no había compuesto una fantasía tecnológica, sino el testimonio desgarrador de su propia soledad terrenal.",
+  "hook": "En julio de 1969, la televisión británica eligió una canción para musicalizar la llegada a la Luna, pero a mitad de la transmisión ordenó censurarla de inmediato.",
   "beats": [
-    "En el barrio de Clavería, un joven humilde cantaba serenatas nocturnas desafiando la sombra de su padre.",
-    "En 1970 asombró a México con «El Triste» en el OTI: el jurado lo relegó, pero el pueblo lo coronó rey.",
-    "Durante los años setenta, su fraseo prodigioso lo consagró como «El Príncipe de la Canción».",
-    "En 1978, Juan Gabriel le entregó «Lo Pasado, Pasado», sellando un himno imperecedero de redención.",
-    "En 1983 alcanzó la cumbre con «Secretos», el álbum más vendido en la historia de la música mexicana.",
-    "En los años noventa tocó el fondo del dolor y los excesos, hasta ser rescatado por sus amigos más leales.",
-    "Renació con hidalguía, pero graves dolencias y el reflujo castigaron su prodigiosa garganta.",
-    "En 2019, México despidió a su ídolo con honores en Bellas Artes entre un coro multitudinario de llanto y flores.",
-    "Su cuerpo descansa en paz, pero su voz vive eternamente en el corazón y la memoria de un continente."
+    "La BBC programó «Space Oddity» nueve días antes del despegue del Apolo 11 creyendo que era una celebración de la era espacial.",
+    "En realidad, David Bowie, quebrado emocionalmente tras una ruptura amorosa, había escrito una oda al aislamiento humano.",
+    "El astronauta Major Tom perdía la comunicación y elegía quedarse flotando en el vacío cósmico.",
+    "Aterrada de que la misión de la NASA fracasara en directo, la BBC vetó la canción hasta que la tripulación regresó sana y salva a la Tierra.",
+    "El tema se convirtió en el primer gran éxito de Bowie, quien descubrió que su herida personal era el himno de millones de solitarios."
   ],
-  "outro": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
+  "outro": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
   "palette": {
-    "ink": "#0a0908",
-    "paper": "#fbf8f1",
-    "accent": "#c59b27",
-    "glow": "#fde68a"
+    "ink": "#0a0c16",
+    "paper": "#d4d8e2",
+    "accent": "#4a90e2",
+    "glow": "#c0d6f5"
   },
   "music": {
-    "title": "Lo Pasado, Pasado",
-    "artist": "José José",
-    "src": "music/jose-jose-lo-pasado-pasado.mp3",
-    "file": "music/jose-jose-lo-pasado-pasado.mp3",
-    "volume": 0.85,
+    "title": "Space Oddity",
+    "artist": "David Bowie",
+    "src": "music/david-bowie-space-oddity.mp3",
+    "file": "music/david-bowie-space-oddity.mp3",
     "startSecond": 0,
+    "volume": 0.55,
     "instagram": {
-      "query": "Lo Pasado Pasado Jose Jose",
-      "expectedTitle": "Lo Pasado, Pasado",
-      "expectedArtist": "José José",
+      "query": "David Bowie Space Oddity",
+      "expectedTitle": "Space Oddity",
+      "expectedArtist": "David Bowie",
       "status": "manual_check_required",
-      "notes": "Seleccionar la pista oficial de Lo Pasado, Pasado (1978) de José José en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Space Oddity (1969) de David Bowie en Instagram Reels."
     }
   },
-  "coverBg": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/cover_bg.png",
+  "cover": {
+    "background": "videos/david-bowie-space-oddity-acordes-ocultos/cover_bg.png",
+    "title": "SPACE ODDITY",
+    "artist": "DAVID BOWIE"
+  },
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En el barrio obrero de Clavería, un muchacho humilde cantaba serenatas nocturnas, desafiando en silencio la estricta prohibición de su padre.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-01.png"
+      "text": "En julio de mil novecientos sesenta y nueve, mientras el planeta contenía el aliento ante el inminente despegue del Apolo once hacia la Luna...",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-01.png"
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "En 1970 paralizó al país en el Festival OTI con «El Triste». Aunque el jurado lo relegó, el público lo coronó rey absoluto.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-02.png"
+      "text": "...un joven David Bowie de veintidós años intentaba sanar en silencio la dolorosa ruptura con el gran amor de su juventud.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-02.png"
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Durante los años setenta, su fraseo impecable y su capacidad pulmonar sin límites lo consagraron como «El Príncipe de la Canción» en toda América.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-03.png"
+      "text": "Fascinado por el cine de Kubrick, no imaginó un himno patriótico, sino la íntima soledad de un hombre desconectado de todo.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-03.png"
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "En 1978, su amigo entrañable Juan Gabriel le regaló «Lo Pasado, Pasado», convirtiendo su propia lucha contra el dolor en un himno de redención.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-04.png"
+      "text": "Su productor habitual se negó a grabarla por considerarla oportunista, obligándolo a refugiarse en un estudio prestado con un sintetizador de juguete.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-04.png"
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "En 1983 conquistó el mundo con «Secretos», el disco más vendido de México con once millones de copias y llenos épicos en Nueva York.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-05.png"
+      "text": "El sencillo se editó contrarreloj apenas nueve días antes del despegue, siendo elegido por la televisión británica para musicalizar la hazaña histórica.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-05.png"
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "En los noventa, el dolor y las adicciones lo llevaron al fondo, durmiendo en un taxi abandonado hasta que sus amigos acudieron a rescatarlo.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-06.png"
+      "text": "Pero al desentrañar la letra, los directores de la cadena entraron en pánico: el astronauta perdía el control para perderse en el vacío.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-06.png"
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Renació sobrio y enamorado, pero las enfermedades y el reflujo dañaron su garganta. Aun sin voz, continuó subiendo al escenario por amor a su gente.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-07.png"
+      "text": "Aterrados de que el tema profetizara una muerte en directo, prohibieron emitirlo hasta que la tripulación pisó tierra sana y salva.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-07.png"
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "En 2019, México despidió a su ídolo con honores en Bellas Artes, mientras miles de personas entonaban sus baladas entre lágrimas en las calles.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-08.png"
+      "text": "Con el regreso de la nave, la canción se convirtió en su primer gran triunfo, aunque él seguía tan aislado como su protagonista.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-08.png"
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
-      "asset": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-09.png"
+      "text": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
+      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-09.png"
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En el barrio obrero de Clavería, un muchacho humilde cantaba serenatas nocturnas, desafiando en silencio la estricta prohibición de su padre.",
+      "text": "En julio de mil novecientos sesenta y nueve, mientras el planeta contenía el aliento ante el inminente despegue del Apolo once hacia la Luna...",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "En 1970 paralizó al país en el Festival OTI con «El Triste». Aunque el jurado lo relegó, el público lo coronó rey absoluto.",
+      "text": "...un joven David Bowie de veintidós años intentaba sanar en silencio la dolorosa ruptura con el gran amor de su juventud.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Durante los años setenta, su fraseo impecable y su capacidad pulmonar sin límites lo consagraron como «El Príncipe de la Canción» en toda América.",
+      "text": "Fascinado por el cine de Kubrick, no imaginó un himno patriótico, sino la íntima soledad de un hombre desconectado de todo.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "En 1978, su amigo entrañable Juan Gabriel le regaló «Lo Pasado, Pasado», convirtiendo su propia lucha contra el dolor en un himno de redención.",
+      "text": "Su productor habitual se negó a grabarla por considerarla oportunista, obligándolo a refugiarse en un estudio prestado con un sintetizador de juguete.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "En 1983 conquistó el mundo con «Secretos», el disco más vendido de México con once millones de copias y llenos épicos en Nueva York.",
+      "text": "El sencillo se editó contrarreloj apenas nueve días antes del despegue, siendo elegido por la televisión británica para musicalizar la hazaña histórica.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "En los noventa, el dolor y las adicciones lo llevaron al fondo, durmiendo en un taxi abandonado hasta que sus amigos acudieron a rescatarlo.",
+      "text": "Pero al desentrañar la letra, los directores de la cadena entraron en pánico: el astronauta perdía el control para perderse en el vacío.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Renació sobrio y enamorado, pero las enfermedades y el reflujo dañaron su garganta. Aun sin voz, continuó subiendo al escenario por amor a su gente.",
+      "text": "Aterrados de que el tema profetizara una muerte en directo, prohibieron emitirlo hasta que la tripulación pisó tierra sana y salva.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "En 2019, México despidió a su ídolo con honores en Bellas Artes, mientras miles de personas entonaban sus baladas entre lágrimas en las calles.",
+      "text": "Con el regreso de la nave, la canción se convirtió en su primer gran triunfo, aunque él seguía tan aislado como su protagonista.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay almas cuya fragilidad fue tan honda como su grandeza; su cuerpo descansa, pero su voz vive eternamente en el corazón de un continente.",
+      "text": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-01.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-01.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-02.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-02.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-03.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-03.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-04.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-04.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-05.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-05.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-06.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-06.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-07.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-07.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-08.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-08.png"
     },
     {
-      "src": "videos/jose-jose-lo-pasado-pasado-catedrales-de-leyenda/scene-09.png"
+      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-09.png"
     }
   ],
   "publication": {
-    "title": "Tuvo la voz más perfecta de un continente, pero su mayor batalla fue sobrevivir a su propia fragilidad",
-    "description": "Tuvo la voz más perfecta de América Latina, pero su mayor batalla fue sobrevivir a su propia fragilidad. Esta es la odisea de José José, El Príncipe de la Canción.\n\nDe ganarse el sustento cantando en serenatas nocturnas por Azcapotzalco a conmocionar al continente en aquel mítico Festival OTI de 1970. Aquella noche, Marco Antonio Muñiz y el público arrojaron claveles al escenario mientras el jurado le negaba el primer lugar. No importó: México ya lo había coronado monarca eterno de la balada.\n\nAños después, su hermano del alma Juan Gabriel le entregó en una noche bohemia «Lo Pasado, Pasado», el himno que selló su renacimiento. Llegaría el récord histórico de 'Secretos' con más de 11 millones de copias vendidas, las noches triunfales en el Madison Square Garden y, más tarde, el abismo de las adicciones, la pérdida de su garganta y el dolor físico. Pero incluso cuando la voz se quebró, el amor incondicional del público jamás lo abandonó.\n\n¿Qué canción de José José ha marcado el momento más inolvidable de tu vida? Te leemos en los comentarios.\n\nLa crónica histórica completa y los documentos de archivo están en el enlace de nuestro perfil.\n\n#JoseJose #ElPrincipeDeLaCancion #LoPasadoPasado #ElTriste #CatedralesDeLeyenda #HistoriaDeLaMusica #BaladasDelRecuerdo #AcordesOcultos"
+    "title": "La despedida de un astronauta que la televisión no se atrevió a emitir",
+    "description": "En julio de 1969, la BBC eligió una canción británica para musicalizar la llegada del Apolo 11 a la Luna. Pero a mitad de la transmisión, los directores entraron en pánico y ordenaron censurarla de inmediato.\n\nLa canción era «Space Oddity», lanzada apenas nueve días antes del despegue histórico. David Bowie, que entonces tenía 22 años y vivía en la precariedad tras el fracaso de su debut y el fin de su primer gran amor, no había compuesto un himno triunfal para la NASA. Había escrito una confesión desgarradora sobre el aislamiento humano: su astronauta, Major Tom, perdía el control de su cápsula y se resignaba a morir flotando en el silencio eterno del cosmos.\n\nAterrorizados ante la posibilidad real de que la misión espacial fracasara y los astronautas murieran en televisión en vivo, los ejecutivos congelaron la canción por considerarla de mal agüero. Sólo cuando Neil Armstrong y su tripulación regresaron sanos y salvos al océano Pacífico, el tema volvió al aire para convertirse en el primer gran himno de Bowie.\n\n¿Qué sentiste la primera vez que escuchaste la despedida del Mayor Tom?\n\nLa crónica documental completa y los archivos de la época están en el enlace de nuestro perfil.\n\n#DavidBowie #SpaceOddity #MajorTom #Apollo11 #RockClasico #HistoriaDeLaMusica #AcordesOcultos #BBC"
   }
 }
