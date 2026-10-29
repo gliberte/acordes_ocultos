@@ -65,7 +65,7 @@ const buildGenerationList = (story) => {
     let prompt = '';
 
     if (typeof scene === 'object' && scene !== null) {
-      targetRelPath = scene.src || targetRelPath;
+      targetRelPath = scene.asset || scene.src || targetRelPath;
       prompt = scene.prompt || '';
     } else if (typeof scene === 'string') {
       targetRelPath = scene;

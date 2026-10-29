@@ -1,199 +1,208 @@
 {
-  "title": "La despedida de un astronauta que la televisión no se atrevió a emitir",
-  "artist": "David Bowie",
+  "title": "Escribió la canción más hermosa sobre vivir cuando ya había decidido marcharse",
+  "artist": "Violeta Parra",
   "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
   "durationSeconds": 90,
-  "slug": "david-bowie-space-oddity-acordes-ocultos",
-  "articleSlug": "david-bowie-space-oddity-acordes-ocultos",
-  "anecdote": "En julio de 1969, durante el alunizaje del Apolo 11, la BBC utilizó «Space Oddity» como música de fondo de la retransmisión oficial. Pero al desentrañar la letra y percatarse de que el astronauta Major Tom quedaba a la deriva para morir en el espacio, la cadena británica prohibió y congeló de inmediato la emisión del tema por miedo a que profetizara una tragedia en vivo. David Bowie no había compuesto una fantasía tecnológica, sino el testimonio desgarrador de su propia soledad terrenal.",
-  "hook": "En julio de 1969, la televisión británica eligió una canción para musicalizar la llegada a la Luna, pero a mitad de la transmisión ordenó censurarla de inmediato.",
+  "slug": "violeta-parra-gracias-a-la-vida-acordes-ocultos",
+  "articleSlug": "violeta-parra-gracias-a-la-vida-acordes-ocultos",
+  "anecdote": "En 1966, en la más absoluta soledad y precariedad bajo su carpa comunitaria de La Reina en Santiago de Chile, Violeta Parra compuso «Gracias a la vida». Lejos de ser un cántico ingenuo al optimismo, la obra fue concebida como su propio inventario vital y testamento sonoro tras el doloroso abandono del gran amor de su vida. Pocos meses después del lanzamiento de la grabación, Violeta se quitó la vida, dejando a la humanidad la carta de despedida más luminosa y generosa jamás escrita.",
+  "hook": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que celebra la alegría de existir, pero nació como una despedida.",
   "beats": [
-    "La BBC programó «Space Oddity» nueve días antes del despegue del Apolo 11 creyendo que era una celebración de la era espacial.",
-    "En realidad, David Bowie, quebrado emocionalmente tras una ruptura amorosa, había escrito una oda al aislamiento humano.",
-    "El astronauta Major Tom perdía la comunicación y elegía quedarse flotando en el vacío cósmico.",
-    "Aterrada de que la misión de la NASA fracasara en directo, la BBC vetó la canción hasta que la tripulación regresó sana y salva a la Tierra.",
-    "El tema se convirtió en el primer gran éxito de Bowie, quien descubrió que su herida personal era el himno de millones de solitarios."
+    "A finales de 1966, Violeta Parra vivía aislada en una precaria carpa de circo en Santiago de Chile.",
+    "El proyecto cultural fracasó en taquilla y Violeta cantaba en noches heladas ante bancas de madera vacías.",
+    "Tras el abandono irreversible de su gran amor, compuso un balance supremo de todo lo que la existencia le había concedido.",
+    "Agradeció los ojos, el oído, el paso de sus pies cansados y el latido de un corazón adolorido.",
+    "En febrero de 1967 se quitó la vida, convirtiendo su adiós en el himno de consuelo de todo un continente."
   ],
-  "outro": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
+  "outro": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
   "palette": {
-    "ink": "#0a0c16",
-    "paper": "#d4d8e2",
-    "accent": "#4a90e2",
-    "glow": "#c0d6f5"
+    "ink": "#14100c",
+    "paper": "#dcd3c4",
+    "accent": "#9e382b",
+    "glow": "#f2dec3"
   },
   "music": {
-    "title": "Space Oddity",
-    "artist": "David Bowie",
-    "src": "music/david-bowie-space-oddity.mp3",
-    "file": "music/david-bowie-space-oddity.mp3",
+    "title": "Gracias a la vida",
+    "artist": "Violeta Parra",
+    "src": "music/violeta-parra-gracias-a-la-vida.mp3",
+    "file": "music/violeta-parra-gracias-a-la-vida.mp3",
     "startSecond": 0,
     "volume": 0.55,
     "instagram": {
-      "query": "David Bowie Space Oddity",
-      "expectedTitle": "Space Oddity",
-      "expectedArtist": "David Bowie",
+      "query": "Violeta Parra Gracias a la vida",
+      "expectedTitle": "Gracias a la vida",
+      "expectedArtist": "Violeta Parra",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Space Oddity (1969) de David Bowie en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Gracias a la vida (1966) de Violeta Parra en Instagram Reels."
     }
   },
   "cover": {
-    "background": "videos/david-bowie-space-oddity-acordes-ocultos/cover_bg.png",
-    "title": "SPACE ODDITY",
-    "artist": "DAVID BOWIE"
+    "background": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/cover_bg.png",
+    "title": "GRACIAS A LA VIDA",
+    "artist": "VIOLETA PARRA"
   },
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En julio de mil novecientos sesenta y nueve, mientras el planeta contenía el aliento ante el inminente despegue del Apolo once hacia la Luna...",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-01.png"
+      "text": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es una luminosa celebración de la existencia...",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-01.png",
+      "prompt": "Vertical 9:16 authentic documentary concert hall: A diverse audience in an auditorium softly illuminated by warm stage footlights, men and women with eyes closed in collective emotional communion and heartfelt reverence as if singing along to a sacred folk anthem. Atmospheric 35mm film grain, gentle focus, quiet lower third, strictly no text."
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "...un joven David Bowie de veintidós años intentaba sanar en silencio la dolorosa ruptura con el gran amor de su juventud.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-02.png"
+      "text": "...sin sospechar que su autora la escribió como una íntima despedida cuando ya había decidido poner fin a su propio dolor.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-02.png",
+      "prompt": "Vertical 9:16 intimate documentary portrait: 49-year-old Chilean folk artist Violeta Parra, indigenous mestiza Chilean features, prominent cheekbones, dark center-parted hair, weathered artisan skin, profound solemn gaze, sitting alone on a wooden stool in a rustic room with earthen floor in Santiago, holding a small Andean charango close to her chest with worn hands, soft melancholic window light, 35mm film texture, quiet lower third, strictly no text."
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Fascinado por el cine de Kubrick, no imaginó un himno patriótico, sino la íntima soledad de un hombre desconectado de todo.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-03.png"
+      "text": "A finales de mil novecientos sesenta y seis, Violeta Parra vivía en la más absoluta precariedad bajo una carpa a las afueras de Santiago.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-03.png",
+      "prompt": "Vertical 9:16 atmospheric archival photograph: Winter 1966 on the outskirts of Santiago de Chile. A massive rustic circus tent known as La Carpa de La Reina standing isolated in a muddy open field against the towering dark silhouette of the Andes mountains under a cold rain-swept dusk sky. Faint warm light glows from within the tent seams, solitary tire tracks in wet mud, authentic 1960s 35mm film grain, quiet lower third, strictly no text."
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Su productor habitual se negó a grabarla por considerarla oportunista, obligándolo a refugiarse en un estudio prestado con un sintetizador de juguete.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-04.png"
+      "text": "Soñó con un templo para el arte campesino, pero en las noches gélidas cantaba ante bancas de madera completamente desiertas.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-04.png",
+      "prompt": "Vertical 9:16 poignant documentary scene: Inside the cavernous circus tent of La Reina in 1966. Violeta Parra, dark woolen sweater, stands under a single hanging bare bulb on a small wooden platform, passionately playing her guitar and singing into an old microphone. In front of her, long rows of empty wooden tables and benches sit abandoned in cold shadows. Melancholic atmosphere, high contrast, 35mm film grain, quiet lower third, strictly no text."
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "El sencillo se editó contrarreloj apenas nueve días antes del despegue, siendo elegido por la televisión británica para musicalizar la hazaña histórica.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-05.png"
+      "text": "A la asfixia económica se sumó el abandono del gran amor de su vida, dejándola sumida en un dolor sin retorno posible.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-05.png",
+      "prompt": "Vertical 9:16 dramatic documentary moment: Inside a shadowy rustic bedroom corner of the tent. Violeta Parra, 49, indigenous Chilean features and dark hair, seated beside a small smoking brazier, holding a faded black-and-white portrait of her lost Swiss lover in her worn hands. Her face reflects deep, quiet heartbreak and resignation, gentle warm embers glowing in the dark, 35mm rich film texture, quiet lower third, strictly no text."
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Pero al desentrañar la letra, los directores de la cadena entraron en pánico: el astronauta perdía el control para perderse en el vacío.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-06.png"
+      "text": "Desde ese abismo, en lugar de destilar rencor, compuso el testamento más generoso y sobrecogedor jamás escrito en nuestra lengua.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-06.png",
+      "prompt": "Vertical 9:16 artistic documentary creation: Violeta Parra seated at a rough wooden table writing intently in an open spiral notebook by the glow of a single tallow candle. On the canvas wall behind her hangs one of her famous colorful Chilean embroidered burlap tapestries known as arpilleras. An acoustic guitar rests against the table leg, atmosphere of sacred creative trance and profound dignity, 35mm film grain, quiet lower third, strictly no text."
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Aterrados de que el tema profetizara una muerte en directo, prohibieron emitirlo hasta que la tripulación pisó tierra sana y salva.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-07.png"
+      "text": "Agradeció los ojos, el sonido de la lluvia, la voz de su amado y el llanto de un corazón herido pero agradecido.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-07.png",
+      "prompt": "Vertical 9:16 evocative macro photograph: Intimate close-up of a Latin American folk musician's weathered artisan hands delicately strumming nylon guitar and charango strings. In the soft background, rain streaks down a glass window pane reflecting soft misty Chilean daylight, deep tactile wood grain on the instrument soundboard, quiet lower third, strictly no text."
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Con el regreso de la nave, la canción se convirtió en su primer gran triunfo, aunque él seguía tan aislado como su protagonista.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-08.png"
+      "text": "Apenas unos meses después de grabarla, en febrero de mil novecientos sesenta y siete, apagó su propia vida en el silencio de su carpa.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-08.png",
+      "prompt": "Vertical 9:16 serene archival aftermath: Inside the quiet circus tent at dawn. A pale shaft of golden morning sunlight pierces through a seam in the tent canvas, illuminating an empty rustic wooden wicker chair. A classic acoustic guitar with a simple embroidered strap rests peacefully against the chair. Stillness, dust motes drifting in the morning light beam, respectful solemn silence, 35mm cinematic grain, quiet lower third, strictly no text."
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
-      "asset": "videos/david-bowie-space-oddity-acordes-ocultos/scene-09.png"
+      "text": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
+      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-09.png",
+      "prompt": "Vertical 9:16 breathtaking cinematic landscape: The majestic snow-capped peaks of the Andes mountain range at sunrise. Soft golden and amber dawn light crowning the ridges, misty ethereal valleys below embracing tranquil silence, infinite sky gradient from warm ochre to deep morning blue, sublime and timeless contemplation of nature, 35mm photographic texture, generous negative space, quiet lower third, strictly no text, no turntables, no vinyl."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "En julio de mil novecientos sesenta y nueve, mientras el planeta contenía el aliento ante el inminente despegue del Apolo once hacia la Luna...",
+      "text": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es una luminosa celebración de la existencia...",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "...un joven David Bowie de veintidós años intentaba sanar en silencio la dolorosa ruptura con el gran amor de su juventud.",
+      "text": "...sin sospechar que su autora la escribió como una íntima despedida cuando ya había decidido poner fin a su propio dolor.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "Fascinado por el cine de Kubrick, no imaginó un himno patriótico, sino la íntima soledad de un hombre desconectado de todo.",
+      "text": "A finales de mil novecientos sesenta y seis, Violeta Parra vivía en la más absoluta precariedad bajo una carpa a las afueras de Santiago.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Su productor habitual se negó a grabarla por considerarla oportunista, obligándolo a refugiarse en un estudio prestado con un sintetizador de juguete.",
+      "text": "Soñó con un templo para el arte campesino, pero en las noches gélidas cantaba ante bancas de madera completamente desiertas.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "El sencillo se editó contrarreloj apenas nueve días antes del despegue, siendo elegido por la televisión británica para musicalizar la hazaña histórica.",
+      "text": "A la asfixia económica se sumó el abandono del gran amor de su vida, dejándola sumida en un dolor sin retorno posible.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Pero al desentrañar la letra, los directores de la cadena entraron en pánico: el astronauta perdía el control para perderse en el vacío.",
+      "text": "Desde ese abismo, en lugar de destilar rencor, compuso el testamento más generoso y sobrecogedor jamás escrito en nuestra lengua.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Aterrados de que el tema profetizara una muerte en directo, prohibieron emitirlo hasta que la tripulación pisó tierra sana y salva.",
+      "text": "Agradeció los ojos, el sonido de la lluvia, la voz de su amado y el llanto de un corazón herido pero agradecido.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Con el regreso de la nave, la canción se convirtió en su primer gran triunfo, aunque él seguía tan aislado como su protagonista.",
+      "text": "Apenas unos meses después de grabarla, en febrero de mil novecientos sesenta y siete, apagó su propia vida en el silencio de su carpa.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay vacíos interiores que ninguna conquista técnica logra alcanzar y silencios que sólo encuentran consuelo cuando alguien se atreve a cantarlos.",
+      "text": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
       "assetIndex": 8
     }
   ],
   "assets": [
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-01.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-01.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-02.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-02.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-03.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-03.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-04.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-04.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-05.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-05.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-06.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-06.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-07.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-07.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-08.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-08.png"
     },
     {
-      "src": "videos/david-bowie-space-oddity-acordes-ocultos/scene-09.png"
+      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-09.png"
     }
   ],
   "publication": {
-    "title": "La despedida de un astronauta que la televisión no se atrevió a emitir",
-    "description": "En julio de 1969, la BBC eligió una canción británica para musicalizar la llegada del Apolo 11 a la Luna. Pero a mitad de la transmisión, los directores entraron en pánico y ordenaron censurarla de inmediato.\n\nLa canción era «Space Oddity», lanzada apenas nueve días antes del despegue histórico. David Bowie, que entonces tenía 22 años y vivía en la precariedad tras el fracaso de su debut y el fin de su primer gran amor, no había compuesto un himno triunfal para la NASA. Había escrito una confesión desgarradora sobre el aislamiento humano: su astronauta, Major Tom, perdía el control de su cápsula y se resignaba a morir flotando en el silencio eterno del cosmos.\n\nAterrorizados ante la posibilidad real de que la misión espacial fracasara y los astronautas murieran en televisión en vivo, los ejecutivos congelaron la canción por considerarla de mal agüero. Sólo cuando Neil Armstrong y su tripulación regresaron sanos y salvos al océano Pacífico, el tema volvió al aire para convertirse en el primer gran himno de Bowie.\n\n¿Qué sentiste la primera vez que escuchaste la despedida del Mayor Tom?\n\nLa crónica documental completa y los archivos de la época están en el enlace de nuestro perfil.\n\n#DavidBowie #SpaceOddity #MajorTom #Apollo11 #RockClasico #HistoriaDeLaMusica #AcordesOcultos #BBC"
+    "title": "Escribió la canción más hermosa sobre vivir cuando ya había decidido marcharse",
+    "description": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es un himno festivo a la existencia. Muy pocos conocen la desgarradora historia detrás de sus estrofas: fue, en realidad, la carta de despedida más luminosa jamás escrita antes de un adiós final.\n\nEn 1966, Violeta Parra vivía sumida en la precariedad y el olvido bajo la Carpa de La Reina, a las afueras de Santiago de Chile. Soñó con fundar una universidad viva del folclore, pero las noches de invierno eran gélidas y muchas veces cantaba frente a tablones vacíos. A la asfixia económica se sumó la partida irreversible del gran amor de su vida.\n\nEn lugar de entregarse al rencor o a la amargura, Violeta tomó su charango y escribió su propio inventario vital: dio gracias por los dos luceros que le permitieron distinguir el negro del blanco, por el oído que grabó el sonido de la lluvia y por el corazón que conoció el desvelo. Apenas unos meses después de publicar la grabación, el 5 de febrero de 1967, Violeta se encerró en su carpa y apagó su propia vida.\n\n¿En qué momento de tu vida te acompañó la voz de Violeta Parra?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#VioletaParra #GraciasALaVida #FolcloreLatinoamericano #MercedesSosa #Chile #HistoriaDeLaMusica #AcordesOcultos"
   }
 }
