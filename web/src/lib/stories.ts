@@ -32,6 +32,8 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'a-un-dia-luz-de-la-tierra-entendio-que-ninguna-frontera-vale-una-vida': 'la-oreja-de-van-gogh-europa-vii-historia-en-los-acordes',
+  'aundialuzdelatierraentendioqueningunafronteravaleunavida': 'la-oreja-de-van-gogh-europa-vii-historia-en-los-acordes',
   'escribio-su-mayor-obra-maestra-justo-el-dia-en-que-la-banda-mas-grande-del-mundo-se-rompio': 'the-beatles-something-acordes-ocultos',
   'escribiosumayorobramaestrajustoeldiaenquelabandamasgrandedelmundoserompio': 'the-beatles-something-acordes-ocultos',
   'escribio-la-cancion-mas-hermosa-sobre-vivir-cuando-ya-habia-decidido-marcharse': 'violeta-parra-gracias-a-la-vida-acordes-ocultos',
