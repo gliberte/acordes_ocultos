@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'elvis-presley-suspicious-minds-acordes-ocultos': 'elvis-presley-suspicious-minds-acordes-ocultos',
+  'quisieron-frenarla-por-dinero-sin-saber-que-elvis-cantaba-a-las-cuatro-de-la-manana-el-adios-de-su-propio-matrimonio': 'elvis-presley-suspicious-minds-acordes-ocultos',
+  'quisieronfrenarlapordinerosinsaberqueelviscantabaalascuatrodelamananaeladiosdesupropiomatrimonio': 'elvis-presley-suspicious-minds-acordes-ocultos',
+  'elvis-presley-suspicious-minds': 'elvis-presley-suspicious-minds-acordes-ocultos',
+  'suspicious-minds': 'elvis-presley-suspicious-minds-acordes-ocultos',
+  'suspiciousminds': 'elvis-presley-suspicious-minds-acordes-ocultos',
   'jose-augusto-candilejas-acordes-ocultos': 'jose-augusto-candilejas-acordes-ocultos',
   'desterraron-a-su-autor-y-vetaron-su-melodia-veinte-anos-antes-de-desgarrarnos-en-espanol': 'jose-augusto-candilejas-acordes-ocultos',
   'desterraron-a-su-autor-en-alta-mar-y-tardo-veinte-anos-en-ganar-el-oscar-antes-de-desgarrar-nuestra-lengua': 'jose-augusto-candilejas-acordes-ocultos',
