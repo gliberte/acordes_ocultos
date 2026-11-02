@@ -51,23 +51,35 @@ const {
       </div>
     </div>
 
-    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-3 shrink-0">
+    <div class="w-full lg:w-auto flex flex-col items-stretch lg:items-end gap-2.5 shrink-0">
       <div class="flex items-center justify-between lg:justify-end gap-3">
         <span class="text-xs text-neutral-400 uppercase tracking-wider font-semibold">Edición Digital:</span>
         <div class="flex items-baseline gap-2">
           <span class="text-2xl font-serif font-black text-amber-400">$9.99 <span class="text-xs font-sans text-neutral-400 font-normal">USD</span></span>
         </div>
       </div>
-      <a
-        href="https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="px-5 py-3 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg shadow-amber-950/50"
-      >
-        <span>📖 Adquirir Libro ($9.99 USD) →</span>
-      </a>
+      <div class="flex items-center gap-2">
+        <a
+          href="https://www.amazon.com/dp/B0HP6Z5W46"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-1.5 shadow-md shadow-amber-950/40"
+          title="Comprar edición Kindle en Amazon"
+        >
+          <span>🛒 Amazon Kindle</span>
+        </a>
+        <a
+          href="https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex-1 sm:flex-none px-4 py-2.5 rounded-xl font-sans font-bold text-xs uppercase tracking-wider bg-[#1c1914] text-amber-300 border border-amber-500/40 hover:bg-amber-500/20 transition-all text-center flex items-center justify-center gap-1.5 shadow-sm"
+          title="Descargar PDF interactivo y EPUB sin DRM en Gumroad"
+        >
+          <span>📄 Gumroad (PDF)</span>
+        </a>
+      </div>
       <div class="flex items-center justify-between lg:justify-end gap-2 text-[10px] text-neutral-400 font-sans">
-        <span>Descarga inmediata sin DRM</span>
+        <span>Kindle, Apple Books & PDF</span>
         <span>•</span>
         <a href="/libro" class="text-amber-400 hover:text-amber-300 underline font-medium">Ver las 28 obras →</a>
       </div>
@@ -272,8 +284,11 @@ const {
                     </a>
                   </div>
                   <div class="flex flex-wrap items-center gap-2 pt-1">
+                    <a href="https://www.amazon.com/dp/B0HP6Z5W46" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-gradient-to-r from-amber-400 to-amber-500 text-black hover:from-amber-300 hover:to-amber-400 transition-all shadow-sm">
+                      <span>🛒 Amazon Kindle ($9.99)</span>
+                    </a>
                     <a href="/libro" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold bg-amber-500/20 text-amber-300 border border-amber-500/30 hover:bg-amber-500/30 transition-colors">
-                      <span>📖 Conocer el Libro Completo ($9.99 USD) →</span>
+                      <span>📖 Conocer el Libro Completo →</span>
                     </a>
                     <a href="${data.gumroadUrl || 'https://acordesocultos.gumroad.com/l/ryhupd'}" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-[#1c1914] text-neutral-300 border border-neutral-700 hover:bg-neutral-800 transition-colors">
                       <span>☕ Apoyar como Mecenas ($3+)</span>
