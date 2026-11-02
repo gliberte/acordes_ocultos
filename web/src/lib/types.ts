@@ -39,6 +39,7 @@ export interface StoryItem {
   audioUrl?: string;
   spotifyUrl?: string;
   instagramUrl?: string;
+  instagramUrlEn?: string;
   hashtags: string[];
   publishedAt: string;
   durationSeconds?: number;

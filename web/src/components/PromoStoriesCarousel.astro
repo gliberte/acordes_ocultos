@@ -3,16 +3,20 @@ import type { StoryItem } from '../lib/types';
 
 interface Props {
   stories: StoryItem[];
+  lang?: 'es' | 'en';
 }
 
-const { stories } = Astro.props;
+const { stories, lang = 'es' } = Astro.props;
+const isEn = lang === 'en';
 
 // Filter only stories that have a valid promotional poster / story teaser AND an official Instagram Reel
 const promoStories = (stories || [])
   .filter(s => {
     if (!s.promoPosterUrl || s.isHidden) return false;
     const url = typeof s.instagramUrl === 'string' ? s.instagramUrl.trim() : '';
-    return url.length > 0 && (url.includes('instagram.com/reel/') || url.includes('instagram.com/p/'));
+    const urlEn = typeof s.instagramUrlEn === 'string' ? s.instagramUrlEn.trim() : '';
+    const isValid = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
+    return isValid(url) || isValid(urlEn);
   })
   // Pin custom promotional posters (high-impact editorial story posters) first, sorted chronologically
   .sort((a, b) => {
@@ -40,15 +44,17 @@ if (promoStories.length === 0) return null;
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-3 font-sans">
           <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-          <span>⚡ EN HISTORIAS DE INSTAGRAM</span>
+          <span>{isEn ? '⚡ ON INSTAGRAM STORIES' : '⚡ EN HISTORIAS DE INSTAGRAM'}</span>
           <span class="text-amber-500">•</span>
-          <span>FORMATO VERTICAL 9:16</span>
+          <span>{isEn ? 'VERTICAL 9:16 FORMAT' : 'FORMATO VERTICAL 9:16'}</span>
         </div>
         <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-black text-white tracking-tight">
-          Cartelera & Avances de Historias
+          {isEn ? 'Official Story Posters & Teasers' : 'Cartelera & Avances de Historias'}
         </h2>
         <p class="text-xs sm:text-sm text-neutral-400 mt-2 max-w-2xl font-sans leading-relaxed">
-          Pósteres y avances visuales oficiales emitidos en nuestras redes. Haz clic en cualquier tarjeta para sumergirte en la crónica documental completa.
+          {isEn
+            ? 'Official vertical story posters released across our channels. Click on any card to read the complete documentary chronicle.'
+            : 'Pósteres y avances visuales oficiales emitidos en nuestras redes. Haz clic en cualquier tarjeta para sumergirte en la crónica documental completa.'}
         </p>
       </div>
 
@@ -130,30 +136,30 @@ if (promoStories.length === 0) return null;
                   {item.artist}
                 </p>
                 <h3 class="font-serif text-base sm:text-lg font-bold text-white leading-snug line-clamp-2 group-hover:text-amber-200 transition-colors">
-                  {item.title}
+                  {isEn ? (item.titleEn || item.title) : item.title}
                 </h3>
               </div>
 
               <!-- Action Buttons -->
               <div class="pt-1 flex items-center gap-2">
                 <a
-                  href={`/historias/${item.slug}`}
+                  href={isEn ? `/en/stories/${item.slugEn || item.slug}` : `/historias/${item.slug}`}
                   class="flex-1 inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-xl text-xs font-bold font-sans uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-950/50 transition-all transform hover:-translate-y-0.5"
                 >
-                  <span>Leer Crónica</span>
+                  <span>{isEn ? 'Read Chronicle' : 'Leer Crónica'}</span>
                   <svg class="w-3.5 h-3.5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
                   </svg>
                 </a>
 
-                {item.instagramUrl && (
+                {(item.instagramUrlEn || item.instagramUrl) && (
                   <a
-                    href={item.instagramUrl}
+                    href={item.instagramUrlEn || item.instagramUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     class="p-2 rounded-xl bg-black/70 hover:bg-black text-neutral-300 hover:text-amber-300 border border-neutral-700 hover:border-amber-500/50 transition-colors"
-                    title="Ver Reel en Instagram"
-                    aria-label={`Ver Reel de ${item.title} en Instagram`}
+                    title={isEn ? "Watch Reel on Instagram" : "Ver Reel en Instagram"}
+                    aria-label={isEn ? `Watch Reel of ${item.titleEn || item.title} on Instagram` : `Ver Reel de ${item.title} en Instagram`}
                   >
                     <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
                       <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>

@@ -864,6 +864,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       if (trackerMatch.hook_en) item.hookEn = trackerMatch.hook_en;
       if (trackerMatch.slug_en) item.slugEn = trackerMatch.slug_en;
       if (trackerMatch.r2_video_url) item.videoUrlEn = trackerMatch.r2_video_url;
+      if (trackerMatch.instagram_shortcode_en) {
+        item.instagramUrlEn = `https://www.instagram.com/reel/${trackerMatch.instagram_shortcode_en}/`;
+      }
     }
   }
 
@@ -873,7 +876,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     items = items.filter(item => {
       if (item.isHidden) return false;
       const url = typeof item.instagramUrl === 'string' ? item.instagramUrl.trim() : '';
-      return url.length > 0 && (url.includes('instagram.com/reel/') || url.includes('instagram.com/p/'));
+      const urlEn = typeof item.instagramUrlEn === 'string' ? item.instagramUrlEn.trim() : '';
+      const isValid = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
+      return isValid(url) || isValid(urlEn);
     });
   }
 
@@ -935,12 +940,8 @@ export async function getStoryBySlug(slug: string, options: { includeHidden?: bo
 }
 
 export async function getAllEnglishStories(options: { includeHidden?: boolean } = {}): Promise<StoryItem[]> {
-  const all = await getAllStories({ includeHidden: true });
-  let english = all.filter(s => Boolean(s.contentEn));
-  if (!options.includeHidden) {
-    english = english.filter(s => !s.isHidden);
-  }
-  return english;
+  const all = await getAllStories(options);
+  return all.filter(s => Boolean(s.contentEn));
 }
 
 export async function getFeaturedStory(): Promise<StoryItem | null> {

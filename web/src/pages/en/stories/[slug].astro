@@ -7,25 +7,38 @@ import { getAllStories } from '../../../lib/stories';
 import { formatChronicleMarkdown } from '../../../lib/markdown';
 
 const { slug } = Astro.params;
+const isPreview = Astro.url.searchParams.get('preview') === 'true' && Astro.locals.isAdmin;
 const allStories = await getAllStories({ includeHidden: true });
 
+function hasValidInstagramReel(s: any): boolean {
+  const url = typeof s?.instagramUrl === 'string' ? s.instagramUrl.trim() : '';
+  const urlEn = typeof s?.instagramUrlEn === 'string' ? s.instagramUrlEn.trim() : '';
+  const validUrl = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
+  return validUrl(urlEn) || validUrl(url);
+}
+
+// An extended chronicle is strictly private and hidden until its official Instagram Reel has been released.
+// Non-negotiable rule: Only public display is allowed if it has an official Instagram Reel and is not hidden.
+// Exception: Authenticated admin accessing in preview mode (?preview=true).
 const story = allStories.find(s => {
   const matches = s.slug === slug || s.slugEn === slug || s.articleSlug === slug;
-  return matches && Boolean(s.contentEn);
+  if (!matches || !s.contentEn) return false;
+  if (isPreview) return true;
+  return hasValidInstagramReel(s) && !s.isHidden;
 });
 
 if (!story || !story.contentEn) {
   return Astro.redirect('/404');
 }
 
-// Related stories in English
+// Related stories in English (must have an official released reel and not be hidden)
 const relatedStories = allStories
-  .filter(s => s.slug !== story.slug && Boolean(s.contentEn) && !s.isHidden)
+  .filter(s => s.slug !== story.slug && Boolean(s.contentEn) && hasValidInstagramReel(s) && !s.isHidden)
   .slice(0, 3);
 
 const formattedContent = formatChronicleMarkdown(story.contentEn, story.articleSlug || story.slug);
 
-Astro.response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+Astro.response.headers.set('Cache-Control', isPreview ? 'private, no-store' : 'public, max-age=0, must-revalidate');
 
 const siteUrl = 'https://www.acordesocultos.com';
 const englishSlug = story.slugEn || story.slug;
@@ -238,6 +251,18 @@ const articleSchema = {
       <!-- Right Column: The Full Chronicle & Archival Content -->
       <section id="chronicle" class="lg:col-span-7 max-w-none">
         
+        {isPreview && !hasValidInstagramReel(story) && (
+          <div class="mb-8 p-5 rounded-2xl border border-amber-500/50 bg-amber-950/30 text-amber-200 shadow-xl">
+            <div class="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
+              <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
+              <span>Administrator Preview Mode</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-200 leading-relaxed font-sans">
+              This extended chronicle is <strong>strictly hidden from the public and search engines (returns 404)</strong> because it does not yet have an officially published Instagram Reel associated.
+            </p>
+          </div>
+        )}
+
         <!-- Story Text / Chronicle -->
         <div class="prose prose-invert prose-amber max-w-none">
           <div set:html={formattedContent} />
