@@ -1,0 +1,321 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import InstagramEmbed from '../../../components/InstagramEmbed.astro';
+import SpotifyEmbed from '../../../components/SpotifyEmbed.astro';
+import StoryShare from '../../../components/StoryShare.astro';
+import { getAllStories } from '../../../lib/stories';
+import { formatChronicleMarkdown } from '../../../lib/markdown';
+
+const { slug } = Astro.params;
+const allStories = await getAllStories({ includeHidden: true });
+
+const story = allStories.find(s => {
+  const matches = s.slug === slug || s.slugEn === slug || s.articleSlug === slug;
+  return matches && Boolean(s.contentEn);
+});
+
+if (!story || !story.contentEn) {
+  return Astro.redirect('/404');
+}
+
+// Related stories in English
+const relatedStories = allStories
+  .filter(s => s.slug !== story.slug && Boolean(s.contentEn) && !s.isHidden)
+  .slice(0, 3);
+
+const formattedContent = formatChronicleMarkdown(story.contentEn, story.articleSlug || story.slug);
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+
+const siteUrl = 'https://www.acordesocultos.com';
+const englishSlug = story.slugEn || story.slug;
+const storyUrl = `${siteUrl}/en/stories/${englishSlug}`;
+const spanishUrl = `${siteUrl}/historias/${story.slug}`;
+const displayTitle = story.titleEn || story.title;
+const displayHook = story.hookEn || story.hook;
+const displayDescription = story.summaryEn || displayHook || displayTitle;
+
+const coverFull = story.coverUrl?.startsWith('http') ? story.coverUrl : `${siteUrl}${story.coverUrl}`;
+const heroFull = story.heroImageUrl?.startsWith('http') ? story.heroImageUrl : (story.heroImageUrl ? `${siteUrl}${story.heroImageUrl}` : undefined);
+const images = [heroFull, coverFull].filter(Boolean);
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'NewsArticle',
+      '@id': `${storyUrl}#article`,
+      'isPartOf': {
+        '@type': 'WebSite',
+        '@id': `${siteUrl}/#website`,
+        'name': 'Secret Chords',
+        'url': `${siteUrl}/en`
+      },
+      'headline': displayTitle,
+      'description': displayDescription,
+      'inLanguage': 'en',
+      'mainEntityOfPage': storyUrl,
+      'url': storyUrl,
+      'datePublished': story.publishedAt,
+      'dateModified': story.publishedAt,
+      'image': images,
+      'articleSection': story.categoryLabel,
+      'keywords': story.hashtags?.map((h: string) => h.replace(/^#/, '')) || [],
+      'author': {
+        '@type': 'Organization',
+        'name': 'Secret Chords',
+        'url': `${siteUrl}/en`
+      },
+      'publisher': {
+        '@type': 'Organization',
+        'name': 'Secret Chords',
+        'url': `${siteUrl}/en`,
+        'logo': {
+          '@type': 'ImageObject',
+          'url': `${siteUrl}/brand/acordes-ocultos-logo-sm.webp`
+        }
+      }
+    },
+    {
+      '@type': 'BreadcrumbList',
+      '@id': `${storyUrl}#breadcrumb`,
+      'itemListElement': [
+        {
+          '@type': 'ListItem',
+          'position': 1,
+          'name': 'Home',
+          'item': `${siteUrl}/en`
+        },
+        {
+          '@type': 'ListItem',
+          'position': 2,
+          'name': 'Chronicles',
+          'item': `${siteUrl}/en#stories`
+        },
+        {
+          '@type': 'ListItem',
+          'position': 3,
+          'name': displayTitle,
+          'item': storyUrl
+        }
+      ]
+    }
+  ]
+};
+---
+
+<Layout
+  title={`${displayTitle} | Secret Chords`}
+  description={displayDescription}
+  image={story.heroImageUrl || story.coverUrl}
+  type="article"
+  publishedTime={story.publishedAt}
+  author="Secret Chords"
+  section={story.categoryLabel}
+  tags={story.hashtags}
+  jsonLd={articleSchema}
+  lang="en"
+  currentStory={story}
+  alternateEs={spanishUrl}
+  alternateEn={storyUrl}
+>
+  <article class="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    
+    <!-- Breadcrumb & Top Bar -->
+    <nav class="mb-8 flex flex-wrap items-center justify-between gap-4 text-xs text-neutral-400">
+      <div class="flex items-center gap-2">
+        <a href="/en" class="hover:text-amber-400 transition-colors">Home</a>
+        <span>/</span>
+        <a href="/en#stories" class="hover:text-amber-400 transition-colors">Chronicles</a>
+        <span>/</span>
+        <span class="text-amber-400 font-medium truncate max-w-[200px] sm:max-w-none">{displayTitle}</span>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-amber-500/10 text-amber-300 border border-amber-500/20">
+          Secret Chords Archive
+        </span>
+        <a
+          href={spanishUrl}
+          class="px-2.5 py-0.5 rounded-full text-[11px] font-sans font-medium text-neutral-400 hover:text-amber-300 border border-[#2e2a24] hover:border-amber-500/40 transition-colors"
+          title="Leer esta crónica en español"
+        >
+          🇪🇸 Leer en Español
+        </a>
+      </div>
+    </nav>
+
+    <!-- Header / Title block -->
+    <header class="mb-12 max-w-4xl">
+      {story.artist && (
+        <p class="text-sm font-semibold tracking-widest uppercase text-amber-500 mb-2 flex items-center gap-2 font-sans">
+          <span class="w-2 h-2 rounded-full bg-amber-500"></span>
+          <span>{story.artist}</span>
+          {story.songTitle && <span class="text-neutral-500">"{story.songTitle}"</span>}
+        </p>
+      )}
+
+      <h1 class="font-serif text-3xl sm:text-5xl lg:text-6xl font-bold text-neutral-100 tracking-tight leading-[1.15] mb-6">
+        {displayTitle}
+      </h1>
+
+      {displayHook && (
+        <p class="font-serif italic text-xl sm:text-2xl text-amber-200/90 leading-relaxed border-l-2 border-amber-500 pl-5 my-6">
+          "{displayHook}"
+        </p>
+      )}
+
+      <div class="flex flex-wrap items-center gap-4 text-xs text-neutral-400 pt-2 border-t border-[#201e1a] font-sans">
+        <span>Secret Chords Archive</span>
+        <span>•</span>
+        <span>Estimated reading time: ~10 min</span>
+        <span>•</span>
+        <span class="text-amber-400 font-medium">Documentary Chronicle</span>
+      </div>
+    </header>
+
+    <!-- Main Grid: Video Player + The Chronicle -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+      
+      <!-- Left Column: Video Player & Audio Media (Sticky on large screens) -->
+      <aside class="lg:col-span-5 space-y-8 lg:sticky lg:top-28">
+        
+        <!-- Video / Documentary Player Card -->
+        <div class="bg-[#12110e] rounded-2xl p-4 sm:p-6 border border-[#26231e] shadow-2xl">
+          <InstagramEmbed
+            reelUrl={story.instagramUrl}
+            videoUrl={story.videoUrlEn || story.videoUrl}
+            tiktokVideoUrl={story.tiktokVideoUrl}
+            coverUrl={story.coverUrl}
+            title={displayTitle}
+            artist={story.artist}
+          />
+
+          <!-- Quick Actions / Social Share -->
+          <div class="mt-4 pt-2">
+            <StoryShare title={displayTitle} slug={`en/stories/${englishSlug}`} hook={displayHook} />
+          </div>
+        </div>
+
+        <!-- Official Spotify Embed Player -->
+        <SpotifyEmbed
+          spotifyUrl={story.spotifyUrl}
+          artist={story.artist}
+          songTitle={story.songTitle}
+        />
+
+        <!-- Story Poster / Teaser if available -->
+        {(story.promoPosterUrl || story.teaserUrl) && (
+          <div class="rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] p-4 text-center shadow-2xl group transition-all hover:border-amber-500/40">
+            <div class="flex items-center justify-between gap-2 mb-3 px-1">
+              <span class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-black text-amber-400 font-sans">
+                <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
+                <span>Official Story Poster</span>
+              </span>
+              <span class="text-[9px] font-mono text-neutral-400 uppercase tracking-wider bg-[#1c1a16] px-2 py-0.5 rounded border border-[#2e2a24]">
+                9:16 Vertical
+              </span>
+            </div>
+            <div class="relative rounded-xl overflow-hidden bg-black/60 shadow-inner">
+              <div class="absolute inset-0 z-10 pointer-events-none" data-image-shield="true" aria-hidden="true"></div>
+              <img
+                src={story.promoPosterUrl || story.teaserUrl}
+                alt={`Official poster for ${displayTitle}`}
+                draggable="false"
+                loading="lazy"
+                decoding="async"
+                class="w-full h-auto object-cover rounded-xl select-none group-hover:scale-[1.02] transition-transform duration-500"
+              />
+            </div>
+            <p class="text-[11px] text-neutral-400 font-sans italic mt-3 px-1">
+              Commemorative documentary artwork published for this chronicle.
+            </p>
+          </div>
+        )}
+
+      </aside>
+
+      <!-- Right Column: The Full Chronicle & Archival Content -->
+      <section id="chronicle" class="lg:col-span-7 max-w-none">
+        
+        <!-- Story Text / Chronicle -->
+        <div class="prose prose-invert prose-amber max-w-none">
+          <div set:html={formattedContent} />
+        </div>
+
+        <!-- Back to Chronicles Button -->
+        <div class="mt-12 pt-6 border-t border-[#26231e] flex items-center justify-between">
+          <a
+            href="/en#stories"
+            class="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans transition-colors"
+          >
+            <span>← Back to all English chronicles</span>
+          </a>
+          <a
+            href={spanishUrl}
+            class="inline-flex items-center gap-2 text-xs text-neutral-400 hover:text-amber-400 font-sans transition-colors"
+          >
+            <span>🇪🇸 Versión en Español</span>
+          </a>
+        </div>
+
+      </section>
+
+    </div>
+
+    <!-- Related English Chronicles -->
+    {relatedStories.length > 0 && (
+      <section class="mt-24 pt-12 border-t border-[#26231e]">
+        <div class="mb-8">
+          <h2 class="font-serif text-2xl sm:text-3xl font-bold text-neutral-100">
+            More Secret Chords Chronicles
+          </h2>
+          <p class="text-xs sm:text-sm text-neutral-400 mt-1 font-sans">
+            Explore other untold stories from the golden era of rock and soul.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {relatedStories.map((rel) => (
+            <article class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] hover:border-amber-500/40 transition-all flex flex-col justify-between group">
+              <a href={`/en/stories/${rel.slugEn || rel.slug}`} class="block relative aspect-[16/9] overflow-hidden bg-black">
+                <img
+                  src={rel.coverUrl}
+                  alt={rel.titleEn || rel.title}
+                  loading="lazy"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+              </a>
+              <div class="p-5 flex flex-col justify-between flex-grow">
+                <div>
+                  <p class="text-[10px] font-bold uppercase tracking-widest text-amber-400 font-sans mb-1">
+                    {rel.artist}
+                  </p>
+                  <h3 class="font-serif text-base font-bold text-white group-hover:text-amber-200 transition-colors line-clamp-2">
+                    <a href={`/en/stories/${rel.slugEn || rel.slug}`}>
+                      {rel.titleEn || rel.title}
+                    </a>
+                  </h3>
+                  {(rel.hookEn || rel.hook) && (
+                    <p class="text-xs text-neutral-400 font-sans mt-2 line-clamp-2 font-light">
+                      {rel.hookEn || rel.hook}
+                    </p>
+                  )}
+                </div>
+                <div class="pt-4 mt-4 border-t border-[#1e1c18] flex items-center justify-between text-xs">
+                  <a
+                    href={`/en/stories/${rel.slugEn || rel.slug}`}
+                    class="font-semibold text-amber-400 hover:text-amber-300 font-sans"
+                  >
+                    Read Chronicle →
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      </section>
+    )}
+
+  </article>
+</Layout>

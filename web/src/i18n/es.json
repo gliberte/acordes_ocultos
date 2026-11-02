@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "name": "ACORDES OCULTOS",
+    "tagline": "Crónicas & Archivo Musical",
+    "description": "Crónicas de archivo, microhistorias de alta tensión y secretos desenterrados de las canciones que definieron generaciones."
+  },
+  "nav": {
+    "stories": "Relatos",
+    "categories": "Líneas Editoriales",
+    "book": "📘 Libro (Vol. 01)",
+    "support": "☕ Apoyar",
+    "subscribe": "Suscribirse Gratis",
+    "subscribeShort": "Suscribirse",
+    "language": "Idioma"
+  },
+  "home": {
+    "badge": "ARCHIVO DE CRÓNICAS MUSICALES",
+    "heroSubtitle": "Cada canción guarda un secreto. Descubre la historia detrás de las grabaciones más emblemáticas.",
+    "trending": "Tendencias en Instagram",
+    "latestReel": "Último Estreno Oficial",
+    "readChronicle": "Leer Crónica",
+    "watchReel": "Ver Reel",
+    "allStories": "Todos los Relatos",
+    "filterCategory": "Filtrar por categoría",
+    "searchPlaceholder": "Buscar por artista, canción o tema...",
+    "carouselTitle": "Cartelera & Avances de Historias",
+    "carouselSubtitle": "Pósteres y avances visuales oficiales emitidos en nuestras redes.",
+    "newsletterTitle": "Únete a la Cofradía de Acordes Ocultos",
+    "newsletterSubtitle": "Recibe una crónica inédita cada semana directamente en tu correo. Sin spam, solo historia y música.",
+    "newsletterButton": "Suscribirme Gratis"
+  },
+  "story": {
+    "readingTime": "minutos de lectura",
+    "by": "Por la redacción de Acordes Ocultos",
+    "share": "Compartir",
+    "relatedStories": "Crónicas Relacionadas",
+    "listenSpotify": "Escuchar en Spotify",
+    "watchInstagram": "Ver en Instagram",
+    "listenAudio": "Escuchar Relato en Audio",
+    "backHome": "Volver al Archivo",
+    "adminPreview": "Modo Vista Previa de Administrador"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "categories": "Líneas Editoriales",
+    "community": "Comunidad & Archivo",
+    "legal": "Legal & Privacidad",
+    "privacy": "Política de Privacidad",
+    "terms": "Aviso Legal y Términos",
+    "cookies": "Política de Cookies",
+    "support": "Mecenazgo"
+  }
+}

@@ -34,6 +34,7 @@
     "chronicle:html": "node scripts/generate-chronicle-html.mjs",
     "chronicle:compile": "node scripts/compile-chronicles.mjs",
     "chronicle:sync": "node scripts/sync-chronicles.mjs",
+    "chronicle:translate": "node scripts/translate-chronicle.mjs",
     "book:pdf": "node scripts/build-volume-01-complete.mjs",
     "book:build": "node scripts/build-volume-01-complete.mjs",
     "covers:optimize": "node scripts/generate-webp-covers.mjs",
@@ -41,6 +42,7 @@
     "set:reel": "node scripts/set-instagram-reel.mjs",
     "sync:reels": "node scripts/sync-instagram-reels.mjs",
     "sync:metrics": "node scripts/sync-instagram-metrics.mjs",
+    "secret-chords:status": "node scripts/secret-chords-status.mjs",
     "check": "tsc --noEmit"
   },
   "dependencies": {

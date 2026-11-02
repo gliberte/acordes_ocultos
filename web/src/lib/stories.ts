@@ -3,6 +3,8 @@ import type { StoryItem, Scene } from './types';
 import { getCategoryInfo } from './categories';
 import { extractCleanSummary } from './markdown';
 import chroniclesMap from '../data/chronicles.json';
+import chroniclesEnMap from '../data/chronicles_en.json';
+import secretChordsTracker from '../data/secret_chords_tracker.json';
 import availableCoversList from '../data/available_covers.json';
 import availableHeroesList from '../data/available_heroes.json';
 import availablePromosMap from '../data/available_promos.json';
@@ -32,6 +34,10 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'desterraron-a-su-autor-en-alta-mar-y-tardo-veinte-anos-en-ganar-el-oscar-antes-de-desgarrar-nuestra-lengua': 'jose-augusto-candilejas-acordes-ocultos',
+  'desterraronasuautorenaltamarytardoveinteanosenganareloscarantesdedesgarrarnuestralengua': 'jose-augusto-candilejas-acordes-ocultos',
+  'jose-augusto-candilejas': 'jose-augusto-candilejas-acordes-ocultos',
+  'candilejas': 'jose-augusto-candilejas-acordes-ocultos',
   'escribio-esta-cancion-a-los-23-anos-sin-entender-la-vida-y-tardo-medio-siglo-en-poder-cantarla-de-verdad': 'joni-mitchell-both-sides-now-acordes-ocultos',
   'escribioestacancionalos23anossinentenderlavidaytardomediosigloenpodercantarladeverdad': 'joni-mitchell-both-sides-now-acordes-ocultos',
   'both-sides-now': 'joni-mitchell-both-sides-now-acordes-ocultos',
@@ -583,6 +589,10 @@ function loadLocalArticles(): Record<string, string> {
   return chroniclesMap as Record<string, string>;
 }
 
+function loadLocalEnglishArticles(): Record<string, string> {
+  return (chroniclesEnMap || {}) as Record<string, string>;
+}
+
 /**
  * Loads local fallback stories from `src/data/generated/`
  */
@@ -773,6 +783,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
 
   // Hydrate content, articleSlug, summary and local WebP coverUrl for catalog items
   const localArticlesForCatalog = loadLocalArticles();
+  const localEnglishArticles = loadLocalEnglishArticles();
+  const trackerData = Array.isArray(secretChordsTracker) ? secretChordsTracker : [];
+
   for (const item of items) {
     const rawAny = item as any;
     if (!item.content && rawAny.articleMarkdown) {
@@ -823,6 +836,32 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       undefined;
     if (promoPoster) {
       item.promoPosterUrl = promoPoster;
+    }
+
+    // Hydrate English content & Secret Chords metadata
+    const matchedKeyEn =
+      (item.articleSlug && localEnglishArticles[item.articleSlug] ? item.articleSlug : null) ||
+      (localEnglishArticles[item.slug] ? item.slug : null) ||
+      (CHRONICLE_ALIASES[item.slug] && localEnglishArticles[CHRONICLE_ALIASES[item.slug]] ? CHRONICLE_ALIASES[item.slug] : null);
+
+    if (matchedKeyEn && localEnglishArticles[matchedKeyEn]) {
+      item.contentEn = localEnglishArticles[matchedKeyEn];
+      item.summaryEn = extractCleanSummary(item.contentEn);
+    }
+
+    const trackerMatch = trackerData.find((t: any) =>
+      t.slug_es === item.slug ||
+      t.slug_es === item.articleSlug ||
+      t.slug_en === item.slug ||
+      (item.articleSlug && item.articleSlug.includes(t.slug_es || '____')) ||
+      (t.song && item.songTitle && t.song.toLowerCase() === item.songTitle.toLowerCase())
+    );
+
+    if (trackerMatch) {
+      if (trackerMatch.title_en) item.titleEn = trackerMatch.title_en;
+      if (trackerMatch.hook_en) item.hookEn = trackerMatch.hook_en;
+      if (trackerMatch.slug_en) item.slugEn = trackerMatch.slug_en;
+      if (trackerMatch.r2_video_url) item.videoUrlEn = trackerMatch.r2_video_url;
     }
   }
 
@@ -884,7 +923,22 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
 export async function getStoryBySlug(slug: string, options: { includeHidden?: boolean } = {}): Promise<StoryItem | null> {
   const all = await getAllStories(options);
   const normalizedSlug = slugify(slug);
-  return all.find(s => s.slug === slug || slugify(s.slug) === normalizedSlug || s.id === slug) || null;
+  return all.find(s => 
+    s.slug === slug || 
+    slugify(s.slug) === normalizedSlug || 
+    s.id === slug ||
+    (s.slugEn && (s.slugEn === slug || slugify(s.slugEn) === normalizedSlug)) ||
+    (s.articleSlug && (s.articleSlug === slug || slugify(s.articleSlug) === normalizedSlug))
+  ) || null;
+}
+
+export async function getAllEnglishStories(options: { includeHidden?: boolean } = {}): Promise<StoryItem[]> {
+  const all = await getAllStories({ includeHidden: true });
+  let english = all.filter(s => Boolean(s.contentEn));
+  if (!options.includeHidden) {
+    english = english.filter(s => !s.isHidden);
+  }
+  return english;
 }
 
 export async function getFeaturedStory(): Promise<StoryItem | null> {

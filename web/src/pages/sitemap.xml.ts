@@ -4,6 +4,7 @@ import { getAllStories } from '../lib/stories';
 export const GET: APIRoute = async () => {
   const siteUrl = 'https://www.acordesocultos.com';
   const stories = await getAllStories({ includeHidden: false });
+  const englishStories = stories.filter(s => Boolean(s.contentEn));
 
   // Escape XML characters
   const escapeXml = (unsafe: string) =>
@@ -28,12 +29,20 @@ export const GET: APIRoute = async () => {
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Homepage -->
+  <!-- Homepage (Spanish) -->
   <url>
     <loc>${siteUrl}/</loc>
     <lastmod>${latestDate}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+
+  <!-- Homepage (English / Secret Chords) -->
+  <url>
+    <loc>${siteUrl}/en</loc>
+    <lastmod>${latestDate}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- Página Oficial del Libro Volumen 01 -->
@@ -64,11 +73,23 @@ export const GET: APIRoute = async () => {
     <priority>0.5</priority>
   </url>
 
-  <!-- Crónicas y Relatos Individuales -->
+  <!-- Crónicas y Relatos Individuales (Español) -->
 ${stories
   .map(
     (story) => `  <url>
     <loc>${siteUrl}/historias/${escapeXml(story.slug)}</loc>
+    <lastmod>${formatDate(story.publishedAt)}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>`
+  )
+  .join('\n')}
+
+  <!-- English Chronicles (Secret Chords) -->
+${englishStories
+  .map(
+    (story) => `  <url>
+    <loc>${siteUrl}/en/stories/${escapeXml(story.slugEn || story.slug)}</loc>
     <lastmod>${formatDate(story.publishedAt)}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

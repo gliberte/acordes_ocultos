@@ -3,6 +3,8 @@ import '../styles/global.css';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import CookieBanner from '../components/CookieBanner.astro';
+import type { StoryItem } from '../lib/types';
+import { getLocale, useTranslations } from '../i18n/ui';
 
 interface Props {
   title?: string;
@@ -16,6 +18,10 @@ interface Props {
   tags?: string[];
   jsonLd?: Record<string, any> | Array<Record<string, any>>;
   noindex?: boolean;
+  lang?: 'es' | 'en';
+  currentStory?: StoryItem;
+  alternateEs?: string;
+  alternateEn?: string;
 }
 
 const {
@@ -25,15 +31,34 @@ const {
   type = 'website',
   publishedTime,
   modifiedTime,
-  author = 'Acordes Ocultos',
+  author,
   section,
   tags = [],
   jsonLd,
-  noindex = false
+  noindex = false,
+  lang: propLang,
+  currentStory,
+  alternateEs,
+  alternateEn
 } = Astro.props;
+
+const currentLang = propLang || getLocale(Astro.currentLocale || Astro.url.pathname);
+const isEn = currentLang === 'en';
+const t = useTranslations(currentLang);
+const brandName = t('brand', 'name');
+const defaultAuthor = isEn ? 'Secret Chords' : 'Acordes Ocultos';
+const finalAuthor = author || defaultAuthor;
 
 const siteUrl = Astro.site?.origin || 'https://www.acordesocultos.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
+
+// Calculate alternate language URLs for hreflang SEO
+const esCanonical = alternateEs
+  ? (alternateEs.startsWith('http') ? alternateEs : `${siteUrl}${alternateEs}`)
+  : (isEn ? `${siteUrl}/` : canonicalURL.toString());
+const enCanonical = alternateEn
+  ? (alternateEn.startsWith('http') ? alternateEn : `${siteUrl}${alternateEn}`)
+  : (isEn ? canonicalURL.toString() : `${siteUrl}/en`);
 
 // Ensure Open Graph and Twitter Card images are always absolute URLs (required by WhatsApp, Twitter/X, Facebook)
 const fullImageURL = image.startsWith('http://') || image.startsWith('https://')
@@ -43,7 +68,7 @@ const fullImageURL = image.startsWith('http://') || image.startsWith('https://')
 const gaId = import.meta.env.PUBLIC_GA_ID;
 ---
 <!doctype html>
-<html lang="es" class="scroll-smooth">
+<html lang={currentLang} class="scroll-smooth">
   <head>
     {gaId && (
       <script is:inline define:vars={{ gaId }}>
@@ -130,11 +155,14 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
+    <link rel="alternate" hreflang="es" href={esCanonical} />
+    <link rel="alternate" hreflang="en" href={enCanonical} />
+    <link rel="alternate" hreflang="x-default" href={`${siteUrl}/`} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Open Graph / Facebook / WhatsApp -->
-    <meta property="og:site_name" content="Acordes Ocultos" />
-    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content={brandName} />
+    <meta property="og:locale" content={isEn ? "en_US" : "es_ES"} />
     <meta property="og:type" content={type} />
     <meta property="og:url" content={canonicalURL} />
     <meta property="og:title" content={title} />
@@ -148,7 +176,7 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
       <meta property="article:modified_time" content={modifiedTime} />
     )}
     {type === 'article' && (
-      <meta property="article:author" content={author} />
+      <meta property="article:author" content={finalAuthor} />
     )}
     {type === 'article' && section && (
       <meta property="article:section" content={section} />
@@ -195,11 +223,11 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
   </head>
   <body class="min-h-screen flex flex-col bg-[#0a0908] text-neutral-100 antialiased selection:bg-amber-600 selection:text-white">
     <div class="fixed inset-0 pointer-events-none vinyl-radial -z-10"></div>
-    <Navbar />
+    <Navbar currentStory={currentStory} />
     <main class="flex-grow">
       <slot />
     </main>
-    <Footer />
+    <Footer lang={currentLang} />
     <CookieBanner />
 
     <!-- Vercel Web Analytics & Speed Insights -->

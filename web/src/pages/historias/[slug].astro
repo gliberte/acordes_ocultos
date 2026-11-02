@@ -135,6 +135,8 @@ const articleSchema = {
   section={story.categoryLabel}
   tags={story.hashtags}
   jsonLd={articleSchema}
+  currentStory={story}
+  alternateEn={`/en/stories/${story.slugEn || story.slug}`}
 >
   <article class="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     

@@ -1,0 +1,53 @@
+{
+  "brand": {
+    "name": "SECRET CHORDS",
+    "tagline": "Music Chronicles & Untold Archive",
+    "description": "Historical chronicles, untold studio secrets, and the raw human drama behind the songs that defined generations."
+  },
+  "nav": {
+    "stories": "Chronicles",
+    "categories": "Editorial Series",
+    "book": "📘 Anthology Book",
+    "support": "☕ Tip / Support",
+    "subscribe": "Subscribe Free",
+    "subscribeShort": "Subscribe",
+    "language": "Language"
+  },
+  "home": {
+    "badge": "OFFICIAL MUSIC CHRONICLE ARCHIVE",
+    "heroSubtitle": "Every song holds a secret. Discover the real stories behind the most iconic recordings in history.",
+    "trending": "Trending Chronicles",
+    "latestReel": "Latest Official Release",
+    "readChronicle": "Read Chronicle",
+    "watchReel": "Watch Reel",
+    "allStories": "All Chronicles",
+    "filterCategory": "Filter by series",
+    "searchPlaceholder": "Search by artist, song, or era...",
+    "carouselTitle": "Story Posters & Visual Teasers",
+    "carouselSubtitle": "Official posters and documentary teasers premiered across our network.",
+    "newsletterTitle": "Join the Secret Chords Circle",
+    "newsletterSubtitle": "Receive an untold music chronicle every week directly in your inbox. No spam, pure music and history.",
+    "newsletterButton": "Subscribe Free"
+  },
+  "story": {
+    "readingTime": "min read",
+    "by": "By the Secret Chords Editorial Staff",
+    "share": "Share",
+    "relatedStories": "Related Chronicles",
+    "listenSpotify": "Listen on Spotify",
+    "watchInstagram": "Watch on Instagram",
+    "listenAudio": "Listen to Audio Chronicle",
+    "backHome": "Back to Archive",
+    "adminPreview": "Administrator Preview Mode"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "categories": "Editorial Series",
+    "community": "Community & Archive",
+    "legal": "Legal & Privacy",
+    "privacy": "Privacy Policy",
+    "terms": "Legal Notice & Terms",
+    "cookies": "Cookie Policy",
+    "support": "Patronage"
+  }
+}

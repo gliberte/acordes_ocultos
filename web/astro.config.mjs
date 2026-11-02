@@ -9,6 +9,14 @@ export default defineConfig({
   site: 'https://www.acordesocultos.com',
   output: 'server',
   adapter: vercel(),
+  i18n: {
+    defaultLocale: 'es',
+    locales: ['es', 'en'],
+    routing: {
+      prefixDefaultLocale: false,
+      redirectToDefaultLocale: false,
+    },
+  },
   server: {
     host: true,
     port: 3000

@@ -1,0 +1,273 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import BrandBanner from '../../components/BrandBanner.astro';
+import PromoStoriesCarousel from '../../components/PromoStoriesCarousel.astro';
+import { getAllEnglishStories } from '../../lib/stories';
+
+const englishStories = await getAllEnglishStories();
+
+// Top featured chronicle
+const featuredStory = englishStories[0] || null;
+const remainingStories = englishStories.slice(1);
+
+Astro.response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate');
+
+const siteUrl = 'https://www.acordesocultos.com';
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      '@id': `${siteUrl}/en#website`,
+      'url': `${siteUrl}/en`,
+      'name': 'Secret Chords',
+      'description': 'Historical music documentary chronicles, untold studio secrets, and the raw human drama behind the songs that changed the world.',
+      'inLanguage': 'en',
+      'publisher': {
+        '@id': `${siteUrl}/en#organization`
+      }
+    },
+    {
+      '@type': 'Organization',
+      '@id': `${siteUrl}/en#organization`,
+      'name': 'Secret Chords',
+      'url': `${siteUrl}/en`,
+      'logo': {
+        '@type': 'ImageObject',
+        'url': `${siteUrl}/brand/acordes-ocultos-logo-sm.webp`,
+        'caption': 'Secret Chords'
+      },
+      'sameAs': [
+        'https://instagram.com/acordesocultos72',
+        'https://tiktok.com/@acordesocultos',
+        'https://acordesocultos.gumroad.com'
+      ]
+    }
+  ]
+};
+---
+
+<Layout 
+  title="Secret Chords | Untold Music Chronicles, Secrets & Legends"
+  description="Historical music documentary chronicles, untold studio secrets, and the raw human drama behind the songs that changed the world."
+  image={featuredStory?.heroImageUrl || featuredStory?.coverUrl}
+  jsonLd={websiteSchema}
+  lang="en"
+  alternateEs="/"
+  alternateEn="/en"
+>
+  <!-- Brand Banner Official English Edition -->
+  <BrandBanner lang="en" />
+
+  <!-- Promo Stories Carousel: Vertical 9:16 Posters -->
+  {englishStories.length > 0 && (
+    <PromoStoriesCarousel stories={englishStories} />
+  )}
+
+  <!-- Main Content Container -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="stories">
+    
+    <!-- Section Header -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 border-b border-[#262420] pb-8">
+      <div>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-3 font-sans">
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+          <span>ENGLISH DOCUMENTARY ARCHIVE</span>
+          <span class="text-amber-500">•</span>
+          <span>SECRET CHORDS</span>
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
+          Untold Music Chronicles
+        </h2>
+        <p class="text-xs sm:text-sm text-neutral-400 mt-2 max-w-2xl font-sans leading-relaxed">
+          Deep investigative essays exploring the agony, redemption, and human destiny behind the recordings that shaped modern culture.
+        </p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a 
+          href="/" 
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-wider uppercase bg-[#181613] text-neutral-300 hover:text-amber-300 border border-[#2e2a24] hover:border-amber-500/50 transition-all font-sans"
+        >
+          <span>🇪🇸 Catálogo Completo en Español</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Featured Top Chronicle -->
+    {featuredStory && (
+      <section class="mb-16">
+        <div class="rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] hover:border-amber-500/50 shadow-2xl transition-all duration-300 group grid grid-cols-1 lg:grid-cols-12">
+          
+          <!-- Image Poster -->
+          <div class="lg:col-span-7 relative aspect-[16/9] lg:aspect-auto overflow-hidden bg-black select-none">
+            <div class="absolute inset-0 z-10 pointer-events-none" data-image-shield="true"></div>
+            <img
+              src={featuredStory.coverUrl}
+              alt={featuredStory.titleEn || featuredStory.title}
+              width="900"
+              height="600"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
+            />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#12100d] via-transparent to-transparent lg:hidden"></div>
+          </div>
+
+          <!-- Content Details -->
+          <div class="lg:col-span-5 p-6 sm:p-8 lg:p-10 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-amber-400 font-sans mb-3">
+                <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
+                <span>Featured Chronicle</span>
+                <span class="text-neutral-600">•</span>
+                <span class="text-neutral-400">{featuredStory.artist}</span>
+              </div>
+
+              <h3 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white group-hover:text-amber-200 transition-colors leading-tight mb-4">
+                <a href={`/en/stories/${featuredStory.slugEn || featuredStory.slug}`}>
+                  {featuredStory.titleEn || featuredStory.title}
+                </a>
+              </h3>
+
+              {(featuredStory.hookEn || featuredStory.hook) && (
+                <p class="font-serif italic text-sm sm:text-base text-amber-100/80 leading-relaxed pl-4 border-l-2 border-amber-500/60 mb-6">
+                  "{featuredStory.hookEn || featuredStory.hook}"
+                </p>
+              )}
+
+              <p class="text-xs sm:text-sm text-neutral-400 font-sans leading-relaxed font-light line-clamp-4">
+                {featuredStory.summaryEn || featuredStory.summary}
+              </p>
+            </div>
+
+            <div class="pt-6 mt-6 border-t border-[#201e1a] flex items-center justify-between">
+              <a
+                href={`/en/stories/${featuredStory.slugEn || featuredStory.slug}`}
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold font-sans uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black shadow-lg shadow-amber-950/50 transition-all transform hover:-translate-y-0.5"
+              >
+                <span>Read Full Chronicle</span>
+                <svg class="w-3.5 h-3.5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+              </a>
+
+              <span class="text-[11px] text-neutral-500 font-sans">
+                ~10 min read
+              </span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    )}
+
+    <!-- Grid of All Available English Chronicles -->
+    <section>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {remainingStories.map((item) => (
+          <article class="rounded-2xl overflow-hidden border border-[#26231e] bg-[#12100d] hover:border-amber-500/50 shadow-xl transition-all duration-300 group flex flex-col justify-between">
+            
+            <!-- Cover Image -->
+            <a href={`/en/stories/${item.slugEn || item.slug}`} class="block relative aspect-[16/9] overflow-hidden bg-black select-none">
+              <div class="absolute inset-0 z-10" data-image-shield="true"></div>
+              <img
+                src={item.coverUrl}
+                alt={item.titleEn || item.title}
+                loading="lazy"
+                decoding="async"
+                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div class="absolute top-3 left-3 z-20">
+                <span class="px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider bg-black/80 backdrop-blur-md text-amber-300 border border-amber-500/40 shadow-lg font-sans">
+                  Secret Chords
+                </span>
+              </div>
+            </a>
+
+            <!-- Card Content -->
+            <div class="p-6 flex flex-col justify-between flex-grow">
+              <div>
+                <p class="text-[11px] font-bold uppercase tracking-widest text-amber-400 font-sans mb-1.5">
+                  {item.artist}
+                </p>
+
+                <h3 class="font-serif text-lg sm:text-xl font-bold text-white group-hover:text-amber-200 transition-colors leading-snug line-clamp-2">
+                  <a href={`/en/stories/${item.slugEn || item.slug}`}>
+                    {item.titleEn || item.title}
+                  </a>
+                </h3>
+
+                {(item.hookEn || item.hook) && (
+                  <p class="text-xs text-neutral-400 font-sans mt-3 line-clamp-2 leading-relaxed font-light">
+                    "{item.hookEn || item.hook}"
+                  </p>
+                )}
+              </div>
+
+              <!-- Card Action Button -->
+              <div class="pt-5 mt-5 border-t border-[#1e1c18] flex items-center justify-between">
+                <a
+                  href={`/en/stories/${item.slugEn || item.slug}`}
+                  class="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-amber-400 hover:text-amber-300 font-sans transition-colors"
+                >
+                  <span>Read Chronicle</span>
+                  <svg class="w-3.5 h-3.5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+
+                <span class="text-[11px] text-neutral-500 font-sans">
+                  Archive Essay
+                </span>
+              </div>
+            </div>
+
+          </article>
+        ))}
+      </div>
+    </section>
+
+    <!-- English Newsletter / Community Section -->
+    <section class="mt-20 rounded-3xl border border-amber-500/30 bg-gradient-to-b from-[#14120e] to-[#0a0908] p-8 sm:p-12 text-center max-w-4xl mx-auto shadow-2xl relative overflow-hidden" id="newsletter">
+      <div class="absolute -top-24 -left-24 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="relative z-10">
+        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-4 font-sans">
+          <span>📬 FREE WEEKLY CHRONICLE</span>
+        </span>
+        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">
+          Join the Secret Chords Circle
+        </h3>
+        <p class="text-xs sm:text-sm text-neutral-400 max-w-xl mx-auto font-sans leading-relaxed mb-6 font-light">
+          Every Sunday, an untold music chronicle delivered directly to your inbox. The studio fights, the confessions, and the historical records behind the songs you love.
+        </p>
+
+        <form 
+          action="https://acordesocultos.substack.com/api/v1/free" 
+          method="post" 
+          target="_blank"
+          class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto"
+        >
+          <input
+            type="email"
+            name="email"
+            placeholder="Your email address..."
+            required
+            class="w-full px-4 py-3 rounded-full bg-[#181613] border border-[#2e2a24] text-white text-xs placeholder-neutral-500 focus:outline-none focus:border-amber-500 font-sans"
+          />
+          <button
+            type="submit"
+            class="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold text-xs uppercase tracking-wider transition-all shrink-0 font-sans shadow-lg shadow-amber-950/40"
+          >
+            Subscribe Free
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+</Layout>
