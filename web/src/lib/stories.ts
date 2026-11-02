@@ -34,6 +34,8 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'jose-augusto-candilejas-acordes-ocultos': 'jose-augusto-candilejas-acordes-ocultos',
+  'desterraron-a-su-autor-y-vetaron-su-melodia-veinte-anos-antes-de-desgarrarnos-en-espanol': 'jose-augusto-candilejas-acordes-ocultos',
   'desterraron-a-su-autor-en-alta-mar-y-tardo-veinte-anos-en-ganar-el-oscar-antes-de-desgarrar-nuestra-lengua': 'jose-augusto-candilejas-acordes-ocultos',
   'desterraronasuautorenaltamarytardoveinteanosenganareloscarantesdedesgarrarnuestralengua': 'jose-augusto-candilejas-acordes-ocultos',
   'jose-augusto-candilejas': 'jose-augusto-candilejas-acordes-ocultos',
