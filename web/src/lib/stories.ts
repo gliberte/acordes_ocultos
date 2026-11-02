@@ -32,6 +32,9 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'escribio-esta-cancion-a-los-23-anos-sin-entender-la-vida-y-tardo-medio-siglo-en-poder-cantarla-de-verdad': 'joni-mitchell-both-sides-now-acordes-ocultos',
+  'escribioestacancionalos23anossinentenderlavidaytardomediosigloenpodercantarladeverdad': 'joni-mitchell-both-sides-now-acordes-ocultos',
+  'both-sides-now': 'joni-mitchell-both-sides-now-acordes-ocultos',
   'el-ladron-de-pelo-largo-que-obligo-a-una-madre-a-mirarse-al-espejo': 'joan-manuel-serrat-senora-historia-en-los-acordes',
   'elladrondepelolargoqueobligoaunamadreamirarsealespejo': 'joan-manuel-serrat-senora-historia-en-los-acordes',
   'a-un-dia-luz-de-la-tierra-entendio-que-ninguna-frontera-vale-una-vida': 'la-oreja-de-van-gogh-europa-vii-historia-en-los-acordes',
