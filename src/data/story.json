@@ -1,23 +1,23 @@
 {
   "brand": "acordes-ocultos",
-  "title": "La balada que le prohibieron regalar a Julio Iglesias",
-  "artist": "José Luis Perales",
-  "slug": "jose-luis-perales-y-como-es-el-acordes-ocultos",
-  "articleSlug": "jose-luis-perales-y-como-es-el-acordes-ocultos",
+  "title": "El amor que un periódico salvó del olvido",
+  "artist": "Víctor Manuel",
+  "slug": "victor-manuel-solo-pienso-en-ti-acordes-ocultos",
+  "articleSlug": "victor-manuel-solo-pienso-en-ti-acordes-ocultos",
   "durationSeconds": 90,
   "topic": "acordes-ocultos",
-  "anecdote": "La verdadera historia detrás de «¿Y cómo es él?» (1982) de José Luis Perales: durante décadas se creyó que la escribió para su hija, pero en realidad fue un encargo para Julio Iglesias tras su dolorosa separación de Isabel Preysler. Perales se metió en la piel de Julio para componer una despedida caballerosa y elegante. Sin embargo, al escuchar la maqueta cantada por Perales con su voz tímida y rota, la discográfica Hispavox le prohibió regalarla y le obligó a grabarla él mismo, convirtiéndose en el mayor éxito mundial de su carrera.",
-  "hook": "Durante cuatro décadas creíste que era una canción para su hija, pero la verdad oculta es mucho más fascinante y dolorosa.",
+  "anecdote": "La verdadera historia detrás de «Sólo pienso en ti» (1979) de Víctor Manuel: no nació de una musa poética, sino de un reportaje en el Diario de Córdoba sobre Antonio y Mari Luz, dos internos con discapacidad intelectual en la residencia PROMI de Cabra. En una España que los ocultaba con vergüenza, ellos se enamoraron y paseaban de la mano por el jardín. Conmovido, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas. El tema se convirtió en un himno nacional que derribó los prejuicios médicos y eclesiásticos, permitiéndoles casarse y formar una familia.",
+  "hook": "Durante décadas creíste que era solo una balada de amor, pero nació de dos almas que el mundo intentó esconder.",
   "beats": [
-    "En 1981, el sonado divorcio de Julio Iglesias e Isabel Preysler ocupaba las portadas de todas las revistas del corazón.",
-    "Isabel había rehecho su vida casándose con un marqués, dejando a Julio sumido en una silenciosa y elegante derrota.",
-    "A petición de los productores, José Luis Perales aceptó componer un tema poniéndose en la piel herida de Julio Iglesias.",
-    "Imaginó las preguntas que un caballero despechado le haría a su gran amor: quién era ese ladrón que le robaba todo.",
-    "Pero al escuchar la maqueta en su voz tímida y rota, los directores de la discográfica dieron una orden terminante e inapelable.",
-    "Le prohibieron regalarla: «Esta joya no se la das a Julio ni a nadie; la grabas tú o se queda guardada».",
-    "Perales se resistió temiendo que el público dudara de su propio matrimonio, pero la canción lo catapultó a la cumbre mundial."
+    "En los años setenta, el estigma social condenaba a miles de personas con discapacidad al aislamiento más doloroso y al olvido.",
+    "Mari Luz cargaba desde bebé con una lesión cerebral irreversible, tras un desafortunado accidente doméstico que marcó para siempre el destino de su familia.",
+    "A Antonio su propia familia lo internó para esconder su condición; ambos terminaron encontrándose en la residencia PROMI de Cabra, en Córdoba.",
+    "Allí, entre talleres y paseos por el jardín, nació un afecto puro y silencioso que desafió el estigma más cruel de su tiempo.",
+    "En noviembre de 1978, Víctor Manuel hacía tiempo en una cafetería de Montilla cuando un reportaje en el periódico local le partió el corazón.",
+    "Conmovido por la foto de ambos caminando juntos, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas y el dolor de sus orígenes.",
+    "La pareja debió enfrentarse al rechazo social e incluso al obispado para exigir su derecho legal y eclesiástico a casarse como personas libres."
   ],
-  "outro": "Las grandes despedidas no nacen del odio ni del rencor, sino de la nobleza de desearle abrigo a quien ya no te ama.",
+  "outro": "El amor auténtico no entiende de diagnósticos ni barreras sociales; cuando dos almas deciden cuidarse, no existe poder humano capaz de separarlas.",
   "palette": {
     "ink": "#1c1917",
     "paper": "#faf7f2",
@@ -25,67 +25,67 @@
     "glow": "#d97706"
   },
   "music": {
-    "title": "¿Y cómo es él?",
-    "artist": "José Luis Perales",
-    "src": "music/jose-luis-perales-y-como-es-el.mp3",
-    "file": "music/jose-luis-perales-y-como-es-el.mp3",
+    "title": "Sólo pienso en ti",
+    "artist": "Víctor Manuel",
+    "src": "music/victor-manuel-solo-pienso-en-ti.mp3",
+    "file": "music/victor-manuel-solo-pienso-en-ti.mp3",
     "startSecond": 0,
     "volume": 0.75,
     "instagram": {
-      "query": "Jose Luis Perales Y Como Es El",
-      "expectedTitle": "¿Y cómo es él?",
-      "expectedArtist": "José Luis Perales",
+      "query": "Victor Manuel Solo Pienso En Ti",
+      "expectedTitle": "Sólo pienso en ti",
+      "expectedArtist": "Víctor Manuel",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de ¿Y cómo es él? de José Luis Perales en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Sólo pienso en ti de Víctor Manuel en Instagram Reels."
     }
   },
-  "coverBg": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 photorealistic archival portrait of Spanish singer-songwriter José Luis Perales in 1982, 35mm film grain, warm natural directional lighting, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, smooth clean-shaven face, wavy dark-brown hair, gentle handsome Mediterranean features, soulful melancholic brown eyes, wearing a classic brown corduroy blazer over a beige knit turtleneck) sits resting his Spanish classical guitar on his lap in a warm Madrid recording studio lounge. Thoughtful, vulnerable and dignified expression. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
+  "coverBg": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 photorealistic archival portrait of Spanish singer-songwriter Víctor Manuel in 1979, 35mm film grain, warm natural directional lighting, NO readable text anywhere. A 32-year-old Víctor Manuel (clean-shaven, thick dark wavy hair, expressive warm Mediterranean features, soulful melancholic brown eyes, wearing a dark corduroy blazer over a beige knit turtleneck) sits holding an acoustic Spanish guitar in a rustic Andalusian patio, thoughtful, gentle, dignified expression. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
   "assets": [
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-01.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-01.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1982 photograph style, 35mm Kodachrome film grain, warm natural morning sunlight, NO readable text anywhere. Candid shot in a green Madrid park in spring 1982: a gentle 37-year-old José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy hair, casual 80s knit sweater) walking hand-in-hand with his tiny 3-year-old toddler daughter María (sweet toddler in a little floral dress and white shoes), bending down tenderly to smile at her. Warm wholesome parental moment completely disproving the myth that the song was for a grown daughter. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1970s documentary still, 35mm grain, moody natural light filtering through sheer curtains, NO readable text anywhere. A solitary young man with gentle Mediterranean features looking out from an open bedroom window towards an Andalusian town, melancholic yet serene expression, deep emotional vulnerability, vintage 70s muted tones, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-02.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-02.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 scene, 35mm film grain, soft elegant interior lighting, NO readable text anywhere. On a polished dark mahogany coffee table in an upscale Spanish living room, several vintage European society magazines from 1981 are laid out; photographs visible show Julio Iglesias in a sharp suit and Isabel Preysler at high-society galas. A glass of wine rests beside the papers, capturing the intense media storm of their historic separation. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1960s warm memory vignette, 35mm Kodachrome grain, soft gentle natural light, NO readable text anywhere. A loving Spanish mother in a vintage floral apron holding her tender infant daughter in a rustic Andalusian courtyard filled with terracotta pots and warm stone walls, intimate emotional portrait of fragile childhood, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-03.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-03.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 film still, 35mm film grain, moody golden twilight lighting, NO readable text anywhere. Melancholic portrait of Julio Iglesias in 1981: sitting alone on the terrace of a luxury suite overlooking the twilight sea, holding a glass, dressed in an immaculate cream linen blazer and open-collar shirt, looking out into the dusk with a mix of aristocratic pride and deep personal solitude as his ex-wife marries an aristocrat. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1978 documentary photograph, 35mm film grain, warm afternoon sun, NO readable text anywhere. Wide shot of the sunlit gardens and white stone arches of the PROMI residential institute in Cabra, Córdoba: young residents in modest late-70s clothing learning crafts and tending to orange trees, a sanctuary of dignity and community, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-04.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-04.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 songwriting still, 35mm film grain, warm afternoon sunlight filtering through curtains, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing a cozy wool knit sweater) sitting in his country house music room in Cuenca, Spain: seated at an acoustic upright piano with his Spanish nylon-string guitar leaning nearby, pencil poised over handwritten sheet music, deep in creative focus as he imagines the questions Julio would ask the woman who left him. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1978 candid documentary still, 35mm grain, golden hour backlight, NO readable text anywhere. Antonio and Mari Luz as a young Spanish couple in their early twenties, walking side by side through an olive garden path, shyly holding hands, tender smiles of genuine innocent love and complicity, natural candid posture, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-05.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-05.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic cinematic narrative recreation, 35mm film grain, cinematic chiaroscuro on a rainy evening, NO readable text anywhere. An emotional and elegant scene: in the doorway of a classic apartment, an elegant brunette woman in a tailored grey wool overcoat turns back slightly while holding a black umbrella; in the warm foreground shadow, a man watches her leave in silence, holding her forgotten scarf, a moment of polite, heartbreaking parting without anger. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1978 candid portrait, 35mm Kodachrome grain, atmospheric café light, NO readable text anywhere. A 31-year-old Spanish singer-songwriter Víctor Manuel (clean-shaven, thick dark wavy hair, 70s corduroy jacket) seated at a wooden table in a classic Andalusian café with a small coffee cup, deeply absorbed reading a broadsheet newspaper, emotional thoughtful gaze, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-06.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-06.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1982 music industry office scene, 35mm Kodak grain, warm executive office lighting, NO readable text anywhere. Inside the Hispavox record label headquarters in Madrid in 1982: a vintage reel-to-reel tape machine slowly rotating on a desk; seasoned record producers and music executives in suits listen in total silence, captivated by the raw emotion of Perales's demo tape, exchanging knowing glances that this is a historic hit. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1978 still, 35mm grain, warm lamplight, NO readable text anywhere. Víctor Manuel in a cozy hotel room in Montilla late at night, seated on an armchair with a Spanish nylon-string guitar in his hands, notebook on his knees, singing softly as melodies take shape, poetic creative intimacy, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-07.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-07.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1982 drama still, 35mm film grain, warm office lamp lighting, NO readable text anywhere. Medium shot inside the record label boardroom: José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, brown blazer) leaning forward in an armchair, gesturing with humble modesty as he argues he only wrote it for Julio Iglesias; across the table, the stern record company director crosses his arms with a friendly yet unyielding smile, refusing to let the song go to anyone else. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1979 courtroom and parish hall drama, 35mm grain, solemn church office lighting, NO readable text anywhere. Antonio and Mari Luz standing side by side before an official wooden desk with dignified posture, holding hands tightly, calm and resolute expressions defending their love against conservative authorities, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-08.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-08.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1982 television gala performance, 35mm grain, golden television stage spotlight, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing an elegant dark suit) singing passionately into a vintage chrome microphone on a grand television stage, orchestra strings dimly glowing in the blue background, his heartfelt, gentle voice transmitting the universal pain of the song to millions of viewers across the globe. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1979 concert and wedding celebration still, 35mm grain, warm celebration light, NO readable text anywhere. Antonio and Mari Luz on their wedding day in Córdoba, smiling radiantly surrounded by supportive friends, simple modest wedding clothes, genuine joy and triumph over prejudice, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-09.png",
+      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-09.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic cinematic poetic still life, 35mm film grain, soft warm amber hallway light, NO people, NO turntables, NO vinyl records, NO needles, NO readable text anywhere. A classic dark umbrella with a polished wooden curved handle leans gently against the frame of an open front door; on the wet stone porch outside, raindrops glisten softly under an amber streetlamp, evoking the quiet dignity of letting someone go with tenderness and care. Bottom 30 percent in deep dark shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic still, 35mm grain, gentle twilight over an Andalusian countryside road, NO readable text anywhere. An elderly couple in humble modern clothing walking together into the soft evening horizon, hands tenderly linked, peaceful and enduring love story spanning decades, quiet poetic dignity, bottom 30 percent in deep shadow."
     }
   ],
   "scenes": [
@@ -93,87 +93,78 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "Durante cuatro décadas creíste que era una canción para su hija, pero la verdad oculta es mucho más fascinante y dolorosa.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-01.png",
-      "assetIndex": 0,
-      "prompt": "Vertical 9:16 photorealistic archival 1982 photograph style, 35mm Kodachrome film grain, warm natural morning sunlight, NO readable text anywhere. Candid shot in a green Madrid park in spring 1982: a gentle 37-year-old José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy hair, casual 80s knit sweater) walking hand-in-hand with his tiny 3-year-old toddler daughter María (sweet toddler in a little floral dress and white shoes), bending down tenderly to smile at her. Warm wholesome parental moment completely disproving the myth that the song was for a grown daughter. Bottom 30 percent in deep shadow."
+      "text": "En la España de los setenta, el estigma social condenaba a miles de personas con discapacidad al aislamiento más doloroso y al olvido.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-01.png",
+      "assetIndex": 0
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "En 1981, el sonado divorcio de Julio Iglesias e Isabel Preysler ocupaba las portadas de todas las revistas del corazón.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-02.png",
-      "assetIndex": 1,
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 scene, 35mm film grain, soft elegant interior lighting, NO readable text anywhere. On a polished dark mahogany coffee table in an upscale Spanish living room, several vintage European society magazines from 1981 are laid out; photographs visible show Julio Iglesias in a sharp suit and Isabel Preysler at high-society galas. A glass of wine rests beside the papers, capturing the intense media storm of their historic separation. Bottom 30 percent in deep shadow."
+      "text": "Mari Luz cargaba desde bebé con una lesión cerebral irreversible, tras un desafortunado accidente doméstico que marcó para siempre el destino de su familia.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-02.png",
+      "assetIndex": 1
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Isabel había rehecho su vida casándose con un marqués, dejando a Julio sumido en una silenciosa y elegante derrota.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-03.png",
-      "assetIndex": 2,
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 film still, 35mm film grain, moody golden twilight lighting, NO readable text anywhere. Melancholic portrait of Julio Iglesias in 1981: sitting alone on the terrace of a luxury suite overlooking the twilight sea, holding a glass, dressed in an immaculate cream linen blazer and open-collar shirt, looking out into the dusk with a mix of aristocratic pride and deep personal solitude as his ex-wife marries an aristocrat. Bottom 30 percent in deep shadow."
+      "text": "A Antonio su propia familia lo internó para esconder su condición; ambos terminaron encontrándose en la residencia PROMI de Cabra, en Córdoba.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-03.png",
+      "assetIndex": 2
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "A petición de los productores, José Luis Perales aceptó componer un tema poniéndose en la piel herida de Julio Iglesias.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-04.png",
-      "assetIndex": 3,
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 songwriting still, 35mm film grain, warm afternoon sunlight filtering through curtains, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing a cozy wool knit sweater) sitting in his country house music room in Cuenca, Spain: seated at an acoustic upright piano with his Spanish nylon-string guitar leaning nearby, pencil poised over handwritten sheet music, deep in creative focus as he imagines the questions Julio would ask the woman who left him. Bottom 30 percent in deep shadow."
+      "text": "Allí, entre talleres y paseos por el jardín, nació un afecto puro y silencioso que desafió el estigma más cruel de su tiempo.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-04.png",
+      "assetIndex": 3
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Imaginó las preguntas que un caballero despechado le haría a su gran amor: quién era ese ladrón que le robaba todo.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-05.png",
-      "assetIndex": 4,
-      "prompt": "Vertical 9:16 photorealistic cinematic narrative recreation, 35mm film grain, cinematic chiaroscuro on a rainy evening, NO readable text anywhere. An emotional and elegant scene: in the doorway of a classic apartment, an elegant brunette woman in a tailored grey wool overcoat turns back slightly while holding a black umbrella; in the warm foreground shadow, a man watches her leave in silence, holding her forgotten scarf, a moment of polite, heartbreaking parting without anger. Bottom 30 percent in deep shadow."
+      "text": "En noviembre de 1978, Víctor Manuel hacía tiempo en una cafetería de Montilla cuando un reportaje en el periódico local le partió el corazón.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-05.png",
+      "assetIndex": 4
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Pero al escuchar la maqueta en su voz tímida y rota, los directores de la discográfica dieron una orden terminante e inapelable.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-06.png",
-      "assetIndex": 5,
-      "prompt": "Vertical 9:16 photorealistic archival 1982 music industry office scene, 35mm Kodak grain, warm executive office lighting, NO readable text anywhere. Inside the Hispavox record label headquarters in Madrid in 1982: a vintage reel-to-reel tape machine slowly rotating on a desk; seasoned record producers and music executives in suits listen in total silence, captivated by the raw emotion of Perales's demo tape, exchanging knowing glances that this is a historic hit. Bottom 30 percent in deep shadow."
+      "text": "Conmovido por la foto de ambos caminando juntos, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas y el dolor de sus orígenes.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-06.png",
+      "assetIndex": 5
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Le prohibieron regalarla: «Esta joya no se la das a Julio ni a nadie; la grabas tú o se queda guardada».",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-07.png",
-      "assetIndex": 6,
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1982 drama still, 35mm film grain, warm office lamp lighting, NO readable text anywhere. Medium shot inside the record label boardroom: José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, brown blazer) leaning forward in an armchair, gesturing with humble modesty as he argues he only wrote it for Julio Iglesias; across the table, the stern record company director crosses his arms with a friendly yet unyielding smile, refusing to let the song go to anyone else. Bottom 30 percent in deep shadow."
+      "text": "La pareja debió enfrentarse al rechazo social e incluso al obispado para exigir su derecho legal y eclesiástico a casarse como personas libres.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-07.png",
+      "assetIndex": 6
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Perales se resistió temiendo que el público dudara de su propio matrimonio, pero la canción lo catapultó a la cumbre mundial.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-08.png",
-      "assetIndex": 7,
-      "prompt": "Vertical 9:16 photorealistic archival 1982 television gala performance, 35mm grain, golden television stage spotlight, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing an elegant dark suit) singing passionately into a vintage chrome microphone on a grand television stage, orchestra strings dimly glowing in the blue background, his heartfelt, gentle voice transmitting the universal pain of the song to millions of viewers across the globe. Bottom 30 percent in deep shadow."
+      "text": "En 1979 el tema sacudió a España: no solo fue un éxito masivo, sino el himno que abrió las puertas a su boda soñada.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-08.png",
+      "assetIndex": 7
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Las grandes despedidas no nacen del odio ni del rencor, sino de la nobleza de desearle abrigo a quien ya no te ama.",
-      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-09.png",
-      "assetIndex": 8,
-      "prompt": "Vertical 9:16 photorealistic cinematic poetic still life, 35mm film grain, soft warm amber hallway light, NO people, NO turntables, NO vinyl records, NO needles, NO readable text anywhere. A classic dark umbrella with a polished wooden curved handle leans gently against the frame of an open front door; on the wet stone porch outside, raindrops glisten softly under an amber streetlamp, evoking the quiet dignity of letting someone go with tenderness and care. Bottom 30 percent in deep dark shadow."
+      "text": "El amor auténtico no entiende de diagnósticos ni barreras sociales; cuando dos almas deciden cuidarse, no existe poder humano capaz de separarlas.",
+      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-09.png",
+      "assetIndex": 8
     }
   ],
   "publication": {
-    "title": "La balada que le prohibieron regalar a Julio Iglesias",
-    "description": "Durante cuatro décadas creíste que se la escribió a su hija, pero en realidad fue el doloroso desahogo de Julio Iglesias que su disquera le prohibió regalar.\n\nA comienzos de los ochenta, España seguía el divorcio de Julio Iglesias e Isabel Preysler, quien poco después rehizo su vida con el marqués de Griñón. Para poner voz al duelo del cantante en Miami, el productor Ramón Arcusa le encargó a José Luis Perales una canción a medida. Perales se metió en la piel de un caballero herido que despide a su expareja con una delicadeza desgarradora: preguntando con celos quién es su nuevo amor, pero pidiéndole que se abrigue y lleve el paraguas por si llueve.\n\nSin embargo, al escuchar la maqueta en la voz íntima y rota de Perales, Hispavox fue tajante: «Esta canción no se la das a Julio ni a nadie. La cantas tú o no sale». Perales se resistió temiendo que dudaran de su propio matrimonio, pero la discográfica se impuso, transformando un dolor ajeno en el mayor himno de su carrera.\n\n¿Qué canción te ha enseñado a despedir un gran amor con dignidad?\n\nLa crónica extendida y los documentos de archivo están en el enlace del perfil.\n\n#JoseLuisPerales #YComoEsEl #JulioIglesias #AcordesOcultos #Baladas",
-    "tiktokDescription": "Creías que era para su hija, pero era el dolor de Julio Iglesias que le prohibieron regalar. 💔 La historia real de «¿Y cómo es él?». 👇\n\n#JoseLuisPerales #YComoEsEl #JulioIglesias #AcordesOcultos #HistoriaDeLaMusica #Música"
+    "title": "El amor que un periódico salvó del olvido",
+    "description": "Durante décadas creíste que era una simple balada poética, pero nació de un periódico sobre dos almas que el mundo intentó esconder.\n\nA finales de los setenta, en la España del estigma y la incomprensión, dos jóvenes con discapacidad intelectual internados en la residencia PROMI de Cabra (Córdoba) se enamoraron. Antonio había sido relegado por su propia familia; Mari Luz cargaba con las secuelas de un accidente infantil. En una época donde su amor era considerado un tabú legal y eclesiástico, ambos se aferraron de las manos en los jardines del centro, decididos a casarse y formar un hogar.\n\nEn noviembre de 1978, Víctor Manuel leía el diario en un café de Montilla antes de un concierto. La ternura de aquella fotografía le partió el corazón y compuso «Sólo pienso en ti» hacia atrás, imaginando sus heridas. El tema no solo llegó a lo más alto de las listas; derribó los muros del prejuicio, permitió su matrimonio y acompañó a una pareja que crió a sus propios hijos demostrando la fuerza invencible de la dignidad humana.\n\n¿Qué canción te ha demostrado que el amor verdadero no entiende de barreras ni diagnósticos?\n\nLa crónica completa con los documentos y fotos de archivo está en el enlace de nuestro perfil.\n\n#VictorManuel #SoloPiensoEnTi #AcordesOcultos #MusicaEspanola #HistoriasReales",
+    "tiktokDescription": "Creías que era solo una canción de amor, pero nació de dos almas que el mundo intentó ocultar. 🕊️ La historia real de «Sólo pienso en ti». 👇\n\n#VictorManuel #SoloPiensoEnTi #AcordesOcultos #HistoriaDeLaMusica #Inspiracion"
   }
 }
