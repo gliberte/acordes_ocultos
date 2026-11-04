@@ -2,13 +2,20 @@
 // web/src/components/BookLaunchBar.astro
 // Barra sutil en la cabecera anunciando el libro oficial en su semana de lanzamiento
 // Incluye miniatura en perspectiva 3D del libro físico con lomo y grosor de 241 páginas
+
+interface Props {
+  lang?: 'es' | 'en';
+}
+
+const { lang = 'es' } = Astro.props;
+const isEn = lang === 'en';
 ---
 
 <div
   id="book-launch-bar"
   class="relative z-50 w-full bg-gradient-to-r from-[#14100b] via-[#21170d] to-[#14100b] border-b border-amber-500/30 text-neutral-200 shadow-lg shadow-black/40 overflow-hidden transition-all duration-300"
   role="region"
-  aria-label="Barra de anuncio: Lanzamiento del libro oficial Acordes Ocultos"
+  aria-label={isEn ? "Announcement: Official Secret Chords Anthology Book Launch" : "Barra de anuncio: Lanzamiento del libro oficial Acordes Ocultos"}
 >
   <!-- Ambient subtle golden shimmer -->
   <div class="absolute inset-0 bg-[radial-gradient(ellipse_at_50%_0%,rgba(245,158,11,0.15)_0%,transparent_70%)] pointer-events-none"></div>
@@ -19,14 +26,14 @@
     <a
       href="/libro"
       class="flex items-center gap-2.5 sm:gap-3.5 flex-1 min-w-0 group hover:opacity-95 transition-opacity py-0.5"
-      title="Conoce el Libro Oficial: Acordes Ocultos — Volumen 01"
+      title={isEn ? "Discover the Official Book: Secret Chords — Volume 01" : "Conoce el Libro Oficial: Acordes Ocultos — Volumen 01"}
     >
       <!-- Imagen del Libro en Perspectiva de Libro Físico 3D con la Portada Oficial -->
       <div class="relative shrink-0 flex items-center justify-center">
         <div class="relative h-9 sm:h-11 w-auto aspect-[200/305] rounded-sm overflow-visible drop-shadow-[0_4px_12px_rgba(0,0,0,0.9)] group-hover:scale-105 group-hover:-rotate-1 transition-all duration-300">
           <img
             src="/book/libro-fisico-3d-thumb.webp"
-            alt="Libro físico Acordes Ocultos Volumen 1 con portada oficial y 241 páginas"
+            alt={isEn ? "Official Secret Chords Volume 1 book in 3D perspective" : "Libro físico Acordes Ocultos Volumen 1 con portada oficial y 241 páginas"}
             width="200"
             height="305"
             class="h-full w-auto object-contain filter contrast-[1.05]"
@@ -45,21 +52,21 @@
       <div class="flex items-center gap-2 flex-wrap min-w-0">
         <!-- Badge Edición Oficial -->
         <span class="hidden sm:inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-300 border border-amber-500/35 shrink-0 font-sans">
-          <span>📖</span> Edición Oficial
+          <span>📖</span> {isEn ? "Official Edition" : "Edición Oficial"}
         </span>
 
         <!-- Mensaje principal -->
         <div class="flex items-center gap-1.5 text-[11px] sm:text-xs font-sans text-neutral-200 truncate sm:overflow-visible">
           <span class="font-serif font-bold text-amber-300 tracking-wide">
-            Libro Oficial Vol. I
+            {isEn ? "Official Anthology Vol. I" : "Libro Oficial Vol. I"}
           </span>
           <span class="hidden md:inline text-neutral-400">·</span>
           <span class="hidden md:inline text-neutral-300">
-            28 relatos documentales (241 págs.)
+            {isEn ? "28 music chronicles (241 pages)" : "28 relatos documentales (241 págs.)"}
           </span>
           <span class="text-neutral-400">·</span>
           <span class="text-neutral-300 font-medium">
-            En <strong class="text-amber-400 font-bold">Amazon Kindle</strong> & Gumroad
+            {isEn ? "On " : "En "}<strong class="text-amber-400 font-bold">Amazon Kindle</strong> & Gumroad
           </span>
           <span class="hidden lg:inline text-neutral-400 text-[11px]">
             ($9.99 USD)
@@ -70,7 +77,7 @@
       <!-- Botón CTA Desktop -->
       <div class="hidden sm:flex items-center shrink-0 ml-auto mr-1">
         <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black shadow-sm group-hover:from-amber-400 group-hover:to-amber-300 transition-all transform group-hover:translate-x-0.5">
-          <span>Ver Libro</span>
+          <span>{isEn ? "View Book" : "Ver Libro"}</span>
           <svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
           </svg>
@@ -83,16 +90,16 @@
       href="/libro"
       class="sm:hidden shrink-0 px-2.5 py-1 rounded-full text-[10px] font-bold uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black shadow-sm hover:from-amber-400 hover:to-amber-300 active:scale-95 transition-all"
     >
-      Ver →
+      {isEn ? "View →" : "Ver →"}
     </a>
 
     <!-- Botón para cerrar / descartar sutilmente -->
     <button
       id="close-book-bar-btn"
       type="button"
-      aria-label="Cerrar anuncio"
+      aria-label={isEn ? "Dismiss announcement" : "Cerrar anuncio"}
       class="shrink-0 p-1 text-neutral-400 hover:text-amber-300 hover:bg-white/5 rounded transition-colors focus:outline-none focus:ring-1 focus:ring-amber-500/50"
-      title="Cerrar anuncio"
+      title={isEn ? "Dismiss announcement" : "Cerrar anuncio"}
     >
       <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />

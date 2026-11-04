@@ -59,7 +59,7 @@ if (currentStory) {
 ---
 
 <header class="sticky top-0 z-50 backdrop-blur-md bg-[#0a0908]/90 border-b border-[#262420]">
-  {isNotAdmin && <BookLaunchBar />}
+  {isNotAdmin && <BookLaunchBar lang={locale} />}
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
     <!-- Logo & Brand -->
     <a href={isEn ? '/en' : '/'} class="flex items-center gap-3 group shrink-0">
@@ -134,6 +134,127 @@ if (currentStory) {
         <span class="hidden sm:inline">{t('nav', 'subscribe')}</span>
         <span class="sm:hidden">{t('nav', 'subscribeShort')}</span>
       </a>
+
+      <!-- Mobile Menu Hamburger Button -->
+      <button
+        id="mobile-menu-toggle-btn"
+        type="button"
+        class="lg:hidden p-2 rounded-xl bg-[#161412] hover:bg-[#201d19] border border-[#2e2a24] text-neutral-300 hover:text-amber-400 transition-colors focus:outline-none focus:ring-1 focus:ring-amber-500 shrink-0 cursor-pointer"
+        aria-label={isEn ? "Toggle navigation menu" : "Abrir menú de navegación"}
+        aria-expanded="false"
+        aria-controls="mobile-nav-drawer"
+      >
+        <svg id="hamburger-icon" class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="close-icon" class="hidden w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Navigation Drawer -->
+  <div
+    id="mobile-nav-drawer"
+    class="hidden lg:hidden border-t border-[#262420] bg-[#0e0d0b]/98 backdrop-blur-xl px-4 py-5 shadow-2xl transition-all duration-300"
+  >
+    <div class="max-w-md mx-auto space-y-2.5">
+      <a
+        href={isEn ? '/en#stories' : '/#historias'}
+        class="mobile-nav-link flex items-center justify-between p-3 rounded-xl bg-[#151310] hover:bg-[#1f1b16] border border-[#2b2721] hover:border-amber-500/40 text-neutral-200 hover:text-amber-300 transition-all font-medium text-sm"
+      >
+        <span class="flex items-center gap-2.5"><span>📜</span><span>{t('nav', 'stories')}</span></span>
+        <svg class="w-4 h-4 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+      <a
+        href={isEn ? '/en#series' : '/#categorias'}
+        class="mobile-nav-link flex items-center justify-between p-3 rounded-xl bg-[#151310] hover:bg-[#1f1b16] border border-[#2b2721] hover:border-amber-500/40 text-neutral-200 hover:text-amber-300 transition-all font-medium text-sm"
+      >
+        <span class="flex items-center gap-2.5"><span>🏷️</span><span>{t('nav', 'categories')}</span></span>
+        <svg class="w-4 h-4 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+      </a>
+      <a
+        href="/libro"
+        class="mobile-nav-link flex items-center justify-between p-3 rounded-xl bg-gradient-to-r from-amber-500/15 via-[#1a1712] to-amber-950/20 border border-amber-500/40 text-amber-300 hover:text-amber-200 transition-all font-bold text-sm shadow-sm"
+      >
+        <span class="flex items-center gap-2.5"><span>📘</span><span>{isEn ? 'Official Anthology Book' : 'Libro Oficial (Volumen 01)'}</span></span>
+        <span class="text-[10px] uppercase font-mono px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 border border-amber-500/40">241 págs</span>
+      </a>
+      <a
+        href="https://acordesocultos.gumroad.com/l/ryhupd"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="mobile-nav-link flex items-center justify-between p-3 rounded-xl bg-[#151310] hover:bg-[#1f1b16] border border-[#2b2721] hover:border-amber-500/40 text-neutral-300 hover:text-amber-300 transition-all font-medium text-sm"
+      >
+        <span class="flex items-center gap-2.5"><span>☕</span><span>{t('nav', 'support')}</span></span>
+        <span class="text-xs text-neutral-500 font-mono">$3+ USD</span>
+      </a>
+      <div class="pt-2 border-t border-[#262420]">
+        <a
+          href={isEn ? '/en#newsletter' : '/#boletin'}
+          class="mobile-nav-link block w-full py-2.5 rounded-xl text-center text-xs font-bold uppercase tracking-wider bg-gradient-to-r from-amber-600 to-amber-500 hover:from-amber-500 hover:to-amber-400 text-white shadow-md font-sans"
+        >
+          {isEn ? '✉️ Subscribe Free' : '✉️ Unirme al Boletín'}
+        </a>
+      </div>
     </div>
   </div>
 </header>
+
+<script>
+  function setupMobileMenu() {
+    const toggleBtn = document.getElementById('mobile-menu-toggle-btn');
+    const drawer = document.getElementById('mobile-nav-drawer');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+
+    if (!toggleBtn || !drawer) return;
+
+    if (toggleBtn.dataset.initialized === 'true') return;
+    toggleBtn.dataset.initialized = 'true';
+
+    function toggleMenu(forceOpen?: boolean) {
+      const shouldOpen = forceOpen !== undefined ? forceOpen : drawer.classList.contains('hidden');
+      if (shouldOpen) {
+        drawer.classList.remove('hidden');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+        hamburgerIcon?.classList.add('hidden');
+        closeIcon?.classList.remove('hidden');
+      } else {
+        drawer.classList.add('hidden');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+        hamburgerIcon?.classList.remove('hidden');
+        closeIcon?.classList.add('hidden');
+      }
+    }
+
+    toggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleMenu();
+    });
+
+    // Close when clicking internal links
+    drawer.querySelectorAll('.mobile-nav-link').forEach((link) => {
+      link.addEventListener('click', () => toggleMenu(false));
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !drawer.classList.contains('hidden')) {
+        toggleMenu(false);
+      }
+    });
+
+    // Close on click outside header
+    document.addEventListener('click', (e) => {
+      const header = toggleBtn.closest('header');
+      if (header && !header.contains(e.target as Node) && !drawer.classList.contains('hidden')) {
+        toggleMenu(false);
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', setupMobileMenu);
+  setupMobileMenu();
+</script>
