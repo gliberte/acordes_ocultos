@@ -136,7 +136,7 @@ const articleSchema = {
   tags={story.hashtags}
   jsonLd={articleSchema}
   currentStory={story}
-  alternateEn={`/en/stories/${story.slugEn || story.slug}`}
+  alternateEn={story.contentEn ? `/en/stories/${story.slugEn || story.slug}` : undefined}
 >
   <article class="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     
@@ -156,6 +156,29 @@ const articleSchema = {
         </span>
       </div>
     </nav>
+
+    <!-- Bilingual Reading Banner (When English translation is available) -->
+    {story.contentEn && (
+      <div class="mb-8 p-3.5 sm:p-4 rounded-xl bg-gradient-to-r from-amber-500/10 via-[#181511] to-amber-950/20 border border-amber-500/30 flex items-center justify-between gap-4 text-xs sm:text-sm shadow-md">
+        <div class="flex items-center gap-2.5 min-w-0">
+          <span class="text-base select-none">🇺🇸</span>
+          <p class="text-neutral-300 truncate font-sans">
+            <span class="font-semibold text-amber-300">Also available in English:</span>{' '}
+            <span class="italic text-neutral-200">"{story.titleEn || story.title}"</span>
+          </p>
+        </div>
+        <a
+          href={`/en/stories/${story.slugEn || story.slug}`}
+          class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-amber-500 hover:bg-amber-400 text-black font-bold text-xs font-sans tracking-wide shrink-0 transition-all shadow-sm transform hover:-translate-y-0.5"
+          title={`Read in English: "${story.titleEn || story.title}"`}
+        >
+          <span>Read in English</span>
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+    )}
 
     <!-- Header / Title block -->
     <header class="mb-12 max-w-4xl">

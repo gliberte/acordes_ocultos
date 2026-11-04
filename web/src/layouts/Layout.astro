@@ -52,13 +52,26 @@ const finalAuthor = author || defaultAuthor;
 const siteUrl = Astro.site?.origin || 'https://www.acordesocultos.com';
 const canonicalURL = new URL(Astro.url.pathname, siteUrl);
 
-// Calculate alternate language URLs for hreflang SEO
-const esCanonical = alternateEs
-  ? (alternateEs.startsWith('http') ? alternateEs : `${siteUrl}${alternateEs}`)
-  : (isEn ? `${siteUrl}/` : canonicalURL.toString());
-const enCanonical = alternateEn
-  ? (alternateEn.startsWith('http') ? alternateEn : `${siteUrl}${alternateEn}`)
-  : (isEn ? canonicalURL.toString() : `${siteUrl}/en`);
+// Calculate alternate language URLs for hreflang SEO (strictly adhering to reciprocal 200 URLs, avoiding false 404s)
+const isHomePage = Astro.url.pathname === '/' || Astro.url.pathname === '/en' || Astro.url.pathname === '/en/';
+
+let esCanonical: string | undefined;
+let enCanonical: string | undefined;
+
+if (isHomePage) {
+  esCanonical = `${siteUrl}/`;
+  enCanonical = `${siteUrl}/en`;
+} else if (isEn) {
+  enCanonical = canonicalURL.toString();
+  if (alternateEs) {
+    esCanonical = alternateEs.startsWith('http') ? alternateEs : `${siteUrl}${alternateEs}`;
+  }
+} else {
+  esCanonical = canonicalURL.toString();
+  if (alternateEn) {
+    enCanonical = alternateEn.startsWith('http') ? alternateEn : `${siteUrl}${alternateEn}`;
+  }
+}
 
 // Ensure Open Graph and Twitter Card images are always absolute URLs (required by WhatsApp, Twitter/X, Facebook)
 const fullImageURL = image.startsWith('http://') || image.startsWith('https://')
@@ -155,8 +168,8 @@ const gaId = import.meta.env.PUBLIC_GA_ID;
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonicalURL} />
-    <link rel="alternate" hreflang="es" href={esCanonical} />
-    <link rel="alternate" hreflang="en" href={enCanonical} />
+    {esCanonical && <link rel="alternate" hreflang="es" href={esCanonical} />}
+    {enCanonical && <link rel="alternate" hreflang="en" href={enCanonical} />}
     <link rel="alternate" hreflang="x-default" href={`${siteUrl}/`} />
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 

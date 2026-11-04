@@ -19,18 +19,42 @@ const isEn = locale === 'en';
 const t = useTranslations(locale);
 
 // Determine destination URLs for language switcher
+const pathname = Astro.url.pathname;
+const hasEnStory = Boolean(currentStory && currentStory.contentEn);
+
 let esUrl = '/';
 let enUrl = '/en';
+let esTitle = 'Ver en Español (Acordes Ocultos)';
+let enTitle = 'View in English (Secret Chords)';
 
 if (currentStory) {
   esUrl = `/historias/${currentStory.slug}`;
-  enUrl = `/en/stories/${currentStory.slugEn || currentStory.slug}`;
-} else if (Astro.url.pathname.startsWith('/en')) {
+  if (hasEnStory) {
+    enUrl = `/en/stories/${currentStory.slugEn || currentStory.slug}`;
+    enTitle = isEn
+      ? 'Currently viewing English chronicle'
+      : `Read in English: "${currentStory.titleEn || currentStory.title}"`;
+    esTitle = isEn
+      ? `Leer crónica en Español: "${currentStory.title}"`
+      : 'Viendo versión original en Español';
+  } else {
+    // Graceful fallback: do NOT 404! Guide to English archive
+    enUrl = '/en#stories';
+    enTitle = 'Esta crónica aún no está disponible en inglés. Explorar archivo en inglés (Secret Chords)';
+    esTitle = 'Crónica disponible en Español';
+  }
+} else if (isEn) {
+  // English routes (e.g. /en)
+  enUrl = pathname;
   esUrl = '/';
-  enUrl = Astro.url.pathname;
-} else if (Astro.url.pathname.startsWith('/historias/')) {
+  esTitle = 'Ver catálogo principal en Español';
+  enTitle = 'English Archive (Secret Chords)';
+} else {
+  // Spanish routes (e.g. /, /libro, /privacidad, /cookies, /aviso-legal)
+  esUrl = pathname;
   enUrl = '/en';
-  esUrl = Astro.url.pathname;
+  esTitle = 'Sitio oficial en Español';
+  enTitle = 'View in English (Secret Chords)';
 }
 ---
 
@@ -87,21 +111,21 @@ if (currentStory) {
         <a 
           href={esUrl} 
           class={`px-2.5 py-1 rounded-full transition-all ${!isEn ? 'bg-amber-500 text-black shadow-sm font-black' : 'text-neutral-400 hover:text-amber-300'}`}
-          title="Ver en Español (Acordes Ocultos)"
+          title={esTitle}
         >
           ES
         </a>
         <a 
           href={enUrl} 
           class={`px-2.5 py-1 rounded-full transition-all ${isEn ? 'bg-amber-500 text-black shadow-sm font-black' : 'text-neutral-400 hover:text-amber-300'}`}
-          title="View in English (Secret Chords)"
+          title={enTitle}
         >
           EN
         </a>
       </div>
 
       <!-- Global Search Component -->
-      <GlobalSearch stories={stories} />
+      <GlobalSearch stories={stories} lang={locale} />
 
       <a
         href={isEn ? '/en#newsletter' : '/#boletin'}
