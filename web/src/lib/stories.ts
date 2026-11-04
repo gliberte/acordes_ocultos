@@ -34,6 +34,14 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'jose-luis-perales-y-como-es-el-acordes-ocultos': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'la-balada-que-le-prohibieron-regalar-a-julio-iglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'labaladaqueleprohibieronregalarajulioiglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'jose-luis-perales-y-como-es-el': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'y-como-es-el': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'ycomoesel': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'el-himno-de-perales-que-casi-canta-julio-iglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
+  'elhimnodeperalesquecasiscantajulioiglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
   'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
   'la-balada-que-su-propia-hija-le-obligo-a-corregir': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
   'labaladaquesupropiahijaleobligoacorregir': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
