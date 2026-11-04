@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'los-terricolas-luto-en-mi-alma-historia-en-los-acordes': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
+  'la-tarde-que-el-amor-se-marcho-en-otros-brazos': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
+  'latardequeelamorsemarchoenotrosbrazos': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
+  'los-terricolas-luto-en-mi-alma': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
+  'luto-en-mi-alma': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
+  'lutoenmialma': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
   'elvis-presley-suspicious-minds-acordes-ocultos': 'elvis-presley-suspicious-minds-acordes-ocultos',
   'quisieron-frenarla-por-dinero-sin-saber-que-elvis-cantaba-a-las-cuatro-de-la-manana-el-adios-de-su-propio-matrimonio': 'elvis-presley-suspicious-minds-acordes-ocultos',
   'quisieronfrenarlapordinerosinsaberqueelviscantabaalascuatrodelamananaeladiosdesupropiomatrimonio': 'elvis-presley-suspicious-minds-acordes-ocultos',
