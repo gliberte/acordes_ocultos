@@ -28,6 +28,8 @@
     "publish:cloud": "node scripts/publish-package.mjs --skip-telegram",
     "flow:login": "node scripts/flow-auth.mjs",
     "assets:flow": "node scripts/generate-flow-images.mjs",
+    "chatgpt:login": "node scripts/chatgpt-auth.mjs",
+    "assets:chatgpt": "node scripts/generate-chatgpt-images.mjs",
     "backup:vault": "node scripts/backup-vault.mjs",
     "restore:vault": "node scripts/restore-vault.mjs",
     "vault:sync-videos": "node scripts/sync-vault-videos.mjs",
