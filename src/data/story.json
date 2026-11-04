@@ -1,91 +1,91 @@
 {
   "brand": "acordes-ocultos",
-  "title": "La tarde que el amor se marchó en otros brazos",
-  "artist": "Los Terrícolas",
-  "slug": "los-terricolas-luto-en-mi-alma-historia-en-los-acordes",
-  "articleSlug": "los-terricolas-luto-en-mi-alma-historia-en-los-acordes",
+  "title": "La balada que le prohibieron regalar a Julio Iglesias",
+  "artist": "José Luis Perales",
+  "slug": "jose-luis-perales-y-como-es-el-acordes-ocultos",
+  "articleSlug": "jose-luis-perales-y-como-es-el-acordes-ocultos",
   "durationSeconds": 90,
-  "topic": "historia-en-los-acordes",
-  "anecdote": "Interpretación visual y narrativa de «Luto en mi alma» (1974), compuesta por Manny Delgado para la agrupación venezolana Los Terrícolas y grabada en los estudios de Discomoda con la voz desgarradora de Néstor Daniel: la amarga vivencia de un joven que acude a esperar a su amada a la salida del colegio y descubre, escondido en la penumbra, que ella camina del brazo de otro que le carga los libros y le susurra al oído. Frente a la traición, el protagonista decide tragar su dolor y no llorar. Los personajes y escenas son recreaciones ficticias inspiradas en la lírica de la canción.",
-  "hook": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
+  "topic": "acordes-ocultos",
+  "anecdote": "La verdadera historia detrás de «¿Y cómo es él?» (1982) de José Luis Perales: durante décadas se creyó que la escribió para su hija, pero en realidad fue un encargo para Julio Iglesias tras su dolorosa separación de Isabel Preysler. Perales se metió en la piel de Julio para componer una despedida caballerosa y elegante. Sin embargo, al escuchar la maqueta cantada por Perales con su voz tímida y rota, la discográfica Hispavox le prohibió regalarla y le obligó a grabarla él mismo, convirtiéndose en el mayor éxito mundial de su carrera.",
+  "hook": "Durante cuatro décadas creíste que era una canción para su hija, pero la verdad oculta es mucho más fascinante y dolorosa.",
   "beats": [
-    "La campana despidió las clases y ella apareció entre la multitud dorada.",
-    "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
-    "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
-    "Contuvo la respiración tras la esquina para no delatar su herida.",
-    "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
-    "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
-    "Las sombras de la calle borraron el paso de quien juró quererle."
+    "En 1981, el sonado divorcio de Julio Iglesias e Isabel Preysler ocupaba las portadas de todas las revistas del corazón.",
+    "Isabel había rehecho su vida casándose con un marqués, dejando a Julio sumido en una silenciosa y elegante derrota.",
+    "A petición de los productores, José Luis Perales aceptó componer un tema poniéndose en la piel herida de Julio Iglesias.",
+    "Imaginó las preguntas que un caballero despechado le haría a su gran amor: quién era ese ladrón que le robaba todo.",
+    "Pero al escuchar la maqueta en su voz tímida y rota, los directores de la discográfica dieron una orden terminante e inapelable.",
+    "Le prohibieron regalarla: «Esta joya no se la das a Julio ni a nadie; la grabas tú o se queda guardada».",
+    "Perales se resistió temiendo que el público dudara de su propio matrimonio, pero la canción lo catapultó a la cumbre mundial."
   ],
-  "outro": "El amor a veces calla su funeral sin derramar una sola lágrima.",
+  "outro": "Las grandes despedidas no nacen del odio ni del rencor, sino de la nobleza de desearle abrigo a quien ya no te ama.",
   "palette": {
-    "ink": "#161311",
-    "paper": "#f5eee6",
-    "accent": "#9e3a26",
-    "glow": "#d97736"
+    "ink": "#1c1917",
+    "paper": "#faf7f2",
+    "accent": "#9a3412",
+    "glow": "#d97706"
   },
   "music": {
-    "title": "Luto en mi alma",
-    "artist": "Los Terrícolas",
-    "src": "music/los-terricolas-luto-en-mi-alma.mp3",
-    "file": "music/los-terricolas-luto-en-mi-alma.mp3",
+    "title": "¿Y cómo es él?",
+    "artist": "José Luis Perales",
+    "src": "music/jose-luis-perales-y-como-es-el.mp3",
+    "file": "music/jose-luis-perales-y-como-es-el.mp3",
     "startSecond": 0,
-    "volume": 0.65,
+    "volume": 0.75,
     "instagram": {
-      "query": "Los Terricolas Luto en mi alma",
-      "expectedTitle": "Luto en mi alma",
-      "expectedArtist": "Los Terrícolas",
+      "query": "Jose Luis Perales Y Como Es El",
+      "expectedTitle": "¿Y cómo es él?",
+      "expectedArtist": "José Luis Perales",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Luto en mi alma (1974) de Los Terrícolas en Instagram Reels."
+      "notes": "Seleccionar audio oficial de ¿Y cómo es él? de José Luis Perales en Instagram Reels."
     }
   },
-  "coverBg": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, Kodak 35mm film grain, warm amber and terracotta late-afternoon chiaroscuro, NO readable text anywhere. Atmospheric vertical portrait outside a colonial stone high school building at golden hour dusk: a 20-year-old young man (fictional original character: lean angular jawline, expressive melancholic dark eyes, wavy dark-brown 1970s hair, wearing a worn chocolate-brown corduroy jacket over a cream turtleneck) stands waiting by a tall wrought-iron colonial archway. Thoughtful, anxious expression, warm golden light catching his hair and side of his face. Centered composition with generous dark space for title typography, bottom 30 percent in deep shadow.",
+  "coverBg": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 photorealistic archival portrait of Spanish singer-songwriter José Luis Perales in 1982, 35mm film grain, warm natural directional lighting, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, smooth clean-shaven face, wavy dark-brown hair, gentle handsome Mediterranean features, soulful melancholic brown eyes, wearing a classic brown corduroy blazer over a beige knit turtleneck) sits resting his Spanish classical guitar on his lap in a warm Madrid recording studio lounge. Thoughtful, vulnerable and dignified expression. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
   "assets": [
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm golden hour dusk, NO readable text anywhere. Medium shot on a cobblestone sidewalk outside a colonial high school at sunset: the 20-year-old young man (same lean jaw, wavy dark-brown hair, chocolate-brown corduroy jacket, cream turtleneck) stands leaning against a weathered stone pillar, hands tucked in his jacket pockets, looking toward the school gates with eager anticipation and a tender hopeful gaze. Autumn leaves scattered on the stone curb. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-01.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival 1982 photograph style, 35mm Kodachrome film grain, warm natural morning sunlight, NO readable text anywhere. Candid shot in a green Madrid park in spring 1982: a gentle 37-year-old José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy hair, casual 80s knit sweater) walking hand-in-hand with his tiny 3-year-old toddler daughter María (sweet toddler in a little floral dress and white shoes), bending down tenderly to smile at her. Warm wholesome parental moment completely disproving the myth that the song was for a grown daughter. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, glowing golden afternoon sunlight, NO readable text anywhere. Medium shot framed through the open wrought-iron colonial school gate as the afternoon bell rings: a stream of students in 1970s attire disperse onto the sunlit stone courtyard; emerging gracefully among them is a 19-year-old young woman (fictional character: shoulder-length soft dark chestnut hair parted gently, delicate features, large expressive brown eyes, wearing a vintage navy pleated school pinafore uniform over a white collared blouse), stepping toward the threshold with a subtle, distracted smile. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-02.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 scene, 35mm film grain, soft elegant interior lighting, NO readable text anywhere. On a polished dark mahogany coffee table in an upscale Spanish living room, several vintage European society magazines from 1981 are laid out; photographs visible show Julio Iglesias in a sharp suit and Isabel Preysler at high-society galas. A glass of wine rests beside the papers, capturing the intense media storm of their historic separation. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm late afternoon chiaroscuro, NO readable text anywhere. Medium two-shot on the cobblestone walkway just outside the gate: the 19-year-old young woman (same dark chestnut hair, navy uniform pinafore, white blouse) walks side by side with a 21-year-old collegiate young man (neat side-parted dark hair, collegiate forest-green knit sweater over collared shirt), who gallantly carries her bundle of leather-strapped school textbooks under his arm with attentive complicity. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-03.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 film still, 35mm film grain, moody golden twilight lighting, NO readable text anywhere. Melancholic portrait of Julio Iglesias in 1981: sitting alone on the terrace of a luxury suite overlooking the twilight sea, holding a glass, dressed in an immaculate cream linen blazer and open-collar shirt, looking out into the dusk with a mix of aristocratic pride and deep personal solitude as his ex-wife marries an aristocrat. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, intimate golden hour lighting, NO readable text anywhere. Candid intimate medium close-up of the couple walking along the tree-lined colonial sidewalk: the 21-year-old young man in the green sweater leans tenderly close to whisper a secret into the 19-year-old young woman's ear, making her blush and laugh softly with downcast eyes, revealing an unmistakable romantic bond between them. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-04.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 songwriting still, 35mm film grain, warm afternoon sunlight filtering through curtains, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing a cozy wool knit sweater) sitting in his country house music room in Cuenca, Spain: seated at an acoustic upright piano with his Spanish nylon-string guitar leaning nearby, pencil poised over handwritten sheet music, deep in creative focus as he imagines the questions Julio would ask the woman who left him. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, dramatic amber and deep indigo shadow chiaroscuro, NO readable text anywhere. Dramatic medium shot from a shadowed stone arcade corner: the 20-year-old protagonist (same wavy dark hair, brown corduroy jacket, cream turtleneck) has stepped back into the heavy blue-toned evening shadows, holding his breath against a stone wall, his face half-illuminated by the dying golden sunset as his eyes register the devastating shock of seeing them together. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-05.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic cinematic narrative recreation, 35mm film grain, cinematic chiaroscuro on a rainy evening, NO readable text anywhere. An emotional and elegant scene: in the doorway of a classic apartment, an elegant brunette woman in a tailored grey wool overcoat turns back slightly while holding a black umbrella; in the warm foreground shadow, a man watches her leave in silence, holding her forgotten scarf, a moment of polite, heartbreaking parting without anger. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, cinematic depth of field, NO readable text anywhere. High-tension composition on the colonial sidewalk: in the sharp foreground in shadow, the 20-year-old protagonist stands rigid in profile, watching silently; in the soft sunlit middle ground just a few feet away, the young woman and the other student walk past him completely unaware of his presence, immersed in their own world and conversation. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-06.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival 1982 music industry office scene, 35mm Kodak grain, warm executive office lighting, NO readable text anywhere. Inside the Hispavox record label headquarters in Madrid in 1982: a vintage reel-to-reel tape machine slowly rotating on a desk; seasoned record producers and music executives in suits listen in total silence, captivated by the raw emotion of Perales's demo tape, exchanging knowing glances that this is a historic hit. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, deeply emotional warm amber tungsten and twilight light, NO readable text anywhere. Emotional close-up portrait of the 20-year-old protagonist (exact same wavy dark-brown hair, lean jaw, brown corduroy jacket, cream turtleneck) leaning his head back against the cold stone pillar in the quiet dusk; his jaw is tightly clenched with dignified pride, holding back tears with stoic resilience, his eyes glistening in the faint light of an early street lamp without allowing a single tear to fall. Upper-two-thirds framing, bottom 30 percent in deep dark shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-07.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1982 drama still, 35mm film grain, warm office lamp lighting, NO readable text anywhere. Medium shot inside the record label boardroom: José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, brown blazer) leaning forward in an armchair, gesturing with humble modesty as he argues he only wrote it for Julio Iglesias; across the table, the stern record company director crosses his arms with a friendly yet unyielding smile, refusing to let the song go to anyone else. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, twilight blue and amber streetlamp glow, NO readable text anywhere. Atmospheric over-the-shoulder medium-wide shot: from behind the lone silhouette of the 20-year-old young man standing at the curb under a glowing wrought-iron streetlamp, looking down the long glistening cobblestone street where the two small silhouettes of the young woman and her companion walk away into the distant evening mist. Bottom 30 percent in deep shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-08.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic archival 1982 television gala performance, 35mm grain, golden television stage spotlight, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing an elegant dark suit) singing passionately into a vintage chrome microphone on a grand television stage, orchestra strings dimly glowing in the blue background, his heartfelt, gentle voice transmitting the universal pain of the song to millions of viewers across the globe. Bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
-      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, quiet nostalgic nocturnal atmosphere, NO people, NO turntables, NO vinyl records, NO readable text anywhere. Poetic still life on the empty colonial stone street at twilight: an old wooden bench rests under the warm amber glow of a vintage wrought-iron street lamp beside the shut colonial school gate; dry autumn leaves drift softly across the glistening cobblestones in the quiet evening breeze. Bottom 30 percent in deep dark shadow."
+      "src": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-09.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 photorealistic cinematic poetic still life, 35mm film grain, soft warm amber hallway light, NO people, NO turntables, NO vinyl records, NO needles, NO readable text anywhere. A classic dark umbrella with a polished wooden curved handle leans gently against the frame of an open front door; on the wet stone porch outside, raindrops glisten softly under an amber streetlamp, evoking the quiet dignity of letting someone go with tenderness and care. Bottom 30 percent in deep dark shadow."
     }
   ],
   "scenes": [
@@ -93,208 +93,87 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
+      "text": "Durante cuatro décadas creíste que era una canción para su hija, pero la verdad oculta es mucho más fascinante y dolorosa.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-01.png",
       "assetIndex": 0,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm golden hour dusk, NO readable text anywhere. Medium shot on a cobblestone sidewalk outside a colonial high school at sunset: the 20-year-old young man (same lean jaw, wavy dark-brown hair, chocolate-brown corduroy jacket, cream turtleneck) stands leaning against a weathered stone pillar, hands tucked in his jacket pockets, looking toward the school gates with eager anticipation and a tender hopeful gaze. Autumn leaves scattered on the stone curb. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1982 photograph style, 35mm Kodachrome film grain, warm natural morning sunlight, NO readable text anywhere. Candid shot in a green Madrid park in spring 1982: a gentle 37-year-old José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy hair, casual 80s knit sweater) walking hand-in-hand with his tiny 3-year-old toddler daughter María (sweet toddler in a little floral dress and white shoes), bending down tenderly to smile at her. Warm wholesome parental moment completely disproving the myth that the song was for a grown daughter. Bottom 30 percent in deep shadow."
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "La campana despidió las clases y ella apareció entre la multitud dorada.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
+      "text": "En 1981, el sonado divorcio de Julio Iglesias e Isabel Preysler ocupaba las portadas de todas las revistas del corazón.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-02.png",
       "assetIndex": 1,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, glowing golden afternoon sunlight, NO readable text anywhere. Medium shot framed through the open wrought-iron colonial school gate as the afternoon bell rings: a stream of students in 1970s attire disperse onto the sunlit stone courtyard; emerging gracefully among them is a 19-year-old young woman (fictional character: shoulder-length soft dark chestnut hair parted gently, delicate features, large expressive brown eyes, wearing a vintage navy pleated school pinafore uniform over a white collared blouse), stepping toward the threshold with a subtle, distracted smile. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 scene, 35mm film grain, soft elegant interior lighting, NO readable text anywhere. On a polished dark mahogany coffee table in an upscale Spanish living room, several vintage European society magazines from 1981 are laid out; photographs visible show Julio Iglesias in a sharp suit and Isabel Preysler at high-society galas. A glass of wine rests beside the papers, capturing the intense media storm of their historic separation. Bottom 30 percent in deep shadow."
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
+      "text": "Isabel había rehecho su vida casándose con un marqués, dejando a Julio sumido en una silenciosa y elegante derrota.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-03.png",
       "assetIndex": 2,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm late afternoon chiaroscuro, NO readable text anywhere. Medium two-shot on the cobblestone walkway just outside the gate: the 19-year-old young woman (same dark chestnut hair, navy uniform pinafore, white blouse) walks side by side with a 21-year-old collegiate young man (neat side-parted dark hair, collegiate forest-green knit sweater over collared shirt), who gallantly carries her bundle of leather-strapped school textbooks under his arm with attentive complicity. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 film still, 35mm film grain, moody golden twilight lighting, NO readable text anywhere. Melancholic portrait of Julio Iglesias in 1981: sitting alone on the terrace of a luxury suite overlooking the twilight sea, holding a glass, dressed in an immaculate cream linen blazer and open-collar shirt, looking out into the dusk with a mix of aristocratic pride and deep personal solitude as his ex-wife marries an aristocrat. Bottom 30 percent in deep shadow."
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
+      "text": "A petición de los productores, José Luis Perales aceptó componer un tema poniéndose en la piel herida de Julio Iglesias.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-04.png",
       "assetIndex": 3,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, intimate golden hour lighting, NO readable text anywhere. Candid intimate medium close-up of the couple walking along the tree-lined colonial sidewalk: the 21-year-old young man in the green sweater leans tenderly close to whisper a secret into the 19-year-old young woman's ear, making her blush and laugh softly with downcast eyes, revealing an unmistakable romantic bond between them. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1981 songwriting still, 35mm film grain, warm afternoon sunlight filtering through curtains, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing a cozy wool knit sweater) sitting in his country house music room in Cuenca, Spain: seated at an acoustic upright piano with his Spanish nylon-string guitar leaning nearby, pencil poised over handwritten sheet music, deep in creative focus as he imagines the questions Julio would ask the woman who left him. Bottom 30 percent in deep shadow."
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Contuvo la respiración tras la esquina para no delatar su herida.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
+      "text": "Imaginó las preguntas que un caballero despechado le haría a su gran amor: quién era ese ladrón que le robaba todo.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-05.png",
       "assetIndex": 4,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, dramatic amber and deep indigo shadow chiaroscuro, NO readable text anywhere. Dramatic medium shot from a shadowed stone arcade corner: the 20-year-old protagonist (same wavy dark hair, brown corduroy jacket, cream turtleneck) has stepped back into the heavy blue-toned evening shadows, holding his breath against a stone wall, his face half-illuminated by the dying golden sunset as his eyes register the devastating shock of seeing them together. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic cinematic narrative recreation, 35mm film grain, cinematic chiaroscuro on a rainy evening, NO readable text anywhere. An emotional and elegant scene: in the doorway of a classic apartment, an elegant brunette woman in a tailored grey wool overcoat turns back slightly while holding a black umbrella; in the warm foreground shadow, a man watches her leave in silence, holding her forgotten scarf, a moment of polite, heartbreaking parting without anger. Bottom 30 percent in deep shadow."
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
+      "text": "Pero al escuchar la maqueta en su voz tímida y rota, los directores de la discográfica dieron una orden terminante e inapelable.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-06.png",
       "assetIndex": 5,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, cinematic depth of field, NO readable text anywhere. High-tension composition on the colonial sidewalk: in the sharp foreground in shadow, the 20-year-old protagonist stands rigid in profile, watching silently; in the soft sunlit middle ground just a few feet away, the young woman and the other student walk past him completely unaware of his presence, immersed in their own world and conversation. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1982 music industry office scene, 35mm Kodak grain, warm executive office lighting, NO readable text anywhere. Inside the Hispavox record label headquarters in Madrid in 1982: a vintage reel-to-reel tape machine slowly rotating on a desk; seasoned record producers and music executives in suits listen in total silence, captivated by the raw emotion of Perales's demo tape, exchanging knowing glances that this is a historic hit. Bottom 30 percent in deep shadow."
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
+      "text": "Le prohibieron regalarla: «Esta joya no se la das a Julio ni a nadie; la grabas tú o se queda guardada».",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-07.png",
       "assetIndex": 6,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, deeply emotional warm amber tungsten and twilight light, NO readable text anywhere. Emotional close-up portrait of the 20-year-old protagonist (exact same wavy dark-brown hair, lean jaw, brown corduroy jacket, cream turtleneck) leaning his head back against the cold stone pillar in the quiet dusk; his jaw is tightly clenched with dignified pride, holding back tears with stoic resilience, his eyes glistening in the faint light of an early street lamp without allowing a single tear to fall. Upper-two-thirds framing, bottom 30 percent in deep dark shadow."
+      "prompt": "Vertical 9:16 photorealistic archival cinematic 1982 drama still, 35mm film grain, warm office lamp lighting, NO readable text anywhere. Medium shot inside the record label boardroom: José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, brown blazer) leaning forward in an armchair, gesturing with humble modesty as he argues he only wrote it for Julio Iglesias; across the table, the stern record company director crosses his arms with a friendly yet unyielding smile, refusing to let the song go to anyone else. Bottom 30 percent in deep shadow."
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Las sombras de la calle borraron el paso de quien juró quererle.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
+      "text": "Perales se resistió temiendo que el público dudara de su propio matrimonio, pero la canción lo catapultó a la cumbre mundial.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-08.png",
       "assetIndex": 7,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, twilight blue and amber streetlamp glow, NO readable text anywhere. Atmospheric over-the-shoulder medium-wide shot: from behind the lone silhouette of the 20-year-old young man standing at the curb under a glowing wrought-iron streetlamp, looking down the long glistening cobblestone street where the two small silhouettes of the young woman and her companion walk away into the distant evening mist. Bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 photorealistic archival 1982 television gala performance, 35mm grain, golden television stage spotlight, NO readable text anywhere. José Luis Perales (CLEAN-SHAVEN, NO MUSTACHE, NO BEARD, completely smooth-shaven face, wavy dark hair, wearing an elegant dark suit) singing passionately into a vintage chrome microphone on a grand television stage, orchestra strings dimly glowing in the blue background, his heartfelt, gentle voice transmitting the universal pain of the song to millions of viewers across the globe. Bottom 30 percent in deep shadow."
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "El amor a veces calla su funeral sin derramar una sola lágrima.",
-      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
+      "text": "Las grandes despedidas no nacen del odio ni del rencor, sino de la nobleza de desearle abrigo a quien ya no te ama.",
+      "asset": "videos/jose-luis-perales-y-como-es-el-acordes-ocultos/scene-09.png",
       "assetIndex": 8,
-      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, quiet nostalgic nocturnal atmosphere, NO people, NO turntables, NO vinyl records, NO readable text anywhere. Poetic still life on the empty colonial stone street at twilight: an old wooden bench rests under the warm amber glow of a vintage wrought-iron street lamp beside the shut colonial school gate; dry autumn leaves drift softly across the glistening cobblestones in the quiet evening breeze. Bottom 30 percent in deep dark shadow."
-    }
-  ],
-  "segments": [
-    {
-      "start": 0,
-      "end": 10,
-      "text": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
-      "assetIndex": 0
-    },
-    {
-      "start": 10,
-      "end": 20,
-      "text": "La campana despidió las clases y ella apareció entre la multitud dorada.",
-      "assetIndex": 1
-    },
-    {
-      "start": 20,
-      "end": 30,
-      "text": "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
-      "assetIndex": 2
-    },
-    {
-      "start": 30,
-      "end": 40,
-      "text": "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
-      "assetIndex": 3
-    },
-    {
-      "start": 40,
-      "end": 50,
-      "text": "Contuvo la respiración tras la esquina para no delatar su herida.",
-      "assetIndex": 4
-    },
-    {
-      "start": 50,
-      "end": 60,
-      "text": "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
-      "assetIndex": 5
-    },
-    {
-      "start": 60,
-      "end": 70,
-      "text": "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
-      "assetIndex": 6
-    },
-    {
-      "start": 70,
-      "end": 80,
-      "text": "Las sombras de la calle borraron el paso de quien juró quererle.",
-      "assetIndex": 7
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "text": "El amor a veces calla su funeral sin derramar una sola lágrima.",
-      "assetIndex": 8
-    }
-  ],
-  "visuals": [
-    {
-      "start": 0,
-      "end": 10,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 10,
-      "end": 20,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 20,
-      "end": 30,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 30,
-      "end": 40,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 40,
-      "end": 50,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 50,
-      "end": 60,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 60,
-      "end": 70,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 70,
-      "end": 80,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
-      "type": "image",
-      "role": "scene"
-    },
-    {
-      "start": 80,
-      "end": 90,
-      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
-      "type": "image",
-      "role": "scene"
+      "prompt": "Vertical 9:16 photorealistic cinematic poetic still life, 35mm film grain, soft warm amber hallway light, NO people, NO turntables, NO vinyl records, NO needles, NO readable text anywhere. A classic dark umbrella with a polished wooden curved handle leans gently against the frame of an open front door; on the wet stone porch outside, raindrops glisten softly under an amber streetlamp, evoking the quiet dignity of letting someone go with tenderness and care. Bottom 30 percent in deep dark shadow."
     }
   ],
   "publication": {
-    "title": "La tarde que el amor se marchó en otros brazos",
-    "description": "Esperaba verla cruzar el portón de la escuela con la misma sonrisa de cada tarde, pero el destino tenía preparado otro final.\n\nEn 1974, la voz rasgada y conmovedora de Néstor Daniel inmortalizó en «Luto en mi alma» una de las baladas más desgarradoras de la música hispanoamericana. Con la magistral pluma de Manny Delgado y el sonido inconfundible del sello Discomoda, Los Terrícolas convirtieron una escena cotidiana en una tragedia íntima: la amarga sorpresa de ver a la persona amada salir del colegio en brazos de otro, sosteniendo sus libros y regalándole palabras que antes le pertenecían.\n\nLo que hace eterna a esta canción no es la queja desmedida, sino la contención del dolor. Aquel hombre que decide tragar su quebranto, mantener la frente erguida y ver partir su felicidad en silencio, comprendiendo que hay despedidas que no necesitan gritos para marcar una herida imborrable.\n\n¿Qué recuerdo o persona te viene al corazón cuando suena esta balada?\n\nLa crónica completa y el análisis de esta obra maestra están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#LosTerricolas #LutoEnMiAlma #HistoriaEnLosAcordes #BaladasDelRecuerdo #MusicaParaElAlma #AcordesOcultos",
-    "tiktokDescription": "Esperaba verla salir del colegio como cada tarde… hasta que la vio en otros brazos. 💔 La historia dentro de «Luto en mi alma» de Los Terrícolas. 👇\n\n#LosTerricolas #LutoEnMiAlma #HistoriaEnLosAcordes #AcordesOcultos #BaladasDelRecuerdo"
+    "title": "La balada que le prohibieron regalar a Julio Iglesias",
+    "description": "Durante cuatro décadas creíste que se la escribió a su hija, pero en realidad fue el doloroso desahogo de Julio Iglesias que su disquera le prohibió regalar.\n\nA comienzos de los ochenta, España seguía el divorcio de Julio Iglesias e Isabel Preysler, quien poco después rehizo su vida con el marqués de Griñón. Para poner voz al duelo del cantante en Miami, el productor Ramón Arcusa le encargó a José Luis Perales una canción a medida. Perales se metió en la piel de un caballero herido que despide a su expareja con una delicadeza desgarradora: preguntando con celos quién es su nuevo amor, pero pidiéndole que se abrigue y lleve el paraguas por si llueve.\n\nSin embargo, al escuchar la maqueta en la voz íntima y rota de Perales, Hispavox fue tajante: «Esta canción no se la das a Julio ni a nadie. La cantas tú o no sale». Perales se resistió temiendo que dudaran de su propio matrimonio, pero la discográfica se impuso, transformando un dolor ajeno en el mayor himno de su carrera.\n\n¿Qué canción te ha enseñado a despedir un gran amor con dignidad?\n\nLa crónica extendida y los documentos de archivo están en el enlace del perfil.\n\n#JoseLuisPerales #YComoEsEl #JulioIglesias #AcordesOcultos #Baladas",
+    "tiktokDescription": "Creías que era para su hija, pero era el dolor de Julio Iglesias que le prohibieron regalar. 💔 La historia real de «¿Y cómo es él?». 👇\n\n#JoseLuisPerales #YComoEsEl #JulioIglesias #AcordesOcultos #HistoriaDeLaMusica #Música"
   }
 }
