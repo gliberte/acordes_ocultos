@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'victor-manuel-solo-pienso-en-ti-acordes-ocultos': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'el-amor-que-un-periodico-salvo-del-olvido': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'elamorqueunperiodicosalvodelolvido': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'victor-manuel-solo-pienso-en-ti': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'victormanuelsolopiensoenti': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'solo-pienso-en-ti': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
+  'solopiensoenti': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
   'jose-luis-perales-y-como-es-el-acordes-ocultos': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
   'la-balada-que-le-prohibieron-regalar-a-julio-iglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
   'labaladaqueleprohibieronregalarajulioiglesias': 'jose-luis-perales-y-como-es-el-acordes-ocultos',
