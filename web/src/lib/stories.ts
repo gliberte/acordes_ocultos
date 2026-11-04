@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
+  'la-balada-que-su-propia-hija-le-obligo-a-corregir': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
+  'labaladaquesupropiahijaleobligoacorregir': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
+  'gordon-lightfoot-if-you-could-read-my-mind': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
+  'if-you-could-read-my-mind': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
+  'ifyoucouldreadmymind': 'gordon-lightfoot-if-you-could-read-my-mind-acordes-ocultos',
   'plain-white-ts-hey-there-delilah-acordes-ocultos': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
   'la-cancion-de-amor-mas-famosa-que-nacio-de-una-mentira': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
   'lacanciondeamormasfamosaquenaciodeunamentira': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
