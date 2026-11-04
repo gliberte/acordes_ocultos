@@ -66,10 +66,11 @@ const buildGenerationList = (story) => {
 
     if (typeof scene === 'object' && scene !== null) {
       targetRelPath = scene.asset || scene.src || targetRelPath;
-      prompt = scene.prompt || '';
+      const assetIdx = typeof scene.assetIndex === 'number' ? scene.assetIndex : idx;
+      prompt = scene.prompt || story.assets?.[assetIdx]?.prompt || story.scenes?.[idx]?.prompt || '';
     } else if (typeof scene === 'string') {
       targetRelPath = scene;
-      prompt = story.scenes?.[idx]?.prompt || '';
+      prompt = story.assets?.[idx]?.prompt || story.scenes?.[idx]?.prompt || '';
     }
 
     list.push({

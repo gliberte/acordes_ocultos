@@ -1,23 +1,24 @@
 {
   "brand": "acordes-ocultos",
-  "title": "El amor que un periódico salvó del olvido",
-  "artist": "Víctor Manuel",
-  "slug": "victor-manuel-solo-pienso-en-ti-acordes-ocultos",
-  "articleSlug": "victor-manuel-solo-pienso-en-ti-acordes-ocultos",
+  "title": "La costumbre de apagar la luz sin mirarse",
+  "artist": "Barbra Streisand & Neil Diamond",
+  "song": "You Don't Bring Me Flowers",
+  "slug": "barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes",
+  "articleSlug": "barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes",
   "durationSeconds": 90,
-  "topic": "acordes-ocultos",
-  "anecdote": "La verdadera historia detrás de «Sólo pienso en ti» (1979) de Víctor Manuel: no nació de una musa poética, sino de un reportaje en el Diario de Córdoba sobre Antonio y Mari Luz, dos internos con discapacidad intelectual en la residencia PROMI de Cabra. En una España que los ocultaba con vergüenza, ellos se enamoraron y paseaban de la mano por el jardín. Conmovido, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas. El tema se convirtió en un himno nacional que derribó los prejuicios médicos y eclesiásticos, permitiéndoles casarse y formar una familia.",
-  "hook": "Durante décadas creíste que era solo una balada de amor, pero nació de dos almas que el mundo intentó esconder.",
+  "topic": "historia-en-los-acordes",
+  "anecdote": "La historia dentro de la letra de «You Don't Bring Me Flowers»: el doloroso y silencioso desgaste del amor en una pareja madura. No hubo infidelidad ni traición; solo el peso de la rutina, el jarrón que ya no recibe flores y la cobardía compartida de dos personas que aprendieron a fingir pero no saben cómo decirse adiós.",
+  "hook": "No hubo un portazo ni una traición escandalosa: solo la lenta y dolorosa costumbre de apagar la luz sin mirarse.",
   "beats": [
-    "En los años setenta, el estigma social condenaba a miles de personas con discapacidad al aislamiento más doloroso y al olvido.",
-    "Mari Luz cargaba desde bebé con una lesión cerebral irreversible, tras un desafortunado accidente doméstico que marcó para siempre el destino de su familia.",
-    "A Antonio su propia familia lo internó para esconder su condición; ambos terminaron encontrándose en la residencia PROMI de Cabra, en Córdoba.",
-    "Allí, entre talleres y paseos por el jardín, nació un afecto puro y silencioso que desafió el estigma más cruel de su tiempo.",
-    "En noviembre de 1978, Víctor Manuel hacía tiempo en una cafetería de Montilla cuando un reportaje en el periódico local le partió el corazón.",
-    "Conmovido por la foto de ambos caminando juntos, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas y el dolor de sus orígenes.",
-    "La pareja debió enfrentarse al rechazo social e incluso al obispado para exigir su derecho legal y eclesiástico a casarse como personas libres."
+    "No hubo un portazo ni un reproche; solo la condena de llegar a casa como un extraño.",
+    "El jarrón de cristal sigue intacto, pero hace años que nadie recuerda traer una flor.",
+    "Cenar frente a frente se convirtió en una rutina de silencios y miradas que se esquivan.",
+    "Hubo un tiempo en que rozarse era urgente y despedirse dolía como una quemadura.",
+    "Ahora el cariño se apaga de espaldas, girándose en la cama sin pronunciar palabra.",
+    "Las promesas de eternidad ya no cuentan: se barren del suelo como hojas marchitas.",
+    "Aprendieron a compartir risas y llanto; también aprendieron a sonreír fingiendo estar enteros."
   ],
-  "outro": "El amor auténtico no entiende de diagnósticos ni barreras sociales; cuando dos almas deciden cuidarse, no existe poder humano capaz de separarlas.",
+  "outro": "Hay amores que no mueren por odio, sino por la lenta costumbre de dejar de cuidarse.",
   "palette": {
     "ink": "#1c1917",
     "paper": "#faf7f2",
@@ -25,67 +26,67 @@
     "glow": "#d97706"
   },
   "music": {
-    "title": "Sólo pienso en ti",
-    "artist": "Víctor Manuel",
-    "src": "music/victor-manuel-solo-pienso-en-ti.mp3",
-    "file": "music/victor-manuel-solo-pienso-en-ti.mp3",
+    "title": "You Don't Bring Me Flowers",
+    "artist": "Barbra Streisand & Neil Diamond",
+    "src": "music/neil-diamond-barbra-streisand-you-dont-bring-me-flowers.mp3",
+    "file": "music/neil-diamond-barbra-streisand-you-dont-bring-me-flowers.mp3",
     "startSecond": 0,
-    "volume": 0.75,
+    "volume": 0.85,
     "instagram": {
-      "query": "Victor Manuel Solo Pienso En Ti",
-      "expectedTitle": "Sólo pienso en ti",
-      "expectedArtist": "Víctor Manuel",
+      "query": "Barbra Streisand Neil Diamond You Don't Bring Me Flowers",
+      "expectedTitle": "You Don't Bring Me Flowers",
+      "expectedArtist": "Barbra Streisand & Neil Diamond",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Sólo pienso en ti de Víctor Manuel en Instagram Reels."
+      "notes": "Seleccionar audio oficial del dueto de Barbra Streisand y Neil Diamond en Instagram Reels."
     }
   },
-  "coverBg": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 photorealistic archival portrait of Spanish singer-songwriter Víctor Manuel in 1979, 35mm film grain, warm natural directional lighting, NO readable text anywhere. A 32-year-old Víctor Manuel (clean-shaven, thick dark wavy hair, expressive warm Mediterranean features, soulful melancholic brown eyes, wearing a dark corduroy blazer over a beige knit turtleneck) sits holding an acoustic Spanish guitar in a rustic Andalusian patio, thoughtful, gentle, dignified expression. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
+  "coverBg": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 cinematic 1978 domestic drama still, 35mm film grain, moody warm lamp lighting, NO readable text anywhere. A poignant portrait of a mature couple in their late forties (Robert and Elena) standing together in the doorway of their warm suburban home at dusk; both looking slightly away with deep melancholy and quiet tenderness, emotional distance in physical proximity. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
   "assets": [
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-01.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1970s documentary still, 35mm grain, moody natural light filtering through sheer curtains, NO readable text anywhere. A solitary young man with gentle Mediterranean features looking out from an open bedroom window towards an Andalusian town, melancholic yet serene expression, deep emotional vulnerability, vintage 70s muted tones, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-01.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic 1978 domestic drama still, 35mm grain, moody late afternoon hallway lighting, NO readable text anywhere. A tired 48-year-old man (Robert: short grey-streaked brown hair, clean-shaven, wool overcoat over open-collar shirt) standing in the entrance hall of a warm suburban 1970s house, quietly taking off his coat, exchanging an empty, formal glance with a woman waiting in the kitchen doorway. Heavy atmosphere of emotional disconnection, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-02.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1960s warm memory vignette, 35mm Kodachrome grain, soft gentle natural light, NO readable text anywhere. A loving Spanish mother in a vintage floral apron holding her tender infant daughter in a rustic Andalusian courtyard filled with terracotta pots and warm stone walls, intimate emotional portrait of fragile childhood, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-02.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic still, 35mm film grain, warm amber side lighting from a table lamp, NO readable text anywhere. Inside the quiet living room: a 46-year-old woman (Elena: shoulder-length wavy brown hair, delicate features, solemn melancholic brown eyes, wearing a simple beige cardigan) sitting at an oak dining table, staring pensively at an empty vintage cut-glass vase, hands resting in her lap in quiet contemplation, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-03.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1978 documentary photograph, 35mm film grain, warm afternoon sun, NO readable text anywhere. Wide shot of the sunlit gardens and white stone arches of the PROMI residential institute in Cabra, Córdoba: young residents in modest late-70s clothing learning crafts and tending to orange trees, a sanctuary of dignity and community, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-03.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic interior still, 35mm film grain, warm dining chandelier light, NO readable text anywhere. Robert and Elena seated opposite each other at a round wooden dining table, eating dinner in complete silence; neither makes eye contact, both absorbed in their own heavy thoughts, the physical closeness contrasting with the vast emotional distance between them, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-04.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1978 candid documentary still, 35mm grain, golden hour backlight, NO readable text anywhere. Antonio and Mari Luz as a young Spanish couple in their early twenties, walking side by side through an olive garden path, shyly holding hands, tender smiles of genuine innocent love and complicity, natural candid posture, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-04.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 golden nostalgic flashback vignette, 35mm Kodachrome grain, sunlit autumn afternoon, NO readable text anywhere. The same couple twenty years younger in the late 1950s, laughing genuinely in an outdoor garden, holding each other tightly with passionate, innocent joy, wind blowing their hair, a warm sunburst illuminating their radiant faces, vibrant emotional warmth, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-05.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1978 candid portrait, 35mm Kodachrome grain, atmospheric café light, NO readable text anywhere. A 31-year-old Spanish singer-songwriter Víctor Manuel (clean-shaven, thick dark wavy hair, 70s corduroy jacket) seated at a wooden table in a classic Andalusian café with a small coffee cup, deeply absorbed reading a broadsheet newspaper, emotional thoughtful gaze, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-05.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic bedroom night still, 35mm grain, soft moonlight and dim bedside lamp glow, NO readable text anywhere. In a cozy 1970s bedroom: Robert lying in bed turned to his side facing away, his hand just having switched off the bedside lamp; Elena lies beside him staring up at the shadowed ceiling in the dark, awake and lonely, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-06.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic 1978 still, 35mm grain, warm lamplight, NO readable text anywhere. Víctor Manuel in a cozy hotel room in Montilla late at night, seated on an armchair with a Spanish nylon-string guitar in his hands, notebook on his knees, singing softly as melodies take shape, poetic creative intimacy, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-06.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 atmospheric cinematic still, 35mm grain, early morning pale light filtering through blinds, NO readable text anywhere. Elena standing alone by the large living room bay window in her morning robe, looking down thoughtfully as pale dust motes dance in the light, holding a cold cup of tea, solitude and quiet acceptance of loss, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-07.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1979 courtroom and parish hall drama, 35mm grain, solemn church office lighting, NO readable text anywhere. Antonio and Mari Luz standing side by side before an official wooden desk with dignified posture, holding hands tightly, calm and resolute expressions defending their love against conservative authorities, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-07.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic vanity mirror still, 35mm grain, soft warm incandescent vanity bulbs, NO readable text anywhere. Elena seated before an oval wooden vanity mirror, applying perfume or touching her face, meeting her own reflection with a brave yet profoundly sorrowful expression, the quiet exhaustion of maintaining appearances, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-08.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival 1979 concert and wedding celebration still, 35mm grain, warm celebration light, NO readable text anywhere. Antonio and Mari Luz on their wedding day in Córdoba, smiling radiantly surrounded by supportive friends, simple modest wedding clothes, genuine joy and triumph over prejudice, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-08.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic emotional confrontation still, 35mm grain, twilight window backlight, NO readable text anywhere. Robert and Elena standing a few feet apart in the doorway between the hallway and living room; their eyes finally meet in a moment of raw, unguarded vulnerability and mutual sorrow, realizing the end has come but unable to say the final word, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-09.png",
-      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 photorealistic archival cinematic still, 35mm grain, gentle twilight over an Andalusian countryside road, NO readable text anywhere. An elderly couple in humble modern clothing walking together into the soft evening horizon, hands tenderly linked, peaceful and enduring love story spanning decades, quiet poetic dignity, bottom 30 percent in deep shadow."
+      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-09.png",
+      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 cinematic closing poetic still, 35mm grain, soft dusk light falling across an empty wooden porch, NO readable text anywhere. A solitary wooden bench on a quiet porch overlooking a tranquil garden at twilight, two empty chairs side by side under the evening sky, quiet poetic stillness, serene melancholic beauty, bottom 30 percent in deep shadow."
     }
   ],
   "scenes": [
@@ -93,78 +94,78 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "En la España de los setenta, el estigma social condenaba a miles de personas con discapacidad al aislamiento más doloroso y al olvido.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-01.png",
+      "text": "No hubo un portazo ni un reproche; solo la condena de llegar a casa como un extraño.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-01.png",
       "assetIndex": 0
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "Mari Luz cargaba desde bebé con una lesión cerebral irreversible, tras un desafortunado accidente doméstico que marcó para siempre el destino de su familia.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-02.png",
+      "text": "El jarrón de cristal sigue intacto, pero hace años que nadie recuerda traer una flor.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-02.png",
       "assetIndex": 1
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "A Antonio su propia familia lo internó para esconder su condición; ambos terminaron encontrándose en la residencia PROMI de Cabra, en Córdoba.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-03.png",
+      "text": "Cenar frente a frente se convirtió en una rutina de silencios y miradas que se esquivan.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-03.png",
       "assetIndex": 2
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Allí, entre talleres y paseos por el jardín, nació un afecto puro y silencioso que desafió el estigma más cruel de su tiempo.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-04.png",
+      "text": "Hubo un tiempo en que rozarse era urgente y despedirse dolía como una quemadura.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-04.png",
       "assetIndex": 3
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "En noviembre de 1978, Víctor Manuel hacía tiempo en una cafetería de Montilla cuando un reportaje en el periódico local le partió el corazón.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-05.png",
+      "text": "Ahora el cariño se apaga de espaldas, girándose en la cama sin pronunciar palabra.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-05.png",
       "assetIndex": 4
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Conmovido por la foto de ambos caminando juntos, Víctor Manuel compuso la canción hacia atrás, imaginando sus vidas y el dolor de sus orígenes.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-06.png",
+      "text": "Las promesas de eternidad ya no cuentan: se barren del suelo como hojas marchitas.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-06.png",
       "assetIndex": 5
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "La pareja debió enfrentarse al rechazo social e incluso al obispado para exigir su derecho legal y eclesiástico a casarse como personas libres.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-07.png",
+      "text": "Aprendieron a compartir risas y llanto; también aprendieron a sonreír fingiendo estar enteros.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-07.png",
       "assetIndex": 6
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "En 1979 el tema sacudió a España: no solo fue un éxito masivo, sino el himno que abrió las puertas a su boda soñada.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-08.png",
+      "text": "Saben que el amor se fue, pero ninguno encuentra el valor de pronunciar el adiós.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-08.png",
       "assetIndex": 7
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "El amor auténtico no entiende de diagnósticos ni barreras sociales; cuando dos almas deciden cuidarse, no existe poder humano capaz de separarlas.",
-      "asset": "videos/victor-manuel-solo-pienso-en-ti-acordes-ocultos/scene-09.png",
+      "text": "Hay amores que no mueren por odio, sino por la lenta costumbre de dejar de cuidarse.",
+      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-09.png",
       "assetIndex": 8
     }
   ],
   "publication": {
-    "title": "El amor que un periódico salvó del olvido",
-    "description": "Durante décadas creíste que era una simple balada poética, pero nació de un periódico sobre dos almas que el mundo intentó esconder.\n\nA finales de los setenta, en la España del estigma y la incomprensión, dos jóvenes con discapacidad intelectual internados en la residencia PROMI de Cabra (Córdoba) se enamoraron. Antonio había sido relegado por su propia familia; Mari Luz cargaba con las secuelas de un accidente infantil. En una época donde su amor era considerado un tabú legal y eclesiástico, ambos se aferraron de las manos en los jardines del centro, decididos a casarse y formar un hogar.\n\nEn noviembre de 1978, Víctor Manuel leía el diario en un café de Montilla antes de un concierto. La ternura de aquella fotografía le partió el corazón y compuso «Sólo pienso en ti» hacia atrás, imaginando sus heridas. El tema no solo llegó a lo más alto de las listas; derribó los muros del prejuicio, permitió su matrimonio y acompañó a una pareja que crió a sus propios hijos demostrando la fuerza invencible de la dignidad humana.\n\n¿Qué canción te ha demostrado que el amor verdadero no entiende de barreras ni diagnósticos?\n\nLa crónica completa con los documentos y fotos de archivo está en el enlace de nuestro perfil.\n\n#VictorManuel #SoloPiensoEnTi #AcordesOcultos #MusicaEspanola #HistoriasReales",
-    "tiktokDescription": "Creías que era solo una canción de amor, pero nació de dos almas que el mundo intentó ocultar. 🕊️ La historia real de «Sólo pienso en ti». 👇\n\n#VictorManuel #SoloPiensoEnTi #AcordesOcultos #HistoriaDeLaMusica #Inspiracion"
+    "title": "La costumbre de apagar la luz sin mirarse",
+    "description": "No hubo una infidelidad ni una traición escandalosa: solo la lenta y dolorosa costumbre de apagar la luz sin rozarse.\n\nA través de los versos de «You Don't Bring Me Flowers», Barbra Streisand y Neil Diamond le pusieron voz a la tragedia más universal y silenciosa de la vida adulta: el desgaste del amor con el paso del tiempo. Dos personas que compartieron camas, risas y proyectos de vida, y que un día despiertan descubriendo que se han convertido en dos educados desconocidos bajo el mismo techo.\n\nLa mesa donde ya no hay conversación, el jarrón que acumula polvo porque nadie recuerda traer una flor, y la dolorosa lucidez de dos almas que aprendieron a amarse y a fingir, pero son incapaces de pronunciar la palabra «adiós». Porque las grandes relaciones rara vez se rompen por odio; se apagan cuando la ternura se convierte en un simple trámite.\n\n¿Qué canción te ha enseñado que el amor necesita cuidarse cada día para no morir en silencio?\n\nLa reflexión completa y la crónica narrativa están en el enlace de nuestro perfil.\n\n#YouDontBringMeFlowers #BarbraStreisand #NeilDiamond #HistoriaEnLosAcordes #AcordesOcultos",
+    "tiktokDescription": "No hubo gritos ni traición: solo la costumbre de apagar la luz sin mirarse. 🥀 La historia dentro de «You Don't Bring Me Flowers». 👇\n\n#YouDontBringMeFlowers #BarbraStreisand #NeilDiamond #HistoriaEnLosAcordes #Música"
   }
 }

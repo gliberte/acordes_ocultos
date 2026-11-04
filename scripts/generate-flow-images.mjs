@@ -66,10 +66,11 @@ const buildGenerationList = (story) => {
 
     if (typeof scene === 'object' && scene !== null) {
       targetRelPath = scene.asset || scene.src || targetRelPath;
-      prompt = scene.prompt || '';
+      const assetIdx = typeof scene.assetIndex === 'number' ? scene.assetIndex : idx;
+      prompt = scene.prompt || story.assets?.[assetIdx]?.prompt || story.scenes?.[idx]?.prompt || '';
     } else if (typeof scene === 'string') {
       targetRelPath = scene;
-      prompt = story.scenes?.[idx]?.prompt || '';
+      prompt = story.assets?.[idx]?.prompt || story.scenes?.[idx]?.prompt || '';
     }
 
     list.push({
@@ -245,13 +246,22 @@ async function generateFlowImages() {
     await page.keyboard.press('Escape');
     await page.waitForTimeout(300);
 
-    // Focus editor and fill prompt cleanly
+    // Snapshot ALL currently rendered images before submitting so multi-variant outputs never bleed into the next scene
+    const preSubmitUrls = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('img.image, img[src*="/asb/"]')).map(i => i.src);
+    });
+    preSubmitUrls.forEach(u => knownUrls.add(u));
+
+    // Focus editor and insert prompt naturally without high-frequency bot keystroke bursts
     const editor = page.locator('.ProseMirror').first();
     await editor.click({ force: true });
+    await page.waitForTimeout(400);
     await page.keyboard.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
+    await page.waitForTimeout(150);
     await page.keyboard.press('Backspace');
-    await page.keyboard.type(item.prompt, { delay: 5 });
-    await page.waitForTimeout(800);
+    await page.waitForTimeout(250);
+    await page.keyboard.insertText(item.prompt);
+    await page.waitForTimeout(1500);
 
     // Click generate button
     const generateBtn = page.locator('button[aria-label="Iniciar generación"], button.generate-icon-button').first();
@@ -260,11 +270,12 @@ async function generateFlowImages() {
 
     // Wait for new image to appear and loading to finish
     let downloaded = false;
+    let retriesOnWarning = 0;
     const startWait = Date.now();
-    const timeoutMs = 90000; // 90s max per image
+    const timeoutMs = 120000; // 120s max per image
 
     while (Date.now() - startWait < timeoutMs) {
-      await page.waitForTimeout(2500);
+      await page.waitForTimeout(3000);
 
       const status = await page.evaluate((known) => {
         const imgs = Array.from(document.querySelectorAll('img.image, img[src*="/asb/"]')).map(i => i.src);
@@ -272,7 +283,7 @@ async function generateFlowImages() {
         const isLoading = document.querySelectorAll('mat-progress-bar, mat-spinner, .generating, .spinner').length > 0;
         const errorEl = document.querySelector('.mat-mdc-snack-bar-container, .error-message, [role="alert"]');
         const errorText = errorEl ? errorEl.innerText.trim() : null;
-        return { newImg, isLoading, count: imgs.length, errorText };
+        return { newImg, isLoading, count: imgs.length, errorText, allImgs: imgs };
       }, Array.from(knownUrls));
 
       if (status.errorText) {
@@ -283,11 +294,28 @@ async function generateFlowImages() {
           status.errorText.toLowerCase().includes('high demand') ||
           status.errorText.toLowerCase().includes('actividad inusual')
         ) {
-          console.log(`⏳ Flow con aviso/demanda momentánea (${status.errorText.slice(0, 60)}...). Limpiando alerta y esperando 15 segundos...`);
+          retriesOnWarning++;
+          console.log(`⏳ Flow con aviso/demanda momentánea (intento ${retriesOnWarning}). Recargando sesión suave y esperando 20s...`);
           await page.evaluate(() => {
             document.querySelectorAll('.mat-mdc-snack-bar-container, [role="alert"]').forEach(el => el.remove());
           });
-          await page.waitForTimeout(15000);
+          await page.waitForTimeout(20000);
+          if (retriesOnWarning > 2) {
+            break;
+          }
+          await page.reload({ waitUntil: 'domcontentloaded' }).catch(() => {});
+          await page.waitForTimeout(5000);
+          const refreshedUrls = await page.evaluate(() => {
+            return Array.from(document.querySelectorAll('img.image, img[src*="/asb/"]')).map(i => i.src);
+          });
+          refreshedUrls.forEach(u => knownUrls.add(u));
+          const edRetry = page.locator('.ProseMirror').first();
+          await edRetry.click({ force: true }).catch(() => {});
+          await page.waitForTimeout(400);
+          await page.keyboard.press(process.platform === 'darwin' ? 'Meta+A' : 'Control+A');
+          await page.keyboard.press('Backspace');
+          await page.keyboard.insertText(item.prompt);
+          await page.waitForTimeout(1500);
           await generateBtn.click().catch(() => {});
           continue;
         }
@@ -302,7 +330,7 @@ async function generateFlowImages() {
 
       if (status.newImg && !status.isLoading) {
         console.log(`✨ ¡Imagen lista detectada! Descargando en alta resolución nativa...`);
-        knownUrls.add(status.newImg);
+        status.allImgs.forEach(u => knownUrls.add(u));
 
         // Convert URL to direct download '=d'
         const baseSrc = status.newImg.replace(/=s\d+.*$|=w\d+.*$|=d$/, '');
@@ -338,7 +366,7 @@ async function generateFlowImages() {
     }
 
     // Pause between generations to avoid rate limits
-    await page.waitForTimeout(6000);
+    await page.waitForTimeout(11000);
   }
 
   console.log('\n=====================================================');
