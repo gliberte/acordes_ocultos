@@ -1,208 +1,300 @@
 {
-  "title": "Escribió la canción más hermosa sobre vivir cuando ya había decidido marcharse",
-  "artist": "Violeta Parra",
-  "topic": "acordes-ocultos",
   "brand": "acordes-ocultos",
+  "title": "La tarde que el amor se marchó en otros brazos",
+  "artist": "Los Terrícolas",
+  "slug": "los-terricolas-luto-en-mi-alma-historia-en-los-acordes",
+  "articleSlug": "los-terricolas-luto-en-mi-alma-historia-en-los-acordes",
   "durationSeconds": 90,
-  "slug": "violeta-parra-gracias-a-la-vida-acordes-ocultos",
-  "articleSlug": "violeta-parra-gracias-a-la-vida-acordes-ocultos",
-  "anecdote": "En 1966, en la más absoluta soledad y precariedad bajo su carpa comunitaria de La Reina en Santiago de Chile, Violeta Parra compuso «Gracias a la vida». Lejos de ser un cántico ingenuo al optimismo, la obra fue concebida como su propio inventario vital y testamento sonoro tras el doloroso abandono del gran amor de su vida. Pocos meses después del lanzamiento de la grabación, Violeta se quitó la vida, dejando a la humanidad la carta de despedida más luminosa y generosa jamás escrita.",
-  "hook": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que celebra la alegría de existir, pero nació como una despedida.",
+  "topic": "historia-en-los-acordes",
+  "anecdote": "Interpretación visual y narrativa de «Luto en mi alma» (1974), compuesta por Manny Delgado para la agrupación venezolana Los Terrícolas y grabada en los estudios de Discomoda con la voz desgarradora de Néstor Daniel: la amarga vivencia de un joven que acude a esperar a su amada a la salida del colegio y descubre, escondido en la penumbra, que ella camina del brazo de otro que le carga los libros y le susurra al oído. Frente a la traición, el protagonista decide tragar su dolor y no llorar. Los personajes y escenas son recreaciones ficticias inspiradas en la lírica de la canción.",
+  "hook": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
   "beats": [
-    "A finales de 1966, Violeta Parra vivía aislada en una precaria carpa de circo en Santiago de Chile.",
-    "El proyecto cultural fracasó en taquilla y Violeta cantaba en noches heladas ante bancas de madera vacías.",
-    "Tras el abandono irreversible de su gran amor, compuso un balance supremo de todo lo que la existencia le había concedido.",
-    "Agradeció los ojos, el oído, el paso de sus pies cansados y el latido de un corazón adolorido.",
-    "En febrero de 1967 se quitó la vida, convirtiendo su adiós en el himno de consuelo de todo un continente."
+    "La campana despidió las clases y ella apareció entre la multitud dorada.",
+    "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
+    "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
+    "Contuvo la respiración tras la esquina para no delatar su herida.",
+    "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
+    "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
+    "Las sombras de la calle borraron el paso de quien juró quererle."
   ],
-  "outro": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
+  "outro": "El amor a veces calla su funeral sin derramar una sola lágrima.",
   "palette": {
-    "ink": "#14100c",
-    "paper": "#dcd3c4",
-    "accent": "#9e382b",
-    "glow": "#f2dec3"
+    "ink": "#161311",
+    "paper": "#f5eee6",
+    "accent": "#9e3a26",
+    "glow": "#d97736"
   },
   "music": {
-    "title": "Gracias a la vida",
-    "artist": "Violeta Parra",
-    "src": "music/violeta-parra-gracias-a-la-vida.mp3",
-    "file": "music/violeta-parra-gracias-a-la-vida.mp3",
+    "title": "Luto en mi alma",
+    "artist": "Los Terrícolas",
+    "src": "music/los-terricolas-luto-en-mi-alma.mp3",
+    "file": "music/los-terricolas-luto-en-mi-alma.mp3",
     "startSecond": 0,
-    "volume": 0.55,
+    "volume": 0.65,
     "instagram": {
-      "query": "Violeta Parra Gracias a la vida",
-      "expectedTitle": "Gracias a la vida",
-      "expectedArtist": "Violeta Parra",
+      "query": "Los Terricolas Luto en mi alma",
+      "expectedTitle": "Luto en mi alma",
+      "expectedArtist": "Los Terrícolas",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Gracias a la vida (1966) de Violeta Parra en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Luto en mi alma (1974) de Los Terrícolas en Instagram Reels."
     }
   },
-  "cover": {
-    "background": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/cover_bg.png",
-    "title": "GRACIAS A LA VIDA",
-    "artist": "VIOLETA PARRA"
-  },
+  "coverBg": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, Kodak 35mm film grain, warm amber and terracotta late-afternoon chiaroscuro, NO readable text anywhere. Atmospheric vertical portrait outside a colonial stone high school building at golden hour dusk: a 20-year-old young man (fictional original character: lean angular jawline, expressive melancholic dark eyes, wavy dark-brown 1970s hair, wearing a worn chocolate-brown corduroy jacket over a cream turtleneck) stands waiting by a tall wrought-iron colonial archway. Thoughtful, anxious expression, warm golden light catching his hair and side of his face. Centered composition with generous dark space for title typography, bottom 30 percent in deep shadow.",
+  "assets": [
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm golden hour dusk, NO readable text anywhere. Medium shot on a cobblestone sidewalk outside a colonial high school at sunset: the 20-year-old young man (same lean jaw, wavy dark-brown hair, chocolate-brown corduroy jacket, cream turtleneck) stands leaning against a weathered stone pillar, hands tucked in his jacket pockets, looking toward the school gates with eager anticipation and a tender hopeful gaze. Autumn leaves scattered on the stone curb. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, glowing golden afternoon sunlight, NO readable text anywhere. Medium shot framed through the open wrought-iron colonial school gate as the afternoon bell rings: a stream of students in 1970s attire disperse onto the sunlit stone courtyard; emerging gracefully among them is a 19-year-old young woman (fictional character: shoulder-length soft dark chestnut hair parted gently, delicate features, large expressive brown eyes, wearing a vintage navy pleated school pinafore uniform over a white collared blouse), stepping toward the threshold with a subtle, distracted smile. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm late afternoon chiaroscuro, NO readable text anywhere. Medium two-shot on the cobblestone walkway just outside the gate: the 19-year-old young woman (same dark chestnut hair, navy uniform pinafore, white blouse) walks side by side with a 21-year-old collegiate young man (neat side-parted dark hair, collegiate forest-green knit sweater over collared shirt), who gallantly carries her bundle of leather-strapped school textbooks under his arm with attentive complicity. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, intimate golden hour lighting, NO readable text anywhere. Candid intimate medium close-up of the couple walking along the tree-lined colonial sidewalk: the 21-year-old young man in the green sweater leans tenderly close to whisper a secret into the 19-year-old young woman's ear, making her blush and laugh softly with downcast eyes, revealing an unmistakable romantic bond between them. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, dramatic amber and deep indigo shadow chiaroscuro, NO readable text anywhere. Dramatic medium shot from a shadowed stone arcade corner: the 20-year-old protagonist (same wavy dark hair, brown corduroy jacket, cream turtleneck) has stepped back into the heavy blue-toned evening shadows, holding his breath against a stone wall, his face half-illuminated by the dying golden sunset as his eyes register the devastating shock of seeing them together. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, cinematic depth of field, NO readable text anywhere. High-tension composition on the colonial sidewalk: in the sharp foreground in shadow, the 20-year-old protagonist stands rigid in profile, watching silently; in the soft sunlit middle ground just a few feet away, the young woman and the other student walk past him completely unaware of his presence, immersed in their own world and conversation. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, deeply emotional warm amber tungsten and twilight light, NO readable text anywhere. Emotional close-up portrait of the 20-year-old protagonist (exact same wavy dark-brown hair, lean jaw, brown corduroy jacket, cream turtleneck) leaning his head back against the cold stone pillar in the quiet dusk; his jaw is tightly clenched with dignified pride, holding back tears with stoic resilience, his eyes glistening in the faint light of an early street lamp without allowing a single tear to fall. Upper-two-thirds framing, bottom 30 percent in deep dark shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, twilight blue and amber streetlamp glow, NO readable text anywhere. Atmospheric over-the-shoulder medium-wide shot: from behind the lone silhouette of the 20-year-old young man standing at the curb under a glowing wrought-iron streetlamp, looking down the long glistening cobblestone street where the two small silhouettes of the young woman and her companion walk away into the distant evening mist. Bottom 30 percent in deep shadow."
+    },
+    {
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
+      "credit": "Recreación ficticia generada con IA para Historia en los Acordes.",
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, quiet nostalgic nocturnal atmosphere, NO people, NO turntables, NO vinyl records, NO readable text anywhere. Poetic still life on the empty colonial stone street at twilight: an old wooden bench rests under the warm amber glow of a vintage wrought-iron street lamp beside the shut colonial school gate; dry autumn leaves drift softly across the glistening cobblestones in the quiet evening breeze. Bottom 30 percent in deep dark shadow."
+    }
+  ],
   "scenes": [
     {
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es una luminosa celebración de la existencia...",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-01.png",
-      "prompt": "Vertical 9:16 authentic documentary concert hall: A diverse audience in an auditorium softly illuminated by warm stage footlights, men and women with eyes closed in collective emotional communion and heartfelt reverence as if singing along to a sacred folk anthem. Atmospheric 35mm film grain, gentle focus, quiet lower third, strictly no text."
+      "text": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
+      "assetIndex": 0,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm golden hour dusk, NO readable text anywhere. Medium shot on a cobblestone sidewalk outside a colonial high school at sunset: the 20-year-old young man (same lean jaw, wavy dark-brown hair, chocolate-brown corduroy jacket, cream turtleneck) stands leaning against a weathered stone pillar, hands tucked in his jacket pockets, looking toward the school gates with eager anticipation and a tender hopeful gaze. Autumn leaves scattered on the stone curb. Bottom 30 percent in deep shadow."
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "...sin sospechar que su autora la escribió como una íntima despedida cuando ya había decidido poner fin a su propio dolor.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-02.png",
-      "prompt": "Vertical 9:16 intimate documentary portrait: 49-year-old Chilean folk artist Violeta Parra, indigenous mestiza Chilean features, prominent cheekbones, dark center-parted hair, weathered artisan skin, profound solemn gaze, sitting alone on a wooden stool in a rustic room with earthen floor in Santiago, holding a small Andean charango close to her chest with worn hands, soft melancholic window light, 35mm film texture, quiet lower third, strictly no text."
+      "text": "La campana despidió las clases y ella apareció entre la multitud dorada.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
+      "assetIndex": 1,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, glowing golden afternoon sunlight, NO readable text anywhere. Medium shot framed through the open wrought-iron colonial school gate as the afternoon bell rings: a stream of students in 1970s attire disperse onto the sunlit stone courtyard; emerging gracefully among them is a 19-year-old young woman (fictional character: shoulder-length soft dark chestnut hair parted gently, delicate features, large expressive brown eyes, wearing a vintage navy pleated school pinafore uniform over a white collared blouse), stepping toward the threshold with a subtle, distracted smile. Bottom 30 percent in deep shadow."
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "A finales de mil novecientos sesenta y seis, Violeta Parra vivía en la más absoluta precariedad bajo una carpa a las afueras de Santiago.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-03.png",
-      "prompt": "Vertical 9:16 atmospheric archival photograph: Winter 1966 on the outskirts of Santiago de Chile. A massive rustic circus tent known as La Carpa de La Reina standing isolated in a muddy open field against the towering dark silhouette of the Andes mountains under a cold rain-swept dusk sky. Faint warm light glows from within the tent seams, solitary tire tracks in wet mud, authentic 1960s 35mm film grain, quiet lower third, strictly no text."
+      "text": "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
+      "assetIndex": 2,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, warm late afternoon chiaroscuro, NO readable text anywhere. Medium two-shot on the cobblestone walkway just outside the gate: the 19-year-old young woman (same dark chestnut hair, navy uniform pinafore, white blouse) walks side by side with a 21-year-old collegiate young man (neat side-parted dark hair, collegiate forest-green knit sweater over collared shirt), who gallantly carries her bundle of leather-strapped school textbooks under his arm with attentive complicity. Bottom 30 percent in deep shadow."
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Soñó con un templo para el arte campesino, pero en las noches gélidas cantaba ante bancas de madera completamente desiertas.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-04.png",
-      "prompt": "Vertical 9:16 poignant documentary scene: Inside the cavernous circus tent of La Reina in 1966. Violeta Parra, dark woolen sweater, stands under a single hanging bare bulb on a small wooden platform, passionately playing her guitar and singing into an old microphone. In front of her, long rows of empty wooden tables and benches sit abandoned in cold shadows. Melancholic atmosphere, high contrast, 35mm film grain, quiet lower third, strictly no text."
+      "text": "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
+      "assetIndex": 3,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, intimate golden hour lighting, NO readable text anywhere. Candid intimate medium close-up of the couple walking along the tree-lined colonial sidewalk: the 21-year-old young man in the green sweater leans tenderly close to whisper a secret into the 19-year-old young woman's ear, making her blush and laugh softly with downcast eyes, revealing an unmistakable romantic bond between them. Bottom 30 percent in deep shadow."
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "A la asfixia económica se sumó el abandono del gran amor de su vida, dejándola sumida en un dolor sin retorno posible.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-05.png",
-      "prompt": "Vertical 9:16 dramatic documentary moment: Inside a shadowy rustic bedroom corner of the tent. Violeta Parra, 49, indigenous Chilean features and dark hair, seated beside a small smoking brazier, holding a faded black-and-white portrait of her lost Swiss lover in her worn hands. Her face reflects deep, quiet heartbreak and resignation, gentle warm embers glowing in the dark, 35mm rich film texture, quiet lower third, strictly no text."
+      "text": "Contuvo la respiración tras la esquina para no delatar su herida.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
+      "assetIndex": 4,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, dramatic amber and deep indigo shadow chiaroscuro, NO readable text anywhere. Dramatic medium shot from a shadowed stone arcade corner: the 20-year-old protagonist (same wavy dark hair, brown corduroy jacket, cream turtleneck) has stepped back into the heavy blue-toned evening shadows, holding his breath against a stone wall, his face half-illuminated by the dying golden sunset as his eyes register the devastating shock of seeing them together. Bottom 30 percent in deep shadow."
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Desde ese abismo, en lugar de destilar rencor, compuso el testamento más generoso y sobrecogedor jamás escrito en nuestra lengua.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-06.png",
-      "prompt": "Vertical 9:16 artistic documentary creation: Violeta Parra seated at a rough wooden table writing intently in an open spiral notebook by the glow of a single tallow candle. On the canvas wall behind her hangs one of her famous colorful Chilean embroidered burlap tapestries known as arpilleras. An acoustic guitar rests against the table leg, atmosphere of sacred creative trance and profound dignity, 35mm film grain, quiet lower third, strictly no text."
+      "text": "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
+      "assetIndex": 5,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, cinematic depth of field, NO readable text anywhere. High-tension composition on the colonial sidewalk: in the sharp foreground in shadow, the 20-year-old protagonist stands rigid in profile, watching silently; in the soft sunlit middle ground just a few feet away, the young woman and the other student walk past him completely unaware of his presence, immersed in their own world and conversation. Bottom 30 percent in deep shadow."
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Agradeció los ojos, el sonido de la lluvia, la voz de su amado y el llanto de un corazón herido pero agradecido.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-07.png",
-      "prompt": "Vertical 9:16 evocative macro photograph: Intimate close-up of a Latin American folk musician's weathered artisan hands delicately strumming nylon guitar and charango strings. In the soft background, rain streaks down a glass window pane reflecting soft misty Chilean daylight, deep tactile wood grain on the instrument soundboard, quiet lower third, strictly no text."
+      "text": "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
+      "assetIndex": 6,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, deeply emotional warm amber tungsten and twilight light, NO readable text anywhere. Emotional close-up portrait of the 20-year-old protagonist (exact same wavy dark-brown hair, lean jaw, brown corduroy jacket, cream turtleneck) leaning his head back against the cold stone pillar in the quiet dusk; his jaw is tightly clenched with dignified pride, holding back tears with stoic resilience, his eyes glistening in the faint light of an early street lamp without allowing a single tear to fall. Upper-two-thirds framing, bottom 30 percent in deep dark shadow."
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Apenas unos meses después de grabarla, en febrero de mil novecientos sesenta y siete, apagó su propia vida en el silencio de su carpa.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-08.png",
-      "prompt": "Vertical 9:16 serene archival aftermath: Inside the quiet circus tent at dawn. A pale shaft of golden morning sunlight pierces through a seam in the tent canvas, illuminating an empty rustic wooden wicker chair. A classic acoustic guitar with a simple embroidered strap rests peacefully against the chair. Stillness, dust motes drifting in the morning light beam, respectful solemn silence, 35mm cinematic grain, quiet lower third, strictly no text."
+      "text": "Las sombras de la calle borraron el paso de quien juró quererle.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
+      "assetIndex": 7,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, twilight blue and amber streetlamp glow, NO readable text anywhere. Atmospheric over-the-shoulder medium-wide shot: from behind the lone silhouette of the 20-year-old young man standing at the curb under a glowing wrought-iron streetlamp, looking down the long glistening cobblestone street where the two small silhouettes of the young woman and her companion walk away into the distant evening mist. Bottom 30 percent in deep shadow."
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
-      "asset": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-09.png",
-      "prompt": "Vertical 9:16 breathtaking cinematic landscape: The majestic snow-capped peaks of the Andes mountain range at sunrise. Soft golden and amber dawn light crowning the ridges, misty ethereal valleys below embracing tranquil silence, infinite sky gradient from warm ochre to deep morning blue, sublime and timeless contemplation of nature, 35mm photographic texture, generous negative space, quiet lower third, strictly no text, no turntables, no vinyl."
+      "text": "El amor a veces calla su funeral sin derramar una sola lágrima.",
+      "asset": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
+      "assetIndex": 8,
+      "prompt": "Vertical 9:16 photorealistic cinematic 1974 Latin American period film still, 35mm film grain, quiet nostalgic nocturnal atmosphere, NO people, NO turntables, NO vinyl records, NO readable text anywhere. Poetic still life on the empty colonial stone street at twilight: an old wooden bench rests under the warm amber glow of a vintage wrought-iron street lamp beside the shut colonial school gate; dry autumn leaves drift softly across the glistening cobblestones in the quiet evening breeze. Bottom 30 percent in deep dark shadow."
     }
   ],
   "segments": [
     {
       "start": 0,
       "end": 10,
-      "text": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es una luminosa celebración de la existencia...",
+      "text": "Esperaba verla cruzar la puerta con la misma sonrisa de cada tarde.",
       "assetIndex": 0
     },
     {
       "start": 10,
       "end": 20,
-      "text": "...sin sospechar que su autora la escribió como una íntima despedida cuando ya había decidido poner fin a su propio dolor.",
+      "text": "La campana despidió las clases y ella apareció entre la multitud dorada.",
       "assetIndex": 1
     },
     {
       "start": 20,
       "end": 30,
-      "text": "A finales de mil novecientos sesenta y seis, Violeta Parra vivía en la más absoluta precariedad bajo una carpa a las afueras de Santiago.",
+      "text": "Pero no venía sola: otro muchacho sostenía sus libros con complicidad.",
       "assetIndex": 2
     },
     {
       "start": 30,
       "end": 40,
-      "text": "Soñó con un templo para el arte campesino, pero en las noches gélidas cantaba ante bancas de madera completamente desiertas.",
+      "text": "Al inclinarse hacia su oído, una risa compartida confirmó el presagio.",
       "assetIndex": 3
     },
     {
       "start": 40,
       "end": 50,
-      "text": "A la asfixia económica se sumó el abandono del gran amor de su vida, dejándola sumida en un dolor sin retorno posible.",
+      "text": "Contuvo la respiración tras la esquina para no delatar su herida.",
       "assetIndex": 4
     },
     {
       "start": 50,
       "end": 60,
-      "text": "Desde ese abismo, en lugar de destilar rencor, compuso el testamento más generoso y sobrecogedor jamás escrito en nuestra lengua.",
+      "text": "Ella pasó a su lado ignorándolo, envuelta en promesas recién nacidas.",
       "assetIndex": 5
     },
     {
       "start": 60,
       "end": 70,
-      "text": "Agradeció los ojos, el sonido de la lluvia, la voz de su amado y el llanto de un corazón herido pero agradecido.",
+      "text": "Mantuvo la frente en alto y mordió el llanto para no doblegarse.",
       "assetIndex": 6
     },
     {
       "start": 70,
       "end": 80,
-      "text": "Apenas unos meses después de grabarla, en febrero de mil novecientos sesenta y siete, apagó su propia vida en el silencio de su carpa.",
+      "text": "Las sombras de la calle borraron el paso de quien juró quererle.",
       "assetIndex": 7
     },
     {
       "start": 80,
       "end": 90,
-      "text": "Hay quienes regalan al mundo toda la luz de la que fueron despojados, recordándonos que dar gracias es el mayor acto de amor.",
+      "text": "El amor a veces calla su funeral sin derramar una sola lágrima.",
       "assetIndex": 8
     }
   ],
-  "assets": [
+  "visuals": [
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-01.png"
+      "start": 0,
+      "end": 10,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-01.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-02.png"
+      "start": 10,
+      "end": 20,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-02.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-03.png"
+      "start": 20,
+      "end": 30,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-03.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-04.png"
+      "start": 30,
+      "end": 40,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-04.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-05.png"
+      "start": 40,
+      "end": 50,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-05.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-06.png"
+      "start": 50,
+      "end": 60,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-06.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-07.png"
+      "start": 60,
+      "end": 70,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-07.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-08.png"
+      "start": 70,
+      "end": 80,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-08.png",
+      "type": "image",
+      "role": "scene"
     },
     {
-      "src": "videos/violeta-parra-gracias-a-la-vida-acordes-ocultos/scene-09.png"
+      "start": 80,
+      "end": 90,
+      "src": "videos/los-terricolas-luto-en-mi-alma-historia-en-los-acordes/scene-09.png",
+      "type": "image",
+      "role": "scene"
     }
   ],
   "publication": {
-    "title": "Escribió la canción más hermosa sobre vivir cuando ya había decidido marcharse",
-    "description": "Millones de personas en todo el mundo cantan «Gracias a la vida» creyendo que es un himno festivo a la existencia. Muy pocos conocen la desgarradora historia detrás de sus estrofas: fue, en realidad, la carta de despedida más luminosa jamás escrita antes de un adiós final.\n\nEn 1966, Violeta Parra vivía sumida en la precariedad y el olvido bajo la Carpa de La Reina, a las afueras de Santiago de Chile. Soñó con fundar una universidad viva del folclore, pero las noches de invierno eran gélidas y muchas veces cantaba frente a tablones vacíos. A la asfixia económica se sumó la partida irreversible del gran amor de su vida.\n\nEn lugar de entregarse al rencor o a la amargura, Violeta tomó su charango y escribió su propio inventario vital: dio gracias por los dos luceros que le permitieron distinguir el negro del blanco, por el oído que grabó el sonido de la lluvia y por el corazón que conoció el desvelo. Apenas unos meses después de publicar la grabación, el 5 de febrero de 1967, Violeta se encerró en su carpa y apagó su propia vida.\n\n¿En qué momento de tu vida te acompañó la voz de Violeta Parra?\n\nLa crónica documental completa y los archivos históricos están en el enlace de nuestro perfil.\n\n#VioletaParra #GraciasALaVida #FolcloreLatinoamericano #MercedesSosa #Chile #HistoriaDeLaMusica #AcordesOcultos"
+    "title": "La tarde que el amor se marchó en otros brazos",
+    "description": "Esperaba verla cruzar el portón de la escuela con la misma sonrisa de cada tarde, pero el destino tenía preparado otro final.\n\nEn 1974, la voz rasgada y conmovedora de Néstor Daniel inmortalizó en «Luto en mi alma» una de las baladas más desgarradoras de la música hispanoamericana. Con la magistral pluma de Manny Delgado y el sonido inconfundible del sello Discomoda, Los Terrícolas convirtieron una escena cotidiana en una tragedia íntima: la amarga sorpresa de ver a la persona amada salir del colegio en brazos de otro, sosteniendo sus libros y regalándole palabras que antes le pertenecían.\n\nLo que hace eterna a esta canción no es la queja desmedida, sino la contención del dolor. Aquel hombre que decide tragar su quebranto, mantener la frente erguida y ver partir su felicidad en silencio, comprendiendo que hay despedidas que no necesitan gritos para marcar una herida imborrable.\n\n¿Qué recuerdo o persona te viene al corazón cuando suena esta balada?\n\nLa crónica completa y el análisis de esta obra maestra están en nuestra crónica extendida. Encuentras el enlace directo en el perfil.\n\n#LosTerricolas #LutoEnMiAlma #HistoriaEnLosAcordes #BaladasDelRecuerdo #MusicaParaElAlma #AcordesOcultos",
+    "tiktokDescription": "Esperaba verla salir del colegio como cada tarde… hasta que la vio en otros brazos. 💔 La historia dentro de «Luto en mi alma» de Los Terrícolas. 👇\n\n#LosTerricolas #LutoEnMiAlma #HistoriaEnLosAcordes #AcordesOcultos #BaladasDelRecuerdo"
   }
 }
