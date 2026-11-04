@@ -51,9 +51,9 @@ if (currentStory) {
   enTitle = 'English Archive (Secret Chords)';
 } else {
   // Spanish routes (e.g. /, /libro, /privacidad, /cookies, /aviso-legal)
-  esUrl = pathname;
+  esUrl = pathname === '/404' ? '/' : pathname;
   enUrl = '/en';
-  esTitle = 'Sitio oficial en Español';
+  esTitle = pathname === '/404' ? 'Volver al Inicio (Acordes Ocultos)' : 'Sitio oficial en Español';
   enTitle = 'View in English (Secret Chords)';
 }
 ---
