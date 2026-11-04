@@ -1,92 +1,93 @@
 {
   "brand": "acordes-ocultos",
-  "title": "La costumbre de apagar la luz sin mirarse",
-  "artist": "Barbra Streisand & Neil Diamond",
-  "song": "You Don't Bring Me Flowers",
-  "slug": "barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes",
-  "articleSlug": "barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes",
+  "title": "La balada de amor que nació en un penal",
+  "artist": "Víctor Heredia & Abel Pintos",
+  "song": "Bailando con tu sombra (Alelí)",
+  "slug": "victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos",
+  "articleSlug": "victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos",
   "durationSeconds": 90,
-  "topic": "historia-en-los-acordes",
-  "anecdote": "La historia dentro de la letra de «You Don't Bring Me Flowers»: el doloroso y silencioso desgaste del amor en una pareja madura. No hubo infidelidad ni traición; solo el peso de la rutina, el jarrón que ya no recibe flores y la cobardía compartida de dos personas que aprendieron a fingir pero no saben cómo decirse adiós.",
-  "hook": "No hubo un portazo ni una traición escandalosa: solo la lenta y dolorosa costumbre de apagar la luz sin mirarse.",
+  "topic": "acordes-ocultos",
+  "anecdote": "La estremecedora historia detrás de «Bailando con tu sombra (Alelí)»: Víctor Heredia visitó un penal argentino y conoció el caso de un recluso que, enloquecido por la culpa tras haber asesinado a su esposa en un ataque de celos, aseguraba que ella regresaba cada medianoche a su calabozo, llevándolo a abrazar el aire y bailar con su propia sombra proyectada en la pared.",
+  "hook": "Miles de personas la cantan creyendo que es una tierna balada de amor... pero nació en el pabellón de una cárcel.",
   "beats": [
-    "No hubo un portazo ni un reproche; solo la condena de llegar a casa como un extraño.",
-    "El jarrón de cristal sigue intacto, pero hace años que nadie recuerda traer una flor.",
-    "Cenar frente a frente se convirtió en una rutina de silencios y miradas que se esquivan.",
-    "Hubo un tiempo en que rozarse era urgente y despedirse dolía como una quemadura.",
-    "Ahora el cariño se apaga de espaldas, girándose en la cama sin pronunciar palabra.",
-    "Las promesas de eternidad ya no cuentan: se barren del suelo como hojas marchitas.",
-    "Aprendieron a compartir risas y llanto; también aprendieron a sonreír fingiendo estar enteros."
+    "A finales de los noventa, Víctor Heredia visitó un penal argentino para cantar a los reclusos.",
+    "En el patio penitenciario, decenas de internos escucharon sus canciones conmovidos y en silencio.",
+    "Al terminar, los presos le señalaron con sigilo a un hombre apartado: «Ahí viene el loco».",
+    "Los internos le revelaron que aquel recluso había asesinado a su esposa por celos posesivos.",
+    "Devorado por el remordimiento, el hombre perdió el juicio y se sumió en un delirio permanente.",
+    "Cada medianoche aseguraba que ella volvía: abrazaba el aire y bailaba con la sombra en la celda.",
+    "Conmocionado, Heredia regresó esa noche al hotel y compuso la canción de un solo impulso.",
+    "En Viña del Mar 2004, un joven Abel Pintos desgarró su voz consagrando la obra para siempre."
   ],
-  "outro": "Hay amores que no mueren por odio, sino por la lenta costumbre de dejar de cuidarse.",
+  "outro": "El arte no justifica la tragedia, pero recuerda que la peor prisión es la culpa sin perdón.",
   "palette": {
     "ink": "#1c1917",
     "paper": "#faf7f2",
-    "accent": "#9a3412",
+    "accent": "#b91c1c",
     "glow": "#d97706"
   },
   "music": {
-    "title": "You Don't Bring Me Flowers",
-    "artist": "Barbra Streisand & Neil Diamond",
-    "src": "music/neil-diamond-barbra-streisand-you-dont-bring-me-flowers.mp3",
-    "file": "music/neil-diamond-barbra-streisand-you-dont-bring-me-flowers.mp3",
+    "title": "Bailando con tu sombra (Alelí)",
+    "artist": "Víctor Heredia & Abel Pintos",
+    "src": "music/abel-pintos-bailando-con-tu-sombra.mp3",
+    "file": "music/abel-pintos-bailando-con-tu-sombra.mp3",
     "startSecond": 0,
     "volume": 0.85,
     "instagram": {
-      "query": "Barbra Streisand Neil Diamond You Don't Bring Me Flowers",
-      "expectedTitle": "You Don't Bring Me Flowers",
-      "expectedArtist": "Barbra Streisand & Neil Diamond",
+      "query": "Abel Pintos Bailando Con Tu Sombra Aleli",
+      "expectedTitle": "Bailando Con Tu Sombra (Alelí)",
+      "expectedArtist": "Abel Pintos",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial del dueto de Barbra Streisand y Neil Diamond en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Abel Pintos interpretando Bailando Con Tu Sombra en Instagram Reels."
     }
   },
-  "coverBg": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 cinematic 1978 domestic drama still, 35mm film grain, moody warm lamp lighting, NO readable text anywhere. A poignant portrait of a mature couple in their late forties (Robert and Elena) standing together in the doorway of their warm suburban home at dusk; both looking slightly away with deep melancholy and quiet tenderness, emotional distance in physical proximity. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
+  "coverBg": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 cinematic documentary still, 35mm film grain, moody atmospheric lighting, NO readable text anywhere. A weathered, dimly lit prison cell corridor with high stone walls and arched doorways in deep shadow, contrasted with a subtle warm light beam slicing through high barred windows. Authentic late 1990s Latin American atmosphere, rich textures of stone and aged iron, centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
   "assets": [
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-01.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic 1978 domestic drama still, 35mm grain, moody late afternoon hallway lighting, NO readable text anywhere. A tired 48-year-old man (Robert: short grey-streaked brown hair, clean-shaven, wool overcoat over open-collar shirt) standing in the entrance hall of a warm suburban 1970s house, quietly taking off his coat, exchanging an empty, formal glance with a woman waiting in the kitchen doorway. Heavy atmosphere of emotional disconnection, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-01.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 cinematic 35mm film still, cold overcast late afternoon exterior of a weathered Argentine penitentiary, high grey concrete walls, guard towers and rusted iron gates. A 50-year-old Argentine singer-songwriter (Víctor Heredia: dark wavy hair with grey streaks, neat thick mustache, gentle soulful eyes, wearing a dark navy wool overcoat) walking through the security checkpoint carrying an acoustic guitar case. Authentic documentary mood, realistic textures, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-02.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 photorealistic cinematic still, 35mm film grain, warm amber side lighting from a table lamp, NO readable text anywhere. Inside the quiet living room: a 46-year-old woman (Elena: shoulder-length wavy brown hair, delicate features, solemn melancholic brown eyes, wearing a simple beige cardigan) sitting at an oak dining table, staring pensively at an empty vintage cut-glass vase, hands resting in her lap in quiet contemplation, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-02.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 candid documentary scene, 35mm grain, natural diffuse daylight in an enclosed prison courtyard. Víctor Heredia seated on a modest wooden chair with his acoustic guitar, singing with deep warmth; around him, several dozen inmates of various ages in plain utilitarian clothes listen with profound respect and raw emotion, weathered faces showing vulnerability, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-03.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic interior still, 35mm film grain, warm dining chandelier light, NO readable text anywhere. Robert and Elena seated opposite each other at a round wooden dining table, eating dinner in complete silence; neither makes eye contact, both absorbed in their own heavy thoughts, the physical closeness contrasting with the vast emotional distance between them, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-03.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 atmospheric cinema verité still, 35mm film grain, dim fluorescent lights along a long prison corridor. Víctor Heredia standing speaking with two inmates who nod subtly toward a distant figure; far down the hall, a lone, gaunt inmate in worn grey garb walks slowly in isolation, troubled and staring at the floor. Tense, solemn prison atmosphere, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-04.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 golden nostalgic flashback vignette, 35mm Kodachrome grain, sunlit autumn afternoon, NO readable text anywhere. The same couple twenty years younger in the late 1950s, laughing genuinely in an outdoor garden, holding each other tightly with passionate, innocent joy, wind blowing their hair, a warm sunburst illuminating their radiant faces, vibrant emotional warmth, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-04.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 dramatic cinematic interior, 35mm film grain, muted warm sepia tones. A close-medium candid shot of an inmate talking earnestly in confidence to Víctor Heredia, his face etched with heavy solemnity as he recounts a tragic history; in the background, barred windows cast long geometric shadows across the cold floor, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-05.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic bedroom night still, 35mm grain, soft moonlight and dim bedside lamp glow, NO readable text anywhere. In a cozy 1970s bedroom: Robert lying in bed turned to his side facing away, his hand just having switched off the bedside lamp; Elena lies beside him staring up at the shadowed ceiling in the dark, awake and lonely, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-05.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 psychological drama still, 35mm grain, single pale overhead lightbulb in a narrow concrete prison cell. A gaunt 42-year-old inmate sitting on the edge of a bare metal cot, his head buried in his trembling hands, overwhelmed by crushing guilt, peeling paint and cold concrete walls, raw emotional despair, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-06.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 atmospheric cinematic still, 35mm grain, early morning pale light filtering through blinds, NO readable text anywhere. Elena standing alone by the large living room bay window in her morning robe, looking down thoughtfully as pale dust motes dance in the light, holding a cold cup of tea, solitude and quiet acceptance of loss, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-06.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 haunting cinematic night still, 35mm film grain, deep shadows illuminated only by faint blue moonlight slicing through high cell bars. The lone inmate standing in the center of the dark cell with arms gently raised as if embracing an invisible partner, his dark elongated shadow projected across the rough stone wall forming a dancing silhouette, surreal and heartbreaking, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-07.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic vanity mirror still, 35mm grain, soft warm incandescent vanity bulbs, NO readable text anywhere. Elena seated before an oval wooden vanity mirror, applying perfume or touching her face, meeting her own reflection with a brave yet profoundly sorrowful expression, the quiet exhaustion of maintaining appearances, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-07.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 intimate archival still, 35mm film grain, warm amber glow from a single bedside lamp in a modest 1990s hotel room. Víctor Heredia sitting at a small wooden desk late at night, an acoustic guitar resting against the wall, intensely writing verses with a pen on an open paper notebook, deep sorrow and creative focus on his face, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-08.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic emotional confrontation still, 35mm grain, twilight window backlight, NO readable text anywhere. Robert and Elena standing a few feet apart in the doorway between the hallway and living room; their eyes finally meet in a moment of raw, unguarded vulnerability and mutual sorrow, realizing the end has come but unable to say the final word, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-08.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 live concert photograph, 35mm film grain, dramatic concert stage spotlights at the Viña del Mar Quinta Vergara amphitheater in 2004. A 19-year-old Abel Pintos (slender, short dark hair, clean-shaven, passionate intense expression) singing with mouth open wide into a stage microphone with an acoustic guitar slung over his shoulder, warm golden and blue stage backlighting, crowd visible in dim background, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-09.png",
-      "credit": "Fotografía y recreación cinematográfica para Historia en los Acordes.",
-      "prompt": "Vertical 9:16 cinematic closing poetic still, 35mm grain, soft dusk light falling across an empty wooden porch, NO readable text anywhere. A solitary wooden bench on a quiet porch overlooking a tranquil garden at twilight, two empty chairs side by side under the evening sky, quiet poetic stillness, serene melancholic beauty, bottom 30 percent in deep shadow."
+      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-09.png",
+      "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
+      "prompt": "Vertical 9:16 poetic contemplation still, 35mm film grain, soft dawn light filtering through high arched windows across an empty, quiet stone courtyard after rain. Puddles reflect the pale morning sky, a solitary bird perched on a high ledge, serene quiet stillness, solemn and deeply reflective mood, NO people, NO turntable, NO vinyl records, bottom 30 percent in deep shadow."
     }
   ],
   "scenes": [
@@ -94,78 +95,78 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "No hubo un portazo ni un reproche; solo la condena de llegar a casa como un extraño.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-01.png",
+      "text": "A finales de los noventa, el cantautor argentino Víctor Heredia cruzó los pesados portones de una prisión para ofrecer un recital a los reclusos.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-01.png",
       "assetIndex": 0
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "El jarrón de cristal sigue intacto, pero hace años que nadie recuerda traer una flor.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-02.png",
+      "text": "En el patio penitenciario, decenas de internos escucharon sus canciones en un silencio sobrecogedor, conmovidos por una música que les devolvía la dignidad perdida.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-02.png",
       "assetIndex": 1
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Cenar frente a frente se convirtió en una rutina de silencios y miradas que se esquivan.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-03.png",
+      "text": "Al concluir el concierto, mientras conversaba con los presos, varios de ellos le señalaron con discreción a un hombre apartado: «Cuidado con ese... viene el loco».",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-03.png",
       "assetIndex": 2
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Hubo un tiempo en que rozarse era urgente y despedirse dolía como una quemadura.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-04.png",
+      "text": "Conmovido, Víctor preguntó por su condena; los internos le revelaron que aquel recluso había asesinado a su esposa en un ciego arrebato de celos posesivos.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-04.png",
       "assetIndex": 3
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Ahora el cariño se apaga de espaldas, girándose en la cama sin pronunciar palabra.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-05.png",
+      "text": "Tras ser encerrado, el remordimiento devoró su mente. Incapaz de asimilar que había destruido lo que más amaba, el hombre perdió el juicio entre aquellas cuatro paredes.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-05.png",
       "assetIndex": 4
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Las promesas de eternidad ya no cuentan: se barren del suelo como hojas marchitas.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-06.png",
+      "text": "Cada medianoche afirmaba que ella regresaba; entonces se ponía de pie en el calabozo a oscuras, abrazaba el aire y bailaba con la sombra de su celda.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-06.png",
       "assetIndex": 5
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Aprendieron a compartir risas y llanto; también aprendieron a sonreír fingiendo estar enteros.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-07.png",
+      "text": "Con el corazón destrozado, Heredia regresó esa noche a su hotel y compuso la canción de un solo tirón para transformar aquel horror en plegaria humana.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-07.png",
       "assetIndex": 6
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Saben que el amor se fue, pero ninguno encuentra el valor de pronunciar el adiós.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-08.png",
+      "text": "Años después, en Viña del Mar 2004, un joven Abel Pintos desgarró su voz ante el continente, consagrando la balada que millones cantaron creyendo que era de amor.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-08.png",
       "assetIndex": 7
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "Hay amores que no mueren por odio, sino por la lenta costumbre de dejar de cuidarse.",
-      "asset": "videos/barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes/scene-09.png",
+      "text": "El arte no justifica la tragedia, pero tiene el misterioso poder de recordar que la mayor prisión no está en las rejas, sino en la culpa sin perdón.",
+      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-09.png",
       "assetIndex": 8
     }
   ],
   "publication": {
-    "title": "La costumbre de apagar la luz sin mirarse",
-    "description": "No hubo una infidelidad ni una traición escandalosa: solo la lenta y dolorosa costumbre de apagar la luz sin rozarse.\n\nA través de los versos de «You Don't Bring Me Flowers», Barbra Streisand y Neil Diamond le pusieron voz a la tragedia más universal y silenciosa de la vida adulta: el desgaste del amor con el paso del tiempo. Dos personas que compartieron camas, risas y proyectos de vida, y que un día despiertan descubriendo que se han convertido en dos educados desconocidos bajo el mismo techo.\n\nLa mesa donde ya no hay conversación, el jarrón que acumula polvo porque nadie recuerda traer una flor, y la dolorosa lucidez de dos almas que aprendieron a amarse y a fingir, pero son incapaces de pronunciar la palabra «adiós». Porque las grandes relaciones rara vez se rompen por odio; se apagan cuando la ternura se convierte en un simple trámite.\n\n¿Qué canción te ha enseñado que el amor necesita cuidarse cada día para no morir en silencio?\n\nLa reflexión completa y la crónica narrativa están en el enlace de nuestro perfil.\n\n#YouDontBringMeFlowers #BarbraStreisand #NeilDiamond #HistoriaEnLosAcordes #AcordesOcultos",
-    "tiktokDescription": "No hubo gritos ni traición: solo la costumbre de apagar la luz sin mirarse. 🥀 La historia dentro de «You Don't Bring Me Flowers». 👇\n\n#YouDontBringMeFlowers #BarbraStreisand #NeilDiamond #HistoriaEnLosAcordes #Música"
+    "title": "La balada de amor que nació en un penal",
+    "description": "Miles de personas la cantan y la dedican creyendo que es una tierna balada de amor... pero nació en el pabellón de una cárcel argentina.\n\nA finales de los noventa, Víctor Heredia acudió a un penal para cantar a los reclusos. Al terminar, los propios presos le señalaron a un hombre apartado y le advirtieron con compasión: «Cuidado con ese... ahí viene el loco». Aquel hombre había matado a su esposa en un arranque ciego de celos y, carcomido por el remordimiento, había perdido el juicio. Cada medianoche aseguraba que el espíritu de su mujer regresaba a su calabozo; entonces se levantaba, abrazaba el aire y bailaba con la sombra proyectada en la pared.\n\nConmocionado por aquella estampa, Heredia escribió «Bailando con tu sombra (Alelí)» esa misma noche en su habitación de hotel. Años después, en el Festival de Viña del Mar 2004, un jovencísimo Abel Pintos desgarró su voz ante el continente para consagrar una obra que esconde una de las confesiones más estremecedoras de nuestra música.\n\n¿Conocías la oscura verdad detrás de esta canción? ¿Qué sentiste al descubrir el verdadero sentido de sus versos?\n\nLa crónica histórica completa y los documentos de archivo están disponibles en el enlace de nuestro perfil.\n\n#BailandoConTuSombra #VictorHeredia #AbelPintos #AcordesOcultos #FolkloreArgentino #MusicaLatinoamericana",
+    "tiktokDescription": "La cantan como tema de amor, pero nació en una cárcel. 🥀 La oscura verdad de «Bailando con tu sombra». 👇\n\n#BailandoConTuSombra #VictorHeredia #AbelPintos #AcordesOcultos #Música"
   }
 }
