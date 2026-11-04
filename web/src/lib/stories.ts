@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'la-balada-de-amor-que-nacio-en-un-penal': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'labaladadeamorquenacioenunpenal': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'bailando-con-tu-sombra': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'bailandocontusombra': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'bailandocontusombraaleli': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
+  'victor-heredia-abel-pintos-bailando-con-tu-sombra': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
   'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
   'la-costumbre-de-apagar-la-luz-sin-mirarse': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
   'lacostumbredeapagarlaluzsinmirarse': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
