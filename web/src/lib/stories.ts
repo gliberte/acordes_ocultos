@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'plain-white-ts-hey-there-delilah-acordes-ocultos': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
+  'la-cancion-de-amor-mas-famosa-que-nacio-de-una-mentira': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
+  'lacanciondeamormasfamosaquenaciodeunamentira': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
+  'plain-white-ts-hey-there-delilah': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
+  'hey-there-delilah': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
+  'heytheredelilah': 'plain-white-ts-hey-there-delilah-acordes-ocultos',
   'los-terricolas-luto-en-mi-alma-historia-en-los-acordes': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
   'la-tarde-que-el-amor-se-marcho-en-otros-brazos': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
   'latardequeelamorsemarchoenotrosbrazos': 'los-terricolas-luto-en-mi-alma-historia-en-los-acordes',
