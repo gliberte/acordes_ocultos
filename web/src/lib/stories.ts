@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
+  'la-costumbre-de-apagar-la-luz-sin-mirarse': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
+  'lacostumbredeapagarlaluzsinmirarse': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
+  'you-dont-bring-me-flowers': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
+  'youdontbringmeflowers': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
+  'barbra-streisand-neil-diamond-you-dont-bring-me-flowers': 'barbra-streisand-neil-diamond-you-dont-bring-me-flowers-historia-en-los-acordes',
   'victor-manuel-solo-pienso-en-ti-acordes-ocultos': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
   'el-amor-que-un-periodico-salvo-del-olvido': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
   'elamorqueunperiodicosalvodelolvido': 'victor-manuel-solo-pienso-en-ti-acordes-ocultos',
