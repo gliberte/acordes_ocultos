@@ -1,93 +1,93 @@
 {
   "brand": "acordes-ocultos",
-  "title": "La balada de amor que nació en un penal",
-  "artist": "Víctor Heredia & Abel Pintos",
-  "song": "Bailando con tu sombra (Alelí)",
-  "slug": "victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos",
-  "articleSlug": "victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos",
+  "title": "La mujer que cobró vida en un carnaval cubano",
+  "artist": "Silvio Rodríguez",
+  "song": "Óleo de mujer con sombrero",
+  "slug": "silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos",
+  "articleSlug": "silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos",
   "durationSeconds": 90,
   "topic": "acordes-ocultos",
-  "anecdote": "La estremecedora historia detrás de «Bailando con tu sombra (Alelí)»: Víctor Heredia visitó un penal argentino y conoció el caso de un recluso que, enloquecido por la culpa tras haber asesinado a su esposa en un ataque de celos, aseguraba que ella regresaba cada medianoche a su calabozo, llevándolo a abrazar el aire y bailar con su propia sombra proyectada en la pared.",
-  "hook": "Miles de personas la cantan creyendo que es una tierna balada de amor... pero nació en el pabellón de una cárcel.",
+  "anecdote": "La historia real detrás de «Óleo de mujer con sombrero»: Silvio Rodríguez vio en una revista un cuadro de Marc Chagall con una mujer de sombrero blanco y pluma roja. Meses después, en los carnavales de La Habana de 1970, vio a una mujer real vestida exactamente así. Vivieron un romance fulminante que ella decidió romper por miedo a las convenciones sociales, inspirando la célebre condena a «los amores cobardes».",
+  "hook": "Muchos creyeron que era para la musa de «Ojalá»... pero nació en un carnaval habanero frente a un cuadro surrealista.",
   "beats": [
-    "A finales de los noventa, Víctor Heredia visitó un penal argentino para cantar a los reclusos.",
-    "En el patio penitenciario, decenas de internos escucharon sus canciones conmovidos y en silencio.",
-    "Al terminar, los presos le señalaron con sigilo a un hombre apartado: «Ahí viene el loco».",
-    "Los internos le revelaron que aquel recluso había asesinado a su esposa por celos posesivos.",
-    "Devorado por el remordimiento, el hombre perdió el juicio y se sumió en un delirio permanente.",
-    "Cada medianoche aseguraba que ella volvía: abrazaba el aire y bailaba con la sombra en la celda.",
-    "Conmocionado, Heredia regresó esa noche al hotel y compuso la canción de un solo impulso.",
-    "En Viña del Mar 2004, un joven Abel Pintos desgarró su voz consagrando la obra para siempre."
+    "A finales de los sesenta, Silvio Rodríguez compaginaba sus canciones con su oficio de dibujante en La Habana.",
+    "En una revista de arte quedó fascinado por un cuadro de Marc Chagall: una mujer de sombrero blanco y pluma roja.",
+    "En los carnavales de La Habana de 1970, entre comparsas y calor caribeño, la pintura cobró vida ante sus ojos.",
+    "Vio cruzar a una joven con ese mismo atuendo; aquel cruce de miradas desató un romance apasionado y clandestino.",
+    "Pero la ilusión fue breve: sobre ella pesaban rígidas convenciones sociales y un entorno que rechazaba al trovador.",
+    "Acorralada por el miedo al qué dirán, la mujer eligió la seguridad del silencio, dejando marchitar lo que sentían.",
+    "Con el corazón roto, Silvio escribió la canción para exorcizar la herida y la tragedia de los amores cobardes.",
+    "Años después, en un estudio de Madrid, grabó el tema a solas con su guitarra, convirtiéndolo en un himno universal."
   ],
-  "outro": "El arte no justifica la tragedia, pero recuerda que la peor prisión es la culpa sin perdón.",
+  "outro": "Hay amores que no mueren por falta de pasión, sino por la cobardía de no atreverse a desafiar las sombras del mundo.",
   "palette": {
     "ink": "#1c1917",
     "paper": "#faf7f2",
-    "accent": "#b91c1c",
+    "accent": "#991b1b",
     "glow": "#d97706"
   },
   "music": {
-    "title": "Bailando con tu sombra (Alelí)",
-    "artist": "Víctor Heredia & Abel Pintos",
-    "src": "music/abel-pintos-bailando-con-tu-sombra.mp3",
-    "file": "music/abel-pintos-bailando-con-tu-sombra.mp3",
+    "title": "Óleo de mujer con sombrero",
+    "artist": "Silvio Rodríguez",
+    "src": "music/silvio-rodriguez-oleo-de-mujer-con-sombrero.mp3",
+    "file": "music/silvio-rodriguez-oleo-de-mujer-con-sombrero.mp3",
     "startSecond": 0,
     "volume": 0.85,
     "instagram": {
-      "query": "Abel Pintos Bailando Con Tu Sombra Aleli",
-      "expectedTitle": "Bailando Con Tu Sombra (Alelí)",
-      "expectedArtist": "Abel Pintos",
+      "query": "Silvio Rodriguez Oleo De Mujer Con Sombrero",
+      "expectedTitle": "Óleo de Mujer con Sombrero",
+      "expectedArtist": "Silvio Rodríguez",
       "status": "manual_check_required",
-      "notes": "Seleccionar audio oficial de Abel Pintos interpretando Bailando Con Tu Sombra en Instagram Reels."
+      "notes": "Seleccionar audio oficial de Silvio Rodríguez en Instagram Reels."
     }
   },
-  "coverBg": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/cover_bg.png",
-  "coverPrompt": "Vertical 9:16 cinematic documentary still, 35mm film grain, moody atmospheric lighting, NO readable text anywhere. A weathered, dimly lit prison cell corridor with high stone walls and arched doorways in deep shadow, contrasted with a subtle warm light beam slicing through high barred windows. Authentic late 1990s Latin American atmosphere, rich textures of stone and aged iron, centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
+  "coverBg": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/cover_bg.png",
+  "coverPrompt": "Vertical 9:16 cinematic archival portrait of 23-year-old Cuban singer-songwriter Silvio Rodríguez in 1970 Havana, high contrast 35mm film grain, moody warm Caribbean twilight lighting, NO readable text anywhere. Silvio has curly dark unruly hair, thin slender build, soulful observant eyes, wearing a simple open-collar olive green field shirt, carrying a worn acoustic guitar on his shoulder. In the soft-focus background, the vintage tropical architecture of Havana at dusk with warm lantern light. Centered vertical framing with generous negative space at top, bottom 30 percent in deep shadow.",
   "assets": [
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-01.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-01.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 cinematic 35mm film still, cold overcast late afternoon exterior of a weathered Argentine penitentiary, high grey concrete walls, guard towers and rusted iron gates. A 50-year-old Argentine singer-songwriter (Víctor Heredia: dark wavy hair with grey streaks, neat thick mustache, gentle soulful eyes, wearing a dark navy wool overcoat) walking through the security checkpoint carrying an acoustic guitar case. Authentic documentary mood, realistic textures, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 authentic archival documentary scene, 35mm film grain, warm daytime window light in a modest 1968 Havana editorial studio. A young 22-year-old Silvio Rodríguez (slender, curly dark hair, thoughtful expression, plain rolled-sleeve cotton shirt) leaning over a wooden drafting table with pencils, ink bottles and sketches for a magazine, an acoustic guitar resting nearby against a bookcase. Intimate creative atmosphere, vintage Havana, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-02.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-02.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 candid documentary scene, 35mm grain, natural diffuse daylight in an enclosed prison courtyard. Víctor Heredia seated on a modest wooden chair with his acoustic guitar, singing with deep warmth; around him, several dozen inmates of various ages in plain utilitarian clothes listen with profound respect and raw emotion, weathered faces showing vulnerability, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 cinematic still, 35mm film grain, warm amber desk lamp lighting in an evening room. Close-up on the hands of young Silvio holding open a large vintage art monograph book; on the page is an evocative, colorful painting in the distinctive dreamlike style of Marc Chagall depicting a floating, mysterious woman wearing a large white hat with a vivid red feather. Silvio's mesmerized face reflected subtly in soft focus, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-03.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-03.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 atmospheric cinema verité still, 35mm film grain, dim fluorescent lights along a long prison corridor. Víctor Heredia standing speaking with two inmates who nod subtly toward a distant figure; far down the hall, a lone, gaunt inmate in worn grey garb walks slowly in isolation, troubled and staring at the floor. Tense, solemn prison atmosphere, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 vibrant cinematic night scene, 35mm Kodachrome grain, colorful street lamps and festive festival lanterns along the Malecón in Havana during the 1970 carnival. A festive, bustling crowd of Cuban dancers and revellers in motion, tropical Caribbean night air, vintage 1950s cars parked along the boulevard, dynamic celebration atmosphere with deep dramatic shadows, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-04.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-04.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 dramatic cinematic interior, 35mm film grain, muted warm sepia tones. A close-medium candid shot of an inmate talking earnestly in confidence to Víctor Heredia, his face etched with heavy solemnity as he recounts a tragic history; in the background, barred windows cast long geometric shadows across the cold floor, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 cinematic encounter still, 35mm film grain, warm festive lantern backlight. Amid the moving festival crowd, young Silvio Rodríguez stops in his tracks as he catches sight of a stunning young Cuban woman (graceful, elegant dark eyes, enigmatic smile) wearing an immaculate wide-brimmed white hat decorated with a striking red feather. Their eyes lock across the street in a moment of poetic suspension, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-05.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-05.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 psychological drama still, 35mm grain, single pale overhead lightbulb in a narrow concrete prison cell. A gaunt 42-year-old inmate sitting on the edge of a bare metal cot, his head buried in his trembling hands, overwhelmed by crushing guilt, peeling paint and cold concrete walls, raw emotional despair, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 intimate moody interior, 35mm film grain, soft dusk shadows in an old colonial Havana veranda. Silvio and the young woman in the white hat sitting close on a wrought-iron bench beneath arched columns; she looks down at her intertwined fingers with a troubled, anxious expression as Silvio gently speaks to her. Tension of forbidden romance and impending social separation, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-06.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-06.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 haunting cinematic night still, 35mm film grain, deep shadows illuminated only by faint blue moonlight slicing through high cell bars. The lone inmate standing in the center of the dark cell with arms gently raised as if embracing an invisible partner, his dark elongated shadow projected across the rough stone wall forming a dancing silhouette, surreal and heartbreaking, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 melancholic cinematic street still, 35mm film grain, misty pale late afternoon light on a cobblestone colonial street in Old Havana. The elegant woman wearing the white hat with the red feather walks away from the camera into the distance, turning a corner without looking back. Silvio stands in silhouette in the foreground doorway watching her disappear, heavy sorrow and irrevocable farewell, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-07.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-07.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 intimate archival still, 35mm film grain, warm amber glow from a single bedside lamp in a modest 1990s hotel room. Víctor Heredia sitting at a small wooden desk late at night, an acoustic guitar resting against the wall, intensely writing verses with a pen on an open paper notebook, deep sorrow and creative focus on his face, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 intense creative songwriting portrait, 35mm film grain, warm flickering candle and desk lamp in a small Havana room late at night. Young Silvio Rodríguez (in white undershirt, curls disheveled, raw emotional focus) sitting on the edge of an old wooden bed with his acoustic guitar, writing lyrics frantically on a notepad with a pencil. Smoke or dust motes drifting in the light, artistic catharsis, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-08.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-08.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 live concert photograph, 35mm film grain, dramatic concert stage spotlights at the Viña del Mar Quinta Vergara amphitheater in 2004. A 19-year-old Abel Pintos (slender, short dark hair, clean-shaven, passionate intense expression) singing with mouth open wide into a stage microphone with an acoustic guitar slung over his shoulder, warm golden and blue stage backlighting, crowd visible in dim background, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 authentic recording studio documentary still, 35mm grain, soft incandescent studio spotlight at Sonoland Studios Madrid in 1977. Silvio Rodríguez at age 30 (wavy dark hair, thin mustache, denim jacket) seated alone on a studio stool in front of a vintage Neumann tube microphone, intimately playing his classical acoustic guitar with eyes closed in total concentration, recording Al final de este viaje, bottom 30 percent in deep shadow."
     },
     {
-      "src": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-09.png",
+      "src": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-09.png",
       "credit": "Fotografía y recreación histórica para Acordes Ocultos.",
-      "prompt": "Vertical 9:16 poetic contemplation still, 35mm film grain, soft dawn light filtering through high arched windows across an empty, quiet stone courtyard after rain. Puddles reflect the pale morning sky, a solitary bird perched on a high ledge, serene quiet stillness, solemn and deeply reflective mood, NO people, NO turntable, NO vinyl records, bottom 30 percent in deep shadow."
+      "prompt": "Vertical 9:16 poetic closing contemplative still, 35mm film grain, golden twilight overlooking the Havana sea wall (Malecón) at sundown. The tranquil ocean waves breaking softly against the dark sea rocks, an empty stone parapet glowing in the last rays of amber sunlight, calm atmospheric nostalgia, poetic serenity, NO people, NO turntable, NO vinyl records, bottom 30 percent in deep shadow."
     }
   ],
   "scenes": [
@@ -95,78 +95,78 @@
       "index": 1,
       "start": 0,
       "end": 10,
-      "text": "A finales de los noventa, el cantautor argentino Víctor Heredia cruzó los pesados portones de una prisión para ofrecer un recital a los reclusos.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-01.png",
+      "text": "A finales de los años sesenta, un joven Silvio Rodríguez compaginaba sus primeras composiciones con su trabajo como dibujante e ilustrador en La Habana.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-01.png",
       "assetIndex": 0
     },
     {
       "index": 2,
       "start": 10,
       "end": 20,
-      "text": "En el patio penitenciario, decenas de internos escucharon sus canciones en un silencio sobrecogedor, conmovidos por una música que les devolvía la dignidad perdida.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-02.png",
+      "text": "En una revista de arte quedó fascinado por un cuadro de Marc Chagall: una enigmática mujer con sombrero blanco y pluma colorada.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-02.png",
       "assetIndex": 1
     },
     {
       "index": 3,
       "start": 20,
       "end": 30,
-      "text": "Al concluir el concierto, mientras conversaba con los presos, varios de ellos le señalaron con discreción a un hombre apartado: «Cuidado con ese... viene el loco».",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-03.png",
+      "text": "Durante los carnavales de La Habana de 1970, entre el bullicio de las comparsas y el calor caribeño, la pintura cobró vida ante sus ojos.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-03.png",
       "assetIndex": 2
     },
     {
       "index": 4,
       "start": 30,
       "end": 40,
-      "text": "Conmovido, Víctor preguntó por su condena; los internos le revelaron que aquel recluso había asesinado a su esposa en un ciego arrebato de celos posesivos.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-04.png",
+      "text": "Vio cruzar entre la multitud a una joven con ese mismo atuendo; aquel cruce de miradas detonó un romance apasionado y clandestino.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-04.png",
       "assetIndex": 3
     },
     {
       "index": 5,
       "start": 40,
       "end": 50,
-      "text": "Tras ser encerrado, el remordimiento devoró su mente. Incapaz de asimilar que había destruido lo que más amaba, el hombre perdió el juicio entre aquellas cuatro paredes.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-05.png",
+      "text": "Pero la ilusión fue breve: sobre ella pesaban rígidas convenciones sociales y un entorno que rechazaba a aquel trovador rebelde y soñador.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-05.png",
       "assetIndex": 4
     },
     {
       "index": 6,
       "start": 50,
       "end": 60,
-      "text": "Cada medianoche afirmaba que ella regresaba; entonces se ponía de pie en el calabozo a oscuras, abrazaba el aire y bailaba con la sombra de su celda.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-06.png",
+      "text": "Acorralada por el miedo al qué dirán, la mujer eligió la seguridad del silencio y la resignación, dejando marchitar lo que sentían.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-06.png",
       "assetIndex": 5
     },
     {
       "index": 7,
       "start": 60,
       "end": 70,
-      "text": "Con el corazón destrozado, Heredia regresó esa noche a su hotel y compuso la canción de un solo tirón para transformar aquel horror en plegaria humana.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-07.png",
+      "text": "Con el corazón roto, Silvio escribió la canción para exorcizar la herida, sentenciando que los amores cobardes no llegan a amores ni a historias.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-07.png",
       "assetIndex": 6
     },
     {
       "index": 8,
       "start": 70,
       "end": 80,
-      "text": "Años después, en Viña del Mar 2004, un joven Abel Pintos desgarró su voz ante el continente, consagrando la balada que millones cantaron creyendo que era de amor.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-08.png",
+      "text": "Años después, en un estudio de Madrid, grabó el tema a solas con su guitarra, convirtiendo una renuncia en un himno inmortal.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-08.png",
       "assetIndex": 7
     },
     {
       "index": 9,
       "start": 80,
       "end": 90,
-      "text": "El arte no justifica la tragedia, pero tiene el misterioso poder de recordar que la mayor prisión no está en las rejas, sino en la culpa sin perdón.",
-      "asset": "videos/victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos/scene-09.png",
+      "text": "Hay amores que no mueren por falta de pasión, sino por la cobardía de no atreverse a desafiar las sombras del mundo.",
+      "asset": "videos/silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos/scene-09.png",
       "assetIndex": 8
     }
   ],
   "publication": {
-    "title": "La balada de amor que nació en un penal",
-    "description": "Miles de personas la cantan y la dedican creyendo que es una tierna balada de amor... pero nació en el pabellón de una cárcel argentina.\n\nA finales de los noventa, Víctor Heredia acudió a un penal para cantar a los reclusos. Al terminar, los propios presos le señalaron a un hombre apartado y le advirtieron con compasión: «Cuidado con ese... ahí viene el loco». Aquel hombre había matado a su esposa en un arranque ciego de celos y, carcomido por el remordimiento, había perdido el juicio. Cada medianoche aseguraba que el espíritu de su mujer regresaba a su calabozo; entonces se levantaba, abrazaba el aire y bailaba con la sombra proyectada en la pared.\n\nConmocionado por aquella estampa, Heredia escribió «Bailando con tu sombra (Alelí)» esa misma noche en su habitación de hotel. Años después, en el Festival de Viña del Mar 2004, un jovencísimo Abel Pintos desgarró su voz ante el continente para consagrar una obra que esconde una de las confesiones más estremecedoras de nuestra música.\n\n¿Conocías la oscura verdad detrás de esta canción? ¿Qué sentiste al descubrir el verdadero sentido de sus versos?\n\nLa crónica histórica completa y los documentos de archivo están disponibles en el enlace de nuestro perfil.\n\n#BailandoConTuSombra #VictorHeredia #AbelPintos #AcordesOcultos #FolkloreArgentino #MusicaLatinoamericana",
-    "tiktokDescription": "La cantan como tema de amor, pero nació en una cárcel. 🥀 La oscura verdad de «Bailando con tu sombra». 👇\n\n#BailandoConTuSombra #VictorHeredia #AbelPintos #AcordesOcultos #Música"
+    "title": "La mujer que cobró vida en un carnaval cubano",
+    "description": "Muchos creyeron durante décadas que estaba dedicada a la musa de «Ojalá»... pero nació en una noche de carnaval habanero frente a un cuadro surrealista.\n\nA finales de los años sesenta, un joven Silvio Rodríguez que aún trabajaba como dibujante e ilustrador quedó prendado de una obra del pintor bielorruso Marc Chagall donde aparecía una mujer con sombrero blanco y pluma roja. En 1970, en pleno estruendo de los carnavales de La Habana, aquella fantasía cobró vida: una mujer vestida de igual forma cruzó entre la multitud y encendió un romance fulminante.\n\nPero el idilio duró poco. Acorralada por los prejuicios sociales y el temor al escándalo familiar, ella decidió ceder al miedo y apagar el sentimiento. De aquel desgarro nació «Óleo de mujer con sombrero», inmortalizando para siempre una de las verdades más crudas de la condición humana: la tragedia de los amores que mueren por cobardía.\n\n¿Tuviste alguna vez un amor que no pudo ser por miedo a lo que dijeran los demás? ¿Qué verso de Silvio te ha marcado la vida?\n\nLa crónica histórica completa y los documentos de archivo están disponibles en el enlace de nuestro perfil.\n\n#SilvioRodriguez #OleoDeMujerConSombrero #AcordesOcultos #NuevaTrova #MusicaLatinoamericana #PoesiaYMusica",
+    "tiktokDescription": "No era para la musa de «Ojalá». 🥀 La misteriosa mujer tras «Óleo de mujer con sombrero». 👇\n\n#SilvioRodriguez #OleoDeMujerConSombrero #AcordesOcultos #Música #Trova"
   }
 }
