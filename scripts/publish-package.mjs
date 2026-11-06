@@ -133,9 +133,10 @@ const defaultDescription = (story) => {
 };
 
 const buildEditorialPackage = (story) => {
+  const isEnglish = story.brand === 'secret-chords';
   const tags = hashtagsFor(story);
   const commonTags = tags.slice(0, 10).join(' ');
-  const title = `${story.title} | Acordes Ocultos`;
+  const title = isEnglish ? `${story.title} | Secret Chords` : `${story.title} | Acordes Ocultos`;
   const description = story.publication?.description || defaultDescription(story);
   const instagramMusic = story.music?.instagram || {
     query: [story.music?.title, story.music?.artist].filter(Boolean).join(' '),
@@ -598,17 +599,57 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
 
   const row = config.table === 'published_news' ? publishedNewsRow : legacyRow;
 
+  // Buscar si ya existe un registro previo para esta historia en Supabase para actualizarlo con PATCH en vez de duplicarlo con POST
+  let existingRowId = null;
+  try {
+    const searchFilters = [];
+    if (matchedArticleSlug) {
+      searchFilters.push(`production_plan->>article_slug=eq.${encodeURIComponent(matchedArticleSlug)}`);
+    }
+    const currentSlug = row.production_plan?.slug || row.slug;
+    if (currentSlug) {
+      searchFilters.push(`production_plan->>slug=eq.${encodeURIComponent(currentSlug)}`);
+    }
+    if (row.title) {
+      searchFilters.push(`title=eq.${encodeURIComponent(row.title)}`);
+    }
+
+    for (const filter of searchFilters) {
+      const checkRes = await fetch(`${config.url}/rest/v1/${config.table}?${filter}&select=id,title,created_at&order=created_at.desc&limit=1`, {
+        headers: {
+          apikey: config.key,
+          authorization: `Bearer ${config.key}`
+        }
+      });
+      if (checkRes.ok) {
+        const found = await checkRes.json();
+        if (Array.isArray(found) && found.length > 0 && found[0]?.id) {
+          existingRowId = found[0].id;
+          console.log(`🔄 Registro existente en Supabase (ID: ${existingRowId}). Se actualizará con PATCH para evitar duplicados.`);
+          break;
+        }
+      }
+    }
+  } catch (searchErr) {
+    console.warn(`⚠️ Aviso al verificar duplicados en Supabase: ${searchErr.message}`);
+  }
+
   let response;
   let payload = null;
   for (let attempt = 1; attempt <= 3; attempt += 1) {
     try {
-      response = await fetch(`${config.url}/rest/v1/${config.table}`, {
-        method: 'POST',
+      const endpoint = existingRowId
+        ? `${config.url}/rest/v1/${config.table}?id=eq.${existingRowId}`
+        : `${config.url}/rest/v1/${config.table}`;
+      const method = existingRowId ? 'PATCH' : 'POST';
+
+      response = await fetch(endpoint, {
+        method,
         headers: {
           apikey: config.key,
           authorization: `Bearer ${config.key}`,
           'content-type': 'application/json',
-          prefer: 'return=representation,resolution=merge-duplicates'
+          prefer: 'return=representation'
         },
         body: JSON.stringify(row)
       });
@@ -633,7 +674,7 @@ const saveToSupabase = async ({story, editorialPackage, files, videoPath, videoS
 
   // Si falló por clave única duplicada, actualizar mediante PATCH sobre source_url
   if (response && !response.ok && payload?.code === '23505' && row.source_url) {
-    console.log('🔄 Registro existente en Supabase. Actualizando con PATCH...');
+    console.log('🔄 Registro existente en Supabase por source_url. Actualizando con PATCH...');
     const updateUrl = `${config.url}/rest/v1/${config.table}?source_url=eq.${encodeURIComponent(row.source_url)}`;
     response = await fetch(updateUrl, {
       method: 'PATCH',
@@ -875,6 +916,14 @@ const main = async () => {
 
   const story = JSON.parse(readFileSync(options.story, 'utf8'));
   const videoStats = statSync(options.video);
+
+  if (story.brand === 'secret-chords') {
+    options.skipCloudflare = true;
+    options.skipSupabase = true;
+    options.skipTelegram = true;
+    console.log('\n🔒 [Secret Chords Activo]: Modo estrictamente local. Se omiten Cloudflare R2, Supabase y Telegram.');
+    console.log('📁 Los archivos finales se respaldarán únicamente en Google Drive (Bóveda Maestra > Secret_Chords).\n');
+  }
 
   // Cláusula de Control de Calidad Innegociable: verificación estricta de 9 escenas
   const sceneCount = story.segments?.length || story.scenes?.length || (story.visuals?.length ?? 0);
@@ -1150,7 +1199,8 @@ const main = async () => {
     try {
       console.log('\n🏛️  Sincronizando automáticamente con la Bóveda Maestra...');
       const {execSync} = await import('node:child_process');
-      execSync(`node scripts/backup-vault.mjs --story "${options.story}"`, {
+      const videoArg = options.video ? ` --video "${options.video}"` : '';
+      execSync(`node scripts/backup-vault.mjs --story "${options.story}"${videoArg}`, {
         cwd: rootDir,
         stdio: 'inherit'
       });
@@ -1162,7 +1212,8 @@ const main = async () => {
   }
 
   // Sincronización automática de recursos web (portadas WebP, imágenes de artículos y dataset chronicles.json) + Git Push
-  if (!options.dryRun) {
+  // Omitido para Secret Chords (mantener 100% local + Drive)
+  if (!options.dryRun && story.brand !== 'secret-chords') {
     console.log('\n🌐 Sincronizando recursos optimizados para la Web (Portadas WebP, Artículos & Dataset)...');
     const {execSync} = await import('node:child_process');
     for (const cmd of [
