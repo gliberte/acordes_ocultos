@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'joan-osborne-one-of-us-acordes-ocultos': 'joan-osborne-one-of-us-acordes-ocultos',
+  'la-balada-que-quisieron-censurar-con-bombas': 'joan-osborne-one-of-us-acordes-ocultos',
+  'labaladaquequisieroncensurarconbombas': 'joan-osborne-one-of-us-acordes-ocultos',
+  'joan-osborne-one-of-us': 'joan-osborne-one-of-us-acordes-ocultos',
+  'one-of-us': 'joan-osborne-one-of-us-acordes-ocultos',
+  'oneofus': 'joan-osborne-one-of-us-acordes-ocultos',
   'duncan-dhu-en-algun-lugar-historia-en-los-acordes': 'duncan-dhu-en-algun-lugar-historia-en-los-acordes',
   'la-tierra-del-olvido': 'duncan-dhu-en-algun-lugar-historia-en-los-acordes',
   'latierradelolvido': 'duncan-dhu-en-algun-lugar-historia-en-los-acordes',
