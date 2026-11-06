@@ -818,13 +818,25 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
           }
         }
 
-        const existingIdx = items.findIndex(it => it.id === item.id || it.slug === item.slug);
+        const existingIdx = items.findIndex(it => {
+          if (it.id === item.id) return true;
+          if (it.slug === item.slug) return true;
+          const itSlugClean = (it.slug || '').replace(/[^a-z0-9]/g, '');
+          const itemSlugClean = (item.slug || '').replace(/[^a-z0-9]/g, '');
+          if (itSlugClean && itemSlugClean && itSlugClean === itemSlugClean) return true;
+          if (it.articleSlug && item.articleSlug && it.articleSlug === item.articleSlug) return true;
+          if (it.title && item.title && slugify(it.title) === slugify(item.title)) return true;
+          return false;
+        });
         if (existingIdx >= 0) {
           if (item.instagramUrl && !items[existingIdx].instagramUrl) {
             items[existingIdx].instagramUrl = item.instagramUrl;
           }
           if (item.content && (!items[existingIdx].content || items[existingIdx].content.length < 500)) {
             items[existingIdx].content = item.content;
+          }
+          if (item.articleSlug && !items[existingIdx].articleSlug) {
+            items[existingIdx].articleSlug = item.articleSlug;
           }
         } else {
           items.unshift(item);
@@ -953,6 +965,18 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     const viewsB = typeof b.views === 'number' ? b.views : 0;
     return viewsB - viewsA;
   });
+
+  // Deduplication safety pass to guarantee no repeated stories or chronicles in web views
+  const seenKeys = new Set<string>();
+  const uniqueItems: StoryItem[] = [];
+  for (const it of items) {
+    const canonicalKey = it.articleSlug || it.slug || it.id;
+    if (!seenKeys.has(canonicalKey)) {
+      seenKeys.add(canonicalKey);
+      uniqueItems.push(it);
+    }
+  }
+  items = uniqueItems;
 
   // Dynamically determine the latest Instagram Reel:
   // Find the story with the most recent publication timestamp (igPublishedAt or publishedAt)
