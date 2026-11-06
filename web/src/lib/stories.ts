@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
+  'la-mujer-que-cobro-vida-en-un-carnaval-cubano': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
+  'lamujerquecobrovidaenuncarnavalcubano': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
+  'oleo-de-mujer-con-sombrero': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
+  'oleodemujerconsombrero': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
+  'silvio-rodriguez-oleo-de-mujer-con-sombrero': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
   'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
   'la-balada-de-amor-que-nacio-en-un-penal': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
   'labaladadeamorquenacioenunpenal': 'victor-heredia-abel-pintos-bailando-con-tu-sombra-acordes-ocultos',
