@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'bob-dylan-blowin-in-the-wind-acordes-ocultos': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
+  'la-balada-que-avergonzo-al-rey-del-soul': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
+  'labaladaqueavergonzoalreydelsoul': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
+  'bob-dylan-blowin-in-the-wind': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
+  'blowin-in-the-wind': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
+  'blowininthewind': 'bob-dylan-blowin-in-the-wind-acordes-ocultos',
   'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
   'la-mujer-que-cobro-vida-en-un-carnaval-cubano': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
   'lamujerquecobrovidaenuncarnavalcubano': 'silvio-rodriguez-oleo-de-mujer-con-sombrero-acordes-ocultos',
