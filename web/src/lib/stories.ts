@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'willie-nelson-city-of-new-orleans-acordes-ocultos': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'willie-nelson-city-of-new-orleans-acordes-ocultos-tiktok': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'el-joven-desahuciado-que-tuvo-lo-que-duraba-una-cerveza-para-salvar-a-su-familia': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'eljovendesahuciadoquetuvoloquedurabaunacervezaparasalvarasufamilia': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'willie-nelson-city-of-new-orleans': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'city-of-new-orleans': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
+  'cityofneworleans': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
   'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
   'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos-tiktok': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
   'la-cancion-prohibida-de-un-maestro-rural-que-desafio-la-censura': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
