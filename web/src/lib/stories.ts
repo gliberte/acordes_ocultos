@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos-tiktok': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'la-cancion-secreta-que-ricardo-arjona-casi-no-pudo-volver-a-cantar': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'lacancionsecretaquericardoarjonacasinopudovolveracantar': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'mi-novia-se-me-esta-poniendo-vieja': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
+  'minoviasemeestaponiendovieja': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
   'bee-gees-to-love-somebody-acordes-ocultos': 'bee-gees-to-love-somebody-acordes-ocultos',
   'bee-gees-to-love-somebody-acordes-ocultos-tiktok': 'bee-gees-to-love-somebody-acordes-ocultos',
   'la-cancion-escrita-para-un-rey-que-murio-antes-de-cantarla': 'bee-gees-to-love-somebody-acordes-ocultos',
