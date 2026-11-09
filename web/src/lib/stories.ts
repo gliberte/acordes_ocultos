@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'bee-gees-to-love-somebody-acordes-ocultos': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'bee-gees-to-love-somebody-acordes-ocultos-tiktok': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'la-cancion-escrita-para-un-rey-que-murio-antes-de-cantarla': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'lacancionescritaparaunreyquemurioantesdecantarla': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'bee-gees-to-love-somebody': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'to-love-somebody': 'bee-gees-to-love-somebody-acordes-ocultos',
+  'tolovesomebody': 'bee-gees-to-love-somebody-acordes-ocultos',
   'joan-osborne-one-of-us-acordes-ocultos': 'joan-osborne-one-of-us-acordes-ocultos',
   'la-balada-que-quisieron-censurar-con-bombas': 'joan-osborne-one-of-us-acordes-ocultos',
   'labaladaquequisieroncensurarconbombas': 'joan-osborne-one-of-us-acordes-ocultos',
