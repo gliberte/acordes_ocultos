@@ -48,6 +48,8 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'senoradelascuatrodecadas': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
   'ricardo-arjona-ella-y-el-historia-en-los-acordes': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
   'ricardo-arjona-ella-y-el-historia-en-los-acordes-tiktok': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'la-cubana-y-el-neoyorquino-que-desafiaron-la-guerra-fria-por-amor': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'lacubanayelneoyorquinoquedesafiaronlaguerrafriaporamor': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
   'los-dos-amantes-que-se-cruzaron-en-el-mar-sin-volver-a-encontrarse': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
   'losdosamantesquesecruzaronenelmarsinvolveraencontrarse': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
   'el-romance-secreto-de-un-inmigrante-que-rompio-un-tabu-en-america-latina': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
