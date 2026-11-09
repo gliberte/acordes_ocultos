@@ -34,6 +34,23 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos-tiktok': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'la-cancion-prohibida-de-un-maestro-rural-que-desafio-la-censura': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'lacancionprohibidadeunmaestroruralquedesafiolacensura': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'ricardo-arjona-jesus-verbo-no-sustantivo': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'jesus-verbo-no-sustantivo': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'jesusverbonosustantivo': 'ricardo-arjona-jesus-verbo-no-sustantivo-acordes-ocultos',
+  'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
+  'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos-tiktok': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
+  'ricardo-arjona-senora-de-las-cuatro-decadas': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
+  'senora-de-las-cuatro-decadas': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
+  'senoradelascuatrodecadas': 'ricardo-arjona-senora-de-las-cuatro-decadas-acordes-ocultos',
+  'ricardo-arjona-ella-y-el-historia-en-los-acordes': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'ricardo-arjona-ella-y-el-historia-en-los-acordes-tiktok': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'ricardo-arjona-ella-y-el': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'ella-y-el': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
+  'ellayel': 'ricardo-arjona-ella-y-el-historia-en-los-acordes',
   'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
   'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos-tiktok': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
   'la-cancion-secreta-que-ricardo-arjona-casi-no-pudo-volver-a-cantar': 'ricardo-arjona-mi-novia-se-me-esta-poniendo-vieja-acordes-ocultos',
