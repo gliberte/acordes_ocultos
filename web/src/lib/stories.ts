@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'los-prisioneros-tren-al-sur-acordes-ocultos': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'los-prisioneros-tren-al-sur-acordes-ocultos-tiktok': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'la-cancion-que-su-disquera-rechazo-y-se-convirtio-en-el-himno-de-las-familias-humildes': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'lacancionquesudisquerarechazoyseconvirtioenelhimnodelasfamiliashumildes': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'los-prisioneros-tren-al-sur': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'tren-al-sur': 'los-prisioneros-tren-al-sur-acordes-ocultos',
+  'trenalsur': 'los-prisioneros-tren-al-sur-acordes-ocultos',
   'willie-nelson-city-of-new-orleans-acordes-ocultos': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
   'willie-nelson-city-of-new-orleans-acordes-ocultos-tiktok': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
   'el-joven-desahuciado-que-tuvo-lo-que-duraba-una-cerveza-para-salvar-a-su-familia': 'willie-nelson-city-of-new-orleans-acordes-ocultos',
