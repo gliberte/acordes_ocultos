@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'queen-the-show-must-go-on-acordes-ocultos': 'queen-the-show-must-go-on-acordes-ocultos',
+  'queen-the-show-must-go-on-acordes-ocultos-tiktok': 'queen-the-show-must-go-on-acordes-ocultos',
+  'apenas-podia-sostenerse-en-pie-cuando-entro-a-grabar-esta-despedida': 'queen-the-show-must-go-on-acordes-ocultos',
+  'apenaspodiasostenerseenpiecuandoentroagrabarestadespedida': 'queen-the-show-must-go-on-acordes-ocultos',
+  'queen-the-show-must-go-on': 'queen-the-show-must-go-on-acordes-ocultos',
+  'the-show-must-go-on': 'queen-the-show-must-go-on-acordes-ocultos',
+  'theshowmustgoon': 'queen-the-show-must-go-on-acordes-ocultos',
   'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
   'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda-tiktok': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
   'canto-conectado-a-un-tanque-de-oxigeno-cuando-el-aire-ya-lo-abandonaba': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
