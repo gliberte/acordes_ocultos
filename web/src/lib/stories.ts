@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'don-mclean-empty-chairs-acordes-ocultos': 'don-mclean-empty-chairs-acordes-ocultos',
+  'don-mclean-empty-chairs-acordes-ocultos-tiktok': 'don-mclean-empty-chairs-acordes-ocultos',
+  'la-balada-de-don-mclean-que-hizo-llorar-a-una-joven-en-un-bar-y-dio-origen-a-killing-me-softly': 'don-mclean-empty-chairs-acordes-ocultos',
+  'labaladadedonmcleanquehizolloraraunajovenenunbarydioorigenakillingmesoftly': 'don-mclean-empty-chairs-acordes-ocultos',
+  'don-mclean-empty-chairs': 'don-mclean-empty-chairs-acordes-ocultos',
+  'empty-chairs': 'don-mclean-empty-chairs-acordes-ocultos',
+  'emptychairs': 'don-mclean-empty-chairs-acordes-ocultos',
   'ruben-blades-amor-y-control-acordes-ocultos': 'ruben-blades-amor-y-control-acordes-ocultos',
   'ruben-blades-amor-y-control-acordes-ocultos-tiktok': 'ruben-blades-amor-y-control-acordes-ocultos',
   'la-cancion-que-la-orquesta-de-ruben-blades-no-podia-terminar-de-ensayar-sin-llorar': 'ruben-blades-amor-y-control-acordes-ocultos',
