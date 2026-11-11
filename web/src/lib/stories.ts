@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'ruben-blades-amor-y-control-acordes-ocultos': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'ruben-blades-amor-y-control-acordes-ocultos-tiktok': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'la-cancion-que-la-orquesta-de-ruben-blades-no-podia-terminar-de-ensayar-sin-llorar': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'lacancionquelaorquestaderubenbladesnopodiaterminardeensayarsinllorar': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'ruben-blades-amor-y-control': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'amor-y-control': 'ruben-blades-amor-y-control-acordes-ocultos',
+  'amorycontrol': 'ruben-blades-amor-y-control-acordes-ocultos',
   'los-prisioneros-tren-al-sur-acordes-ocultos': 'los-prisioneros-tren-al-sur-acordes-ocultos',
   'los-prisioneros-tren-al-sur-acordes-ocultos-tiktok': 'los-prisioneros-tren-al-sur-acordes-ocultos',
   'la-cancion-que-su-disquera-rechazo-y-se-convirtio-en-el-himno-de-las-familias-humildes': 'los-prisioneros-tren-al-sur-acordes-ocultos',
