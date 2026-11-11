@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda-tiktok': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'canto-conectado-a-un-tanque-de-oxigeno-cuando-el-aire-ya-lo-abandonaba': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'cantoconectadoauntanquedeoxigenocuandoelaireyaloabandonaba': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'jose-luis-rodriguez-dueno-de-nada': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'dueno-de-nada': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
+  'duenodenada': 'jose-luis-rodriguez-dueno-de-nada-catedrales-de-leyenda',
   'demis-roussos-forever-and-ever-acordes-ocultos': 'demis-roussos-forever-and-ever-acordes-ocultos',
   'demis-roussos-forever-and-ever-acordes-ocultos-tiktok': 'demis-roussos-forever-and-ever-acordes-ocultos',
   'el-secuestro-aereo-donde-la-voz-de-demis-roussos-le-salvo-la-vida': 'demis-roussos-forever-and-ever-acordes-ocultos',
