@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'demis-roussos-forever-and-ever-acordes-ocultos': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'demis-roussos-forever-and-ever-acordes-ocultos-tiktok': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'el-secuestro-aereo-donde-la-voz-de-demis-roussos-le-salvo-la-vida': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'elsecuestroaereodondelavozdedemisroussoslesalvolavida': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'demis-roussos-forever-and-ever': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'forever-and-ever': 'demis-roussos-forever-and-ever-acordes-ocultos',
+  'foreverandever': 'demis-roussos-forever-and-ever-acordes-ocultos',
   'don-mclean-empty-chairs-acordes-ocultos': 'don-mclean-empty-chairs-acordes-ocultos',
   'don-mclean-empty-chairs-acordes-ocultos-tiktok': 'don-mclean-empty-chairs-acordes-ocultos',
   'la-balada-de-don-mclean-que-hizo-llorar-a-una-joven-en-un-bar-y-dio-origen-a-killing-me-softly': 'don-mclean-empty-chairs-acordes-ocultos',
