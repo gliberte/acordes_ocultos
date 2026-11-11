@@ -12,7 +12,9 @@ El 20 de julio de 1969, seiscientos millones de personas contuvieron la respirac
 
 Entre la música seleccionada para acompañar las horas previas y los boletines especiales figuraba un sencillo recién salido de fábrica, publicado apenas nueve días antes: **«Space Oddity»**, de un joven desconocido de veintidós años llamado David Bowie. Para los programadores de la cadena, el título —un guiño descarado a la película *2001: Odisea del Espacio* de Stanley Kubrick— parecía el complemento moderno y juvenil perfecto para la fiebre cósmica que envolvía al planeta.
 
-Sin embargo, a mitad de la retransmisión, los directores de la BBC escucharon con verdadera atención la letra. El estupor dio paso a un pánico frío e inmediato. La orden bajó como un rayo a las cabinas de control: **prohibir y retirar la canción del aire de forma fulminante**. No era un himno a la gloria del Apolo 11. Era la crónica fúnebre de un astronauta que perdía el control de su cápsula espacial y se resignaba a morir flotando en la nada absoluta.
+Sin embargo, cuando la letra llegó a los escritorios directivos de la corporación británica en medio de la cuenta regresiva hacia la Luna, el estupor dio paso a una cautela helada. **La radio de la BBC optó por retener y mantener fuera de emisión el sencillo mientras la misión estuviera en peligro**. No era un himno triunfal al Apolo 11: era la crónica fúnebre de un astronauta que perdía el control de su cápsula espacial y se resignaba a morir flotando en la nada absoluta.
+
+Irónicamente —como recordaría después el propio David Bowie—, la división televisiva de la BBC sí llegó a emplear pasajes de la canción como música ambiental durante su cobertura especial, reflejando la desconexión entre los programadores radiofónicos que temían la superstición de una tragedia espacial y los productores televisivos fascinados por el título.
 
 ---
 
@@ -48,21 +50,19 @@ Días antes, su amigo **Marc Bolan** (líder de T. Rex) le había prestado a Bow
 
 ## Acto III: Nueve días antes de la Luna y la censura de la BBC (Julio de 1969)
 
-El sencillo de «Space Oddity» se prensó a velocidad de vértigo y llegó a las tiendas británicas el **11 de julio de 1969**, exactamente nueve días antes de que el Saturno V impulsara al Apolo 11 fuera de la atmósfera terrestre. La campaña de marketing de Philips/Mercury apostaba a que el interés por la Luna arrastraría al disco a los primeros puestos de venta.
+El sencillo de «Space Oddity» se prensó a velocidad de vértigo y llegó a las tiendas británicas el **11 de julio de 1969**, exactamente nueve días antes de que el Saturno V impulsara al Apolo 11 fuera de la atmósfera terrestre. La campaña de promoción de Philips/Mercury apostaba a que la fiebre lunar arrastraría al disco a los primeros puestos de venta.
 
 ![Portada original del sencillo de Space Oddity (Philips, julio de 1969)](images/bowie_space_oddity_single_1969.jpg)
 
-La BBC, preparando su ambiciosa cobertura televisiva de 27 horas seguidas conducida por James Burke y Cliff Michelmore, incluyó la canción en sus cabinas de transmisión. Durante las primeras emisiones previas al despegue, los acordes de guitarra acústica y la cuenta regresiva (*«Ten, nine, eight, seven...»*) resonaron en las salas de estar de millones de británicos.
-
-Pero a medida que el viaje avanzaba hacia su momento más crítico, alguien en la cúpula directiva de la cadena prestó atención al desenlace de la historia:
+La BBC preparaba su ambiciosa cobertura de la misión conducida en televisión por James Burke y Cliff Michelmore. Mientras la televisión británica llegó a utilizar brevemente el tema como fondo de sus transmisiones espaciales, en los pasillos de la radio de la BBC alguien prestó atención al desenlace de la letra:
 
 > *«Ground Control to Major Tom / Your circuit’s dead, there’s something wrong / Can you hear me, Major Tom?...»*
 
 El astronauta de Bowie no clavaba la bandera británica ni estadounidense en el cráter de un mundo nuevo; su sistema vital colapsaba, perdía la señal de radio y se quedaba a la deriva, condenado a una muerte lenta y solitaria entre las estrellas.
 
-El terror de los directores era plenamente fundado. La misión Apolo 11 era una ruleta rusa tecnológica: en 1967, los tres astronautas del Apolo 1 experimentaron una tragedia fatal calcinados en la plataforma de lanzamiento; cualquier fallo en los propulsores del módulo lunar dejaría a Neil Armstrong y Buzz Aldrin varados para siempre en la superficie lunar sin posibilidad de rescate, asfixiándose en directo ante los ojos de la humanidad. Si aquello ocurría mientras la BBC ponía de fondo la canción de Bowie, la cadena parecería culpable de una profecía siniestra y de un escarnio imperdonable.
+La inquietud en las emisoras musicales de la BBC tenía un fundamento trágico reciente. La misión Apolo 11 era una ruleta rusa tecnológica: en 1967, los tres astronautas del Apolo 1 habían muerto calcinados en una prueba de lanzamiento, y cualquier fallo en los propulsores del módulo lunar dejaría a Neil Armstrong y Buzz Aldrin varados para siempre en la Luna sin posibilidad de rescate ante los ojos de la humanidad. Si ocurría una catástrofe mientras la radio nacional programaba la canción de Bowie, la emisión habría parecido un presagio de mal augurio e insensible con la tripulación.
 
-La orden fue irrevocable: **«Space Oddity» fue archivada y retirada de todas las listas de reproducción de radio y televisión de la BBC**. Ningún oyente británico volvería a escuchar la voz de Major Tom mientras los astronautas estuvieran en el espacio.
+La directriz fue inequívoca: **los directivos radiofónicos de la BBC vetaron la rotación de «Space Oddity» en la radio durante los días críticos de la misión**. El tema quedó suspendido hasta comprobar que los astronautas regresaban sanos y salvos a casa.
 
 ---
 
@@ -87,8 +87,7 @@ El verdadero secreto que la BBC no supo descifrar a tiempo fue que David Bowie n
 ### 📚 Fuentes y Archivo Documental
 
 * **Bowie, David.** Entrevistas y declaraciones autobiográficas compiladas en *Bowie on Bowie: Interviews and Encounters with David Bowie* (Sean Egan, Chicago Review Press, 2015).
-* **Pegoraro, Nicholas.** *The Complete David Bowie* (Titan Books, edición ampliada 2016). Análisis musicológico y cronología de grabación en Trident Studios.
-* **Dudgeon, Gus.** Testimonios de producción sobre las sesiones de grabación del Stylophone y arreglos de Paul Buckmaster (Sound on Sound Archives, 1999).
-* **BBC Written Archives Centre (Caversham).** Registros de programación y directrices de emisión de la BBC durante la cobertura del Apolo 11 (julio de 1969).
+* **Pegg, Nicholas.** *The Complete David Bowie* (Titan Books, edición revisada y ampliada, 2016). Análisis musicológico, cronología de grabación en Trident Studios y documentación sobre la política de programación de la BBC durante el Apolo 11 (julio de 1969).
+* **Dudgeon, Gus / Inglis, Sam (2001).** «Gus Dudgeon: Producer», *Sound On Sound* (edición de julio de 2001). Testimonio directo del productor sobre las sesiones de grabación en Trident Studios, los arreglos orquestales de Paul Buckmaster y el uso del Stylophone.
 * **Farthingale, Hermione.** Memorias y testimonios documentales en *David Bowie: Finding Fame* (BBC Two, documental dirigido por Francis Whately, 2019).
-* **Trynka, Paul.** *Starman: David Bowie, The Definitive Biography* (Sphere, 2011). Capítulos dedicados a la época de Beckenham y el lanzamiento de Philips Records.
+* **Trynka, Paul.** *Starman: David Bowie, The Definitive Biography* (Sphere, 2011). Capítulos dedicados a la época de Beckenham, el contraste entre BBC Radio y BBC Television durante la cobertura lunar y el lanzamiento en Philips Records.

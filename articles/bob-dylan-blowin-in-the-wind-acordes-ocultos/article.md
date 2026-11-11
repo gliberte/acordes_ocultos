@@ -35,9 +35,7 @@ A miles de kilómetros de Manhattan, a bordo de un automóvil que cruzaba las ca
 
 Cooke era elegante, millonario, dueño de su propia discográfica y un hombre profundamente consciente de su posición social. Sin embargo, cuando la radio del coche sintonizó *Blowin’ in the Wind*, Cooke ordenó silencio absoluto.
 
-Escuchó la canción entera sin pestañear. Cuando los acordes finales se desvanecieron, una mezcla amarga de asombro y desconsuelo se dibujó en su rostro. Se giró hacia su guitarrista y confidente, Bobby Womack, y hacia su representante Allen Klein, y pronunció una frase que quedó grabada en la memoria de los testigos:
-
-> *«¿Cómo es posible que un muchacho blanco haya escrito una canción que captura el dolor y la dignidad de nuestro pueblo mejor que cualquier cosa que hayamos escrito nosotros?»*
+En su círculo cercano, entre ellos su socio y amigo **J. W. Alexander** —quien le había hecho escuchar el disco de Dylan— y su protegido **Bobby Womack**, Cooke no ocultó la mezcla de asombro y desazón que le producía aquella canción. Según documentó el biógrafo Peter Guralnick, al astro del soul le impresionaba e inquietaba comprobar que un joven cantautor blanco hubiera formulado con tanta claridad una pregunta sobre la lucha racial que él mismo sentía pendiente en su propio repertorio.
 
 A Cooke no le molestaba el éxito de Dylan; le dolía su propio silencio. Sentía una íntima vergüenza creativa: mientras su gente era golpeada en las sentadas pacíficas de Birmingham y los perros policiales eran azuzados contra manifestantes, él había pasado años grabando canciones románticas de salón para complacer al público blanco. De inmediato, incorporó *Blowin’ in the Wind* a su repertorio en vivo (incluyendo su memorable actuación en el club Copacabana), pero sabía en el fondo de su corazón que interpretar el himno de Dylan no bastaba. Debía escribir su propia respuesta.
 
@@ -65,7 +63,7 @@ Llamó a Bobby Womack a su habitación y le tocó los primeros compases de la nu
 
 > *«Tiene que sonar como si alguien estuviera llorando. Porque si no lo digo yo ahora, nadie lo dirá»*.
 
-El 21 de diciembre de 1963, en los estudios de RCA en Hollywood, Sam Cooke grabó *A Change Is Gonna Come*. Con los arreglos orquestales monumentales concebidos por René Hall —donde las cuerdas y los timbales parecen el avance de una tormenta bíblica—, la voz de Cooke alcanzó cotas de desgarro y emoción que jamás había explorado.
+El **30 de enero de 1964**, en los estudios de RCA en Hollywood bajo la producción de Hugo & Luigi y con los arreglos orquestales monumentales concebidos por René Hall —donde las cuerdas y los timbales parecen el avance de una tormenta bíblica—, Sam Cooke grabó *A Change Is Gonna Come*, alcanzando cotas de desgarro y emoción que jamás había explorado.
 
 *«Nací junto al río en una pequeña tienda de campaña, y al igual que el río, he estado corriendo desde entonces... Ha sido un largo, largo camino, pero sé que vendrá un cambio»*.
 
@@ -89,5 +87,5 @@ A partir de aquel instante, la historia cerró su círculo: las preguntas que Dy
 2. **Dylan, Bob (2004).** *Chronicles: Volume One*. Simon & Schuster. (Memorias de Bob Dylan sobre sus primeros años en Greenwich Village, el Commons Cafe y sus composiciones iniciales).
 3. **Scorsese, Martin (Dir.) (2005).** *No Direction Home: Bob Dylan*. Documental testimonial de Apple Corps / PBS American Masters. (Dylan reconoce expresamente la adaptación melódica del espiritual *No More Auction Block for Me*).
 4. **Heylin, Clinton (2009).** *Revolution in the Air: The Songs of Bob Dylan 1957–1973*. Chicago Review Press. (Análisis musicológico e histórico del proceso de escritura y primeras interpretaciones en Gerde's Folk City).
-5. **Wolff, Daniel (1995).** *You Send Me: The Life and Times of Sam Cooke*. William Morrow & Co. (Detalle testimonial de Bobby Womack y René Hall sobre las sesiones de grabación en RCA Studios en diciembre de 1963).
+5. **Wolff, Daniel (1995).** *You Send Me: The Life and Times of Sam Cooke*. William Morrow & Co. (Detalle testimonial de Bobby Womack, J. W. Alexander y René Hall sobre la gestación del tema a finales de 1963 y la grabación oficial en RCA Studios el 30 de enero de 1964).
 6. **The New York Times / Associated Press Archive (Octubre 1963).** Registro hemerográfico del arresto de Sam Cooke en Shreveport, Luisiana por alteración del orden público tras negársele alojamiento en hotel segregado.

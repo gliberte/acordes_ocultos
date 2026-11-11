@@ -30,7 +30,7 @@ Fue en esos rincones bohemios donde su fraseo único comenzó a forjarse: una t�
 
 ## Acto II: La tarde de los claveles y la consagración del Príncipe (1970–1977)
 
-La explosión definitiva de marzo de 1970 en el Festival de la Canción Latina no fue un mero trampolín discográfico; fue un bautismo de fuego que lo catapultó al estrellato continental. Aunque el primer lugar fue asignado a la cantante italiana Claudia Mori y el segundo a la venezolana Mirtha Pérez, el veredicto popular fue unánime. Las tiendas de discos en México, Centroamérica y Sudamérica agotaron en cuestión de días cada copia disponible de *«El Triste»*, compuesta por el maestro Roberto Cantoral.
+La explosión definitiva de marzo de 1970 en el Festival de la Canción Latina no fue un mero trampolín discográfico; fue un bautismo de fuego que lo catapultó al estrellato continental. Aunque el primer lugar fue asignado a la cantante brasileña Cláudya (con *«Canção de amor e paz»*) y el segundo a la venezolana Mirla Castellanos (con *«Con los brazos cruzados»*), el veredicto popular fue unánime. Las tiendas de discos en México, Centroamérica y Sudamérica agotaron en cuestión de días cada copia disponible de *«El Triste»*, compuesta por el maestro Roberto Cantoral.
 
 ![La legendaria interpretación de «El Triste» en el Teatro Ferrocarrilero en 1970](images/scene-02.png)
 
@@ -42,15 +42,15 @@ Pero mientras su figura pública alcanzaba la categoría de semidiós romántico
 
 ## Acto III: El pacto de hermandad con Juan Gabriel y la cima de «Secretos» (1978–1985)
 
-En 1978, José José atravesaba una dura encrucijada personal tras su tormentoso divorcio de Kiki Herrera Calles y el inicio de su relación con Anel Noreña. Deseoso de dar un giro a su vida y celebrar una nueva oportunidad en el amor, coincidió en una íntima velada bohemia en Ciudad Juárez con su gran amigo y admirador, **Juan Gabriel**.
+En 1978, José José atravesaba una nueva etapa personal tras su divorcio de Kiki Herrera Calles y su unión con Anel Noreña. En casa del propio cantante en la Ciudad de México, durante una reunión íntima ligada a la celebración de su matrimonio, su gran amigo y admirador **Juan Gabriel** le regaló un gesto inolvidable.
 
-Alberto Aguilera Valadez, conmovido por la nobleza y las heridas de José, se sentó al piano y le mostró un tema que acababa de componer expresamente para él. No era una balada de despecho ni de llanto, sino una declaración luminosa de renacimiento y perdón: **«Lo Pasado, Pasado»**.
+Alberto Aguilera Valadez, conmovido por la nobleza y las heridas de José, le entregó un tema compuesto expresamente para él. No era una balada de despecho ni de llanto, sino una declaración luminosa de renacimiento y perdón: **«Lo Pasado, Pasado»**.
 
 ![La complicidad bohemia entre José José y Juan Gabriel al piano en 1978](images/scene-04.png)
 
-Cuando José José grabó la canción en los estudios de Ariola en 1978, la convirtió en un fenómeno sociocultural. En cada concierto en vivo, el cantante detenía la música por unos segundos para exclamar con una sonrisa radiante: *«¡Pido un aplauso para el amor!»*, y miles de personas batían palmas al compás del estribillo, transformando el recital en una catarsis colectiva de redención.
+Cuando José José grabó la canción e integró el álbum homónimo lanzado por Ariola en noviembre de 1978, la convirtió en un fenómeno sociocultural. En cada concierto en vivo, el cantante detenía la música por unos segundos para exclamar con una sonrisa radiante: *«¡Pido un aplauso para el amor!»*, y miles de personas batían palmas al compás del estribillo, transformando el recital en una catarsis colectiva de redención.
 
-Cinco años más tarde, en 1983, José José tocaría el techo absoluto de la industria musical hispanohablante. Viajó a Madrid para ponerse en manos del legendario compositor español **Manuel Alejandro**. El resultado fue el álbum **«Secretos»**, una obra maestra milimétrica que vendió más de cuatro millones de copias en sus primeras semanas y superó con los años los **once millones de discos vendidos a nivel mundial**, convirtiéndose en el álbum más vendido en la historia de la música de México. 
+Cinco años más tarde, en 1983, José José tocaría el techo absoluto de la industria musical hispanohablante. Viajó a Madrid para ponerse en manos del legendario compositor español **Manuel Alejandro**. El resultado fue el álbum **«Secretos»**, una obra maestra milimétrica que superó los dos millones de copias vendidas en sus primeras semanas y alcanzó con el paso del tiempo entre cinco y once millones de ejemplares a nivel mundial según diversas estimaciones de la industria, consolidándose como uno de los discos más vendidos en la historia de la música en México. 
 
 En la cúspide de su gloria, llenó cuatro noches consecutivas el Madison Square Garden y el Radio City Music Hall de Nueva York, mientras en las barriadas de toda América Latina su música musicalizaba los romances, las bodas y los duelos de millones de seres humanos.
 
@@ -60,7 +60,7 @@ En la cúspide de su gloria, llenó cuatro noches consecutivas el Madison Square
 
 Sin embargo, el éxito desmesurado trajo consigo la factura más amarga. En los primeros años de la década de 1990, tras la dolorosa separación de Anel y la pérdida de casi toda su fortuna por fraudes y malos manejos financieros, José José colapsó física y emocionalmente.
 
-Alejado de los reflectores, el hombre que había vendido millones de discos llegó a vivir durante meses dentro de un automóvil destartalado en las calles de la colonia San Rafael y la Glorieta de Insurgentes, acompañado únicamente por otros enfermos alcohólicos que no sabían que aquel vagabundo de mirada triste era el mayor cantante de la historia del país.
+Alejado de los reflectores, el hombre que había vendido millones de discos atravesó episodios extremos de desamparo y llegó a pernoctar dentro de un automóvil estacionado en Tulyehualco, al sur de la Ciudad de México, acompañado únicamente por otros enfermos alcohólicos según recordaría el propio intérprete en sus testimonios autobiográficos.
 
 ![La caída humana en la soledad urbana y el rescate de sus amigos en los años noventa](images/scene-06.png)
 
@@ -91,7 +91,5 @@ Cada familia, cada calle y cada corazón en América Latina guarda una historia 
 ### 📚 Fuentes y Archivo Documental
 
 1. **Sosa, José José (2008)**. *Ésta es mi vida*. Memorias autobiográficas oficiales. Random House Mondadori / Grijalbo, México.
-2. **Cantoral, Roberto (1970–1995)**. Archivos de testimonios y correspondencia de la Sociedad de Autores y Compositores de México (SACM) sobre el II Festival de la Canción Latina.
-3. **Pérez Botija, Rafael & Alejandro, Manuel (1977–1984)**. Cuadernos de producción, arreglos orquestales y registros de sesiones discográficas de Ariola Eurodisc.
-4. **Hemeroteca Nacional de México (UNAM)**. Cobertura de prensa de los diarios *El Universal*, *Excélsior* y revista *Proceso* (1970–2019): crónicas del Festival OTI, récord de ventas de *Secretos* y honores de Estado en el Palacio de Bellas Artes.
-5. **Fonoteca Nacional de México**. Registro sonoro patrimonial y discografía canónica de José Rómulo Sosa Ortiz (1965–2019).
+2. **Registros Fonográficos Oficiales**: José José — *El Triste* (RCA Victor, 1970, tema compuesto por Roberto Cantoral); *Lo pasado, pasado* (Ariola, noviembre de 1978, composición de Juan Gabriel); *Secretos* (Ariola, 1983, compuesto y producido por Manuel Alejandro).
+3. **Archivo Hemerográfico y Prestigio Internacional**: Cobertura periodística de *El Universal*, *La Jornada*, *Excélsior* y *Los Angeles Times* sobre el II Festival de la Canción Latina (15 de marzo de 1970), su internamiento en la clínica Hazelden (1993) y el homenaje luctuoso en el Palacio de Bellas Artes de la Ciudad de México (octubre de 2019).

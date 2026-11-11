@@ -16,7 +16,7 @@ Sin embargo, detrás de aquel estribillo monumental no latía la frivolidad de u
 
 ## Acto I: El veredicto y el abismo social (2004–2005)
 
-El 21 de septiembre de 2004, las puertas del Centro de Readaptación Social de Chihuahua se abrieron. Tras cuatro años y ocho meses recluida entre cárceles de máxima seguridad en Brasilia y el norte de México, el juez Javier Pineda Arzuz dictó la sentencia definitiva: absolución total y libertad inmediata por no haberse encontrado elemento probatorio alguno que la vinculara a los delitos imputados por la fiscalía.
+El 21 de septiembre de 2004, las puertas del Centro de Readaptación Social de Chihuahua se abrieron. Tras cuatro años y ocho meses recluida entre cárceles de máxima seguridad en Brasilia y el norte de México, el juez Javier Pineda Arzola dictó la sentencia definitiva: absolución total y libertad inmediata por no haberse encontrado elemento probatorio alguno que la vinculara a los delitos imputados por la fiscalía.
 
 ![Gloria Trevi tras obtener su libertad judicial](images/scene-02.png)
 
@@ -28,15 +28,9 @@ Volver a los escenarios no era una ambición comercial; era una necesidad bioló
 
 ## Acto II: La confesión de un amigo y la lágrima en el espejo (2005)
 
-En medio de aquel clima de aislamiento, Gloria recibió en su entorno íntimo a un muchacho muy cercano. El joven, quebrado emocionalmente y al borde del colapso, le confesó el infierno que acababa de vivir: tras armarse de valor para hablar con su padre y revelar su homosexualidad, la reacción familiar fue despiadada. Su progenitor, un hombre de arraigadas convicciones machistas y autoritarias, lo agredió físicamente, lo llenó de improperios y lo expulsó de la casa familiar sin dinero ni pertenencias, advirtiéndole que para ellos estaba muerto.
+Según relató la propia cantante en entrevistas posteriores, un amigo cercano atravesaba entonces un momento sumamente doloroso tras revelar su orientación sexual y enfrentarse al rechazo e incomprensión de su propia familia. Ese amigo encontró refugio y una forma de reafirmarse en la noche, maquillándose y arreglándose para salir a bailar sintiéndose libre frente a quienes lo juzgaban.
 
-![Un joven enfrentando el repudio familiar](images/scene-03.png)
-
-Aterrado, durmiendo en sofás prestados y sumido en una depresión que rozaba pensamientos suicidas, aquel amigo le relató a Gloria el único ritual que lo mantenía con vida:
-
-> *«Cuando llega el fin de semana y siento que el dolor me va a tragar, me encierro en un baño, me maquillo, me pongo tacones, me visto como una reina y me voy a bailar a un club. Bajo esas luces, nadie puede humillarme. Allí no soy el hijo repudiado; soy libre, soy hermoso y soy invencible.»*
-
-Al escuchar aquellas palabras, algo se quebró y se iluminó al mismo tiempo en el pecho de la cantante. Gloria reconoció con exactitud quirúrgica cada una de las sensaciones descritas por su amigo: el frío del rechazo, la mirada acusadora de los demás, la vergüenza impuesta por la moral ajena y, sobre todo, la urgencia de erigir una armadura de dignidad frente a quienes pretenden destruirte.
+Al escuchar su testimonio, algo se quebró y se iluminó al mismo tiempo en el pecho de la cantante. Gloria reconoció con nitidez cada una de las sensaciones descritas por su amigo: el frío del rechazo, la mirada acusadora de los demás, la vergüenza impuesta por los prejuicios ajenos y, sobre todo, la urgencia de levantar una armadura de dignidad frente a quienes pretenden hundirte. Como ella misma confesó tiempo después, también se sintió reflejada en esos versos porque la sociedad seguía mirándola y juzgándola como quería verla y no como realmente era.
 
 ---
 
@@ -62,7 +56,7 @@ Inspirados en la estructura emblemática de *«I Will Survive»* de Gloria Gayno
 
 Incluida como tema inédito de estudio en el álbum *La trayectoria* (2006), *«Todos me miran»* vio la luz en mayo de aquel año. La respuesta del público fue un estallido sísmico que desbordó cualquier pronóstico de la industria.
 
-En cuestión de semanas, la canción trepó al número uno de las listas de popularidad en México, España, Estados Unidos y Sudamérica. Sin embargo, su verdadero triunfo no se midió en las cifras de ventas, sino en los espacios de resistencia social. En discotecas, marchas de orgullo y reuniones comunitarias, la comunidad LGBTQ+ adoptó la canción como su himno definitivo. Miles de jóvenes que habían vivido la exclusión familiar, el acoso escolar o la marginación social encontraron en aquellos versos un escudo invulnerable para caminar con la cabeza erguida.
+En cuestión de semanas, la canción escaló a los primeros lugares de popularidad en México, España y América Latina, además de ingresar en las listas latinas de *Billboard* en Estados Unidos (#32 en *Hot Latin Songs* y #18 en *Latin Pop Airplay*). Sin embargo, su verdadero triunfo no se midió en las cifras de ventas, sino en los espacios de resistencia social. En discotecas, marchas de orgullo y reuniones comunitarias, la comunidad LGBTQ+ adoptó la canción como su himno definitivo. Miles de jóvenes que habían vivido la exclusión familiar, el acoso escolar o la marginación social encontraron en aquellos versos un escudo invulnerable para caminar con la cabeza erguida.
 
 ![Gloria Trevi interpretando Todos me miran ante una multitud](images/scene-07.png)
 
@@ -82,8 +76,7 @@ La historia de esta obra recuerda que la música más luminosa a menudo nace en 
 
 ### 📚 Fuentes y Archivo Documental
 
-1. **Expediente Judicial de Absolución (2004).** Juzgado Séptimo Penal del Distrito Judicial Morelos, Chihuahua, México. Sentencia absolutoria dictada por el juez Javier Pineda Arzuz en favor de Gloria Treviño Ruiz (21 de septiembre de 2004).
-2. **Trevi, Gloria.** Declaraciones testimoniales en el programa *La Entrevista con Yordi Rosado* (junio de 2021) y *El Minuto que Cambió mi Destino* con Gustavo Adolfo Infante. Relato documental sobre la génesis de *«Todos me miran»* a partir de la vivencia de su amigo expulsado de su hogar.
-3. **Ávila, Armando.** Entrevistas de archivo para *Billboard Latin* y *Rolling Stone México* (2006–2007) sobre la producción, arreglos sonoros y mezcla de *«Todos me miran»* en los estudios Cosmos Producciones.
-4. **Archivo Hemerográfico de El Universal y Reforma (2004–2006).** Crónicas de cobertura periodística sobre la liberación de Gloria Trevi, el lanzamiento del álbum *La trayectoria* y el impacto en listas radiales iberoamericanas.
-5. **Estudios Culturales de Género y Música Popular Hispanoamericana (Universidad Nacional Autónoma de México, UNAM, 2018).** Monografía sobre la recepción de *«Todos me miran»* como himno de resistencia e identidad colectiva en los colectivos de diversidad sexual en México y América Latina.
+1. **Expediente Judicial de Absolución (2004).** Juzgado Séptimo Penal del Distrito Judicial Morelos, Chihuahua, México. Sentencia absolutoria dictada por el juez Javier Pineda Arzola en favor de Gloria de los Ángeles Treviño Ruiz (21 de septiembre de 2004).
+2. **Trevi, Gloria (2006–2018).** Declaraciones testimoniales en entrevistas televisivas promocionales de *La trayectoria* (incluida su conversación con Susana Giménez en 2006) y en *El Minuto que Cambió mi Destino* con Gustavo Adolfo Infante (Imagen Televisión, 2018), sobre el origen de *«Todos me miran»* en la historia de su amigo y su propia identificación personal con el tema.
+3. **Créditos Fonográficos Oficiales.** Gloria Trevi — *La trayectoria* (Univision Records, marzo de 2006); *«Todos me miran»*, compuesta por Gloria Trevi y producida por Armando Ávila. Registros de listas latinas de *Billboard* (#32 en *Hot Latin Songs* y #18 en *Latin Pop Airplay*).
+4. **Archivo Hemerográfico de El Universal y Reforma (2004–2006).** Cobertura periodística sobre la liberación judicial de Gloria Trevi en Chihuahua, el lanzamiento de *La trayectoria* y su regreso a los escenarios.

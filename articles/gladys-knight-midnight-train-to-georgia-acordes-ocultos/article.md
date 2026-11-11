@@ -36,13 +36,9 @@ Lejos de resignarse, el editor de Weatherly envió la cinta a Sonny Limbo, un pr
 
 ![Cissy Houston en el estudio de grabación en 1972](images/scene-04.png)
 
-A Cissy le conmovió la hondura emocional de la historia, pero su instinto cultural le advirtió que la letra tenía un problema fundamental de verosimilitud para la comunidad afroamericana del sur. Llamó directamente a Weatherly para plantearle una modificación sin rodeos:
+A Cissy le conmovió la hondura emocional de la historia, pero su instinto cultural le advirtió que la letra tenía un problema de verosimilitud para el público afroamericano del sur. Le explicó al productor Sonny Limbo la razón de su reparo con franqueza: su gente provenía originalmente de Georgia y no solía viajar en avión, sino en tren. Sonny Limbo contactó entonces a Jim Weatherly para pedirle permiso de trasladar el destino de Houston a Georgia y reemplazar el avión por un tren.
 
-> *«La canción es preciosa, Jim, pero mi gente no toma aviones; mi gente toma trenes. Y nosotros no somos de Houston, Texas; ¡nosotros somos de Georgia! ¿Te molestaría que cambiáramos el avión por un tren y a Houston por Georgia?»*
-
-Weatherly, respetuoso de la autenticidad que Cissy buscaba plasmar, le respondió de inmediato: *«Haz lo que quieras con la letra y el destino, siempre y cuando no alteres la melodía ni la esencia del drama humano»*.
-
-Rebautizada como **«Midnight Train to Georgia»**, Cissy Houston grabó la pieza en 1972 para Janus Records con un arreglo soul sureño austero y gospeliano. Aunque la versión tuvo una acogida radial modesta en los circuitos de R&B, plantó la semilla definitiva que estaba a punto de germinar.
+Weatherly accedió de inmediato con la única condición de respetar la melodía y el sentido esencial de la historia. Rebautizada como **«Midnite Train to Georgia»**, Cissy Houston grabó la pieza en 1972 para Janus Records con un arreglo soul sureño austero y gospeliano. Aunque aquella versión tuvo una acogida radial discreta en los circuitos de R&B, dejó tendida la vía por la que pronto circularía la grabación definitiva.
 
 ---
 
@@ -68,7 +64,7 @@ Camillo incorporó una rica sección de vientos y cuerdas sobre una base rítmic
 
 El sencillo se publicó en agosto de 1973 y se convirtió en un fenómeno arrollador. En octubre alcanzó el **número uno del Billboard Hot 100**, donde permaneció dos semanas consecutivas, liderando simultáneamente las listas de R&B. Meses más tarde, en la ceremonia de los premios Grammy de 1974, Gladys Knight & The Pips se alzaron con el galardón a la Mejor Interpretación Vocal de R&B por un Dúo o Grupo.
 
-La pequeña banda relegada por Motown acababa de firmar el sencillo más vendido de aquel año, consagrando una de las revanchas artísticas más nobles y poéticas en los anales de la música moderna.
+La banda que había salido de Motown en busca de respeto acababa de conquistar el número uno en las listas generales y de R&B de Estados Unidos, consagrando una de las revanchas artísticas más nobles y recordadas de la música moderna.
 
 ![Gladys Knight & The Pips en su apoteosis de 1973](images/scene-08.png)
 
@@ -86,8 +82,8 @@ Su belleza no radica únicamente en la perfección tímbrica de la voz de Gladys
 
 ### 📚 Fuentes y Archivo Documental
 
-1. **Weatherly, Jim.** *Midnight Train: A Songwriter's Journey*. Mercer University Press, 2018. Memorias del compositor con el relato documental sobre la conversación telefónica con Farrah Fawcett y la composición de *«Midnight Plane to Houston»*.
-2. **Knight, Gladys.** *Between Each Line of Pain and Glory: My Life Story*. Hyperion, Nueva York, 1997. Testimonio autobiográfico sobre la salida de Motown Records, la firma con Buddah Records y las sesiones de grabación con The Pips y Tony Camillo.
-3. **Houston, Cissy.** *How Sweet the Sound: My Life with God and Gospel*. Doubleday, 1998. Declaraciones de la intérprete sobre la modificación del título y el contexto sociocultural del transporte ferroviario sureño.
+1. **Weatherly, Jim y Roberson, Jeff (2018).** *Midnight Train: An All-Southeastern Conference Quarterback's Ride from the Football Fields of the South to Enshrinement in the Songwriters Hall of Fame*. Yoknapatawpha Press. Memorias del compositor con el relato documental sobre la conversación telefónica con Farrah Fawcett, la composición de *«Midnight Plane to Houston»* y la autorización solicitada por Sonny Limbo para cambiar el título.
+2. **Knight, Gladys (con David Ritz) (1997).** *Between Each Line of Pain and Glory: My Life Story*. Hyperion, Nueva York. Testimonio autobiográfico sobre la salida de Motown Records, la firma con Buddah Records y las sesiones de grabación con The Pips y Tony Camillo.
+3. **Houston, Cissy (con Jonathan Singer) (1998).** *How Sweet the Sound: My Life with God and Gospel*. Doubleday, Nueva York. Declaraciones sobre su grabación de *«Midnite Train to Georgia»* (Janus Records, 1972) y la adaptación cultural de los versos.
 4. **Archivo Discográfico y Hemerográfico de Billboard Magazine (1973–1974).** Reseñas de lanzamientos de sencillos, posiciones en el Hot 100 y cobertura de la 16.ª edición anual de los Premios Grammy.
 5. **National Academy of Recording Arts and Sciences (NARAS).** Registro de inducción de *«Midnight Train to Georgia»* al Salón de la Fama de los Grammy (Grammy Hall of Fame, 1999).

@@ -67,7 +67,7 @@ El disco salió a la venta a finales de 1966, pero la acogida comercial inicial 
 
 Pasadas las seis de la tarde, mientras en el patio de la carpa algunos familiares y visitantes compartían un mate, Violeta se retiró a su pequeña habitación de madera y lona. Tomó un revólver que guardaba celosamente y se disparó en la sien. Tenía 49 años.
 
-El impacto conmocionó a Chile y a toda América Latina. Su hermano, el gran poeta Nicanor Parra, declararía años después que Violeta fue víctima de una sensibilidad tan inmensa que la realidad no pudo sostenerla. Al ordenar sus pertenencias, no encontraron cartas de rencor. El testamento ya había sido grabado en vinilo meses atrás: se llamaba *«Gracias a la vida»*.
+El impacto conmocionó a Chile y a toda América Latina. Su hermano, el gran poeta Nicanor Parra, la había retratado años antes en su célebre poema *«Defensa de Violeta Parra»* como una fuerza creadora desbordante e irreductible frente a la incomprensión de su tiempo. Al ordenar sus pertenencias, no encontraron cartas de rencor. El testamento ya había sido grabado en vinilo meses atrás: se llamaba *«Gracias a la vida»*.
 
 ---
 
@@ -81,9 +81,10 @@ La paradoja se completó: la canción más generosa sobre la belleza de estar vi
 
 ### 📚 Fuentes y Archivo Documental
 
-* **Parra, Isabel.** *El libro mayor de Violeta Parra* (Ediciones Michay, Madrid, 1985; reeditado por Cuarto Propio, Santiago, 2012). Testimonios familiares sobre la carpa de La Reina y los últimos meses de vida.
-* **Subercaseaux, Bernardo y Stambuk, Patricia.** *Gracias a la vida: Violeta Parra, testimonio* (Editorial Galerna, Buenos Aires, 1976 / Pehuén Editores, 2011).
-* **Parra, Nicanor.** *Discursos de sobremesa* y poemas dedicados a Violeta (*Defensa de Violeta Parra*, 1967).
+* **Parra, Isabel.** *El libro mayor de Violeta Parra* (Ediciones Michay, Madrid, 1985; edición revisada y ampliada por Editorial Cuarto Propio, Santiago, 2009). Testimonios familiares sobre la carpa de La Reina y los últimos meses de vida.
+* **Subercaseaux, Bernardo y Londoño, Jaime.** *Gracias a la vida: Violeta Parra, testimonio* (Editorial Galerna, Buenos Aires, 1976).
+* **Stambuk, Patricia y Bravo, Patricia.** *Violeta Parra: El canto de todos* (Pehuén Editores, Santiago, 2011).
+* **Parra, Nicanor.** *«Defensa de Violeta Parra»*, recogido en *Obra gruesa* (Editorial Universitaria, Santiago, 1969; poema compuesto a inicios de los años sesenta y grabado originalmente en 1965).
 * **Sáez, Fernando.** *La vida intranquila: Biografía esencial de Violeta Parra* (Sudamericana, Santiago, 1999).
-* **Fundación Museo Violeta Parra (Santiago de Chile).** Archivos epistolares, fotografías documentales de la Carpa de La Reina y registros discográficos de RCA Victor (1966).
-* **Castillo Velasco, Fernando.** Memorias sobre la cesión de los terrenos de La Reina y la carpa comunitaria (Documentos de la Municipalidad de La Reina, 1965-1967).
+* **Echeverría, Mónica.** *Yo, Violeta* (Plaza & Janés, Santiago, 2010). Relato biográfico de quien fuera esposa del exalcalde Fernando Castillo Velasco, con memorias cercanas sobre la llegada a La Reina y la cesión de los terrenos de calle La Cañada.
+* **Fundación Museo Violeta Parra y Memoria Chilena (Biblioteca Nacional de Chile).** Archivos documentales sobre *La Carpa de La Reina (1965–1967)* y registros discográficos de RCA Victor (1966).

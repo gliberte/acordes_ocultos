@@ -76,9 +76,8 @@ Aquella noche de 1980 no había productores de renombre ni estrategias de mercad
 
 ### 📚 Fuentes y Archivo Documental
 
-1. **El Universal Espectáculos**: *"Denisse de Kalafe revela cómo escribió Señora, Señora y el tributo a su madre Linda de Kalafe"*, archivo hemerográfico y cobertura especial de mayo.
-2. **Radio Fórmula**: *"La historia detrás del 'Señora, Señora' de Denisse de Kalafe: la morriña, el piano y la bolsa de papel"*, entrevista testimonial con la autora (2019).
-3. **Las Estrellas / Televisa Espectáculos**: *"Denisse de Kalafe confiesa cómo y dónde escribió hace más de 40 años el tema Señora, Señora"*, declaraciones de primera mano sobre el proceso compositivo.
-4. **TV Azteca (Ventaneando)**: Entrevista con Paty Chapoy y Denisse de Kalafe sobre la titularidad compartida con la editora Pham, el pago del alquiler y su vida en Holbox (Emisión de mayo 2020).
-5. **La Jornada Maya**: Cobertura sobre las iniciativas ambientales y pronunciamientos de Denisse de Kalafe en la Isla de Holbox, Quintana Roo.
-6. **Catálogo Fonográfico Discos Melody / Musart**: Ficha técnica del álbum *«Amar es...»* (1981), registro de autoría de Denisse de Kalafe.
+1. **Entrevistas Testimoniales en Prensa Mexicana** (*El Universal*, *Milenio* y *Excélsior*). Declaraciones de Denisse de Kalafe sobre el episodio de nostalgia (*morriña*), la escritura de los versos en una bolsa de papel y su dedicatoria telefónica a su madre Linda de Kalafe en Brasil.
+2. **Radio Fórmula (2019).** Entrevista con Denisse de Kalafe sobre el origen de *«Señora, señora»* y su consagración como himno del 10 de mayo.
+3. **TV Azteca (*Ventaneando*, mayo de 2020) y entrevistas televisivas.** Conversaciones con Denisse de Kalafe sobre los derechos editoriales compartidos de la canción, su residencia en la isla de Holbox y su propósito de destinar regalías a causas contra el cáncer de mama.
+4. **La Jornada Maya.** Cobertura periodística sobre la participación comunitaria y pronunciamientos ambientales de Denisse de Kalafe en la isla de Holbox, Quintana Roo.
+5. **Registro Fonográfico Oficial.** Denisse de Kalafe — *Amar es...* (RCA Victor / Bertelsmann de México, 1981; álbum que incluye la grabación original de *«Señora, señora»*, bajo producción de Eduardo Magallanes).

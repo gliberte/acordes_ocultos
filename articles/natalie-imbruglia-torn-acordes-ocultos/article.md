@@ -1,4 +1,4 @@
-# Tocaban para 50 personas en un bar mientras su canción más íntima conquistaba el planeta
+# Tocaban en bares semivacíos mientras su canción más íntima conquistaba el planeta
 
 **Por el equipo editorial de Acordes Ocultos**
 
@@ -8,9 +8,9 @@
 
 > *«I thought I saw a man brought to life / He was warm, he came around like he was dignified...»*
 
-En el otoño de 1997, la televisión musical de todo el mundo quedó hipnotizada por una presencia singular: una joven australiana de veintidós años, cabello corto a capas, sudadera gris con capucha y pantalones militares holgados, gesticulaba con manos expresivas en un departamento de paredes móviles. Su nombre era Natalie Imbruglia, y su sencillo debut, *«Torn»*, trepó como un meteorito hasta el número uno en decenas de países, vendiendo más de cuatro millones de copias.
+En el otoño de 1997, la televisión musical de todo el mundo quedó hipnotizada por una presencia singular: una joven australiana de veintidós años, cabello corto a capas, sudadera gris con capucha y pantalones militares holgados, gesticulaba con manos expresivas en un departamento de paredes móviles. Su nombre era Natalie Imbruglia, y su sencillo debut, *«Torn»*, se convirtió en un fenómeno global: alcanzó el primer puesto en países como Bélgica, Dinamarca y España, trepó al número dos de ventas oficiales tanto en el Reino Unido como en Australia y dominó durante semanas la radio estadounidense (llegando al #1 en *Radio Songs* / *Mainstream Top 40* y al #42 del *Billboard Hot 100* tras su tardía edición comercial en sencillo), superando los cuatro millones de copias vendidas en el mundo.
 
-Para la inmensa mayoría del público y de la crítica de la época, la canción era el testimonio diáfano de una recién llegada que derramaba su propio corazón roto. Pero detrás de aquel estribillo dorado se ocultaba uno de los viajes más insólitos de la historia del pop: una plegaria nacida en un hospital psiquiátrico de Londres que ya había fracasado tres veces, en dos continentes y en dos idiomas distintos, antes de que Natalie cantara su primera nota.
+Para la inmensa mayoría del público y de la crítica de la época, la canción era el testimonio diáfano de una recién llegada que derramaba su propio corazón roto. Pero detrás de aquel estribillo dorado se ocultaba uno de los viajes más insólitos de la historia del pop: unos versos inspirados en el contacto temprano con un hospital psiquiátrico en Nueva York que ya habían pasado por tres grabaciones anteriores, en dos continentes y en dos idiomas distintos, antes de que Natalie cantara su primera nota.
 
 ---
 
@@ -50,7 +50,7 @@ Cuando Natalie puso su voz fresca, cercana y contenida sobre la pista, la alquim
 
 ## Acto IV: La furgoneta rota y los bares vacíos
 
-Para Anne Preven y los miembros de Ednaswap, el otoño de 1997 fue una experiencia surrealista y agridulce que rozó lo kafkiano. Mientras el rostro de Natalie Imbruglia ocupaba las portadas de las revistas más influyentes del planeta y su versión sonaba en cada supermercado, cafetería y taxi de Norteamérica, **Ednaswap se encontraba de gira en una vieja furgoneta destartalada, tocando en bares lúgubres ante cincuenta personas**.
+Para Anne Preven y los miembros de Ednaswap, el otoño de 1997 fue una experiencia surrealista y agridulce que rozó lo kafkiano. Mientras el rostro de Natalie Imbruglia ocupaba las portadas de las revistas más influyentes del planeta y su versión sonaba en cada supermercado, cafetería y taxi de Norteamérica, **Ednaswap recorría las carreteras en una vieja furgoneta, tocando en pequeños bares ante un puñado de asistentes**.
 
 En más de una parada de carretera, los músicos entraban a cenar a un café de paso y veían en el televisor del mostrador a la cantante australiana recibiendo ovaciones por interpretar su propia creación íntima. Anne Preven admitió en entrevistas retrospectivas la extraña dualidad emocional de aquel período: por un lado, las suculentas regalías de autoría le permitieron pagar sus deudas y consolidar una próspera carrera como compositora profesional; por el otro, era el duelo de ver cómo el dolor que había extraído de su propia juventud se convertía en el trofeo de otra persona.
 
@@ -74,9 +74,8 @@ Hicieron falta seis años, una adaptación al danés, el rugido ignorado de una 
 
 ### 📚 Fuentes y Archivo Documental
 
-1. **Songwriting Magazine**: *"How I Wrote: Torn by Phil Thornalley and Anne Preven"*, testimonio directo sobre la sesión de 1991 en West Hampstead.
-2. **Billboard Magazine**: Archivo histórico de listas de éxitos (1997-1998), desempeño de *Left of the Middle* y ventas mundiales del sencillo *Torn*.
-3. **MTV News Archive**: Cobertura del rodaje del videoclip oficial dirigido por Alison Maclean y declaraciones de Natalie Imbruglia (1997).
-4. **Songfacts**: Entrevista documental con Anne Preven sobre la trayectoria de Ednaswap, la versión en danés de Lis Sørensen (*Brændt*, 1993) y las regalías de autoría.
-5. **The Guardian / Observer Music**: *"The Strange Life of Torn: from Danish pop to grunge failure to global phenomenon"* (Reportaje retrospectivo).
-6. **Discogs / AllMusic Database**: Fichas discográficas oficiales de Lis Sørensen (*Under stjernerne et sted*, 1993), Ednaswap (*Ednaswap*, 1995), Trine Rein (*Beneath My Skin*, 1996) y Natalie Imbruglia (*Left of the Middle*, RCA, 1997).
+1. **Thornalley, Phil (2022).** *«How we wrote Natalie Imbruglia’s ‘Torn’ by Phil Thornalley»*, *Songwriting Magazine*, 2 de septiembre de 2022. Relato directo del coautor y productor sobre la sesión inicial de 1991 en West Hampstead, la maqueta con Anne Preven y la posterior producción junto a Natalie Imbruglia.
+2. **Official Charts Company y Billboard Archives (1997–1998).** Registros oficiales de posiciones de *«Torn»* (#2 en UK Singles Chart y ARIA Charts; #1 en *Radio Songs* y #42 en el *Billboard Hot 100*) y ventas certificadas de *Left of the Middle*.
+3. **Créditos de Producción Audiovisual (1997).** Ficha técnica del videoclip oficial de *«Torn»* dirigido por Alison Maclean (RCA / BMG, 1997).
+4. **Songfacts / Entrevistas con Anne Preven.** Testimonio de la autora sobre su etapa asistiendo a su padre psiquiatra (Dr. David Preven) en Nueva York, la grabación con Ednaswap y la difusión internacional de las versiones previas de Lis Sørensen (*«Brændt»*, 1993) y Trine Rein (1996).
+5. **Discogs / AllMusic Database.** Fichas discográficas oficiales de Lis Sørensen (*Under stjernerne et sted*, 1993), Ednaswap (*Ednaswap*, East West Records, 1995), Trine Rein (*Beneath My Skin*, 1996) y Natalie Imbruglia (*Left of the Middle*, RCA, 1997).

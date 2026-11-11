@@ -11,7 +11,7 @@ Sin embargo, la verdadera historia detrás de esta joya de la Nueva Trova cubana
 
 ## Acto I: El lápiz, la tinta y el viejo Marc Chagall
 
-A finales de la década de 1960, antes de que su voz y su guitarra recorrieran los escenarios de medio mundo, Silvio Rodríguez era un joven que buscaba su lugar en el efervescente panorama cultural de La Habana. Entre 1965 y 1967, mientras cumplía su servicio militar, no solo descubrió la música, sino que desarrolló un profundo amor por las artes plásticas, llegando a trabajar formalmente como dibujante e historietista en publicaciones como la revista *Mella*.
+A finales de la década de 1960, antes de que su voz y su guitarra recorrieran los escenarios de medio mundo, Silvio Rodríguez era un joven que buscaba su lugar en el efervescente panorama cultural de La Habana. Entre **1962 y 1963**, trabajó como aprendiz de dibujante e historietista en el semanario juvenil ***Mella*** —donde publicó la serie gráfica *El hueco*— y asistió brevemente a la Academia de Artes Plásticas San Alejandro, antes de ser llamado al Servicio Militar Obligatorio (marzo de 1964 – junio de 1967), etapa en la que comenzó a tocar la guitarra con regularidad y a componer sus primeras canciones.
 
 En aquella época de formación visual voraz, cayó en sus manos una monografía sobre el pintor bielorruso **Marc Chagall**. Silvio quedó hipnotizado por el universo ingrávido y colorido del maestro de Vitebsk: parejas que flotaban sobre tejados de aldeas judías, animales que tocaban el violín y una atmósfera onírica donde la realidad cedía el paso al milagro del color.
 
@@ -55,9 +55,9 @@ Y en el verso culminante, el despecho individual muta en compasión universal. E
 
 ---
 
-## Acto V: Madrid 1977 y el eco de una renuncia eterna
+## Acto V: Madrid 1978 y el eco de una renuncia eterna
 
-Siete años después de aquella noche de carnaval, en el otoño de **1977**, Silvio Rodríguez entró en los estudios **Sonoland de Madrid**. Solo con su guitarra acústica de cuerdas de nailon y frente a un único micrófono, grabó de una sola toma las canciones que integrarían su disco fundamental: *Al final de este viaje...* (1978).
+Ocho años después de aquella noche de carnaval, en **1978** —en el impulso de sus primeros viajes a España—, Silvio Rodríguez entró en los estudios **Sonoland de Madrid**. Solo con su guitarra acústica de cuerdas de nailon y frente al micrófono del estudio, registró de forma íntima y directa las canciones que integrarían su disco fundamental: *Al final de este viaje...* (1978).
 
 Cuando la cinta captó las notas ágiles del arpegio inicial de «Óleo de mujer con sombrero», el dolor juvenil de 1970 se transformó en un clásico que trascendió fronteras y generaciones. Hoy, más de medio siglo después, la canción sigue conmoviendo porque no habla de una ruptura ordinaria, sino de esa grieta irreparable que queda en el pecho de quienes, en una encrucijada de la vida, prefirieron la tibieza del miedo antes que el fuego del amor.
 
@@ -66,6 +66,6 @@ Cuando la cinta captó las notas ágiles del arpegio inicial de «Óleo de mujer
 ### 📚 Fuentes y Archivo Documental
 
 1. **Rodríguez, Silvio**: Testimonios autobiográficos y declaraciones en el blog oficial *Segunda Cita* sobre la creación de *Óleo de mujer con sombrero* y su vínculo con Marc Chagall.
-2. **Revista *Mella***: Archivo hemerográfico de ilustraciones, dibujos y colaboraciones gráficas de Silvio Rodríguez (La Habana, 1965-1967).
+2. **Semanario *Mella***: Archivo hemerográfico de ilustraciones, dibujos y colaboraciones gráficas de Silvio Rodríguez (La Habana, 1962-1963).
 3. **Estudios Sonoland (Madrid)**: Notas de producción y grabación del álbum *Al final de este viaje...* (Movieplay / EGREM, 1978).
-4. **Zapata, Víctor**: *Silvio Rodríguez: De la memoria a la trova*, análisis musicológico y discográfico de la Nueva Trova (Editorial Letras Cubanas, 1999).
+4. **Casaus, Víctor y Nogueras, Luis Rogelio (1984).** *Silvio: que levante la mano la guitarra*. La Habana: Editorial Letras Cubanas; y **Díaz Pérez, Clara (1993).** *Silvio Rodríguez*. La Habana: Editorial Letras Cubanas.

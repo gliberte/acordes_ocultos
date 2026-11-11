@@ -29,7 +29,7 @@ Hacia 1983, el trío comprendió que su nombre debía abandonar cualquier ligere
 
 No eran prisioneros únicamente por el cerco militar que patrullaba las esquinas con fusiles al hombro; eran prisioneros de su estrato social, de un sistema educativo diseñado para segregar, del desempleo estructural que asfixiaba a sus padres tras la devastadora crisis económica de 1982, y de un país donde opinar distinto equivalía al exilio, la tortura o la fosa común.
 
-Con la complicidad de Carlos Fonseca —un estudiante de periodismo que regentaba la pequeña disquería *Fusión* en Providencia—, el grupo logró entrar a un estudio semiprofesional para registrar su álbum debut, *La voz de los 80* (1984). Grabado en cintas de ocho pistas y prensado inicialmente en solo quinientos casetes independientes, el disco fue un bofetón eléctrico a la apatía nacional. Mientras la radio comercial los ignoraba por orden de la censura, los casetes se duplicaban clandestinamente de pletina en pletina en las universidades, los liceos periféricos y las poblaciones combativas. La mecha estaba encendida.
+Con la complicidad de Carlos Fonseca —un estudiante de periodismo que regentaba la pequeña disquería *Fusión* en Providencia—, el grupo logró entrar a un estudio semiprofesional para registrar su álbum debut, *La voz de los '80* (1984). Grabado en cintas de ocho pistas y prensado inicialmente en una tirada limitada de mil casetes independientes en diciembre de 1984, el disco fue un bofetón eléctrico a la apatía nacional. Mientras la radio comercial los ignoraba por orden de la censura, los casetes se duplicaban clandestinamente de pletina en pletina en las universidades, los liceos periféricos y las poblaciones combativas. La mecha estaba encendida.
 
 ---
 
@@ -72,9 +72,9 @@ La historia de Los Prisioneros en *Forjados en el Barro* no es solo la crónica 
 ---
 
 ### 📚 Fuentes y Archivo Documental
-1. **Narea, Claudio** (2006). *Mi vida como Prisionero*. Santiago de Chile: Editorial Norma. (Memorias directas sobre los inicios en el Liceo 6 de San Miguel, la precariedad de los instrumentos y las grabaciones caseras).
+1. **Narea, Claudio** (2009). *Mi vida como prisionero*. Santiago de Chile: Grupo Editorial Norma. (Memorias directas sobre los inicios en el Liceo 6 de San Miguel, la precariedad de los instrumentos y las grabaciones caseras).
 2. **Aguayo, Emiliano** (2005). *Maldito Sudaca: Conversaciones con Jorge González*. Santiago de Chile: RIL Editores. (Testimonio en profundidad sobre el proceso de composición de *Pateando piedras*, el uso del Casio CZ-101 y la historia del sampleo de su perro Néstor).
 3. **García, Marisol** (2013). *Canción Valiente: Tres décadas de canto social y político en Chile*. Santiago: Ediciones B. (Análisis musicológico y contextual de la censura militar, los conciertos clandestinos y el impacto social de *El baile de los que sobran*).
 4. **Archivo Hemerográfico Revista *Vea* y Revista *Apsi*** (1984–1987). Coberturas de época sobre la emergencia del rock subterráneo chileno y las suspensiones de recitales por órdenes del gobierno militar.
-5. **Fonseca, Carlos** (2014). *Entrevistas y testimonios de producción para Reedición 30 Años de La voz de los 80*. Sello Fusión / EMI Odeón Chilena.
-6. **Contreras, Marcelo** (2021). *Pateando piedras: La revolución electro-pop de Los Prisioneros*. Santiago de Chile: Editorial Cuarto Propio. (Documentación técnica sobre las sesiones de grabación analógica y sintetizadores en Estudios Sonus).
+5. **Fonseca, Carlos** (2014). Testimonios y notas de producción de la reedición 30.º aniversario de *La voz de los '80* (Sello Fusión / Chilevisión Música, 2014).
+6. **Créditos Fonográficos Oficiales.** Los Prisioneros — *Pateando piedras* (EMI Odeon Chilena, septiembre de 1986; grabado entre junio y agosto de 1986 en Estudio A de Santiago junto al ingeniero Alejandro «Caco» Lyon).
