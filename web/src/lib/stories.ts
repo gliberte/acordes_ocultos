@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'the-rolling-stones-ruby-tuesday-acordes-ocultos': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'the-rolling-stones-ruby-tuesday-acordes-ocultos-tiktok': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'el-corazon-roto-de-keith-richards-detras-de-ruby-tuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'elcorazonrotodekeithrichardsdetrasderubytuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'the-rolling-stones-ruby-tuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'ruby-tuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
+  'rubytuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
   'silvio-rodriguez-unicornio-acordes-ocultos': 'silvio-rodriguez-unicornio-acordes-ocultos',
   'silvio-rodriguez-unicornio-acordes-ocultos-tiktok': 'silvio-rodriguez-unicornio-acordes-ocultos',
   'el-secreto-tragico-detras-de-mi-unicornio-azul-que-casi-nadie-conocia': 'silvio-rodriguez-unicornio-acordes-ocultos',
