@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'silvio-rodriguez-unicornio-acordes-ocultos': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'silvio-rodriguez-unicornio-acordes-ocultos-tiktok': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'el-secreto-tragico-detras-de-mi-unicornio-azul-que-casi-nadie-conocia': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'elsecretotragicodetrasdemiunicornioazulquecasinadieconocia': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'silvio-rodriguez-unicornio': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'unicornio-azul': 'silvio-rodriguez-unicornio-acordes-ocultos',
+  'unicornioazul': 'silvio-rodriguez-unicornio-acordes-ocultos',
   'queen-the-show-must-go-on-acordes-ocultos': 'queen-the-show-must-go-on-acordes-ocultos',
   'queen-the-show-must-go-on-acordes-ocultos-tiktok': 'queen-the-show-must-go-on-acordes-ocultos',
   'apenas-podia-sostenerse-en-pie-cuando-entro-a-grabar-esta-despedida': 'queen-the-show-must-go-on-acordes-ocultos',
