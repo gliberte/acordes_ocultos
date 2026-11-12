@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'pink-floyd-wish-you-were-here-acordes-ocultos': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'pink-floyd-wish-you-were-here-acordes-ocultos-tiktok': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'el-himno-que-pink-floyd-escribio-cuando-el-exito-los-dejo-completamente-vacios': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'elhimnoquepinkfloydescribiocuandoelexitolosdejocompletamentevacios': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'pink-floyd-wish-you-were-here': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'wish-you-were-here': 'pink-floyd-wish-you-were-here-acordes-ocultos',
+  'wishyouwerehere': 'pink-floyd-wish-you-were-here-acordes-ocultos',
   'the-rolling-stones-ruby-tuesday-acordes-ocultos': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
   'the-rolling-stones-ruby-tuesday-acordes-ocultos-tiktok': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
   'el-corazon-roto-de-keith-richards-detras-de-ruby-tuesday': 'the-rolling-stones-ruby-tuesday-acordes-ocultos',
