@@ -34,6 +34,20 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'donna-summer-love-to-love-you-baby-acordes-ocultos': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'donna-summer-love-to-love-you-baby-acordes-ocultos-tiktok': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'donna-summer-love-to-love-you-baby': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'love-to-love-you-baby': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'lovetoloveyoubaby': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'la-reina-del-disco-que-casi-no-sobrevive-a-su-propia-cancion': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'lareinadeldiscoquecasinosobreviveasupropiacancion': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
+  'donna-summer-she-works-hard-for-the-money-acordes-ocultos': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'donna-summer-she-works-hard-for-the-money-acordes-ocultos-tiktok': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'la-mujer-dormida-en-un-bano-de-lujo-que-inspiro-este-himno-de-donna-summer': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'lamujerdormidaenunbanodelujoquieninspiroestehimnodedonnasummer': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'donna-summer-she-works-hard-for-the-money': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'she-works-hard-for-the-money': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
+  'sheworkshardforthemoney': 'donna-summer-she-works-hard-for-the-money-acordes-ocultos',
   'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
   'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos-tiktok': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
   'la-cancion-que-pablo-milanes-escribio-en-diez-minutos-tras-una-noticia-desde-chile': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
