@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos-tiktok': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'la-cancion-que-pablo-milanes-escribio-en-diez-minutos-tras-una-noticia-desde-chile': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'lacancionquepablomilanesescribioendiezminutostrasunanoticiadesdechile': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'pablo-milanes-yo-pisare-las-calles-nuevamente': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'yo-pisare-las-calles-nuevamente': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
+  'yopisarelascallesnuevamente': 'pablo-milanes-yo-pisare-las-calles-nuevamente-acordes-ocultos',
   'sixto-rodriguez-sugar-man-acordes-ocultos': 'sixto-rodriguez-sugar-man-acordes-ocultos',
   'sixto-rodriguez-sugar-man-acordes-ocultos-tiktok': 'sixto-rodriguez-sugar-man-acordes-ocultos',
   'el-obrero-de-detroit-que-no-sabia-que-era-leyenda-al-otro-lado-del-mundo': 'sixto-rodriguez-sugar-man-acordes-ocultos',
