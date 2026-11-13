@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'joan-manuel-serrat-cantares-acordes-ocultos': 'joan-manuel-serrat-cantares-acordes-ocultos',
+  'joan-manuel-serrat-cantares-acordes-ocultos-tiktok': 'joan-manuel-serrat-cantares-acordes-ocultos',
+  'joan-manuel-serrat-cantares': 'joan-manuel-serrat-cantares-acordes-ocultos',
+  'cantares': 'joan-manuel-serrat-cantares-acordes-ocultos',
+  'el-disco-vetado-con-el-que-serrat-desafio-a-la-dictadura': 'joan-manuel-serrat-cantares-acordes-ocultos',
+  'eldiscovetadoconelqueserratdesafioaladictadura': 'joan-manuel-serrat-cantares-acordes-ocultos',
   'donna-summer-love-to-love-you-baby-acordes-ocultos': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
   'donna-summer-love-to-love-you-baby-acordes-ocultos-tiktok': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
   'donna-summer-love-to-love-you-baby': 'donna-summer-love-to-love-you-baby-acordes-ocultos',
