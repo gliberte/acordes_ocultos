@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'sixto-rodriguez-sugar-man-acordes-ocultos': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'sixto-rodriguez-sugar-man-acordes-ocultos-tiktok': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'el-obrero-de-detroit-que-no-sabia-que-era-leyenda-al-otro-lado-del-mundo': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'elobrerodedetroitquenosabiaqueeraleyendaalotroladodelmundo': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'sixto-rodriguez-sugar-man': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'sugar-man': 'sixto-rodriguez-sugar-man-acordes-ocultos',
+  'sugarman': 'sixto-rodriguez-sugar-man-acordes-ocultos',
   'harry-chapin-cats-in-the-cradle-acordes-ocultos': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
   'harry-chapin-cats-in-the-cradle-acordes-ocultos-tiktok': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
   'la-cancion-que-harry-chapin-escribio-por-miedo-a-perder-la-infancia-de-su-hijo': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
