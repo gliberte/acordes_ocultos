@@ -34,6 +34,13 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'harry-chapin-cats-in-the-cradle-acordes-ocultos': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'harry-chapin-cats-in-the-cradle-acordes-ocultos-tiktok': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'la-cancion-que-harry-chapin-escribio-por-miedo-a-perder-la-infancia-de-su-hijo': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'lacancionqueharrychapinescribiopormiedoaperderlainfanciadesuhijo': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'harry-chapin-cats-in-the-cradle': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'cats-in-the-cradle': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
+  'catsinthecradle': 'harry-chapin-cats-in-the-cradle-acordes-ocultos',
   'pink-floyd-wish-you-were-here-acordes-ocultos': 'pink-floyd-wish-you-were-here-acordes-ocultos',
   'pink-floyd-wish-you-were-here-acordes-ocultos-tiktok': 'pink-floyd-wish-you-were-here-acordes-ocultos',
   'el-himno-que-pink-floyd-escribio-cuando-el-exito-los-dejo-completamente-vacios': 'pink-floyd-wish-you-were-here-acordes-ocultos',
