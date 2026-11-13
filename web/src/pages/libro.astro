@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import NewsletterBox from '../components/NewsletterBox.astro';
 
+const AMAZON_PAPERBACK_URL = 'https://www.amazon.com/dp/B0HRJMJF99';
 const AMAZON_KINDLE_URL = 'https://www.amazon.com/dp/B0HP6Z5W46';
 const GUMROAD_BOOK_URL = 'https://acordesocultos.gumroad.com/l/acordes-ocultos-vol-1';
 const GUMROAD_TIP_URL = 'https://acordesocultos.gumroad.com/l/ryhupd';
@@ -119,7 +120,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
 <Layout
   title="Libro Oficial: Acordes Ocultos — Volumen 01 | 28 Historias Humanas detrás de la Música"
-  description="Edición digital de colección (PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo y enlaces directos a los videos de cada historia."
+  description="Edición física de colección en tapa blanda y digital (Kindle, PDF interactivo de 241 páginas + EPUB) con 28 crónicas documentales completas, fotografías de archivo y enlaces directos a los videos de cada historia."
   image="/book/portada-volumen-01.jpg"
 >
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20 space-y-16">
@@ -146,15 +147,15 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           <span class="text-[11px] text-neutral-400 mt-3 font-sans tracking-wide text-center">
             Edición Oficial · Volumen 01 (241 págs.)
           </span>
-          <span class="inline-block mt-1 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase bg-amber-500/10 border border-amber-500/30 text-amber-300 font-sans">
-            📱 Edición digital · No incluye ejemplar físico
+          <span class="inline-block mt-1 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase bg-amber-500/15 border border-amber-500/35 text-amber-300 font-sans">
+            📖 Edición Física (Tapa Blanda) & Digital
           </span>
         </div>
 
         <!-- Book Pitch & Details -->
         <div class="space-y-5 text-center lg:text-left">
           <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 font-sans">
-            <span>✨ EDICIÓN DIGITAL OFICIAL · 241 PÁGINAS</span>
+            <span>✨ EDICIÓN OFICIAL DE COLECCIÓN · 241 PÁGINAS</span>
           </div>
 
           <h1 class="font-serif text-3xl sm:text-5xl font-black text-neutral-100 leading-tight">
@@ -163,7 +164,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           </h1>
 
           <p class="font-sans text-sm sm:text-base text-neutral-300 leading-relaxed max-w-2xl">
-            Una selección curada de <strong>28 historias organizada en cuatro partes</strong>, con maquetación editorial reposada, fuentes, notas documentales completas y formatos (PDF interactivo de 241 páginas y EPUB) preparados para <strong>leer sin conexión a internet y sin distracciones</strong>.
+            Una selección curada de <strong>28 historias organizada en cuatro partes</strong>, con maquetación editorial reposada, fuentes, notas documentales completas y fotografías de época. Disponible en <strong>edición física de colección en tapa blanda</strong> a través de Amazon y en <strong>ediciones digitales</strong> (Kindle, PDF interactivo de 241 páginas y EPUB sin DRM).
           </p>
 
           <ul class="grid grid-cols-2 sm:grid-cols-3 gap-2.5 pt-2 text-xs font-sans text-neutral-300 max-w-xl mx-auto lg:mx-0">
@@ -174,7 +175,7 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
               <span class="text-amber-400 font-bold">✓</span> 241 páginas maquetadas
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
-              <span class="text-amber-400 font-bold">✓</span> PDF interactivo + EPUB
+              <span class="text-amber-400 font-bold">✓</span> Tapa blanda + Digital
             </li>
             <li class="flex items-center gap-2 bg-[#171410] border border-[#2b261e] px-3 py-2 rounded-xl">
               <span class="text-amber-400 font-bold">✓</span> Enlaces a videos de Instagram
@@ -191,26 +192,37 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
           <div class="p-4 rounded-xl bg-[#14120f] border border-amber-500/30 text-xs sm:text-sm text-neutral-300 leading-relaxed font-sans">
             <p>
               <strong class="text-amber-300 font-semibold">¿Por qué comprarlo si leo gratis la web?</strong><br />
-              El archivo web permanece gratuito. Este volumen reúne 28 de sus crónicas en una edición organizada en cuatro partes, ilustrada y preparada para conservar y leer sin conexión. Tu compra también ayuda a sostener nuevas investigaciones.
+              El archivo web permanece gratuito. Este volumen reúne 28 de sus crónicas en una edición física y digital de colección organizada en cuatro partes, ilustrada y preparada para conservar y leer sin distracciones. Tu compra también ayuda a sostener nuevas investigaciones.
             </p>
           </div>
 
           <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 flex-wrap">
             <a
-              href={AMAZON_KINDLE_URL}
+              href={AMAZON_PAPERBACK_URL}
               target="_blank"
               rel="noopener noreferrer"
               class="w-full sm:w-auto px-7 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-xl shadow-amber-950/50"
+              title="Comprar edición física de colección en tapa blanda en Amazon"
             >
-              <span>🛒 Comprar en Amazon Kindle →</span>
+              <span>📖 Libro Físico (Tapa Blanda) en Amazon →</span>
+            </a>
+            <a
+              href={AMAZON_KINDLE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#1c1813] text-amber-300 border border-amber-500/40 hover:bg-amber-500/15 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg"
+              title="Comprar edición Kindle en Amazon"
+            >
+              <span>📱 Amazon Kindle ($9.99) →</span>
             </a>
             <a
               href={GUMROAD_BOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
-              class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#1c1813] text-amber-300 border border-amber-500/40 hover:bg-amber-500/15 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-lg"
+              class="w-full sm:w-auto px-6 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#14120f] text-neutral-300 border border-neutral-700 hover:border-amber-500/40 hover:text-amber-200 transition-all transform hover:-translate-y-0.5 text-center flex items-center justify-center gap-2 shadow-md"
+              title="Descargar PDF interactivo y EPUB sin DRM en Gumroad"
             >
-              <span>📄 Gumroad (PDF + EPUB · $9.99) →</span>
+              <span>📄 Gumroad (PDF + EPUB) →</span>
             </a>
             <a
               href="/book/Acordes_Ocultos_Volumen_I_Muestra.pdf"
@@ -229,10 +241,10 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
 
           <div class="space-y-1.5 text-[11px] text-neutral-400 font-sans">
             <p class="text-amber-300 font-semibold flex items-center gap-1.5 justify-center lg:justify-start">
-              <span>📱</span> Disponible en Amazon Kindle y en descarga directa (PDF + EPUB).
+              <span>📖</span> Disponible en libro físico de colección (tapa blanda) en Amazon y en formatos digitales.
             </p>
             <p>
-              Elige tu formato preferido: lee cómodamente en tu lector <strong>Amazon Kindle</strong>, o descarga el archivo íntegro en <strong>PDF interactivo de 241 páginas y EPUB sin DRM</strong> para Apple Books, tablet o móvil vía Gumroad.
+              Elige tu formato preferido: recibe en casa el <strong>libro impreso de colección en tapa blanda</strong> a través de Amazon, léelo cómodamente en tu lector <strong>Amazon Kindle</strong>, o descarga el archivo íntegro en <strong>PDF interactivo de 241 páginas y EPUB sin DRM</strong> para Apple Books, tablet o móvil vía Gumroad.
             </p>
           </div>
         </div>
@@ -362,14 +374,14 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         </div>
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
-          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Formatos Entregados</span>
-          <p class="text-amber-400 font-bold text-base font-serif">PDF + EPUB</p>
-          <span class="text-neutral-400 text-[11px] block">Descarga simultánea</span>
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Formatos Disponibles</span>
+          <p class="text-amber-400 font-bold text-base font-serif">Tapa Blanda · Kindle · PDF · EPUB</p>
+          <span class="text-neutral-400 text-[11px] block">Edición física & digital</span>
         </div>
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
           <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Derechos Digitales</span>
-          <p class="text-emerald-400 font-bold text-base font-serif">100% Sin DRM</p>
+          <p class="text-emerald-400 font-bold text-base font-serif">100% Sin DRM (Gumroad)</p>
           <span class="text-neutral-400 text-[11px] block">Tuyo para siempre</span>
         </div>
 
@@ -392,9 +404,9 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
         </div>
 
         <div class="p-4 rounded-xl bg-[#0f0e0c] border border-[#242019] space-y-1">
-          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Compatibilidad</span>
-          <p class="text-amber-400 font-bold text-base font-serif">Universal</p>
-          <span class="text-neutral-400 text-[11px] block">Kindle, iPad, Tablet, PC</span>
+          <span class="text-neutral-500 uppercase tracking-wider text-[10px] block font-semibold">Disponibilidad</span>
+          <p class="text-amber-400 font-bold text-base font-serif">Amazon & Gumroad</p>
+          <span class="text-neutral-400 text-[11px] block">Tapa blanda, Kindle & descarga</span>
         </div>
       </div>
     </section>
@@ -462,34 +474,45 @@ const totalChapters = SECTIONS.reduce((acc, s) => acc + s.chapters.length, 0);
     <!-- Único Bloque Final de Compra -->
     <section class="rounded-3xl bg-gradient-to-r from-amber-500/15 via-[#1a1611] to-amber-500/10 border border-amber-500/40 p-8 sm:p-12 text-center space-y-5 shadow-2xl">
       <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-bold tracking-widest uppercase bg-amber-500/15 text-amber-300 border border-amber-500/30 font-sans mx-auto">
-        <span>📚 EDICIÓN DIGITAL COMPLETA</span>
+        <span>📚 EDICIÓN DE COLECCIÓN · FÍSICA & DIGITAL</span>
       </div>
       <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white">
         Lleva las 28 historias de Acordes Ocultos a tu biblioteca
       </h3>
       <p class="font-sans text-xs sm:text-sm text-neutral-300 max-w-xl mx-auto leading-relaxed">
-        Disponible en tu tienda y formato predilecto: en <strong>Amazon Kindle</strong> o en descarga directa de <strong>PDF de 241 págs. + EPUB libre de DRM</strong> vía Gumroad por <span class="text-amber-400 font-bold">$9.99 USD</span>.
+        Disponible en tu formato predilecto: en <strong>versión física de colección (tapa blanda) en Amazon</strong>, en tu lector <strong>Amazon Kindle</strong>, o en descarga directa de <strong>PDF de 241 págs. + EPUB libre de DRM</strong> vía Gumroad.
       </p>
-      <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div class="pt-2 flex flex-col sm:flex-row items-center justify-center gap-4 flex-wrap">
+        <a
+          href={AMAZON_PAPERBACK_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center shadow-xl shadow-amber-950/50 inline-flex items-center justify-center gap-2"
+          title="Comprar libro físico de colección en tapa blanda en Amazon"
+        >
+          <span>📖 Comprar Libro Físico (Tapa Blanda) en Amazon →</span>
+        </a>
         <a
           href={AMAZON_KINDLE_URL}
           target="_blank"
           rel="noopener noreferrer"
-          class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-gradient-to-r from-amber-500 to-amber-400 text-black hover:from-amber-400 hover:to-amber-300 transition-all transform hover:-translate-y-0.5 text-center shadow-xl shadow-amber-950/50 inline-flex items-center justify-center gap-2"
+          class="w-full sm:w-auto px-7 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#1c1813] text-amber-300 border border-amber-500/40 hover:bg-amber-500/15 transition-all transform hover:-translate-y-0.5 text-center shadow-lg inline-flex items-center justify-center gap-2"
+          title="Comprar edición Kindle en Amazon"
         >
-          <span>🛒 Comprar en Amazon (Kindle) →</span>
+          <span>📱 Amazon Kindle ($9.99) →</span>
         </a>
         <a
           href={GUMROAD_BOOK_URL}
           target="_blank"
           rel="noopener noreferrer"
-          class="w-full sm:w-auto px-8 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#1c1813] text-amber-300 border border-amber-500/40 hover:bg-amber-500/15 transition-all transform hover:-translate-y-0.5 text-center shadow-lg inline-flex items-center justify-center gap-2"
+          class="w-full sm:w-auto px-7 py-4 rounded-xl font-sans font-bold text-sm uppercase tracking-wider bg-[#14120f] text-neutral-300 border border-neutral-700 hover:border-amber-500/40 hover:text-amber-200 transition-all transform hover:-translate-y-0.5 text-center shadow-md inline-flex items-center justify-center gap-2"
+          title="Comprar PDF + EPUB en Gumroad"
         >
-          <span>📄 Comprar en Gumroad (PDF + EPUB) →</span>
+          <span>📄 Gumroad (PDF + EPUB) →</span>
         </a>
       </div>
       <p class="text-[11px] text-neutral-400 font-sans">
-        📱 <strong>Edición digital.</strong> Acceso inmediato en tu lector Amazon Kindle o descarga sin restricciones DRM vía Gumroad.
+        📦 <strong>Edición impresa y digital.</strong> Envío a domicilio por Amazon en tapa blanda, lectura instantánea en Kindle o descarga directa sin restricciones DRM vía Gumroad.
       </p>
     </section>
 
