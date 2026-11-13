@@ -42,7 +42,8 @@ const ALIAS_SLUGS = {
   'camilo-sesto-jesucristo-superstar-acordes-ocultos': ['eldesafiodejesucristosuperstar'],
   'gustavo-cerati-corazon-delator-catedrales-de-leyenda': ['elarquitectodelsonidoeterno'],
   'marilyn-monroe-candle-in-the-wind': ['elmitoylasombrademarilyn'],
-  'rocio-durcal-amor-eterno-catedrales-de-leyenda': ['lareinaeternadelmariachi']
+  'rocio-durcal-amor-eterno-catedrales-de-leyenda': ['lareinaeternadelmariachi'],
+  'serge-gainsbourg-jane-birkin-je-t-aime-moi-non-plus-acordes-ocultos': ['jetaimemoinonplus']
 };
 
 const articleEntries = fs.readdirSync(articlesDir, { withFileTypes: true });
