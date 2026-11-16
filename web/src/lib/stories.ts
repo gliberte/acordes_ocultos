@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'cat-stevens-wild-world-acordes-ocultos': 'cat-stevens-wild-world-acordes-ocultos',
+  'cat-stevens-wild-world-acordes-ocultos-tiktok': 'cat-stevens-wild-world-acordes-ocultos',
+  'cat-stevens-wild-world': 'cat-stevens-wild-world-acordes-ocultos',
+  'wild-world': 'cat-stevens-wild-world-acordes-ocultos',
+  'la-despedida-real-detras-de-wild-world-de-cat-stevens': 'cat-stevens-wild-world-acordes-ocultos',
+  'ladespedidarealdetrasdewildworlddecatstevens': 'cat-stevens-wild-world-acordes-ocultos',
   'sam-cooke-chain-gang-acordes-ocultos': 'sam-cooke-chain-gang-acordes-ocultos',
   'sam-cooke-chain-gang-acordes-ocultos-tiktok': 'sam-cooke-chain-gang-acordes-ocultos',
   'sam-cooke-chain-gang': 'sam-cooke-chain-gang-acordes-ocultos',
