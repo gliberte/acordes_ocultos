@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'mecano-el-7-de-septiembre-acordes-ocultos': 'mecano-el-7-de-septiembre-acordes-ocultos',
+  'mecano-el-7-de-septiembre-acordes-ocultos-tiktok': 'mecano-el-7-de-septiembre-acordes-ocultos',
+  'mecano-el-7-de-septiembre': 'mecano-el-7-de-septiembre-acordes-ocultos',
+  'el-7-de-septiembre': 'mecano-el-7-de-septiembre-acordes-ocultos',
+  'el-pacto-de-amor-real-detras-de-el-7-de-septiembre-de-mecano': 'mecano-el-7-de-septiembre-acordes-ocultos',
+  'elpactodeamorrealdetrasdeel7deseptiembredemecano': 'mecano-el-7-de-septiembre-acordes-ocultos',
   'cat-stevens-wild-world-acordes-ocultos': 'cat-stevens-wild-world-acordes-ocultos',
   'cat-stevens-wild-world-acordes-ocultos-tiktok': 'cat-stevens-wild-world-acordes-ocultos',
   'cat-stevens-wild-world': 'cat-stevens-wild-world-acordes-ocultos',
