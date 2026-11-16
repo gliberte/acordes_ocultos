@@ -1,4 +1,28 @@
 /**
+ * Parses basic YAML frontmatter key-value pairs from markdown
+ */
+export function parseFrontmatter(md: string): Record<string, string> {
+  if (!md) return {};
+  const match = md.match(/^\s*---\r?\n([\s\S]*?)\r?\n---\r?\n*/);
+  if (!match) return {};
+  const yaml = match[1];
+  const result: Record<string, string> = {};
+  for (const rawLine of yaml.split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith('#')) continue;
+    const colonIdx = line.indexOf(':');
+    if (colonIdx === -1) continue;
+    const key = line.slice(0, colonIdx).trim();
+    let val = line.slice(colonIdx + 1).trim();
+    if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+      val = val.slice(1, -1);
+    }
+    result[key] = val;
+  }
+  return result;
+}
+
+/**
  * Strips YAML frontmatter (--- ... ---) from the beginning of a markdown string
  */
 export function stripFrontmatter(md: string): string {

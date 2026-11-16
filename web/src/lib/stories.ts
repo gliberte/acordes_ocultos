@@ -1,7 +1,7 @@
 import { supabase } from './supabase';
 import type { StoryItem, Scene } from './types';
 import { getCategoryInfo } from './categories';
-import { extractCleanSummary } from './markdown';
+import { extractCleanSummary, parseFrontmatter } from './markdown';
 import chroniclesMap from '../data/chronicles.json';
 import chroniclesEnMap from '../data/chronicles_en.json';
 import secretChordsTracker from '../data/secret_chords_tracker.json';
@@ -1113,11 +1113,34 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     const matchedKeyEn =
       (item.articleSlug && localEnglishArticles[item.articleSlug] ? item.articleSlug : null) ||
       (localEnglishArticles[item.slug] ? item.slug : null) ||
-      (CHRONICLE_ALIASES[item.slug] && localEnglishArticles[CHRONICLE_ALIASES[item.slug]] ? CHRONICLE_ALIASES[item.slug] : null);
+      (CHRONICLE_ALIASES[item.slug] && localEnglishArticles[CHRONICLE_ALIASES[item.slug]] ? CHRONICLE_ALIASES[item.slug] : null) ||
+      Object.keys(localEnglishArticles).find(k => {
+        const kClean = k.replace(/[^a-z0-9]/g, '');
+        if (kClean === itemSlugClean || kClean.includes(itemSlugClean) || itemSlugClean.includes(kClean)) {
+          return true;
+        }
+        if (itemSongClean.length >= 4 && kClean.includes(itemSongClean)) {
+          if (itemArtistClean.length < 3 || kClean.includes(itemArtistClean.slice(0, 5))) {
+            return true;
+          }
+        }
+        return false;
+      });
 
     if (matchedKeyEn && localEnglishArticles[matchedKeyEn]) {
       item.contentEn = localEnglishArticles[matchedKeyEn];
       item.summaryEn = extractCleanSummary(item.contentEn);
+
+      const fm = parseFrontmatter(item.contentEn);
+      if (fm.title && !item.titleEn) {
+        item.titleEn = fm.title;
+      }
+      if (fm.slug && !item.slugEn) {
+        item.slugEn = fm.slug;
+      }
+      if (fm.description && !item.hookEn) {
+        item.hookEn = fm.description;
+      }
     }
 
     const trackerMatch = trackerData.find((t: any) =>
