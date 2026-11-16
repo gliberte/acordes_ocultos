@@ -42,14 +42,19 @@ const formattedViews = story.views && story.views > 0
     </div>
 
     <!-- Media Badges (Top Right) -->
-    <div class="absolute top-3 right-3 flex items-center gap-1.5 z-10">
+    <div class="absolute top-3 right-3 flex items-center gap-1.5 z-10 flex-wrap justify-end">
+      {story.articleSlug && (
+        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/95 text-black border border-amber-400 shadow-md font-sans">
+          📖 Crónica
+        </span>
+      )}
       {story.isLatestReel ? (
-        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-black bg-gradient-to-r from-amber-400 to-amber-500 text-black border border-amber-300 shadow-lg shadow-amber-500/40 animate-pulse font-sans">
-          ⚡ ÚLTIMO REEL
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-black bg-gradient-to-r from-amber-400 to-yellow-400 text-black border border-amber-300 shadow font-sans">
+          ⚡ Novedad
         </span>
       ) : formattedViews ? (
-        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-black/85 text-amber-300 border border-amber-500/40 backdrop-blur-md shadow font-mono">
-          <svg class="w-3 h-3 text-amber-400 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2">
+        <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-mono bg-black/85 text-neutral-300 border border-neutral-700/80 backdrop-blur-md shadow">
+          <svg class="w-2.5 h-2.5 text-amber-400 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
             <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
           </svg>
@@ -57,22 +62,21 @@ const formattedViews = story.views && story.views > 0
         </span>
       ) : story.instagramUrl ? (
         <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium bg-black/70 text-amber-300 border border-amber-500/40 backdrop-blur-sm shadow">
-          <svg class="w-3 h-3 text-amber-400 fill-current" viewBox="0 0 24 24">
-            <polygon points="5 3 19 12 5 21 5 3"></polygon>
-          </svg>
           Reel
         </span>
-      ) : (
-        <span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[10px] font-semibold bg-black/80 text-amber-300/90 border border-amber-500/30 backdrop-blur-sm shadow">
-          <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
-          Próximamente
-        </span>
-      )}
+      ) : null}
     </div>
 
     <!-- Floating Action on Hover -->
     <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">
-      {story.instagramUrl ? (
+      {story.articleSlug ? (
+        <div class="px-4 py-2 rounded-full bg-amber-500/95 text-black border border-amber-400 text-xs font-bold uppercase tracking-wider shadow-xl transform scale-90 group-hover:scale-100 transition-transform duration-300 flex items-center gap-1.5">
+          <span>Leer Crónica</span>
+          <svg class="w-3.5 h-3.5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </div>
+      ) : story.instagramUrl ? (
         <div class="w-14 h-14 rounded-full bg-amber-500/90 text-black flex items-center justify-center shadow-lg transform scale-75 group-hover:scale-100 transition-transform duration-300">
           <svg class="w-6 h-6 fill-current translate-x-0.5" viewBox="0 0 24 24">
             <polygon points="5 3 19 12 5 21 5 3"></polygon>
@@ -80,7 +84,7 @@ const formattedViews = story.views && story.views > 0
         </div>
       ) : (
         <div class="px-3.5 py-1.5 rounded-full bg-black/90 text-amber-300 border border-amber-500/40 text-xs font-semibold uppercase tracking-wider shadow-lg transform scale-90 group-hover:scale-100 transition-transform duration-300 backdrop-blur-md">
-          Próximamente
+          Explorar
         </div>
       )}
     </div>
@@ -112,9 +116,15 @@ const formattedViews = story.views && story.views > 0
 
     <!-- Card Bottom Metadata -->
     <div class="pt-3 border-t border-[#201d19] flex items-center justify-between text-[11px] text-neutral-400 mt-auto">
-      <span>{story.instagramUrl ? (story.durationSeconds ? `${story.durationSeconds} seg` : 'Microhistoria') : 'Próximo estreno'}</span>
+      <span>
+        {story.articleSlug
+          ? 'Investigación histórica'
+          : story.durationSeconds
+            ? `${story.durationSeconds} seg`
+            : 'Microhistoria'}
+      </span>
       <span class="text-amber-500/80 group-hover:text-amber-400 font-medium flex items-center gap-1">
-        {story.instagramUrl ? 'Leer relato →' : 'Ver adelanto →'}
+        {story.articleSlug ? 'Leer crónica →' : story.instagramUrl ? 'Ver historia →' : 'Explorar →'}
       </span>
     </div>
   </div>

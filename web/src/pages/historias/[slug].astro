@@ -20,23 +20,22 @@ function hasValidInstagramReel(s: any): boolean {
   return url.length > 0 && (url.includes('instagram.com/reel/') || url.includes('instagram.com/p/'));
 }
 
-// Una crónica extendida es estrictamente privada y oculta hasta que su Reel de Instagram oficial haya sido estrenado.
-// Regla innegociable: Solo se permite la visualización pública si cuenta con un Reel oficial de Instagram y no está oculta.
+// Una crónica extendida es pública si cuenta con artículo extendido o con su Reel de Instagram oficial, y no está oculta.
 // Excepción: Administrador autenticado accediendo en modo vista previa (?preview=true).
 const story = allStories.find(s => {
   const matchesSlug = s.slug === slug || s.articleSlug === slug;
   if (!matchesSlug) return false;
   if (isPreview) return true;
-  return hasValidInstagramReel(s) && !s.isHidden;
+  return (hasValidInstagramReel(s) || Boolean(s.articleSlug)) && !s.isHidden;
 });
 
 if (!story) {
   return Astro.redirect('/404');
 }
 
-// Las historias relacionadas recomendadas deben pertenecer exclusivamente al archivo público estrenado con Reel
+// Las historias relacionadas recomendadas pertenecen al catálogo público disponible
 const relatedStories = allStories
-  .filter(s => s.slug !== story.slug && hasValidInstagramReel(s) && !s.isHidden && (s.category === story.category || s.artist === story.artist))
+  .filter(s => s.slug !== story.slug && (hasValidInstagramReel(s) || Boolean(s.articleSlug)) && !s.isHidden && (s.category === story.category || s.artist === story.artist))
   .slice(0, 3);
 
 const formattedContent = formatChronicleMarkdown(story.content, story.articleSlug || story.slug);
@@ -285,14 +284,14 @@ const articleSchema = {
       <!-- Right Column: The Full Chronicle & Story Scenes -->
       <section id="cronica" class="lg:col-span-7 max-w-none">
         
-        {isPreview && !hasValidInstagramReel(story) && (
+        {isPreview && !hasValidInstagramReel(story) && !story.articleSlug && (
           <div class="mb-8 p-5 rounded-2xl border border-amber-500/50 bg-amber-950/30 text-amber-200 shadow-xl">
             <div class="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
               <span>Modo Vista Previa de Administrador</span>
             </div>
             <p class="text-xs sm:text-sm text-neutral-200 leading-relaxed font-sans">
-              Esta crónica extendida está <strong>estrictamente oculta al público general y a buscadores (devuelve 404)</strong> porque aún no tiene un Reel de Instagram oficial asociado.
+              Esta historia está en <strong>modo borrador</strong> y oculta al público general.
             </p>
           </div>
         )}

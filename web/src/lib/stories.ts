@@ -1116,14 +1116,14 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   }
 
   // Filter out hidden stories unless explicitly requested (e.g. from admin panel).
-  // Public catalog strictly requires an associated Instagram Reel (zero spoilers, only officially released content)
+  // Public catalog includes stories with an official Instagram Reel OR a complete extended chronicle (articleSlug / hasArticle)
   if (!options.includeHidden) {
     items = items.filter(item => {
       if (item.isHidden) return false;
       const url = typeof item.instagramUrl === 'string' ? item.instagramUrl.trim() : '';
       const urlEn = typeof item.instagramUrlEn === 'string' ? item.instagramUrlEn.trim() : '';
       const isValid = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
-      return isValid(url) || isValid(urlEn);
+      return isValid(url) || isValid(urlEn) || Boolean(item.articleSlug) || Boolean(item.hasArticle);
     });
   }
 
