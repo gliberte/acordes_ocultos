@@ -34,6 +34,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'sam-cooke-chain-gang-acordes-ocultos': 'sam-cooke-chain-gang-acordes-ocultos',
+  'sam-cooke-chain-gang-acordes-ocultos-tiktok': 'sam-cooke-chain-gang-acordes-ocultos',
+  'sam-cooke-chain-gang': 'sam-cooke-chain-gang-acordes-ocultos',
+  'chain-gang': 'sam-cooke-chain-gang-acordes-ocultos',
+  'el-encuentro-en-la-carretera-que-inspiro-chain-gang-de-sam-cooke': 'sam-cooke-chain-gang-acordes-ocultos',
+  'elencuentroenlacarreteraqueinspirochaingangdesamcooke': 'sam-cooke-chain-gang-acordes-ocultos',
   'joan-manuel-serrat-cantares-acordes-ocultos': 'joan-manuel-serrat-cantares-acordes-ocultos',
   'joan-manuel-serrat-cantares-acordes-ocultos-tiktok': 'joan-manuel-serrat-cantares-acordes-ocultos',
   'joan-manuel-serrat-cantares': 'joan-manuel-serrat-cantares-acordes-ocultos',
