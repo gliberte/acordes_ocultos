@@ -12,9 +12,11 @@ const allStories = await getAllStories();
 
 // 1. Portada / Lead Story: Selección editorial independiente.
 // Prioridad: Historia fijada editorialmente (isFeatured),
+// o el estreno más reciente del archivo (isLatestReel),
 // o la crónica de investigación más reciente (con artículo extendido),
 // o la obra más reciente incorporada al catálogo.
 const featuredStory = allStories.find(s => s.isFeatured)
+  || allStories.find(s => s.isLatestReel)
   || allStories.find(s => Boolean(s.articleSlug) && Boolean(s.heroImageUrl || s.coverUrl))
   || allStories[0]
   || null;
