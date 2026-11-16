@@ -17,7 +17,7 @@ const availableHeroes = new Set<string>(availableHeroesList);
 
 // In-memory cache for serverless runtimes to avoid redundant network egress
 let cachedStories: { data: StoryItem[]; timestamp: number } | null = null;
-const CACHE_TTL_MS = 10 * 60 * 1000; // 10 minutes cache
+const CACHE_TTL_MS = 30 * 1000; // 30 seconds cache
 
 export function clearStoriesCache(): void {
   cachedStories = null;
@@ -1075,6 +1075,12 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       const altCover = [item.slug, item.articleSlug].find(s => s && availableCovers.has(s));
       if (altCover) {
         item.coverUrl = `/covers/${altCover}.webp`;
+      }
+    }
+    if (!item.heroImageUrl || item.heroImageUrl.startsWith('/covers/')) {
+      const altHero = [item.slug, item.articleSlug].find(s => s && availableHeroes.has(s));
+      if (altHero) {
+        item.heroImageUrl = `/images/heroes/${altHero}.webp`;
       }
     }
     const promoPoster =
