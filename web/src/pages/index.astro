@@ -489,13 +489,23 @@ const websiteSchema = {
       
       <!-- Section Header & Filter / Sort Controls -->
       <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10">
-        <div>
-          <h2 class="font-serif text-3xl font-bold text-neutral-100">
-            Archivo de Relatos
-          </h2>
-          <p class="text-xs text-neutral-400 mt-1">
-            Total de historias documentadas en el catálogo: <strong class="text-amber-400">{allStories.length}</strong>
-          </p>
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+          <div>
+            <h2 class="font-serif text-3xl font-bold text-neutral-100">
+              Archivo de Relatos
+            </h2>
+            <p class="text-xs text-neutral-400 mt-1">
+              Total de historias documentadas en el catálogo: <strong class="text-amber-400">{allStories.length}</strong>
+            </p>
+          </div>
+
+          <a 
+            href="/en"
+            class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs font-semibold tracking-wider uppercase bg-[#181613] text-neutral-300 hover:text-amber-300 border border-[#2e2a24] hover:border-amber-500/50 transition-all font-sans self-start sm:self-auto"
+            title="View English Edition (Secret Chords)"
+          >
+            <span>🇺🇸 English Edition (Secret Chords) →</span>
+          </a>
         </div>
 
         <div class="flex flex-col sm:flex-row items-start sm:items-center gap-4">

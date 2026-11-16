@@ -60,10 +60,10 @@ if (currentStory) {
 
 <header class="sticky top-0 z-50 backdrop-blur-md bg-[#0a0908]/90 border-b border-[#262420]">
   {isNotAdmin && <BookLaunchBar lang={locale} />}
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+  <div class="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-2 sm:gap-4">
     <!-- Logo & Brand -->
-    <a href={isEn ? '/en' : '/'} class="flex items-center gap-3 group shrink-0">
-      <div class="relative w-11 h-11 rounded-full overflow-hidden border border-amber-500/40 p-0.5 bg-[#141311] group-hover:border-amber-400 transition-colors shadow-lg shadow-amber-950/30">
+    <a href={isEn ? '/en' : '/'} class="flex items-center gap-2.5 sm:gap-3 group shrink-0 min-w-0" title={t('brand', 'name')}>
+      <div class="relative w-10 h-10 sm:w-11 sm:h-11 rounded-full overflow-hidden border border-amber-500/40 p-0.5 bg-[#141311] group-hover:border-amber-400 transition-colors shadow-lg shadow-amber-950/30 shrink-0">
         <img 
           src="/brand/acordes-ocultos-logo-sm.webp" 
           alt={t('brand', 'name')} 
@@ -74,7 +74,7 @@ if (currentStory) {
         />
       </div>
       <div class="hidden sm:block">
-        <span class="block font-serif text-lg tracking-wider text-amber-400 font-bold group-hover:text-amber-300 transition-colors">
+        <span class="block font-serif text-base sm:text-lg tracking-wider text-amber-400 font-bold group-hover:text-amber-300 transition-colors">
           {t('brand', 'name')}
         </span>
         <span class="block text-[10px] tracking-[0.25em] text-neutral-400 uppercase font-sans">
@@ -84,7 +84,7 @@ if (currentStory) {
     </a>
 
     <!-- Center / Right: Nav Links, Language Switcher & Global Search -->
-    <div class="flex items-center gap-2.5 sm:gap-4 md:gap-6">
+    <div class="flex items-center gap-1.5 sm:gap-3 md:gap-5 shrink-0">
       <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-neutral-300">
         <a href={isEn ? '/en#stories' : '/#historias'} class="hover:text-amber-400 transition-colors">
           {t('nav', 'stories')}
@@ -107,18 +107,24 @@ if (currentStory) {
       </nav>
 
       <!-- Language Switcher Pill (ES | EN) -->
-      <div class="inline-flex items-center p-0.5 rounded-full bg-[#181613] border border-amber-500/30 text-[11px] font-sans font-bold shadow-inner shrink-0" role="group" aria-label={t('nav', 'language')}>
+      <div 
+        class="inline-flex items-center p-0.5 rounded-full bg-[#181613] border border-amber-500/35 text-xs font-sans font-bold shadow-inner shrink-0 touch-manipulation select-none" 
+        role="group" 
+        aria-label={t('nav', 'language')}
+      >
         <a 
           href={esUrl} 
-          class={`px-2.5 py-1 rounded-full transition-all ${!isEn ? 'bg-amber-500 text-black shadow-sm font-black' : 'text-neutral-400 hover:text-amber-300'}`}
+          class={`px-2.5 sm:px-3 py-1.5 rounded-full transition-all text-[11px] sm:text-xs font-bold inline-flex items-center justify-center min-w-[32px] sm:min-w-[36px] ${!isEn ? 'bg-amber-500 text-black shadow-sm font-black cursor-default' : 'text-neutral-400 hover:text-amber-300 active:scale-95 cursor-pointer'}`}
           title={esTitle}
+          aria-current={!isEn ? 'page' : undefined}
         >
           ES
         </a>
         <a 
           href={enUrl} 
-          class={`px-2.5 py-1 rounded-full transition-all ${isEn ? 'bg-amber-500 text-black shadow-sm font-black' : 'text-neutral-400 hover:text-amber-300'}`}
+          class={`px-2.5 sm:px-3 py-1.5 rounded-full transition-all text-[11px] sm:text-xs font-bold inline-flex items-center justify-center min-w-[32px] sm:min-w-[36px] ${isEn ? 'bg-amber-500 text-black shadow-sm font-black cursor-default' : 'text-neutral-400 hover:text-amber-300 active:scale-95 cursor-pointer'}`}
           title={enTitle}
+          aria-current={isEn ? 'page' : undefined}
         >
           EN
         </a>
@@ -127,12 +133,12 @@ if (currentStory) {
       <!-- Global Search Component -->
       <GlobalSearch stories={stories} lang={locale} />
 
+      <!-- Subscribe CTA: Hidden on mobile (<sm) to prevent header crush; prominent in mobile drawer & hero -->
       <a
         href={isEn ? '/en#newsletter' : '/#boletin'}
-        class="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-md shadow-amber-950/40 hover:from-amber-500 hover:to-amber-400 transition-all transform hover:-translate-y-0.5 active:translate-y-0 shrink-0"
+        class="hidden sm:inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold tracking-wide uppercase bg-gradient-to-r from-amber-600 to-amber-500 text-white shadow-md shadow-amber-950/40 hover:from-amber-500 hover:to-amber-400 transition-all transform hover:-translate-y-0.5 active:translate-y-0 shrink-0"
       >
-        <span class="hidden sm:inline">{t('nav', 'subscribe')}</span>
-        <span class="sm:hidden">{t('nav', 'subscribeShort')}</span>
+        <span>{t('nav', 'subscribe')}</span>
       </a>
 
       <!-- Mobile Menu Hamburger Button -->
@@ -160,6 +166,32 @@ if (currentStory) {
     class="hidden lg:hidden border-t border-[#262420] bg-[#0e0d0b]/98 backdrop-blur-xl px-4 py-5 shadow-2xl transition-all duration-300"
   >
     <div class="max-w-md mx-auto space-y-2.5">
+      <!-- Dedicated Mobile Language Switcher Row -->
+      <div class="p-3 rounded-xl bg-[#151310] border border-amber-500/30 flex items-center justify-between shadow-sm">
+        <span class="flex items-center gap-2 text-xs font-semibold text-neutral-300 font-sans">
+          <span class="text-base">🌐</span>
+          <span>{isEn ? 'Language' : 'Idioma'}</span>
+        </span>
+        <div class="inline-flex items-center p-0.5 rounded-full bg-[#0d0c0a] border border-[#2b2721] text-xs font-sans font-bold shadow-inner">
+          <a
+            href={esUrl}
+            class={`px-3 py-1.5 rounded-full transition-all flex items-center gap-1.5 text-xs font-bold ${!isEn ? 'bg-amber-500 text-black shadow-sm font-black cursor-default' : 'text-neutral-400 hover:text-amber-300 active:scale-95'}`}
+            title={esTitle}
+          >
+            <span>🇪🇸</span>
+            <span>Español</span>
+          </a>
+          <a
+            href={enUrl}
+            class={`px-3 py-1.5 rounded-full transition-all flex items-center gap-1.5 text-xs font-bold ${isEn ? 'bg-amber-500 text-black shadow-sm font-black cursor-default' : 'text-neutral-400 hover:text-amber-300 active:scale-95'}`}
+            title={enTitle}
+          >
+            <span>🇺🇸</span>
+            <span>English</span>
+          </a>
+        </div>
+      </div>
+
       <a
         href={isEn ? '/en#stories' : '/#historias'}
         class="mobile-nav-link flex items-center justify-between p-3 rounded-xl bg-[#151310] hover:bg-[#1f1b16] border border-[#2b2721] hover:border-amber-500/40 text-neutral-200 hover:text-amber-300 transition-all font-medium text-sm"
