@@ -3,20 +3,13 @@ import Layout from '../../../layouts/Layout.astro';
 import InstagramEmbed from '../../../components/InstagramEmbed.astro';
 import SpotifyEmbed from '../../../components/SpotifyEmbed.astro';
 import StoryShare from '../../../components/StoryShare.astro';
-import { getAllStories } from '../../../lib/stories';
+import { getAllStories, hasValidInstagramUrl, isPublishedEnglishStory } from '../../../lib/stories';
 import { getCategoryLabelEn } from '../../../lib/categories';
 import { formatChronicleMarkdown } from '../../../lib/markdown';
 
 const { slug } = Astro.params;
 const isPreview = Astro.url.searchParams.get('preview') === 'true' && Astro.locals.isAdmin;
 const allStories = await getAllStories({ includeHidden: true });
-
-function hasValidInstagramReel(s: any): boolean {
-  const url = typeof s?.instagramUrl === 'string' ? s.instagramUrl.trim() : '';
-  const urlEn = typeof s?.instagramUrlEn === 'string' ? s.instagramUrlEn.trim() : '';
-  const validUrl = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
-  return validUrl(urlEn) || validUrl(url);
-}
 
 function formatViewsCount(views?: number): string {
   if (!views || views === 0) return '';
@@ -25,23 +18,23 @@ function formatViewsCount(views?: number): string {
   return views.toLocaleString();
 }
 
-// An extended chronicle is strictly private and hidden until its official Instagram Reel has been released.
-// Non-negotiable rule: Only public display is allowed if it has an official Instagram Reel and is not hidden.
+// An extended English chronicle is strictly private and hidden until its official @secretchords72 Instagram Reel has been released.
+// Non-negotiable rule: Only public display is allowed if it has an official English Instagram Reel and is not hidden in EN.
 // Exception: Authenticated admin accessing in preview mode (?preview=true).
 const story = allStories.find(s => {
   const matches = s.slug === slug || s.slugEn === slug || s.articleSlug === slug;
   if (!matches || !s.contentEn) return false;
   if (isPreview) return true;
-  return hasValidInstagramReel(s) && !s.isHidden;
+  return isPublishedEnglishStory(s);
 });
 
 if (!story || !story.contentEn) {
   return Astro.redirect('/404');
 }
 
-// Related stories in English (must have an official released reel and not be hidden)
+// Related stories in English (must have an official @secretchords72 reel and not be hidden)
 const relatedStories = allStories
-  .filter(s => s.slug !== story.slug && Boolean(s.contentEn) && hasValidInstagramReel(s) && !s.isHidden)
+  .filter(s => s.slug !== story.slug && isPublishedEnglishStory(s))
   .slice(0, 3);
 
 const formattedContent = formatChronicleMarkdown(story.contentEn, story.articleSlug || story.slug);
@@ -245,9 +238,9 @@ const articleSchema = {
               </svg>
             </a>
 
-            {(story.instagramUrlEn || story.instagramUrl) && (
+            {hasValidInstagramUrl(story.instagramUrlEn) && (
               <a
-                href={story.instagramUrlEn || story.instagramUrl}
+                href={story.instagramUrlEn}
                 target="_blank"
                 rel="noopener noreferrer"
                 class="flex-1 sm:flex-initial inline-flex items-center justify-center gap-1.5 px-4 py-2 sm:px-4 sm:py-2.5 rounded-full bg-black/60 hover:bg-black/80 text-white font-medium text-xs sm:text-sm border border-white/20 hover:border-amber-400/50 transition-all backdrop-blur-md active:scale-95"
@@ -272,9 +265,8 @@ const articleSchema = {
         <!-- Video / Documentary Player Card -->
         <div class="bg-[#12110e] rounded-2xl p-4 sm:p-6 border border-[#26231e] shadow-2xl">
           <InstagramEmbed
-            reelUrl={story.instagramUrlEn || story.instagramUrl}
-            videoUrl={story.videoUrlEn || story.videoUrl}
-            tiktokVideoUrl={story.tiktokVideoUrl}
+            reelUrl={story.instagramUrlEn}
+            videoUrl={story.videoUrlEn}
             coverUrl={coverImageEn}
             title={displayTitle}
             artist={story.artist}
@@ -300,14 +292,17 @@ const articleSchema = {
       <!-- Right Column: The Full Chronicle & Archival Content -->
       <section id="chronicle" class="lg:col-span-7 max-w-none">
         
-        {isPreview && !hasValidInstagramReel(story) && (
+        {isPreview && !isPublishedEnglishStory(story) && (
           <div class="mb-8 p-5 rounded-2xl border border-amber-500/50 bg-amber-950/30 text-amber-200 shadow-xl">
             <div class="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider mb-2">
               <span class="w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
-              <span>Administrator Preview Mode</span>
+              <span>Administrator Preview Mode (@secretchords72)</span>
             </div>
             <p class="text-xs sm:text-sm text-neutral-200 leading-relaxed font-sans">
-              This extended chronicle is <strong>strictly hidden from the public and search engines (returns 404)</strong> because it does not yet have an officially published Instagram Reel associated.
+              This English chronicle is <strong>strictly hidden from the public and search engines (returns 404)</strong> because{' '}
+              {story.isHiddenEn
+                ? 'it is manually hidden in the English Admin Panel (/admin/en).'
+                : 'it does not yet have an officially published @secretchords72 Instagram Reel linked in /admin/en.'}
             </p>
           </div>
         )}

@@ -5,7 +5,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const path = context.url.pathname.replace(/\/+$/, '') || '/';
   context.locals.isAdmin = validSession(context.cookies.get(SESSION_COOKIE)?.value, adminConfig());
   const adminPage = path === '/admin' || path.startsWith('/admin/');
-  const preview = path.startsWith('/historias/') && context.url.searchParams.get('preview') === 'true';
+  const preview = (path.startsWith('/historias/') || path.startsWith('/en/stories/')) && context.url.searchParams.get('preview') === 'true';
   const api = protectedApi(path, context.request.method);
   const authApi = path.startsWith('/api/admin/');
   const withHeaders = (response: Response, isPrivate: boolean) => {
@@ -25,7 +25,8 @@ export const onRequest = defineMiddleware(async (context, next) => {
     return new Response(JSON.stringify({ error: 'La sesión expiró. Inicia sesión nuevamente.' }), { status: 401, headers: { ...SECURITY_HEADERS, ...PRIVATE_HEADERS, 'Content-Type': 'application/json' } });
   }
   if ((preview || (adminPage && path !== '/admin/login')) && !context.locals.isAdmin) {
-    return withHeaders(context.redirect('/admin/login', 302), true);
+    const loginTarget = path === '/admin/en' ? '/admin/login?next=/admin/en' : '/admin/login';
+    return withHeaders(context.redirect(loginTarget, 302), true);
   }
   const response = await next();
   return withHeaders(response, Boolean(adminPage || preview || api || authApi));

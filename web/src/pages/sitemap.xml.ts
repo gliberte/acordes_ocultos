@@ -1,10 +1,10 @@
 import type { APIRoute } from 'astro';
-import { getAllStories } from '../lib/stories';
+import { getAllStories, getAllEnglishStories } from '../lib/stories';
 
 export const GET: APIRoute = async () => {
   const siteUrl = 'https://www.acordesocultos.com';
   const stories = await getAllStories({ includeHidden: false });
-  const englishStories = stories.filter(s => Boolean(s.contentEn));
+  const englishStories = await getAllEnglishStories({ includeHidden: false });
 
   // Escape XML characters
   const escapeXml = (unsafe: string) =>
@@ -72,6 +72,24 @@ export const GET: APIRoute = async () => {
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
+  <url>
+    <loc>${siteUrl}/en/privacy</loc>
+    <lastmod>${latestDate}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>${siteUrl}/en/terms</loc>
+    <lastmod>${latestDate}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>${siteUrl}/en/cookies</loc>
+    <lastmod>${latestDate}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 
   <!-- Crónicas y Relatos Individuales (Español) -->
 ${stories
@@ -90,7 +108,7 @@ ${englishStories
   .map(
     (story) => `  <url>
     <loc>${siteUrl}/en/stories/${escapeXml(story.slugEn || story.slug)}</loc>
-    <lastmod>${formatDate(story.publishedAt)}</lastmod>
+    <lastmod>${formatDate(story.igPublishedAtEn || story.publishedAt)}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>`

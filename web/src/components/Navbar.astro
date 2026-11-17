@@ -1,7 +1,7 @@
 ---
 import GlobalSearch from './GlobalSearch.astro';
 import BookLaunchBar from './BookLaunchBar.astro';
-import { getAllStories, getAllEnglishStories } from '../lib/stories';
+import { getAllStories, getAllEnglishStories, isPublishedEnglishStory } from '../lib/stories';
 import type { StoryItem } from '../lib/types';
 import { useTranslations, getLocale } from '../i18n/ui';
 
@@ -20,7 +20,7 @@ const stories = propStories || (isEn ? await getAllEnglishStories() : await getA
 
 // Determine destination URLs for language switcher
 const pathname = Astro.url.pathname;
-const hasEnStory = Boolean(currentStory && currentStory.contentEn);
+const hasEnStory = Boolean(currentStory && isPublishedEnglishStory(currentStory));
 
 let esUrl = '/';
 let enUrl = '/en';

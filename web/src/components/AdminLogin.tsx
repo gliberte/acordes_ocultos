@@ -23,7 +23,9 @@ export default function AdminLogin() {
         setAuthError(data.error || 'No se pudo iniciar sesión.');
         return;
       }
-      window.location.assign('/admin');
+      const nextParam = new URLSearchParams(window.location.search).get('next');
+      const safeNext = nextParam === '/admin/en' || nextParam === '/admin/estudio' ? nextParam : '/admin';
+      window.location.assign(safeNext);
     } catch { setAuthError('No se pudo conectar. Intenta nuevamente.'); }
   };
     return (

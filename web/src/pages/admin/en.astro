@@ -1,0 +1,39 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import AdminPanel from '../../components/AdminPanel';
+import { getAllEnglishStories } from '../../lib/stories';
+import { getCategoryLabelEn } from '../../lib/categories';
+
+if (!Astro.locals.isAdmin) return Astro.redirect('/admin/login');
+
+Astro.response.headers.set('Cache-Control', 'private, no-cache, no-store, must-revalidate');
+
+const stories = await getAllEnglishStories({ includeHidden: true });
+
+const adminStories = stories.map(s => ({
+  id: s.id,
+  slug: s.slug,
+  slugEn: s.slugEn || s.slug,
+  articleSlug: s.articleSlug,
+  title: s.titleEn || s.title,
+  artist: s.artist,
+  coverUrl: s.coverUrlEn || s.coverUrl,
+  categoryLabel: getCategoryLabelEn(s.category),
+  instagramUrl: s.instagramUrlEn || '',
+  publishedAt: s.igPublishedAtEn || s.publishedAt,
+  content: s.contentEn || '',
+  extraImages: s.extraImages || [],
+  isHidden: Boolean(s.isHiddenEn)
+}));
+---
+
+<Layout
+  title="Panel Inglés (@secretchords72) | Secret Chords"
+  description="Gestor editorial de crónicas en inglés y publicación mediante Reels de @secretchords72."
+>
+  <AdminPanel
+    client:only="react"
+    initialStories={adminStories}
+    mode="en"
+  />
+</Layout>

@@ -47,10 +47,12 @@ export interface StoryItem {
   scenes?: Scene[];
   extraImages?: ExtraImage[];
   isHidden?: boolean;
+  isHiddenEn?: boolean;
   views?: number;
   reach?: number;
   igLikes?: number;
   igPublishedAt?: string;
+  igPublishedAtEn?: string;
   isLatestReel?: boolean;
   social?: {
     likes?: number;

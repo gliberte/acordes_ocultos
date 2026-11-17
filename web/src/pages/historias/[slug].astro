@@ -8,7 +8,7 @@ import StoryReactions from '../../components/StoryReactions.astro';
 import StoryShare from '../../components/StoryShare.astro';
 import StoryComments from '../../components/StoryComments.astro';
 import NewsletterBox from '../../components/NewsletterBox.astro';
-import { getAllStories } from '../../lib/stories';
+import { getAllStories, isPublishedEnglishStory } from '../../lib/stories';
 import { formatChronicleMarkdown } from '../../lib/markdown';
 
 const { slug } = Astro.params;
@@ -143,7 +143,7 @@ const articleSchema = {
   tags={story.hashtags}
   jsonLd={articleSchema}
   currentStory={story}
-  alternateEn={story.contentEn ? `/en/stories/${story.slugEn || story.slug}` : undefined}
+  alternateEn={isPublishedEnglishStory(story) ? `/en/stories/${story.slugEn || story.slug}` : undefined}
 >
   <article class="py-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
     
@@ -164,8 +164,8 @@ const articleSchema = {
       </div>
     </nav>
 
-    <!-- Bilingual Reading Banner (When English translation is available) -->
-    {story.contentEn && (
+    <!-- Bilingual Reading Banner (When English translation is officially published with a @secretchords72 Reel) -->
+    {isPublishedEnglishStory(story) && (
       <div class="mb-8 p-3.5 sm:p-4 rounded-xl bg-gradient-to-r from-amber-500/10 via-[#181511] to-amber-950/20 border border-amber-500/30 flex items-center justify-between gap-4 text-xs sm:text-sm shadow-md">
         <div class="flex items-center gap-2.5 min-w-0">
           <span class="text-base select-none">🇺🇸</span>

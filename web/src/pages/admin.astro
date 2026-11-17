@@ -12,6 +12,8 @@ const stories = await getAllStories({ includeHidden: true });
 const adminStories = stories.map(s => ({
   id: s.id,
   slug: s.slug,
+  slugEn: s.slugEn,
+  articleSlug: s.articleSlug,
   title: s.title,
   artist: s.artist,
   coverUrl: s.coverUrl,
@@ -31,5 +33,6 @@ const adminStories = stories.map(s => ({
   <AdminPanel
     client:only="react"
     initialStories={adminStories}
+    mode="es"
   />
 </Layout>

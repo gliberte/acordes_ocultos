@@ -36,7 +36,8 @@ export const POST: APIRoute = async ({ request, cookies }) => {
 
   try {
     const body = await request.json();
-    const { storyId, slug, isHidden } = body || {};
+    const { storyId, slug, slugEn, articleSlug, isHidden, lang } = body || {};
+    const isEn = lang === 'en';
     const nextHidden = Boolean(isHidden);
 
     // 1. Fetch and update R2 catalog (primary live catalog)
@@ -54,15 +55,37 @@ export const POST: APIRoute = async ({ request, cookies }) => {
 
     const cleanSlug = (slug || storyId || '').toLowerCase().replace(/^historia-/, '').replace(/[^a-z0-9]/g, '');
 
-    const catIdx = catalog.findIndex((item: any) => {
-      if (storyId && (item.id === storyId || item.slug === storyId)) return true;
-      const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-      return Boolean(iSlug && cleanSlug && (iSlug === cleanSlug || iSlug.includes(cleanSlug)));
-    });
+    let catIdx = storyId ? catalog.findIndex((item: any) => item.id === storyId) : -1;
+    if (catIdx < 0) {
+      catIdx = catalog.findIndex((item: any) =>
+        (slug && item.slug === slug) ||
+        (articleSlug && item.articleSlug === articleSlug) ||
+        (slugEn && item.slugEn === slugEn)
+      );
+    }
+    if (catIdx < 0) {
+      catIdx = catalog.findIndex((item: any) => {
+        if (storyId && item.slug === storyId) return true;
+        const iSlug = (item.slug || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        return Boolean(iSlug && cleanSlug && (iSlug === cleanSlug || iSlug.includes(cleanSlug)));
+      });
+    }
 
     if (catIdx >= 0) {
-      catalog[catIdx].isHidden = nextHidden;
-      catalog[catIdx].status = nextHidden ? 'hidden' : 'published';
+      if (isEn) {
+        const targetArticleSlug = catalog[catIdx].articleSlug || articleSlug;
+        catalog[catIdx].isHiddenEn = nextHidden;
+        if (targetArticleSlug) {
+          for (let i = 0; i < catalog.length; i++) {
+            if (i !== catIdx && catalog[i].articleSlug === targetArticleSlug) {
+              catalog[i].isHiddenEn = nextHidden;
+            }
+          }
+        }
+      } else {
+        catalog[catIdx].isHidden = nextHidden;
+        catalog[catIdx].status = nextHidden ? 'hidden' : 'published';
+      }
     }
 
     let r2Saved = false;
@@ -97,6 +120,20 @@ export const POST: APIRoute = async ({ request, cookies }) => {
           'content-type': 'application/json'
         };
 
+        const patchSupabaseRow = async (rowId: string, currentPlan: any) => {
+          const patchPayload = isEn
+            ? { production_plan: { ...currentPlan, is_hidden_en: nextHidden } }
+            : {
+                status: nextHidden ? 'hidden' : 'published',
+                production_plan: { ...currentPlan, hidden: nextHidden, is_hidden: nextHidden }
+              };
+          await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${rowId}`, {
+            method: 'PATCH',
+            headers: { ...headers, prefer: 'return=representation' },
+            body: JSON.stringify(patchPayload)
+          });
+        };
+
         const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(storyId || '');
         if (isUuid) {
           const getRes = await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${storyId}&select=id,production_plan`, { headers });
@@ -104,15 +141,7 @@ export const POST: APIRoute = async ({ request, cookies }) => {
             const rows = await getRes.json();
             if (Array.isArray(rows) && rows.length > 0) {
               targetRowId = rows[0].id;
-              const currentPlan = rows[0].production_plan || {};
-              await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${targetRowId}`, {
-                method: 'PATCH',
-                headers: { ...headers, prefer: 'return=representation' },
-                body: JSON.stringify({
-                  status: nextHidden ? 'hidden' : 'published',
-                  production_plan: { ...currentPlan, hidden: nextHidden, is_hidden: nextHidden }
-                })
-              });
+              await patchSupabaseRow(targetRowId, rows[0].production_plan || {});
             }
           }
         }
@@ -128,15 +157,7 @@ export const POST: APIRoute = async ({ request, cookies }) => {
               });
               if (match) {
                 targetRowId = match.id;
-                const currentPlan = match.production_plan || {};
-                await fetch(`${SUPABASE_URL}/rest/v1/published_news?id=eq.${targetRowId}`, {
-                  method: 'PATCH',
-                  headers: { ...headers, prefer: 'return=representation' },
-                  body: JSON.stringify({
-                    status: nextHidden ? 'hidden' : 'published',
-                    production_plan: { ...currentPlan, hidden: nextHidden, is_hidden: nextHidden }
-                  })
-                });
+                await patchSupabaseRow(targetRowId, match.production_plan || {});
               }
             }
           }
@@ -152,16 +173,17 @@ export const POST: APIRoute = async ({ request, cookies }) => {
     return new Response(
       JSON.stringify({
         success: true,
+        lang: isEn ? 'en' : 'es',
         targetRowId: targetRowId || storyId,
         isHidden: nextHidden,
         r2Synced: r2Saved
       }),
-      { status: 200, headers: { 'Content-Type': 'application/json' } }
+      { status: 200, headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' } }
     );
   } catch (err: any) {
     return new Response(
       JSON.stringify({ success: false, error: err?.message || 'Error interno del servidor' }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
+      { status: 500, headers: { ...PRIVATE_HEADERS, 'Content-Type': 'application/json' } }
     );
   }
 };
