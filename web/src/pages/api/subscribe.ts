@@ -130,7 +130,7 @@ export const POST: APIRoute = async ({ request }) => {
         `📧 <b>Correo:</b> <code>${cleanEmail}</code>`,
         `📍 <b>País:</b> ${cleanCountry || 'N/A'}`,
         `🏷️ <b>Origen:</b> ${cleanSource}`,
-        `🎁 <b>Incentivo:</b> Cofradía (Boletín semanal + Muestra de 3 crónicas)`,
+        `🎁 <b>Incentivo:</b> Cofradía (Novedades y actualizaciones + Muestra de 3 crónicas)`,
         `📅 <b>Fecha:</b> ${nowIso}`
       ].join('\n');
 
