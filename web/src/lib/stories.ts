@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'mocedades-tomame-o-dejame-historia-en-los-acordes': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
+  'mocedades-tomame-o-dejame-historia-en-los-acordes-tiktok': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
+  'mocedades-tomame-o-dejame': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
+  'tomame-o-dejame': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
+  'la-mujer-que-enfrento-la-traicion-en-silencio-antes-del-amanecer': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
+  'lamujerqueenfrentolatraicionensilencioantesdelamanecer': 'mocedades-tomame-o-dejame-historia-en-los-acordes',
   'jose-luis-perales-que-canten-los-ninos-acordes-ocultos': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
   'jose-luis-perales-que-canten-los-ninos-acordes-ocultos-tiktok': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
   'jose-luis-perales-que-canten-los-ninos': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
