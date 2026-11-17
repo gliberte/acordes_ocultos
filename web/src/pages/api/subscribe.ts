@@ -86,11 +86,15 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
-    if (privacyPolicyConsent !== true || minorsDeclaration !== 'over_14_years') {
+    const validMinorsDeclaration = isEn
+      ? minorsDeclaration === 'over_16_years'
+      : (minorsDeclaration === 'over_14_years' || minorsDeclaration === 'over_16_years');
+
+    if (privacyPolicyConsent !== true || !validMinorsDeclaration) {
       return new Response(
         JSON.stringify({
           error: isEn
-            ? 'You must accept the Privacy Policy and confirm that you are 14 years or older.'
+            ? 'You must accept the Privacy Policy and confirm that you are 16 years of age or older.'
             : 'Debes aceptar expresamente la Política de Privacidad y declarar que tienes 14 años o más.'
         }),
         {
@@ -100,6 +104,7 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
+    const cleanMinorsDeclaration = isEn ? 'over_16_years' : (minorsDeclaration === 'over_16_years' ? 'over_16_years' : 'over_14_years');
     const cleanSource = String(source || (isEn ? 'web_en' : 'web_story')).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || (isEn ? 'web_en' : 'web_story');
     const cleanVersion = String(consentVersion || '2026-10').replace(/[^a-zA-Z0-9._-]/g, '').slice(0, 32) || '2026-10';
     const cleanPurpose = String(purpose || 'newsletter_editorial').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || 'newsletter_editorial';
@@ -114,7 +119,7 @@ export const POST: APIRoute = async ({ request }) => {
       source: cleanSource,
       country: cleanCountry,
       privacy_policy_consent: true,
-      minors_declaration: 'over_14_years',
+      minors_declaration: cleanMinorsDeclaration,
       consent_version: cleanVersion,
       purpose: cleanPurpose,
       consent_timestamp: nowIso,
@@ -175,7 +180,7 @@ export const POST: APIRoute = async ({ request }) => {
             source: cleanSource,
             ...(cleanCountry ? { country: cleanCountry } : {}),
             privacy_policy_consent: true,
-            minors_declaration: 'over_14_years',
+            minors_declaration: cleanMinorsDeclaration,
             consent_version: cleanVersion,
             purpose: cleanPurpose,
             consent_timestamp: nowIso,

@@ -58,7 +58,7 @@ const { source = 'web_en_home' } = Astro.props;
           for={`newsletter-en-consent-${source}`}
           class="text-[11px] sm:text-xs text-neutral-400 leading-snug cursor-pointer select-none font-sans"
         >
-          I have read and accept the <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a> and confirm that I am <strong>14 years or older</strong>.
+          I have read and accept the <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a> and confirm that I am <strong>16 years of age or older</strong> (or have verifiable parental/guardian consent where permitted by local law).
         </label>
       </div>
     </form>
@@ -67,7 +67,7 @@ const { source = 'web_en_home' } = Astro.props;
 
     <div class="mt-5 pt-3 border-t border-[#221f1a] text-[10px] text-neutral-400 leading-relaxed font-sans text-left">
       <p>
-        <strong class="text-neutral-300">Data protection notice:</strong> Controller: Secret Chords Editorial Desk. Purpose: Delivery of news, archival announcements, and editorial updates. Legal basis: Express consent (GDPR Art. 6.1.a). You may unsubscribe or request deletion at any time. Full details in our <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a>.
+        <strong class="text-neutral-300">Data protection &amp; age notice:</strong> Controller: Secret Chords Editorial Desk. Purpose: Delivery of news, archival announcements, and editorial updates. Eligibility: Intended for individuals aged 16 or older in compliance with US COPPA &amp; CCPA/CPRA, UK GDPR, EU/Irish GDPR Art. 8, Canadian PIPEDA/Law 25, and Australian/NZ privacy standards. Legal basis: Express consent. You may unsubscribe or request deletion at any time. Full details in our <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a>.
       </p>
     </div>
   </div>
@@ -95,7 +95,7 @@ const { source = 'web_en_home' } = Astro.props;
 
         if (!consentInput.checked) {
           feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200 text-left';
-          feedback.textContent = 'Please accept the Privacy Policy and confirm that you are 14 years or older.';
+          feedback.textContent = 'Please accept the Privacy Policy and confirm that you are 16 years of age or older.';
           feedback.classList.remove('hidden');
           return;
         }
@@ -113,7 +113,7 @@ const { source = 'web_en_home' } = Astro.props;
               source,
               lang: 'en',
               privacyPolicyConsent: true,
-              minorsDeclaration: 'over_14_years',
+              minorsDeclaration: 'over_16_years',
               consentVersion: '2026-11',
               purpose: 'newsletter_updates_en'
             })
