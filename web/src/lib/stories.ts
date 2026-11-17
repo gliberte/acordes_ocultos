@@ -705,7 +705,10 @@ export const CHRONICLE_ALIASES: Record<string, string> = {
   'jose-jose-lo-pasado-pasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
   'josejoselopasadopasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
   'lo-pasado-pasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
-  'lopasadopasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda'
+  'lopasadopasado': 'jose-jose-lo-pasado-pasado-catedrales-de-leyenda',
+  'elacordequesostuvoaunpadre': 'eric-clapton-tears-in-heaven-acordes-ocultos',
+  'john-lennon-jealous-guy-acordes-ocultos': 'john-lennon-jealous-guy-acordes-ocultos',
+  'elsecretodejealousguy': 'john-lennon-jealous-guy-acordes-ocultos'
 };
 
 
@@ -1147,7 +1150,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       t.slug_es === item.slug ||
       t.slug_es === item.articleSlug ||
       t.slug_en === item.slug ||
+      (item.slug && item.slug.length >= 8 && t.slug_es && t.slug_es.startsWith(item.slug)) ||
       (item.articleSlug && item.articleSlug.includes(t.slug_es || '____')) ||
+      (item.articleSlug && t.slug_en && t.slug_en.startsWith(item.articleSlug.replace(/-(acordes-ocultos|destellos-de-gloria|forjados-en-el-barro)$/, ''))) ||
       (t.song && item.songTitle && t.song.toLowerCase() === item.songTitle.toLowerCase())
     );
 
