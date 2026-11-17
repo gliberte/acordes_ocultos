@@ -1,0 +1,168 @@
+---
+interface Props {
+  source?: string;
+}
+
+const { source = 'web_en_home' } = Astro.props;
+---
+
+<section
+  id="newsletter"
+  class="mt-16 rounded-3xl border border-amber-500/30 bg-gradient-to-b from-[#14120e] to-[#0a0908] p-8 sm:p-12 max-w-4xl mx-auto shadow-2xl relative overflow-hidden"
+>
+  <div class="absolute -top-24 -left-24 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+  <div class="relative z-10 text-center max-w-xl mx-auto">
+    <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-4 font-sans">
+      <span>📬 NEWS &amp; UPDATES</span>
+    </span>
+
+    <h3 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">
+      Join the Secret Chords Circle
+    </h3>
+
+    <p class="text-xs sm:text-sm text-neutral-300 font-sans leading-relaxed mb-6 font-light">
+      Subscribe for free to receive news and updates from Secret Chords — new archival releases, untold stories, and special editions directly in your inbox.
+    </p>
+
+    <form data-newsletter-en-form data-source={source} class="space-y-3 text-left">
+      <div class="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3">
+        <input
+          type="email"
+          name="email"
+          required
+          placeholder="your.email@example.com"
+          aria-label="Email address"
+          class="flex-1 px-4 py-3 rounded-xl bg-[#181613] border border-[#2e2a24] text-white text-sm placeholder-neutral-500 focus:outline-none focus:border-amber-500 font-sans shadow-inner"
+        />
+        <button
+          type="submit"
+          data-submit-btn
+          class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold text-xs sm:text-sm uppercase tracking-wider transition-all shrink-0 font-sans shadow-lg shadow-amber-950/40 cursor-pointer disabled:opacity-50"
+        >
+          Subscribe Free
+        </button>
+      </div>
+
+      <!-- Mandatory GDPR & Minors Consent -->
+      <div class="flex items-start gap-2.5 pt-1">
+        <input
+          type="checkbox"
+          name="consent"
+          id={`newsletter-en-consent-${source}`}
+          required
+          class="mt-1 w-4 h-4 rounded border-neutral-700 bg-[#0f0e0c] text-amber-500 focus:ring-amber-400 focus:ring-offset-0 focus:outline-none cursor-pointer accent-amber-500 shrink-0"
+        />
+        <label
+          for={`newsletter-en-consent-${source}`}
+          class="text-[11px] sm:text-xs text-neutral-400 leading-snug cursor-pointer select-none font-sans"
+        >
+          I have read and accept the <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a> and confirm that I am <strong>14 years or older</strong>.
+        </label>
+      </div>
+    </form>
+
+    <div data-newsletter-en-feedback class="hidden mt-4 p-4 rounded-xl text-xs font-sans text-left"></div>
+
+    <div class="mt-5 pt-3 border-t border-[#221f1a] text-[10px] text-neutral-400 leading-relaxed font-sans text-left">
+      <p>
+        <strong class="text-neutral-300">Data protection notice:</strong> Controller: Secret Chords Editorial Desk. Purpose: Delivery of news, archival announcements, and editorial updates. Legal basis: Express consent (GDPR Art. 6.1.a). You may unsubscribe or request deletion at any time. Full details in our <a href="/en/privacy" target="_blank" class="text-amber-400 underline hover:text-amber-300">Privacy Policy</a>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<script>
+  (function () {
+    const forms = document.querySelectorAll<HTMLFormElement>('form[data-newsletter-en-form]');
+    forms.forEach((form) => {
+      if (form.dataset.bound === 'true') return;
+      form.dataset.bound = 'true';
+
+      const emailInput = form.querySelector<HTMLInputElement>('input[name="email"]');
+      const consentInput = form.querySelector<HTMLInputElement>('input[name="consent"]');
+      const submitBtn = form.querySelector<HTMLButtonElement>('[data-submit-btn]');
+      const feedback = form.parentElement?.querySelector<HTMLElement>('[data-newsletter-en-feedback]');
+
+      if (!emailInput || !consentInput || !submitBtn || !feedback) return;
+
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const email = emailInput.value.trim();
+        const source = form.dataset.source || 'web_en_home';
+        if (!email) return;
+
+        if (!consentInput.checked) {
+          feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200 text-left';
+          feedback.textContent = 'Please accept the Privacy Policy and confirm that you are 14 years or older.';
+          feedback.classList.remove('hidden');
+          return;
+        }
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Saving...';
+        feedback.classList.add('hidden');
+
+        try {
+          const res = await fetch('/api/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              email,
+              source,
+              lang: 'en',
+              privacyPolicyConsent: true,
+              minorsDeclaration: 'over_14_years',
+              consentVersion: '2026-11',
+              purpose: 'newsletter_updates_en'
+            })
+          });
+
+          const data = await res.json().catch(() => ({}));
+
+          if (res.ok && data.success) {
+            form.classList.add('hidden');
+            feedback.className = 'mt-4 p-5 rounded-xl text-sm font-sans bg-emerald-950/80 border border-emerald-500/50 text-emerald-200 text-left';
+            feedback.innerHTML = `
+              <div class="flex items-start gap-3">
+                <span class="text-2xl">🎉</span>
+                <div class="space-y-3 w-full">
+                  <div>
+                    <h4 class="font-bold text-white mb-1">Welcome to the Secret Chords Circle!</h4>
+                    <p class="text-xs text-emerald-300 leading-relaxed"></p>
+                  </div>
+                  <div class="flex flex-wrap items-center gap-2 pt-1">
+                    <a href="https://instagram.com/secretchords72" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-bold bg-amber-500 text-black hover:bg-amber-400 transition-colors">
+                      <span>Follow @secretchords72 on Instagram →</span>
+                    </a>
+                    <a href="/en#stories" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-semibold bg-[#1c1914] text-amber-300 border border-amber-500/30 hover:bg-amber-500/15 transition-colors">
+                      <span>Explore Chronicles</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            `;
+            const msgEl = feedback.querySelector('p');
+            if (msgEl) {
+              msgEl.textContent = data.message || 'Your email has been registered to receive news and updates from Secret Chords.';
+            }
+            feedback.classList.remove('hidden');
+          } else {
+            feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200 text-left';
+            feedback.textContent = data.error || 'Could not register your email. Please try again.';
+            feedback.classList.remove('hidden');
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Subscribe Free';
+          }
+        } catch {
+          feedback.className = 'mt-4 p-3 rounded-xl text-xs font-sans bg-red-950/80 border border-red-500/40 text-red-200 text-left';
+          feedback.textContent = 'Connection error. Please try again.';
+          feedback.classList.remove('hidden');
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Subscribe Free';
+        }
+      });
+    });
+  })();
+</script>

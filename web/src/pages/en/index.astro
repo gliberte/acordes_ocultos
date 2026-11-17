@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BrandBanner from '../../components/BrandBanner.astro';
+import NewsletterBoxEn from '../../components/NewsletterBoxEn.astro';
 import { getAllEnglishStories } from '../../lib/stories';
 import { getCategoryLabelEn } from '../../lib/categories';
 
@@ -52,9 +53,7 @@ const websiteSchema = {
         'caption': 'Secret Chords'
       },
       'sameAs': [
-        'https://instagram.com/secretchords72',
-        'https://tiktok.com/@acordesocultos',
-        'https://acordesocultos.gumroad.com'
+        'https://instagram.com/secretchords72'
       ]
     }
   ]
@@ -249,43 +248,7 @@ const websiteSchema = {
     </section>
 
     <!-- English Newsletter / Community Section -->
-    <section class="mt-20 rounded-3xl border border-amber-500/30 bg-gradient-to-b from-[#14120e] to-[#0a0908] p-8 sm:p-12 text-center max-w-4xl mx-auto shadow-2xl relative overflow-hidden" id="newsletter">
-      <div class="absolute -top-24 -left-24 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute -bottom-24 -right-24 w-72 h-72 bg-amber-600/10 rounded-full blur-3xl pointer-events-none"></div>
-
-      <div class="relative z-10">
-        <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-4 font-sans">
-          <span>📬 NEWS & UPDATES</span>
-        </span>
-        <h3 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-3">
-          Join the Secret Chords Circle
-        </h3>
-        <p class="text-xs sm:text-sm text-neutral-400 max-w-xl mx-auto font-sans leading-relaxed mb-6 font-light">
-          Subscribe for free to receive news and updates from Secret Chords — new archival releases, untold stories, and special editions directly in your inbox.
-        </p>
-
-        <form 
-          action="https://acordesocultos.substack.com/api/v1/free" 
-          method="post" 
-          target="_blank"
-          class="flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto"
-        >
-          <input
-            type="email"
-            name="email"
-            placeholder="Your email address..."
-            required
-            class="w-full px-4 py-3 rounded-full bg-[#181613] border border-[#2e2a24] text-white text-xs placeholder-neutral-500 focus:outline-none focus:border-amber-500 font-sans"
-          />
-          <button
-            type="submit"
-            class="w-full sm:w-auto px-6 py-3 rounded-full bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-black font-bold text-xs uppercase tracking-wider transition-all shrink-0 font-sans shadow-lg shadow-amber-950/40"
-          >
-            Subscribe Free
-          </button>
-        </form>
-      </div>
-    </section>
+    <NewsletterBoxEn source="web_en_home" />
 
   </main>
 </Layout>

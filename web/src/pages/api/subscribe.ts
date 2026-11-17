@@ -9,6 +9,7 @@ export const prerender = false;
 interface SubscriberRecord {
   id?: string;
   email: string;
+  lang?: 'es' | 'en';
   source: string;
   country?: string | null;
   privacy_policy_consent: boolean;
@@ -30,7 +31,7 @@ export const POST: APIRoute = async ({ request }) => {
   }
 
   if (!allowPublicAction(getClientKey(request, 'subscribe'), 8, 10 * 60_000)) {
-    return new Response(JSON.stringify({ error: 'Demasiados intentos. Por favor espera unos minutos.' }), {
+    return new Response(JSON.stringify({ error: 'Too many attempts / Demasiados intentos. Please wait a few minutes.' }), {
       status: 429,
       headers: { 'Content-Type': 'application/json' }
     });
@@ -39,7 +40,7 @@ export const POST: APIRoute = async ({ request }) => {
   try {
     const rawBody = await request.text();
     if (!rawBody || rawBody.length > 2048) {
-      return new Response(JSON.stringify({ error: 'Solicitud inválida o demasiado extensa' }), {
+      return new Response(JSON.stringify({ error: 'Invalid or oversized request' }), {
         status: 413,
         headers: { 'Content-Type': 'application/json' }
       });
@@ -49,7 +50,7 @@ export const POST: APIRoute = async ({ request }) => {
     try {
       body = JSON.parse(rawBody);
     } catch {
-      return new Response(JSON.stringify({ error: 'Formato JSON inválido' }), {
+      return new Response(JSON.stringify({ error: 'Invalid JSON payload' }), {
         status: 400,
         headers: { 'Content-Type': 'application/json' }
       });
@@ -58,26 +59,25 @@ export const POST: APIRoute = async ({ request }) => {
     const {
       email,
       source = 'web_story',
+      lang,
       privacyPolicyConsent,
       minorsDeclaration,
       consentVersion = '2026-10',
       purpose = 'newsletter_editorial'
     } = body || {};
 
+    const isEn = lang === 'en' || String(source || '').startsWith('web_en');
+    const cleanLang: 'es' | 'en' = isEn ? 'en' : 'es';
+
     const cleanEmail = typeof email === 'string' ? email.trim().toLowerCase() : '';
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!cleanEmail || cleanEmail.length > 254 || !emailRegex.test(cleanEmail)) {
-      return new Response(JSON.stringify({ error: 'Por favor introduce un correo electrónico válido' }), {
-        status: 400,
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }
-
-    if (privacyPolicyConsent !== true || minorsDeclaration !== 'over_14_years') {
       return new Response(
         JSON.stringify({
-          error: 'Debes aceptar expresamente la Política de Privacidad y declarar que tienes 14 años o más.'
+          error: isEn
+            ? 'Please enter a valid email address.'
+            : 'Por favor introduce un correo electrónico válido'
         }),
         {
           status: 400,
@@ -86,7 +86,21 @@ export const POST: APIRoute = async ({ request }) => {
       );
     }
 
-    const cleanSource = String(source || 'web_story').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || 'web_story';
+    if (privacyPolicyConsent !== true || minorsDeclaration !== 'over_14_years') {
+      return new Response(
+        JSON.stringify({
+          error: isEn
+            ? 'You must accept the Privacy Policy and confirm that you are 14 years or older.'
+            : 'Debes aceptar expresamente la Política de Privacidad y declarar que tienes 14 años o más.'
+        }),
+        {
+          status: 400,
+          headers: { 'Content-Type': 'application/json' }
+        }
+      );
+    }
+
+    const cleanSource = String(source || (isEn ? 'web_en' : 'web_story')).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || (isEn ? 'web_en' : 'web_story');
     const cleanVersion = String(consentVersion || '2026-10').replace(/[^a-zA-Z0-9._-]/g, '').slice(0, 32) || '2026-10';
     const cleanPurpose = String(purpose || 'newsletter_editorial').replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 64) || 'newsletter_editorial';
 
@@ -96,6 +110,7 @@ export const POST: APIRoute = async ({ request }) => {
 
     const newSubscriber: SubscriberRecord = {
       email: cleanEmail,
+      lang: cleanLang,
       source: cleanSource,
       country: cleanCountry,
       privacy_policy_consent: true,
@@ -125,12 +140,17 @@ export const POST: APIRoute = async ({ request }) => {
     const telegramChatId = process.env.TELEGRAM_CHAT_ID;
     if (telegramToken && telegramChatId) {
       const tgText = [
-        '📬 <b>¡Nuevo suscriptor en Acordes Ocultos!</b>',
+        isEn
+          ? '📬 <b>🇺🇸 ¡Nuevo suscriptor en Secret Chords (EN)!</b>'
+          : '📬 <b>🇪🇸 ¡Nuevo suscriptor en Acordes Ocultos (ES)!</b>',
         '',
         `📧 <b>Correo:</b> <code>${cleanEmail}</code>`,
+        `🌐 <b>Idioma:</b> ${cleanLang.toUpperCase()}`,
         `📍 <b>País:</b> ${cleanCountry || 'N/A'}`,
         `🏷️ <b>Origen:</b> ${cleanSource}`,
-        `🎁 <b>Incentivo:</b> Cofradía (Novedades y actualizaciones + Muestra de 3 crónicas)`,
+        isEn
+          ? `🎁 <b>Lista:</b> Secret Chords Circle (News & updates)`
+          : `🎁 <b>Incentivo:</b> Cofradía (Novedades y actualizaciones + Muestra de 3 crónicas)`,
         `📅 <b>Fecha:</b> ${nowIso}`
       ].join('\n');
 
@@ -169,24 +189,33 @@ export const POST: APIRoute = async ({ request }) => {
       console.warn('[Subscribe] Aviso: Falló espejo en Supabase (no crítico):', supaErr.message);
     }
 
+    const responsePayload = isEn
+      ? {
+          success: true,
+          lang: 'en',
+          message: 'You are in! Your email has been registered in the Secret Chords Circle to receive news and updates.'
+        }
+      : {
+          success: true,
+          lang: 'es',
+          message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Ya puedes descargar de inmediato tu muestra exclusiva con 3 crónicas completas del libro:',
+          downloadUrl: '/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
+          downloadCdnUrl: 'https://pub-66bcff63b213457b8f7b3c02bb87d06c.r2.dev/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
+          downloadLabel: 'Descargar Muestra Gratuita (PDF · 3 Historias)',
+          bookUrl: '/libro',
+          gumroadUrl: 'https://acordesocultos.gumroad.com/l/ryhupd',
+          bookTitle: 'Acordes Ocultos — Volumen 01'
+        };
+
     return new Response(
-      JSON.stringify({
-        success: true,
-        message: 'Tu correo ha quedado registrado en la Cofradía de Acordes Ocultos. Ya puedes descargar de inmediato tu muestra exclusiva con 3 crónicas completas del libro:',
-        downloadUrl: '/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
-        downloadCdnUrl: 'https://pub-66bcff63b213457b8f7b3c02bb87d06c.r2.dev/book/Acordes_Ocultos_Volumen_I_Muestra.pdf',
-        downloadLabel: 'Descargar Muestra Gratuita (PDF · 3 Historias)',
-        bookUrl: '/libro',
-        gumroadUrl: 'https://acordesocultos.gumroad.com/l/ryhupd',
-        bookTitle: 'Acordes Ocultos — Volumen 01'
-      }),
+      JSON.stringify(responsePayload),
       {
         status: 200,
         headers: { 'Content-Type': 'application/json' }
       }
     );
   } catch (err: any) {
-    return new Response(JSON.stringify({ error: 'Error interno al procesar la suscripción' }), {
+    return new Response(JSON.stringify({ error: 'Internal error processing subscription / Error interno al procesar la suscripción' }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
     });

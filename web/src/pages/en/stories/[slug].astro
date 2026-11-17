@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import InstagramEmbed from '../../../components/InstagramEmbed.astro';
 import SpotifyEmbed from '../../../components/SpotifyEmbed.astro';
 import StoryShare from '../../../components/StoryShare.astro';
+import NewsletterBoxEn from '../../../components/NewsletterBoxEn.astro';
 import { getAllStories, hasValidInstagramUrl, isPublishedEnglishStory } from '../../../lib/stories';
 import { getCategoryLabelEn } from '../../../lib/categories';
 import { formatChronicleMarkdown } from '../../../lib/markdown';
@@ -311,6 +312,9 @@ const articleSchema = {
         <div class="prose prose-invert prose-amber max-w-none">
           <div set:html={formattedContent} />
         </div>
+
+        <!-- English Newsletter Signup -->
+        <NewsletterBoxEn source="web_en_story" />
 
         <!-- Back to Chronicles Button -->
         <div class="mt-12 pt-6 border-t border-[#26231e] flex items-center justify-between">
