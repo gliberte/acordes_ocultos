@@ -1177,21 +1177,23 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
       if (trackerMatch.hook_en) item.hookEn = trackerMatch.hook_en;
       if (trackerMatch.slug_en) item.slugEn = trackerMatch.slug_en;
       if (trackerMatch.r2_video_url) item.videoUrlEn = trackerMatch.r2_video_url;
-      if (trackerMatch.instagram_shortcode_en) {
+      // R2 catalog is the live runtime source of truth (can set or explicitly clear to null).
+      // Only fall back to static tracker when R2 has never initialized the field (undefined).
+      if (item.instagramUrlEn === undefined && trackerMatch.instagram_shortcode_en) {
         item.instagramUrlEn = `https://www.instagram.com/reel/${trackerMatch.instagram_shortcode_en}/`;
+      }
+      if (item.igPublishedAtEn === undefined && trackerMatch.published_date_en) {
+        item.igPublishedAtEn = trackerMatch.published_date_en;
       }
     }
   }
 
   // Filter out hidden stories unless explicitly requested (e.g. from admin panel).
-  // Public catalog strictly requires an associated Instagram Reel (zero spoilers, only officially released content)
+  // Public Spanish catalog strictly requires an associated Spanish Instagram Reel (zero spoilers, only officially released content)
   if (!options.includeHidden) {
     items = items.filter(item => {
       if (item.isHidden) return false;
-      const url = typeof item.instagramUrl === 'string' ? item.instagramUrl.trim() : '';
-      const urlEn = typeof item.instagramUrlEn === 'string' ? item.instagramUrlEn.trim() : '';
-      const isValid = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
-      return isValid(url) || isValid(urlEn);
+      return hasValidInstagramUrl(item.instagramUrl);
     });
   }
 
@@ -1210,7 +1212,7 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   });
 
   // Deduplication safety pass to guarantee no repeated stories or chronicles in web views
-  // Always prefer visible (non-hidden) entries over hidden duplicates (e.g. TikTok cuts)
+  // Always prefer visible (non-hidden) entries and entries with valid reels over hidden duplicates (e.g. TikTok cuts)
   const seenMap = new Map<string, number>();
   const uniqueItems: StoryItem[] = [];
   for (const it of items) {
@@ -1219,8 +1221,19 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     if (existingIdx === undefined) {
       seenMap.set(canonicalKey, uniqueItems.length);
       uniqueItems.push(it);
-    } else if (uniqueItems[existingIdx].isHidden && !it.isHidden) {
-      uniqueItems[existingIdx] = it;
+    } else {
+      const existing = uniqueItems[existingIdx];
+      const existingScore =
+        (existing.isHidden ? 0 : 2) +
+        (hasValidInstagramUrl(existing.instagramUrl) ? 1 : 0) +
+        (hasValidInstagramUrl(existing.instagramUrlEn) ? 1 : 0);
+      const currentScore =
+        (it.isHidden ? 0 : 2) +
+        (hasValidInstagramUrl(it.instagramUrl) ? 1 : 0) +
+        (hasValidInstagramUrl(it.instagramUrlEn) ? 1 : 0);
+      if (currentScore > existingScore) {
+        uniqueItems[existingIdx] = it;
+      }
     }
   }
   items = uniqueItems;
@@ -1268,9 +1281,59 @@ export async function getStoryBySlug(slug: string, options: { includeHidden?: bo
   ) || null;
 }
 
+export function hasValidInstagramUrl(url?: string | null): boolean {
+  if (typeof url !== 'string') return false;
+  const u = url.trim();
+  return u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
+}
+
+export function normalizeInstagramReelInput(raw?: string | null): string {
+  if (!raw || typeof raw !== 'string') return '';
+  const trimmed = raw.trim();
+  if (!trimmed) return '';
+
+  // 1. Bare Reel ID / shortcode (e.g. "DfXItzBxR_0" or "De4CFXVRvBm")
+  if (/^[a-zA-Z0-9_-]{6,32}$/.test(trimmed)) {
+    return `https://www.instagram.com/reel/${trimmed}/`;
+  }
+
+  // 2. Partial path like "reel/DfXItzBxR_0" or "/p/DfXItzBxR_0/"
+  const partialMatch = trimmed.match(/^\/?(reel|reels|p)\/([a-zA-Z0-9_-]{6,32})/i);
+  if (partialMatch) {
+    const kind = partialMatch[1].toLowerCase() === 'p' ? 'p' : 'reel';
+    return `https://www.instagram.com/${kind}/${partialMatch[2]}/`;
+  }
+
+  // 3. Full or domain-only Instagram URL (including optional username prefix like /secretchords72/reel/ID)
+  const withProto = /^https?:\/\//i.test(trimmed) ? trimmed : `https://${trimmed}`;
+  const urlMatch = withProto.match(/^https?:\/\/(?:www\.|m\.)?instagram\.com\/(?:[a-zA-Z0-9_.]+\/)?(reel|reels|p)\/([a-zA-Z0-9_-]{6,32})/i);
+  if (urlMatch) {
+    const kind = urlMatch[1].toLowerCase() === 'p' ? 'p' : 'reel';
+    return `https://www.instagram.com/${kind}/${urlMatch[2]}/`;
+  }
+
+  return '';
+}
+
+export function isPublishedEnglishStory(s?: StoryItem | null): boolean {
+  return Boolean(s && s.contentEn && hasValidInstagramUrl(s.instagramUrlEn) && !s.isHiddenEn);
+}
+
 export async function getAllEnglishStories(options: { includeHidden?: boolean } = {}): Promise<StoryItem[]> {
-  const all = await getAllStories(options);
-  return all.filter(s => Boolean(s.contentEn));
+  const all = await getAllStories({ includeHidden: true });
+  let english = all.filter(s => Boolean(s.contentEn));
+  if (!options.includeHidden) {
+    english = english.filter(s => isPublishedEnglishStory(s));
+  }
+  english.sort((a, b) => {
+    const timeA = new Date(a.igPublishedAtEn || a.igPublishedAt || a.publishedAt || 0).getTime() || 0;
+    const timeB = new Date(b.igPublishedAtEn || b.igPublishedAt || b.publishedAt || 0).getTime() || 0;
+    if (timeB !== timeA) return timeB - timeA;
+    const viewsA = typeof a.views === 'number' ? a.views : 0;
+    const viewsB = typeof b.views === 'number' ? b.views : 0;
+    return viewsB - viewsA;
+  });
+  return english;
 }
 
 export async function getFeaturedStory(): Promise<StoryItem | null> {
