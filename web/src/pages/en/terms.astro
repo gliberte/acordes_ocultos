@@ -1,0 +1,105 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const pageTitle = "Legal Notice & Terms of Use | Secret Chords";
+const pageDescription = "Legal notice, terms of use, intellectual property guidelines, and documentary fair use principles for Secret Chords.";
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  lang="en"
+  alternateEs="/aviso-legal"
+  alternateEn="/en/terms"
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-neutral-300 font-sans">
+    
+    <!-- Header -->
+    <div class="border-b border-[#26221c] pb-8 mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold tracking-widest uppercase mb-4">
+        <span>Legal Information & Editorial Standards</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-4">
+        Legal Notice & Terms of Use
+      </h1>
+      <p class="text-neutral-400 text-sm sm:text-base font-serif italic">
+        General legal disclosures and access guidelines for Secret Chords (acordesocultos.com/en).
+      </p>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="space-y-10 text-sm sm:text-base leading-relaxed text-neutral-300">
+
+      <!-- 1. Publisher Identification -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">1.</span> Service Provider Identification
+        </h2>
+        <ul class="space-y-2 text-sm bg-[#181511] p-4 rounded-xl border border-[#2b261f]">
+          <li><strong>Editorial Project:</strong> Secret Chords (English Edition of Acordes Ocultos)</li>
+          <li><strong>Publisher:</strong> Secret Chords Editorial Desk</li>
+          <li><strong>Official Archive:</strong> <a href="https://www.acordesocultos.com/en" class="text-amber-400 hover:underline">https://www.acordesocultos.com/en</a></li>
+          <li><strong>Official Channels:</strong> <a href="https://www.instagram.com/secretchords72/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">Instagram (@secretchords72)</a>, TikTok (@acordesocultos), and Gumroad (acordesocultos.gumroad.com).</li>
+        </ul>
+      </section>
+
+      <!-- 2. Editorial Mission -->
+      <section class="space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-2 flex items-center gap-2">
+          <span class="text-amber-400">2.</span> Purpose of the Platform
+        </h2>
+        <p>
+          <strong>Secret Chords</strong> is an independent cultural publication, musicological archive, and narrative journalism project dedicated to documenting the true human stories, studio breakthroughs, and historical contexts behind landmark recordings in popular music.
+        </p>
+      </section>
+
+      <!-- 3. Intellectual Property & Fair Use -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8 space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-2 flex items-center gap-2">
+          <span class="text-amber-400">3.</span> Intellectual Property, Copyright & Documentary Fair Use
+        </h2>
+        <div class="space-y-3 text-sm">
+          <p>
+            • <strong>Original Editorial Works:</strong> All extended chronicles, literary essays, editorial layouts, data compilations, branding, and site source code are the exclusive property of <em>Secret Chords / Acordes Ocultos</em> or their respective authors and are protected under international copyright law. Commercial reproduction or redistribution without prior written authorization is prohibited.
+          </p>
+          <p>
+            • <strong>Fair Use & Right of Quotation:</strong> Brief lyric excerpts, historical quotes from interviews and biographies, and documentary references are included strictly for cultural commentary, criticism, historical scholarship, and archival journalism in accordance with international quotation rights and Fair Use principles.
+          </p>
+          <p>
+            • <strong>Third-Party Trademarks:</strong> All artist names, band names, record labels, and song titles belong to their respective legal owners and are referenced solely for historical identification and attribution.
+          </p>
+        </div>
+      </section>
+
+      <!-- 4. Editorial Content Advisory -->
+      <section class="bg-gradient-to-br from-[#1a140e] to-[#12100d] border border-amber-500/30 rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">4.</span> Editorial Advisory & Protection of Minors
+        </h2>
+        <p class="text-sm mb-3">
+          <em>Secret Chords</em> chronicles true biographical and historical events from music history. At times, essays address real-world themes such as bereavement, accidents, political censorship, or personal struggles tied to classic rock and soul history.
+        </p>
+        <p class="text-sm text-neutral-300">
+          While every story is written with historical rigor and human sensitivity, <strong>parental guidance is recommended for readers under fourteen (14) years of age</strong>.
+        </p>
+      </section>
+
+      <!-- 5. Disclaimer & External Links -->
+      <section class="space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-2 flex items-center gap-2">
+          <span class="text-amber-400">5.</span> Limitation of Liability & External Links
+        </h2>
+        <p class="text-sm">
+          While we maintain strict historical verification standards across all chronicles, Secret Chords assumes no liability for temporary service interruptions or external third-party platforms linked from our articles (such as Instagram, Spotify, Substack, or Gumroad), each of which operates under its own terms and privacy policies.
+        </p>
+      </section>
+
+      <div class="pt-4">
+        <a href="/en" class="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors">
+          ← Back to Secret Chords Archive
+        </a>
+      </div>
+
+    </div>
+  </div>
+</Layout>

@@ -17,7 +17,7 @@ slug: "pink-floyd-another-brick-in-the-wall-part-2"
 
 ---
 
-![Official Cover - Another Brick in the Wall (Part 2)](images/cover.png)
+![Official Cover - Another Brick in the Wall (Part 2)](images/cover_eng.webp)
 *Britannia Row Studios, London, 1979: The unusual sonic conspiracy where a danceable rhythmic pulse, a 1955 Gibson Les Paul, and a choir of schoolchildren without official permission gave birth to Pink Floyd's only number-one hit.*
 
 ---

@@ -30,6 +30,7 @@ export interface StoryItem {
   summaryEn?: string;
   slugEn?: string;
   coverUrl: string;
+  coverUrlEn?: string;
   heroImageUrl?: string;
   teaserUrl?: string;
   promoPosterUrl?: string;

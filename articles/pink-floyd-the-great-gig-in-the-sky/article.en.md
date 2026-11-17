@@ -9,7 +9,7 @@ articleSlug: "pink-floyd-the-great-gig-in-the-sky"
 publishedAt: "2026-10-01"
 author: "Secret Chords"
 summary: "How a 25-year-old session singer collected a Sunday union rate of thirty pounds at Abbey Road, feared she had ruined the session, and ended up recording the most breathtaking vocal improvisation in rock history on 'The Great Gig in the Sky'."
-coverImage: "images/cover_acordes_ocultos.webp"
+coverImage: "images/clare_torry_microfono_cabina.webp"
 ---
 
 # 🎹 The Thirty-Pound Lament: The Afternoon a Wordless Voice Defied Death
@@ -32,7 +32,7 @@ Over the weekend of **January 20 and 21, 1973**, music weighed heavily on **Clar
 
 So when her home phone rang that Saturday with an urgent invitation to a session at the mythical **Abbey Road** studios, her response was immediate and categorical: she couldn't go. She had plans. Classic rock by Chuck Berry in the flesh came first.
 
-![Official Cover - The Great Gig in the Sky](images/cover_acordes_ocultos.webp)
+![Clare Torry recording at Abbey Road Studio 3](images/clare_torry_microfono_cabina.webp)
 *Abbey Road Studios, London, 1973: The session where a 25-year-old singer transformed a piano chord progression into contemporary music's most harrowing vocal elegy.*
 
 On the other end of the line was Dennis, EMI’s booking and payments manager at Abbey Road. Following the enthusiastic recommendation of a young, intuitive sound engineer named **Alan Parsons**—who had been struck by Clare’s power and vocal timbre during previous pop sessions—Dennis insisted. The band recording there wasn't just any commercial orchestra; it was **Pink Floyd**, Britain's most avant-garde progressive rock quartet. They were putting the finishing touches on an ambitious conceptual masterwork and desperately needed a female voice for a piece they simply couldn't nail down.

@@ -1,0 +1,156 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const pageTitle = "Cookie Policy | Secret Chords";
+const pageDescription = "Detailed information about essential technical cookies, privacy-friendly analytics, and third-party media embeds on Secret Chords.";
+---
+
+<Layout
+  title={pageTitle}
+  description={pageDescription}
+  lang="en"
+  alternateEs="/cookies"
+  alternateEn="/en/cookies"
+>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-20 text-neutral-300 font-sans">
+    
+    <!-- Header -->
+    <div class="border-b border-[#26221c] pb-8 mb-12">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-amber-300 text-xs font-semibold tracking-widest uppercase mb-4">
+        <span>Digital Transparency & Consent</span>
+      </div>
+      <h1 class="text-3xl sm:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-4">
+        Cookie Policy
+      </h1>
+      <p class="text-neutral-400 text-sm sm:text-base font-serif italic">
+        Learn which cookies and storage technologies we use, why we use them, and how to manage or withdraw your consent at any time.
+      </p>
+    </div>
+
+    <!-- Content Sections -->
+    <div class="space-y-10 text-sm sm:text-base leading-relaxed text-neutral-300">
+
+      <!-- 1. Overview -->
+      <section class="bg-[#12100d] border border-[#26221c] rounded-2xl p-6 sm:p-8">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">1.</span> What Are Cookies & Similar Technologies?
+        </h2>
+        <p class="mb-3">
+          A <em>cookie</em> is a small text file stored in your browser when you visit a website. Cookies and related browser storage (such as <code>localStorage</code>) allow the site to remember your consent preferences and maintain core technical functionality.
+        </p>
+        <p class="text-neutral-400 text-xs sm:text-sm">
+          At <strong>Secret Chords</strong>, we follow a <strong>privacy-first, minimal-intrusion policy</strong>: we avoid invasive cross-site advertising trackers and prioritize cookieless performance measurement.
+        </p>
+      </section>
+
+      <!-- 2. Categories -->
+      <section class="space-y-4">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-4 flex items-center gap-2">
+          <span class="text-amber-400">2.</span> Types of Cookies Used
+        </h2>
+
+        <div class="space-y-4">
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h3 class="text-amber-400 font-bold text-base">A. Strictly Necessary Technical Storage</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/30 font-mono font-semibold">Always active</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300 mb-3">
+              Required for basic site operation and remembering your cookie consent choice (`acordes_cookies_consent` stored locally for 12 months). Contains no advertising identifiers.
+            </p>
+          </div>
+
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h3 class="text-amber-400 font-bold text-base">B. Privacy-Friendly Analytics (Vercel)</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/30 font-mono font-semibold">Cookieless</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300">
+              We use <strong>Vercel Web Analytics & Speed Insights</strong> to measure aggregated page views and loading speed without setting tracking cookies or following users across domains.
+            </p>
+          </div>
+
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h3 class="text-amber-400 font-bold text-base">C. Optional Analytics Cookies (Google Analytics)</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30 font-mono font-semibold">Consent required</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300">
+              Helps measure readership trends across chronicles. <strong>Disabled by default</strong> and loaded only if you explicitly choose "Accept all" in our cookie consent banner.
+            </p>
+          </div>
+
+          <div class="bg-[#12100d] border border-[#26221c] p-6 rounded-xl">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+              <h3 class="text-amber-400 font-bold text-base">D. Embedded Third-Party Media Players</h3>
+              <span class="text-[10px] uppercase tracking-wider px-2.5 py-0.5 rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/30 font-mono font-semibold">Spotify / Instagram</span>
+            </div>
+            <p class="text-xs sm:text-sm text-neutral-300">
+              Chronicles feature official embedded players from <strong>Spotify</strong> and click-to-load embeds from <strong>Instagram</strong>. When you activate these players, those platforms may set their own cookies in accordance with their policies:
+            </p>
+            <ul class="text-xs text-neutral-400 space-y-1 mt-2">
+              <li>• <a href="https://www.spotify.com/legal/cookies-policy/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">Spotify Cookie Policy</a></li>
+              <li>• <a href="https://privacycenter.instagram.com/policies/cookies/" target="_blank" rel="noopener noreferrer" class="text-amber-400 hover:underline">Instagram / Meta Cookie Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. Manage Consent -->
+      <section class="bg-gradient-to-br from-[#1a140e] to-[#12100d] border border-amber-500/30 rounded-2xl p-6 sm:p-8 shadow-xl">
+        <h2 class="text-xl sm:text-2xl font-serif font-bold text-white mb-3 flex items-center gap-2">
+          <span class="text-amber-400">3.</span> Manage or Withdraw Your Consent
+        </h2>
+        <p class="text-sm text-neutral-300 mb-6 leading-relaxed">
+          You can update your cookie preferences or withdraw consent for optional analytics at any time:
+        </p>
+        
+        <div class="flex flex-col sm:flex-row items-center gap-4">
+          <button
+            type="button"
+            id="reset-cookies-btn-en"
+            class="w-full sm:w-auto px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-black font-bold text-xs uppercase tracking-wider hover:from-amber-400 hover:to-amber-500 transition-all shadow-md shadow-amber-950/40 cursor-pointer"
+          >
+            ⚙️ Open Cookie Preferences
+          </button>
+          <span id="cookies-status-msg-en" class="text-xs text-neutral-400 font-mono"></span>
+        </div>
+      </section>
+
+      <div class="pt-4">
+        <a href="/en" class="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 transition-colors">
+          ← Back to Secret Chords Archive
+        </a>
+      </div>
+
+    </div>
+  </div>
+</Layout>
+
+<script>
+  (function() {
+    const btn = document.getElementById('reset-cookies-btn-en');
+    const msg = document.getElementById('cookies-status-msg-en');
+
+    function updateStatus() {
+      if (!msg) return;
+      const choice = localStorage.getItem('acordes_cookies_consent');
+      if (choice === 'accepted') {
+        msg.textContent = 'Current status: All cookies accepted';
+      } else if (choice === 'rejected') {
+        msg.textContent = 'Current status: Essential cookies only';
+      } else {
+        msg.textContent = 'Current status: No preference saved yet';
+      }
+    }
+
+    updateStatus();
+    window.addEventListener('acordes_consent_updated', updateStatus);
+
+    if (btn) {
+      btn.addEventListener('click', () => {
+        window.dispatchEvent(new CustomEvent('acordes_reopen_cookie_banner'));
+      });
+    }
+  })();
+</script>

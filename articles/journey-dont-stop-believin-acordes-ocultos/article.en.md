@@ -12,7 +12,7 @@ slug: "the-true-story-behind-dont-stop-believin-journey"
 
 # The Four Words from a Father That Immortalized Journey: The True Story Behind «Don't Stop Believin'»
 
-![Portada Don't Stop Believin'](images/cover_bg.png)
+![Official Cover — Don't Stop Believin'](images/cover_bg.png)
 
 > *«Strangers waiting, up and down the boulevard, their shadows searching in the night... Streetlights, people, living just to find emotion. Don't stop believing, hold on to that feelin'.»*
 > — **Journey** (Steve Perry, Jonathan Cain, Neal Schon), *«Don't Stop Believin'»* (1981).
@@ -25,13 +25,13 @@ In the late 1970s, long before they sold out stadiums across the globe, **Jonath
 
 He lived in a tiny apartment near Sunset Boulevard, buried under past-due notices and with barely enough spare change for a meal. The breaking point arrived the day his dog, a small terrier named *Toto* who served as his sole companion in that unforgiving city, was struck by an automobile. At the veterinary clinic, he was told the surgery would cost nine hundred dollars—an impossible sum for his empty pockets.
 
-![Jonathan Cain sin dinero en Los Ángeles a finales de los 70](images/scene-01.png)
+![Jonathan Cain struggling in Los Angeles in the late 1970s](images/scene-01.png)
 
 Crushed by powerlessness, Jonathan picked up the receiver and called his father, **Leonard Cain**, back in Chicago. With a voice broken by tears, he confessed his defeat:
 
 > *«Dad, I think this dream is over. I don't even have the money to save my dog. Should I pack up my things, come back to Chicago, and find a normal job?»*.
 
-![La llamada telefónica desesperada a su padre en Chicago](images/scene-02.png)
+![The desperate phone call to his father in Chicago](images/scene-02.png)
 
 On the other end of the line, his father—a man of unshakable faith who had kept his family anchored after the 1958 school tragedy—immediately wired the money to save the animal's life, answering with a firmness wrapped in profound tenderness:
 
@@ -39,7 +39,7 @@ On the other end of the line, his father—a man of unshakable faith who had kep
 
 When he hung up the phone, Jonathan picked up a pen, opened the worn spiral notebook where he kept stray ideas, and wrote those exact words from his father across the top of a blank page: ***Don't stop believin'***.
 
-![Las palabras escritas en el viejo cuaderno de espiral](images/scene-03.png)
+![The words written in the worn spiral notebook](images/scene-03.png)
 
 ---
 
@@ -49,13 +49,13 @@ In 1980, Jonathan Cain’s destiny took an unexpected turn. During a tour where 
 
 A few months earlier, during the grueling summer 1980 tour for the album *Departure*, Journey had stayed at the Pontchartrain Hotel in **Detroit, Michigan**. That night, riding the residual adrenaline of the concert, **Steve Perry** found sleep completely out of reach. The only child of Portuguese immigrants from the Azores, raised on a dairy farm in Hanford in California’s Central Valley, Perry knew intimately the heavy ache of nostalgia and displacement.
 
-![Steve Perry mirando desde la ventana del hotel en Detroit](images/scene-04.png)
+![Steve Perry looking out the Detroit hotel window](images/scene-04.png)
 
 In the darkness of his room, the singer got out of bed and walked over to the large window overlooking the avenues of Detroit and the riverbanks facing Windsor, Canada (what his California mind poetically dubbed *«South Detroit»*). As he would recount years later in interviews with *Rolling Stone* and *Classic Rock*:
 
 > *«I was completely wide awake in my Detroit hotel room, staring out the window at one or two in the morning. Everything was pitch black except for the amber glow of the streetlights. Suddenly, I’d see human figures stepping out of the shadows, crossing through the circle of light under a streetlight, and then vanishing right back into the night. I thought: Where is all this humanity going at this hour? What are they searching for out there in the dark?»*.
 
-![Los extraños bajo las farolas en la noche de Detroit](images/scene-05.png)
+![Strangers beneath the streetlights in Detroit at night](images/scene-05.png)
 
 From that silent nocturnal vigil, Perry’s mind birthed the lines *«Strangers waitin', up and down the boulevard, their shadows searchin' in the night / Streetlights, people...»* and the image of two lonely characters—a small-town girl and a city boy—catching «a midnight train going anywhere» in the hope of starting anew.
 
@@ -69,7 +69,7 @@ While Steve Perry sang him the melody of those strangers moving under the Detroi
 
 That was when Jonathan Cain opened up his Yamaha CP-80 electric piano music stand and laid out that same old spiral notebook he had carried with him from his destitute days on Sunset Boulevard. He flipped past the dog-eared pages until he found the entry he had scribbled after talking to his father, and said to Perry and Schon: *«What do you think about calling it "Don't Stop Believin'"?»*.
 
-![Jonathan Cain mostrando el cuaderno a Steve Perry y Neal Schon](images/scene-06.png)
+![Jonathan Cain showing the notebook to Steve Perry and Neal Schon](images/scene-06.png)
 
 Hearing the backstory behind those words sent a shiver through Steve Perry. During that exact period in 1981, the singer's mother, **Mary Quaresma Perry**—the woman who had raised him and taught him to love music as a boy—was battling the failing health that would cast a shadow over Perry’s most painful private years. That paternal advice to never surrender resonated in the souls of all three musicians like a sacred vow.
 
@@ -81,13 +81,13 @@ In the spring of 1981, the band entered **Studio C at Fantasy Studios** in Berke
 
 From the very first tracking session, Steve Perry and Jonathan Cain made a structural decision that defied every commercial rule of contemporary radio: **they forbade the chorus and the title of the song from appearing anywhere in the first three minutes**.
 
-![En la sala de control de Fantasy Studios en Berkeley](images/scene-07.png)
+![Inside the control room at Fantasy Studios in Berkeley](images/scene-07.png)
 
 In a market where record executives demanded a hook before the fifty-second mark, *«Don't Stop Believin'»* pushes forward for three minutes and eight seconds through verses, bridges, and guitar interludes without uttering its title even once. The human reasoning behind Perry's choice was indisputable: in real life, faith does not arrive at the start of the road; a person must first weather the loneliness, fear, and uncertainty of the night before the light finally breaks through.
 
 When the time came to lay down the definitive vocal track, Steve Perry stepped up to the Neumann microphone inside the wooden tracking room at Fantasy Studios and **sang the lead vocals almost from start to finish in a single continuous take**, hitting those soaring, passionate high notes in the final stretch that seemed to embrace every listener who had ever come close to giving up.
 
-![Steve Perry grabando la voz en una sola toma](images/scene-08.png)
+![Steve Perry recording the vocal track in a single take](images/scene-08.png)
 
 ---
 
@@ -97,7 +97,7 @@ Released in October 1981 as the second single from *Escape* (an album that sold 
 
 In June 2007, when creator David Chase chose it to score the legendary final scene of the television landmark ***The Sopranos***, an entire new generation discovered the magic of those opening piano chords. Two years later, its cover in the pilot episode of ***Glee*** (2009) thrust it back onto global charts. With the advent of the digital era, it became the most-downloaded 20th-century track in history, earning an **18× Platinum** certification from the RIAA in 2024, and hailed by *Forbes* magazine as «the greatest song of all time» in terms of commercial impact and cultural resonance.
 
-![El tren de medianoche alejándose bajo las farolas](images/scene-09.png)
+![The midnight train departing beneath the streetlights](images/scene-09.png)
 
 Yet far above the sold-out stadiums, films, and historic chart records, the true miracle of *«Don't Stop Believin'»* still resides back in that tiny Los Angeles apartment in the late seventies: in the voice of a father who refused to let his son abandon his calling, gifting the world four words capable of striking a match in the deepest night.
 

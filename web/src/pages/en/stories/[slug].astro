@@ -4,6 +4,7 @@ import InstagramEmbed from '../../../components/InstagramEmbed.astro';
 import SpotifyEmbed from '../../../components/SpotifyEmbed.astro';
 import StoryShare from '../../../components/StoryShare.astro';
 import { getAllStories } from '../../../lib/stories';
+import { getCategoryLabelEn } from '../../../lib/categories';
 import { formatChronicleMarkdown } from '../../../lib/markdown';
 
 const { slug } = Astro.params;
@@ -54,8 +55,10 @@ const spanishUrl = `${siteUrl}/historias/${story.slug}`;
 const displayTitle = story.titleEn || story.title;
 const displayHook = story.hookEn || story.hook;
 const displayDescription = story.summaryEn || displayHook || displayTitle;
+const categoryLabelEn = getCategoryLabelEn(story.category);
+const coverImageEn = story.coverUrlEn || story.coverUrl;
 
-const coverFull = story.coverUrl?.startsWith('http') ? story.coverUrl : `${siteUrl}${story.coverUrl}`;
+const coverFull = coverImageEn?.startsWith('http') ? coverImageEn : `${siteUrl}${coverImageEn}`;
 const heroFull = story.heroImageUrl?.startsWith('http') ? story.heroImageUrl : (story.heroImageUrl ? `${siteUrl}${story.heroImageUrl}` : undefined);
 const images = [heroFull, coverFull].filter(Boolean);
 
@@ -79,7 +82,7 @@ const articleSchema = {
       'datePublished': story.publishedAt,
       'dateModified': story.publishedAt,
       'image': images,
-      'articleSection': story.categoryLabel,
+      'articleSection': categoryLabelEn,
       'keywords': story.hashtags?.map((h: string) => h.replace(/^#/, '')) || [],
       'author': {
         '@type': 'Organization',
@@ -127,11 +130,11 @@ const articleSchema = {
 <Layout
   title={`${displayTitle} | Secret Chords`}
   description={displayDescription}
-  image={story.heroImageUrl || story.coverUrl}
+  image={story.heroImageUrl || coverImageEn}
   type="article"
   publishedTime={story.publishedAt}
   author="Secret Chords"
-  section={story.categoryLabel}
+  section={categoryLabelEn}
   tags={story.hashtags}
   jsonLd={articleSchema}
   lang="en"
@@ -155,13 +158,6 @@ const articleSchema = {
         <span class="px-2.5 py-0.5 rounded-full text-[11px] font-semibold tracking-wider uppercase bg-amber-500/10 text-amber-300 border border-amber-500/20">
           Secret Chords Archive
         </span>
-        <a
-          href={spanishUrl}
-          class="px-2.5 py-0.5 rounded-full text-[11px] font-sans font-medium text-neutral-400 hover:text-amber-300 border border-[#2e2a24] hover:border-amber-500/40 transition-colors"
-          title="Leer esta crónica en español"
-        >
-          🇪🇸 Leer en Español
-        </a>
       </div>
     </nav>
 
@@ -169,7 +165,7 @@ const articleSchema = {
     <section class="relative w-full aspect-auto sm:aspect-[16/9] lg:aspect-[21/9] min-h-[480px] sm:min-h-[520px] lg:min-h-[580px] rounded-2xl overflow-hidden border border-[#2b2721] shadow-2xl shadow-black/90 mb-10 sm:mb-14 group">
       <!-- Background Stage Image -->
       <img
-        src={story.heroImageUrl || story.coverUrl}
+        src={story.heroImageUrl || coverImageEn}
         alt={displayTitle}
         width="1600"
         height="900"
@@ -190,7 +186,7 @@ const articleSchema = {
         <!-- Badges -->
         <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mb-2 sm:mb-4">
           <span class="px-2.5 py-0.5 sm:px-3 sm:py-1 bg-white text-black text-[10px] sm:text-xs font-black uppercase tracking-wider rounded-sm shadow-md font-sans">
-            {story.categoryLabel || 'Secret Chords'}
+            {categoryLabelEn}
           </span>
           {story.artist && (
             <span class="px-2.5 py-0.5 sm:px-3 sm:py-1 bg-black/70 backdrop-blur-md text-amber-400 border border-amber-500/30 text-[10px] sm:text-xs font-bold uppercase tracking-wider rounded-sm font-sans">
@@ -279,9 +275,10 @@ const articleSchema = {
             reelUrl={story.instagramUrlEn || story.instagramUrl}
             videoUrl={story.videoUrlEn || story.videoUrl}
             tiktokVideoUrl={story.tiktokVideoUrl}
-            coverUrl={story.coverUrl}
+            coverUrl={coverImageEn}
             title={displayTitle}
             artist={story.artist}
+            lang="en"
           />
 
           <!-- Quick Actions / Social Share -->
@@ -295,36 +292,8 @@ const articleSchema = {
           spotifyUrl={story.spotifyUrl}
           artist={story.artist}
           songTitle={story.songTitle}
+          lang="en"
         />
-
-        <!-- Story Poster / Teaser if available -->
-        {(story.promoPosterUrl || story.teaserUrl) && (
-          <div class="rounded-2xl overflow-hidden border border-[#2b2721] bg-[#12100d] p-4 text-center shadow-2xl group transition-all hover:border-amber-500/40">
-            <div class="flex items-center justify-between gap-2 mb-3 px-1">
-              <span class="inline-flex items-center gap-1.5 text-[10px] uppercase tracking-widest font-black text-amber-400 font-sans">
-                <span class="w-1.5 h-1.5 rounded-full bg-amber-400 animate-pulse"></span>
-                <span>Official Story Poster</span>
-              </span>
-              <span class="text-[9px] font-mono text-neutral-400 uppercase tracking-wider bg-[#1c1a16] px-2 py-0.5 rounded border border-[#2e2a24]">
-                9:16 Vertical
-              </span>
-            </div>
-            <div class="relative rounded-xl overflow-hidden bg-black/60 shadow-inner">
-              <div class="absolute inset-0 z-10 pointer-events-none" data-image-shield="true" aria-hidden="true"></div>
-              <img
-                src={story.promoPosterUrl || story.teaserUrl}
-                alt={`Official poster for ${displayTitle}`}
-                draggable="false"
-                loading="lazy"
-                decoding="async"
-                class="w-full h-auto object-cover rounded-xl select-none group-hover:scale-[1.02] transition-transform duration-500"
-              />
-            </div>
-            <p class="text-[11px] text-neutral-400 font-sans italic mt-3 px-1">
-              Commemorative documentary artwork published for this chronicle.
-            </p>
-          </div>
-        )}
 
       </aside>
 
@@ -354,13 +323,7 @@ const articleSchema = {
             href="/en#stories"
             class="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans transition-colors"
           >
-            <span>← Back to all English chronicles</span>
-          </a>
-          <a
-            href={spanishUrl}
-            class="inline-flex items-center gap-2 text-xs text-neutral-400 hover:text-amber-400 font-sans transition-colors"
-          >
-            <span>🇪🇸 Versión en Español</span>
+            <span>← Back to all chronicles</span>
           </a>
         </div>
 
@@ -385,7 +348,7 @@ const articleSchema = {
             <article class="rounded-xl overflow-hidden border border-[#26231e] bg-[#12100d] hover:border-amber-500/40 transition-all flex flex-col justify-between group">
               <a href={`/en/stories/${rel.slugEn || rel.slug}`} class="block relative aspect-[16/9] overflow-hidden bg-black">
                 <img
-                  src={rel.coverUrl}
+                  src={rel.coverUrlEn || rel.coverUrl}
                   alt={rel.titleEn || rel.title}
                   loading="lazy"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"

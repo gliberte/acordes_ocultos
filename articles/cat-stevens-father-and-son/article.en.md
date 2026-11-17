@@ -138,5 +138,4 @@ For the rigorous historical, biographical, and technical reconstruction of this 
 
 ---
 
-![Story Teaser - Secret Chords](images/story_teaser.webp)
 *Secret Chords editorial teaser for the chronicle of Cat Stevens and the birth of «Father and Son».*

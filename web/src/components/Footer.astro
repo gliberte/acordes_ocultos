@@ -35,17 +35,21 @@ const t = useTranslations(locale);
           {t('brand', 'description')}
         </p>
         <div class="flex flex-wrap items-center gap-3 pt-2 text-xs">
-          <a href="https://instagram.com/acordesocultos72" target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-400 transition-colors">
+          <a href={isEn ? "https://instagram.com/secretchords72" : "https://instagram.com/acordesocultos72"} target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-400 transition-colors">
             Instagram
           </a>
           <span class="text-neutral-700">•</span>
           <a href="https://tiktok.com/@acordesocultos" target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-400 transition-colors">
             TikTok
           </a>
-          <span class="text-neutral-700">•</span>
-          <a href="/libro" class="text-amber-400 hover:text-amber-300 transition-colors font-medium">
-            {isEn ? '📘 Anthology Book' : '📘 Libro (Volumen 01)'}
-          </a>
+          {!isEn && (
+            <>
+              <span class="text-neutral-700">•</span>
+              <a href="/libro" class="text-amber-400 hover:text-amber-300 transition-colors font-medium">
+                📘 Libro (Volumen 01)
+              </a>
+            </>
+          )}
           <span class="text-neutral-700">•</span>
           <a href="https://acordesocultos.gumroad.com/l/ryhupd" target="_blank" rel="noopener" class="text-neutral-400 hover:text-amber-300 transition-colors">
             {isEn ? '☕ Support' : '☕ Apoyar'}
@@ -53,37 +57,50 @@ const t = useTranslations(locale);
         </div>
       </div>
 
-      <!-- Column 2: Categorías -->
+      <!-- Column 2: Categorías / Editorial Series -->
       <div>
         <h4 class="text-xs uppercase tracking-widest text-neutral-300 font-semibold mb-4">
           {t('footer', 'categories')}
         </h4>
         <ul class="space-y-2 text-xs">
-          <li><a href={isEn ? "/en#series" : "/?cat=acordes-ocultos#historias"} class="hover:text-amber-400 transition-colors">Acordes Ocultos</a></li>
-          <li><a href={isEn ? "/en#series" : "/?cat=historia-en-los-acordes#historias"} class="hover:text-amber-400 transition-colors">Historia en los Acordes</a></li>
-          <li><a href={isEn ? "/en#series" : "/?cat=destellos-de-gloria#historias"} class="hover:text-amber-400 transition-colors">Destellos de Gloria</a></li>
-          <li><a href={isEn ? "/en#series" : "/?cat=catedrales-de-leyenda#historias"} class="hover:text-amber-400 transition-colors">Catedrales de Leyenda</a></li>
-          <li><a href={isEn ? "/en#series" : "/?cat=forjados-en-el-barro#historias"} class="hover:text-amber-400 transition-colors">Forjados en el Barro</a></li>
+          <li><a href={isEn ? "/en?cat=acordes-ocultos#stories" : "/?cat=acordes-ocultos#historias"} class="hover:text-amber-400 transition-colors">{isEn ? "Secret Chords" : "Acordes Ocultos"}</a></li>
+          <li><a href={isEn ? "/en?cat=destellos-de-gloria#stories" : "/?cat=destellos-de-gloria#historias"} class="hover:text-amber-400 transition-colors">{isEn ? "Flashes of Glory" : "Destellos de Gloria"}</a></li>
+          <li><a href={isEn ? "/en?cat=forjados-en-el-barro#stories" : "/?cat=forjados-en-el-barro#historias"} class="hover:text-amber-400 transition-colors">{isEn ? "Forged in Clay" : "Forjados en el Barro"}</a></li>
+          {!isEn && (
+            <>
+              <li><a href="/?cat=historia-en-los-acordes#historias" class="hover:text-amber-400 transition-colors">Historia en los Acordes</a></li>
+              <li><a href="/?cat=catedrales-de-leyenda#historias" class="hover:text-amber-400 transition-colors">Catedrales de Leyenda</a></li>
+            </>
+          )}
         </ul>
       </div>
 
-      <!-- Column 3: Libro, Mecenazgo & Boletín -->
+      <!-- Column 3: Community & Support -->
       <div>
         <h4 class="text-xs uppercase tracking-widest text-neutral-300 font-semibold mb-4">
           {t('footer', 'community')}
         </h4>
         <p class="text-xs text-neutral-400 leading-relaxed mb-4">
           {isEn
-            ? "Discover our Anthology Book (Vol. 01), support independent music journalism as a patron, or subscribe to our free weekly chronicle."
+            ? "Support independent music journalism as a patron, or subscribe to receive our free weekly documentary chronicle in your inbox."
             : "Descubre los detalles del Libro Recopilatorio (Vol. 01), apoya la investigación como mecenas o únete a la Cofradía para recibir crónicas semanales gratis."}
         </p>
         <div class="flex flex-wrap gap-2">
-          <a 
-            href="/libro"
-            class="inline-block px-3.5 py-2 text-xs font-semibold rounded bg-[#1c1a16] border border-amber-500/30 text-amber-300 hover:bg-amber-500/10 transition-colors"
-          >
-            {isEn ? "📘 View Book (Vol. 01) →" : "📘 Ver Libro (Vol. 01) →"}
-          </a>
+          {isEn ? (
+            <a 
+              href="/en#newsletter"
+              class="inline-block px-3.5 py-2 text-xs font-semibold rounded bg-[#1c1a16] border border-amber-500/30 text-amber-300 hover:bg-amber-500/10 transition-colors"
+            >
+              ✉️ Weekly Chronicle →
+            </a>
+          ) : (
+            <a 
+              href="/libro"
+              class="inline-block px-3.5 py-2 text-xs font-semibold rounded bg-[#1c1a16] border border-amber-500/30 text-amber-300 hover:bg-amber-500/10 transition-colors"
+            >
+              📘 Ver Libro (Vol. 01) →
+            </a>
+          )}
           <a 
             href="https://acordesocultos.gumroad.com/l/ryhupd" 
             target="_blank" 
@@ -102,22 +119,22 @@ const t = useTranslations(locale);
         </h4>
         <ul class="space-y-2 text-xs">
           <li>
-            <a href="/privacidad" class="hover:text-amber-400 transition-colors">
+            <a href={isEn ? "/en/privacy" : "/privacidad"} class="hover:text-amber-400 transition-colors">
               {t('footer', 'privacy')}
             </a>
           </li>
           <li>
-            <a href="/aviso-legal" class="hover:text-amber-400 transition-colors">
+            <a href={isEn ? "/en/terms" : "/aviso-legal"} class="hover:text-amber-400 transition-colors">
               {t('footer', 'terms')}
             </a>
           </li>
           <li>
-            <a href="/cookies" class="hover:text-amber-400 transition-colors">
+            <a href={isEn ? "/en/cookies" : "/cookies"} class="hover:text-amber-400 transition-colors">
               {t('footer', 'cookies')}
             </a>
           </li>
           <li>
-            <a href="/privacidad#menores" class="text-neutral-400 hover:text-amber-400 transition-colors flex items-center gap-1.5">
+            <a href={isEn ? "/en/privacy#minors" : "/privacidad#menores"} class="text-neutral-400 hover:text-amber-400 transition-colors flex items-center gap-1.5">
               <span>{isEn ? "Child Safety Protection (+14)" : "Protección de Menores (+14)"}</span>
             </a>
           </li>
@@ -141,11 +158,11 @@ const t = useTranslations(locale);
         <p>© {new Date().getFullYear()} {t('brand', 'name')}. {t('footer', 'rights')}</p>
         <span class="hidden sm:inline text-neutral-700">•</span>
         <div class="flex items-center gap-3 text-[11px] text-neutral-400">
-          <a href="/privacidad" class="hover:underline">{isEn ? 'Privacy' : 'Privacidad'}</a>
+          <a href={isEn ? "/en/privacy" : "/privacidad"} class="hover:underline">{isEn ? 'Privacy' : 'Privacidad'}</a>
           <span>·</span>
-          <a href="/aviso-legal" class="hover:underline">{isEn ? 'Terms' : 'Aviso Legal'}</a>
+          <a href={isEn ? "/en/terms" : "/aviso-legal"} class="hover:underline">{isEn ? 'Terms' : 'Aviso Legal'}</a>
           <span>·</span>
-          <a href="/cookies" class="hover:underline">Cookies</a>
+          <a href={isEn ? "/en/cookies" : "/cookies"} class="hover:underline">Cookies</a>
         </div>
       </div>
       <p class="italic font-serif text-neutral-400 text-center md:text-right">

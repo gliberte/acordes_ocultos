@@ -15,6 +15,13 @@ import path from 'node:path';
 const availableCovers = new Set<string>(availableCoversList);
 const availableHeroes = new Set<string>(availableHeroesList);
 
+// Clean English or text-free cover overrides for chronicles whose Spanish cover has baked-in Spanish text
+const ENGLISH_COVER_OVERRIDES: Record<string, string> = {
+  'pink-floyd-another-brick-in-the-wall-part-2': '/articles/pink-floyd-another-brick-in-the-wall-part-2/images/cover_eng.webp',
+  'pink-floyd-the-great-gig-in-the-sky': '/articles/pink-floyd-the-great-gig-in-the-sky/images/clare_torry_microfono_cabina.webp',
+  'bob-seger-against-the-wind': '/articles/bob-seger-against-the-wind/images/scene-06.webp',
+};
+
 // In-memory cache for serverless runtimes to avoid redundant network egress
 let cachedStories: { data: StoryItem[]; timestamp: number } | null = null;
 const CACHE_TTL_MS = 30 * 1000; // 30 seconds cache
@@ -34,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'jose-luis-perales-que-canten-los-ninos-acordes-ocultos': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
+  'jose-luis-perales-que-canten-los-ninos-acordes-ocultos-tiktok': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
+  'jose-luis-perales-que-canten-los-ninos': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
+  'que-canten-los-ninos': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
+  'la-promesa-de-jose-luis-perales-que-convirtio-que-canten-los-ninos-en-un-refugio-real': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
+  'lapromesadejoseluisperalesqueconvirtioquecantenlosninosenunrefugioreal': 'jose-luis-perales-que-canten-los-ninos-acordes-ocultos',
   'mecano-el-7-de-septiembre-acordes-ocultos': 'mecano-el-7-de-septiembre-acordes-ocultos',
   'mecano-el-7-de-septiembre-acordes-ocultos-tiktok': 'mecano-el-7-de-septiembre-acordes-ocultos',
   'mecano-el-7-de-septiembre': 'mecano-el-7-de-septiembre-acordes-ocultos',
@@ -1133,6 +1146,9 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
     if (matchedKeyEn && localEnglishArticles[matchedKeyEn]) {
       item.contentEn = localEnglishArticles[matchedKeyEn];
       item.summaryEn = extractCleanSummary(item.contentEn);
+      if (ENGLISH_COVER_OVERRIDES[matchedKeyEn]) {
+        item.coverUrlEn = ENGLISH_COVER_OVERRIDES[matchedKeyEn];
+      }
 
       const fm = parseFrontmatter(item.contentEn);
       if (fm.title && !item.titleEn) {

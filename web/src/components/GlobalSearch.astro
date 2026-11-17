@@ -1,5 +1,6 @@
 ---
 import type { StoryItem } from '../lib/types';
+import { getCategoryLabelEn } from '../lib/categories';
 
 interface Props {
   stories: StoryItem[];
@@ -9,17 +10,7 @@ interface Props {
 const { stories, lang = 'es' } = Astro.props;
 const isEn = lang === 'en';
 
-function getCategoryLabelEn(cat: string, fallback?: string): string {
-  switch (cat) {
-    case 'historia-en-los-acordes': return 'Story in the Chords';
-    case 'destellos-de-gloria': return 'Gleams of Glory';
-    case 'catedrales-de-leyenda': return 'Cathedrals of Legend';
-    case 'forjados-en-el-barro': return 'Forged in Clay';
-    default: return fallback || 'Secret Chords';
-  }
-}
-
-// In English mode, only index stories that have English content
+// In English mode, strictly index ONLY stories that have English content
 const indexedStories = isEn
   ? stories.filter(s => Boolean(s.contentEn))
   : stories;
@@ -29,7 +20,7 @@ const searchIndex = indexedStories.map(s => {
   const title = isEn ? (s.titleEn || s.title) : s.title;
   const hook = isEn ? (s.hookEn || s.hook || '') : (s.hook || '');
   const url = isEn ? `/en/stories/${s.slugEn || s.slug}` : `/historias/${s.slug}`;
-  const categoryLabel = isEn ? getCategoryLabelEn(s.category, s.categoryLabel) : s.categoryLabel;
+  const categoryLabel = isEn ? getCategoryLabelEn(s.category) : s.categoryLabel;
 
   return {
     slug: s.slug,
@@ -39,7 +30,7 @@ const searchIndex = indexedStories.map(s => {
     songTitle: s.songTitle || '',
     category: s.category,
     categoryLabel,
-    coverUrl: s.coverUrl,
+    coverUrl: isEn ? (s.coverUrlEn || s.coverUrl) : s.coverUrl,
     hook
   };
 });

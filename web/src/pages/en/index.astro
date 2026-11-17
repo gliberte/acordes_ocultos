@@ -1,10 +1,23 @@
 ---
 import Layout from '../../layouts/Layout.astro';
 import BrandBanner from '../../components/BrandBanner.astro';
-import PromoStoriesCarousel from '../../components/PromoStoriesCarousel.astro';
 import { getAllEnglishStories } from '../../lib/stories';
+import { getCategoryLabelEn } from '../../lib/categories';
 
-const englishStories = await getAllEnglishStories();
+const allEnglishStories = await getAllEnglishStories();
+const activeCat = Astro.url.searchParams.get('cat') || 'all';
+
+// Series present in the published English catalog
+const seriesTabs = [
+  { id: 'all', label: 'All Chronicles' },
+  { id: 'acordes-ocultos', label: 'Secret Chords' },
+  { id: 'destellos-de-gloria', label: 'Flashes of Glory' },
+  { id: 'forjados-en-el-barro', label: 'Forged in Clay' },
+].filter(tab => tab.id === 'all' || allEnglishStories.some(s => s.category === tab.id));
+
+const englishStories = activeCat !== 'all'
+  ? allEnglishStories.filter(s => s.category === activeCat)
+  : allEnglishStories;
 
 // Top featured chronicle
 const featuredStory = englishStories[0] || null;
@@ -39,7 +52,7 @@ const websiteSchema = {
         'caption': 'Secret Chords'
       },
       'sameAs': [
-        'https://instagram.com/acordesocultos72',
+        'https://instagram.com/secretchords72',
         'https://tiktok.com/@acordesocultos',
         'https://acordesocultos.gumroad.com'
       ]
@@ -51,7 +64,7 @@ const websiteSchema = {
 <Layout 
   title="Secret Chords | Untold Music Chronicles, Secrets & Legends"
   description="Historical music documentary chronicles, untold studio secrets, and the raw human drama behind the songs that changed the world."
-  image={featuredStory?.heroImageUrl || featuredStory?.coverUrl}
+  image={featuredStory?.heroImageUrl || featuredStory?.coverUrlEn || featuredStory?.coverUrl}
   jsonLd={websiteSchema}
   lang="en"
   alternateEs="/"
@@ -60,22 +73,17 @@ const websiteSchema = {
   <!-- Brand Banner Official English Edition -->
   <BrandBanner lang="en" />
 
-  <!-- Promo Stories Carousel: Vertical 9:16 Posters -->
-  {englishStories.length > 0 && (
-    <PromoStoriesCarousel stories={englishStories} lang="en" />
-  )}
-
   <!-- Main Content Container -->
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12" id="stories">
     
-    <!-- Section Header -->
-    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12 border-b border-[#262420] pb-8">
+    <!-- Section Header & Editorial Series Filter -->
+    <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 border-b border-[#262420] pb-8" id="series">
       <div>
         <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase bg-amber-500/10 text-amber-300 border border-amber-500/30 mb-3 font-sans">
           <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-          <span>ENGLISH DOCUMENTARY ARCHIVE</span>
+          <span>DOCUMENTARY ARCHIVE</span>
           <span class="text-amber-500">•</span>
-          <span>SECRET CHORDS</span>
+          <span>{allEnglishStories.length} CHRONICLES</span>
         </div>
         <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight">
           Untold Music Chronicles
@@ -85,13 +93,23 @@ const websiteSchema = {
         </p>
       </div>
 
-      <div class="flex items-center gap-3">
-        <a 
-          href="/" 
-          class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-semibold tracking-wider uppercase bg-[#181613] text-neutral-300 hover:text-amber-300 border border-[#2e2a24] hover:border-amber-500/50 transition-all font-sans"
-        >
-          <span>🇪🇸 Catálogo Completo en Español</span>
-        </a>
+      <!-- English Editorial Series Pills -->
+      <div class="flex flex-wrap items-center gap-2" role="navigation" aria-label="Filter by editorial series">
+        {seriesTabs.map(tab => {
+          const isActive = activeCat === tab.id;
+          return (
+            <a
+              href={tab.id === 'all' ? '/en#stories' : `/en?cat=${tab.id}#stories`}
+              class={`px-3.5 py-2 rounded-full text-xs font-semibold tracking-wider uppercase transition-all font-sans border ${
+                isActive
+                  ? 'bg-amber-500 text-black border-amber-400 font-bold shadow-md shadow-amber-950/40'
+                  : 'bg-[#181613] text-neutral-300 hover:text-amber-300 border-[#2e2a24] hover:border-amber-500/50'
+              }`}
+            >
+              {tab.label}
+            </a>
+          );
+        })}
       </div>
     </div>
 
@@ -104,7 +122,7 @@ const websiteSchema = {
           <div class="lg:col-span-7 relative aspect-[16/9] lg:aspect-auto overflow-hidden bg-black select-none">
             <div class="absolute inset-0 z-10 pointer-events-none" data-image-shield="true"></div>
             <img
-              src={featuredStory.coverUrl}
+              src={featuredStory.coverUrlEn || featuredStory.coverUrl}
               alt={featuredStory.titleEn || featuredStory.title}
               width="900"
               height="600"
@@ -155,7 +173,7 @@ const websiteSchema = {
               </a>
 
               <span class="text-[11px] text-neutral-500 font-sans">
-                ~10 min read
+                ~8 min read
               </span>
             </div>
           </div>
@@ -165,7 +183,7 @@ const websiteSchema = {
     )}
 
     <!-- Grid of All Available English Chronicles -->
-    <section id="series" class="scroll-mt-24">
+    <section class="scroll-mt-24">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {remainingStories.map((item) => (
           <article class="rounded-2xl overflow-hidden border border-[#26231e] bg-[#12100d] hover:border-amber-500/50 shadow-xl transition-all duration-300 group flex flex-col justify-between">
@@ -174,7 +192,7 @@ const websiteSchema = {
             <a href={`/en/stories/${item.slugEn || item.slug}`} class="block relative aspect-[16/9] overflow-hidden bg-black select-none">
               <div class="absolute inset-0 z-10" data-image-shield="true"></div>
               <img
-                src={item.coverUrl}
+                src={item.coverUrlEn || item.coverUrl}
                 alt={item.titleEn || item.title}
                 loading="lazy"
                 decoding="async"
@@ -182,7 +200,7 @@ const websiteSchema = {
               />
               <div class="absolute top-3 left-3 z-20">
                 <span class="px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider bg-black/80 backdrop-blur-md text-amber-300 border border-amber-500/40 shadow-lg font-sans">
-                  Secret Chords
+                  {getCategoryLabelEn(item.category)}
                 </span>
               </div>
             </a>

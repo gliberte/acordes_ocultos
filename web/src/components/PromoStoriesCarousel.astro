@@ -1,5 +1,6 @@
 ---
 import type { StoryItem } from '../lib/types';
+import { getCategoryLabelEn } from '../lib/categories';
 
 interface Props {
   stories: StoryItem[];
@@ -13,6 +14,7 @@ const isEn = lang === 'en';
 const promoStories = (stories || [])
   .filter(s => {
     if (!s.promoPosterUrl || s.isHidden) return false;
+    if (isEn && !s.contentEn) return false;
     const url = typeof s.instagramUrl === 'string' ? s.instagramUrl.trim() : '';
     const urlEn = typeof s.instagramUrlEn === 'string' ? s.instagramUrlEn.trim() : '';
     const isValid = (u: string) => u.length > 0 && (u.includes('instagram.com/reel/') || u.includes('instagram.com/p/'));
@@ -63,7 +65,7 @@ if (promoStories.length === 0) return null;
         <button
           type="button"
           id="promo-carousel-prev"
-          aria-label="Desplazar a la izquierda"
+          aria-label={isEn ? "Scroll left" : "Desplazar a la izquierda"}
           class="w-11 h-11 rounded-full bg-[#181613] hover:bg-[#24201a] border border-[#2e2a24] hover:border-amber-500/50 text-neutral-300 hover:text-amber-300 flex items-center justify-center transition-all shadow-lg shadow-black/50 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
         >
           <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
@@ -73,7 +75,7 @@ if (promoStories.length === 0) return null;
         <button
           type="button"
           id="promo-carousel-next"
-          aria-label="Desplazar a la derecha"
+          aria-label={isEn ? "Scroll right" : "Desplazar a la derecha"}
           class="w-11 h-11 rounded-full bg-[#181613] hover:bg-[#24201a] border border-[#2e2a24] hover:border-amber-500/50 text-neutral-300 hover:text-amber-300 flex items-center justify-center transition-all shadow-lg shadow-black/50 cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
         >
           <svg class="w-5 h-5 fill-none stroke-current" viewBox="0 0 24 24" stroke-width="2.5">
@@ -90,7 +92,7 @@ if (promoStories.length === 0) return null;
       style="scrollbar-width: none; -ms-overflow-style: none;"
       tabindex="0"
       role="region"
-      aria-label="Carrusel de Carteles de Historias"
+      aria-label={isEn ? "Story Posters Carousel" : "Carrusel de Carteles de Historias"}
     >
       {promoStories.map((item, idx) => (
         <article class="w-64 sm:w-72 md:w-80 shrink-0 snap-start rounded-2xl overflow-hidden border border-[#26231e] bg-[#12100d] shadow-2xl hover:border-amber-500/50 hover:shadow-amber-950/40 transition-all duration-300 group flex flex-col justify-between relative">
@@ -101,7 +103,7 @@ if (promoStories.length === 0) return null;
             
             <img
               src={item.promoPosterUrl}
-              alt={`Póster oficial de ${item.title}`}
+              alt={isEn ? `Official poster for ${item.titleEn || item.title}` : `Póster oficial de ${item.title}`}
               width="576"
               height="1024"
               loading={idx < 2 ? 'eager' : 'lazy'}
@@ -113,7 +115,7 @@ if (promoStories.length === 0) return null;
             <!-- Top Floating Header Badges -->
             <div class="absolute top-3 left-3 right-3 z-20 flex items-center justify-between gap-2 pointer-events-none">
               <span class="px-2.5 py-1 rounded-full text-[9px] font-black uppercase tracking-wider bg-black/80 backdrop-blur-md text-amber-300 border border-amber-500/40 shadow-lg font-sans">
-                {item.categoryLabel}
+                {isEn ? getCategoryLabelEn(item.category) : item.categoryLabel}
               </span>
 
               {item.instagramUrl && (

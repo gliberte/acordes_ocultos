@@ -3,9 +3,11 @@ interface Props {
   spotifyUrl?: string;
   artist?: string;
   songTitle?: string;
+  lang?: 'es' | 'en';
 }
 
-const { spotifyUrl, artist, songTitle } = Astro.props;
+const { spotifyUrl, artist, songTitle, lang = 'es' } = Astro.props;
+const isEn = lang === 'en';
 
 // Extract Spotify track ID if available
 let trackId = '';
@@ -27,11 +29,11 @@ const fallbackSpotifySearchUrl = `https://open.spotify.com/search/${searchQuery}
         <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
       </svg>
       <span class="text-xs font-bold uppercase tracking-wider text-neutral-200">
-        Banda Sonora Oficial
+        {isEn ? 'Official Soundtrack' : 'Banda Sonora Oficial'}
       </span>
     </div>
     <span class="text-[10px] text-[#1DB954] font-medium tracking-wide uppercase px-2 py-0.5 rounded-full bg-[#1DB954]/10 border border-[#1DB954]/30">
-      Licencia Spotify
+      {isEn ? 'Spotify Licensed' : 'Licencia Spotify'}
     </span>
   </div>
 
@@ -53,7 +55,7 @@ const fallbackSpotifySearchUrl = `https://open.spotify.com/search/${searchQuery}
           {artist}
         </p>
         <p class="text-sm font-semibold text-neutral-100 truncate font-serif">
-          «{songTitle || 'Pista Oficial'}»
+          {isEn ? `“${songTitle || 'Official Track'}”` : `«${songTitle || 'Pista Oficial'}»`}
         </p>
       </div>
 
@@ -63,7 +65,7 @@ const fallbackSpotifySearchUrl = `https://open.spotify.com/search/${searchQuery}
         rel="noopener noreferrer"
         class="flex-shrink-0 inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs font-bold bg-[#1DB954] text-black hover:bg-[#1ed760] transition-all transform hover:scale-105"
       >
-        <span>Escuchar</span>
+        <span>{isEn ? 'Listen' : 'Escuchar'}</span>
         <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
           <polygon points="5 3 19 12 5 21 5 3"></polygon>
         </svg>
@@ -72,6 +74,8 @@ const fallbackSpotifySearchUrl = `https://open.spotify.com/search/${searchQuery}
   )}
 
   <p class="mt-2 text-[10px] text-neutral-400 italic text-center font-sans">
-    Reproducción bajo licencia oficial. Protegido contra reclamaciones de copyright.
+    {isEn
+      ? 'Official licensed playback. Protected by copyright licensing.'
+      : 'Reproducción bajo licencia oficial. Protegido contra reclamaciones de copyright.'}
   </p>
 </div>

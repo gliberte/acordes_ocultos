@@ -17,7 +17,7 @@ readingTime: "7 minutes"
 
 ---
 
-![The Hollies en Abbey Road junto al piano en 1969](images/cover_acordes_ocultos.webp)
+![The Hollies at Abbey Road beside the piano in 1969](images/cover_acordes_ocultos.webp)
 *1969: The Hollies at Abbey Road, the British band that transformed a prayer into a universal anthem of compassion.*
 
 In early 1969, inside a sun-drenched California home, a fifty-four-year-old man sat before his writing desk, acutely aware that the sand in his hourglass was slipping away with merciless speed. His name was **Bob Russell**, one of the most respected lyricists of the golden age of American songwriting, renowned for crafting timeless classics for Duke Ellington such as *«Do Nothin' Till You Hear from Me»* and *«Don't Get Around Much Anymore»*.

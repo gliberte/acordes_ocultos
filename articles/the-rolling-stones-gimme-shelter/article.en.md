@@ -17,7 +17,7 @@ slug: "the-rolling-stones-gimme-shelter"
 
 ---
 
-![Portada Oficial - Gimme Shelter](images/cover.png)
+![Official Cover — Gimme Shelter](images/cover.png)
 *Sunset Sound Studios, Los Ángeles, November 1969: A young, pregnant backing vocalist, ripped from her sleep in the dead of night, screams the most heartbreaking lament in rock history into a microphone.*
 
 ---

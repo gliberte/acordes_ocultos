@@ -8,7 +8,7 @@ category: "Secret Chords"
 genre: "Heartland Rock / Classic Rock"
 year: 1980
 date: "2026-11-12"
-coverImage: "images/cover.webp"
+coverImage: "images/scene-06.webp"
 readingTime: "12 min"
 slug: "bob-seger-against-the-wind-secret-chords"
 ---
@@ -20,7 +20,7 @@ slug: "bob-seger-against-the-wind-secret-chords"
 
 ---
 
-![Official Cover — Bob Seger](images/cover.webp)
+![Bob Seger and Glenn Frey recording vocal harmonies](images/scene-06.webp)
 *Bob Seger: The workingman of rock and roll who turned the scars of growing older into a timeless anthem of endurance.*
 
 ---

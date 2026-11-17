@@ -10,7 +10,7 @@ slug: "its-a-long-way-to-the-top-acdc-story"
 
 # The Anthem They Vowed Never to Sing Again: The Truth Behind «It's a Long Way to the Top»
 
-![Portada Oficial — It's a Long Way to the Top (AC/DC)](images/cover_acordes_ocultos.webp)
+![Official Cover — It's a Long Way to the Top (AC/DC)](images/cover_acordes_ocultos.webp)
 *1975: Bon Scott and Angus Young in the Sydney studios, forging the raw and rebellious sound of AC/DC.*
 
 ### Prologue: The Mud Before the Thunder
@@ -77,7 +77,7 @@ Anyone who has tried to make a Scottish bagpipe sound knows it tolerates no half
 
 Bon locked himself away alone with the newly purchased instrument. Through sheer lung power, street-earned ear, and fierce determination, he managed to tame the chanter until he coaxed out a vibrant, proud, and warrior-like pentatonic melody. When he stepped back into the Albert Studios recording room, his cheeks flushed and the veins in his neck strained to the limit, he laid down the melody that would define the track.
 
-![Bon Scott grabando la gaita en Albert Studios mientras Angus y Malcolm ajustan sus guitarras](images/scene-05.webp)
+![Bon Scott recording bagpipes at Albert Studios while Angus and Malcolm tune their guitars](images/scene-05.webp)
 *Albert Studios, 1975: Bon Scott taming the bagpipes at the top of his lungs, forcing the guitars to readjust their tuning.*
 
 It was then that Vanda and George Young ran into an insurmountable acoustic barrier. The chanter of a traditional Scottish bagpipe is a fixed-pitch instrument: its natural scale settles around **B-flat (B♭)**, yet at a frequency slightly higher than standard concert pitch (**A = 440 Hz**).

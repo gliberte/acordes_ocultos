@@ -53,7 +53,7 @@ const isEn = lang === 'en';
       </button>
 
       <a
-        href="/cookies"
+        href={isEn ? "/en/cookies" : "/cookies"}
         class="px-3 py-2 text-center text-xs text-amber-400 hover:text-amber-300 transition-colors underline sm:no-underline sm:hover:underline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-300 rounded-lg"
       >
         {isEn ? 'Cookie Policy' : 'Política'}

@@ -54,3 +54,20 @@ export function getCategoryInfo(topicOrCategory?: any): CategoryInfo {
 
   return CATEGORIES['acordes-ocultos'];
 }
+
+export function getCategoryLabelEn(topicOrCategory?: any): string {
+  const info = getCategoryInfo(topicOrCategory);
+  switch (info.id) {
+    case 'historia-en-los-acordes':
+      return 'Story in the Chords';
+    case 'destellos-de-gloria':
+      return 'Flashes of Glory';
+    case 'catedrales-de-leyenda':
+      return 'Cathedrals of Legend';
+    case 'forjados-en-el-barro':
+      return 'Forged in Clay';
+    case 'acordes-ocultos':
+    default:
+      return 'Secret Chords';
+  }
+}
