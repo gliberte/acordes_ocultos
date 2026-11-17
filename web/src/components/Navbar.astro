@@ -11,15 +11,18 @@ interface Props {
 }
 
 const { stories: propStories, currentStory } = Astro.props;
-const isNotAdmin = !Astro.url.pathname.startsWith('/admin');
+const pathname = Astro.url.pathname;
+const cleanPath = pathname.replace(/\/+$/, '') || '/';
+const isAdminRoute = cleanPath === '/admin' || cleanPath.startsWith('/admin/');
+const isAdminEn = cleanPath === '/admin/en';
+const isNotAdmin = !isAdminRoute;
 
-const locale = getLocale(Astro.currentLocale || Astro.url.pathname);
+const locale = isAdminEn ? 'en' : getLocale(Astro.currentLocale || pathname);
 const isEn = locale === 'en';
 const t = useTranslations(locale);
 const stories = propStories || (isEn ? await getAllEnglishStories() : await getAllStories());
 
 // Determine destination URLs for language switcher
-const pathname = Astro.url.pathname;
 const hasEnStory = Boolean(currentStory && isPublishedEnglishStory(currentStory));
 
 let esUrl = '/';
@@ -27,7 +30,12 @@ let enUrl = '/en';
 let esTitle = isEn ? 'Switch to Spanish Edition' : 'Sitio oficial en Español';
 let enTitle = isEn ? 'English Archive (Secret Chords)' : 'View in English (Secret Chords)';
 
-if (currentStory) {
+if (isAdminRoute && cleanPath !== '/admin/login') {
+  esUrl = '/admin';
+  enUrl = '/admin/en';
+  esTitle = 'Panel Administrativo en Español (@acordesocultos72)';
+  enTitle = 'Panel Administrativo en Inglés (@secretchords72)';
+} else if (currentStory) {
   esUrl = `/historias/${currentStory.slug}`;
   if (hasEnStory) {
     enUrl = `/en/stories/${currentStory.slugEn || currentStory.slug}`;
