@@ -1194,13 +1194,17 @@ export async function getAllStories(options: { includeHidden?: boolean } = {}): 
   });
 
   // Deduplication safety pass to guarantee no repeated stories or chronicles in web views
-  const seenKeys = new Set<string>();
+  // Always prefer visible (non-hidden) entries over hidden duplicates (e.g. TikTok cuts)
+  const seenMap = new Map<string, number>();
   const uniqueItems: StoryItem[] = [];
   for (const it of items) {
     const canonicalKey = it.articleSlug || it.slug || it.id;
-    if (!seenKeys.has(canonicalKey)) {
-      seenKeys.add(canonicalKey);
+    const existingIdx = seenMap.get(canonicalKey);
+    if (existingIdx === undefined) {
+      seenMap.set(canonicalKey, uniqueItems.length);
       uniqueItems.push(it);
+    } else if (uniqueItems[existingIdx].isHidden && !it.isHidden) {
+      uniqueItems[existingIdx] = it;
     }
   }
   items = uniqueItems;
