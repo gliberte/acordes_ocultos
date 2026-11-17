@@ -53,11 +53,11 @@ export default function InstagramReelFacade({
         >
           {/* Cover Image */}
           <img
-            src={coverUrl || '/brand/acordes-ocultos-logo.png'}
+            src={coverUrl || (isEn ? '/brand/secret-chords-logo.webp' : '/brand/acordes-ocultos-logo.png')}
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
             onError={e => {
-              (e.target as HTMLImageElement).src = '/brand/acordes-ocultos-logo.png';
+              (e.target as HTMLImageElement).src = isEn ? '/brand/secret-chords-logo.webp' : '/brand/acordes-ocultos-logo.png';
             }}
           />
 

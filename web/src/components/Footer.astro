@@ -19,7 +19,7 @@ const t = useTranslations(locale);
       <div class="space-y-4">
         <div class="flex items-center gap-3">
           <img 
-            src="/brand/acordes-ocultos-logo-sm.webp" 
+            src={isEn ? "/brand/secret-chords-logo-sm.webp" : "/brand/acordes-ocultos-logo-sm.webp"} 
             alt={t('brand', 'name')} 
             width="40"
             height="40"

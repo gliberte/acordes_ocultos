@@ -53,7 +53,7 @@ if (reelUrl) {
           src={coverUrl || '/assets/substack_header_banner.jpg'}
           alt={title}
           class="w-full h-full object-cover filter brightness-[0.70]"
-          onerror="this.src='/brand/acordes-ocultos-logo.png'"
+          onerror={isEn ? "this.src='/brand/secret-chords-logo.webp'" : "this.src='/brand/acordes-ocultos-logo.png'"}
         />
 
         <!-- Vignette & Dark Overlay -->
