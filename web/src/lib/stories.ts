@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
+  'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos-tiktok': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
+  'the-shirelles-will-you-love-me-tomorrow': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
+  'will-you-love-me-tomorrow': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
+  'la-cancion-prohibida-que-llevo-a-the-shirelles-a-hacer-historia-en-1961': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
+  'lacancionprohibidaquellevoatheshirellesahacerhistoriaen1961': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
   'prisma-de-color-de-rosa-acordes-ocultos': 'prisma-de-color-de-rosa-acordes-ocultos',
   'prisma-de-color-de-rosa-acordes-ocultos-tiktok': 'prisma-de-color-de-rosa-acordes-ocultos',
   'prisma-de-color-de-rosa': 'prisma-de-color-de-rosa-acordes-ocultos',
