@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'prisma-de-color-de-rosa-acordes-ocultos': 'prisma-de-color-de-rosa-acordes-ocultos',
+  'prisma-de-color-de-rosa-acordes-ocultos-tiktok': 'prisma-de-color-de-rosa-acordes-ocultos',
+  'prisma-de-color-de-rosa': 'prisma-de-color-de-rosa-acordes-ocultos',
+  'de-color-de-rosa': 'prisma-de-color-de-rosa-acordes-ocultos',
+  'el-regalo-de-xv-anos-detras-de-de-color-de-rosa-de-prisma': 'prisma-de-color-de-rosa-acordes-ocultos',
+  'elregalodexvanosdetrasdedecolorderosadeprisma': 'prisma-de-color-de-rosa-acordes-ocultos',
   'boston-more-than-a-feeling-acordes-ocultos': 'boston-more-than-a-feeling-acordes-ocultos',
   'boston-more-than-a-feeling-acordes-ocultos-tiktok': 'boston-more-than-a-feeling-acordes-ocultos',
   'boston-more-than-a-feeling': 'boston-more-than-a-feeling-acordes-ocultos',
