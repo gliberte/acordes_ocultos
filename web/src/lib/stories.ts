@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'heart-barracuda-acordes-ocultos': 'heart-barracuda-acordes-ocultos',
+  'heart-barracuda-acordes-ocultos-tiktok': 'heart-barracuda-acordes-ocultos',
+  'heart-barracuda': 'heart-barracuda-acordes-ocultos',
+  'barracuda': 'heart-barracuda-acordes-ocultos',
+  'la-mentira-de-su-propia-disquera-que-desato-la-furia-de-barracuda-de-heart': 'heart-barracuda-acordes-ocultos',
+  'lamentiradesupropiadisqueraquedesatolafuriadebarracudadeheart': 'heart-barracuda-acordes-ocultos',
   'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
   'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos-tiktok': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
   'the-shirelles-will-you-love-me-tomorrow': 'the-shirelles-will-you-love-me-tomorrow-acordes-ocultos',
