@@ -1388,3 +1388,4 @@ export async function getFeaturedStory(): Promise<StoryItem | null> {
   const all = await getAllStories({ includeHidden: false });
   return all[0] || null;
 }
+
