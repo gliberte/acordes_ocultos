@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'the-moody-blues-nights-in-white-satin-acordes-ocultos': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
+  'the-moody-blues-nights-in-white-satin-acordes-ocultos-tiktok': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
+  'the-moody-blues-nights-in-white-satin': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
+  'nights-in-white-satin': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
+  'el-joven-de-19-anos-que-escribio-nights-in-white-satin-sobre-unas-sabanas-regaladas-y-su-disquera-la-rechazo': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
+  'eljovende19anosqueescribionightsinwhitesatinsobreunassabanasregaladasysudisqueralarechazo': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
   'heart-barracuda-acordes-ocultos': 'heart-barracuda-acordes-ocultos',
   'heart-barracuda-acordes-ocultos-tiktok': 'heart-barracuda-acordes-ocultos',
   'heart-barracuda': 'heart-barracuda-acordes-ocultos',
