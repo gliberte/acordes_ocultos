@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'hombres-g-devuelveme-a-mi-chica-acordes-ocultos': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
+  'hombres-g-devuelveme-a-mi-chica-acordes-ocultos-tiktok': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
+  'hombres-g-devuelveme-a-mi-chica': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
+  'devuelveme-a-mi-chica': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
+  'la-cancion-de-venganza-que-david-summers-escribio-en-10-dias-para-incomodar-a-su-exnovia-en-primera-fila': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
+  'lacanciondevenganzaquedavidsummersescribioen10diasparaincomodarasuexnoviaenprimerafila': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
   'selena-dreaming-of-you-acordes-ocultos': 'selena-dreaming-of-you-acordes-ocultos',
   'selena-dreaming-of-you-acordes-ocultos-tiktok': 'selena-dreaming-of-you-acordes-ocultos',
   'selena-dreaming-of-you': 'selena-dreaming-of-you-acordes-ocultos',
