@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'boy-george-the-crying-game-acordes-ocultos': 'boy-george-the-crying-game-acordes-ocultos',
+  'boy-george-the-crying-game-acordes-ocultos-tiktok': 'boy-george-the-crying-game-acordes-ocultos',
+  'boy-george-the-crying-game': 'boy-george-the-crying-game-acordes-ocultos',
+  'the-crying-game': 'boy-george-the-crying-game-acordes-ocultos',
+  'la-cancion-de-1964-que-pet-shop-boys-rescataron-para-salvar-la-carrera-de-boy-george-cuando-todos-lo-daban-por-perdido': 'boy-george-the-crying-game-acordes-ocultos',
+  'lacancionde1964quepetshopboysrescataronparasalvarlacarreradeboygeorgecuandotodoslodabanporperdido': 'boy-george-the-crying-game-acordes-ocultos',
   'binomio-de-oro-nina-bonita-acordes-ocultos': 'binomio-de-oro-nina-bonita-acordes-ocultos',
   'binomio-de-oro-nina-bonita-acordes-ocultos-tiktok': 'binomio-de-oro-nina-bonita-acordes-ocultos',
   'binomio-de-oro-nina-bonita': 'binomio-de-oro-nina-bonita-acordes-ocultos',
