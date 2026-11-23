@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'selena-dreaming-of-you-acordes-ocultos': 'selena-dreaming-of-you-acordes-ocultos',
+  'selena-dreaming-of-you-acordes-ocultos-tiktok': 'selena-dreaming-of-you-acordes-ocultos',
+  'selena-dreaming-of-you': 'selena-dreaming-of-you-acordes-ocultos',
+  'dreaming-of-you': 'selena-dreaming-of-you-acordes-ocultos',
+  'la-cancion-que-selena-grabo-26-dias-antes-de-morir-y-que-nunca-pudo-escuchar-terminada': 'selena-dreaming-of-you-acordes-ocultos',
+  'lacancionqueselenagrabo26diasantesdemoriryquenuncapudoescucharterminada': 'selena-dreaming-of-you-acordes-ocultos',
   'the-moody-blues-nights-in-white-satin-acordes-ocultos': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
   'the-moody-blues-nights-in-white-satin-acordes-ocultos-tiktok': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
   'the-moody-blues-nights-in-white-satin': 'the-moody-blues-nights-in-white-satin-acordes-ocultos',
