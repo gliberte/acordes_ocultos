@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'binomio-de-oro-nina-bonita-acordes-ocultos': 'binomio-de-oro-nina-bonita-acordes-ocultos',
+  'binomio-de-oro-nina-bonita-acordes-ocultos-tiktok': 'binomio-de-oro-nina-bonita-acordes-ocultos',
+  'binomio-de-oro-nina-bonita': 'binomio-de-oro-nina-bonita-acordes-ocultos',
+  'nina-bonita': 'binomio-de-oro-nina-bonita-acordes-ocultos',
+  'la-cancion-que-nacio-por-una-desconocida-se-perdio-en-un-estudio-y-conquisto-a-toda-latinoamerica': 'binomio-de-oro-nina-bonita-acordes-ocultos',
+  'lacancionquenacioporunadesconocidaseperdioenunestudioyconquistoatodalatinoamerica': 'binomio-de-oro-nina-bonita-acordes-ocultos',
   'hombres-g-devuelveme-a-mi-chica-acordes-ocultos': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
   'hombres-g-devuelveme-a-mi-chica-acordes-ocultos-tiktok': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
   'hombres-g-devuelveme-a-mi-chica': 'hombres-g-devuelveme-a-mi-chica-acordes-ocultos',
