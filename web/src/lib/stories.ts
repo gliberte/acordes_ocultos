@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'mercedes-sosa-cancion-con-todos-acordes-ocultos': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
+  'mercedes-sosa-cancion-con-todos-acordes-ocultos-tiktok': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
+  'mercedes-sosa-cancion-con-todos': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
+  'cancion-con-todos': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
+  'la-cancion-prohibida-por-las-dictaduras-que-unio-a-toda-america-latina-sin-tener-bandera-ni-fronteras': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
+  'lacancionprohibidaporlasdictadurasqueunioatodaamericalatinasintenerbanderanifronteras': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
   'boy-george-the-crying-game-acordes-ocultos': 'boy-george-the-crying-game-acordes-ocultos',
   'boy-george-the-crying-game-acordes-ocultos-tiktok': 'boy-george-the-crying-game-acordes-ocultos',
   'boy-george-the-crying-game': 'boy-george-the-crying-game-acordes-ocultos',
