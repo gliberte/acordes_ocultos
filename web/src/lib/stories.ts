@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'camilo-sesto-algo-de-mi-acordes-ocultos': 'camilo-sesto-algo-de-mi-acordes-ocultos',
+  'camilo-sesto-algo-de-mi-acordes-ocultos-tiktok': 'camilo-sesto-algo-de-mi-acordes-ocultos',
+  'camilo-sesto-algo-de-mi': 'camilo-sesto-algo-de-mi-acordes-ocultos',
+  'algo-de-mi': 'camilo-sesto-algo-de-mi-acordes-ocultos',
+  'el-joven-que-vendia-cuadros-en-el-rastro-antes-de-cambiar-su-destino-con-algo-de-mi': 'camilo-sesto-algo-de-mi-acordes-ocultos',
+  'eljovenquevendiacuadrosenelrastroantesdecambiarsudestinoconalgodemi': 'camilo-sesto-algo-de-mi-acordes-ocultos',
   'elvis-presley-always-on-my-mind-acordes-ocultos': 'elvis-presley-always-on-my-mind-acordes-ocultos',
   'elvis-presley-always-on-my-mind-acordes-ocultos-tiktok': 'elvis-presley-always-on-my-mind-acordes-ocultos',
   'elvis-presley-always-on-my-mind': 'elvis-presley-always-on-my-mind-acordes-ocultos',
