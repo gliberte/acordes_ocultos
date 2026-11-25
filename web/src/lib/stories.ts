@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'al-stewart-year-of-the-cat-acordes-ocultos': 'al-stewart-year-of-the-cat-acordes-ocultos',
+  'al-stewart-year-of-the-cat-acordes-ocultos-tiktok': 'al-stewart-year-of-the-cat-acordes-ocultos',
+  'al-stewart-year-of-the-cat': 'al-stewart-year-of-the-cat-acordes-ocultos',
+  'year-of-the-cat': 'al-stewart-year-of-the-cat-acordes-ocultos',
+  'el-clasico-de-los-70-que-nacio-de-la-tristeza-oculta-de-un-comediante-en-el-escenario': 'al-stewart-year-of-the-cat-acordes-ocultos',
+  'elclasicodelos70quenaciodelatristezaocultadeuncomedianteenelescenario': 'al-stewart-year-of-the-cat-acordes-ocultos',
   'camilo-sesto-algo-de-mi-acordes-ocultos': 'camilo-sesto-algo-de-mi-acordes-ocultos',
   'camilo-sesto-algo-de-mi-acordes-ocultos-tiktok': 'camilo-sesto-algo-de-mi-acordes-ocultos',
   'camilo-sesto-algo-de-mi': 'camilo-sesto-algo-de-mi-acordes-ocultos',
