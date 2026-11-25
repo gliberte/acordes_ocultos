@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'looking-glass-brandy-historia-en-los-acordes': 'looking-glass-brandy-historia-en-los-acordes',
+  'looking-glass-brandy-historia-en-los-acordes-tiktok': 'looking-glass-brandy-historia-en-los-acordes',
+  'looking-glass-brandy': 'looking-glass-brandy-historia-en-los-acordes',
+  'brandy-youre-a-fine-girl': 'looking-glass-brandy-historia-en-los-acordes',
+  'la-mujer-que-espero-toda-su-vida-a-un-marinero-cuyo-verdadero-amor-era-el-mar': 'looking-glass-brandy-historia-en-los-acordes',
+  'lamujerqueesperotodasuvidaaunmarinerocuyoverdaderoamoreraelmar': 'looking-glass-brandy-historia-en-los-acordes',
   'mercedes-sosa-cancion-con-todos-acordes-ocultos': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
   'mercedes-sosa-cancion-con-todos-acordes-ocultos-tiktok': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
   'mercedes-sosa-cancion-con-todos': 'mercedes-sosa-cancion-con-todos-acordes-ocultos',
