@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
+  'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda-tiktok': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
+  'juan-gabriel-siempre-en-mi-mente': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
+  'siempre-en-mi-mente': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
+  'el-nino-de-internado-y-preso-inocente-que-conquisto-el-palacio-de-bellas-artes': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
+  'elninodeinternadoypresoinocentequeconquistoelpalaciodebellasartes': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
   'al-stewart-year-of-the-cat-acordes-ocultos': 'al-stewart-year-of-the-cat-acordes-ocultos',
   'al-stewart-year-of-the-cat-acordes-ocultos-tiktok': 'al-stewart-year-of-the-cat-acordes-ocultos',
   'al-stewart-year-of-the-cat': 'al-stewart-year-of-the-cat-acordes-ocultos',
