@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'aphrodites-child-rain-and-tears-acordes-ocultos': 'aphrodites-child-rain-and-tears-acordes-ocultos',
+  'aphrodites-child-rain-and-tears-acordes-ocultos-tiktok': 'aphrodites-child-rain-and-tears-acordes-ocultos',
+  'aphrodites-child-rain-and-tears': 'aphrodites-child-rain-and-tears-acordes-ocultos',
+  'rain-and-tears': 'aphrodites-child-rain-and-tears-acordes-ocultos',
+  'huyeron-de-una-dictadura-les-cerraron-la-frontera-y-atrapados-en-paris-crearon-rain-and-tears': 'aphrodites-child-rain-and-tears-acordes-ocultos',
+  'huyerondeunadictaduralescerraronlafronterayatrapadosenpariscrearonrainandtears': 'aphrodites-child-rain-and-tears-acordes-ocultos',
   'barbra-streisand-the-way-we-were-catedrales-de-leyenda': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
   'barbra-streisand-the-way-we-were-catedrales-de-leyenda-tiktok': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
   'barbra-streisand-the-way-we-were': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
