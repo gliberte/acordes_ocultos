@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'barbra-streisand-the-way-we-were-catedrales-de-leyenda': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
+  'barbra-streisand-the-way-we-were-catedrales-de-leyenda-tiktok': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
+  'barbra-streisand-the-way-we-were': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
+  'the-way-we-were': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
+  'le-dijeron-que-no-era-lo-bastante-bonita-para-triunfar-y-termino-siendo-leyenda-en-seis-decadas': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
+  'ledijeronquenoeralobastantebonitaparatriunfaryterminosiendoleyendaenseisdecadas': 'barbra-streisand-the-way-we-were-catedrales-de-leyenda',
   'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
   'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda-tiktok': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
   'juan-gabriel-siempre-en-mi-mente': 'juan-gabriel-siempre-en-mi-mente-catedrales-de-leyenda',
