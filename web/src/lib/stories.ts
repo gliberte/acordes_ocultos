@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
+  'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda-tiktok': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
+  'palito-ortega-por-muchas-razones-te-quiero': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
+  'por-muchas-razones-te-quiero': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
+  'vendia-cafe-en-la-puerta-de-la-television-lo-perdio-todo-por-traer-a-sinatra-y-salvo-a-charly-garcia': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
+  'vendiacafeenlapuertadelatelevisionloperdiotodoportraerasinatraysalvoacharlygarcia': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
   'the-mamas-and-the-papas-monday-monday-acordes-ocultos': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
   'the-mamas-and-the-papas-monday-monday-acordes-ocultos-tiktok': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
   'the-mamas-and-the-papas-monday-monday': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
