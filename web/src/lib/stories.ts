@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'the-mamas-and-the-papas-monday-monday-acordes-ocultos': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
+  'the-mamas-and-the-papas-monday-monday-acordes-ocultos-tiktok': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
+  'the-mamas-and-the-papas-monday-monday': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
+  'monday-monday': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
+  'la-cancion-que-casi-toda-la-banda-odio-y-que-termino-siendo-su-unico-numero-uno': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
+  'lacancionquecasitodalabandaodioyqueterminosiendosuuniconumerouno': 'the-mamas-and-the-papas-monday-monday-acordes-ocultos',
   'aphrodites-child-rain-and-tears-acordes-ocultos': 'aphrodites-child-rain-and-tears-acordes-ocultos',
   'aphrodites-child-rain-and-tears-acordes-ocultos-tiktok': 'aphrodites-child-rain-and-tears-acordes-ocultos',
   'aphrodites-child-rain-and-tears': 'aphrodites-child-rain-and-tears-acordes-ocultos',
