@@ -41,6 +41,12 @@ export function slugify(text: string): string {
 
 // Explicit aliases for compiled chronicle keys matching special production slugs
 export const CHRONICLE_ALIASES: Record<string, string> = {
+  'frank-sinatra-my-way-catedrales-de-leyenda': 'frank-sinatra-my-way-catedrales-de-leyenda',
+  'frank-sinatra-my-way-catedrales-de-leyenda-tiktok': 'frank-sinatra-my-way-catedrales-de-leyenda',
+  'frank-sinatra-my-way': 'frank-sinatra-my-way-catedrales-de-leyenda',
+  'my-way': 'frank-sinatra-my-way-catedrales-de-leyenda',
+  'perdio-la-voz-los-contratos-y-el-respeto-de-hollywood-pero-volvio-para-cantar-el-himno-definitivo-de-su-vida': 'frank-sinatra-my-way-catedrales-de-leyenda',
+  'perdiolavozloscontratosyelrespetodehollywoodperovolvioparacantarelhimnodefinitivodesuvida': 'frank-sinatra-my-way-catedrales-de-leyenda',
   'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
   'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda-tiktok': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
   'palito-ortega-por-muchas-razones-te-quiero': 'palito-ortega-por-muchas-razones-te-quiero-catedrales-de-leyenda',
